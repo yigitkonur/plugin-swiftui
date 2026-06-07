@@ -1,0 +1,116 @@
+{
+ "repo": "Genk3125/Copit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cb3d60081ff94142fb839e4f157f097fbdbf4017",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "claude",
+   "score": 0,
+   "contributions": 5
+  },
+  {
+   "login": "Genk3125",
+   "score": 1,
+   "contributions": 5
+  }
+ ],
+ "loc": 887,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "id",
+   "lineLimit",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "shadow",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "easeOut",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "top",
+   "topLeading",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 17,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 57
+}

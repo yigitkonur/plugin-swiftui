@@ -1,0 +1,142 @@
+{
+ "repo": "olliewagner/furwall",
+ "stars": 18,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "59f0aa1bf79d5c5f01bb1c3d081acf4c5ee90153",
+ "platform": "macos",
+ "author_authority": 2016,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "olliewagner",
+   "score": 2016,
+   "contributions": 6
+  }
+ ],
+ "loc": 2866,
+ "custom_components": 28,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "Combine",
+  "CoreGraphics",
+  "CoreImage",
+  "Foundation",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications",
+  "Vision"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentTransition",
+   "controlSize",
+   "disabled",
+   "environment",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "mask",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "pointerStyle",
+   "resizable",
+   "scaleEffect",
+   "sheet",
+   "stroke",
+   "task",
+   "textSelection",
+   "underline"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "FillStyle",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "MenuBarExtra",
+   "NSHostingController",
+   "OpenURLAction",
+   "Path",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "easeOut",
+   "regular",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "hidden",
+   "horizontal",
+   "leading",
+   "link",
+   "menu",
+   "plain",
+   "primary",
+   "regularMaterial",
+   "secondary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 23,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 81
+}

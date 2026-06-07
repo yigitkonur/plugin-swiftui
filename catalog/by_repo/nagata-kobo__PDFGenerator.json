@@ -1,0 +1,52 @@
+{
+ "repo": "nagata-kobo/PDFGenerator",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "40f959c3a6b09c4c943b0b7c8a66bd21ac716931",
+ "platform": "other",
+ "author_authority": 738,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ooper-shlab",
+   "score": 788,
+   "contributions": 15
+  },
+  {
+   "login": "nagata-kobo",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1024,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "PDFKit",
+  "PackageDescription",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

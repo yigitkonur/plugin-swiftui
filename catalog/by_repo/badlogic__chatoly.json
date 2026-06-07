@@ -1,0 +1,138 @@
+{
+ "repo": "badlogic/chatoly",
+ "stars": 8,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6b80fe33057fac7072922f18a0b8a2541871a975",
+ "platform": "macos",
+ "author_authority": 504316,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "badlogic",
+   "score": 504316,
+   "contributions": 16
+  }
+ ],
+ "loc": 1627,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "clipShape",
+   "commands",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "task",
+   "textFieldStyle",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "AsyncImage",
+   "Button",
+   "Capsule",
+   "Circle",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "LazyVStack",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "easeOut",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "bottom",
+   "clear",
+   "default",
+   "fill",
+   "gray",
+   "green",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "purple",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 19,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 23,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 83
+}

@@ -1,0 +1,64 @@
+{
+ "repo": "Vaida12345/FinderItem",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6b1b16f440d10bf6107171b7045c33da5c3f5fa2",
+ "platform": "macos",
+ "author_authority": 38534,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Vaida12345",
+   "score": 38534,
+   "contributions": 130
+  }
+ ],
+ "loc": 4651,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CComponent",
+  "Compression",
+  "CoreServices",
+  "CoreTransferable",
+  "CryptoKit",
+  "Darwin",
+  "DetailedDescription",
+  "Essentials",
+  "FinderItem",
+  "Foundation",
+  "OSLog",
+  "PackageDescription",
+  "Playgrounds",
+  "SwiftData",
+  "SwiftUI",
+  "System",
+  "TabularData",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

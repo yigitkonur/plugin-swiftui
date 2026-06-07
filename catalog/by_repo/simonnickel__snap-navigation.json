@@ -1,0 +1,110 @@
+{
+ "repo": "simonnickel/snap-navigation",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7db9c2cdf109cba8537833b9552f05426f4ee1dc",
+ "platform": "macos",
+ "author_authority": 75,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "simonnickel",
+   "score": 75,
+   "contributions": 175
+  }
+ ],
+ "loc": 1786,
+ "custom_components": 36,
+ "imports": [
+  "Foundation",
+  "OSLog",
+  "Observation",
+  "PackageDescription",
+  "SnapFoundation",
+  "SnapNavigation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "modifier",
+   "navigationDestination",
+   "navigationTitle",
+   "onDisappear",
+   "padding",
+   "scenePadding",
+   "sheet",
+   "tabViewSidebarBottomBar",
+   "tabViewSidebarFooter",
+   "tabViewSidebarHeader",
+   "tabViewStyle",
+   "tint"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Label",
+   "NavigationLink",
+   "NavigationStack",
+   "ScrollView",
+   "Settings",
+   "State",
+   "Tab",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "footnote",
+   "headline",
+   "push",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "green",
+   "horizontal",
+   "leading",
+   "sidebarAdaptable",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "Observable"
+  ],
+  "environmentKeys": [
+   "openWindow",
+   "supportsMultipleWindows"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 16,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 3,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 53
+}

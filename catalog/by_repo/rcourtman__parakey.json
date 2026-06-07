@@ -1,0 +1,52 @@
+{
+ "repo": "rcourtman/parakey",
+ "stars": 6,
+ "categories": [
+  "Voice-to-Text"
+ ],
+ "sha": "710f9cf1bccab50b9ca2b7f58bc459128c9c3e19",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 11141,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "AudioToolbox",
+  "CoreGraphics",
+  "CryptoKit",
+  "Darwin",
+  "FluidAudio",
+  "Foundation",
+  "IOKit",
+  "PackageDescription",
+  "QuartzCore",
+  "ServiceManagement",
+  "Speech",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,153 @@
+{
+ "repo": "gsoti/UITestsAsSpecsKickstarter1",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b7cfedaf63ec6d912408159dae46f4ac025f4a74",
+ "platform": "other",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "gsoti",
+   "score": 3,
+   "contributions": 6
+  }
+ ],
+ "loc": 70742,
+ "custom_components": 7,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Alamofire",
+  "AnyCodable",
+  "AppIntents",
+  "Atlantis",
+  "AuthenticationServices",
+  "CoreGraphics",
+  "CoreLocation",
+  "Cosmos",
+  "CryptoKit",
+  "ESTabBarController_swift",
+  "FLEX",
+  "Foundation",
+  "FoundationNetworking",
+  "IQKeyboardManagerSwift",
+  "Intents",
+  "IntentsUI",
+  "KeychainAccess",
+  "Kingfisher",
+  "KurozoraKit",
+  "LinkPresentation",
+  "LocalAuthentication",
+  "MapKit",
+  "MediaPlayer",
+  "MobileCoreServices",
+  "MusicKit",
+  "PackageDescription",
+  "Pageboy",
+  "Reachability",
+  "SBTUITestTunnelClient",
+  "SBTUITestTunnelServer",
+  "SPConfetti",
+  "SafariServices",
+  "SnapshotTesting",
+  "Solar",
+  "StoreKit",
+  "SwiftTheme",
+  "SwiftUI",
+  "SwifterSwift",
+  "SwiftyJSON",
+  "Tabman",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "Vision",
+  "VisionKit",
+  "WebKit",
+  "WhatsNew",
+  "WidgetKit",
+  "XCDYouTubeKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "clipped",
+   "containerBackground",
+   "edgesIgnoringSafeArea",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "offset",
+   "opacity",
+   "overlay",
+   "padding",
+   "previewDevice",
+   "resizable",
+   "scaledToFill",
+   "shadow"
+  ],
+  "types": [
+   "Color",
+   "Divider",
+   "EdgeInsets",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "largeTitle",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "brown",
+   "fill",
+   "gray",
+   "horizontal",
+   "leading",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 13,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

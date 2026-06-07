@@ -1,0 +1,116 @@
+{
+ "repo": "pruthvirajsinhpunada/EchoPaint",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "04fb60c6458d28f6c4fd9b3fb78411bff4f7d755",
+ "platform": "other",
+ "author_authority": 15,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "pruthvirajsinhpunada",
+   "score": 15,
+   "contributions": 4
+  }
+ ],
+ "loc": 2633,
+ "custom_components": 24,
+ "imports": [
+  "AVFoundation",
+  "AppleProductTypes",
+  "CoreGraphics",
+  "CoreHaptics",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityAddTraits",
+   "accessibilityElement",
+   "accessibilityHint",
+   "accessibilityLabel",
+   "alert",
+   "animation",
+   "background",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "preferredColorScheme",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Image",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "cyan",
+   "default",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "purple",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "accessibilityReduceMotion"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 10,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 56
+}

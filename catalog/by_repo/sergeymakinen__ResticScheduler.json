@@ -1,0 +1,156 @@
+{
+ "repo": "sergeymakinen/ResticScheduler",
+ "stars": 77,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "936afb0ef5a699adf70b8eba16b94ae588222671",
+ "platform": "macos",
+ "author_authority": 348,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "sergeymakinen",
+   "score": 348,
+   "contributions": 38
+  },
+  {
+   "login": "tiwoc",
+   "score": 51,
+   "contributions": 6
+  }
+ ],
+ "loc": 2921,
+ "custom_components": 16,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "CompilerPluginSupport",
+  "Foundation",
+  "PackageDescription",
+  "ResticSchedulerKit",
+  "ResticSchedulerMacro",
+  "ServiceManagement",
+  "SettingsAccess",
+  "SwiftCompilerPlugin",
+  "SwiftDiagnostics",
+  "SwiftSyntax",
+  "SwiftSyntaxMacros",
+  "SwiftUI",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "border",
+   "buttonStyle",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fileImporter",
+   "fixedSize",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "listRowInsets",
+   "listRowSeparator",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "overlay",
+   "padding",
+   "sheet",
+   "tabItem",
+   "tag",
+   "textSelection"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "List",
+   "Menu",
+   "MenuBarExtra",
+   "Picker",
+   "ScrollViewReader",
+   "Section",
+   "SecureField",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "StateObject",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "custom",
+   "easeInOut",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "borderless",
+   "bottom",
+   "center",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "secondary",
+   "top",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "Namespace",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "defaultMinListRowHeight",
+   "dismiss",
+   "resetFocus"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 27,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 7,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 82
+}

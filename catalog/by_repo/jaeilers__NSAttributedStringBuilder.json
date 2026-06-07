@@ -1,0 +1,57 @@
+{
+ "repo": "jaeilers/NSAttributedStringBuilder",
+ "stars": 9,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c1a7f1afc5a51850964d586271130cbb085b4400",
+ "platform": "macos",
+ "author_authority": 101,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jaeilers",
+   "score": 101,
+   "contributions": 257
+  }
+ ],
+ "loc": 9068,
+ "custom_components": 5,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Core",
+  "Foundation",
+  "NSAttributedStringBuilder",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "UIKit"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "Text",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

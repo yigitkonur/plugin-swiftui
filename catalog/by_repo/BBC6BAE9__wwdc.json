@@ -1,0 +1,75 @@
+{
+ "repo": "BBC6BAE9/wwdc",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7712343fd71de65779adcacc7704e1e3d2d0bf68",
+ "platform": "other",
+ "author_authority": 29107,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "BBC6BAE9",
+   "score": 29107,
+   "contributions": 2
+  }
+ ],
+ "loc": 447,
+ "custom_components": 6,
+ "imports": [
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "environment",
+   "findNavigator",
+   "ignoresSafeArea",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "scrollBounceBehavior",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Image",
+   "List",
+   "NavigationSplitView",
+   "NavigationStack",
+   "ScrollPosition",
+   "Text",
+   "ToolbarItemGroup",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "bottom",
+   "horizontal"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 10,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 3,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 23
+}

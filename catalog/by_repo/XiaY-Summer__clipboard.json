@@ -1,0 +1,86 @@
+{
+ "repo": "XiaY-Summer/clipboard",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ce9ac7461bfad3acd4aa26b52a8f26420d362a4f",
+ "platform": "macos",
+ "author_authority": 14,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "XiaY-Summer",
+   "score": 14,
+   "contributions": 10
+  }
+ ],
+ "loc": 429,
+ "custom_components": 4,
+ "imports": [
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "XCTest",
+  "clipboard"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "frame",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "padding",
+   "textFieldStyle",
+   "toggleStyle",
+   "windowFullScreenBehavior",
+   "windowMinimizeBehavior",
+   "windowResizability",
+   "windowResizeBehavior"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "RoundedBorderTextFieldStyle",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "default",
+   "switch",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 13,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 31
+}

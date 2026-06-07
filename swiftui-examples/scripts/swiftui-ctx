@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# swiftui-ctx — bundled wrapper for the swiftui-examples skill.
+# Builds the Swift CLI on first use and points it at the bundled catalog, so the agent can just run
+# `swiftui-ctx <command>` from anywhere (also works when symlinked onto PATH via `make install`).
+set -euo pipefail
+
+# resolve this script's real path (follow symlinks) → repo root is two levels up (swiftui-examples/scripts/)
+src="${BASH_SOURCE[0]}"
+while [ -h "$src" ]; do
+  dir="$(cd -P "$(dirname "$src")" && pwd)"; src="$(readlink "$src")"
+  [[ $src != /* ]] && src="$dir/$src"
+done
+root="$(cd -P "$(dirname "$src")/../.." && pwd)"
+bin="$root/swiftui-scan/.build/release/swiftui-ctx"
+
+if [ ! -x "$bin" ]; then
+  echo "swiftui-ctx: building the CLI (first run, ~1-2 min)…" >&2
+  ( cd "$root/swiftui-scan" && swift build -c release --product swiftui-ctx >&2 )
+fi
+
+export SWIFTUI_CTX_CATALOG="${SWIFTUI_CTX_CATALOG:-$root/catalog}"
+exec "$bin" "$@"

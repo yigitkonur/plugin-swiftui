@@ -1,0 +1,143 @@
+{
+ "repo": "mbrevoort/SonicJot",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e6434b447c6327e33a2bc87d8ec8c66bc2313908",
+ "platform": "macos",
+ "author_authority": 980,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mbrevoort",
+   "score": 980,
+   "contributions": 90
+  }
+ ],
+ "loc": 2281,
+ "custom_components": 18,
+ "imports": [
+  "AVFoundation",
+  "AudioKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "ComposableArchitecture",
+  "CoreFoundation",
+  "Dependencies",
+  "Foundation",
+  "KeyboardShortcuts",
+  "Mixpanel",
+  "OpenAI",
+  "QuartzCore",
+  "SonicJot",
+  "SwiftData",
+  "SwiftUI",
+  "SwiftWhisper",
+  "XCTest",
+  "ZipArchive"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "disableAutocorrection",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "disableAutocorrection",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "imageScale",
+   "italic",
+   "lineLimit",
+   "offset",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "padding",
+   "pickerStyle",
+   "scrollDisabled",
+   "tag",
+   "textSelection"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "EdgeInsets",
+   "EmptyView",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "MenuPickerStyle",
+   "MenuStyle",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "SecureField",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "footnote",
+   "light",
+   "linear",
+   "medium",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "center",
+   "leading",
+   "none",
+   "red",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "isEnabled"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 24,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 71
+}

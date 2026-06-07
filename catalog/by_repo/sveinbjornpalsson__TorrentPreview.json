@@ -1,0 +1,103 @@
+{
+ "repo": "sveinbjornpalsson/TorrentPreview",
+ "stars": 29,
+ "categories": [
+  "QuickLook Plugins"
+ ],
+ "sha": "dc3c5e12c0fa9ca73a607a4a41ec6c503f99b867",
+ "platform": "macos",
+ "author_authority": 40742,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sveinbjornpalsson",
+   "score": 40742,
+   "contributions": 2
+  }
+ ],
+ "loc": 763,
+ "custom_components": 17,
+ "imports": [
+  "Cocoa",
+  "CryptoKit",
+  "Foundation",
+  "Quartz",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "cornerRadius",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "multilineTextAlignment",
+   "padding",
+   "textSelection",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "largeTitle",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "default",
+   "horizontal",
+   "leading",
+   "orange",
+   "secondary",
+   "top",
+   "topLeading",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 12,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 47
+}

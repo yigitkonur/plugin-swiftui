@@ -1,0 +1,145 @@
+{
+ "repo": "xezrunner/Grepper",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "077031d72bed1c655409ab47b1cf00af95125418",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "xezrunner",
+   "score": 11,
+   "contributions": 13
+  }
+ ],
+ "loc": 986,
+ "custom_components": 31,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "ObjectiveC",
+  "Observation",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alternatingRowBackgrounds",
+   "background",
+   "bold",
+   "buttonStyle",
+   "commands",
+   "contentShape",
+   "disabled",
+   "environment",
+   "fixedSize",
+   "focusedSceneValue",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "imageScale",
+   "keyboardShortcut",
+   "menuIndicator",
+   "monospaced",
+   "navigationSplitViewColumnWidth",
+   "navigationTitle",
+   "onAppear",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "safeAreaInset",
+   "symbolRenderingMode",
+   "tag",
+   "textCase",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "NavigationSplitView",
+   "OutlineGroup",
+   "SidebarCommands",
+   "Spacer",
+   "Text",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "UtilityWindow",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "footnote",
+   "headline",
+   "light",
+   "medium",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "black",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "firstTextBaseline",
+   "hidden",
+   "horizontal",
+   "leading",
+   "link",
+   "navigation",
+   "plain",
+   "primary",
+   "primaryAction",
+   "secondary",
+   "tertiary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusedValue",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 23,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 88
+}

@@ -1,0 +1,127 @@
+{
+ "repo": "OmkarKirpan/BrewBar",
+ "stars": 7,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2878a93773601789282f8efc345c3f82c27a1363",
+ "platform": "macos",
+ "author_authority": 75426,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "OmkarKirpan",
+   "score": 75426,
+   "contributions": 13
+  }
+ ],
+ "loc": 1228,
+ "custom_components": 21,
+ "imports": [
+  "Combine",
+  "Darwin",
+  "Foundation",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "labelStyle",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "shadow",
+   "sheet",
+   "task",
+   "toggleStyle",
+   "transition",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "Link",
+   "MenuBarExtra",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "linear",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "borderless",
+   "center",
+   "default",
+   "gray",
+   "green",
+   "horizontal",
+   "iconOnly",
+   "leading",
+   "orange",
+   "plain",
+   "secondary",
+   "switch",
+   "top",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 14,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 17,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 70
+}

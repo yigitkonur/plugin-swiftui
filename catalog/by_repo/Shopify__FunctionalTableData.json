@@ -1,0 +1,59 @@
+{
+ "repo": "Shopify/FunctionalTableData",
+ "stars": 371,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b4f7c995a599e11640200b43d4a8721f06fb0357",
+ "platform": "other",
+ "author_authority": 4511,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "raulriera",
+   "score": 7519,
+   "contributions": 120
+  },
+  {
+   "login": "g-Off",
+   "score": 82,
+   "contributions": 43
+  },
+  {
+   "login": "krbarnes",
+   "score": 17,
+   "contributions": 37
+  }
+ ],
+ "loc": 8370,
+ "custom_components": 0,
+ "imports": [
+  "CwlCatchException",
+  "Foundation",
+  "FunctionalTableData",
+  "PackageDescription",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

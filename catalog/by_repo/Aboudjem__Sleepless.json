@@ -1,0 +1,45 @@
+{
+ "repo": "Aboudjem/Sleepless",
+ "stars": 4,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "2a690e50724ffc17440ef58e5e0c9f69c82452fa",
+ "platform": "macos",
+ "author_authority": 1465280,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Aboudjem",
+   "score": 1465280,
+   "contributions": 31
+  }
+ ],
+ "loc": 893,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "ServiceManagement"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

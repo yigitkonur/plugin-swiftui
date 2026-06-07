@@ -1,0 +1,122 @@
+{
+ "repo": "shouryan01/twenty",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ae5a0a9ea35736d840a5fde8f271b2d96eac0a4f",
+ "platform": "macos",
+ "author_authority": 7937,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "shouryan01",
+   "score": 7937,
+   "contributions": 6
+  },
+  {
+   "login": "sntek",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 266,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "rotationEffect",
+   "stroke",
+   "textFieldStyle",
+   "tint",
+   "trim",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "headline",
+   "linear",
+   "system",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "center",
+   "clear",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "trailing",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 14,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 62
+}

@@ -1,0 +1,106 @@
+{
+ "repo": "LucasAugustoCastro/ReminderApp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ac69ff667f0aae62a18e856a476b006b58352b7c",
+ "platform": "other",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LucasAugustoCastro",
+   "score": 2,
+   "contributions": 2
+  }
+ ],
+ "loc": 696,
+ "custom_components": 10,
+ "imports": [
+  "Combine",
+  "CoreData",
+  "Foundation",
+  "Reminder",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "background",
+   "cornerRadius",
+   "environment",
+   "font",
+   "foregroundColor",
+   "frame",
+   "navigationTitle",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "strikethrough",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Color",
+   "DatePicker",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "gray",
+   "green",
+   "leading",
+   "topLeading",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "managedObjectContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 18,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 46
+}

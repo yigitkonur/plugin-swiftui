@@ -1,0 +1,96 @@
+{
+ "repo": "mabd-dev/paws",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "89c0bfe57c81f5bbd970693864faf1493943e616",
+ "platform": "macos",
+ "author_authority": 1886,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mabd-dev",
+   "score": 1886,
+   "contributions": 25
+  }
+ ],
+ "loc": 229,
+ "custom_components": 8,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "contentTransition",
+   "cornerRadius",
+   "environment",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onHover",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "symbolEffect",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "footnote",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "clear",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 8,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 45
+}

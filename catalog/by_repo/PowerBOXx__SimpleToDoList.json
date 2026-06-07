@@ -1,0 +1,152 @@
+{
+ "repo": "PowerBOXx/SimpleToDoList",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6b4005475a1e67efea43ee8426443852dafc7b7f",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "PowerBOXx",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 850,
+ "custom_components": 27,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SimpleToDoList",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blendMode",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "defaultPosition",
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "labelsHidden",
+   "layoutPriority",
+   "mask",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "scrollContentBackground",
+   "scrollIndicators",
+   "shadow",
+   "strikethrough",
+   "stroke",
+   "symbolEffect",
+   "symbolRenderingMode",
+   "textFieldStyle",
+   "transition",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "AngularGradient",
+   "Button",
+   "ColorPicker",
+   "Divider",
+   "EdgeInsets",
+   "ForEach",
+   "Gradient",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "LinearGradient",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "easeInOut",
+   "headline",
+   "medium",
+   "spring",
+   "system",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "default",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "link",
+   "orange",
+   "plain",
+   "purple",
+   "red",
+   "regularMaterial",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "topLeading",
+   "ultraThinMaterial",
+   "unifiedCompact",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 20,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 25,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 94
+}

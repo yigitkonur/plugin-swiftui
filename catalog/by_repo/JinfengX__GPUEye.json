@@ -1,0 +1,131 @@
+{
+ "repo": "JinfengX/GPUEye",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8139d8ac5f8891402a05c10ed7f2a17df04f9afb",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 1336,
+ "custom_components": 25,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "defaultSize",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "listStyle",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "refreshable",
+   "shadow",
+   "stroke",
+   "toolbar",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "LazyVStack",
+   "List",
+   "Menu",
+   "NavigationSplitView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "primaryAction",
+   "red",
+   "secondary",
+   "sidebar",
+   "titleBar",
+   "trailing",
+   "unified",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 24,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 82
+}

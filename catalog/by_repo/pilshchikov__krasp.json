@@ -1,0 +1,112 @@
+{
+ "repo": "pilshchikov/krasp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bed68e1ff4e88cf7221034977870a2d3a37de5c1",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "pilshchikov",
+   "score": 1,
+   "contributions": 10
+  }
+ ],
+ "loc": 1429,
+ "custom_components": 11,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "CoreAudio",
+  "CoreMedia",
+  "Darwin",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "task",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Capsule",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "Picker",
+   "ProgressView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "green",
+   "leading",
+   "menu",
+   "orange",
+   "quaternary",
+   "red",
+   "secondary",
+   "switch",
+   "trailing",
+   "window"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 18,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

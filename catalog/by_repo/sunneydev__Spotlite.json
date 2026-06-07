@@ -1,0 +1,48 @@
+{
+ "repo": "sunneydev/Spotlite",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4ef8b0dafb3e0a3dfec0f19b3a5d46355cc23f72",
+ "platform": "macos",
+ "author_authority": 69715,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sunneydev",
+   "score": 69715,
+   "contributions": 2
+  }
+ ],
+ "loc": 929,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "PackageDescription"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

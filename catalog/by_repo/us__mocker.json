@@ -1,0 +1,125 @@
+{
+ "repo": "us/mocker",
+ "stars": 209,
+ "categories": [
+  "Virtualization"
+ ],
+ "sha": "b2d305c6273df7ab1ce88a20eb73815948ebd2b1",
+ "platform": "macos",
+ "author_authority": 1857050,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "us",
+   "score": 1857050,
+   "contributions": 54
+  },
+  {
+   "login": "kmplngj",
+   "score": 280,
+   "contributions": 1
+  },
+  {
+   "login": "kingdonb",
+   "score": 66141,
+   "contributions": 1
+  }
+ ],
+ "loc": 9803,
+ "custom_components": 16,
+ "imports": [
+  "ArgumentParser",
+  "Containerization",
+  "ContainerizationOCI",
+  "Foundation",
+  "Mocker",
+  "MockerKit",
+  "Network",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "Yams"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "task",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "largeTitle",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "purple",
+   "quaternary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "vertical",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 14,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

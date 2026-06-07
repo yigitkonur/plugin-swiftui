@@ -1,0 +1,60 @@
+{
+ "repo": "onebadidea/swiftquit",
+ "stars": 525,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "e79862878defee63c77012b45f1af74cdb02bf72",
+ "platform": "macos",
+ "author_authority": 872,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "onebadidea",
+   "score": 526,
+   "contributions": 44
+  },
+  {
+   "login": "logwet",
+   "score": 49,
+   "contributions": 5
+  },
+  {
+   "login": "incanus",
+   "score": 22250,
+   "contributions": 2
+  }
+ ],
+ "loc": 468,
+ "custom_components": 0,
+ "imports": [
+  "AXSwift",
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "LaunchAtLogin",
+  "PromiseKit",
+  "Swindler"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

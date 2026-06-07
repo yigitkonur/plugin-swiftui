@@ -1,0 +1,59 @@
+{
+ "repo": "zorgiepoo/Komet",
+ "stars": 188,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "31fb74a7688984155a12b100ccf7c2d90c3f7352",
+ "platform": "macos",
+ "author_authority": 1354,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "zorgiepoo",
+   "score": 1354,
+   "contributions": 407
+  },
+  {
+   "login": "yuraiz",
+   "score": 7039,
+   "contributions": 3
+  },
+  {
+   "login": "Cykelero",
+   "score": 119761,
+   "contributions": 1
+  }
+ ],
+ "loc": 4568,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "Sparkle",
+  "Sparkle_Private",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

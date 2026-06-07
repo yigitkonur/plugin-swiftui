@@ -1,0 +1,49 @@
+{
+ "repo": "doom-fish/coretext-rs",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "35c88f76fe00a92e4731a0f2bc503d4cb89e45b2",
+ "platform": "other",
+ "author_authority": 58563,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "1313",
+   "score": 58563,
+   "contributions": 17
+  }
+ ],
+ "loc": 3740,
+ "custom_components": 0,
+ "imports": [
+  "CoreFoundation",
+  "CoreGraphics",
+  "CoreText",
+  "Dispatch",
+  "Foundation",
+  "PackageDescription"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

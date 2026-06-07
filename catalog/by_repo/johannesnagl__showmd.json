@@ -1,0 +1,120 @@
+{
+ "repo": "johannesnagl/showmd",
+ "stars": 43,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6ce8e24350b36d02638de43d1aaa714ea830aa5c",
+ "platform": "macos",
+ "author_authority": 49,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "johannesnagl",
+   "score": 49,
+   "contributions": 82
+  }
+ ],
+ "loc": 2764,
+ "custom_components": 10,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "Markdown",
+  "MarkdownRenderer",
+  "PackageDescription",
+  "Quartz",
+  "SwiftUI",
+  "Testing",
+  "WebKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityHidden",
+   "baselineOffset",
+   "buttonStyle",
+   "commands",
+   "defaultSize",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "preferredColorScheme",
+   "shadow",
+   "stroke",
+   "tag",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "Form",
+   "HStack",
+   "Label",
+   "Link",
+   "Path",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "light",
+   "semibold",
+   "subheadline",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "firstTextBaseline",
+   "green",
+   "grouped",
+   "horizontal",
+   "leading",
+   "link",
+   "orange",
+   "quaternary",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 19,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 63
+}

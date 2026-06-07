@@ -1,0 +1,125 @@
+{
+ "repo": "jamie950315/OCR",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7909a1a8a4a04d3ccf39e8194e13b926783846fa",
+ "platform": "macos",
+ "author_authority": 73,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jamie950315",
+   "score": 73,
+   "contributions": 14
+  }
+ ],
+ "loc": 1343,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "OCR",
+  "ScreenCaptureKit",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "SecureField",
+   "Settings",
+   "Text",
+   "TextField",
+   "Toggle"
+  ],
+  "valueBuilders": [
+   "caption",
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "borderless",
+   "clear",
+   "grouped",
+   "horizontal",
+   "menu",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 18,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 63
+}

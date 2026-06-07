@@ -1,0 +1,50 @@
+{
+ "repo": "ruspg/markdown-quicklook",
+ "stars": 4,
+ "categories": [
+  "QuickLook Plugins"
+ ],
+ "sha": "c3b925345490226acdcc9f0526572e6fe06b2087",
+ "platform": "macos",
+ "author_authority": 305209,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ruspg",
+   "score": 305209,
+   "contributions": 2
+  }
+ ],
+ "loc": 124,
+ "custom_components": 2,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "EmptyView",
+   "Settings"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

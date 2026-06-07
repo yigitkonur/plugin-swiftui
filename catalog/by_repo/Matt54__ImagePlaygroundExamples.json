@@ -1,0 +1,111 @@
+{
+ "repo": "Matt54/ImagePlaygroundExamples",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a0a1ea2a8b9fc83040b881ca7eb684658bbc4162",
+ "platform": "macos",
+ "author_authority": 224,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Matt54",
+   "score": 224,
+   "contributions": 27
+  }
+ ],
+ "loc": 842,
+ "custom_components": 21,
+ "imports": [
+  "AppKit",
+  "ImagePlayground",
+  "PhotosUI",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "scrollContentBackground",
+   "stroke",
+   "textFieldStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "ContentUnavailableView",
+   "Divider",
+   "Group",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "ProgressView",
+   "RoundedRectangle",
+   "ShareLink",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "center",
+   "hidden",
+   "inline",
+   "leading",
+   "plain",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 20,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

@@ -1,0 +1,127 @@
+{
+ "repo": "Yns1000/Pulse",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d6c5b47972c2b3f3a294d6b4604757e0fea0546c",
+ "platform": "macos",
+ "author_authority": 26,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Yns1000",
+   "score": 26,
+   "contributions": 3
+  }
+ ],
+ "loc": 721,
+ "custom_components": 13,
+ "imports": [
+  "Foundation",
+  "Observation",
+  "Pulse",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "VLCKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "listStyle",
+   "navigationTitle",
+   "onAppear",
+   "padding",
+   "pickerStyle",
+   "shadow",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "toolbar",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "ContentUnavailableView",
+   "ForEach",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "List",
+   "NavigationSplitView",
+   "Picker",
+   "ProgressView",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "automatic",
+   "blue",
+   "borderedProminent",
+   "hiddenTitleBar",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "sidebar",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 23,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 67
+}

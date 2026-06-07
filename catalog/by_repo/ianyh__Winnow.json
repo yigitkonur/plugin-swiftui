@@ -1,0 +1,123 @@
+{
+ "repo": "ianyh/Winnow",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ade7b17e32e5a6836b379e0bc5b6e93082c4a493",
+ "platform": "macos",
+ "author_authority": 16447,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ianyh",
+   "score": 16447,
+   "contributions": 26
+  }
+ ],
+ "loc": 630,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "KeyboardShortcuts",
+  "Observation",
+  "Silica",
+  "SwiftUI",
+  "Testing",
+  "Winnow",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "containerBackground",
+   "defaultWindowPlacement",
+   "focused",
+   "font",
+   "formStyle",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "listRowBackground",
+   "listRowSeparator",
+   "listStyle",
+   "onAppear",
+   "onChange",
+   "onKeyPress",
+   "opacity",
+   "padding",
+   "restorationBehavior",
+   "scrollContentBackground",
+   "sizeThatFits",
+   "tabItem",
+   "textFieldStyle",
+   "toolbarVisibility",
+   "windowLevel",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "Label",
+   "List",
+   "ScrollViewReader",
+   "Settings",
+   "State",
+   "TabView",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window",
+   "WindowPlacement"
+  ],
+  "valueBuilders": [
+   "caption",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "grouped",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "thinMaterial",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 14,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 62
+}

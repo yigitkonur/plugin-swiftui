@@ -1,0 +1,4266 @@
+[
+  {
+    "owner": "iina",
+    "repo": "iina",
+    "full_name": "iina/iina",
+    "default_branch": "develop",
+    "stars": 45142,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 2141952,
+    "swift_share": 0.9581,
+    "languages": {
+      "Swift": 2141952,
+      "Objective-C": 38265,
+      "Shell": 21081,
+      "Ruby": 17228,
+      "Rich Text Format": 8624,
+      "JavaScript": 4812,
+      "HTML": 3674
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "exelban",
+    "repo": "stats",
+    "full_name": "exelban/stats",
+    "default_branch": "master",
+    "stars": 39387,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1622868,
+    "swift_share": 0.9244,
+    "languages": {
+      "Swift": 1622868,
+      "C++": 60769,
+      "Python": 40696,
+      "C": 19118,
+      "Objective-C": 6465,
+      "Makefile": 4056,
+      "Shell": 1649
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "utmapp",
+    "repo": "UTM",
+    "full_name": "utmapp/UTM",
+    "default_branch": "main",
+    "stars": 34295,
+    "pushed_at": "2026-05-16",
+    "swift_bytes": 2045626,
+    "swift_share": 0.8435,
+    "languages": {
+      "Swift": 2045626,
+      "Objective-C": 279855,
+      "Shell": 63976,
+      "C": 22160,
+      "Python": 13687
+    },
+    "categories": [
+      "Virtualization"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "MonitorControl",
+    "repo": "MonitorControl",
+    "full_name": "MonitorControl/MonitorControl",
+    "default_branch": "main",
+    "stars": 33363,
+    "pushed_at": "2026-04-19",
+    "swift_bytes": 236444,
+    "swift_share": 0.9856,
+    "languages": {
+      "Swift": 236444,
+      "Objective-C": 3454
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "qiuyuzhou",
+    "repo": "ShadowsocksX-NG",
+    "full_name": "shadowsocks/ShadowsocksX-NG",
+    "default_branch": "develop",
+    "stars": 32887,
+    "pushed_at": "2024-10-29",
+    "swift_bytes": 113261,
+    "swift_share": 0.6472,
+    "languages": {
+      "Swift": 113261,
+      "Objective-C": 45547,
+      "Shell": 6484,
+      "Python": 5872,
+      "Rich Text Format": 1418,
+      "Makefile": 1113,
+      "Ruby": 688,
+      "C": 609
+    },
+    "categories": [
+      "Proxy and VPN Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "rxhanson",
+    "repo": "Rectangle",
+    "full_name": "rxhanson/Rectangle",
+    "default_branch": "main",
+    "stars": 29186,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 635336,
+    "swift_share": 0.9997,
+    "languages": {
+      "Swift": 635336,
+      "Objective-C": 208
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "jordanbaird",
+    "repo": "Ice",
+    "full_name": "jordanbaird/Ice",
+    "default_branch": "main",
+    "stars": 28314,
+    "pushed_at": "2025-09-20",
+    "swift_bytes": 602477,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 602477
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "CodeEditApp",
+    "repo": "CodeEdit",
+    "full_name": "CodeEditApp/CodeEdit",
+    "default_branch": "main",
+    "stars": 22884,
+    "pushed_at": "2026-04-12",
+    "swift_bytes": 2029555,
+    "swift_share": 0.9884,
+    "languages": {
+      "Swift": 2029555,
+      "Shell": 19730,
+      "PHP": 2485,
+      "Ruby": 1285,
+      "C": 252
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "nikitabobko",
+    "repo": "AeroSpace",
+    "full_name": "nikitabobko/AeroSpace",
+    "default_branch": "main",
+    "stars": 21088,
+    "pushed_at": "2026-04-14",
+    "swift_bytes": 710763,
+    "swift_share": 0.9553,
+    "languages": {
+      "Swift": 710763,
+      "Shell": 27936,
+      "ANTLR": 3684,
+      "Objective-C": 1218,
+      "Makefile": 281,
+      "Ruby": 147
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Caldis",
+    "repo": "Mos",
+    "full_name": "Caldis/Mos",
+    "default_branch": "master",
+    "stars": 20436,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1292540,
+    "swift_share": 0.762,
+    "languages": {
+      "Swift": 1292540,
+      "TypeScript": 287600,
+      "HTML": 42921,
+      "JavaScript": 29562,
+      "CSS": 23502,
+      "Shell": 20182
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "p0deje",
+    "repo": "Maccy",
+    "full_name": "p0deje/Maccy",
+    "default_branch": "master",
+    "stars": 20191,
+    "pushed_at": "2026-02-10",
+    "swift_bytes": 274842,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 274842
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "gnachman",
+    "repo": "iTerm2",
+    "full_name": "gnachman/iTerm2",
+    "default_branch": "master",
+    "stars": 17650,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 11173283,
+    "swift_share": 0.324,
+    "languages": {
+      "Objective-C": 18021479,
+      "Swift": 11173283,
+      "Python": 2095081,
+      "HTML": 965821,
+      "JavaScript": 785614,
+      "Shell": 500501,
+      "Objective-C++": 269822,
+      "PHP": 249949,
+      "C": 209360,
+      "Metal": 94624,
+      "Makefile": 32060,
+      "Perl": 28505,
+      "CSS": 18140,
+      "DTrace": 16582,
+      "Hack": 6773,
+      "C++": 4557,
+      "Ruby": 4006,
+      "BASIC": 2884,
+      "AppleScript": 1859,
+      "Rich Text Format": 436,
+      "Standard ML": 89
+    },
+    "categories": [
+      "Terminal Apps"
+    ],
+    "flags": [],
+    "license": "GPL-2.0"
+  },
+  {
+    "owner": "OpenEmu",
+    "repo": "OpenEmu",
+    "full_name": "OpenEmu/OpenEmu",
+    "default_branch": "master",
+    "stars": 17593,
+    "pushed_at": "2025-10-22",
+    "swift_bytes": 1308354,
+    "swift_share": 0.4194,
+    "languages": {
+      "Swift": 1308354,
+      "C": 778544,
+      "Objective-C": 749884,
+      "Slang": 229361,
+      "Rich Text Format": 24753,
+      "C++": 20749,
+      "AppleScript": 3571,
+      "Pawn": 3048,
+      "Shell": 582,
+      "CUE": 384
+    },
+    "categories": [
+      "Gaming Software"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "ianyh",
+    "repo": "Amethyst",
+    "full_name": "ianyh/Amethyst",
+    "default_branch": "development",
+    "stars": 16149,
+    "pushed_at": "2026-04-05",
+    "swift_bytes": 595823,
+    "swift_share": 0.9798,
+    "languages": {
+      "Swift": 595823,
+      "JavaScript": 10982,
+      "Ruby": 874,
+      "Rich Text Format": 436,
+      "C": 1
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "lwouis",
+    "repo": "alt-tab-macos",
+    "full_name": "lwouis/alt-tab-macos",
+    "default_branch": "master",
+    "stars": 15810,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 1625916,
+    "swift_share": 0.9667,
+    "languages": {
+      "Swift": 1625916,
+      "Shell": 23504,
+      "Python": 23090,
+      "TypeScript": 4819,
+      "JavaScript": 4605,
+      "Objective-C": 66
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "steipete",
+    "repo": "CodexBar",
+    "full_name": "steipete/CodexBar",
+    "default_branch": "main",
+    "stars": 14338,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 10088898,
+    "swift_share": 0.9922,
+    "languages": {
+      "Swift": 10088898,
+      "Shell": 68191,
+      "JavaScript": 6367,
+      "Python": 4372,
+      "Makefile": 804
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "dwarvesf",
+    "repo": "hidden",
+    "full_name": "dwarvesf/hidden",
+    "default_branch": "develop",
+    "stars": 14116,
+    "pushed_at": "2026-03-03",
+    "swift_bytes": 42434,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 42434
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "alienator88",
+    "repo": "Pearcleaner",
+    "full_name": "alienator88/Pearcleaner",
+    "default_branch": "main",
+    "stars": 13461,
+    "pushed_at": "2026-05-11",
+    "swift_bytes": 1908954,
+    "swift_share": 0.9755,
+    "languages": {
+      "Swift": 1908954,
+      "Objective-C": 47576,
+      "C": 163,
+      "Shell": 128
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "tisfeng",
+    "repo": "Easydict",
+    "full_name": "tisfeng/Easydict",
+    "default_branch": "dev",
+    "stars": 13430,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 2157890,
+    "swift_share": 0.6987,
+    "languages": {
+      "Swift": 2157890,
+      "Objective-C": 762654,
+      "Python": 63140,
+      "HTML": 53034,
+      "Shell": 46718,
+      "C": 2605,
+      "JavaScript": 1357,
+      "Ruby": 1008
+    },
+    "categories": [
+      "Translation Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "PlayCover",
+    "repo": "PlayCover",
+    "full_name": "PlayCover/PlayCover",
+    "default_branch": "develop",
+    "stars": 11363,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 362632,
+    "swift_share": 0.9922,
+    "languages": {
+      "Swift": 362632,
+      "Ruby": 2109,
+      "Objective-C": 730
+    },
+    "categories": [
+      "Gaming Software"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "MrKai77",
+    "repo": "Loop",
+    "full_name": "mrkai77/Loop",
+    "default_branch": "develop",
+    "stars": 10899,
+    "pushed_at": "2026-05-25",
+    "swift_bytes": 926656,
+    "swift_share": 0.9993,
+    "languages": {
+      "Swift": 926656,
+      "Shell": 690
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "noah-nuebling",
+    "repo": "mac-mouse-fix",
+    "full_name": "noah-nuebling/mac-mouse-fix",
+    "default_branch": "master",
+    "stars": 10174,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1069815,
+    "swift_share": 0.2999,
+    "languages": {
+      "Objective-C": 2408142,
+      "Swift": 1069815,
+      "C++": 35503,
+      "C": 34775,
+      "Objective-C++": 10291,
+      "TeX": 8799,
+      "CSS": 203,
+      "Shell": 106
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "brentsimmons",
+    "repo": "NetNewsWire",
+    "full_name": "Ranchero-Software/NetNewsWire",
+    "default_branch": "main",
+    "stars": 10101,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 2925815,
+    "swift_share": 0.617,
+    "languages": {
+      "Swift": 2925815,
+      "HTML": 1228257,
+      "CSS": 308800,
+      "Objective-C": 144496,
+      "Shell": 45053,
+      "Python": 41622,
+      "JavaScript": 28515,
+      "AppleScript": 10733,
+      "Rich Text Format": 8004,
+      "Ruby": 439
+    },
+    "categories": [
+      "RSS"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "TheBoredTeam",
+    "repo": "boring.notch",
+    "full_name": "TheBoredTeam/boring.notch",
+    "default_branch": "main",
+    "stars": 9541,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 701516,
+    "swift_share": 0.9818,
+    "languages": {
+      "Swift": 701516,
+      "Perl": 7940,
+      "Shell": 2978,
+      "Python": 1660,
+      "Metal": 412
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "davidwernhart",
+    "repo": "AlDente",
+    "full_name": "AppHouseKitchen/AlDente-Battery_Care_and_Monitoring",
+    "default_branch": "master",
+    "stars": 9058,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 61715,
+    "swift_share": 0.7648,
+    "languages": {
+      "Swift": 61715,
+      "Python": 18981
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "insidegui",
+    "repo": "WWDC",
+    "full_name": "insidegui/WWDC",
+    "default_branch": "master",
+    "stars": 8746,
+    "pushed_at": "2026-05-20",
+    "swift_bytes": 1077053,
+    "swift_share": 0.9744,
+    "languages": {
+      "Swift": 1077053,
+      "Objective-C": 21790,
+      "Shell": 6305,
+      "C": 239
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "BSD-2-Clause"
+  },
+  {
+    "owner": "Clipy",
+    "repo": "Clipy",
+    "full_name": "Clipy/Clipy",
+    "default_branch": "develop",
+    "stars": 8601,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 234527,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 234527
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sindresorhus",
+    "repo": "gifski-app",
+    "full_name": "sindresorhus/Gifski",
+    "default_branch": "main",
+    "stars": 8409,
+    "pushed_at": "2026-05-11",
+    "swift_bytes": 443613,
+    "swift_share": 0.7213,
+    "languages": {
+      "Swift": 443613,
+      "Rust": 165815,
+      "Metal": 3718,
+      "Rich Text Format": 970,
+      "C++": 845,
+      "Objective-C": 55
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "RobotsAndPencils",
+    "repo": "XcodesApp",
+    "full_name": "XcodesOrg/XcodesApp",
+    "default_branch": "main",
+    "stars": 8398,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 475968,
+    "swift_share": 0.83,
+    "languages": {
+      "Swift": 475968,
+      "Rich Text Format": 87268,
+      "Shell": 5785,
+      "PHP": 2485,
+      "Ruby": 1285,
+      "Objective-C": 679
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "lihaoyun6",
+    "repo": "QuickRecorder",
+    "full_name": "lihaoyun6/QuickRecorder",
+    "default_branch": "main",
+    "stars": 8326,
+    "pushed_at": "2025-06-11",
+    "swift_bytes": 358007,
+    "swift_share": 0.9914,
+    "languages": {
+      "Swift": 358007,
+      "Rich Text Format": 3112
+    },
+    "categories": [
+      "Screen Recording"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "coteditor",
+    "repo": "CotEditor",
+    "full_name": "coteditor/CotEditor",
+    "default_branch": "main",
+    "stars": 8137,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3497197,
+    "swift_share": 0.6584,
+    "languages": {
+      "Swift": 3497197,
+      "HTML": 1641673,
+      "Tree-sitter Query": 88758,
+      "Python": 21293,
+      "CSS": 11395,
+      "JavaScript": 6712,
+      "TypeScript": 5571,
+      "PHP": 5268,
+      "C#": 4638,
+      "Ruby": 4023,
+      "Shell": 4019,
+      "Go": 3382,
+      "Makefile": 3115,
+      "TeX": 2588,
+      "Rust": 2283,
+      "Kotlin": 2233,
+      "C++": 1739,
+      "Java": 1662,
+      "Lua": 1401,
+      "PLpgSQL": 1242,
+      "Scala": 958,
+      "C": 790
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "ronitsingh10",
+    "repo": "FineTune",
+    "full_name": "ronitsingh10/FineTune",
+    "default_branch": "main",
+    "stars": 7534,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1543713,
+    "swift_share": 0.9986,
+    "languages": {
+      "Swift": 1543713,
+      "Shell": 2112
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "glushchenko",
+    "repo": "fsnotes",
+    "full_name": "glushchenko/fsnotes",
+    "default_branch": "master",
+    "stars": 7391,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 2046325,
+    "swift_share": 0.9872,
+    "languages": {
+      "Swift": 2046325,
+      "HTML": 13323,
+      "CSS": 10749,
+      "Ruby": 2496
+    },
+    "categories": [
+      "Note-taking"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "mullvad",
+    "repo": "mullvadvpn-app",
+    "full_name": "mullvad/mullvadvpn-app",
+    "default_branch": "main",
+    "stars": 7152,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3390878,
+    "swift_share": 0.2434,
+    "languages": {
+      "Rust": 4622229,
+      "Swift": 3390878,
+      "Kotlin": 3126838,
+      "TypeScript": 2124076,
+      "Shell": 289237,
+      "C++": 185050,
+      "C": 53180,
+      "Nix": 43290,
+      "JavaScript": 29594,
+      "NSIS": 28631,
+      "Dockerfile": 17089,
+      "HCL": 8101,
+      "Python": 5914,
+      "Objective-C": 4536,
+      "CSS": 3032,
+      "Ruby": 1459,
+      "HTML": 916
+    },
+    "categories": [
+      "Proxy and VPN Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "qvacua",
+    "repo": "vimr",
+    "full_name": "qvacua/vimr",
+    "default_branch": "master",
+    "stars": 6966,
+    "pushed_at": "2026-04-25",
+    "swift_bytes": 1101474,
+    "swift_share": 0.913,
+    "languages": {
+      "Swift": 1101474,
+      "Python": 30590,
+      "Shell": 27795,
+      "CSS": 26586,
+      "HTML": 6595,
+      "Rich Text Format": 4576,
+      "Objective-C": 4173,
+      "Vim Script": 3293,
+      "Groovy": 1142,
+      "Ruby": 155
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "milanvarady",
+    "repo": "Applite",
+    "full_name": "milanvarady/Applite",
+    "default_branch": "main",
+    "stars": 6786,
+    "pushed_at": "2026-05-10",
+    "swift_bytes": 226263,
+    "swift_share": 0.9958,
+    "languages": {
+      "Swift": 226263,
+      "JavaScript": 497,
+      "Ruby": 454
+    },
+    "categories": [
+      "Package Managers"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "stonerl",
+    "repo": "Thaw",
+    "full_name": "stonerl/Thaw",
+    "default_branch": "development",
+    "stars": 6759,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 2153142,
+    "swift_share": 0.9967,
+    "languages": {
+      "Swift": 2153142,
+      "Objective-C": 6421,
+      "Shell": 816
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "linearmouse",
+    "repo": "linearmouse",
+    "full_name": "linearmouse/linearmouse",
+    "default_branch": "main",
+    "stars": 6284,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 997355,
+    "swift_share": 0.8842,
+    "languages": {
+      "Swift": 997355,
+      "C": 102119,
+      "JavaScript": 17039,
+      "Objective-C": 6101,
+      "Shell": 3437,
+      "Makefile": 1431,
+      "MATLAB": 402,
+      "Go Template": 44
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "grishka",
+    "repo": "NearDrop",
+    "full_name": "grishka/NearDrop",
+    "default_branch": "master",
+    "stars": 6138,
+    "pushed_at": "2026-03-19",
+    "swift_bytes": 706761,
+    "swift_share": 0.9975,
+    "languages": {
+      "Swift": 706761,
+      "Objective-C": 1696,
+      "Shell": 95
+    },
+    "categories": [
+      "File Sharing"
+    ],
+    "flags": [],
+    "license": "Unlicense"
+  },
+  {
+    "owner": "JerryZLiu",
+    "repo": "Dayflow",
+    "full_name": "JerryZLiu/Dayflow",
+    "default_branch": "main",
+    "stars": 6075,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 2973515,
+    "swift_share": 0.9908,
+    "languages": {
+      "Swift": 2973515,
+      "Shell": 27477
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "jacklandrin",
+    "repo": "OnlySwitch",
+    "full_name": "jacklandrin/OnlySwitch",
+    "default_branch": "main",
+    "stars": 5707,
+    "pushed_at": "2026-03-29",
+    "swift_bytes": 908153,
+    "swift_share": 0.9605,
+    "languages": {
+      "Swift": 908153,
+      "Objective-C": 35043,
+      "Shell": 2350
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "overtake",
+    "repo": "TelegramSwift",
+    "full_name": "overtake/TelegramSwift",
+    "default_branch": "master",
+    "stars": 5694,
+    "pushed_at": "2025-09-22",
+    "swift_bytes": 23765199,
+    "swift_share": 0.599,
+    "languages": {
+      "Swift": 23765199,
+      "C": 11487179,
+      "C++": 1793192,
+      "Assembly": 969551,
+      "Objective-C": 859681,
+      "Shell": 212684,
+      "Makefile": 204197,
+      "Perl": 160144,
+      "Objective-C++": 80120,
+      "Python": 73567,
+      "Metal": 42001,
+      "Processing": 26539,
+      "GLSL": 1155,
+      "Ruby": 947,
+      "JavaScript": 682,
+      "HTML": 207,
+      "Limbo": 1
+    },
+    "categories": [
+      "Collaboration and Team Tools"
+    ],
+    "flags": [],
+    "license": "GPL-2.0"
+  },
+  {
+    "owner": "alin23",
+    "repo": "Lunar",
+    "full_name": "alin23/Lunar",
+    "default_branch": "master",
+    "stars": 5601,
+    "pushed_at": "2026-05-25",
+    "swift_bytes": 2043049,
+    "swift_share": 0.9287,
+    "languages": {
+      "Swift": 2043049,
+      "C": 106992,
+      "Objective-C": 28615,
+      "Shell": 12679,
+      "Makefile": 5836,
+      "Stylus": 2667
+    },
+    "categories": [
+      "Quality of Life Improvements"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sindresorhus",
+    "repo": "create-dmg",
+    "full_name": "sindresorhus/create-dmg",
+    "default_branch": "main",
+    "stars": 5306,
+    "pushed_at": "2026-03-21",
+    "swift_bytes": 5049,
+    "swift_share": 0.2071,
+    "languages": {
+      "JavaScript": 19326,
+      "Swift": 5049
+    },
+    "categories": [
+      "Frameworks For Hybrid Applications"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "leits",
+    "repo": "MeetingBar",
+    "full_name": "leits/MeetingBar",
+    "default_branch": "master",
+    "stars": 5243,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 356430,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 356430
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "ejbills",
+    "repo": "DockDoor",
+    "full_name": "ejbills/DockDoor",
+    "default_branch": "main",
+    "stars": 5226,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1357257,
+    "swift_share": 0.9052,
+    "languages": {
+      "Swift": 1357257,
+      "HTML": 80356,
+      "CSS": 45281,
+      "JavaScript": 16479
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "Beingpax",
+    "repo": "VoiceInk",
+    "full_name": "Beingpax/VoiceInk",
+    "default_branch": "main",
+    "stars": 5201,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1468242,
+    "swift_share": 0.9956,
+    "languages": {
+      "Swift": 1468242,
+      "Makefile": 4214,
+      "AppleScript": 2225
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "ddddxxx",
+    "repo": "LyricsX",
+    "full_name": "ddddxxx/LyricsX",
+    "default_branch": "master",
+    "stars": 5166,
+    "pushed_at": "2025-09-29",
+    "swift_bytes": 148374,
+    "swift_share": 0.9763,
+    "languages": {
+      "Swift": 148374,
+      "Rich Text Format": 3486,
+      "Shell": 114
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MPL-2.0"
+  },
+  {
+    "owner": "productdevbook",
+    "repo": "port-killer",
+    "full_name": "productdevbook/port-killer",
+    "default_branch": "main",
+    "stars": 4850,
+    "pushed_at": "2026-03-09",
+    "swift_bytes": 496125,
+    "swift_share": 0.7831,
+    "languages": {
+      "Swift": 496125,
+      "C#": 127977,
+      "Shell": 9478
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "momenbasel",
+    "repo": "PureMac",
+    "full_name": "momenbasel/PureMac",
+    "default_branch": "main",
+    "stars": 4676,
+    "pushed_at": "2026-05-24",
+    "swift_bytes": 325010,
+    "swift_share": 0.986,
+    "languages": {
+      "Swift": 325010,
+      "Shell": 4091,
+      "Ruby": 538
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "mangerlahn",
+    "repo": "Latest",
+    "full_name": "mangerlahn/Latest",
+    "default_branch": "main",
+    "stars": 4646,
+    "pushed_at": "2026-02-09",
+    "swift_bytes": 228437,
+    "swift_share": 0.8336,
+    "languages": {
+      "Swift": 228437,
+      "Objective-C": 43593,
+      "Rich Text Format": 1808,
+      "C": 189
+    },
+    "categories": [
+      "General Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "buresdv",
+    "repo": "cork",
+    "full_name": "buresdv/Cork",
+    "default_branch": "main",
+    "stars": 4471,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 934933,
+    "swift_share": 0.992,
+    "languages": {
+      "Swift": 934933,
+      "HTML": 7525
+    },
+    "categories": [
+      "Package Managers"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "datlechin",
+    "repo": "TablePro",
+    "full_name": "TableProApp/TablePro",
+    "default_branch": "main",
+    "stars": 4324,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 12968514,
+    "swift_share": 0.9842,
+    "languages": {
+      "Swift": 12968514,
+      "Shell": 182957,
+      "Tree-sitter Query": 15688,
+      "Python": 3227,
+      "C": 3019,
+      "Ruby": 2902,
+      "Objective-C": 614
+    },
+    "categories": [
+      "Databases"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "swiftbar",
+    "repo": "SwiftBar",
+    "full_name": "swiftbar/SwiftBar",
+    "default_branch": "main",
+    "stars": 4143,
+    "pushed_at": "2026-05-15",
+    "swift_bytes": 519206,
+    "swift_share": 0.9991,
+    "languages": {
+      "Swift": 519206,
+      "Rich Text Format": 456
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "kyleduo",
+    "repo": "TinyPNG4Mac",
+    "full_name": "kyleduo/TinyPNG4Mac",
+    "default_branch": "master",
+    "stars": 3992,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 105779,
+    "swift_share": 0.9928,
+    "languages": {
+      "Swift": 105779,
+      "Shell": 764
+    },
+    "categories": [
+      "Other Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "DamascenoRafael",
+    "repo": "reminders-menubar",
+    "full_name": "DamascenoRafael/reminders-menubar",
+    "default_branch": "master",
+    "stars": 3780,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 289504,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 289504
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "gee1k",
+    "repo": "uPic",
+    "full_name": "gee1k/uPic",
+    "default_branch": "master",
+    "stars": 3702,
+    "pushed_at": "2025-12-10",
+    "swift_bytes": 499261,
+    "swift_share": 0.9347,
+    "languages": {
+      "Swift": 499261,
+      "C++": 20511,
+      "Python": 8712,
+      "Ruby": 4706,
+      "Objective-C": 551,
+      "C": 409
+    },
+    "categories": [
+      "Other Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "ivoronin",
+    "repo": "TomatoBar",
+    "full_name": "ivoronin/TomatoBar",
+    "default_branch": "main",
+    "stars": 3352,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 27913,
+    "swift_share": 0.9149,
+    "languages": {
+      "Swift": 27913,
+      "Shell": 2596
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "f",
+    "repo": "textream",
+    "full_name": "f/textream",
+    "default_branch": "master",
+    "stars": 3300,
+    "pushed_at": "2026-05-08",
+    "swift_bytes": 331467,
+    "swift_share": 0.9932,
+    "languages": {
+      "Swift": 331467,
+      "Shell": 2276
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "runjuu",
+    "repo": "InputSourcePro",
+    "full_name": "runjuu/InputSourcePro",
+    "default_branch": "main",
+    "stars": 3210,
+    "pushed_at": "2026-05-13",
+    "swift_bytes": 497121,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 497121
+    },
+    "categories": [
+      "Input Methods"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "kmikiy",
+    "repo": "SpotMenu",
+    "full_name": "kmikiy/SpotMenu",
+    "default_branch": "master",
+    "stars": 3107,
+    "pushed_at": "2026-05-15",
+    "swift_bytes": 141980,
+    "swift_share": 0.7802,
+    "languages": {
+      "Swift": 141980,
+      "Astro": 28752,
+      "TypeScript": 6689,
+      "CSS": 4221,
+      "JavaScript": 334
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "lihaoyun6",
+    "repo": "AirBattery",
+    "full_name": "lihaoyun6/AirBattery",
+    "default_branch": "main",
+    "stars": 2833,
+    "pushed_at": "2025-11-02",
+    "swift_bytes": 356962,
+    "swift_share": 0.9683,
+    "languages": {
+      "Swift": 356962,
+      "C": 5094,
+      "Shell": 4233,
+      "Rich Text Format": 2361
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "RoversX",
+    "repo": "LaunchNext",
+    "full_name": "RoversX/LaunchNext",
+    "default_branch": "main",
+    "stars": 2746,
+    "pushed_at": "2026-05-06",
+    "swift_bytes": 1787466,
+    "swift_share": 0.9681,
+    "languages": {
+      "Swift": 1787466,
+      "Python": 57135,
+      "Shell": 1724
+    },
+    "categories": [
+      "General Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "superhighfives",
+    "repo": "pika",
+    "full_name": "superhighfives/pika",
+    "default_branch": "main",
+    "stars": 2490,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 315578,
+    "swift_share": 0.9945,
+    "languages": {
+      "Swift": 315578,
+      "Metal": 1753
+    },
+    "categories": [
+      "Design Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "zenangst",
+    "repo": "KeyboardCowboy",
+    "full_name": "zenangst/KeyboardCowboy",
+    "default_branch": "main",
+    "stars": 2195,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 1858106,
+    "swift_share": 0.9849,
+    "languages": {
+      "Swift": 1858106,
+      "HTML": 12673,
+      "CSS": 11676,
+      "Shell": 4194
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "the-ora",
+    "repo": "browser",
+    "full_name": "the-ora/browser",
+    "default_branch": "main",
+    "stars": 2111,
+    "pushed_at": "2026-04-07",
+    "swift_bytes": 949601,
+    "swift_share": 0.9526,
+    "languages": {
+      "Swift": 949601,
+      "Shell": 18899,
+      "Python": 15870,
+      "JavaScript": 12453
+    },
+    "categories": [
+      "Browsers"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "Ebullioscopic",
+    "repo": "Atoll",
+    "full_name": "Ebullioscopic/Atoll",
+    "default_branch": "main",
+    "stars": 2079,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 3581693,
+    "swift_share": 0.9951,
+    "languages": {
+      "Swift": 3581693,
+      "Perl": 7449,
+      "C++": 6485,
+      "Objective-C": 1687,
+      "Objective-C++": 1505,
+      "Metal": 414
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "cameroncooke",
+    "repo": "AXe",
+    "full_name": "cameroncooke/AXe",
+    "default_branch": "main",
+    "stars": 2029,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 544378,
+    "swift_share": 0.8305,
+    "languages": {
+      "Swift": 544378,
+      "Shell": 97859,
+      "JavaScript": 12174,
+      "Ruby": 683,
+      "Makefile": 369
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "rlxone",
+    "repo": "Equinox",
+    "full_name": "rlxone/Equinox",
+    "default_branch": "main",
+    "stars": 1972,
+    "pushed_at": "2026-04-16",
+    "swift_bytes": 1037372,
+    "swift_share": 0.9992,
+    "languages": {
+      "Swift": 1037372,
+      "Shell": 809
+    },
+    "categories": [
+      "General Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sw33tlie",
+    "repo": "macshot",
+    "full_name": "sw33tLie/macshot",
+    "default_branch": "main",
+    "stars": 1921,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 1879974,
+    "swift_share": 0.9899,
+    "languages": {
+      "Swift": 1879974,
+      "HTML": 19184
+    },
+    "categories": [
+      "Screenshot Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "BarutSRB",
+    "repo": "OmniWM",
+    "full_name": "BarutSRB/Hiro",
+    "default_branch": "main",
+    "stars": 1916,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 5410331,
+    "swift_share": 0.9977,
+    "languages": {
+      "Swift": 5410331,
+      "Shell": 10709,
+      "Makefile": 1625
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "GPL-2.0"
+  },
+  {
+    "owner": "muxy-app",
+    "repo": "muxy",
+    "full_name": "muxy-app/muxy",
+    "default_branch": "main",
+    "stars": 1727,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3018602,
+    "swift_share": 0.9908,
+    "languages": {
+      "Swift": 3018602,
+      "Shell": 18576,
+      "JavaScript": 6695,
+      "TypeScript": 1593,
+      "CSS": 913,
+      "HTML": 214,
+      "C": 75
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Kruszoneq",
+    "repo": "macUSB",
+    "full_name": "Kruszoneq/macUSB",
+    "default_branch": "main",
+    "stars": 1580,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 1041155,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1041155
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "wzh4869",
+    "repo": "AppPorts",
+    "full_name": "wzh4869/AppPorts",
+    "default_branch": "main",
+    "stars": 1500,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 761072,
+    "swift_share": 0.799,
+    "languages": {
+      "Swift": 761072,
+      "Python": 161724,
+      "TypeScript": 26324,
+      "Shell": 3448
+    },
+    "categories": [
+      "File Organization Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "kushalpandya",
+    "repo": "Petrichor",
+    "full_name": "kushalpandya/Petrichor",
+    "default_branch": "main",
+    "stars": 1490,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 1269256,
+    "swift_share": 0.984,
+    "languages": {
+      "Swift": 1269256,
+      "Shell": 20694
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "halo",
+    "repo": "LinkLiar",
+    "full_name": "halo/LinkLiar",
+    "default_branch": "master",
+    "stars": 1475,
+    "pushed_at": "2025-08-05",
+    "swift_bytes": 297246,
+    "swift_share": 0.8716,
+    "languages": {
+      "Swift": 297246,
+      "HTML": 30948,
+      "Ruby": 8788,
+      "Sass": 2159,
+      "Shell": 1477,
+      "HCL": 416
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "strongbox-password-safe",
+    "repo": "Strongbox",
+    "full_name": "strongbox-password-safe/Strongbox",
+    "default_branch": "master",
+    "stars": 1440,
+    "pushed_at": "2025-11-05",
+    "swift_bytes": 1971458,
+    "swift_share": 0.2611,
+    "languages": {
+      "Objective-C": 5309606,
+      "Swift": 1971458,
+      "C": 221054,
+      "CSS": 31256,
+      "Rich Text Format": 15183,
+      "HTML": 2512
+    },
+    "categories": [
+      "Password Management"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "lihaoyun6",
+    "repo": "Topit",
+    "full_name": "lihaoyun6/Topit",
+    "default_branch": "main",
+    "stars": 1421,
+    "pushed_at": "2024-12-01",
+    "swift_bytes": 121247,
+    "swift_share": 0.9785,
+    "languages": {
+      "Swift": 121247,
+      "Rich Text Format": 2661
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "waylybaye",
+    "repo": "XcodeCleaner-SwiftUI",
+    "full_name": "waylybaye/XcodeCleaner-SwiftUI",
+    "default_branch": "master",
+    "stars": 1421,
+    "pushed_at": "2025-06-19",
+    "swift_bytes": 32597,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 32597
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "jsattler",
+    "repo": "BetterCapture",
+    "full_name": "jsattler/BetterCapture",
+    "default_branch": "main",
+    "stars": 1390,
+    "pushed_at": "2026-05-09",
+    "swift_bytes": 235697,
+    "swift_share": 0.8556,
+    "languages": {
+      "Swift": 235697,
+      "Svelte": 25180,
+      "Astro": 12635,
+      "Dockerfile": 1147,
+      "JavaScript": 806,
+      "CSS": 23
+    },
+    "categories": [
+      "Screen Recording"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "debugtheworldbot",
+    "repo": "keyStats",
+    "full_name": "debugtheworldbot/keyStats",
+    "default_branch": "main",
+    "stars": 1335,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 528357,
+    "swift_share": 0.5773,
+    "languages": {
+      "Swift": 528357,
+      "C#": 358011,
+      "Shell": 18362,
+      "PowerShell": 9660,
+      "Batchfile": 900
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "AuroraEditor",
+    "repo": "AuroraEditor",
+    "full_name": "AuroraEditor/AuroraEditor",
+    "default_branch": "development",
+    "stars": 1332,
+    "pushed_at": "2025-08-26",
+    "swift_bytes": 2158998,
+    "swift_share": 0.9041,
+    "languages": {
+      "Swift": 2158998,
+      "JavaScript": 216198,
+      "Perl": 7138,
+      "CSS": 3175,
+      "Python": 2469,
+      "Shell": 58
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [
+      "archived"
+    ],
+    "license": "MIT"
+  },
+  {
+    "owner": "TypeWhisper",
+    "repo": "typewhisper-mac",
+    "full_name": "TypeWhisper/typewhisper-mac",
+    "default_branch": "main",
+    "stars": 1324,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 4816948,
+    "swift_share": 0.9868,
+    "languages": {
+      "Swift": 4816948,
+      "Python": 44987,
+      "Shell": 18183,
+      "Objective-C": 1125
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "netdcy",
+    "repo": "FlowVision",
+    "full_name": "netdcy/FlowVision",
+    "default_branch": "main",
+    "stars": 1255,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 1424323,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1424323
+    },
+    "categories": [
+      "Finder Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "sozercan",
+    "repo": "kaset",
+    "full_name": "sozercan/kaset",
+    "default_branch": "main",
+    "stars": 1232,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3223836,
+    "swift_share": 0.9354,
+    "languages": {
+      "Swift": 3223836,
+      "JavaScript": 90307,
+      "Python": 90192,
+      "Shell": 36771,
+      "AppleScript": 3258,
+      "Ruby": 1094,
+      "PowerShell": 1022
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "xykong",
+    "repo": "flux-markdown",
+    "full_name": "xykong/flux-markdown",
+    "default_branch": "master",
+    "stars": 1042,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 384441,
+    "swift_share": 0.4919,
+    "languages": {
+      "Swift": 384441,
+      "TypeScript": 246607,
+      "Shell": 75796,
+      "CSS": 47607,
+      "JavaScript": 16365,
+      "HTML": 3250,
+      "Python": 3226,
+      "Tcl": 2450,
+      "Makefile": 1769
+    },
+    "categories": [
+      "QuickLook Plugins"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "gkpln3",
+    "repo": "CapsLockNoDelay",
+    "full_name": "gkpln3/CapsLockNoDelay",
+    "default_branch": "main",
+    "stars": 1003,
+    "pushed_at": "2025-06-18",
+    "swift_bytes": 8923,
+    "swift_share": 0.9535,
+    "languages": {
+      "Swift": 8923,
+      "Shell": 435
+    },
+    "categories": [
+      "General Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "nickustinov",
+    "repo": "itsyhome-macos",
+    "full_name": "nickustinov/itsyhome-macos",
+    "default_branch": "main",
+    "stars": 909,
+    "pushed_at": "2026-05-21",
+    "swift_bytes": 1879546,
+    "swift_share": 0.9975,
+    "languages": {
+      "Swift": 1879546,
+      "Shell": 4705
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "lzhgus",
+    "repo": "Capso",
+    "full_name": "lzhgus/Capso",
+    "default_branch": "main",
+    "stars": 899,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1552593,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1552593
+    },
+    "categories": [
+      "Screen Recording"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "gety-ai",
+    "repo": "apple-on-device-openai",
+    "full_name": "gety-ai/apple-on-device-openai",
+    "default_branch": "main",
+    "stars": 868,
+    "pushed_at": "2025-10-02",
+    "swift_bytes": 51122,
+    "swift_share": 0.878,
+    "languages": {
+      "Swift": 51122,
+      "Python": 7106
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "sindresorhus",
+    "repo": "Pasteboard-Viewer",
+    "full_name": "sindresorhus/Pasteboard-Viewer",
+    "default_branch": "main",
+    "stars": 835,
+    "pushed_at": "2026-03-30",
+    "swift_bytes": 86390,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 86390
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "rohanrhu",
+    "repo": "MacsyZones",
+    "full_name": "rohanrhu/MacsyZones",
+    "default_branch": "main",
+    "stars": 828,
+    "pushed_at": "2026-05-31",
+    "swift_bytes": 388689,
+    "swift_share": 0.9979,
+    "languages": {
+      "Swift": 388689,
+      "Objective-C": 821
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "wflixu",
+    "repo": "RClick",
+    "full_name": "wflixu/RClick",
+    "default_branch": "main",
+    "stars": 772,
+    "pushed_at": "2026-04-12",
+    "swift_bytes": 141269,
+    "swift_share": 0.7978,
+    "languages": {
+      "Swift": 141269,
+      "Shell": 35803
+    },
+    "categories": [
+      "Finder Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "jipika",
+    "repo": "WaifuX",
+    "full_name": "jipika/WaifuX",
+    "default_branch": "main",
+    "stars": 704,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 4319225,
+    "swift_share": 0.9274,
+    "languages": {
+      "Swift": 4319225,
+      "Python": 118193,
+      "TypeScript": 46834,
+      "Shell": 43456,
+      "JavaScript": 35537,
+      "HTML": 33035,
+      "CSS": 30036,
+      "C": 20894,
+      "Metal": 6055,
+      "Objective-C": 3916,
+      "Assembly": 130
+    },
+    "categories": [
+      "General Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "cmushroom",
+    "repo": "redis-pro",
+    "full_name": "cmushroom/redis-pro",
+    "default_branch": "main",
+    "stars": 681,
+    "pushed_at": "2026-03-03",
+    "swift_bytes": 419016,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 419016
+    },
+    "categories": [
+      "Databases"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "cosZone",
+    "repo": "MoePeek",
+    "full_name": "cosZone/MoePeek",
+    "default_branch": "main",
+    "stars": 673,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 402474,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 402474
+    },
+    "categories": [
+      "Translation Tools"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "nuance-dev",
+    "repo": "Web",
+    "full_name": "nuance-dev/Web",
+    "default_branch": "master",
+    "stars": 660,
+    "pushed_at": "2025-10-21",
+    "swift_bytes": 2052895,
+    "swift_share": 0.9918,
+    "languages": {
+      "Swift": 2052895,
+      "JavaScript": 11940,
+      "Shell": 4972
+    },
+    "categories": [
+      "Browsers"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "hehehai",
+    "repo": "voxt",
+    "full_name": "hehehai/voxt",
+    "default_branch": "main",
+    "stars": 638,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 5054119,
+    "swift_share": 0.9974,
+    "languages": {
+      "Swift": 5054119,
+      "Shell": 13249
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "pablopunk",
+    "repo": "swiftshift",
+    "full_name": "pablopunk/SwiftShift",
+    "default_branch": "main",
+    "stars": 600,
+    "pushed_at": "2026-05-15",
+    "swift_bytes": 77869,
+    "swift_share": 0.6358,
+    "languages": {
+      "Swift": 77869,
+      "Astro": 31660,
+      "Shell": 6861,
+      "TypeScript": 5078,
+      "Makefile": 528,
+      "JavaScript": 469
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "groundwater",
+    "repo": "GhostVM",
+    "full_name": "groundwater/GhostVM",
+    "default_branch": "main",
+    "stars": 566,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 1180177,
+    "swift_share": 0.8076,
+    "languages": {
+      "Swift": 1180177,
+      "TypeScript": 242433,
+      "Makefile": 33185,
+      "JavaScript": 3010,
+      "Shell": 1705,
+      "CSS": 753,
+      "C": 112
+    },
+    "categories": [
+      "Virtualization"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "syi0808",
+    "repo": "screenize",
+    "full_name": "syi0808/screenize",
+    "default_branch": "main",
+    "stars": 563,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 1589937,
+    "swift_share": 0.9155,
+    "languages": {
+      "Swift": 1589937,
+      "Astro": 98023,
+      "Python": 24743,
+      "Shell": 16363,
+      "TypeScript": 4439,
+      "CSS": 3104,
+      "JavaScript": 160
+    },
+    "categories": [
+      "Screen Recording"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "nickustinov",
+    "repo": "itsytv-macos",
+    "full_name": "nickustinov/itsytv-macos",
+    "default_branch": "main",
+    "stars": 546,
+    "pushed_at": "2026-05-25",
+    "swift_bytes": 126561,
+    "swift_share": 0.9655,
+    "languages": {
+      "Swift": 126561,
+      "Shell": 4526
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "onebadidea",
+    "repo": "swiftquit",
+    "full_name": "onebadidea/swiftquit",
+    "default_branch": "main",
+    "stars": 525,
+    "pushed_at": "2026-01-29",
+    "swift_bytes": 15043,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 15043
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "realskyrin",
+    "repo": "capcap",
+    "full_name": "realskyrin/capcap",
+    "default_branch": "main",
+    "stars": 491,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1636980,
+    "swift_share": 0.9897,
+    "languages": {
+      "Swift": 1636980,
+      "Shell": 16845,
+      "Makefile": 148
+    },
+    "categories": [
+      "Screenshot Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "bwya77",
+    "repo": "DockAnchor",
+    "full_name": "bwya77/DockAnchor",
+    "default_branch": "main",
+    "stars": 486,
+    "pushed_at": "2026-01-21",
+    "swift_bytes": 141588,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 141588
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "LocNguyenHuu",
+    "repo": "Rockxy",
+    "full_name": "RockxyApp/Rockxy",
+    "default_branch": "main",
+    "stars": 484,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 5145564,
+    "swift_share": 0.9999,
+    "languages": {
+      "Swift": 5145564,
+      "HTML": 255,
+      "Makefile": 167
+    },
+    "categories": [
+      "Network Analysis"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "Celve",
+    "repo": "Peninsula",
+    "full_name": "celve/Peninsula",
+    "default_branch": "main",
+    "stars": 453,
+    "pushed_at": "2025-10-10",
+    "swift_bytes": 264844,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 264844
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "ParetoSecurity",
+    "repo": "pareto-mac",
+    "full_name": "ParetoSecurity/pareto-mac",
+    "default_branch": "main",
+    "stars": 443,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 490845,
+    "swift_share": 0.9851,
+    "languages": {
+      "Swift": 490845,
+      "Makefile": 3826,
+      "Python": 3027,
+      "Go Template": 593
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "sarensw",
+    "repo": "macpacker",
+    "full_name": "sarensw/MacPacker",
+    "default_branch": "main",
+    "stars": 433,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 511036,
+    "swift_share": 0.9177,
+    "languages": {
+      "Swift": 511036,
+      "C++": 37361,
+      "C": 8455
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "saihgupr",
+    "repo": "GoogleDriveSync",
+    "full_name": "saihgupr/GoogleDriveSync",
+    "default_branch": "main",
+    "stars": 383,
+    "pushed_at": "2026-03-25",
+    "swift_bytes": 101269,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 101269
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "nickustinov",
+    "repo": "itsypad-macos",
+    "full_name": "nickustinov/itsypad-macos",
+    "default_branch": "main",
+    "stars": 375,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 675453,
+    "swift_share": 0.9866,
+    "languages": {
+      "Swift": 675453,
+      "Shell": 9196
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "rana-gmbh",
+    "repo": "netfluss",
+    "full_name": "rana-gmbh/NetFluss",
+    "default_branch": "main",
+    "stars": 370,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 658784,
+    "swift_share": 0.7701,
+    "languages": {
+      "Swift": 658784,
+      "JavaScript": 162739,
+      "HTML": 28046,
+      "C": 5905
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "Neighbor-Z",
+    "repo": "SwiftMTP",
+    "full_name": "Neighbor-Z/SwiftMTP",
+    "default_branch": "main",
+    "stars": 369,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 268395,
+    "swift_share": 0.8572,
+    "languages": {
+      "Swift": 268395,
+      "Go": 32281,
+      "Shell": 5404,
+      "C": 3885,
+      "C++": 3140
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "GPL-2.0"
+  },
+  {
+    "owner": "bysiber",
+    "repo": "cleardisk",
+    "full_name": "bysiber/cleardisk",
+    "default_branch": "main",
+    "stars": 355,
+    "pushed_at": "2026-03-19",
+    "swift_bytes": 153155,
+    "swift_share": 0.9623,
+    "languages": {
+      "Swift": 153155,
+      "Shell": 6007
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Wcowin",
+    "repo": "OneClip",
+    "full_name": "Wcowin/OneClip",
+    "default_branch": "main",
+    "stars": 353,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 590284,
+    "swift_share": 0.9959,
+    "languages": {
+      "Swift": 590284,
+      "Shell": 2419
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "glinford",
+    "repo": "dns-easy-switcher",
+    "full_name": "glinford/dns-easy-switcher",
+    "default_branch": "main",
+    "stars": 347,
+    "pushed_at": "2025-11-18",
+    "swift_bytes": 60205,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 60205
+    },
+    "categories": [
+      "Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "BigBerny",
+    "repo": "magicquit",
+    "full_name": "BigBerny/magicquit",
+    "default_branch": "main",
+    "stars": 338,
+    "pushed_at": "2025-06-22",
+    "swift_bytes": 20776,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 20776
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "JulianKahnert",
+    "repo": "PDF-Archiver",
+    "full_name": "PDF-Archiver/PDF-Archiver",
+    "default_branch": "develop",
+    "stars": 336,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 582913,
+    "swift_share": 0.9921,
+    "languages": {
+      "Swift": 582913,
+      "Ruby": 3162,
+      "Shell": 1467
+    },
+    "categories": [
+      "File Organization Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "samirpatil2000",
+    "repo": "Buffer",
+    "full_name": "samirpatil2000/Buffer",
+    "default_branch": "main",
+    "stars": 321,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 180698,
+    "swift_share": 0.9757,
+    "languages": {
+      "Swift": 180698,
+      "Shell": 4507
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "JuliusBrussee",
+    "repo": "revu-swift",
+    "full_name": "JuliusBrussee/revu-swift",
+    "default_branch": "main",
+    "stars": 317,
+    "pushed_at": "2026-04-12",
+    "swift_bytes": 2238110,
+    "swift_share": 0.9982,
+    "languages": {
+      "Swift": 2238110,
+      "Shell": 2388,
+      "Python": 1598
+    },
+    "categories": [
+      "Note-taking"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "OloApps",
+    "repo": "ReqRes",
+    "full_name": "OloApps/ReqRes",
+    "default_branch": "main",
+    "stars": 317,
+    "pushed_at": "2025-08-22",
+    "swift_bytes": 339502,
+    "swift_share": 0.9483,
+    "languages": {
+      "Swift": 339502,
+      "HTML": 18515
+    },
+    "categories": [
+      "API Development and Analysis"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "ThinkInAIXYZ",
+    "repo": "clawdhome",
+    "full_name": "ThinkInAIXYZ/clawdhome",
+    "default_branch": "main",
+    "stars": 313,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 4286054,
+    "swift_share": 0.9406,
+    "languages": {
+      "Swift": 4286054,
+      "Shell": 145651,
+      "HTML": 73324,
+      "Python": 29045,
+      "Makefile": 22706
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "SidhuK",
+    "repo": "WardenApp",
+    "full_name": "SidhuK/WardenApp",
+    "default_branch": "main",
+    "stars": 309,
+    "pushed_at": "2026-05-30",
+    "swift_bytes": 1530543,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1530543
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "f-is-h",
+    "repo": "Usage4Claude",
+    "full_name": "f-is-h/Usage4Claude",
+    "default_branch": "main",
+    "stars": 300,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 684334,
+    "swift_share": 0.8008,
+    "languages": {
+      "Swift": 684334,
+      "HTML": 134133,
+      "Shell": 17858,
+      "JavaScript": 16401,
+      "CSS": 1838
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "saihgupr",
+    "repo": "DMGMaker",
+    "full_name": "saihgupr/DMGMaker",
+    "default_branch": "main",
+    "stars": 284,
+    "pushed_at": "2026-05-10",
+    "swift_bytes": 26184,
+    "swift_share": 0.5087,
+    "languages": {
+      "Swift": 26184,
+      "Shell": 23459,
+      "AppleScript": 1828
+    },
+    "categories": [
+      "Frameworks For Hybrid Applications"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "XiCheng148",
+    "repo": "Dockit",
+    "full_name": "XiCheng148/Dockit",
+    "default_branch": "main",
+    "stars": 276,
+    "pushed_at": "2025-10-28",
+    "swift_bytes": 171417,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 171417
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "iliyami",
+    "repo": "MacClean",
+    "full_name": "iliyami/MacSai",
+    "default_branch": "main",
+    "stars": 263,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 984295,
+    "swift_share": 0.9832,
+    "languages": {
+      "Swift": 984295,
+      "Shell": 15765,
+      "Ruby": 1076
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "BSD-3-Clause"
+  },
+  {
+    "owner": "maoyama",
+    "repo": "Tempo",
+    "full_name": "maoyama/Changes",
+    "default_branch": "main",
+    "stars": 253,
+    "pushed_at": "2026-03-21",
+    "swift_bytes": 281271,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 281271
+    },
+    "categories": [
+      "Version Control"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Lcharvol",
+    "repo": "MacSift",
+    "full_name": "Lcharvol/MacSift",
+    "default_branch": "main",
+    "stars": 249,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 453323,
+    "swift_share": 0.9895,
+    "languages": {
+      "Swift": 453323,
+      "Shell": 4807
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "m13v",
+    "repo": "fazm",
+    "full_name": "mediar-ai/fazm",
+    "default_branch": "main",
+    "stars": 248,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 3081370,
+    "swift_share": 0.7367,
+    "languages": {
+      "Swift": 3081370,
+      "TypeScript": 660052,
+      "Rust": 182942,
+      "Shell": 158599,
+      "JavaScript": 72741,
+      "Python": 24719,
+      "CSS": 1112,
+      "Dockerfile": 665,
+      "Objective-C": 641
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "daniyalmaster693",
+    "repo": "SuperCorners",
+    "full_name": "daniyalmaster693/SuperCorners",
+    "default_branch": "main",
+    "stars": 245,
+    "pushed_at": "2026-03-30",
+    "swift_bytes": 353261,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 353261
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "HMAKT99",
+    "repo": "UnTouchID",
+    "full_name": "HMAKT99/UnTouchID",
+    "default_branch": "main",
+    "stars": 243,
+    "pushed_at": "2026-04-18",
+    "swift_bytes": 367858,
+    "swift_share": 0.7225,
+    "languages": {
+      "Swift": 367858,
+      "Kotlin": 49294,
+      "JavaScript": 31284,
+      "Shell": 29069,
+      "Python": 20035,
+      "C": 9613,
+      "Ruby": 1254,
+      "Makefile": 730
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sane-apps",
+    "repo": "SaneBar",
+    "full_name": "sane-apps/SaneBar",
+    "default_branch": "main",
+    "stars": 228,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 2484178,
+    "swift_share": 0.8333,
+    "languages": {
+      "Swift": 2484178,
+      "Ruby": 482359,
+      "Shell": 10921,
+      "HTML": 3519
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "nuance-dev",
+    "repo": "medio",
+    "full_name": "nuance-dev/medio",
+    "default_branch": "main",
+    "stars": 225,
+    "pushed_at": "2024-11-28",
+    "swift_bytes": 64133,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 64133
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "ericjypark",
+    "repo": "codex-island",
+    "full_name": "ericjypark/codex-island",
+    "default_branch": "main",
+    "stars": 224,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 373836,
+    "swift_share": 0.9644,
+    "languages": {
+      "Swift": 373836,
+      "Shell": 12490,
+      "Ruby": 1294
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "iHongRen",
+    "repo": "configEditor",
+    "full_name": "iHongRen/configEditor",
+    "default_branch": "main",
+    "stars": 214,
+    "pushed_at": "2026-05-17",
+    "swift_bytes": 264648,
+    "swift_share": 0.9918,
+    "languages": {
+      "Swift": 264648,
+      "Shell": 2189
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "us",
+    "repo": "mocker",
+    "full_name": "us/mocker",
+    "default_branch": "main",
+    "stars": 209,
+    "pushed_at": "2026-05-06",
+    "swift_bytes": 343300,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 343300
+    },
+    "categories": [
+      "Virtualization"
+    ],
+    "flags": [],
+    "license": "AGPL-3.0"
+  },
+  {
+    "owner": "NullPointerDepressiveDisorder",
+    "repo": "MiddleDrag",
+    "full_name": "NullPointerDepressiveDisorder/MiddleDrag",
+    "default_branch": "main",
+    "stars": 208,
+    "pushed_at": "2026-04-22",
+    "swift_bytes": 657394,
+    "swift_share": 0.9897,
+    "languages": {
+      "Swift": 657394,
+      "Shell": 6834
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "yefga",
+    "repo": "Switzy",
+    "full_name": "yefga/Switzy",
+    "default_branch": "main",
+    "stars": 192,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 107065,
+    "swift_share": 0.9952,
+    "languages": {
+      "Swift": 107065,
+      "Ruby": 515
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "cordwainersmith",
+    "repo": "claudoscope",
+    "full_name": "cordwainersmith/Claudoscope",
+    "default_branch": "master",
+    "stars": 190,
+    "pushed_at": "2026-05-12",
+    "swift_bytes": 1058557,
+    "swift_share": 0.9676,
+    "languages": {
+      "Swift": 1058557,
+      "Shell": 14786,
+      "Python": 12119,
+      "TypeScript": 8029,
+      "Ruby": 507
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "LeonardoCardoso",
+    "repo": "Poirot",
+    "full_name": "a7t-ai/poirot",
+    "default_branch": "main",
+    "stars": 186,
+    "pushed_at": "2026-05-16",
+    "swift_bytes": 1324142,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1324142
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Stmol",
+    "repo": "ssh-keys-manager-macos-app",
+    "full_name": "Stmol/ssh-keys-manager-macos-app",
+    "default_branch": "master",
+    "stars": 171,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 514288,
+    "swift_share": 0.9845,
+    "languages": {
+      "Swift": 514288,
+      "Shell": 6480,
+      "Makefile": 1607
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "arietan",
+    "repo": "lite-edit",
+    "full_name": "arietan/lite-edit",
+    "default_branch": "main",
+    "stars": 149,
+    "pushed_at": "2026-04-23",
+    "swift_bytes": 129385,
+    "swift_share": 0.9465,
+    "languages": {
+      "Swift": 129385,
+      "Python": 4676,
+      "Shell": 2636
+    },
+    "categories": [
+      "Text Editors"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "bunnysayzz",
+    "repo": "AppleAI",
+    "full_name": "bunnysayzz/AppleAI",
+    "default_branch": "main",
+    "stars": 137,
+    "pushed_at": "2026-05-21",
+    "swift_bytes": 505360,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 505360
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "AnaghSharma",
+    "repo": "Carol",
+    "full_name": "AnaghSharma/Carol",
+    "default_branch": "master",
+    "stars": 134,
+    "pushed_at": "2025-04-27",
+    "swift_bytes": 28386,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 28386
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "frankea",
+    "repo": "Whisky",
+    "full_name": "frankea/Whisky",
+    "default_branch": "main",
+    "stars": 133,
+    "pushed_at": "2026-05-01",
+    "swift_bytes": 2245854,
+    "swift_share": 0.9802,
+    "languages": {
+      "Swift": 2245854,
+      "Python": 34941,
+      "Shell": 6403,
+      "C": 4098
+    },
+    "categories": [
+      "Gaming Software"
+    ],
+    "flags": [
+      "fork"
+    ],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "sorkila",
+    "repo": "lockpaw",
+    "full_name": "sorkila/lockpaw",
+    "default_branch": "main",
+    "stars": 122,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 128165,
+    "swift_share": 0.9453,
+    "languages": {
+      "Swift": 128165,
+      "Shell": 5803,
+      "TypeScript": 1069,
+      "Ruby": 449,
+      "JavaScript": 90
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "tahseen-kakar",
+    "repo": "harbor",
+    "full_name": "tahseen-kakar/harbor",
+    "default_branch": "main",
+    "stars": 122,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 212686,
+    "swift_share": 0.9621,
+    "languages": {
+      "Swift": 212686,
+      "Shell": 8381
+    },
+    "categories": [
+      "Download Management Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "jkuri",
+    "repo": "Reframed",
+    "full_name": "jkuri/Reframed",
+    "default_branch": "main",
+    "stars": 111,
+    "pushed_at": "2026-04-16",
+    "swift_bytes": 1178078,
+    "swift_share": 0.972,
+    "languages": {
+      "Swift": 1178078,
+      "Shell": 17651,
+      "C": 13285,
+      "Makefile": 2513,
+      "HTML": 432
+    },
+    "categories": [
+      "Screen Recording"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "ralph",
+    "repo": "Spotifly",
+    "full_name": "ralph/Spotifly",
+    "default_branch": "main",
+    "stars": 110,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 587367,
+    "swift_share": 0.804,
+    "languages": {
+      "Swift": 587367,
+      "Rust": 114270,
+      "C": 15509,
+      "Shell": 13413
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "smughead",
+    "repo": "Loupe",
+    "full_name": "smughead/Loupe",
+    "default_branch": "main",
+    "stars": 102,
+    "pushed_at": "2026-02-04",
+    "swift_bytes": 213117,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 213117
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "photangralenphie",
+    "repo": "MyMedia",
+    "full_name": "photangralenphie/MyMedia",
+    "default_branch": "main",
+    "stars": 95,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 192989,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 192989
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "samzong",
+    "repo": "macmusicplayer",
+    "full_name": "samzong/MacMusicPlayer",
+    "default_branch": "main",
+    "stars": 82,
+    "pushed_at": "2026-05-07",
+    "swift_bytes": 212818,
+    "swift_share": 0.9552,
+    "languages": {
+      "Swift": 212818,
+      "Makefile": 9989
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "GeiserX",
+    "repo": "VPN-Bypass",
+    "full_name": "GeiserX/VPN-Bypass",
+    "default_branch": "main",
+    "stars": 80,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 517055,
+    "swift_share": 0.9842,
+    "languages": {
+      "Swift": 517055,
+      "Makefile": 5881,
+      "Shell": 1394,
+      "Ruby": 1023
+    },
+    "categories": [
+      "Proxy and VPN Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "designsbymuzeer",
+    "repo": "Bye-Mac-App",
+    "full_name": "designsbymuzeer/Bye-Mac-App",
+    "default_branch": "main",
+    "stars": 73,
+    "pushed_at": "2025-11-28",
+    "swift_bytes": 15405,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 15405
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "daniyalmaster693",
+    "repo": "MenuScores",
+    "full_name": "daniyalmaster693/MenuScores",
+    "default_branch": "main",
+    "stars": 72,
+    "pushed_at": "2026-03-15",
+    "swift_bytes": 303647,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 303647
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "niteoweb",
+    "repo": "work-hours-mac",
+    "full_name": "teamniteo/work-hours-mac",
+    "default_branch": "main",
+    "stars": 72,
+    "pushed_at": "2025-07-14",
+    "swift_bytes": 33514,
+    "swift_share": 0.9102,
+    "languages": {
+      "Swift": 33514,
+      "Makefile": 3306
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "dutkiewiczmaciej",
+    "repo": "MakLock",
+    "full_name": "dutkiewiczmaciej/MakLock",
+    "default_branch": "main",
+    "stars": 66,
+    "pushed_at": "2026-04-16",
+    "swift_bytes": 154968,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 154968
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "AlexW00",
+    "repo": "Zettel",
+    "full_name": "AlexW00/Zettel",
+    "default_branch": "main",
+    "stars": 65,
+    "pushed_at": "2026-05-02",
+    "swift_bytes": 495674,
+    "swift_share": 0.9878,
+    "languages": {
+      "Swift": 495674,
+      "Shell": 6124
+    },
+    "categories": [
+      "Note-taking"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "TheAcharya",
+    "repo": "MarkerData",
+    "full_name": "TheAcharya/MarkerData",
+    "default_branch": "main",
+    "stars": 64,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 334691,
+    "swift_share": 0.5939,
+    "languages": {
+      "Swift": 334691,
+      "HTML": 135632,
+      "Objective-C": 90938,
+      "Python": 2278
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Applacat",
+    "repo": "PixleyReader",
+    "full_name": "Pixley-Growth/PixleyReader",
+    "default_branch": "main",
+    "stars": 52,
+    "pushed_at": "2026-03-07",
+    "swift_bytes": 526538,
+    "swift_share": 0.9968,
+    "languages": {
+      "Swift": 526538,
+      "Shell": 1670
+    },
+    "categories": [
+      "Markdown Tools [![Awesome List][awesome-list Icon]](https://github.com/BubuAnabelas/awesome-markdown#tools)"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Lcharvol",
+    "repo": "Claude-God",
+    "full_name": "Lcharvol/Claude-God",
+    "default_branch": "main",
+    "stars": 52,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 416864,
+    "swift_share": 0.9979,
+    "languages": {
+      "Swift": 416864,
+      "Makefile": 893
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "lukebuild",
+    "repo": "LuxShot",
+    "full_name": "lukebuild/LuxShot",
+    "default_branch": "main",
+    "stars": 49,
+    "pushed_at": "2026-03-02",
+    "swift_bytes": 62441,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 62441
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "kdcokenny",
+    "repo": "OpenDictation",
+    "full_name": "kdcokenny/OpenDictation",
+    "default_branch": "main",
+    "stars": 47,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 263055,
+    "swift_share": 0.9686,
+    "languages": {
+      "Swift": 263055,
+      "Makefile": 8535
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "yarasaa",
+    "repo": "Clippy",
+    "full_name": "yarasaa/Clippy",
+    "default_branch": "main",
+    "stars": 46,
+    "pushed_at": "2026-05-19",
+    "swift_bytes": 1208621,
+    "swift_share": 0.9961,
+    "languages": {
+      "Swift": 1208621,
+      "Shell": 2428,
+      "Metal": 2292
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "kthchew",
+    "repo": "ExtendFS",
+    "full_name": "kthchew/ExtendFS",
+    "default_branch": "main",
+    "stars": 42,
+    "pushed_at": "2026-05-07",
+    "swift_bytes": 259229,
+    "swift_share": 0.9558,
+    "languages": {
+      "Swift": 259229,
+      "C": 11469,
+      "Objective-C": 512
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "wandercn",
+    "repo": "fmusic",
+    "full_name": "wandercn/fmusic",
+    "default_branch": "master",
+    "stars": 40,
+    "pushed_at": "2026-04-16",
+    "swift_bytes": 115566,
+    "swift_share": 0.8902,
+    "languages": {
+      "Swift": 115566,
+      "C": 11826,
+      "Shell": 2429
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "theDanButuc",
+    "repo": "Claude-Usage-Monitor",
+    "full_name": "theDanButuc/Claude-Usage-Monitor",
+    "default_branch": "v2.2.1",
+    "stars": 39,
+    "pushed_at": "2026-05-08",
+    "swift_bytes": 78082,
+    "swift_share": 0.9188,
+    "languages": {
+      "Swift": 78082,
+      "Shell": 6902
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "hcmhcs",
+    "repo": "screenTranslate",
+    "full_name": "hcmhcs/screenTranslate",
+    "default_branch": "main",
+    "stars": 38,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 296759,
+    "swift_share": 0.9706,
+    "languages": {
+      "Swift": 296759,
+      "Python": 7451,
+      "Shell": 1527
+    },
+    "categories": [
+      "Translation Tools"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "craigjbass",
+    "repo": "clearancekit",
+    "full_name": "craigjbass/clearancekit",
+    "default_branch": "main",
+    "stars": 36,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 1041186,
+    "swift_share": 0.9801,
+    "languages": {
+      "Swift": 1041186,
+      "TLA": 20516,
+      "Shell": 657
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "larryxiao",
+    "repo": "openquack",
+    "full_name": "larryxiao/openquack",
+    "default_branch": "main",
+    "stars": 30,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 560887,
+    "swift_share": 0.8458,
+    "languages": {
+      "Swift": 560887,
+      "Python": 71214,
+      "Shell": 30142,
+      "Ruby": 900
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sveinbjornpalsson",
+    "repo": "torrentpreview",
+    "full_name": "sveinbjornpalsson/TorrentPreview",
+    "default_branch": "main",
+    "stars": 29,
+    "pushed_at": "2026-03-10",
+    "swift_bytes": 22811,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 22811
+    },
+    "categories": [
+      "QuickLook Plugins"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Ender-Wang",
+    "repo": "Swifka",
+    "full_name": "Ender-Wang/Swifka",
+    "default_branch": "main",
+    "stars": 28,
+    "pushed_at": "2026-02-21",
+    "swift_bytes": 660155,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 660155
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "nshi",
+    "repo": "dimsum",
+    "full_name": "nshi/dimsum",
+    "default_branch": "main",
+    "stars": 28,
+    "pushed_at": "2026-05-16",
+    "swift_bytes": 40011,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 40011
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "bsnkhua",
+    "repo": "mole-widget",
+    "full_name": "bsnkhua/mole-widget",
+    "default_branch": "main",
+    "stars": 26,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 124253,
+    "swift_share": 0.9919,
+    "languages": {
+      "Swift": 124253,
+      "Makefile": 1017
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "weiykong",
+    "repo": "ClipHistory",
+    "full_name": "weiykong/ClipHistory",
+    "default_branch": "main",
+    "stars": 24,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 92727,
+    "swift_share": 0.9613,
+    "languages": {
+      "Swift": 92727,
+      "Shell": 3729
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "AwalTerminal",
+    "repo": "Awal-terminal",
+    "full_name": "AwalTerminal/Awal-terminal",
+    "default_branch": "main",
+    "stars": 23,
+    "pushed_at": "2026-04-15",
+    "swift_bytes": 1382648,
+    "swift_share": 0.8614,
+    "languages": {
+      "Swift": 1382648,
+      "Rust": 184459,
+      "Shell": 15861,
+      "C": 13547,
+      "Metal": 4511,
+      "Just": 3638,
+      "Ruby": 457
+    },
+    "categories": [
+      "Terminal Apps"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "kamjin3086",
+    "repo": "AppUninstaller",
+    "full_name": "kamjin3086/AppUninstaller",
+    "default_branch": "main",
+    "stars": 23,
+    "pushed_at": "2026-03-23",
+    "swift_bytes": 25962,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 25962
+    },
+    "categories": [
+      "Cleanup and Uninstall"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sane-apps",
+    "repo": "SaneClip",
+    "full_name": "sane-apps/SaneClip",
+    "default_branch": "main",
+    "stars": 22,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 822088,
+    "swift_share": 0.9596,
+    "languages": {
+      "Swift": 822088,
+      "Ruby": 27844,
+      "Shell": 6782
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "tseylerd",
+    "repo": "MaskThis",
+    "full_name": "tseylerd/MaskThis",
+    "default_branch": "main",
+    "stars": 21,
+    "pushed_at": "2026-03-13",
+    "swift_bytes": 90453,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 90453
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "Apache-2.0"
+  },
+  {
+    "owner": "momenbasel",
+    "repo": "puresnitch",
+    "full_name": "momenbasel/puresnitch",
+    "default_branch": "main",
+    "stars": 18,
+    "pushed_at": "2026-05-24",
+    "swift_bytes": 143750,
+    "swift_share": 0.9481,
+    "languages": {
+      "Swift": 143750,
+      "Shell": 7863
+    },
+    "categories": [
+      "Security Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sane-apps",
+    "repo": "SaneClick",
+    "full_name": "sane-apps/SaneClick",
+    "default_branch": "main",
+    "stars": 18,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 407144,
+    "swift_share": 0.9402,
+    "languages": {
+      "Swift": 407144,
+      "Ruby": 19358,
+      "Shell": 6555
+    },
+    "categories": [
+      "Finder Tools"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "pantafive",
+    "repo": "fader",
+    "full_name": "pantafive/fader",
+    "default_branch": "main",
+    "stars": 17,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 135783,
+    "swift_share": 0.6981,
+    "languages": {
+      "Swift": 135783,
+      "HTML": 53930,
+      "Makefile": 2636,
+      "Shell": 2145
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "sane-apps",
+    "repo": "SaneHosts",
+    "full_name": "sane-apps/SaneHosts",
+    "default_branch": "main",
+    "stars": 17,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 401894,
+    "swift_share": 0.5974,
+    "languages": {
+      "Swift": 401894,
+      "HTML": 241153,
+      "Ruby": 28325,
+      "Shell": 1378
+    },
+    "categories": [
+      "Developer Utilities"
+    ],
+    "flags": [],
+    "license": "NOASSERTION"
+  },
+  {
+    "owner": "fikrikarim",
+    "repo": "repose",
+    "full_name": "fikrikarim/repose",
+    "default_branch": "main",
+    "stars": 16,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 40894,
+    "swift_share": 0.8262,
+    "languages": {
+      "Swift": 40894,
+      "Shell": 8603
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "getgantry",
+    "repo": "gantry",
+    "full_name": "getgantry/gantry",
+    "default_branch": "main",
+    "stars": 16,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 947780,
+    "swift_share": 0.997,
+    "languages": {
+      "Swift": 947780,
+      "Shell": 2895
+    },
+    "categories": [
+      "Virtualization"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "punshnut",
+    "repo": "macos-dimly",
+    "full_name": "Punshnut/macos-dimly",
+    "default_branch": "dev",
+    "stars": 16,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 607887,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 607887
+    },
+    "categories": [
+      "Quality of Life Improvements"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "varie-ai",
+    "repo": "convoker",
+    "full_name": "varie-ai/convoker",
+    "default_branch": "main",
+    "stars": 16,
+    "pushed_at": "2026-03-16",
+    "swift_bytes": 171706,
+    "swift_share": 0.9587,
+    "languages": {
+      "Swift": 171706,
+      "Shell": 7390
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "arjunkomath",
+    "repo": "trace",
+    "full_name": "arjunkomath/trace",
+    "default_branch": "main",
+    "stars": 15,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 725250,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 725250
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "reg2005",
+    "repo": "langSwitcher",
+    "full_name": "reg2005/langSwitcher",
+    "default_branch": "main",
+    "stars": 15,
+    "pushed_at": "2026-03-01",
+    "swift_bytes": 173603,
+    "swift_share": 0.9862,
+    "languages": {
+      "Swift": 173603,
+      "Shell": 2422
+    },
+    "categories": [
+      "Input Methods"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "mikusnuz",
+    "repo": "nudge",
+    "full_name": "mikusnuz/nudge",
+    "default_branch": "master",
+    "stars": 14,
+    "pushed_at": "2026-03-27",
+    "swift_bytes": 88611,
+    "swift_share": 0.9181,
+    "languages": {
+      "Swift": 88611,
+      "JavaScript": 5514,
+      "Shell": 2386
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "1989v",
+    "repo": "muxbar",
+    "full_name": "1989v/muxbar",
+    "default_branch": "main",
+    "stars": 13,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 186016,
+    "swift_share": 0.958,
+    "languages": {
+      "Swift": 186016,
+      "Shell": 7415,
+      "Ruby": 732
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Divagation",
+    "repo": "flock",
+    "full_name": "baahaus/flock",
+    "default_branch": "main",
+    "stars": 13,
+    "pushed_at": "2026-05-14",
+    "swift_bytes": 331281,
+    "swift_share": 0.9049,
+    "languages": {
+      "Swift": 331281,
+      "Shell": 34816
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "cursorvoice",
+    "repo": "cursor-voice",
+    "full_name": "cursorvoice/cursor-voice",
+    "default_branch": "main",
+    "stars": 11,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 349747,
+    "swift_share": 0.9688,
+    "languages": {
+      "Swift": 349747,
+      "Shell": 10267,
+      "Ruby": 1001
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "CrashSystemZ",
+    "repo": "ChargeMonitor",
+    "full_name": "CrashSystemZ/ChargeMonitor",
+    "default_branch": "main",
+    "stars": 8,
+    "pushed_at": "2026-02-10",
+    "swift_bytes": 46349,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 46349
+    },
+    "categories": [
+      "Menu Bar Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "kotique123",
+    "repo": "FnKeyboard",
+    "full_name": "kotique123/FnKeyboard",
+    "default_branch": "main",
+    "stars": 8,
+    "pushed_at": "2026-03-16",
+    "swift_bytes": 61160,
+    "swift_share": 0.9268,
+    "languages": {
+      "Swift": 61160,
+      "Shell": 4830
+    },
+    "categories": [
+      "Productivity"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "praneeth552",
+    "repo": "clipflow",
+    "full_name": "praneeth552/clipflow",
+    "default_branch": "main",
+    "stars": 8,
+    "pushed_at": "2026-02-20",
+    "swift_bytes": 32190,
+    "swift_share": 0.838,
+    "languages": {
+      "Swift": 32190,
+      "Shell": 6222
+    },
+    "categories": [
+      "Clipboard Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "rcourtman",
+    "repo": "parakey",
+    "full_name": "rcourtman/parakey",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 458320,
+    "swift_share": 0.7887,
+    "languages": {
+      "Swift": 458320,
+      "Shell": 52521,
+      "Python": 40697,
+      "HTML": 24148,
+      "JavaScript": 5442
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "xcv58",
+    "repo": "ShortcutCycle",
+    "full_name": "xcv58/ShortcutCycle",
+    "default_branch": "master",
+    "stars": 5,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 777701,
+    "swift_share": 0.767,
+    "languages": {
+      "Swift": 777701,
+      "Python": 207291,
+      "Shell": 25478,
+      "AppleScript": 1828,
+      "Makefile": 885,
+      "Ruby": 516,
+      "Rich Text Format": 260
+    },
+    "categories": [
+      "Window Management"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Aboudjem",
+    "repo": "Sleepless",
+    "full_name": "Aboudjem/Sleepless",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 46568,
+    "swift_share": 0.8123,
+    "languages": {
+      "Swift": 46568,
+      "Shell": 10761
+    },
+    "categories": [
+      "System Related Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "ruspg",
+    "repo": "markdown-quicklook",
+    "full_name": "ruspg/markdown-quicklook",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-03-29",
+    "swift_bytes": 4065,
+    "swift_share": 0.2865,
+    "languages": {
+      "Shell": 10123,
+      "Swift": 4065
+    },
+    "categories": [
+      "QuickLook Plugins"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "denzam",
+    "repo": "SystemEQ-for-Mac",
+    "full_name": "denzam/SystemEQ-for-Mac",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 1059723,
+    "swift_share": 0.9658,
+    "languages": {
+      "Swift": 1059723,
+      "Shell": 23642,
+      "C": 13120,
+      "Ruby": 748
+    },
+    "categories": [
+      "Audio Record and Process"
+    ],
+    "flags": [],
+    "license": "GPL-3.0"
+  },
+  {
+    "owner": "krisbradley",
+    "repo": "clawpypaste",
+    "full_name": "krisbradley/clawpypaste",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 241536,
+    "swift_share": 0.9729,
+    "languages": {
+      "Swift": 241536,
+      "Shell": 5246,
+      "Makefile": 1480
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "YashvardhanATRgithub",
+    "repo": "Sangeet",
+    "full_name": "YashvardhanATRgithub/Sangeet",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-01-30",
+    "swift_bytes": 490782,
+    "swift_share": 0.787,
+    "languages": {
+      "Swift": 490782,
+      "C": 110703,
+      "Python": 22161
+    },
+    "categories": [
+      "Audio and Video Tools"
+    ],
+    "flags": [],
+    "license": null
+  },
+  {
+    "owner": "adamorad",
+    "repo": "csv-quick-look",
+    "full_name": "adamorad/csv-quick-look",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 14135,
+    "swift_share": 0.4602,
+    "languages": {
+      "Swift": 14135,
+      "CSS": 8230,
+      "JavaScript": 7591,
+      "HTML": 762
+    },
+    "categories": [
+      "QuickLook Plugins"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "Priyans-hu",
+    "repo": "tokenmeter",
+    "full_name": "Priyans-hu/tokenmeter",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-03-12",
+    "swift_bytes": 66189,
+    "swift_share": 0.7534,
+    "languages": {
+      "Swift": 66189,
+      "TypeScript": 19928,
+      "Shell": 1469,
+      "JavaScript": 146,
+      "CSS": 117
+    },
+    "categories": [
+      "AI Tools"
+    ],
+    "flags": [],
+    "license": "MIT"
+  },
+  {
+    "owner": "azex-ai",
+    "repo": "speech",
+    "full_name": "azex-ai/speech",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-11",
+    "swift_bytes": 329686,
+    "swift_share": 0.668,
+    "languages": {
+      "Swift": 329686,
+      "C": 151605,
+      "Shell": 12274
+    },
+    "categories": [
+      "Voice-to-Text"
+    ],
+    "flags": [],
+    "license": null
+  }
+]

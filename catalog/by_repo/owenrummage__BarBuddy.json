@@ -1,0 +1,141 @@
+{
+ "repo": "owenrummage/BarBuddy",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "459753b799c70ea2203ef57b501ba47b8cffc4fd",
+ "platform": "macos",
+ "author_authority": 60299,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "owenrummage",
+   "score": 60299,
+   "contributions": 5
+  }
+ ],
+ "loc": 1456,
+ "custom_components": 21,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "controlSize",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "minimumScaleFactor",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "shadow",
+   "stroke",
+   "tag",
+   "task",
+   "toggleStyle",
+   "transition",
+   "trim",
+   "weight",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "MenuBarExtra",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Stepper",
+   "StrokeStyle",
+   "SwitchToggleStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "blurReplace",
+   "degrees",
+   "easeInOut",
+   "easeOut",
+   "semibold",
+   "subheadline",
+   "system",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 25,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 84
+}

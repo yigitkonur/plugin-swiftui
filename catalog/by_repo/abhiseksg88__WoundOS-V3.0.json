@@ -1,0 +1,68 @@
+{
+ "repo": "abhiseksg88/WoundOS-V3.0",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "04b5fa3d87973b1d7a045ef3003d34759bdc26e3",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "claude",
+   "score": 0,
+   "contributions": 5
+  },
+  {
+   "login": "abhiseksg88",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 13618,
+ "custom_components": 0,
+ "imports": [
+  "ARKit",
+  "Combine",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreML",
+  "CoreVideo",
+  "Foundation",
+  "PackageDescription",
+  "Security",
+  "UIKit",
+  "Vision",
+  "WoundAutoSegmentation",
+  "WoundBoundary",
+  "WoundCapture",
+  "WoundCore",
+  "WoundMeasurement",
+  "WoundNetworking",
+  "XCTest",
+  "os",
+  "simd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,146 @@
+{
+ "repo": "designsbymuzeer/Bye-Mac-App",
+ "stars": 73,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "b6b0aadfa150e45828db604603f0bd9c2ef8e27b",
+ "platform": "macos",
+ "author_authority": 154381,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "designsbymuzeer",
+   "score": 154381,
+   "contributions": 31
+  }
+ ],
+ "loc": 400,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "ignoresSafeArea",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "stroke",
+   "tabItem",
+   "tint",
+   "toggleStyle",
+   "transition",
+   "underline"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ForEach",
+   "Form",
+   "GridItem",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "LinearGradient",
+   "Link",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "spring",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "center",
+   "checkbox",
+   "default",
+   "gray",
+   "grouped",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "thickMaterial",
+   "top",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 23,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 23,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 89
+}

@@ -1,0 +1,118 @@
+{
+ "repo": "NightwindDev/EntitlementDumper",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "026eee48a7e84f490953bfe5698d780264255459",
+ "platform": "macos",
+ "author_authority": 561,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "NightwindDev",
+   "score": 561,
+   "contributions": 5
+  }
+ ],
+ "loc": 555,
+ "custom_components": 12,
+ "imports": [
+  "Collections",
+  "Foundation",
+  "OSLog",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "alternatingRowBackgrounds",
+   "animation",
+   "background",
+   "blur",
+   "bold",
+   "buttonStyle",
+   "commands",
+   "contentShape",
+   "contextMenu",
+   "fileImporter",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "keyboardShortcut",
+   "labelStyle",
+   "monospaced",
+   "navigationTitle",
+   "onAppear",
+   "onDrop",
+   "opacity",
+   "overlay",
+   "padding",
+   "strokeBorder",
+   "task",
+   "textSelection",
+   "toolbar",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "AnyShapeStyle",
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "ContentUnavailableView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "ProgressView",
+   "RoundedRectangle",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "clear",
+   "default",
+   "foreground",
+   "iconOnly",
+   "leading",
+   "plain",
+   "red",
+   "titleAndIcon",
+   "ultraThickMaterial",
+   "unifiedCompact",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 19,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 65
+}

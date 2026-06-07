@@ -1,0 +1,131 @@
+{
+ "repo": "fuadnafiz98/echo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "eb7507705c8752a3dc4b3129341053e8e2dd6a8c",
+ "platform": "macos",
+ "author_authority": 13268,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "fuadnafiz98",
+   "score": 13268,
+   "contributions": 3
+  }
+ ],
+ "loc": 1146,
+ "custom_components": 16,
+ "imports": [
+  "AVFoundation",
+  "Accelerate",
+  "AppKit",
+  "Carbon",
+  "CoreGraphics",
+  "Speech",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "bold",
+   "clipShape",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "keyboardShortcut",
+   "onAppear",
+   "onKeyPress",
+   "opacity",
+   "padding",
+   "scale",
+   "scaleEffect",
+   "shadow",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "SecureField",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TimelineView",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "spring"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "borderless",
+   "center",
+   "clear",
+   "horizontal",
+   "leading",
+   "primary",
+   "quaternary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 22,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 73
+}

@@ -1,0 +1,96 @@
+{
+ "repo": "Rahuletto/gem",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9f881af14d3bac0fab5e35c8f0e662dfde663a8a",
+ "platform": "macos",
+ "author_authority": 345,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Rahuletto",
+   "score": 345,
+   "contributions": 5
+  }
+ ],
+ "loc": 575,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "GoogleGenerativeAI",
+  "KeyboardShortcuts",
+  "MarkdownUI",
+  "SwiftUI",
+  "XCTest",
+  "gem"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "commands",
+   "environment",
+   "environmentObject",
+   "font",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "modifier",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "padding",
+   "sizeThatFits",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "Form",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "NSHostingView",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "clear",
+   "hidden",
+   "none",
+   "sidebar"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 13,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 40
+}

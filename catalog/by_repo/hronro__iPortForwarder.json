@@ -1,0 +1,138 @@
+{
+ "repo": "hronro/iPortForwarder",
+ "stars": 75,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a76b0f2a1bcc93ee2fedb137deed9d5e9c861aa3",
+ "platform": "macos",
+ "author_authority": 1274,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "hronro",
+   "score": 1274,
+   "contributions": 70
+  },
+  {
+   "login": "nnmrts",
+   "score": 38674,
+   "contributions": 1
+  }
+ ],
+ "loc": 1482,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Ipf",
+  "Libipf",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "border",
+   "buttonStyle",
+   "commands",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelStyle",
+   "onAppear",
+   "onDisappear",
+   "onExitCommand",
+   "onHover",
+   "onSubmit",
+   "overlay",
+   "padding",
+   "textFieldStyle",
+   "toggleStyle",
+   "transition"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "clear",
+   "slide",
+   "spring",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "blue",
+   "borderless",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "iconOnly",
+   "leading",
+   "primary",
+   "purple",
+   "red",
+   "roundedBorder",
+   "switch",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 19,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 75
+}

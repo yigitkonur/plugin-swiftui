@@ -1,0 +1,134 @@
+{
+ "repo": "zignis/porter",
+ "stars": 15,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c47eabedf7023045afa7a4299d1c2dd8f874c342",
+ "platform": "macos",
+ "author_authority": 6332,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zignis",
+   "score": 6332,
+   "contributions": 1
+  }
+ ],
+ "loc": 1348,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "LaunchAtLogin",
+  "Porter",
+  "Sparkle",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "alternatingRowBackgrounds",
+   "background",
+   "clipShape",
+   "clipped",
+   "contentShape",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "fixedSize",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "menuBarExtraStyle",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "onTapGesture",
+   "padding",
+   "resizable",
+   "scrollBounceBehavior",
+   "scrollContentBackground",
+   "tableStyle",
+   "task",
+   "textFieldStyle",
+   "textSelection",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "Menu",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "TableRow",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "medium"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "background",
+   "black",
+   "blue",
+   "bordered",
+   "bottom",
+   "center",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "red",
+   "roundedBorder",
+   "thickMaterial",
+   "ultraThickMaterial",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 18,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 74
+}

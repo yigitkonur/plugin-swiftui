@@ -1,0 +1,139 @@
+{
+ "repo": "wadetregaskis/Swift-Benchmarks",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "62dd69770c0aa973172d6c3177be4d2f1fc465a1",
+ "platform": "other",
+ "author_authority": 39522,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "wadetregaskis",
+   "score": 39522,
+   "contributions": 78
+  }
+ ],
+ "loc": 2518,
+ "custom_components": 4,
+ "imports": [
+  "Benchmark",
+  "BigInt",
+  "Charts",
+  "Darwin",
+  "Foundation",
+  "FoundationExtensions",
+  "Gen",
+  "NBKFlexibleWidthKit",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alignmentGuide",
+   "allowsTightening",
+   "chartForegroundStyleScale",
+   "chartLegend",
+   "chartLineStyleScale",
+   "chartPlotStyle",
+   "chartSymbolScale",
+   "chartXAxis",
+   "chartXAxisLabel",
+   "chartXScale",
+   "chartYAxis",
+   "chartYAxisLabel",
+   "chartYScale",
+   "disabled",
+   "fileImporter",
+   "font",
+   "fontWidth",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "multilineTextAlignment",
+   "onChange",
+   "onDrag",
+   "opacity",
+   "overlay",
+   "padding",
+   "stroke",
+   "strokeBorder",
+   "tag",
+   "truncationMode",
+   "width"
+  ],
+  "types": [
+   "AnyView",
+   "AxisGridLine",
+   "AxisMarks",
+   "AxisTick",
+   "AxisValueLabel",
+   "BarMark",
+   "Binding",
+   "Button",
+   "Chart",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "ImageRenderer",
+   "LineMark",
+   "Path",
+   "Picker",
+   "Rectangle",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "condensed",
+   "headline",
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "bottom",
+   "center",
+   "firstTextBaseline",
+   "hidden",
+   "leading",
+   "top",
+   "trailing",
+   "visible",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "displayScale"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 25,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 76
+}

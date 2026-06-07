@@ -1,0 +1,132 @@
+{
+ "repo": "YF-97/YUNFEI-Auto-Compress-Tool",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ec1ee468104062ee6d6ecfefe5c34cf018b0c8be",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "YF-97",
+   "score": 3,
+   "contributions": 5
+  }
+ ],
+ "loc": 2276,
+ "custom_components": 19,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Darwin",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "resizable",
+   "scaledToFit",
+   "sheet",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "DatePicker",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "NSHostingView",
+   "Picker",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "center",
+   "headline",
+   "regular",
+   "semibold",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "balanced",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 21,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 76
+}

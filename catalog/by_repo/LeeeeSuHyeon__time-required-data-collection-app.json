@@ -1,0 +1,132 @@
+{
+ "repo": "LeeeeSuHyeon/time-required-data-collection-app",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "886250c3a271fcd45e776b732d38a29b96e3a6f1",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LeeeeSuHyeon",
+   "score": 0,
+   "contributions": 38
+  }
+ ],
+ "loc": 1625,
+ "custom_components": 21,
+ "imports": [
+  "ARKit",
+  "Alamofire",
+  "CoreLocation",
+  "Foundation",
+  "NMapsMap",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "Alert",
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "border",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFit",
+   "sheet",
+   "tag",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "CheckboxToggleStyle",
+   "Circle",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NavigationLink",
+   "NavigationStack",
+   "NavigationView",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "ScrollView",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "gray",
+   "horizontal",
+   "inline",
+   "leading",
+   "tint",
+   "top",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "isEnabled",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 22,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 69
+}

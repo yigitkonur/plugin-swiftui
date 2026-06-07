@@ -1,0 +1,140 @@
+{
+ "repo": "NoamKatni/Remote-Access-VPN",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "935937f18b12de281c18d6a402698d44e4547c05",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "NoamKatni",
+   "score": 0,
+   "contributions": 43
+  }
+ ],
+ "loc": 2036,
+ "custom_components": 34,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Darwin",
+  "Foundation",
+  "MapKit",
+  "Security",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "colorScheme",
+   "contentTransition",
+   "controlSize",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "kerning",
+   "lineLimit",
+   "menuIndicator",
+   "menuStyle",
+   "onHover",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "shadow",
+   "size",
+   "stroke",
+   "textFieldStyle",
+   "transition",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "SecureField",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "light",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "black",
+   "borderlessButton",
+   "bottom",
+   "clear",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 22,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 81
+}

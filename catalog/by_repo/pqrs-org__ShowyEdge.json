@@ -1,0 +1,156 @@
+{
+ "repo": "pqrs-org/ShowyEdge",
+ "stars": 337,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e4ea35fb6d47797b259359fd71943e38f6c46431",
+ "platform": "macos",
+ "author_authority": 25165,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "tekezo",
+   "score": 25217,
+   "contributions": 980
+  },
+  {
+   "login": "natanrolnik",
+   "score": 10073,
+   "contributions": 1
+  },
+  {
+   "login": "yanjieee",
+   "score": 96392,
+   "contributions": 1
+  }
+ ],
+ "loc": 2633,
+ "custom_components": 35,
+ "imports": [
+  "AppKit",
+  "AsyncAlgorithms",
+  "Carbon",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "PackageDescription",
+  "ServiceManagement",
+  "SettingsAccess",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "controlSize",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gridColumnAlignment",
+   "inset",
+   "labelStyle",
+   "labelsHidden",
+   "modifier",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "scenePadding",
+   "stroke",
+   "tabItem",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Color",
+   "ColorPicker",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Grid",
+   "GridRow",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NSHostingView",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollViewReader",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "StateObject",
+   "Stepper",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "borderless",
+   "center",
+   "clear",
+   "gray",
+   "iconOnly",
+   "leading",
+   "radioGroup",
+   "red",
+   "switch",
+   "titleAndIcon",
+   "top",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "displayScale"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 30,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 83
+}

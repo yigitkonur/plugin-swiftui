@@ -1,0 +1,70 @@
+{
+ "repo": "PureSwift/AndroidSwiftUI",
+ "stars": 55,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7f684fc6c5578737470eea71fd3ccfea14525f9c",
+ "platform": "other",
+ "author_authority": 14381,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "colemancda",
+   "score": 14381,
+   "contributions": 83
+  }
+ ],
+ "loc": 25353,
+ "custom_components": 4,
+ "imports": [
+  "AndroidJavaLang",
+  "AndroidKit",
+  "AndroidSwiftUI",
+  "AppleProductTypes",
+  "CRuntime",
+  "CompilerPluginSupport",
+  "CoreFoundation",
+  "CoreGraphics",
+  "Foundation",
+  "JavaKit",
+  "JavaRuntime",
+  "OpenCombineShim",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "onAppear",
+   "onDisappear"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Image",
+   "List",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 10
+}

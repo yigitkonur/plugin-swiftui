@@ -1,0 +1,46 @@
+{
+ "repo": "praneeth552/clipflow",
+ "stars": 8,
+ "categories": [
+  "Clipboard Tools"
+ ],
+ "sha": "e55c606b32e9a7a860371e8b9de2ff87333f87be",
+ "platform": "macos",
+ "author_authority": 154313,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "praneeth552",
+   "score": 154313,
+   "contributions": 9
+  }
+ ],
+ "loc": 856,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "PackageDescription"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

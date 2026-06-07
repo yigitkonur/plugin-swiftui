@@ -1,0 +1,181 @@
+{
+ "repo": "scribe-org/Scribe-iOS",
+ "stars": 166,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1b557a87c454a776c19f3a10f81181ad218d53da",
+ "platform": "other",
+ "author_authority": 1476,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "andrewtavis",
+   "score": 1695,
+   "contributions": 1434
+  },
+  {
+   "login": "Jag-Marcel",
+   "score": 0,
+   "contributions": 108
+  },
+  {
+   "login": "SaurabhJamadagni",
+   "score": 24,
+   "contributions": 104
+  }
+ ],
+ "loc": 18628,
+ "custom_components": 73,
+ "imports": [
+  "CoreData",
+  "Foundation",
+  "GRDB",
+  "MessageUI",
+  "Scribe",
+  "StoreKit",
+  "SwiftUI",
+  "SwiftyJSON",
+  "SwipeableTabBarController",
+  "UIKit",
+  "XCTest",
+  "Yams"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "navigationBarHidden",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "colorInvert",
+   "contentShape",
+   "cornerRadius",
+   "dynamicTypeSize",
+   "edgesIgnoringSafeArea",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "labelsHidden",
+   "navigationBarHidden",
+   "navigationTitle",
+   "onAppear",
+   "onDisappear",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "scaledToFit",
+   "shadow",
+   "sheet",
+   "stroke",
+   "tabItem",
+   "tint",
+   "transition",
+   "trim",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "NavigationLink",
+   "NavigationStack",
+   "NavigationView",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "degrees",
+   "easeInOut",
+   "easeOut",
+   "largeTitle",
+   "light",
+   "medium",
+   "semibold",
+   "spring",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "clear",
+   "gray",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "primary",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 39,
+  "types": 24,
+  "valueBuilders": 14,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 103
+}

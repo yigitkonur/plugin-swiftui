@@ -1,0 +1,106 @@
+{
+ "repo": "fraander/AttributedTextEditor",
+ "stars": 16,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "30ddf1c439fc68f20e3e422fd4bbf2cdbb958824",
+ "platform": "other",
+ "author_authority": 24,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "fraander",
+   "score": 24,
+   "contributions": 15
+  }
+ ],
+ "loc": 558,
+ "custom_components": 12,
+ "imports": [
+  "Foundation",
+  "Network",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "attributedTextFormattingDefinition",
+   "bold",
+   "contentTransition",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "italic",
+   "lineLimit",
+   "monospacedDigit",
+   "navigationTitle",
+   "onChange",
+   "padding",
+   "presentationBackgroundInteraction",
+   "presentationDetents",
+   "textEditorStyle",
+   "textInputFormattingControlVisibility",
+   "toolbar"
+  ],
+  "types": [
+   "AttributedTextSelection",
+   "Button",
+   "Menu",
+   "NavigationStack",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "semibold",
+   "smooth",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "automatic",
+   "hidden",
+   "inline",
+   "keyboard",
+   "leading",
+   "link",
+   "plain",
+   "primary",
+   "secondary",
+   "teal",
+   "top",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 10,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 52
+}

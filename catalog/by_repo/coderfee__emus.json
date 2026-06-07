@@ -1,0 +1,111 @@
+{
+ "repo": "coderfee/emus",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "75db6f00f8fa49e38c3fc1a1f09c58d3f67a1e67",
+ "platform": "macos",
+ "author_authority": 2531,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "coderfee",
+   "score": 2531,
+   "contributions": 29
+  }
+ ],
+ "loc": 807,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "OSLog",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "id",
+   "keyboardShortcut",
+   "labelsHidden",
+   "onAppear",
+   "onChange",
+   "onSubmit",
+   "padding",
+   "resizable",
+   "tabItem",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "Menu",
+   "MenuBarExtra",
+   "Picker",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "footnote",
+   "largeTitle"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "gray",
+   "grouped",
+   "leading",
+   "roundedBorder",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 19,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 52
+}

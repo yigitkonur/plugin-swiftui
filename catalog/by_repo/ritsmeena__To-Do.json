@@ -1,0 +1,128 @@
+{
+ "repo": "ritsmeena/To-Do",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3da6b1b35955c1131afb73dda566891378be0272",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "RitikaMeenaRil",
+   "score": 0,
+   "contributions": 13
+  },
+  {
+   "login": "ritsmeena",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1399,
+ "custom_components": 38,
+ "imports": [
+  "Foundation",
+  "Lottie",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "contentShape",
+   "cornerRadius",
+   "datePickerStyle",
+   "foregroundColor",
+   "frame",
+   "labelsHidden",
+   "listRowInsets",
+   "listRowSeparator",
+   "listStyle",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "presentationDetents",
+   "resizable",
+   "rotationEffect",
+   "scrollDisabled",
+   "sheet",
+   "textFieldStyle",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "CheckboxToggleStyle",
+   "Circle",
+   "DatePicker",
+   "EdgeInsets",
+   "ForEach",
+   "GraphicalDatePickerStyle",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "Menu",
+   "NavigationView",
+   "PlainListStyle",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "Section",
+   "Spacer",
+   "SwitchToggleStyle",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "medium"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "bottomTrailing",
+   "gray",
+   "hidden",
+   "horizontal",
+   "leading",
+   "trailing",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 25,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 68
+}

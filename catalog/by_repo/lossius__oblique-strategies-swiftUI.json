@@ -1,0 +1,85 @@
+{
+ "repo": "lossius/oblique-strategies-swiftUI",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c4aee057723d7016a4399558dc904b90c1300a83",
+ "platform": "macos",
+ "author_authority": 39,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lossius",
+   "score": 39,
+   "contributions": 2
+  }
+ ],
+ "loc": 397,
+ "custom_components": 8,
+ "imports": [
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "ignoresSafeArea",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "padding",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "HStack",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "bottom",
+   "hiddenTitleBar"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 7,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 30
+}

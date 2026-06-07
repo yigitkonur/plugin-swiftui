@@ -1,0 +1,138 @@
+{
+ "repo": "Atswik/Leaf",
+ "stars": 13,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3c6afb98215d14b306064f850ec8c07717f1add6",
+ "platform": "macos",
+ "author_authority": 14,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Atswik",
+   "score": 14,
+   "contributions": 9
+  }
+ ],
+ "loc": 1013,
+ "custom_components": 15,
+ "imports": [
+  "Cocoa",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonBorderShape",
+   "buttonStyle",
+   "controlSize",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "italic",
+   "kerning",
+   "lineSpacing",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onHover",
+   "opacity",
+   "padding",
+   "presentedWindowStyle",
+   "resizable",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "tint",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "MenuBarExtra",
+   "NSHostingView",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderless",
+   "bottom",
+   "center",
+   "default",
+   "glass",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "switch",
+   "titleBar",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 18,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 83
+}

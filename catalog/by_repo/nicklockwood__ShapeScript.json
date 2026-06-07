@@ -1,0 +1,87 @@
+{
+ "repo": "nicklockwood/ShapeScript",
+ "stars": 437,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "00f0d2f75b7ed2bc64cf9dcf03f79568941681ff",
+ "platform": "macos",
+ "author_authority": 71255,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nicklockwood",
+   "score": 71255,
+   "contributions": 986
+  },
+  {
+   "login": "armadsen",
+   "score": 1380,
+   "contributions": 1
+  },
+  {
+   "login": "ccampbell",
+   "score": 19238,
+   "contributions": 1
+  }
+ ],
+ "loc": 58215,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "CoreServices",
+  "CoreText",
+  "Dispatch",
+  "Euclid",
+  "Foundation",
+  "LRUCache",
+  "Metal",
+  "PackageDescription",
+  "Quartz",
+  "RealityKit",
+  "SVGPath",
+  "SceneKit",
+  "ShapeScript",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "gesture",
+   "onChanged",
+   "onEnded",
+   "scaled"
+  ],
+  "types": [
+   "DragGesture"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "hidden",
+   "identity"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 4,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 8
+}

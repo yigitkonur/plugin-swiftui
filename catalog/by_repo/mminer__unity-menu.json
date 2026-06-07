@@ -1,0 +1,59 @@
+{
+ "repo": "mminer/unity-menu",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "137303c1ca16a5a02a4f77659ba2fadcefd7b68d",
+ "platform": "macos",
+ "author_authority": 2930,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mminer",
+   "score": 2930,
+   "contributions": 24
+  }
+ ],
+ "loc": 283,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "ArgumentParser",
+  "Foundation",
+  "KeyboardShortcuts",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "frame",
+   "onChange",
+   "padding"
+  ],
+  "types": [
+   "Form",
+   "NSHostingController",
+   "Toggle"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 3,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 7
+}

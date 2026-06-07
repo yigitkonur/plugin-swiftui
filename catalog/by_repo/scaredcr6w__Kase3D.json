@@ -1,0 +1,116 @@
+{
+ "repo": "scaredcr6w/Kase3D",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7c994e3e774304b8ecc4f23e5257713536a2a47d",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "scaredcr6w",
+   "score": 0,
+   "contributions": 96
+  }
+ ],
+ "loc": 3125,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "CryptoKit",
+  "Foundation",
+  "Kase3DCore",
+  "Kase3DEngine",
+  "MetalKit",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "os",
+  "simd"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "environment",
+   "fileImporter",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "keyboardShortcut",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "shadow",
+   "tint",
+   "toolbar",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "Rectangle",
+   "ScrollView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "borderedProminent",
+   "center",
+   "clear",
+   "gray",
+   "horizontal",
+   "leading",
+   "top",
+   "topLeading",
+   "ultraThinMaterial",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 14,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

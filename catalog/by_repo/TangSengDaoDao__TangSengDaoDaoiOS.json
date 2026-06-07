@@ -1,0 +1,58 @@
+{
+ "repo": "TangSengDaoDao/TangSengDaoDaoiOS",
+ "stars": 58,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "50d9827a68fb96221b2ee5e37c47144065ff33e7",
+ "platform": "other",
+ "author_authority": 9232,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tangtaoit",
+   "score": 9232,
+   "contributions": 37
+  }
+ ],
+ "loc": 55803,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "Accelerate",
+  "AsyncDisplayKit",
+  "AudioToolbox",
+  "Compression",
+  "CoreGraphics",
+  "CoreHaptics",
+  "CoreMedia",
+  "CoreText",
+  "Foundation",
+  "Lottie",
+  "MediaPlayer",
+  "Metal",
+  "UIKit",
+  "librlottie"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

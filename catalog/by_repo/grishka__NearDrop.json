@@ -1,0 +1,69 @@
+{
+ "repo": "grishka/NearDrop",
+ "stars": 6138,
+ "categories": [
+  "File Sharing"
+ ],
+ "sha": "315cd03387b4e3339e41163fed6a918362cd8c5f",
+ "platform": "macos",
+ "author_authority": 12015,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "grishka",
+   "score": 12015,
+   "contributions": 66
+  },
+  {
+   "login": "PapaDocta",
+   "score": 5,
+   "contributions": 6
+  },
+  {
+   "login": "Angelk90",
+   "score": 7,
+   "contributions": 3
+  }
+ ],
+ "loc": 2439,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "BigInt",
+  "Cocoa",
+  "CommonCrypto",
+  "CoreFoundation",
+  "CryptoKit",
+  "Foundation",
+  "Metal",
+  "MetalKit",
+  "NearbyShare",
+  "Network",
+  "QRCode",
+  "SwiftECC",
+  "System",
+  "UniformTypeIdentifiers",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,134 @@
+{
+ "repo": "krystofwoldrich/easy-tree",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2fede6afb1ce1890c4408e5fef308ec659338264",
+ "platform": "macos",
+ "author_authority": 191702,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "krystofwoldrich",
+   "score": 191702,
+   "contributions": 45
+  }
+ ],
+ "loc": 3048,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "ArgumentParser",
+  "Combine",
+  "EasyTreeKit",
+  "Foundation",
+  "Observation",
+  "PackageDescription",
+  "Sparkle",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "controlSize",
+   "defaultSize",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuIndicator",
+   "navigationTitle",
+   "onChange",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "toolbar",
+   "truncationMode",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "regular",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "borderedProminent",
+   "borderless",
+   "fill",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "primaryAction",
+   "quaternary",
+   "secondary",
+   "tertiary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 19,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 75
+}

@@ -1,0 +1,92 @@
+{
+ "repo": "Himasnhu-AT/clippy",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1fd1ac9dd972fa798d996196a8ad53491cc3ec81",
+ "platform": "macos",
+ "author_authority": 33,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Himasnhu-AT",
+   "score": 33,
+   "contributions": 10
+  }
+ ],
+ "loc": 460,
+ "custom_components": 16,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "contextMenu",
+   "environmentObject",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "listStyle",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onTapGesture",
+   "padding",
+   "safeAreaInset",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "KeyEquivalent",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "Section",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "borderless",
+   "bottom",
+   "leading",
+   "sidebar",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 14,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 38
+}

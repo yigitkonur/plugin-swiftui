@@ -1,0 +1,72 @@
+{
+ "repo": "heckj/MeshGenerator",
+ "stars": 25,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b6b2a52303a58e7a5ca331e9334ce8c3c44407ac",
+ "platform": "macos",
+ "author_authority": 205217,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "heckj",
+   "score": 205217,
+   "contributions": 58
+  },
+  {
+   "login": "JrGoodle",
+   "score": 33,
+   "contributions": 1
+  }
+ ],
+ "loc": 3461,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "MeshGenerator",
+  "PackageDescription",
+  "RealityKit",
+  "SceneKit",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "border",
+   "onSubmit",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "red"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 5,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 10
+}

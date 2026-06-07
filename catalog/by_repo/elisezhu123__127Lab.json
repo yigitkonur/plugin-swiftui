@@ -1,0 +1,145 @@
+{
+ "repo": "elisezhu123/127Lab",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "134b9aefd21bdb2a2b6744379647ba4638cafeea",
+ "platform": "macos",
+ "author_authority": 96,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "elisezhu123",
+   "score": 96,
+   "contributions": 4
+  }
+ ],
+ "loc": 800,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Dify",
+  "Network",
+  "SwiftUI",
+  "Testing",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "environment",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "id",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "progressViewStyle",
+   "scaleEffect",
+   "shadow",
+   "sheet",
+   "stroke",
+   "textFieldStyle",
+   "truncationMode",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CircularProgressViewStyle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "ProgressView",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 22,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 85
+}

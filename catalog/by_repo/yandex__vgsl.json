@@ -1,0 +1,79 @@
+{
+ "repo": "yandex/vgsl",
+ "stars": 26,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "110871bc05644ad57f8454a01c5152ab4934a79e",
+ "platform": "macos",
+ "author_authority": 6237,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "morevsavva",
+   "score": 0,
+   "contributions": 6
+  },
+  {
+   "login": "lunarstill",
+   "score": 2644,
+   "contributions": 5
+  },
+  {
+   "login": "robot-piglet",
+   "score": 23391,
+   "contributions": 4
+  }
+ ],
+ "loc": 25123,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "BaseUIPublic",
+  "CoreGraphics",
+  "CoreHaptics",
+  "CoreImage",
+  "CoreText",
+  "Foundation",
+  "ImageIO",
+  "MetalKit",
+  "OSLog",
+  "PackageDescription",
+  "QuartzCore",
+  "SwiftShims",
+  "SwiftUI",
+  "SystemConfiguration",
+  "UIKit",
+  "VGSL",
+  "VGSLFundamentals",
+  "VGSLNetworking",
+  "VGSLUI",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilitySortPriority"
+  ],
+  "types": [],
+  "valueBuilders": [
+   "light"
+  ],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 0,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

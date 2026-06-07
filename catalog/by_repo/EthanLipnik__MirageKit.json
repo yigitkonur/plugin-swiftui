@@ -1,0 +1,130 @@
+{
+ "repo": "EthanLipnik/MirageKit",
+ "stars": 597,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "feb6703833a542527135384e1b4a6520c2a7c432",
+ "platform": "macos",
+ "author_authority": 16156,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "EthanLipnik",
+   "score": 16156,
+   "contributions": 414
+  }
+ ],
+ "loc": 215239,
+ "custom_components": 25,
+ "imports": [
+  "AVFAudio",
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "AudioToolbox",
+  "Carbon",
+  "ColorSync",
+  "CoreAudio",
+  "CoreFoundation",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreMedia",
+  "CoreVideo",
+  "CryptoKit",
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "GameController",
+  "IOKit",
+  "ImageIO",
+  "Loom",
+  "LoomCloudKit",
+  "Metal",
+  "MirageBootstrapShared",
+  "MirageHostBootstrapRuntime",
+  "MirageKit",
+  "MirageKitClient",
+  "MirageKitHost",
+  "Network",
+  "OSLog",
+  "Observation",
+  "PackageDescription",
+  "QuartzCore",
+  "ScreenCaptureKit",
+  "Security",
+  "Speech",
+  "SwiftUI",
+  "SystemConfiguration",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "VideoToolbox",
+  "os",
+  "zlib"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "blur",
+   "controlSize",
+   "environment",
+   "fill",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "tint"
+  ],
+  "types": [
+   "ProgressView",
+   "Rectangle",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "black",
+   "center",
+   "default",
+   "secondary",
+   "unified",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "accessibilityReduceMotion",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 5,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 2,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 37
+}

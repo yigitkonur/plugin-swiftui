@@ -1,0 +1,127 @@
+{
+ "repo": "Cindori/Navigation",
+ "stars": 24,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "314a69f0458fdf356a83aa2312a45aaa71d383e9",
+ "platform": "macos",
+ "author_authority": 1475,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "OskarGroth",
+   "score": 1475,
+   "contributions": 10
+  }
+ ],
+ "loc": 2675,
+ "custom_components": 28,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "MyLibrary",
+  "Navigation",
+  "OSLog",
+  "ObjectiveC",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibility",
+   "animation",
+   "background",
+   "blendMode",
+   "buttonStyle",
+   "clipped",
+   "contentShape",
+   "cornerRadius",
+   "environment",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "listStyle",
+   "modifier",
+   "navigationDestination",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "transition"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "Color",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "List",
+   "NSHostingController",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "asymmetric",
+   "center",
+   "clear",
+   "easeInOut",
+   "easeOut",
+   "regular",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "navigation",
+   "plain",
+   "sidebar",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 15,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 65
+}

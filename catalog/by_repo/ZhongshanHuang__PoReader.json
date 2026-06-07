@@ -1,0 +1,64 @@
+{
+ "repo": "ZhongshanHuang/PoReader",
+ "stars": 66,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "548da2ad41f1ce5c607a81ca3fad144696e31957",
+ "platform": "macos",
+ "author_authority": 91,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ZhongshanHuang",
+   "score": 91,
+   "contributions": 39
+  }
+ ],
+ "loc": 20014,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "CoreText",
+  "CryptoKit",
+  "Foundation",
+  "GCDWebServerSPM",
+  "MediaPlayer",
+  "PackageDescription",
+  "PoLabelDemo",
+  "PoNavigationBar",
+  "PoReader",
+  "PoSQLite",
+  "PoText",
+  "SQLite3",
+  "SQLiteBridging",
+  "SnapKit",
+  "Testing",
+  "UIKit",
+  "XCTest",
+  "poNavigationBarDemo"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

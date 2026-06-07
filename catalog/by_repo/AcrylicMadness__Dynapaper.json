@@ -1,0 +1,138 @@
+{
+ "repo": "AcrylicMadness/Dynapaper",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e3ab7b37a6040acc0c9c992e11a737844e173b2b",
+ "platform": "macos",
+ "author_authority": 13,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "AcrylicMadness",
+   "score": 13,
+   "contributions": 42
+  }
+ ],
+ "loc": 1206,
+ "custom_components": 26,
+ "imports": [
+  "AppKit",
+  "Dynapaper",
+  "Foundation",
+  "ImageIO",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "buttonStyle",
+   "commands",
+   "containerBackground",
+   "contentShape",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "dropDestination",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "glassEffect",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "mask",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "resizable",
+   "scaleEffect",
+   "symbolVariant",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "BorderedProminentButtonStyle",
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "PlainButtonStyle",
+   "ProgressView",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowDragGesture",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "blurReplace",
+   "bouncy",
+   "caption2",
+   "easeIn",
+   "easeInOut",
+   "light",
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "center",
+   "fill",
+   "firstTextBaseline",
+   "glass",
+   "glassProminent",
+   "gray",
+   "hiddenTitleBar",
+   "leading",
+   "plain",
+   "red",
+   "regularMaterial",
+   "secondary",
+   "topTrailing",
+   "ultraThinMaterial",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 19,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 81
+}

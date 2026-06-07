@@ -1,0 +1,144 @@
+{
+ "repo": "Yukaii/topti",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b0a28d2c5b73ab8544ae962b706faf36b2da385b",
+ "platform": "macos",
+ "author_authority": 256070,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Yukaii",
+   "score": 256070,
+   "contributions": 14
+  }
+ ],
+ "loc": 3779,
+ "custom_components": 24,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Combine",
+  "CoreGraphics",
+  "CoreHID",
+  "Foundation",
+  "OpenMultitouchSupport",
+  "PackageDescription",
+  "Security",
+  "SwiftUI",
+  "Testing",
+  "ToptiCore"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "defaultSize",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "position",
+   "shadow",
+   "stroke",
+   "tag",
+   "tracking",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "HSplitView",
+   "HStack",
+   "LabeledContent",
+   "LazyVGrid",
+   "LinearGradient",
+   "MenuBarExtra",
+   "Path",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "light",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "borderedProminent",
+   "bottomLeading",
+   "bottomTrailing",
+   "clear",
+   "firstTextBaseline",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "segmented",
+   "topLeading",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 26,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 81
+}

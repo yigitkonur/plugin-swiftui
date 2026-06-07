@@ -1,0 +1,66 @@
+{
+ "repo": "BirdsWind/Match3AR",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8dff7765dff172f220d6369ccd88d3e3352d5448",
+ "platform": "macos",
+ "author_authority": 31,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "BirdsWind",
+   "score": 31,
+   "contributions": 1
+  }
+ ],
+ "loc": 572,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "RealityKit",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "gesture",
+   "ignoresSafeArea",
+   "onEnded"
+  ],
+  "types": [
+   "State",
+   "TapGesture",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "easeInOut"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "gray",
+   "green",
+   "red"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 3,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 12
+}

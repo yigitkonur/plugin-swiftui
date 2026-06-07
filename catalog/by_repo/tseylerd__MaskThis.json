@@ -1,0 +1,134 @@
+{
+ "repo": "tseylerd/MaskThis",
+ "stars": 21,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "e6589c9b2d91cddd2aa63e3d8610745519c91e82",
+ "platform": "macos",
+ "author_authority": 105375,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tseylerd",
+   "score": 105375,
+   "contributions": 95
+  }
+ ],
+ "loc": 2724,
+ "custom_components": 52,
+ "imports": [
+  "AppKit",
+  "Atomics",
+  "BackgroundAssets",
+  "ExtensionFoundation",
+  "Foundation",
+  "FoundationModels",
+  "KeyboardShortcuts",
+  "MaskThis",
+  "OSLog",
+  "ServiceManagement",
+  "StoreKit",
+  "SwiftUI",
+  "System",
+  "Testing"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "mask",
+   "multilineTextAlignment",
+   "onChange",
+   "opacity",
+   "padding",
+   "scenePadding",
+   "sizeThatFits",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "DisclosureGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingController",
+   "ProgressView",
+   "ScrollView",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Tab",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "body",
+   "center",
+   "footnote",
+   "headline",
+   "light",
+   "regular",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "borderless",
+   "center",
+   "clear",
+   "default",
+   "gray",
+   "leading",
+   "orange",
+   "plain",
+   "red",
+   "secondary"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 24,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 69
+}

@@ -1,0 +1,48 @@
+{
+ "repo": "johndpope/MetalCityscape",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7fc30637430f412186b832be720993f67fb8d059",
+ "platform": "other",
+ "author_authority": 132876,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "johndpope",
+   "score": 132876,
+   "contributions": 13
+  }
+ ],
+ "loc": 1305,
+ "custom_components": 0,
+ "imports": [
+  "Cocoa",
+  "Metal",
+  "MetalKit",
+  "ModelIO",
+  "simd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

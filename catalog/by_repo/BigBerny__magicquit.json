@@ -1,0 +1,109 @@
+{
+ "repo": "BigBerny/magicquit",
+ "stars": 338,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "70f63ee3dad3beb8f9597eed0c72495ad4f93336",
+ "platform": "macos",
+ "author_authority": 346,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "BigBerny",
+   "score": 346,
+   "contributions": 21
+  }
+ ],
+ "loc": 574,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "LaunchAtLogin",
+  "MagicQuit",
+  "ScriptingBridge",
+  "SwiftUI",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alignmentGuide",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onHover",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "toggleStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingController",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "regular",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "primary",
+   "top",
+   "trailing",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 19,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 51
+}

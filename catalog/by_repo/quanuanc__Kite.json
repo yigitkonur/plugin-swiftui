@@ -1,0 +1,93 @@
+{
+ "repo": "quanuanc/Kite",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6d038ea1671773141c228ca3cbfea0f3b9b8d39f",
+ "platform": "macos",
+ "author_authority": 61,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "quanuanc",
+   "score": 61,
+   "contributions": 6
+  }
+ ],
+ "loc": 1894,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "Security",
+  "SwiftUI",
+  "SystemConfiguration"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "padding",
+   "stroke"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "EmptyView",
+   "Group",
+   "Image",
+   "ImageRenderer",
+   "MenuBarExtra",
+   "Path",
+   "Settings",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "default",
+   "horizontal",
+   "iconOnly",
+   "menu",
+   "red",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 15,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 39
+}

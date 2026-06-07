@@ -1,0 +1,625 @@
+{
+ "Preview": {
+  "total_uses": 18748,
+  "repo_count": 938,
+  "low_corpus": false,
+  "top_repos": [
+   [
+    "yigitkonur/SWComp",
+    1089
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    883
+   ],
+   [
+    "MatHeartGaming/coolStuff_with_SwiftUI",
+    443
+   ],
+   [
+    "instructure/canvas-ios",
+    388
+   ],
+   [
+    "vrgsptn/SwiftUI-by-Apple-Developer-Documentation",
+    341
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    248
+   ],
+   [
+    "munsangu/SwiftUI",
+    230
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    214
+   ],
+   [
+    "ProtonVPN/ios-mac-app",
+    204
+   ],
+   [
+    "tobitech/Exploration",
+    196
+   ]
+  ],
+  "examples": [
+   {
+    "id": "ex_cd57344856",
+    "repo": "utmapp/UTM",
+    "path": "Platform/macOS/UTMServerView.swift",
+    "line": 170,
+    "permalink": "https://github.com/utmapp/UTM/blob/e4a4c34b671284263fc69f81b607de494d7e9b65/Platform/macOS/UTMServerView.swift#L170",
+    "src": "@available(macOS 13, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 34295,
+     "author_authority": 52984,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.5324
+    }
+   },
+   {
+    "id": "ex_9a1015115a",
+    "repo": "msitarzewski/brew-browser",
+    "path": "native/Sources/BrewBrowserKit/AboutView.swift",
+    "line": 117,
+    "permalink": "https://github.com/msitarzewski/brew-browser/blob/4ceadc593984017f977e363283c77ac455e7554d/native/Sources/BrewBrowserKit/AboutView.swift#L117",
+    "src": "#Preview(\"About\") { AboutView(model: .preview()) }",
+    "shape": null,
+    "provenance": {
+     "stars": 540,
+     "author_authority": 123717,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.4427
+    }
+   },
+   {
+    "id": "ex_ae3b8d67eb",
+    "repo": "orchetect/MacControlCenterUI",
+    "path": "Sources/MacControlCenterUI/Menu Items/MenuHeader.swift",
+    "line": 133,
+    "permalink": "https://github.com/orchetect/MacControlCenterUI/blob/8259a1273c1b6a76a5802db39adf8d264a33e6cb/Sources/MacControlCenterUI/Menu Items/MenuHeader.swift#L133",
+    "src": "@available(macOS 14, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 165,
+     "author_authority": 20632,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.368
+    }
+   },
+   {
+    "id": "ex_acc7ca725f",
+    "repo": "strongbox-password-safe/Strongbox",
+    "path": "TwoFactorView.swift",
+    "line": 109,
+    "permalink": "https://github.com/strongbox-password-safe/Strongbox/blob/26ecccf4633921a20dd354a1548a740fbcb07ab7/TwoFactorView.swift#L109",
+    "src": "@available(iOS 16.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 1440,
+     "author_authority": 393,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.2884
+    }
+   },
+   {
+    "id": "ex_7e9e408290",
+    "repo": "vChewing/vChewing-macOS",
+    "path": "Packages/vChewing_CandidateWindow/Sources/TDK4AppKit/_GSI4AppKit_Previews.swift",
+    "line": 15,
+    "permalink": "https://github.com/vChewing/vChewing-macOS/blob/acfff174aa71a0b7a7a4da61dab879bd0250d8bf/Packages/vChewing_CandidateWindow/Sources/TDK4AppKit/_GSI4AppKit_Previews.swift#L15",
+    "src": "@available(macOS 14, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 519,
+     "author_authority": 14298,
+     "min_macos": "15",
+     "platform": "macos",
+     "score": 0.2796
+    }
+   },
+   {
+    "id": "ex_884d7e8284",
+    "repo": "simpsoka/jules-companion",
+    "path": "jules/VoiceInputView.swift",
+    "line": 622,
+    "permalink": "https://github.com/simpsoka/jules-companion/blob/4162f648dea182442d236a72de681cab70bc7603/jules/VoiceInputView.swift#L622",
+    "src": "@available(macOS 26.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 90,
+     "author_authority": 182,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.2427
+    }
+   },
+   {
+    "id": "ex_14f25a59ff",
+    "repo": "alecf/photo-restore-mac",
+    "path": "PhotoRestore/ContentView.swift",
+    "line": 134,
+    "permalink": "https://github.com/alecf/photo-restore-mac/blob/771cd3786e6cda9ea504069045ee440a02b51dff/PhotoRestore/ContentView.swift#L134",
+    "src": "#Preview { ContentView() }",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 40166,
+     "min_macos": "14",
+     "platform": "macos",
+     "score": 0.2379
+    }
+   },
+   {
+    "id": "ex_81483ffcba",
+    "repo": "xmannv/xkey",
+    "path": "XKey/UI/SettingsView.swift",
+    "line": 128,
+    "permalink": "https://github.com/xmannv/xkey/blob/c4b3294e7809ec3c21dc0cccd3052a74a9c68923/XKey/UI/SettingsView.swift#L128",
+    "src": "@available(macOS 13.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 459,
+     "author_authority": 469,
+     "min_macos": "13",
+     "platform": "macos",
+     "score": 0.1956
+    }
+   },
+   {
+    "id": "ex_4181609053",
+    "repo": "jeanbarrossilva/Pragma",
+    "path": "OnboardingFeature/OnboardingCarousel.swift",
+    "line": 22,
+    "permalink": "https://github.com/jeanbarrossilva/Pragma/blob/32db25b67fa5cadf0a1dbaf549c1da37196403a0/OnboardingFeature/OnboardingCarousel.swift#L22",
+    "src": "#Preview { OnboardingCarousel(onNext: {}) }",
+    "shape": null,
+    "provenance": {
+     "stars": 1,
+     "author_authority": 10,
+     "min_macos": "26",
+     "platform": "other",
+     "score": 0.0896
+    }
+   },
+   {
+    "id": "ex_bb3996c33e",
+    "repo": "DataDog/dd-sdk-ios",
+    "path": "DatadogSessionReplay/SRSnapshotTests/SRFixtures/Sources/SRFixtures/ViewControllers/SymbolsView.swift",
+    "line": 43,
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/DatadogSessionReplay/SRSnapshotTests/SRFixtures/Sources/SRFixtures/ViewControllers/SymbolsView.swift#L43",
+    "src": "@available(iOS 15.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 282,
+     "author_authority": 2841,
+     "min_macos": "14",
+     "platform": "other",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_58bc6294d2",
+    "repo": "moderato-app/approf",
+    "path": "approf/Component/effcts/Ripple.swift",
+    "line": 13,
+    "permalink": "https://github.com/moderato-app/approf/blob/5e317d5ebf254b09dcb1bebbb651f0958d3a0886/approf/Component/effcts/Ripple.swift#L13",
+    "src": "@available(macOS 15.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 197,
+     "author_authority": 0,
+     "min_macos": "15",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_612d0fa3a0",
+    "repo": "Kurozora/kurozora-app",
+    "path": "KurozoraWidget/Widgets/UpNextWidget/UpNextWidgetEntryView.swift",
+    "line": 443,
+    "permalink": "https://github.com/Kurozora/kurozora-app/blob/0b58c8b50454bbb774be8d15eb32ac796ae52c18/KurozoraWidget/Widgets/UpNextWidget/UpNextWidgetEntryView.swift#L443",
+    "src": "@available(iOS 17.0, macOS 14.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 68,
+     "author_authority": 220,
+     "min_macos": "14",
+     "platform": "other",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_7b2f896002",
+    "repo": "Matt54/ImagePlaygroundExamples",
+    "path": "ImagePlaygroundExamples/MainView.swift",
+    "line": 43,
+    "permalink": "https://github.com/Matt54/ImagePlaygroundExamples/blob/a0a1ea2a8b9fc83040b881ca7eb684658bbc4162/ImagePlaygroundExamples/MainView.swift#L43",
+    "src": "#Preview { MainView() }",
+    "shape": null,
+    "provenance": {
+     "stars": 11,
+     "author_authority": 224,
+     "min_macos": "14",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_482b370351",
+    "repo": "nicksoftware/MacSnapper",
+    "path": "MacSnapper/Presentation/Views/StoreKitUpgradeView.swift",
+    "line": 290,
+    "permalink": "https://github.com/nicksoftware/MacSnapper/blob/9a5d9373cdab54638f0cf915bb11a9917b3287d8/MacSnapper/Presentation/Views/StoreKitUpgradeView.swift#L290",
+    "src": "@available(macOS 12.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 4,
+     "author_authority": 46,
+     "min_macos": "13",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_55e5346f06",
+    "repo": "gsoti/UITestsAsSpecsKickstarter1",
+    "path": "KurozoraWidget/DateWidget.swift",
+    "line": 167,
+    "permalink": "https://github.com/gsoti/UITestsAsSpecsKickstarter1/blob/b7cfedaf63ec6d912408159dae46f4ac025f4a74/KurozoraWidget/DateWidget.swift#L167",
+    "src": "@available(iOS 17.0, macOS 14.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 3,
+     "author_authority": 3,
+     "min_macos": "14",
+     "platform": "other",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_3a1945e427",
+    "repo": "satish-fluidtouch/Noteshelf3",
+    "path": "Noteshelf3 Widgets/FTInteractiveWidgets.swift",
+    "line": 237,
+    "permalink": "https://github.com/satish-fluidtouch/Noteshelf3/blob/108de219e2d801b851749691ae18f46291d883b4/Noteshelf3 Widgets/FTInteractiveWidgets.swift#L237",
+    "src": "@available(iOS 17.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 1,
+     "author_authority": 0,
+     "min_macos": "14",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_6af174f2c9",
+    "repo": "Py-Swift/ElementaryViews",
+    "path": "research/OpenSwiftUI/Example/OpenSwiftUIUITests/FB/FB13341321.swift",
+    "line": 112,
+    "permalink": "https://github.com/Py-Swift/ElementaryViews/blob/45d6985dd9cf08e6757d9903c2ef3c1fe9d8b9a5/research/OpenSwiftUI/Example/OpenSwiftUIUITests/FB/FB13341321.swift#L112",
+    "src": "@available(iOS 14, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 19001,
+     "min_macos": "14",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_6ee85756e4",
+    "repo": "Slash137/NotificationBridge-MacOS",
+    "path": "ContentView.swift",
+    "line": 442,
+    "permalink": "https://github.com/Slash137/NotificationBridge-MacOS/blob/72ecb28d5b1eea4c31a93534b3148ea776f5557b/ContentView.swift#L442",
+    "src": "#Preview { ContentView() }",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 0,
+     "min_macos": "12",
+     "platform": "macos",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_02f4a46358",
+    "repo": "andychucs/ReNextNavi",
+    "path": "App/BraveWidgets/ShortcutsWidget.swift",
+    "line": 227,
+    "permalink": "https://github.com/andychucs/ReNextNavi/blob/b72e65210978095a4ad5788682b75ffe3a76cc29/App/BraveWidgets/ShortcutsWidget.swift#L227",
+    "src": "@available(iOS 17.0, *)",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 134,
+     "min_macos": "26",
+     "platform": "other",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_99f7d7ffb7",
+    "repo": "ezhoureal/ChatUI",
+    "path": "playground/ContentView.swift",
+    "line": 83,
+    "permalink": "https://github.com/ezhoureal/ChatUI/blob/f3c1a7ed1c4ae7108b27d508057fd77e26985278/playground/ContentView.swift#L83",
+    "src": "#Preview{ContentView().modelContainer(for: [Chat.self, Message.self])}",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 21063,
+     "min_macos": "15",
+     "platform": "other",
+     "score": 0.0
+    }
+   },
+   {
+    "id": "ex_4798909139",
+    "repo": "sindresorhus/Gifski",
+    "path": "Gifski/MainScreen.swift",
+    "line": 106,
+    "permalink": "https://github.com/sindresorhus/Gifski/blob/7f873856e2acd8b52e6681dee3aec31e6cab23e4/Gifski/MainScreen.swift#L106",
+    "src": "#Preview {",
+    "shape": null,
+    "provenance": {
+     "stars": 8409,
+     "author_authority": 1013769,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.8596
+    }
+   },
+   {
+    "id": "ex_6b3d3d5dd9",
+    "repo": "f/textream",
+    "path": "Textream/Textream/ContentView.swift",
+    "line": 750,
+    "permalink": "https://github.com/f/textream/blob/6c34baaef9fea5de30bce619b4ed34cd675d5617/Textream/Textream/ContentView.swift#L750",
+    "src": "#Preview {",
+    "shape": null,
+    "provenance": {
+     "stars": 3300,
+     "author_authority": 409932,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.8158
+    }
+   },
+   {
+    "id": "ex_7629719a06",
+    "repo": "jordanbaird/Ice",
+    "path": "Ice/UI/Pickers/CustomGradientPicker/CustomGradientPicker.swift",
+    "line": 442,
+    "permalink": "https://github.com/jordanbaird/Ice/blob/11edd39115f3f43a83ae114b5348df6a0e1741cf/Ice/UI/Pickers/CustomGradientPicker/CustomGradientPicker.swift#L442",
+    "src": "#Preview {",
+    "shape": null,
+    "provenance": {
+     "stars": 28314,
+     "author_authority": 28561,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.764
+    }
+   },
+   {
+    "id": "ex_639509c6bf",
+    "repo": "kageroumado/phosphene",
+    "path": "Phosphene/MenuBarPopoverView.swift",
+    "line": 360,
+    "permalink": "https://github.com/kageroumado/phosphene/blob/757cae705aaf36ac13ba973919a181ea89fb2e3c/Phosphene/MenuBarPopoverView.swift#L360",
+    "src": "#Preview {",
+    "shape": null,
+    "provenance": {
+     "stars": 737,
+     "author_authority": 197058,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.7559
+    }
+   },
+   {
+    "id": "ex_833190368a",
+    "repo": "tahseen-kakar/harbor",
+    "path": "Harbor/Views/SettingsView.swift",
+    "line": 121,
+    "permalink": "https://github.com/tahseen-kakar/harbor/blob/064c6b7c706c255ca30ae2c0ce607b6ba21e2edd/Harbor/Views/SettingsView.swift#L121",
+    "src": "#Preview(\"Settings\") {",
+    "shape": null,
+    "provenance": {
+     "stars": 122,
+     "author_authority": 125623,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.6924
+    }
+   }
+  ],
+  "co_occurs_with": [
+   {
+    "sym": "chart3DPose",
+    "lift": 2.0,
+    "repos": 10
+   },
+   {
+    "sym": "chartYSelection",
+    "lift": 2.0,
+    "repos": 6
+   },
+   {
+    "sym": "chart3DCameraProjection",
+    "lift": 2.0,
+    "repos": 8
+   },
+   {
+    "sym": "Transient",
+    "lift": 2.0,
+    "repos": 15
+   },
+   {
+    "sym": "onScrollVisibilityChange",
+    "lift": 2.0,
+    "repos": 10
+   },
+   {
+    "sym": "tabViewSidebarHeader",
+    "lift": 2.0,
+    "repos": 10
+   },
+   {
+    "sym": "tabViewSidebarFooter",
+    "lift": 2.0,
+    "repos": 6
+   },
+   {
+    "sym": "RotateGesture",
+    "lift": 2.0,
+    "repos": 10
+   }
+  ],
+  "availability": {
+   "introduced_macos": "10.15",
+   "deprecated": false
+  }
+ },
+ "Index": {
+  "total_uses": 4,
+  "repo_count": 3,
+  "low_corpus": true,
+  "top_repos": [
+   [
+    "kageroumado/refrax-browser",
+    2
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    1
+   ],
+   [
+    "nace33/File-Driver",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "id": "ex_c7276c9cd6",
+    "repo": "kageroumado/refrax-browser",
+    "path": "Refrax/Core/Models/Tabs/TabGroup.swift",
+    "line": 19,
+    "permalink": "https://github.com/kageroumado/refrax-browser/blob/9f768091f61cd75467af84adf3729e6f4f694830/Refrax/Core/Models/Tabs/TabGroup.swift#L19",
+    "src": "#Index<TabGroup>([\\.parentGroupID])",
+    "shape": null,
+    "provenance": {
+     "stars": 21,
+     "author_authority": 22949,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.2052
+    }
+   },
+   {
+    "id": "ex_e18a0fb7df",
+    "repo": "mihaelamj/cupertino-sample-code",
+    "path": "coredata-adopting-swiftdata-for-a-core-data-app/Trips-SwiftData/Shared/Trip.swift",
+    "line": 13,
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/coredata-adopting-swiftdata-for-a-core-data-app/Trips-SwiftData/Shared/Trip.swift#L13",
+    "src": "#Index<Trip>([\\.name], [\\.startDate], [\\.endDate], [\\.name, \\.startDate, \\.endDate])",
+    "shape": null,
+    "provenance": {
+     "stars": 22,
+     "author_authority": 120131,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.0292
+    }
+   },
+   {
+    "id": "ex_c2ce0378a5",
+    "repo": "nace33/File-Driver",
+    "path": "File Driver/Filing/Filer_View/Model/SD_FilerCase.swift",
+    "line": 199,
+    "permalink": "https://github.com/nace33/File-Driver/blob/e811f6f4b4b2e254e5c49717ffdaa0baf6e1d9cf/File Driver/Filing/Filer_View/Model/SD_FilerCase.swift#L199",
+    "src": "#Index<FilerSearchString>( [\\.text], [\\.itemID])",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 0,
+     "min_macos": "15",
+     "platform": "macos",
+     "score": 0.0
+    }
+   }
+  ],
+  "co_occurs_with": [],
+  "availability": {
+   "introduced_macos": "15.0",
+   "deprecated": false
+  }
+ },
+ "Unique": {
+  "total_uses": 2,
+  "repo_count": 2,
+  "low_corpus": true,
+  "top_repos": [
+   [
+    "103style/iOSLearnSwift",
+    1
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "id": "ex_e7c3336306",
+    "repo": "mihaelamj/cupertino-sample-code",
+    "path": "coredata-adopting-swiftdata-for-a-core-data-app/Trips-SwiftData/Shared/Trip.swift",
+    "line": 14,
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/coredata-adopting-swiftdata-for-a-core-data-app/Trips-SwiftData/Shared/Trip.swift#L14",
+    "src": "#Unique<Trip>([\\.name, \\.startDate, \\.endDate])",
+    "shape": null,
+    "provenance": {
+     "stars": 22,
+     "author_authority": 120131,
+     "min_macos": "26",
+     "platform": "macos",
+     "score": 0.0292
+    }
+   },
+   {
+    "id": "ex_59d76a5dd2",
+    "repo": "103style/iOSLearnSwift",
+    "path": "iOSLearn/DataStorage/Food.swift",
+    "line": 39,
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/DataStorage/Food.swift#L39",
+    "src": "#Unique<Food>([\\.name, \\.price, \\.cover])",
+    "shape": null,
+    "provenance": {
+     "stars": 0,
+     "author_authority": 457,
+     "min_macos": "15",
+     "platform": "other",
+     "score": 0.0
+    }
+   }
+  ],
+  "co_occurs_with": [],
+  "availability": {
+   "introduced_macos": "15.0",
+   "deprecated": false
+  }
+ }
+}

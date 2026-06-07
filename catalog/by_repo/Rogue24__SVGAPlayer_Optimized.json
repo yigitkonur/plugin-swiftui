@@ -1,0 +1,49 @@
+{
+ "repo": "Rogue24/SVGAPlayer_Optimized",
+ "stars": 19,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c42d4c077e657a63dc43ccf78c0b2b1bfe962da4",
+ "platform": "other",
+ "author_authority": 1768,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Rogue24",
+   "score": 1768,
+   "contributions": 89
+  }
+ ],
+ "loc": 1886,
+ "custom_components": 0,
+ "imports": [
+  "CryptoKit",
+  "Foundation",
+  "Photos",
+  "SVGAPlayer_Optimized",
+  "SVProgressHUD",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

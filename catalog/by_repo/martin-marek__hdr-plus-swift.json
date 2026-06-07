@@ -1,0 +1,140 @@
+{
+ "repo": "martin-marek/hdr-plus-swift",
+ "stars": 241,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "69cb0572bb6712e160c448260125cb6099bdfd87",
+ "platform": "macos",
+ "author_authority": 5157,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "martin-marek",
+   "score": 5157,
+   "contributions": 130
+  },
+  {
+   "login": "chris-rank",
+   "score": 0,
+   "contributions": 123
+  },
+  {
+   "login": "Alex-Vasile",
+   "score": 1598,
+   "contributions": 21
+  }
+ ],
+ "loc": 3397,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "MetalKit",
+  "MetalPerformanceShaders",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "commands",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "imageScale",
+   "italic",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onDrop",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "renderingMode",
+   "resizable",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "tabItem",
+   "windowStyle"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "MenuPickerStyle",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "RoundedRectangle",
+   "SegmentedPickerStyle",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "Stepper",
+   "TabView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "light",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "primary",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 28,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 73
+}

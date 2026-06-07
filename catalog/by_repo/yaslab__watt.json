@@ -1,0 +1,117 @@
+{
+ "repo": "yaslab/watt",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91f02bf2d39ae44db521b002cf5766cc5d83b708",
+ "platform": "macos",
+ "author_authority": 890,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "yaslab",
+   "score": 890,
+   "contributions": 180
+  }
+ ],
+ "loc": 2574,
+ "custom_components": 34,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CoreFoundation",
+  "Dispatch",
+  "Foundation",
+  "IOKit",
+  "Observation",
+  "ServiceManagement",
+  "StoreKit",
+  "SwiftUI",
+  "Synchronization",
+  "Testing",
+  "Watt",
+  "notify",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "environment",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelStyle",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "RoundedRectangle",
+   "Section",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "fill",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "switch",
+   "titleAndIcon",
+   "trailing",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 12,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 52
+}

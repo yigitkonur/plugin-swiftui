@@ -1,0 +1,105 @@
+{
+ "repo": "ntloc9/scroll-to-zoom",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "23941b92d0e87a42b65ebb512a642268a3815c3d",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ntloc-axonivy",
+   "score": 14,
+   "contributions": 15
+  },
+  {
+   "login": "ntloc9",
+   "score": 0,
+   "contributions": 4
+  }
+ ],
+ "loc": 469,
+ "custom_components": 7,
+ "imports": [
+  "CoreGraphics",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "buttonStyle",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "top"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 16,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 46
+}

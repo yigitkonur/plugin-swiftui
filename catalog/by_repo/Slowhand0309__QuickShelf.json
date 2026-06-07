@@ -1,0 +1,153 @@
+{
+ "repo": "Slowhand0309/QuickShelf",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b1790c94062b28a082fe9da0e9f5d2d7299fc7bf",
+ "platform": "macos",
+ "author_authority": 47712,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Slowhand0309",
+   "score": 47712,
+   "contributions": 112
+  }
+ ],
+ "loc": 1063,
+ "custom_components": 16,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "CoreTransferable",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "MenuBarExtraAccess",
+  "QuickLook",
+  "QuickLookUI",
+  "QuickShelf",
+  "Sparkle",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alignmentGuide",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "disabled",
+   "draggable",
+   "fixedSize",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "listRowSeparatorTint",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onDisappear",
+   "onExitCommand",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "renderingMode",
+   "resizable",
+   "scrollContentBackground",
+   "shadow",
+   "stroke",
+   "tabItem",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "transition",
+   "truncationMode",
+   "zIndex"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "semibold",
+   "subheadline",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "borderless",
+   "bottom",
+   "hidden",
+   "horizontal",
+   "leading",
+   "listRowSeparatorLeading",
+   "menu",
+   "plain",
+   "primary",
+   "red",
+   "regularMaterial",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 38,
+  "types": 16,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 85
+}

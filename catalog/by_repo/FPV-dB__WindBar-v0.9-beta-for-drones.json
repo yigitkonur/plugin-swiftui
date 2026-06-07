@@ -1,0 +1,118 @@
+{
+ "repo": "FPV-dB/WindBar-v0.9-beta-for-drones",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e3cdf882958134c0b57f36d7426679424b83fa2a",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "FPV-dB",
+   "score": 0,
+   "contributions": 9
+  }
+ ],
+ "loc": 1491,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CoreLocation",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "imageScale",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "caption2",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "firstTextBaseline",
+   "gray",
+   "green",
+   "leading",
+   "link",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "segmented",
+   "tint",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 20,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 61
+}

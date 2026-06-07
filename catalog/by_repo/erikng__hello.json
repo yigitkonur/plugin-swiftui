@@ -1,0 +1,140 @@
+{
+ "repo": "erikng/hello",
+ "stars": 137,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a1b5e0b12d5f6a9596891366275ec05d3d86ee8a",
+ "platform": "macos",
+ "author_authority": 4526,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "erikng",
+   "score": 4526,
+   "contributions": 94
+  },
+  {
+   "login": "johnmikee",
+   "score": 8,
+   "contributions": 1
+  }
+ ],
+ "loc": 1578,
+ "custom_components": 77,
+ "imports": [
+  "Foundation",
+  "SwiftUI",
+  "XCTest",
+  "hello"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "scaledToFit",
+   "stroke",
+   "textSelection",
+   "transition",
+   "windowStyle",
+   "zIndex"
+  ],
+  "types": [
+   "AsyncImage",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "center",
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "light",
+   "medium",
+   "subheadline",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "bottom",
+   "center",
+   "circular",
+   "gray",
+   "green",
+   "hiddenTitleBar",
+   "leading",
+   "link",
+   "orange",
+   "pink",
+   "primary",
+   "purple",
+   "red",
+   "secondary",
+   "top",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 17,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 19,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 80
+}

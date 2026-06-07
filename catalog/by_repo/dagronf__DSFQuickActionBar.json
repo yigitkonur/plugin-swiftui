@@ -1,0 +1,94 @@
+{
+ "repo": "dagronf/DSFQuickActionBar",
+ "stars": 150,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7be7b3bd2cebb19ee119ba1f972ecce581de5aeb",
+ "platform": "macos",
+ "author_authority": 2463,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dagronf",
+   "score": 2463,
+   "contributions": 86
+  }
+ ],
+ "loc": 4080,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreImage",
+  "DSFAppKitBuilder",
+  "DSFAppearanceManager",
+  "DSFQuickActionBar",
+  "Dispatch",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "font",
+   "foregroundColor",
+   "frame",
+   "italic",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "padding",
+   "resizable"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EdgeInsets",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "callout",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "gray",
+   "leading",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 12,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 31
+}

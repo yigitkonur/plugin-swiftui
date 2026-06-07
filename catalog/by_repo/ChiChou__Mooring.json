@@ -1,0 +1,124 @@
+{
+ "repo": "ChiChou/Mooring",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "28bf2004cf1cc44f64dee542f070d7ad857aa3f0",
+ "platform": "macos",
+ "author_authority": 61876,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ChiChou",
+   "score": 61876,
+   "contributions": 15
+  }
+ ],
+ "loc": 1151,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Darwin",
+  "Foundation",
+  "Mooring",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "defaultPosition",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "medium"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "checkbox",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 15,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 67
+}

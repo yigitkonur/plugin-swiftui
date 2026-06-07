@@ -1,0 +1,114 @@
+{
+ "repo": "SunnyFloppyDiskStudios/HeliPad",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2ad4eb7235440410cb608e7e271f1caa2c0d482b",
+ "platform": "macos",
+ "author_authority": 6,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "SunnyFloppyDiskStudios",
+   "score": 6,
+   "contributions": 27
+  }
+ ],
+ "loc": 439,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "containerBackground",
+   "environmentObject",
+   "focused",
+   "font",
+   "frame",
+   "lineLimit",
+   "matchedGeometryEffect",
+   "multilineTextAlignment",
+   "onAppear",
+   "onDrag",
+   "onDrop",
+   "onHover",
+   "onReceive",
+   "onTapGesture",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "symbolEffect",
+   "textFieldStyle",
+   "toolbar",
+   "windowFullScreenBehavior",
+   "windowLevel",
+   "windowMinimizeBehavior",
+   "windowResizeBehavior",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "interpolatingSpring"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "hiddenTitleBar",
+   "leading",
+   "thinMaterial",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "Namespace",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 13,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 8,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 59
+}

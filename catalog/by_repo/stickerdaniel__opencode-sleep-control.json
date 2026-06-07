@@ -1,0 +1,71 @@
+{
+ "repo": "stickerdaniel/opencode-sleep-control",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3664592e801ef5876a494ce8014c6c2b9e26140e",
+ "platform": "macos",
+ "author_authority": 39314,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "stickerdaniel",
+   "score": 39314,
+   "contributions": 8
+  }
+ ],
+ "loc": 501,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "IOKit",
+  "Network",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "font",
+   "frame",
+   "keyboardShortcut",
+   "padding",
+   "symbolRenderingMode"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Image",
+   "MenuBarExtra",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "subheadline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 6,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 16
+}

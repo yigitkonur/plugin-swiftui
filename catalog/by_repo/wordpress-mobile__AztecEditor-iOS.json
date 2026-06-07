@@ -1,0 +1,69 @@
+{
+ "repo": "wordpress-mobile/AztecEditor-iOS",
+ "stars": 668,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2935d90680c33e11a27282f1d8459e850f66a276",
+ "platform": "other",
+ "author_authority": 1902,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "diegoreymendez",
+   "score": 530,
+   "contributions": 1380
+  },
+  {
+   "login": "jleandroperez",
+   "score": 5738,
+   "contributions": 1281
+  },
+  {
+   "login": "SergioEstevao",
+   "score": 1959,
+   "contributions": 1203
+  }
+ ],
+ "loc": 35082,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Aztec",
+  "CoreGraphics",
+  "CoreServices",
+  "Foundation",
+  "HTMLParser",
+  "MobileCoreServices",
+  "PackageDescription",
+  "Photos",
+  "QuartzCore",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "WordPressEditor",
+  "XCTest",
+  "libxml2"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

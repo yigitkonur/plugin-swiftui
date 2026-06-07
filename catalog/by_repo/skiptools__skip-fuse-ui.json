@@ -1,0 +1,67 @@
+{
+ "repo": "skiptools/skip-fuse-ui",
+ "stars": 16,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0a5659e1010e30b3211bf1efd0965501b63f83b0",
+ "platform": "other",
+ "author_authority": 78846,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "aabewhite",
+   "score": 3677,
+   "contributions": 140
+  },
+  {
+   "login": "marcprux",
+   "score": 228752,
+   "contributions": 81
+  },
+  {
+   "login": "dfabulich",
+   "score": 0,
+   "contributions": 14
+  }
+ ],
+ "loc": 23455,
+ "custom_components": 0,
+ "imports": [
+  "Android",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "Observation",
+  "PackageDescription",
+  "SkipAndroidBridge",
+  "SkipBridge",
+  "SkipFuse",
+  "SkipSwiftUI",
+  "SkipTest",
+  "SkipUI",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

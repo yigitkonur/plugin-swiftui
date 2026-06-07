@@ -1,0 +1,134 @@
+{
+ "repo": "Slash137/NotificationBridge-MacOS",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "72ecb28d5b1eea4c31a93534b3148ea776f5557b",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Slash137",
+   "score": 0,
+   "contributions": 22
+  }
+ ],
+ "loc": 1098,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "Network",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onHover",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "rotationEffect",
+   "shadow",
+   "stroke",
+   "textFieldStyle",
+   "tracking",
+   "transition",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "medium",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "clear",
+   "fill",
+   "gray",
+   "green",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "sidebar",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 18,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 77
+}

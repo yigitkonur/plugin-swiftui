@@ -1,0 +1,58 @@
+{
+ "repo": "unsaferawpointer/Plan",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4dfbf2a2d1cec94e4a1bce7e7eec33275737ff27",
+ "platform": "macos",
+ "author_authority": 8,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "unsaferawpointer",
+   "score": 8,
+   "contributions": 127
+  }
+ ],
+ "loc": 8520,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "Plan",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "DocumentGroup",
+   "TextEditor"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [],
+  "propertyWrappers": [
+   "Binding"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 4
+}

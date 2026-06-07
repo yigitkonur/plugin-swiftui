@@ -1,0 +1,91 @@
+{
+ "repo": "marlonjames71/NiceCopy",
+ "stars": 14,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cde9b14f463b00dcb2baf81e96abb8140e3e0eef",
+ "platform": "macos",
+ "author_authority": 1903,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "marlonjames71",
+   "score": 1903,
+   "contributions": 11
+  }
+ ],
+ "loc": 225,
+ "custom_components": 7,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "SafariServices",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "defaultLaunchBehavior",
+   "font",
+   "fontWeight",
+   "formStyle",
+   "frame",
+   "modifiers",
+   "monospaced",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "opacity",
+   "padding",
+   "windowIdealSize",
+   "windowLevel"
+  ],
+  "types": [
+   "Button",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "MenuBarExtra",
+   "Section",
+   "Spacer",
+   "Text",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "grouped",
+   "horizontal",
+   "leading",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 4,
+  "propertyWrappers": 1,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 34
+}

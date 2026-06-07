@@ -1,0 +1,83 @@
+{
+ "repo": "AryanRogye/PiPBoard",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b83d2cf9a15ef98c86d02d80cc57d67fcf57dec8",
+ "platform": "macos",
+ "author_authority": 25316,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "AryanRogye",
+   "score": 25316,
+   "contributions": 1
+  }
+ ],
+ "loc": 627,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "PackageDescription",
+  "PiPTiler",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "fill",
+   "foregroundStyle",
+   "frame",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Image",
+   "MenuBarExtra",
+   "RoundedRectangle",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "center",
+   "horizontal",
+   "plain",
+   "top",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 8,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 26
+}

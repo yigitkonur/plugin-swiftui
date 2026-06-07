@@ -1,0 +1,63 @@
+{
+ "repo": "songwentong/WTKit",
+ "stars": 49,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c65897274ea374b50af04f9c23c42ca30c4fc21a",
+ "platform": "macos",
+ "author_authority": 354,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "songwentong",
+   "score": 354,
+   "contributions": 1326
+  },
+  {
+   "login": "lineng1993",
+   "score": 2,
+   "contributions": 10
+  }
+ ],
+ "loc": 5754,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CommonCrypto",
+  "CryptoKit",
+  "Foundation",
+  "FoundationNetworking",
+  "NetworkExtension",
+  "PackageDescription",
+  "SwiftUI",
+  "SystemConfiguration",
+  "UIKit",
+  "WTKit",
+  "WTKitTests",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,138 @@
+{
+ "repo": "yoshidashingo/copippe",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f709b97d9702b6756fb87f78456cde487557260e",
+ "platform": "macos",
+ "author_authority": 1795,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "yoshidashingo",
+   "score": 1795,
+   "contributions": 45
+  }
+ ],
+ "loc": 2357,
+ "custom_components": 23,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "Observation",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "copippe"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "border",
+   "buttonStyle",
+   "contentShape",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "DisclosureGroup",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HSplitView",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "Rectangle",
+   "Section",
+   "Spacer",
+   "State",
+   "Stepper",
+   "TabView",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "center",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bar",
+   "borderedProminent",
+   "borderless",
+   "green",
+   "grouped",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "quaternary",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "sidebar",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 27,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 80
+}

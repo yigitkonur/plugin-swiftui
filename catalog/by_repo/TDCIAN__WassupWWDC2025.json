@@ -1,0 +1,135 @@
+{
+ "repo": "TDCIAN/WassupWWDC2025",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e4537e763a7c1c5918aef421661a04bbd7c633a9",
+ "platform": "other",
+ "author_authority": 8,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "TDCIAN",
+   "score": 8,
+   "contributions": 4
+  }
+ ],
+ "loc": 725,
+ "custom_components": 27,
+ "imports": [
+  "FoundationModels",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "backgroundExtensionEffect",
+   "border",
+   "buttonStyle",
+   "clipShape",
+   "clipped",
+   "containerRelativeFrame",
+   "contentShape",
+   "disabled",
+   "dragContainer",
+   "dropDestination",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "glassEffectUnion",
+   "imageScale",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onDropSessionUpdated",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "safeAreaBar",
+   "tabBarMinimizeBehavior",
+   "tint",
+   "toolbar"
+  ],
+  "types": [
+   "Animatable",
+   "Button",
+   "ForEach",
+   "GeometryReader",
+   "GlassEffectContainer",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "List",
+   "NavigationStack",
+   "Path",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "ToolbarSpacer",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "regular",
+   "smooth",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "brown",
+   "center",
+   "fill",
+   "glass",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "pink",
+   "purple",
+   "red",
+   "tint",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Namespace",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 25,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 83
+}

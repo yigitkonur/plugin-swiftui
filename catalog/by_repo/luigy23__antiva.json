@@ -1,0 +1,123 @@
+{
+ "repo": "luigy23/antiva",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6d978aa22def260e3271bf5d06ac98a304dba5ee",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "luigy23",
+   "score": 0,
+   "contributions": 4
+  }
+ ],
+ "loc": 639,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "lineLimit",
+   "lineSpacing",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onHover",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "preferredColorScheme",
+   "shadow",
+   "strikethrough",
+   "textCase",
+   "textFieldStyle",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "easeInOut",
+   "light",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "firstTextBaseline",
+   "gray",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "quaternary",
+   "red",
+   "secondary",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 17,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 22,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 72
+}

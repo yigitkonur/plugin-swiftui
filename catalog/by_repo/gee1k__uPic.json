@@ -1,0 +1,75 @@
+{
+ "repo": "gee1k/uPic",
+ "stars": 3702,
+ "categories": [
+  "Other Tools"
+ ],
+ "sha": "b1eeee7c5d0e235483a65ae1eb43b99ac35be739",
+ "platform": "macos",
+ "author_authority": 36625,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "gee1k",
+   "score": 36625,
+   "contributions": 595
+  },
+  {
+   "login": "L1cardo",
+   "score": 83393,
+   "contributions": 55
+  },
+  {
+   "login": "jxpeng98",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 14774,
+ "custom_components": 0,
+ "imports": [
+  "Alamofire",
+  "AppKit",
+  "Cocoa",
+  "CocoaLumberjackSwift",
+  "CommonCrypto",
+  "CryptoSwift",
+  "Darwin",
+  "Foundation",
+  "KeyboardShortcuts",
+  "Kingfisher",
+  "LaunchAtLogin",
+  "ObjectiveC",
+  "ScriptingBridge",
+  "SnapKit",
+  "SotoS3",
+  "SwiftyJSON",
+  "SwiftyXMLParser",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WCDBSwift",
+  "Zip",
+  "libminipng"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

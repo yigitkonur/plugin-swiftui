@@ -1,0 +1,66 @@
+{
+ "repo": "pushy/pushy-sdk-macos",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8a302f511fd3779eec64a68fc97182b8a8e72355",
+ "platform": "macos",
+ "author_authority": 122,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "pushy",
+   "score": 122,
+   "contributions": 19
+  }
+ ],
+ "loc": 3935,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "CocoaMQTT",
+  "Foundation",
+  "PackageDescription",
+  "PushySDK",
+  "Security",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "foregroundColor",
+   "imageScale",
+   "padding"
+  ],
+  "types": [
+   "Image",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "default"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 4,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 9
+}

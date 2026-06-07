@@ -1,0 +1,79 @@
+{
+ "repo": "lkzhao/UIComponent",
+ "stars": 421,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "de17329ae5dd6d42c3a0a5798a113c41301557f8",
+ "platform": "other",
+ "author_authority": 3592,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "lkzhao",
+   "score": 3592,
+   "contributions": 384
+  },
+  {
+   "login": "honghaoz",
+   "score": 1810,
+   "contributions": 14
+  },
+  {
+   "login": "wwdc14yh",
+   "score": 1986,
+   "contributions": 7
+  }
+ ],
+ "loc": 18718,
+ "custom_components": 0,
+ "imports": [
+  "CodeExample",
+  "CompilerPluginSupport",
+  "CoreGraphics",
+  "Foundation",
+  "Highlightr",
+  "Kingfisher",
+  "PackageDescription",
+  "SwiftCompilerPlugin",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacros",
+  "SwiftUI",
+  "Testing",
+  "UIComponent",
+  "UIKit",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "size",
+   "sizeThatFits"
+  ],
+  "types": [
+   "AnyView",
+   "EmptyView"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "clear",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 6
+}

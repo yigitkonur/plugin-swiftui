@@ -1,0 +1,141 @@
+{
+ "repo": "piperswe/ReadEvalPrintLoop",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bb61aa3e6aa332c8b58ba62432a104778aea7df8",
+ "platform": "macos",
+ "author_authority": 62310,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "piperswe",
+   "score": 62310,
+   "contributions": 33
+  }
+ ],
+ "loc": 2207,
+ "custom_components": 26,
+ "imports": [
+  "AlertToast",
+  "AppKit",
+  "Foundation",
+  "HighlightSwift",
+  "JavaScriptCore",
+  "ReadEvalPrintLoop",
+  "SwiftData",
+  "SwiftUI",
+  "SwiftUIIntrospect",
+  "Testing",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "autocorrectionDisabled",
+   "commands",
+   "controlSize",
+   "cornerRadius",
+   "defaultSize",
+   "environment",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "id",
+   "labelStyle",
+   "monospaced",
+   "navigationDestination",
+   "navigationSubtitle",
+   "navigationTitle",
+   "onAppear",
+   "onKeyPress",
+   "onSubmit",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "stroke",
+   "task",
+   "toolbar",
+   "windowMinimizeBehavior",
+   "windowResizability",
+   "windowResizeBehavior"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Link",
+   "NavigationStack",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "ToolbarItemGroup",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "light",
+   "regular",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "center",
+   "iconOnly",
+   "inline",
+   "keyboard",
+   "leading",
+   "none",
+   "red",
+   "secondary",
+   "top",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusState",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 19,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 77
+}

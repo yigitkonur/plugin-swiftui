@@ -1,0 +1,127 @@
+{
+ "repo": "Itzadetunji/clip-it-macos",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "69a09a438515fb8ae9c39f316ecd0ba0cad1276f",
+ "platform": "macos",
+ "author_authority": 16,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Itzadetunji",
+   "score": 16,
+   "contributions": 29
+  }
+ ],
+ "loc": 2089,
+ "custom_components": 17,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "CoreMedia",
+  "Foundation",
+  "KeyboardShortcuts",
+  "ScreenCaptureKit",
+  "SwiftUI",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "Alert"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "defaultSize",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "padding",
+   "symbolRenderingMode",
+   "task",
+   "toggleStyle",
+   "transition",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Alert",
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "Menu",
+   "MenuBarExtra",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "custom",
+   "easeInOut",
+   "light",
+   "system",
+   "ultraLight"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "center",
+   "checkbox",
+   "glass",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "switch",
+   "tertiary",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 20,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 66
+}

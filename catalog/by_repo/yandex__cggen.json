@@ -1,0 +1,172 @@
+{
+ "repo": "yandex/cggen",
+ "stars": 26,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "50223c101465f9bfc4dd31c9d6e36b20673210a8",
+ "platform": "macos",
+ "author_authority": 59,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "zienag",
+   "score": 72,
+   "contributions": 194
+  },
+  {
+   "login": "askvortsov-yandex-team",
+   "score": 0,
+   "contributions": 25
+  },
+  {
+   "login": "Daniil-F",
+   "score": 1,
+   "contributions": 16
+  }
+ ],
+ "loc": 18033,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "ArgumentParser",
+  "CGGenBytecode",
+  "CGGenBytecodeDecoding",
+  "CGGenCLI",
+  "CGGenCore",
+  "CGGenDiagnosticSupport",
+  "CGGenIR",
+  "CGGenRTSupport",
+  "CGGenRuntime",
+  "CasePaths",
+  "Compression",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreServices",
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "ImageIO",
+  "PDFParse",
+  "PackageDescription",
+  "PackagePlugin",
+  "Parsing",
+  "SVGParse",
+  "SnapshotTesting",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "WebKit",
+  "XcodeProjectPlugin",
+  "os",
+  "simd"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "labelsHidden",
+   "monospacedDigit",
+   "navigationTitle",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "renderingMode",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "shadow",
+   "sizeThatFits",
+   "stroke",
+   "tabItem",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationStack",
+   "Picker",
+   "Rectangle",
+   "ScrollView",
+   "Section",
+   "Slider",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "degrees",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "green",
+   "grouped",
+   "horizontal",
+   "inline",
+   "inset",
+   "leading",
+   "none",
+   "orange",
+   "pink",
+   "primary",
+   "red",
+   "secondary",
+   "segmented",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 20,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 22,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 78
+}

@@ -1,0 +1,129 @@
+{
+ "repo": "En5id3/MacClean",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "18da0f86ba6cc18d2bb9e5fe4605721f12372c2e",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "En5id3",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1395,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "confirmationDialog",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "navigationSplitViewColumnWidth",
+   "navigationTitle",
+   "onAppear",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "rotationEffect",
+   "stroke",
+   "tag",
+   "task",
+   "tint",
+   "trim",
+   "truncationMode",
+   "windowStyle"
+  ],
+  "types": [
+   "Angle",
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "List",
+   "NavigationSplitView",
+   "ProgressView",
+   "RoundedRectangle",
+   "Section",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "largeTitle",
+   "subheadline",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 22,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 74
+}

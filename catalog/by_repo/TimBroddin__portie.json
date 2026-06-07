@@ -1,0 +1,133 @@
+{
+ "repo": "TimBroddin/portie",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5d28ff9513e31a29f5bc4e083ee84db28f57b896",
+ "platform": "macos",
+ "author_authority": 2088,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "TimBroddin",
+   "score": 2088,
+   "contributions": 15
+  },
+  {
+   "login": "claude",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 1150,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "imageScale",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospaced",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "center",
+   "easeInOut",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bar",
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "checkbox",
+   "gray",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "tint",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 17,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 22,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 75
+}

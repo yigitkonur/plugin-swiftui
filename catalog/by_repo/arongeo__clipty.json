@@ -1,0 +1,84 @@
+{
+ "repo": "arongeo/clipty",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e9939a9f660bdc08db86567507b803133a9f5ea0",
+ "platform": "macos",
+ "author_authority": 50,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "arongeo",
+   "score": 50,
+   "contributions": 17
+  }
+ ],
+ "loc": 350,
+ "custom_components": 4,
+ "imports": [
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "XCTest",
+  "clipty"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "font",
+   "frame",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "HStack",
+   "Image",
+   "List",
+   "MenuBarExtra",
+   "ModelContainer",
+   "NavigationStack",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "top",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "Query"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 11,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 30
+}

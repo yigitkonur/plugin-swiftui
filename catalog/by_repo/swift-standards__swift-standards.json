@@ -1,0 +1,74 @@
+{
+ "repo": "swift-standards/swift-standards",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e815eeaa88b77f2df301609b1f419ab42e8f3e36",
+ "platform": "other",
+ "author_authority": 73532,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "coenttb",
+   "score": 73532,
+   "contributions": 261
+  }
+ ],
+ "loc": 63383,
+ "custom_components": 0,
+ "imports": [
+  "Affine",
+  "Algebra",
+  "Algebra_Linear",
+  "Binary",
+  "CompilerPluginSupport",
+  "Dimension",
+  "Formatting",
+  "Foundation",
+  "Geometry",
+  "Layout",
+  "Locale",
+  "PackageDescription",
+  "Positioning",
+  "Predicate",
+  "RealModule",
+  "Region",
+  "StandardLibraryExtensions",
+  "StandardTime",
+  "StandardsCollections",
+  "StandardsTestSupport",
+  "StandardsTestSupportMacros",
+  "SwiftCompilerPlugin",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacroExpansion",
+  "SwiftSyntaxMacros",
+  "SwiftSyntaxMacrosGenericTestSupport",
+  "Symmetry",
+  "TernaryLogic",
+  "Testing",
+  "TestingPerformance"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

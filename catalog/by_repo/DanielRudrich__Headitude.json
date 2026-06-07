@@ -1,0 +1,112 @@
+{
+ "repo": "DanielRudrich/Headitude",
+ "stars": 77,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5a15355816bf2631d222f16ee8e25f97502d9b80",
+ "platform": "macos",
+ "author_authority": 325,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "DanielRudrich",
+   "score": 325,
+   "contributions": 4
+  }
+ ],
+ "loc": 1018,
+ "custom_components": 19,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "CoreMotion",
+  "Foundation",
+  "OSCKit",
+  "SceneKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "onChange",
+   "onChanged",
+   "onDisappear",
+   "onEnded",
+   "onReceive",
+   "opacity",
+   "padding",
+   "popover",
+   "preferredColorScheme",
+   "scaled",
+   "shadow",
+   "textFieldStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "DragGesture",
+   "HStack",
+   "Image",
+   "PlainButtonStyle",
+   "RoundedBorderTextFieldStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "light",
+   "system",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "gray",
+   "leading",
+   "red",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "GestureState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 11,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 7,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 54
+}

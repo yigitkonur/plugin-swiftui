@@ -1,0 +1,145 @@
+{
+ "repo": "layannea/smart-file-organizer",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "94a836249b960f5c8c023ad480002c66954f4fa1",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "layannea",
+   "score": 5,
+   "contributions": 6
+  }
+ ],
+ "loc": 1597,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "CoreData",
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "ZEN"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "bold",
+   "buttonStyle",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDrag",
+   "onDrop",
+   "onExitCommand",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "scaledToFit",
+   "searchable",
+   "tag",
+   "textFieldStyle",
+   "toolbar",
+   "transition"
+  ],
+  "types": [
+   "BorderlessButtonStyle",
+   "Button",
+   "Divider",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "List",
+   "MenuPickerStyle",
+   "NSHostingController",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "footnote",
+   "headline",
+   "medium",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "gray",
+   "leading",
+   "red",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 25,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 86
+}

@@ -1,0 +1,142 @@
+{
+ "repo": "ayon380/Iris",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "726e1bbdd32fd59cd4908c3ffaffbaec928f8642",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ayon380",
+   "score": 2,
+   "contributions": 4
+  }
+ ],
+ "loc": 857,
+ "custom_components": 9,
+ "imports": [
+  "AVKit",
+  "AppKit",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "MediaPlayer",
+  "ServiceManagement",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "contentTransition",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "help",
+   "ignoresSafeArea",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaledToFill",
+   "shadow",
+   "symbolRenderingMode",
+   "tracking",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "MenuBarExtra",
+   "NSHostingView",
+   "RoundedRectangle",
+   "Slider",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "headline",
+   "medium",
+   "semibold",
+   "smooth",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "bottomTrailing",
+   "clear",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "topLeading",
+   "vertical",
+   "white",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 16,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 22,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 82
+}

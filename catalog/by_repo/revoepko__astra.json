@@ -1,0 +1,102 @@
+{
+ "repo": "revoepko/astra",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "523bc2a3349b644cfecc9a57171cd1819aa4f00a",
+ "platform": "macos",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "revoepko",
+   "score": 4,
+   "contributions": 4
+  }
+ ],
+ "loc": 3321,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "IOKit",
+  "OSLog",
+  "Security",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "contentShape",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "lineSpacing",
+   "menuBarExtraStyle",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "padding",
+   "textCase",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "firstTextBaseline",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "window"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 12,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 47
+}

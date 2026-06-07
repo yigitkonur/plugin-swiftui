@@ -1,0 +1,169 @@
+{
+ "repo": "syns2191/navx",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4ab8ca4760c9f597b9b1846273e69a1511b6950a",
+ "platform": "macos",
+ "author_authority": 4235,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "syns2191",
+   "score": 4235,
+   "contributions": 17
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1900,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "HotKey",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "borderlessButton",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "lineLimit",
+   "menuStyle",
+   "modelContainer",
+   "navigationSplitViewColumnWidth",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "stroke",
+   "tabItem",
+   "textFieldStyle",
+   "tint",
+   "toolbar",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "List",
+   "Menu",
+   "NSHostingController",
+   "NSHostingView",
+   "NavigationLink",
+   "NavigationSplitView",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "headline",
+   "light",
+   "medium",
+   "regular",
+   "semibold",
+   "spring",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderedProminent",
+   "borderlessButton",
+   "bottom",
+   "center",
+   "clear",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "quaternary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "topTrailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 27,
+  "valueBuilders": 11,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 99
+}

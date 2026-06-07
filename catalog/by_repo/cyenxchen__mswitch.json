@@ -1,0 +1,97 @@
+{
+ "repo": "cyenxchen/mswitch",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5807365aa16272a2e6e3e76e45f440d10558072a",
+ "platform": "macos",
+ "author_authority": 60650,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cyenxchen",
+   "score": 60650,
+   "contributions": 8
+  }
+ ],
+ "loc": 362,
+ "custom_components": 6,
+ "imports": [
+  "CoreAudio",
+  "Foundation",
+  "KeyboardShortcuts",
+  "Observation",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "opacity",
+   "padding"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "regular",
+   "semibold"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 13,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 42
+}

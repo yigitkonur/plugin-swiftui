@@ -1,0 +1,51 @@
+{
+ "repo": "sonkoni/Collection-of-Toy-Projects",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2a8afab5a7f6da2ca3a90eb20f9feec17c7a5845",
+ "platform": "other",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sonkoni",
+   "score": 5,
+   "contributions": 1241
+  }
+ ],
+ "loc": 12627,
+ "custom_components": 0,
+ "imports": [
+  "AudioKit",
+  "BaseKit",
+  "Foundation",
+  "GraphicsKit",
+  "IosKit",
+  "MapKit",
+  "UIKit",
+  "WebKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

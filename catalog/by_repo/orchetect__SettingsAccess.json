@@ -1,0 +1,75 @@
+{
+ "repo": "orchetect/SettingsAccess",
+ "stars": 153,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dc6fdbdab8e8aff822c2db40a3b6fa27380daf60",
+ "platform": "macos",
+ "author_authority": 20632,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "orchetect",
+   "score": 20632,
+   "contributions": 71
+  }
+ ],
+ "loc": 640,
+ "custom_components": 17,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription",
+  "SettingsAccess",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "environment",
+   "fill",
+   "frame",
+   "multilineTextAlignment",
+   "opacity",
+   "padding"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "Group",
+   "MenuBarExtra",
+   "Rectangle",
+   "Settings",
+   "SettingsLink",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "clear"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 11,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 23
+}

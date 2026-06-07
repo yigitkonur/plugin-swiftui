@@ -1,0 +1,73 @@
+{
+ "repo": "AgoraIO-Community/AUIKit",
+ "stars": 8,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3e9dfc5e3154e3ae92e55625a5aee1c3b8198fb3",
+ "platform": "macos",
+ "author_authority": 7617,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "tamworth",
+   "score": 6,
+   "contributions": 17
+  },
+  {
+   "login": "xgfd3",
+   "score": 348,
+   "contributions": 11
+  },
+  {
+   "login": "zjc19891106",
+   "score": 78716,
+   "contributions": 3
+  }
+ ],
+ "loc": 26269,
+ "custom_components": 0,
+ "imports": [
+  "AUIKitCore",
+  "AVFoundation",
+  "AgoraChat",
+  "AgoraLyricsScore",
+  "AgoraRtcKit",
+  "AgoraRtmKit",
+  "Alamofire",
+  "AppKit",
+  "AudioToolbox",
+  "Foundation",
+  "MJRefresh",
+  "QuartzCore",
+  "SDWebImage",
+  "ScoreEffectUI",
+  "SwiftTheme",
+  "SwiftyBeaver",
+  "UIKit",
+  "XCTest",
+  "YYModel",
+  "Zip"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

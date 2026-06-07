@@ -1,0 +1,128 @@
+{
+ "repo": "AgoraIO-Usecase/agora-ent-scenarios",
+ "stars": 63,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f07d47379ea9d02970cea5af90e8724cf297431e",
+ "platform": "macos",
+ "author_authority": 12882,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "tamworth",
+   "score": 6,
+   "contributions": 523
+  },
+  {
+   "login": "zjc19891106",
+   "score": 78716,
+   "contributions": 127
+  },
+  {
+   "login": "xgfd3",
+   "score": 348,
+   "contributions": 126
+  }
+ ],
+ "loc": 154294,
+ "custom_components": 0,
+ "imports": [
+  "AFNetworking",
+  "AGResourceManager",
+  "AIChat",
+  "AUIIMKit",
+  "AVFoundation",
+  "AVKit",
+  "AgoraChat",
+  "AgoraCommon",
+  "AgoraEntScenarios",
+  "AgoraLyricsScore",
+  "AgoraRtcKit",
+  "AgoraRtmKit",
+  "AgoraSyncManager",
+  "AgoraTranscriptSubtitle",
+  "Agora_Scene_Utils",
+  "AppKit",
+  "AudioScenarioApi",
+  "AudioToolbox",
+  "Bugly",
+  "CallAPI",
+  "Cantata",
+  "Combine",
+  "CommonCrypto",
+  "CoreAudio",
+  "CoreGraphics",
+  "CryptoKit",
+  "FLAnimatedImage",
+  "Foundation",
+  "InteractiveJoy",
+  "JXCategoryView",
+  "Joy",
+  "KakaJSON",
+  "MJRefresh",
+  "Masonry",
+  "Network",
+  "ObjectiveC",
+  "PhotosUI",
+  "Pure1v1",
+  "QuartzCore",
+  "RTMSyncManager",
+  "SDWebImage",
+  "SSZipArchive",
+  "SVGAPlayer",
+  "SVProgressHUD",
+  "ShowTo1v1",
+  "SnapKit",
+  "SwiftProtobuf",
+  "SwiftTheme",
+  "SwiftUI",
+  "SwiftyBeaver",
+  "UIKit",
+  "VideoLoaderAPI",
+  "WebKit",
+  "XCTest",
+  "YYCategories",
+  "YYCategory",
+  "YYModel",
+  "ZSwiftBaseLib",
+  "Zip"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fill",
+   "sizeThatFits",
+   "stroke"
+  ],
+  "types": [],
+  "valueBuilders": [
+   "custom"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "clear",
+   "default",
+   "grouped",
+   "identity",
+   "none",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 0,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 13
+}

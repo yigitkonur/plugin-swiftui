@@ -1,0 +1,143 @@
+{
+ "repo": "tatsy-ymj/ocr2md",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "79ac8a9c05f338e71a5647dc430da5b5e5a0a5fa",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tatsy-ymj",
+   "score": 2,
+   "contributions": 14
+  }
+ ],
+ "loc": 5921,
+ "custom_components": 23,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "CoreImage",
+  "Foundation",
+  "ImageIO",
+  "PDFKit",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "Vision",
+  "VisionKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "disabled",
+   "environmentObject",
+   "export",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "monospaced",
+   "monospacedDigit",
+   "navigationSplitViewColumnWidth",
+   "navigationSplitViewStyle",
+   "onDrop",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "resizable",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "tag",
+   "textSelection",
+   "weight",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "LazyVStack",
+   "List",
+   "NavigationSplitView",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "largeTitle",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "balanced",
+   "borderedProminent",
+   "horizontal",
+   "leading",
+   "linear",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "top",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 24,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 83
+}

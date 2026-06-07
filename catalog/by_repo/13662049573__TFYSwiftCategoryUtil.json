@@ -1,0 +1,70 @@
+{
+ "repo": "13662049573/TFYSwiftCategoryUtil",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d945b2ecaf8c72b74ffb8dc025d562998a77d72e",
+ "platform": "macos",
+ "author_authority": 73,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "13662049573",
+   "score": 73,
+   "contributions": 313
+  }
+ ],
+ "loc": 60288,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Accelerate",
+  "AppKit",
+  "Combine",
+  "CommonCrypto",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreLocation",
+  "CoreTelephony",
+  "CoreText",
+  "Foundation",
+  "ImageIO",
+  "LocalAuthentication",
+  "Network",
+  "NetworkExtension",
+  "ObjectiveC",
+  "PackageDescription",
+  "Photos",
+  "SafariServices",
+  "StoreKit",
+  "SystemConfiguration",
+  "TFYSwiftCategoryUtil",
+  "UIKit",
+  "UserNotifications",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

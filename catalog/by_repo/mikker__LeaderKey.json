@@ -1,0 +1,172 @@
+{
+ "repo": "mikker/LeaderKey",
+ "stars": 2231,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "16bcb307dcc5309fbc3a00fe398d913e1f7ddc51",
+ "platform": "macos",
+ "author_authority": 72980,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mikker",
+   "score": 72980,
+   "contributions": 132
+  },
+  {
+   "login": "LennartEgb",
+   "score": 942,
+   "contributions": 11
+  },
+  {
+   "login": "CanRau",
+   "score": 179650,
+   "contributions": 2
+  }
+ ],
+ "loc": 6155,
+ "custom_components": 52,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CryptoKit",
+  "Defaults",
+  "Foundation",
+  "KeyboardShortcuts",
+  "Kingfisher",
+  "LaunchAtLogin",
+  "Leader_Key",
+  "ObjectiveC",
+  "QuartzCore",
+  "Settings",
+  "Sparkle",
+  "SwiftUI",
+  "SymbolPicker",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "inset",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "modifier",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onPreferenceChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "preference",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "tag",
+   "transition",
+   "truncationMode"
+  ],
+  "types": [
+   "AnimationState",
+   "AnyView",
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "NSHostingView",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "center",
+   "clear",
+   "degrees",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "clear",
+   "firstTextBaseline",
+   "gray",
+   "horizontal",
+   "leading",
+   "none",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 22,
+  "valueBuilders": 13,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 92
+}

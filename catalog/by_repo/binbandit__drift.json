@@ -1,0 +1,60 @@
+{
+ "repo": "binbandit/drift",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ee61dbc2fe58ebf117a39d70b335e8dd7170162d",
+ "platform": "macos",
+ "author_authority": 71417,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "binbandit",
+   "score": 71417,
+   "contributions": 7
+  }
+ ],
+ "loc": 2308,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "HotKey",
+  "LaunchAtLogin",
+  "SwiftUI",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "onAppear",
+   "size"
+  ],
+  "types": [
+   "EmptyView",
+   "Settings"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 5
+}

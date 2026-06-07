@@ -1,0 +1,143 @@
+{
+ "repo": "senorprogrammer/pictu",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2b720dae9acec080de6779c16908e1ea01569fbe",
+ "platform": "macos",
+ "author_authority": 54,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "senorprogrammer",
+   "score": 54,
+   "contributions": 39
+  }
+ ],
+ "loc": 2126,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Cocoa",
+  "Combine",
+  "CoreData",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "background",
+   "border",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "help",
+   "id",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "stroke",
+   "tag"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Section",
+   "Settings",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "easeInOut",
+   "largeTitle",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "center",
+   "fill",
+   "grouped",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 23,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 83
+}

@@ -1,0 +1,82 @@
+{
+ "repo": "Ch3ckNate/VoiceLive",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f5518545588e0cee1e3ae3bcfc128957e07581f3",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Ch3ckNate",
+   "score": 0,
+   "contributions": 25
+  }
+ ],
+ "loc": 2188,
+ "custom_components": 2,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "UserNotifications",
+  "VoiceLive",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "padding",
+   "textSelection"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Image",
+   "MenuBarExtra",
+   "State",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading",
+   "red",
+   "secondary",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 7,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 24
+}

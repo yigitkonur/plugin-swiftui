@@ -1,0 +1,50 @@
+{
+ "repo": "ls1intum/Prototype",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dd9b48846f824bf22e0ea9e344a07be2a658ba63",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 1076,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "Prototype",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "NSHostingView"
+  ],
+  "valueBuilders": [
+   "center"
+  ],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 1,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

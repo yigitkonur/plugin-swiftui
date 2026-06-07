@@ -1,0 +1,113 @@
+{
+ "repo": "cptnLenz/TeufelBridge",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7d7ae63a1ca028b02cdf7e31debc322290d5b1aa",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cptnLenz",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 2258,
+ "custom_components": 13,
+ "imports": [
+  "AVFAudio",
+  "AppKit",
+  "Combine",
+  "CoreAudio",
+  "Foundation",
+  "Network",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "opacity",
+   "overlay",
+   "padding",
+   "strokeBorder",
+   "textFieldStyle",
+   "toggleStyle",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "DisclosureGroup",
+   "HStack",
+   "Label",
+   "LabeledContent",
+   "MenuBarExtra",
+   "RoundedRectangle",
+   "Spacer",
+   "StateObject",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "semibold"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "firstTextBaseline",
+   "green",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "regularMaterial",
+   "roundedBorder",
+   "secondary",
+   "switch",
+   "top",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 15,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

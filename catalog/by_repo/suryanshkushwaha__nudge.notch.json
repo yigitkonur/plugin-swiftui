@@ -1,0 +1,158 @@
+{
+ "repo": "suryanshkushwaha/nudge.notch",
+ "stars": 17,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a8c66d5b91ed902caad9c2447a3b2c1e75146e7f",
+ "platform": "macos",
+ "author_authority": 1513,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "suryanshkushwaha",
+   "score": 1513,
+   "contributions": 69
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 1623,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "contextMenu",
+   "controlSize",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "mask",
+   "monospacedDigit",
+   "offset",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "scale",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "toolbar",
+   "tracking",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingView",
+   "Path",
+   "Rectangle",
+   "RoundedRectangle",
+   "Section",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "bouncy",
+   "callout",
+   "caption",
+   "center",
+   "easeIn",
+   "easeOut",
+   "medium",
+   "regular",
+   "semibold",
+   "spring",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "black",
+   "bottom",
+   "center",
+   "clear",
+   "gray",
+   "grouped",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "unified",
+   "vertical",
+   "visible",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 22,
+  "valueBuilders": 14,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 96
+}

@@ -1,0 +1,95 @@
+{
+ "repo": "noah-nuebling/mac-mouse-fix",
+ "stars": 10174,
+ "categories": [
+  "Productivity"
+ ],
+ "sha": "1fad847915cee43dbc4f1806f23ac67913462f92",
+ "platform": "macos",
+ "author_authority": 19350,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "noah-nuebling",
+   "score": 19350,
+   "contributions": 3925
+  },
+  {
+   "login": "jeongtae",
+   "score": 14,
+   "contributions": 9
+  },
+  {
+   "login": "nghlt",
+   "score": 152,
+   "contributions": 6
+  }
+ ],
+ "loc": 22503,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "Charts",
+  "Cocoa",
+  "CocoaLumberjackSwift",
+  "Combine",
+  "CoreGraphics",
+  "CoreVideo",
+  "CryptoKit",
+  "Foundation",
+  "Markdown",
+  "QuartzCore",
+  "ReactiveCocoa",
+  "ReactiveSwift",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "Vision",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "foregroundStyle",
+   "gesture",
+   "onChanged",
+   "onEnded",
+   "transformEffect"
+  ],
+  "types": [
+   "Chart",
+   "DragGesture",
+   "ForEach",
+   "LineMark",
+   "MagnifyGesture",
+   "NSHostingController",
+   "Text"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "center",
+   "identity",
+   "red"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 4,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 18
+}

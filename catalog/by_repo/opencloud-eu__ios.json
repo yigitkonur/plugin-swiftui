@@ -1,0 +1,91 @@
+{
+ "repo": "opencloud-eu/ios",
+ "stars": 32,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e1890765c5696a5e2643072eb6436e8c0e94c95f",
+ "platform": "other",
+ "author_authority": 1900,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "felix-schwarz",
+   "score": 3909,
+   "contributions": 367
+  },
+  {
+   "login": "hosy",
+   "score": 33,
+   "contributions": 196
+  },
+  {
+   "login": "javiergonzper",
+   "score": 1,
+   "contributions": 192
+  }
+ ],
+ "loc": 72552,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "BackgroundTasks",
+  "Contacts",
+  "CoreFoundation",
+  "CoreImage",
+  "CoreLocation",
+  "CoreMedia",
+  "CoreServices",
+  "CrashReporter",
+  "Down",
+  "FileProviderUI",
+  "Foundation",
+  "ImageIO",
+  "Intents",
+  "LocalAuthentication",
+  "MapKit",
+  "MediaPlayer",
+  "MessageUI",
+  "MobileCoreServices",
+  "Network",
+  "OpenCloudApp",
+  "OpenCloudAppShared",
+  "OpenCloudSDK",
+  "OpenCloudUI",
+  "PDFKit",
+  "Photos",
+  "PhotosUI",
+  "PocketSVG",
+  "QuickLook",
+  "SafariServices",
+  "StoreKit",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "VisionKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

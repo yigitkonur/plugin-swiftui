@@ -1,0 +1,116 @@
+{
+ "repo": "andrewjmead/heic-pics",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fd7c884fb28f260dc29e911e8909a576bdf57180",
+ "platform": "macos",
+ "author_authority": 1560,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "andrewjmead",
+   "score": 1560,
+   "contributions": 4
+  }
+ ],
+ "loc": 544,
+ "custom_components": 8,
+ "imports": [
+  "CoreGraphics",
+  "FileWatcher",
+  "Foundation",
+  "ImageIO",
+  "LaunchAtLogin",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "keyboardShortcut",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "stroke",
+   "tag",
+   "toggleStyle",
+   "weight",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "center",
+   "headline",
+   "semibold",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "checkbox",
+   "hiddenTitleBar",
+   "leading",
+   "red",
+   "tint",
+   "top",
+   "topLeading",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "FocusState",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openSettings",
+   "openURL",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 15,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 59
+}

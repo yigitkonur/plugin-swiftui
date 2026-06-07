@@ -1,0 +1,62 @@
+{
+ "repo": "wflixu/AIME",
+ "stars": 8,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ae8dfe6b3413fd87b36b03002c353b16067fc5b0",
+ "platform": "macos",
+ "author_authority": 3281,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "wflixu",
+   "score": 3281,
+   "contributions": 8
+  }
+ ],
+ "loc": 310,
+ "custom_components": 8,
+ "imports": [
+  "Carbon",
+  "Cocoa",
+  "Foundation",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "frame"
+  ],
+  "types": [
+   "Button",
+   "Image",
+   "MenuBarExtra",
+   "Settings",
+   "SettingsLink",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 10
+}

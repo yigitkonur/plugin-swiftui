@@ -1,0 +1,109 @@
+{
+ "repo": "MarkusTratschitt/BackupBooster",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "843431dbb9d01f45827db808d345bb4cb3cec618",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "MarkusTratschitt",
+   "score": 0,
+   "contributions": 14
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 679,
+ "custom_components": 10,
+ "imports": [
+  "Backup_Booster",
+  "Cocoa",
+  "CoreData",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView"
+ ],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "commands",
+   "environment",
+   "font",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "tag",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Label",
+   "LinearProgressViewStyle",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "ProgressView",
+   "RadioGroupPickerStyle",
+   "Section",
+   "Settings",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "medium",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "default",
+   "leading"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "FetchRequest",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 25,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 48
+}

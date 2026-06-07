@@ -1,0 +1,70 @@
+{
+ "repo": "vapor-community/HTMLKit",
+ "stars": 445,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "653259e678258faa6e72bc4c525db3cb3587ac6a",
+ "platform": "other",
+ "author_authority": 195,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "MatsMoll",
+   "score": 154,
+   "contributions": 160
+  },
+  {
+   "login": "mattesmohr",
+   "score": 450,
+   "contributions": 126
+  },
+  {
+   "login": "tonyarnold",
+   "score": 8493,
+   "contributions": 4
+  }
+ ],
+ "loc": 99409,
+ "custom_components": 0,
+ "imports": [
+  "Collections",
+  "Dispatch",
+  "Foundation",
+  "FoundationXML",
+  "HTMLKit",
+  "HTMLKitComponents",
+  "HTMLKitConverter",
+  "HTMLKitVapor",
+  "Logging",
+  "Minifier",
+  "NIOConcurrencyHelpers",
+  "OrderedCollections",
+  "PackageDescription",
+  "PackagePlugin",
+  "Vapor",
+  "XCTVapor",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

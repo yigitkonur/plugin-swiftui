@@ -1,0 +1,97 @@
+{
+ "repo": "privacy-tech-lab/privacyflash-pro",
+ "stars": 167,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4b84e04ef058f9b62df2133d6ff4e4288c9a183c",
+ "platform": "other",
+ "author_authority": 404,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "SebastianZimmeck",
+   "score": 507,
+   "contributions": 79
+  },
+  {
+   "login": "davebaraka",
+   "score": 14,
+   "contributions": 15
+  },
+  {
+   "login": "kubagithub",
+   "score": 0,
+   "contributions": 5
+  }
+ ],
+ "loc": 102037,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "Account",
+  "AdSupport",
+  "AdjustSdk",
+  "Client",
+  "CoreFoundation",
+  "CoreSpotlight",
+  "Deferred",
+  "EarlGrey",
+  "Foundation",
+  "Fuzi",
+  "FxA",
+  "GCDWebServers",
+  "Intents",
+  "IntentsUI",
+  "Leanplum",
+  "LocalAuthentication",
+  "MappaMundi",
+  "MessageUI",
+  "MobileCoreServices",
+  "MozillaAppServices",
+  "NaturalLanguage",
+  "Network",
+  "NotificationCenter",
+  "OnePasswordExtension",
+  "PassKit",
+  "Photos",
+  "QuickLook",
+  "SDWebImage",
+  "Sentry",
+  "Shared",
+  "Snap",
+  "SnapKit",
+  "Storage",
+  "SwiftKeychainWrapper",
+  "SwiftyJSON",
+  "Sync",
+  "SyncTelemetry",
+  "Telemetry",
+  "UIKit",
+  "UserNotifications",
+  "WebKit",
+  "XCGLogger",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

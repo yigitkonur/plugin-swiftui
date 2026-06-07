@@ -1,0 +1,144 @@
+{
+ "repo": "GaoZ1en/aerospace-scrolling",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "16e93a0e7c5454a8b2d3fd69c453b18427f1ac44",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "GaoZ1en",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 17950,
+ "custom_components": 25,
+ "imports": [
+  "Antlr4",
+  "AppBundle",
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Common",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "HotKey",
+  "ISSoundAdditions",
+  "Network",
+  "OrderedCollections",
+  "PackageDescription",
+  "PrivateApi",
+  "ServiceManagement",
+  "ShellParserGenerated",
+  "SwiftUI",
+  "TOMLDecoder",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "bold",
+   "clipShape",
+   "compositingGroup",
+   "environmentObject",
+   "fill",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "monospaced",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "strokeBorder",
+   "symbolRenderingMode",
+   "textSelection",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "largeTitle",
+   "light",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "circular",
+   "default",
+   "horizontal",
+   "leading",
+   "trailing",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 23,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 5,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 72
+}

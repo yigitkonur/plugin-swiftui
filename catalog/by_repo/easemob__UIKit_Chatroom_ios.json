@@ -1,0 +1,67 @@
+{
+ "repo": "easemob/UIKit_Chatroom_ios",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "85f530de9c0c70a3a4372d248430db29ac38934a",
+ "platform": "macos",
+ "author_authority": 77821,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "zjc19891106",
+   "score": 78716,
+   "contributions": 174
+  },
+  {
+   "login": "maxxfrazer",
+   "score": 2440,
+   "contributions": 1
+  },
+  {
+   "login": "lixm1988",
+   "score": 6939,
+   "contributions": 1
+  }
+ ],
+ "loc": 13950,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AgoraChat",
+  "AppKit",
+  "ChatroomUIKit",
+  "Combine",
+  "CommonCrypto",
+  "Foundation",
+  "HyphenateChat",
+  "ObjectiveC",
+  "QuartzCore",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "link"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 1
+}

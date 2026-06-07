@@ -1,0 +1,112 @@
+{
+ "repo": "pprp/ClipLLM_Mac",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b704a52301dd0910547e296c88a79238955ad3e5",
+ "platform": "macos",
+ "author_authority": 11120,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "pprp",
+   "score": 11120,
+   "contributions": 11
+  }
+ ],
+ "loc": 801,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onDisappear",
+   "onPreferenceChange",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "preference",
+   "textFieldStyle",
+   "tint"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "HStack",
+   "LazyVGrid",
+   "MenuBarExtra",
+   "ProgressView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "headline",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "center",
+   "gray",
+   "horizontal",
+   "leading",
+   "primary",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "vertical",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 13,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

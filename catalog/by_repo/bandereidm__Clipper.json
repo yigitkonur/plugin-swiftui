@@ -1,0 +1,106 @@
+{
+ "repo": "bandereidm/Clipper",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "725b0bc899f018dd8c6d0e2d3bb004f9aef424ec",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bandereidm",
+   "score": 1,
+   "contributions": 15
+  }
+ ],
+ "loc": 490,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "containerBackground",
+   "contentShape",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "listStyle",
+   "onAppear",
+   "onTapGesture",
+   "padding",
+   "restorationBehavior",
+   "safeAreaInset",
+   "scaledToFit",
+   "toolbar",
+   "toolbarBackgroundVisibility",
+   "windowMinimizeBehavior",
+   "windowResizability",
+   "windowResizeBehavior"
+  ],
+  "types": [
+   "Button",
+   "ContentUnavailableView",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "MenuBarExtra",
+   "PlainListStyle",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "hidden",
+   "leading",
+   "secondary",
+   "thickMaterial",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 16,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 51
+}

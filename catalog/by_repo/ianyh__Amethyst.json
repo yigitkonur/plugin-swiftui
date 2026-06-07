@@ -1,0 +1,77 @@
+{
+ "repo": "ianyh/Amethyst",
+ "stars": 16149,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "34e35629a11ad31501ae7c2e6aeaf4ccbc8e488b",
+ "platform": "macos",
+ "author_authority": 16447,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "ianyh",
+   "score": 16447,
+   "contributions": 1074
+  },
+  {
+   "login": "ianfixes",
+   "score": 149,
+   "contributions": 68
+  },
+  {
+   "login": "leonardt",
+   "score": 178,
+   "contributions": 58
+  }
+ ],
+ "loc": 15529,
+ "custom_components": 0,
+ "imports": [
+  "Amethyst",
+  "AppKit",
+  "ApplicationServices",
+  "ArgumentParser",
+  "Carbon",
+  "Cartography",
+  "Cocoa",
+  "CommonCrypto",
+  "CoreServices",
+  "Foundation",
+  "JavaScriptCore",
+  "KeyboardShortcuts",
+  "LoginServiceKit",
+  "MASShortcut",
+  "Nimble",
+  "QuartzCore",
+  "Quick",
+  "RxCocoa",
+  "RxSwift",
+  "Silica",
+  "Sparkle",
+  "SwiftyBeaver",
+  "SwiftyJSON",
+  "Yams"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

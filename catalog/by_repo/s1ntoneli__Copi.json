@@ -1,0 +1,141 @@
+{
+ "repo": "s1ntoneli/Copi",
+ "stars": 419,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3fd0a44dd50e02c4b2b659bfee740c6766c33a86",
+ "platform": "macos",
+ "author_authority": 71032,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "s1ntoneli",
+   "score": 71032,
+   "contributions": 44
+  }
+ ],
+ "loc": 2221,
+ "custom_components": 26,
+ "imports": [
+  "AXSwift",
+  "AXSwiftExt",
+  "AppKit",
+  "AppUpdater",
+  "ApplicationServices",
+  "Automator",
+  "Carbon",
+  "Cocoa",
+  "Copi",
+  "Defaults",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "ObjectiveC",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "scrollIndicators",
+   "tag",
+   "task",
+   "toggleStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "AppStorage",
+   "BorderedProminentButtonStyle",
+   "Button",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "center",
+   "headline",
+   "regular",
+   "subheadline",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "button",
+   "center",
+   "clear",
+   "default",
+   "grouped",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "segmented",
+   "switch",
+   "white",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 21,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 74
+}

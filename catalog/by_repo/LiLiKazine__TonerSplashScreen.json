@@ -1,0 +1,93 @@
+{
+ "repo": "LiLiKazine/TonerSplashScreen",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "77d55eb4584901046e61a254945893953c9e7fb0",
+ "platform": "other",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LiLiKazine",
+   "score": 3,
+   "contributions": 1
+  }
+ ],
+ "loc": 251,
+ "custom_components": 14,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "clipShape",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyframeAnimator",
+   "lineIntersection",
+   "mask",
+   "navigationTitle",
+   "offset",
+   "onAppear",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "shadow",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CubicKeyframe",
+   "Image",
+   "LinearGradient",
+   "NavigationStack",
+   "Path",
+   "Rectangle",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "largeTitle"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottomTrailing",
+   "brown",
+   "fill",
+   "topLeading",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 12,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 43
+}

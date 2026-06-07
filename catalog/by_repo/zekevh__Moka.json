@@ -1,0 +1,116 @@
+{
+ "repo": "zekevh/Moka",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "70379a422d71d94c18c2522c456764a044a09677",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zekevh",
+   "score": 2,
+   "contributions": 7
+  }
+ ],
+ "loc": 707,
+ "custom_components": 11,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "IOKit",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "controlSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "hidden",
+   "keyboardShortcut",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "strokeBorder",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Picker",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "easeInOut",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "checkbox",
+   "full",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "secondary",
+   "segmented",
+   "squareBorder",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 17,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 63
+}

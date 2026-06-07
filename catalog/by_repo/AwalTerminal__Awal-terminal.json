@@ -1,0 +1,63 @@
+{
+ "repo": "AwalTerminal/Awal-terminal",
+ "stars": 23,
+ "categories": [
+  "Terminal Apps"
+ ],
+ "sha": "cf05fee958e2de65e05439de2296a5919961bf39",
+ "platform": "macos",
+ "author_authority": 379024,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "brahim-guaali",
+   "score": 379024,
+   "contributions": 419
+  }
+ ],
+ "loc": 34595,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "AwalTerminalLib",
+  "CAwalTerminal",
+  "Carbon",
+  "CommonCrypto",
+  "CoreGraphics",
+  "CoreText",
+  "Foundation",
+  "IOKit",
+  "ImageIO",
+  "Metal",
+  "PackageDescription",
+  "Quartz",
+  "QuartzCore",
+  "Speech",
+  "UserNotifications",
+  "WebKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

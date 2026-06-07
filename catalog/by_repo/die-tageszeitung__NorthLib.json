@@ -1,0 +1,67 @@
+{
+ "repo": "die-tageszeitung/NorthLib",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "50501380ea3118af2fede1dcecce894e3ce2f4b5",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "nthies",
+   "score": 0,
+   "contributions": 382
+  },
+  {
+   "login": "bochos-bln",
+   "score": 0,
+   "contributions": 12
+  }
+ ],
+ "loc": 23007,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "CoreData",
+  "Foundation",
+  "LinkPresentation",
+  "MediaPlayer",
+  "MessageUI",
+  "NorthBase",
+  "NorthFoundation",
+  "NorthLowLevel",
+  "NorthUIKit",
+  "PDFKit",
+  "PackageDescription",
+  "QuartzCore",
+  "SafariServices",
+  "SystemConfiguration",
+  "UIKit",
+  "UserNotifications",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

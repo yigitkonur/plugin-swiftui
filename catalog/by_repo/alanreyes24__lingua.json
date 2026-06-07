@@ -1,0 +1,138 @@
+{
+ "repo": "alanreyes24/lingua",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "547822f34c3ffed7ca12064c5e472d2437573578",
+ "platform": "macos",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "alanreyes24",
+   "score": 4,
+   "contributions": 44
+  }
+ ],
+ "loc": 1985,
+ "custom_components": 39,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PDFKit",
+  "SwiftData",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "modelContainer",
+   "multilineTextAlignment",
+   "navigationBarBackButtonHidden",
+   "onAppear",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "scrollContentBackground",
+   "shadow",
+   "sheet",
+   "stroke",
+   "symbolEffect",
+   "task",
+   "textFieldStyle",
+   "toolbar",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NavigationLink",
+   "NavigationStack",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "Schema",
+   "ScrollView",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "clear",
+   "green",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "navigation",
+   "orange",
+   "plain",
+   "purple",
+   "red",
+   "top",
+   "trailing",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "Model",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "modelContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 27,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 19,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 80
+}

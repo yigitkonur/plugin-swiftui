@@ -1,0 +1,120 @@
+{
+ "repo": "musesum/DeepMuse",
+ "stars": 18,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3f2f5de6bc21c2fe11f7eef3aa3fe60feae07038",
+ "platform": "macos",
+ "author_authority": 87,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "musesum",
+   "score": 87,
+   "contributions": 126
+  }
+ ],
+ "loc": 1115,
+ "custom_components": 11,
+ "imports": [
+  "BackgroundTasks",
+  "Collections",
+  "CompositorServices",
+  "Foundation",
+  "MetalKit",
+  "MuAudio",
+  "MuFlo",
+  "MuHands",
+  "MuMenu",
+  "MuMetal",
+  "MuPeers",
+  "MuPlato",
+  "MuSky",
+  "MuVision",
+  "Observation",
+  "RealityKit",
+  "SwiftUI",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "cornerRadius",
+   "environment",
+   "frame",
+   "immersionStyle",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onOpenURL",
+   "opacity",
+   "padding",
+   "persistentSystemOverlays",
+   "pickerStyle",
+   "progressViewStyle",
+   "scaleEffect",
+   "scaledToFill",
+   "tag",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "EdgeInsets",
+   "GeometryReader",
+   "Group",
+   "Image",
+   "Picker",
+   "ProgressView",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "blue",
+   "bottom",
+   "center",
+   "circular",
+   "clear",
+   "cyan",
+   "full",
+   "green",
+   "hidden",
+   "none",
+   "orange",
+   "plain",
+   "red",
+   "segmented",
+   "visible",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissImmersiveSpace",
+   "openImmersiveSpace",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 9,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 18,
+  "propertyWrappers": 4,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 54
+}

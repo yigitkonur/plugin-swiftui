@@ -1,0 +1,126 @@
+{
+ "repo": "n3d1117/appdb",
+ "stars": 351,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "574aeb89f4b57874157fbed3fc8d22622414d39a",
+ "platform": "macos",
+ "author_authority": 4507,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nedley",
+   "score": 83,
+   "contributions": 143
+  },
+  {
+   "login": "n3d1117",
+   "score": 4507,
+   "contributions": 43
+  },
+  {
+   "login": "Am1nCmd",
+   "score": 630,
+   "contributions": 4
+  }
+ ],
+ "loc": 39610,
+ "custom_components": 27,
+ "imports": [
+  "Alamofire",
+  "AlamofireImage",
+  "AlamofireNetworkActivityIndicator",
+  "AppKit",
+  "BLTNBoard",
+  "Combine",
+  "CoreGraphics",
+  "Cosmos",
+  "DeepDiff",
+  "Foundation",
+  "Intents",
+  "Kanna",
+  "Localize_Swift",
+  "MessageUI",
+  "ObjectMapper",
+  "SafariServices",
+  "SwiftMessages",
+  "SwiftUI",
+  "Swifter",
+  "SwiftyJSON",
+  "TelemetryClient",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "WidgetKit",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "clipShape",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "kerning",
+   "lineLimit",
+   "padding",
+   "previewContext",
+   "redacted",
+   "resizable",
+   "scaledToFit",
+   "unredacted"
+  ],
+  "types": [
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "Path",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "leading",
+   "none",
+   "placeholder",
+   "secondary",
+   "top",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 11,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 40
+}

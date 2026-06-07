@@ -1,0 +1,102 @@
+{
+ "repo": "mpvkit/MPVKit",
+ "stars": 178,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f5d1f0e3e9d7341d922162f8a590b16ac7eefc36",
+ "platform": "macos",
+ "author_authority": 3106,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "cxfksword",
+   "score": 3161,
+   "contributions": 171
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 2
+  },
+  {
+   "login": "rursache",
+   "score": 159208,
+   "contributions": 1
+  }
+ ],
+ "loc": 5859,
+ "custom_components": 27,
+ "imports": [
+  "AppKit",
+  "CoreMedia",
+  "Foundation",
+  "GLKit",
+  "Libmpv",
+  "OpenGL",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "defaultSize",
+   "disabled",
+   "focusable",
+   "frame",
+   "ignoresSafeArea",
+   "onHover",
+   "onKeyPress",
+   "onPlayPauseCommand",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "toggleStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "HStack",
+   "ProgressView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "switch",
+   "top",
+   "ultraThickMaterial"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 11,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 36
+}

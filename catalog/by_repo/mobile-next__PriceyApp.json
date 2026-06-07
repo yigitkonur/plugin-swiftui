@@ -1,0 +1,107 @@
+{
+ "repo": "mobile-next/PriceyApp",
+ "stars": 43,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "330155a0bf928f3a9ff2532e1b952da906214171",
+ "platform": "macos",
+ "author_authority": 6819,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "gmegidish",
+   "score": 7925,
+   "contributions": 37
+  },
+  {
+   "login": "krismuhi",
+   "score": 5720,
+   "contributions": 6
+  }
+ ],
+ "loc": 1238,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "textFieldStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "Form",
+   "GroupedFormStyle",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NavigationSplitView",
+   "PlainButtonStyle",
+   "RoundedBorderTextFieldStyle",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "regular"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "horizontal",
+   "leading",
+   "secondary",
+   "top",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 20,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 47
+}

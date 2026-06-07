@@ -1,0 +1,73 @@
+{
+ "repo": "mateipralea/simple-calculator",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "958140b238a29b5f8999f0481eb0500749a09bf4",
+ "platform": "macos",
+ "author_authority": 891,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mateipralea",
+   "score": 891,
+   "contributions": 2
+  }
+ ],
+ "loc": 213,
+ "custom_components": 4,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "font",
+   "frame",
+   "gridCellColumns",
+   "minimumScaleFactor",
+   "onReceive",
+   "padding",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Grid",
+   "GridRow",
+   "HiddenTitleBarWindowStyle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 8,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 23
+}

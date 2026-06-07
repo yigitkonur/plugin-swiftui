@@ -1,0 +1,7789 @@
+[
+  {
+    "owner": "Cocoanetics",
+    "repo": "DTCoreText",
+    "full_name": "Cocoanetics/DTCoreText",
+    "default_branch": "develop",
+    "stars": 6393,
+    "pushed_at": "2026-04-19",
+    "swift_bytes": 709466,
+    "swift_share": 0.8417,
+    "languages": {
+      "Swift": 709466,
+      "HTML": 130061,
+      "CSS": 3363
+    },
+    "flags": [],
+    "license": "BSD-2-Clause",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "wordpress-mobile",
+    "repo": "WordPress-iOS",
+    "full_name": "wordpress-mobile/WordPress-iOS",
+    "default_branch": "trunk",
+    "stars": 3895,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 16412448,
+    "swift_share": 0.891,
+    "languages": {
+      "Swift": 16412448,
+      "Objective-C": 1737945,
+      "Ruby": 157629,
+      "Shell": 58131,
+      "HTML": 39471,
+      "CSS": 8414,
+      "JavaScript": 5271,
+      "Makefile": 266,
+      "C": 160
+    },
+    "flags": [],
+    "license": "GPL-2.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "simonbs",
+    "repo": "Runestone",
+    "full_name": "simonbs/Runestone",
+    "default_branch": "main",
+    "stars": 3151,
+    "pushed_at": "2026-03-25",
+    "swift_bytes": 662228,
+    "swift_share": 0.9935,
+    "languages": {
+      "Swift": 662228,
+      "Shell": 4308
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "swiftlang",
+    "repo": "swift-foundation",
+    "full_name": "swiftlang/swift-foundation",
+    "default_branch": "main",
+    "stars": 2651,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 8755550,
+    "swift_share": 0.7524,
+    "languages": {
+      "Swift": 8755550,
+      "C": 2830205,
+      "CMake": 48544,
+      "Shell": 2134,
+      "JavaScript": 41
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mastodon",
+    "repo": "mastodon-ios",
+    "full_name": "mastodon/mastodon-ios",
+    "default_branch": "develop",
+    "stars": 2254,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 3925614,
+    "swift_share": 0.9988,
+    "languages": {
+      "Swift": 3925614,
+      "Ruby": 3506,
+      "Shell": 679,
+      "JavaScript": 627
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "swiftlang",
+    "repo": "swift-testing",
+    "full_name": "swiftlang/swift-testing",
+    "default_branch": "main",
+    "stars": 2139,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 2187812,
+    "swift_share": 0.9626,
+    "languages": {
+      "Swift": 2187812,
+      "CMake": 44190,
+      "C": 29153,
+      "C++": 10972,
+      "Dockerfile": 683
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "krzyzanowskim",
+    "repo": "STTextView",
+    "full_name": "krzyzanowskim/STTextView",
+    "default_branch": "main",
+    "stars": 1552,
+    "pushed_at": "2026-05-19",
+    "swift_bytes": 675579,
+    "swift_share": 0.9971,
+    "languages": {
+      "Swift": 675579,
+      "Objective-C": 1514,
+      "Makefile": 418
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "psharanda",
+    "repo": "Atributika",
+    "full_name": "psharanda/Atributika",
+    "default_branch": "master",
+    "stars": 1507,
+    "pushed_at": "2024-06-11",
+    "swift_bytes": 108019,
+    "swift_share": 0.9839,
+    "languages": {
+      "Swift": 108019,
+      "Ruby": 1771
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rajdeep",
+    "repo": "proton",
+    "full_name": "rajdeep/proton",
+    "default_branch": "main",
+    "stars": 1372,
+    "pushed_at": "2025-04-21",
+    "swift_bytes": 1378846,
+    "swift_share": 0.9835,
+    "languages": {
+      "Swift": 1378846,
+      "Objective-C": 23131
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "danielsaidi",
+    "repo": "RichTextKit",
+    "full_name": "danielsaidi/RichTextKit",
+    "default_branch": "main",
+    "stars": 1262,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 383547,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 383547
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "instructure",
+    "repo": "canvas-ios",
+    "full_name": "instructure/canvas-ios",
+    "default_branch": "master",
+    "stars": 922,
+    "pushed_at": "2026-05-19",
+    "swift_bytes": 17963353,
+    "swift_share": 0.9897,
+    "languages": {
+      "Swift": 17963353,
+      "JavaScript": 124462,
+      "Shell": 26516,
+      "TypeScript": 21277,
+      "Mustache": 5553,
+      "HTML": 2760,
+      "CSS": 2362,
+      "Makefile": 1569,
+      "Objective-C": 894,
+      "C": 759,
+      "Ruby": 58
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "lixiang1994",
+    "repo": "AttributedString",
+    "full_name": "lixiang1994/AttributedString",
+    "default_branch": "master",
+    "stars": 903,
+    "pushed_at": "2024-09-19",
+    "swift_bytes": 245176,
+    "swift_share": 0.9916,
+    "languages": {
+      "Swift": 245176,
+      "Ruby": 1539,
+      "Objective-C": 542
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mihaelamj",
+    "repo": "cupertino",
+    "full_name": "mihaelamj/cupertino",
+    "default_branch": "main",
+    "stars": 821,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 6820467,
+    "swift_share": 0.9551,
+    "languages": {
+      "Swift": 6820467,
+      "Shell": 186258,
+      "Python": 119723,
+      "Makefile": 14861
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropPreviewsFormation"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ethanhuang13",
+    "repo": "NSAttributedStringBuilder",
+    "full_name": "ethanhuang13/NSAttributedStringBuilder",
+    "default_branch": "master",
+    "stars": 759,
+    "pushed_at": "2024-09-02",
+    "swift_bytes": 57085,
+    "swift_share": 0.9676,
+    "languages": {
+      "Swift": 57085,
+      "Ruby": 1909
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "kieranb662",
+    "repo": "Sliders-SwiftUI",
+    "full_name": "kieranb662/Sliders-SwiftUI",
+    "default_branch": "master",
+    "stars": 703,
+    "pushed_at": "2026-03-13",
+    "swift_bytes": 591364,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 591364
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nicklockwood",
+    "repo": "Euclid",
+    "full_name": "nicklockwood/Euclid",
+    "default_branch": "main",
+    "stars": 694,
+    "pushed_at": "2026-01-03",
+    "swift_bytes": 941414,
+    "swift_share": 0.9954,
+    "languages": {
+      "Swift": 941414,
+      "Shell": 4329
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "wordpress-mobile",
+    "repo": "AztecEditor-iOS",
+    "full_name": "wordpress-mobile/AztecEditor-iOS",
+    "default_branch": "develop",
+    "stars": 668,
+    "pushed_at": "2026-03-25",
+    "swift_bytes": 1239997,
+    "swift_share": 0.9719,
+    "languages": {
+      "Swift": 1239997,
+      "HTML": 24852,
+      "Ruby": 4687,
+      "Rich Text Format": 3918,
+      "Shell": 2343
+    },
+    "flags": [],
+    "license": "MPL-2.0",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "LiYanan2004",
+    "repo": "MarkdownView",
+    "full_name": "LiYanan2004/MarkdownView",
+    "default_branch": "main",
+    "stars": 666,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 294309,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 294309
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "facebook",
+    "repo": "lexical-ios",
+    "full_name": "facebook/lexical-ios",
+    "default_branch": "main",
+    "stars": 657,
+    "pushed_at": "2026-05-06",
+    "swift_bytes": 805115,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 805115
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MihaelIsaev",
+    "repo": "UIKitPlus",
+    "full_name": "MihaelIsaev/UIKitPlus",
+    "default_branch": "master",
+    "stars": 628,
+    "pushed_at": "2025-06-14",
+    "swift_bytes": 1129921,
+    "swift_share": 0.9985,
+    "languages": {
+      "Swift": 1129921,
+      "Ruby": 1721
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rasmuslos",
+    "repo": "ShelfPlayer",
+    "full_name": "rasmuslos/ShelfPlayer",
+    "default_branch": "main",
+    "stars": 564,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 2089689,
+    "swift_share": 0.9929,
+    "languages": {
+      "Swift": 2089689,
+      "Python": 14948
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Muesli-HQ",
+    "repo": "muesli",
+    "full_name": "Muesli-HQ/muesli",
+    "default_branch": "main",
+    "stars": 560,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 2921176,
+    "swift_share": 0.9447,
+    "languages": {
+      "Swift": 2921176,
+      "Shell": 101575,
+      "HTML": 44029,
+      "Python": 15447,
+      "C": 10085
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Dimillian",
+    "repo": "IcySky",
+    "full_name": "Dimillian/IcySky",
+    "default_branch": "main",
+    "stars": 536,
+    "pushed_at": "2025-06-20",
+    "swift_bytes": 114048,
+    "swift_share": 0.9993,
+    "languages": {
+      "Swift": 114048,
+      "Shell": 78
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "textInputFormattingControlVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "anyproto",
+    "repo": "anytype-swift",
+    "full_name": "anyproto/anytype-swift",
+    "default_branch": "develop",
+    "stars": 490,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 12468127,
+    "swift_share": 0.972,
+    "languages": {
+      "Swift": 12468127,
+      "Python": 310827,
+      "Shell": 45277,
+      "Makefile": 2797,
+      "Ruby": 746
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "vapor-community",
+    "repo": "HTMLKit",
+    "full_name": "vapor-community/HTMLKit",
+    "default_branch": "main",
+    "stars": 445,
+    "pushed_at": "2026-05-15",
+    "swift_bytes": 3468830,
+    "swift_share": 0.961,
+    "languages": {
+      "Swift": 3468830,
+      "CSS": 91499,
+      "JavaScript": 48170,
+      "HTML": 1041
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nicklockwood",
+    "repo": "ShapeScript",
+    "full_name": "nicklockwood/ShapeScript",
+    "default_branch": "main",
+    "stars": 437,
+    "pushed_at": "2026-03-04",
+    "swift_bytes": 2017596,
+    "swift_share": 0.9261,
+    "languages": {
+      "Swift": 2017596,
+      "Rich Text Format": 155302,
+      "Shell": 5772
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AFK-surf",
+    "repo": "OpenBridge",
+    "full_name": "AFK-surf/OpenBridge",
+    "default_branch": "main",
+    "stars": 403,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 2537963,
+    "swift_share": 0.5752,
+    "languages": {
+      "Swift": 2537963,
+      "TypeScript": 931874,
+      "Go": 633013,
+      "Python": 166222,
+      "Shell": 84569,
+      "JavaScript": 26351,
+      "CSS": 26278,
+      "Dockerfile": 2044,
+      "Metal": 1448,
+      "HTML": 1382,
+      "Makefile": 1041
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Shopify",
+    "repo": "FunctionalTableData",
+    "full_name": "Shopify/FunctionalTableData",
+    "default_branch": "main",
+    "stars": 371,
+    "pushed_at": "2025-08-07",
+    "swift_bytes": 318707,
+    "swift_share": 0.9978,
+    "languages": {
+      "Swift": 318707,
+      "Objective-C": 698
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "bytedance",
+    "repo": "DanceUI",
+    "full_name": "bytedance/DanceUI",
+    "default_branch": "main",
+    "stars": 368,
+    "pushed_at": "2026-04-07",
+    "swift_bytes": 6950208,
+    "swift_share": 0.9448,
+    "languages": {
+      "Swift": 6950208,
+      "Objective-C": 171270,
+      "C++": 150786,
+      "Ruby": 43415,
+      "C": 35986,
+      "Shell": 4561
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "n3d1117",
+    "repo": "appdb",
+    "full_name": "n3d1117/appdb",
+    "default_branch": "master",
+    "stars": 351,
+    "pushed_at": "2024-07-29",
+    "swift_bytes": 1511363,
+    "swift_share": 0.9345,
+    "languages": {
+      "Swift": 1511363,
+      "Objective-C": 103677,
+      "C": 2304
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mezonai",
+    "repo": "mezon-ios",
+    "full_name": "mezonai/mezon-ios",
+    "default_branch": "master",
+    "stars": 313,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 9142223,
+    "swift_share": 0.9799,
+    "languages": {
+      "Swift": 9142223,
+      "Objective-C": 179879,
+      "Shell": 4318,
+      "Objective-C++": 2637,
+      "Ruby": 855
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "zotero",
+    "repo": "zotero-ios",
+    "full_name": "zotero/zotero-ios",
+    "default_branch": "master",
+    "stars": 306,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 4212989,
+    "swift_share": 0.7974,
+    "languages": {
+      "Swift": 4212989,
+      "JavaScript": 1041018,
+      "Shell": 12726,
+      "Python": 8379,
+      "HTML": 6915,
+      "Objective-C": 1118
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "llsc12",
+    "repo": "Paicord",
+    "full_name": "llsc12/Paicord",
+    "default_branch": "main",
+    "stars": 301,
+    "pushed_at": "2026-05-11",
+    "swift_bytes": 2911198,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 2911198
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "fileDialogImportsUnresolvedAliases"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "canopas",
+    "repo": "rich-editor-swiftui",
+    "full_name": "canopas/rich-editor-swiftui",
+    "default_branch": "main",
+    "stars": 266,
+    "pushed_at": "2025-01-21",
+    "swift_bytes": 369865,
+    "swift_share": 0.9973,
+    "languages": {
+      "Swift": 369865,
+      "Ruby": 994
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "owncloud",
+    "repo": "ios-app",
+    "full_name": "owncloud/ios-app",
+    "default_branch": "master",
+    "stars": 248,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 2590953,
+    "swift_share": 0.8131,
+    "languages": {
+      "Swift": 2590953,
+      "Objective-C": 511995,
+      "Ruby": 58487,
+      "Shell": 18548,
+      "Go Template": 6622
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "suhang12332",
+    "repo": "Swift-Craft-Launcher",
+    "full_name": "suhang12332/Swift-Craft-Launcher",
+    "default_branch": "main",
+    "stars": 246,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1904187,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1904187
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "roberthein",
+    "repo": "Kinetics",
+    "full_name": "roberthein/Kinetics",
+    "default_branch": "main",
+    "stars": 232,
+    "pushed_at": "2025-09-05",
+    "swift_bytes": 63769,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 63769
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "davedelong",
+    "repo": "extendedswift",
+    "full_name": "davedelong/extendedswift",
+    "default_branch": "main",
+    "stars": 176,
+    "pushed_at": "2026-01-13",
+    "swift_bytes": 578899,
+    "swift_share": 0.8497,
+    "languages": {
+      "Swift": 578899,
+      "Objective-C": 102377
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "privacy-tech-lab",
+    "repo": "privacyflash-pro",
+    "full_name": "privacy-tech-lab/privacyflash-pro",
+    "default_branch": "main",
+    "stars": 167,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 4015883,
+    "swift_share": 0.6226,
+    "languages": {
+      "Swift": 4015883,
+      "C": 1256164,
+      "HTML": 727932,
+      "JavaScript": 217806,
+      "Objective-C": 96062,
+      "Python": 92436,
+      "CSS": 28262,
+      "Shell": 8976,
+      "Ruby": 6606
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "avito-tech",
+    "repo": "Mixbox",
+    "full_name": "avito-tech/Mixbox",
+    "default_branch": "master",
+    "stars": 165,
+    "pushed_at": "2025-03-25",
+    "swift_bytes": 3516135,
+    "swift_share": 0.6376,
+    "languages": {
+      "Swift": 3516135,
+      "Objective-C": 1266162,
+      "C": 551367,
+      "Python": 69612,
+      "C++": 36165,
+      "Ruby": 35624,
+      "Shell": 34229,
+      "Objective-C++": 5563,
+      "Makefile": 211
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Hongtae",
+    "repo": "SwiftVVD",
+    "full_name": "Hongtae/SwiftVVD",
+    "default_branch": "main",
+    "stars": 155,
+    "pushed_at": "2026-02-27",
+    "swift_bytes": 2222665,
+    "swift_share": 0.9174,
+    "languages": {
+      "Swift": 2222665,
+      "C++": 152075,
+      "GLSL": 29561,
+      "C": 13140,
+      "Python": 3104,
+      "Dockerfile": 2126
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "barbaramartina",
+    "repo": "swiftuicatalog",
+    "full_name": "barbaramartina/swiftuicatalog",
+    "default_branch": "main",
+    "stars": 127,
+    "pushed_at": "2025-09-16",
+    "swift_bytes": 494290,
+    "swift_share": 0.9882,
+    "languages": {
+      "Swift": 494290,
+      "Metal": 5922
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "6over3",
+    "repo": "WorkKit",
+    "full_name": "6over3/WorkKit",
+    "default_branch": "main",
+    "stars": 95,
+    "pushed_at": "2026-04-23",
+    "swift_bytes": 11993521,
+    "swift_share": 0.9915,
+    "languages": {
+      "Swift": 11993521,
+      "C++": 67233,
+      "C": 16363,
+      "Shell": 10847,
+      "Python": 7995
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rztime",
+    "repo": "RZColorfulSwift",
+    "full_name": "rztime/RZColorfulSwift",
+    "default_branch": "master",
+    "stars": 89,
+    "pushed_at": "2025-03-17",
+    "swift_bytes": 169417,
+    "swift_share": 0.987,
+    "languages": {
+      "Swift": 169417,
+      "Ruby": 2239
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "raptor-build",
+    "repo": "raptor",
+    "full_name": "raptor-build/raptor",
+    "default_branch": "main",
+    "stars": 87,
+    "pushed_at": "2026-04-29",
+    "swift_bytes": 1763797,
+    "swift_share": 0.8822,
+    "languages": {
+      "Swift": 1763797,
+      "JavaScript": 137506,
+      "CSS": 95030,
+      "Python": 2219,
+      "Makefile": 739
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "manikv12",
+    "repo": "OpenAssist",
+    "full_name": "manikv12/OpenAssist",
+    "default_branch": "main",
+    "stars": 86,
+    "pushed_at": "2026-05-23",
+    "swift_bytes": 8866695,
+    "swift_share": 0.4643,
+    "languages": {
+      "Swift": 8866695,
+      "HTML": 6917821,
+      "TypeScript": 2393628,
+      "CSS": 582942,
+      "JavaScript": 121633,
+      "C++": 96415,
+      "C": 79424,
+      "Shell": 23352,
+      "Python": 15796,
+      "Objective-C": 1096
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "emorydunn",
+    "repo": "SwiftGraphics",
+    "full_name": "emorydunn/SwiftGraphics",
+    "default_branch": "main",
+    "stars": 74,
+    "pushed_at": "2026-01-04",
+    "swift_bytes": 190600,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 190600
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Kurozora",
+    "repo": "kurozora-app",
+    "full_name": "Kurozora/kurozora-app",
+    "default_branch": "master",
+    "stars": 68,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 3967206,
+    "swift_share": 0.9993,
+    "languages": {
+      "Swift": 3967206,
+      "Python": 2349,
+      "PHP": 523
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "samhjn",
+    "repo": "Palvia",
+    "full_name": "samhjn/Palvia",
+    "default_branch": "develop",
+    "stars": 68,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 2898236,
+    "swift_share": 0.9812,
+    "languages": {
+      "Swift": 2898236,
+      "Shell": 29994,
+      "JavaScript": 24268,
+      "Objective-C": 1162
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineSubtraction"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ZhongshanHuang",
+    "repo": "PoReader",
+    "full_name": "ZhongshanHuang/PoReader",
+    "default_branch": "master",
+    "stars": 66,
+    "pushed_at": "2026-05-16",
+    "swift_bytes": 739076,
+    "swift_share": 0.6818,
+    "languages": {
+      "Swift": 739076,
+      "Objective-C": 288316,
+      "JavaScript": 44689,
+      "HTML": 7938,
+      "CSS": 3351,
+      "C": 589
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "chenhaiteng",
+    "repo": "Rings",
+    "full_name": "chenhaiteng/Rings",
+    "default_branch": "main",
+    "stars": 66,
+    "pushed_at": "2025-04-29",
+    "swift_bytes": 169617,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 169617
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AgoraIO-Usecase",
+    "repo": "agora-ent-scenarios",
+    "full_name": "AgoraIO-Usecase/agora-ent-scenarios",
+    "default_branch": "main",
+    "stars": 63,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 5878041,
+    "swift_share": 0.4569,
+    "languages": {
+      "Swift": 5878041,
+      "Kotlin": 4213328,
+      "Objective-C": 1357529,
+      "Java": 1285884,
+      "Objective-C++": 40539,
+      "Ruby": 39794,
+      "Shell": 30146,
+      "C": 10703,
+      "Groovy": 4057,
+      "Python": 3911,
+      "C++": 596
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "NSEvent",
+    "repo": "xbox-controller-mapper",
+    "full_name": "NSEvent/xbox-controller-mapper",
+    "default_branch": "main",
+    "stars": 54,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 4028969,
+    "swift_share": 0.9518,
+    "languages": {
+      "Swift": 4028969,
+      "Python": 107854,
+      "C": 56370,
+      "Shell": 24893,
+      "Makefile": 8377,
+      "Objective-C": 6530
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rafaelclaycon",
+    "repo": "MedoDelirioiOSApp",
+    "full_name": "rafaelclaycon/MedoDelirioiOSApp",
+    "default_branch": "main",
+    "stars": 51,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 1752803,
+    "swift_share": 0.9766,
+    "languages": {
+      "Swift": 1752803,
+      "Python": 23171,
+      "Shell": 18803
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar",
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "doo",
+    "repo": "scanbot-sdk-example-ios",
+    "full_name": "doo/scanbot-sdk-example-ios",
+    "default_branch": "master",
+    "stars": 49,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 755465,
+    "swift_share": 0.9995,
+    "languages": {
+      "Swift": 755465,
+      "Objective-C": 307,
+      "C": 104
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "IhorShevchuk",
+    "repo": "piper-app",
+    "full_name": "IhorShevchuk/piper-app",
+    "default_branch": "main",
+    "stars": 45,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 122531,
+    "swift_share": 0.9802,
+    "languages": {
+      "Swift": 122531,
+      "Shell": 2478
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Ptt-official-app",
+    "repo": "Ptt-iOS",
+    "full_name": "Ptt-official-app/Ptt-iOS",
+    "default_branch": "main",
+    "stars": 39,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 570241,
+    "swift_share": 0.9998,
+    "languages": {
+      "Swift": 570241,
+      "Ruby": 88
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "raindropio",
+    "repo": "ios",
+    "full_name": "raindropio/ios",
+    "default_branch": "main",
+    "stars": 37,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 680669,
+    "swift_share": 0.99,
+    "languages": {
+      "Swift": 680669,
+      "JavaScript": 5784,
+      "Shell": 1057
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "exportableToServices"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "BBC6BAE9",
+    "repo": "a2ui-swift",
+    "full_name": "BBC6BAE9/a2ui-swift",
+    "default_branch": "main",
+    "stars": 36,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1075398,
+    "swift_share": 0.9987,
+    "languages": {
+      "Swift": 1075398,
+      "Shell": 1449
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mercurytelegram",
+    "repo": "Mercury",
+    "full_name": "mercurytelegram/Mercury",
+    "default_branch": "main",
+    "stars": 34,
+    "pushed_at": "2026-05-17",
+    "swift_bytes": 278744,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 278744
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "opencloud-eu",
+    "repo": "ios",
+    "full_name": "opencloud-eu/ios",
+    "default_branch": "main",
+    "stars": 32,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 2493041,
+    "swift_share": 0.8082,
+    "languages": {
+      "Swift": 2493041,
+      "Objective-C": 507562,
+      "Ruby": 60407,
+      "Shell": 17897,
+      "Go Template": 5912
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "duh17",
+    "repo": "oppi",
+    "full_name": "duh17/oppi",
+    "default_branch": "main",
+    "stars": 30,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 8679651,
+    "swift_share": 0.6991,
+    "languages": {
+      "Swift": 8679651,
+      "TypeScript": 3582093,
+      "JavaScript": 119133,
+      "Shell": 31367,
+      "HTML": 2613,
+      "Dockerfile": 1395
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingToolsAffordanceVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "taikun114",
+    "repo": "Mocolamma",
+    "full_name": "taikun114/Mocolamma",
+    "default_branch": "main",
+    "stars": 30,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 731643,
+    "swift_share": 0.9914,
+    "languages": {
+      "Swift": 731643,
+      "Python": 6320
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "scrollInputBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MaddTheSane",
+    "repo": "SwiftMacTypes",
+    "full_name": "MaddTheSane/SwiftMacTypes",
+    "default_branch": "master",
+    "stars": 29,
+    "pushed_at": "2025-08-13",
+    "swift_bytes": 714526,
+    "swift_share": 0.9672,
+    "languages": {
+      "Swift": 714526,
+      "Objective-C": 24252
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SwiftUIX",
+    "repo": "SwiftUIZ",
+    "full_name": "SwiftUIX/SwiftUIZ",
+    "default_branch": "main",
+    "stars": 29,
+    "pushed_at": "2025-04-25",
+    "swift_bytes": 493006,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 493006
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "VincentGourbin",
+    "repo": "flux-2-swift-mlx",
+    "full_name": "VincentGourbin/flux-2-swift-mlx",
+    "default_branch": "main",
+    "stars": 27,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 2145418,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 2145418
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "macmixing",
+    "repo": "keyvox",
+    "full_name": "macmixing/keyvox",
+    "default_branch": "main",
+    "stars": 26,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 4089585,
+    "swift_share": 0.7381,
+    "languages": {
+      "Swift": 4089585,
+      "C++": 564147,
+      "Python": 556740,
+      "C": 190425,
+      "Shell": 139203,
+      "Rich Text Format": 605
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rudavko",
+    "repo": "cortl",
+    "full_name": "rudavko/cortl",
+    "default_branch": "main",
+    "stars": 26,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 493960,
+    "swift_share": 0.6958,
+    "languages": {
+      "Swift": 493960,
+      "TypeScript": 215987
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "yandex",
+    "repo": "vgsl",
+    "full_name": "yandex/vgsl",
+    "default_branch": "main",
+    "stars": 26,
+    "pushed_at": "2026-04-06",
+    "swift_bytes": 682045,
+    "swift_share": 0.4472,
+    "languages": {
+      "Ruby": 843020,
+      "Swift": 682045
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection",
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "heckj",
+    "repo": "MeshGenerator",
+    "full_name": "heckj/MeshGenerator",
+    "default_branch": "main",
+    "stars": 25,
+    "pushed_at": "2024-06-20",
+    "swift_bytes": 129475,
+    "swift_share": 0.9692,
+    "languages": {
+      "Swift": 129475,
+      "Shell": 4113
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ZevEisenberg",
+    "repo": "Padiddle",
+    "full_name": "ZevEisenberg/Padiddle",
+    "default_branch": "main",
+    "stars": 21,
+    "pushed_at": "2026-04-04",
+    "swift_bytes": 130821,
+    "swift_share": 0.7447,
+    "languages": {
+      "Swift": 130821,
+      "HTML": 29702,
+      "Shell": 9384,
+      "Ruby": 5751
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "radicalappdev",
+    "repo": "Step-Into-Example-Code",
+    "full_name": "radicalappdev/Step-Into-Example-Code",
+    "default_branch": "main",
+    "stars": 21,
+    "pushed_at": "2026-05-13",
+    "swift_bytes": 545631,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 545631
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "scrollInputBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "GREENOVER",
+    "repo": "playground",
+    "full_name": "GREENOVER/playground",
+    "default_branch": "main",
+    "stars": 19,
+    "pushed_at": "2024-12-23",
+    "swift_bytes": 183852,
+    "swift_share": 0.9918,
+    "languages": {
+      "Swift": 183852,
+      "JavaScript": 836,
+      "CSS": 456,
+      "HTML": 220
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "springLoadingBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "schwa",
+    "repo": "judo",
+    "full_name": "schwa/judo",
+    "default_branch": "main",
+    "stars": 19,
+    "pushed_at": "2026-04-19",
+    "swift_bytes": 177702,
+    "swift_share": 0.9536,
+    "languages": {
+      "Swift": 177702,
+      "Shell": 7584,
+      "Metal": 974,
+      "Just": 80
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Team-Offroad",
+    "repo": "Offroad-iOS",
+    "full_name": "Team-Offroad/Offroad-iOS",
+    "default_branch": "main",
+    "stars": 18,
+    "pushed_at": "2025-09-02",
+    "swift_bytes": 1242145,
+    "swift_share": 0.9996,
+    "languages": {
+      "Swift": 1242145,
+      "Ruby": 458
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mattt",
+    "repo": "WebVTT",
+    "full_name": "mattt/WebVTT",
+    "default_branch": "main",
+    "stars": 17,
+    "pushed_at": "2025-08-09",
+    "swift_bytes": 93037,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 93037
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Xopoko",
+    "repo": "MaxUI",
+    "full_name": "Xopoko/MaxUI",
+    "default_branch": "main",
+    "stars": 16,
+    "pushed_at": "2025-03-03",
+    "swift_bytes": 300688,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 300688
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "fraander",
+    "repo": "AttributedTextEditor",
+    "full_name": "fraander/AttributedTextEditor",
+    "default_branch": "main",
+    "stars": 16,
+    "pushed_at": "2025-06-19",
+    "swift_bytes": 17723,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 17723
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textInputFormattingControlVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "sp4c38",
+    "repo": "AWattPrice",
+    "full_name": "sp4c38/AWattPrice",
+    "default_branch": "master",
+    "stars": 15,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 581095,
+    "swift_share": 0.5827,
+    "languages": {
+      "Swift": 581095,
+      "Python": 262209,
+      "HTML": 106021,
+      "CSS": 33015,
+      "Shell": 14353,
+      "Dockerfile": 594
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "yosshi4486",
+    "repo": "EmojiPickerViewController",
+    "full_name": "yosshi4486/EmojiPickerViewController",
+    "default_branch": "main",
+    "stars": 15,
+    "pushed_at": "2025-07-06",
+    "swift_bytes": 192528,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 192528
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ChimeHQ",
+    "repo": "Ligature",
+    "full_name": "ChimeHQ/Ligature",
+    "default_branch": "main",
+    "stars": 13,
+    "pushed_at": "2026-04-23",
+    "swift_bytes": 31297,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 31297
+    },
+    "flags": [],
+    "license": "BSD-3-Clause",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Kosadchiy",
+    "repo": "tauri-plugin-esc-pos",
+    "full_name": "Kosadchiy/tauri-plugin-esc-pos",
+    "default_branch": "main",
+    "stars": 13,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 21744,
+    "swift_share": 0.2636,
+    "languages": {
+      "Rust": 33993,
+      "Kotlin": 23996,
+      "Swift": 21744,
+      "TypeScript": 2072,
+      "JavaScript": 678
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "warp-ds",
+    "repo": "warp-ios",
+    "full_name": "warp-ds/warp-ios",
+    "default_branch": "main",
+    "stars": 12,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1174154,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1174154
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ActiveLook",
+    "repo": "demo-app",
+    "full_name": "ActiveLook/demo-app",
+    "default_branch": "main",
+    "stars": 11,
+    "pushed_at": "2026-05-05",
+    "swift_bytes": 76339,
+    "swift_share": 0.5234,
+    "languages": {
+      "Swift": 76339,
+      "Java": 69366,
+      "Ruby": 158
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "LuizZak",
+    "repo": "Geometria",
+    "full_name": "LuizZak/Geometria",
+    "default_branch": "main",
+    "stars": 11,
+    "pushed_at": "2024-12-11",
+    "swift_bytes": 2115273,
+    "swift_share": 0.9998,
+    "languages": {
+      "Swift": 2115273,
+      "Makefile": 372,
+      "Shell": 54,
+      "Ruby": 42
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "OAK-WJR",
+    "repo": "Swift_Vision_OCR",
+    "full_name": "OAK-WJR/Swift_Vision_OCR",
+    "default_branch": "main",
+    "stars": 11,
+    "pushed_at": "2025-12-14",
+    "swift_bytes": 31572,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 31572
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gavinaboulhosn",
+    "repo": "SwiftMCP",
+    "full_name": "gavinaboulhosn/SwiftMCP",
+    "default_branch": "main",
+    "stars": 11,
+    "pushed_at": "2025-03-28",
+    "swift_bytes": 258120,
+    "swift_share": 0.9967,
+    "languages": {
+      "Swift": 258120,
+      "Shell": 846
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "PresearchOfficial",
+    "repo": "presearch-browser-ios",
+    "full_name": "PresearchOfficial/presearch-browser-ios",
+    "default_branch": "development",
+    "stars": 10,
+    "pushed_at": "2025-09-07",
+    "swift_bytes": 4996424,
+    "swift_share": 0.8466,
+    "languages": {
+      "Swift": 4996424,
+      "C++": 467841,
+      "JavaScript": 163293,
+      "Objective-C": 131346,
+      "HTML": 75275,
+      "CSS": 20454,
+      "Python": 19903,
+      "Shell": 14135,
+      "Ruby": 10604,
+      "C": 1617,
+      "Objective-C++": 1116
+    },
+    "flags": [],
+    "license": "MPL-2.0",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "didisouzacosta",
+    "repo": "VideoEditorKit",
+    "full_name": "didisouzacosta/VideoEditorKit",
+    "default_branch": "main",
+    "stars": 10,
+    "pushed_at": "2026-04-30",
+    "swift_bytes": 1549315,
+    "swift_share": 0.9968,
+    "languages": {
+      "Swift": 1549315,
+      "Shell": 4972
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Bayer-Group",
+    "repo": "GeospatialSwift",
+    "full_name": "Bayer-Group/GeospatialSwift",
+    "default_branch": "main",
+    "stars": 9,
+    "pushed_at": "2024-10-02",
+    "swift_bytes": 378122,
+    "swift_share": 0.9935,
+    "languages": {
+      "Swift": 378122,
+      "Shell": 2346,
+      "C": 145
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MangalaLabs",
+    "repo": "mangala-wallet",
+    "full_name": "MangalaLabs/mangala-wallet",
+    "default_branch": "develop",
+    "stars": 9,
+    "pushed_at": "2026-03-13",
+    "swift_bytes": 4802944,
+    "swift_share": 0.2408,
+    "languages": {
+      "Kotlin": 14950166,
+      "Swift": 4802944,
+      "JavaScript": 75694,
+      "Mermaid": 50733,
+      "Ruby": 31715,
+      "HTML": 23214,
+      "Objective-C": 7503,
+      "Shell": 3449
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "jaeilers",
+    "repo": "NSAttributedStringBuilder",
+    "full_name": "jaeilers/NSAttributedStringBuilder",
+    "default_branch": "main",
+    "stars": 9,
+    "pushed_at": "2026-05-30",
+    "swift_bytes": 319588,
+    "swift_share": 0.9867,
+    "languages": {
+      "Swift": 319588,
+      "Ruby": 3368,
+      "Shell": 944
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AgoraIO-Community",
+    "repo": "AUIKit",
+    "full_name": "AgoraIO-Community/AUIKit",
+    "default_branch": "main",
+    "stars": 8,
+    "pushed_at": "2025-12-20",
+    "swift_bytes": 958400,
+    "swift_share": 0.4905,
+    "languages": {
+      "Swift": 958400,
+      "Kotlin": 555043,
+      "Java": 434218,
+      "Ruby": 5799,
+      "Dockerfile": 553,
+      "JavaScript": 101
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Lucas-P0ntes",
+    "repo": "GuaraSDUI",
+    "full_name": "Lucas-P0ntes/GuaraSDUI",
+    "default_branch": "main",
+    "stars": 8,
+    "pushed_at": "2026-01-13",
+    "swift_bytes": 159558,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 159558
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "xiaofu666",
+    "repo": "SwiftUI_New_API",
+    "full_name": "xiaofu666/SwiftUI_New_API",
+    "default_branch": "master",
+    "stars": 8,
+    "pushed_at": "2025-06-29",
+    "swift_bytes": 225023,
+    "swift_share": 0.9961,
+    "languages": {
+      "Swift": 225023,
+      "Metal": 876
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "onDropSessionUpdated"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "classicsc",
+    "repo": "MaruReader",
+    "full_name": "classicsc/MaruReader",
+    "default_branch": "main",
+    "stars": 7,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 3466732,
+    "swift_share": 0.9111,
+    "languages": {
+      "Swift": 3466732,
+      "JavaScript": 136207,
+      "C": 67960,
+      "CSS": 42398,
+      "Shell": 35566,
+      "Rust": 29698,
+      "Python": 21000,
+      "Just": 2724,
+      "HTML": 2552
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ipedro",
+    "repo": "swiftui-showcase",
+    "full_name": "ipedro/swiftui-showcase",
+    "default_branch": "main",
+    "stars": 7,
+    "pushed_at": "2026-02-16",
+    "swift_bytes": 557000,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 557000
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "makoni",
+    "repo": "swift-adwaita",
+    "full_name": "makoni/swift-adwaita",
+    "default_branch": "main",
+    "stars": 7,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 2116435,
+    "swift_share": 0.9799,
+    "languages": {
+      "Swift": 2116435,
+      "C": 38900,
+      "Shell": 4530
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mherrera53",
+    "repo": "GitMac",
+    "full_name": "mherrera53/GitMac",
+    "default_branch": "master",
+    "stars": 7,
+    "pushed_at": "2026-05-25",
+    "swift_bytes": 4699751,
+    "swift_share": 0.9899,
+    "languages": {
+      "Swift": 4699751,
+      "C": 32146,
+      "Objective-C": 7227,
+      "Makefile": 4818,
+      "Shell": 3642
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "powerhome",
+    "repo": "playbook-swift",
+    "full_name": "powerhome/playbook-swift",
+    "default_branch": "main",
+    "stars": 7,
+    "pushed_at": "2026-05-22",
+    "swift_bytes": 869478,
+    "swift_share": 0.972,
+    "languages": {
+      "Swift": 869478,
+      "Shell": 15569,
+      "Ruby": 7091,
+      "Makefile": 2385
+    },
+    "flags": [],
+    "license": "ISC",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rayman-zhao",
+    "repo": "Swift-WinUI-Gallery",
+    "full_name": "rayman-zhao/Swift-WinUI-Gallery",
+    "default_branch": "main",
+    "stars": 7,
+    "pushed_at": "2026-03-15",
+    "swift_bytes": 1115313,
+    "swift_share": 0.9803,
+    "languages": {
+      "Swift": 1115313,
+      "PowerShell": 22458
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "xueqooy",
+    "repo": "XUI",
+    "full_name": "xueqooy/XUI",
+    "default_branch": "develop",
+    "stars": 7,
+    "pushed_at": "2024-12-27",
+    "swift_bytes": 1453560,
+    "swift_share": 0.9508,
+    "languages": {
+      "Swift": 1453560,
+      "Shell": 56361,
+      "Perl": 14178,
+      "Objective-C": 3067,
+      "Ruby": 1680
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "BingoWon",
+    "repo": "orchardgrid-apple",
+    "full_name": "BingoWon/orchardgrid-apple",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-05-21",
+    "swift_bytes": 469315,
+    "swift_share": 0.8446,
+    "languages": {
+      "Swift": 469315,
+      "Python": 72555,
+      "Makefile": 8129,
+      "Shell": 4216,
+      "Ruby": 1424
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SDGGiesbrecht",
+    "repo": "SDGInterface",
+    "full_name": "SDGGiesbrecht/SDGInterface",
+    "default_branch": "master",
+    "stars": 6,
+    "pushed_at": "2024-09-09",
+    "swift_bytes": 848935,
+    "swift_share": 0.9982,
+    "languages": {
+      "Swift": 848935,
+      "Shell": 1565
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "VODGroup",
+    "repo": "AccessibilityDocumentation",
+    "full_name": "VODGroup/AccessibilityDocumentation",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2024-10-17",
+    "swift_bytes": 11780,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 11780
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ktraunmueller",
+    "repo": "winrt-monorepo",
+    "full_name": "ktraunmueller/winrt-monorepo",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 18519421,
+    "swift_share": 0.2514,
+    "languages": {
+      "C": 54944051,
+      "Swift": 18519421,
+      "C++": 173188,
+      "PowerShell": 32822,
+      "CMake": 6055,
+      "Batchfile": 501
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "msitarzewski",
+    "repo": "glassdb.app",
+    "full_name": "msitarzewski/glassdb.app",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-03-17",
+    "swift_bytes": 1776954,
+    "swift_share": 0.9684,
+    "languages": {
+      "Swift": 1776954,
+      "C": 44789,
+      "Shell": 10934,
+      "Dockerfile": 2224
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "scrollInputBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "swift-standards",
+    "repo": "swift-standards",
+    "full_name": "swift-standards/swift-standards",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1839610,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1839610
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "zhixianio",
+    "repo": "babble",
+    "full_name": "zhixianio/babble",
+    "default_branch": "main",
+    "stars": 6,
+    "pushed_at": "2026-01-23",
+    "swift_bytes": 197944,
+    "swift_share": 0.9369,
+    "languages": {
+      "Swift": 197944,
+      "Python": 9856,
+      "Shell": 3475
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "0Itsuki0",
+    "repo": "SwiftChartsDemo",
+    "full_name": "0Itsuki0/SwiftChartsDemo",
+    "default_branch": "main",
+    "stars": 5,
+    "pushed_at": "2025-06-28",
+    "swift_bytes": 74869,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 74869
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartLineStyleScale",
+      "chartXAxisStyle",
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "flocked",
+    "repo": "FZSwiftUtils",
+    "full_name": "flocked/FZSwiftUtils",
+    "default_branch": "main",
+    "stars": 5,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 3465560,
+    "swift_share": 0.9229,
+    "languages": {
+      "Swift": 3465560,
+      "C": 254637,
+      "Objective-C": 33603,
+      "Assembly": 1374
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "noppefoxwolf",
+    "repo": "Swinub",
+    "full_name": "noppefoxwolf/Swinub",
+    "default_branch": "main",
+    "stars": 5,
+    "pushed_at": "2026-05-01",
+    "swift_bytes": 205122,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 205122
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "simonnickel",
+    "repo": "snap-navigation",
+    "full_name": "simonnickel/snap-navigation",
+    "default_branch": "main",
+    "stars": 5,
+    "pushed_at": "2026-05-18",
+    "swift_bytes": 50348,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 50348
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "GrooveDeluxe",
+    "repo": "Attribeautify",
+    "full_name": "GrooveDeluxe/Attribeautify",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-01-24",
+    "swift_bytes": 43486,
+    "swift_share": 0.9597,
+    "languages": {
+      "Swift": 43486,
+      "Ruby": 1338,
+      "Objective-C": 488
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "appsent-co",
+    "repo": "react-native-watchos",
+    "full_name": "appsent-co/react-native-watchos",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 319759,
+    "swift_share": 0.3381,
+    "languages": {
+      "TypeScript": 330915,
+      "Swift": 319759,
+      "Objective-C++": 120381,
+      "JavaScript": 67733,
+      "CMake": 28959,
+      "Objective-C": 28020,
+      "Shell": 23040,
+      "Ruby": 18092,
+      "C++": 8011,
+      "C": 784
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "springLoadingBehavior",
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "austin-smith",
+    "repo": "BitDream",
+    "full_name": "austin-smith/BitDream",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-03-23",
+    "swift_bytes": 968219,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 968219
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "hjy-233",
+    "repo": "SwiftCraftServerLauncher",
+    "full_name": "hjy-233/SwiftCraftServerLauncher",
+    "default_branch": "dev",
+    "stars": 4,
+    "pushed_at": "2026-05-24",
+    "swift_bytes": 2537723,
+    "swift_share": 0.8934,
+    "languages": {
+      "Swift": 2537723,
+      "Rust": 302677
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "lifution",
+    "repo": "FSUIKit",
+    "full_name": "lifution/FSUIKit",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2025-12-25",
+    "swift_bytes": 745173,
+    "swift_share": 0.9972,
+    "languages": {
+      "Swift": 745173,
+      "Ruby": 1449,
+      "Objective-C": 655
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "utensils",
+    "repo": "fig",
+    "full_name": "utensils/fig",
+    "default_branch": "main",
+    "stars": 4,
+    "pushed_at": "2026-03-08",
+    "swift_bytes": 798099,
+    "swift_share": 0.9947,
+    "languages": {
+      "Swift": 798099,
+      "Shell": 4107,
+      "Ruby": 141
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "824zzy",
+    "repo": "claude-visor",
+    "full_name": "824zzy/claude-visor",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 1544569,
+    "swift_share": 0.976,
+    "languages": {
+      "Swift": 1544569,
+      "Shell": 24034,
+      "Python": 11889,
+      "Ruby": 2087
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "DanTsai0903",
+    "repo": "InsGrids",
+    "full_name": "DanTsai0903/InsGrids",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-01-20",
+    "swift_bytes": 550172,
+    "swift_share": 0.9454,
+    "languages": {
+      "Swift": 550172,
+      "Python": 30690,
+      "Shell": 1095
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "HumanInterfaceDesign",
+    "repo": "emoji-view-controller",
+    "full_name": "HumanInterfaceDesign/emoji-view-controller",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-04-15",
+    "swift_bytes": 188164,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 188164
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MCJack123",
+    "repo": "SDL3-Swift",
+    "full_name": "MCJack123/SDL3-Swift",
+    "default_branch": "master",
+    "stars": 3,
+    "pushed_at": "2025-07-29",
+    "swift_bytes": 553595,
+    "swift_share": 0.9999,
+    "languages": {
+      "Swift": 553595,
+      "C": 51
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "artemnovichkov",
+    "repo": "Chart3DExample",
+    "full_name": "artemnovichkov/Chart3DExample",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2025-06-12",
+    "swift_bytes": 3171,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 3171
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "codebasedlearning",
+    "repo": "ios_course",
+    "full_name": "codebasedlearning/ios_course",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 288748,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 288748
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "chartYVisibleDomain"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "die-tageszeitung",
+    "repo": "taz-neo.ios",
+    "full_name": "die-tageszeitung/taz-neo.ios",
+    "default_branch": "release",
+    "stars": 3,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1761421,
+    "swift_share": 0.9825,
+    "languages": {
+      "Swift": 1761421,
+      "Ruby": 19551,
+      "Shell": 11148,
+      "HTML": 636
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gsoti",
+    "repo": "UITestsAsSpecsKickstarter1",
+    "full_name": "gsoti/UITestsAsSpecsKickstarter1",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2024-09-17",
+    "swift_bytes": 2575599,
+    "swift_share": 0.9981,
+    "languages": {
+      "Swift": 2575599,
+      "Ruby": 2443,
+      "Shell": 1830,
+      "PHP": 523
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "linhay",
+    "repo": "nolon",
+    "full_name": "linhay/nolon",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-05-01",
+    "swift_bytes": 7889271,
+    "swift_share": 0.987,
+    "languages": {
+      "Swift": 7889271,
+      "Shell": 76346,
+      "HTML": 24616,
+      "Python": 3045
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "patcroris",
+    "repo": "MTB-suspension-App",
+    "full_name": "patcroris/MTB-suspension-App",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2026-02-25",
+    "swift_bytes": 326449,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 326449
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "schwa",
+    "repo": "VoronoiDiagram",
+    "full_name": "schwa/VoronoiDiagram",
+    "default_branch": "main",
+    "stars": 3,
+    "pushed_at": "2025-04-02",
+    "swift_bytes": 99008,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 99008
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "13662049573",
+    "repo": "TFYSwiftCategoryUtil",
+    "full_name": "13662049573/TFYSwiftCategoryUtil",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 2242887,
+    "swift_share": 0.9987,
+    "languages": {
+      "Swift": 2242887,
+      "Ruby": 2720,
+      "C": 104
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AIDingDing449",
+    "repo": "WordPress-iOS",
+    "full_name": "AIDingDing449/WordPress-iOS",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 25765438,
+    "swift_share": 0.8647,
+    "languages": {
+      "Swift": 25765438,
+      "Objective-C": 3746189,
+      "Ruby": 149526,
+      "HTML": 76976,
+      "Shell": 29554,
+      "CSS": 16878,
+      "JavaScript": 12133,
+      "C": 367,
+      "Makefile": 266
+    },
+    "flags": [],
+    "license": "GPL-2.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Iron-Ham",
+    "repo": "App-Playgrounds",
+    "full_name": "Iron-Ham/App-Playgrounds",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2025-11-17",
+    "swift_bytes": 537770,
+    "swift_share": 0.9796,
+    "languages": {
+      "Swift": 537770,
+      "Shell": 7812,
+      "Dockerfile": 3392
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textInputFormattingControlVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SerialForBreakfast",
+    "repo": "RA11y-Quest",
+    "full_name": "SerialForBreakfast/RA11y-Quest",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-05-21",
+    "swift_bytes": 783735,
+    "swift_share": 0.8493,
+    "languages": {
+      "Swift": 783735,
+      "Python": 83657,
+      "Shell": 28780,
+      "Ruby": 17216,
+      "HTML": 7724,
+      "jq": 1687
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SethMC26",
+    "repo": "Neumann",
+    "full_name": "SethMC26/Neumann",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2025-12-19",
+    "swift_bytes": 123830,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 123830
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "The-SolShare-Team",
+    "repo": "SolanaWalletAdapterKit",
+    "full_name": "The-SolShare-Team/SolanaWalletAdapterKit",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2025-12-01",
+    "swift_bytes": 176467,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 176467
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "adamwulf",
+    "repo": "hunch",
+    "full_name": "adamwulf/hunch",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-04-14",
+    "swift_bytes": 443443,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 443443
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "easemob",
+    "repo": "UIKit_Chatroom_ios",
+    "full_name": "easemob/UIKit_Chatroom_ios",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2025-07-11",
+    "swift_bytes": 538836,
+    "swift_share": 0.9928,
+    "languages": {
+      "Swift": 538836,
+      "Ruby": 2328,
+      "Objective-C": 1603
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "hapticasensorics",
+    "repo": "1context",
+    "full_name": "hapticasensorics/1context",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 1360564,
+    "swift_share": 0.2444,
+    "languages": {
+      "Rust": 2515522,
+      "Swift": 1360564,
+      "Python": 861567,
+      "JavaScript": 447057,
+      "Shell": 160073,
+      "CSS": 133811,
+      "TypeScript": 86428,
+      "HTML": 1925
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "max4c",
+    "repo": "bugbook",
+    "full_name": "max4c/bugbook",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3906638,
+    "swift_share": 0.8976,
+    "languages": {
+      "Swift": 3906638,
+      "C": 220651,
+      "Shell": 85028,
+      "Objective-C++": 69203,
+      "HTML": 61882,
+      "JavaScript": 7003,
+      "Objective-C": 1962
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mweinbach",
+    "repo": "SwiftNemotronOCR",
+    "full_name": "mweinbach/SwiftNemotronOCR",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-04-04",
+    "swift_bytes": 169522,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 169522
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "paulthanson082-glitch",
+    "repo": "friendly-outlaw",
+    "full_name": "paulthanson082-glitch/friendly-outlaw",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-05-10",
+    "swift_bytes": 2194913,
+    "swift_share": 0.7746,
+    "languages": {
+      "Swift": 2194913,
+      "TypeScript": 405606,
+      "Python": 87663,
+      "Shell": 49101,
+      "HTML": 44410,
+      "Go": 19688,
+      "CSS": 17949,
+      "Kotlin": 4429,
+      "Ruby": 3007,
+      "Objective-C++": 2723,
+      "Dockerfile": 1276,
+      "C#": 1150,
+      "JavaScript": 1058,
+      "Objective-C": 327,
+      "C": 299
+    },
+    "flags": [],
+    "license": "BSL-1.0",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "shsym",
+    "repo": "RatioThink",
+    "full_name": "shsym/RatioThink",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 3133383,
+    "swift_share": 0.7831,
+    "languages": {
+      "Swift": 3133383,
+      "Rust": 350246,
+      "Shell": 302305,
+      "Python": 193061,
+      "Makefile": 22438
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "tatsy-ymj",
+    "repo": "ocr2md",
+    "full_name": "tatsy-ymj/ocr2md",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2026-04-25",
+    "swift_bytes": 227279,
+    "swift_share": 0.9233,
+    "languages": {
+      "Swift": 227279,
+      "Python": 9095,
+      "HTML": 5785,
+      "Shell": 4002
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "telemessenger",
+    "repo": "telegramlite_ios",
+    "full_name": "telemessenger/telegramlite_ios",
+    "default_branch": "master",
+    "stars": 2,
+    "pushed_at": "2025-11-05",
+    "swift_bytes": 77194108,
+    "swift_share": 0.4413,
+    "languages": {
+      "Swift": 77194108,
+      "C": 75449439,
+      "Objective-C": 9670139,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1422712,
+      "Makefile": 940975,
+      "Starlark": 807896,
+      "Python": 210758,
+      "Metal": 140957,
+      "JavaScript": 136875,
+      "Shell": 108639,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4983,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "tetrafolium",
+    "repo": "CotEditor",
+    "full_name": "tetrafolium/CotEditor",
+    "default_branch": "master",
+    "stars": 2,
+    "pushed_at": "2024-12-23",
+    "swift_bytes": 1644105,
+    "swift_share": 0.5933,
+    "languages": {
+      "Swift": 1644105,
+      "HTML": 1064841,
+      "Rich Text Format": 42451,
+      "CSS": 16330,
+      "Shell": 2637,
+      "Python": 941
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "unsaferawpointer",
+    "repo": "Plan",
+    "full_name": "unsaferawpointer/Plan",
+    "default_branch": "develop",
+    "stars": 2,
+    "pushed_at": "2025-02-16",
+    "swift_bytes": 176673,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 176673
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "vrgsptn",
+    "repo": "SwiftUI-by-Apple-Developer-Documentation",
+    "full_name": "vrgsptn/SwiftUI-by-Apple-Developer-Documentation",
+    "default_branch": "main",
+    "stars": 2,
+    "pushed_at": "2025-09-25",
+    "swift_bytes": 815343,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 815343
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineSubtraction",
+      "writingToolsAffordanceVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AINAL",
+    "repo": "SIGAI",
+    "full_name": "AINAL/SIGAI",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2025-06-09",
+    "swift_bytes": 200176,
+    "swift_share": 0.3984,
+    "languages": {
+      "Swift": 200176,
+      "Dart": 183333,
+      "HTML": 30211,
+      "CSS": 29530,
+      "C++": 25992,
+      "CMake": 19888,
+      "JavaScript": 8800,
+      "Ruby": 2757,
+      "C": 1425,
+      "Kotlin": 242,
+      "Objective-C": 38
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "John-Mark01",
+    "repo": "BibleTrivia",
+    "full_name": "John-Mark01/BibleTrivia",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2025-10-24",
+    "swift_bytes": 298351,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 298351
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Jyhwenchai",
+    "repo": "SwiftUIExample",
+    "full_name": "Jyhwenchai/SwiftUIExample",
+    "default_branch": "master",
+    "stars": 1,
+    "pushed_at": "2025-03-14",
+    "swift_bytes": 949939,
+    "swift_share": 0.9991,
+    "languages": {
+      "Swift": 949939,
+      "Ruby": 560,
+      "Metal": 328
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "KindKit",
+    "repo": "KindKit",
+    "full_name": "KindKit/KindKit",
+    "default_branch": "master",
+    "stars": 1,
+    "pushed_at": "2025-10-16",
+    "swift_bytes": 3122321,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 3122321
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "LuizZak",
+    "repo": "Console",
+    "full_name": "LuizZak/Console",
+    "default_branch": "master",
+    "stars": 1,
+    "pushed_at": "2024-07-14",
+    "swift_bytes": 89278,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 89278
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "LuizZak",
+    "repo": "GeometriaApp",
+    "full_name": "LuizZak/GeometriaApp",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2024-08-20",
+    "swift_bytes": 545786,
+    "swift_share": 0.9969,
+    "languages": {
+      "Swift": 545786,
+      "Shell": 1473,
+      "Makefile": 234
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Mixxa1",
+    "repo": "UAVsim",
+    "full_name": "Mixxa1/UAVsim",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 3785004,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 3785004
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Much-IqbalFauzi",
+    "repo": "jachi",
+    "full_name": "Much-IqbalFauzi/jachi",
+    "default_branch": "development",
+    "stars": 1,
+    "pushed_at": "2025-07-17",
+    "swift_bytes": 109507,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 109507
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "RoyalPineapple",
+    "repo": "TheButtonHeist",
+    "full_name": "RoyalPineapple/TheButtonHeist",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 4110037,
+    "swift_share": 0.9764,
+    "languages": {
+      "Swift": 4110037,
+      "Shell": 71601,
+      "Python": 25660,
+      "Ruby": 1510,
+      "Objective-C": 318,
+      "C": 106
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SilentMalachite",
+    "repo": "Hirundo",
+    "full_name": "SilentMalachite/Hirundo",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2025-10-28",
+    "swift_bytes": 448113,
+    "swift_share": 0.9922,
+    "languages": {
+      "Swift": 448113,
+      "HTML": 2196,
+      "CSS": 1314
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "TeamND",
+    "repo": "Daily",
+    "full_name": "TeamND/Daily",
+    "default_branch": "develop",
+    "stars": 1,
+    "pushed_at": "2026-04-26",
+    "swift_bytes": 267157,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 267157
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartYAxisStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "bo1ta",
+    "repo": "Sammy",
+    "full_name": "bo1ta/Sammy",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2025-07-12",
+    "swift_bytes": 281505,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 281505
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "springLoadingBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "crydder7",
+    "repo": "HealthDiploma",
+    "full_name": "crydder7/HealthDiploma",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 64946,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 64946
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartLineStyleScale"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "esbenwiberg",
+    "repo": "autopod",
+    "full_name": "esbenwiberg/autopod",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 2039200,
+    "swift_share": 0.2613,
+    "languages": {
+      "TypeScript": 5474665,
+      "Swift": 2039200,
+      "HTML": 208532,
+      "Shell": 45187,
+      "CSS": 14240,
+      "Bicep": 12206,
+      "JavaScript": 6886,
+      "Dockerfile": 4614
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "fredericocurti",
+    "repo": "swiftangle",
+    "full_name": "fredericocurti/swiftangle",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-02-04",
+    "swift_bytes": 66165,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 66165
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ipedro",
+    "repo": "swift-choosable",
+    "full_name": "ipedro/swift-choosable",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2025-11-08",
+    "swift_bytes": 17481,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 17481
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "layoutDirectionBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "jeanbarrossilva",
+    "repo": "Pragma",
+    "full_name": "jeanbarrossilva/Pragma",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-04-30",
+    "swift_bytes": 200596,
+    "swift_share": 0.838,
+    "languages": {
+      "Swift": 200596,
+      "Python": 38779
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "onDropSessionUpdated"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "kishannareshpal",
+    "repo": "sudoku",
+    "full_name": "kishannareshpal/sudoku",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-03-08",
+    "swift_bytes": 367412,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 367412
+    },
+    "flags": [],
+    "license": "CC0-1.0",
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "marinmarkelic",
+    "repo": "NutritionApp",
+    "full_name": "marinmarkelic/NutritionApp",
+    "default_branch": "develop",
+    "stars": 1,
+    "pushed_at": "2024-06-29",
+    "swift_bytes": 117403,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 117403
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartYVisibleDomain"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "moritztucher",
+    "repo": "PASKit",
+    "full_name": "moritztucher/PASKit",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-01",
+    "swift_bytes": 66422,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 66422
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "parkmays",
+    "repo": "slate",
+    "full_name": "parkmays/slate",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-05-19",
+    "swift_bytes": 1460623,
+    "swift_share": 0.5622,
+    "languages": {
+      "Swift": 1460623,
+      "Python": 522261,
+      "TypeScript": 479363,
+      "Shell": 80513,
+      "PLpgSQL": 26644,
+      "JavaScript": 13191,
+      "HTML": 11531,
+      "CSS": 3776
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "pruthvirajsinhpunada",
+    "repo": "EchoPaint",
+    "full_name": "pruthvirajsinhpunada/EchoPaint",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-03-09",
+    "swift_bytes": 85079,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 85079
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "pujiaxin33",
+    "repo": "OnePiece",
+    "full_name": "pujiaxin33/OnePiece",
+    "default_branch": "master",
+    "stars": 1,
+    "pushed_at": "2025-08-22",
+    "swift_bytes": 100944,
+    "swift_share": 0.9951,
+    "languages": {
+      "Swift": 100944,
+      "Objective-C": 492
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "r0ml",
+    "repo": "manML",
+    "full_name": "r0ml/manML",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-05-13",
+    "swift_bytes": 167676,
+    "swift_share": 0.943,
+    "languages": {
+      "Swift": 167676,
+      "CSS": 4575,
+      "Roff": 2998,
+      "HTML": 2125,
+      "Shell": 428
+    },
+    "flags": [],
+    "license": "Unlicense",
+    "found_by": [
+      "toolbarItemHidden"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "satish-fluidtouch",
+    "repo": "Noteshelf3",
+    "full_name": "satish-fluidtouch/Noteshelf3",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2024-06-24",
+    "swift_bytes": 10679427,
+    "swift_share": 0.6842,
+    "languages": {
+      "Swift": 10679427,
+      "Objective-C": 4696932,
+      "C": 154819,
+      "Objective-C++": 37182,
+      "Shell": 26162,
+      "Ruby": 13433
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "schatt",
+    "repo": "sixlayer",
+    "full_name": "schatt/sixlayer",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 10262910,
+    "swift_share": 0.9425,
+    "languages": {
+      "Swift": 10262910,
+      "Python": 409169,
+      "Shell": 206030,
+      "AppleScript": 9099,
+      "Makefile": 903,
+      "Ruby": 653
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "skyasker",
+    "repo": "teamgram-ios",
+    "full_name": "skyasker/teamgram-ios",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 73108951,
+    "swift_share": 0.4275,
+    "languages": {
+      "C": 75473424,
+      "Swift": 73108951,
+      "Objective-C": 9894561,
+      "Assembly": 5657385,
+      "C++": 2986360,
+      "Objective-C++": 1420169,
+      "Makefile": 941536,
+      "Starlark": 742038,
+      "Perl": 144531,
+      "JavaScript": 136875,
+      "Python": 129907,
+      "Metal": 129240,
+      "Shell": 109439,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 6313,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "sonkoni",
+    "repo": "Collection-of-Toy-Projects",
+    "full_name": "sonkoni/Collection-of-Toy-Projects",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2024-08-30",
+    "swift_bytes": 489549,
+    "swift_share": 0.2086,
+    "languages": {
+      "Objective-C": 1800881,
+      "Swift": 489549,
+      "C": 35868,
+      "C++": 20083
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "woko666",
+    "repo": "SwiftWorkout",
+    "full_name": "woko666/SwiftWorkout",
+    "default_branch": "main",
+    "stars": 1,
+    "pushed_at": "2024-08-07",
+    "swift_bytes": 60389,
+    "swift_share": 0.9766,
+    "languages": {
+      "Swift": 60389,
+      "Python": 1445
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "103style",
+    "repo": "iOSLearnSwift",
+    "full_name": "103style/iOSLearnSwift",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-06-25",
+    "swift_bytes": 255615,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 255615
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "AgoraIO-Usecase",
+    "repo": "Agora-Test-Usecase",
+    "full_name": "AgoraIO-Usecase/Agora-Test-Usecase",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-08-28",
+    "swift_bytes": 652671,
+    "swift_share": 0.4954,
+    "languages": {
+      "Swift": 652671,
+      "Java": 332823,
+      "Kotlin": 331330,
+      "Ruby": 570
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Allan-Mo",
+    "repo": "Pulse",
+    "full_name": "Allan-Mo/Pulse",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-05-14",
+    "swift_bytes": 1235119,
+    "swift_share": 0.9955,
+    "languages": {
+      "Swift": 1235119,
+      "Shell": 4178,
+      "Ruby": 1425
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Anabioz1337",
+    "repo": "NALGRAM",
+    "full_name": "Anabioz1337/NALGRAM",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-03-25",
+    "swift_bytes": 81966493,
+    "swift_share": 0.4559,
+    "languages": {
+      "Swift": 81966493,
+      "C": 75449439,
+      "Objective-C": 9705668,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1426245,
+      "Makefile": 940975,
+      "Starlark": 894668,
+      "Python": 216662,
+      "JavaScript": 136875,
+      "Metal": 133913,
+      "Shell": 112490,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ArtiomShapovalov",
+    "repo": "TG-iOS-Glass-Component",
+    "full_name": "ArtiomShapovalov/TG-iOS-Glass-Component",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 79377889,
+    "swift_share": 0.4481,
+    "languages": {
+      "Swift": 79377889,
+      "C": 75449439,
+      "Objective-C": 9668052,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 837541,
+      "Python": 234339,
+      "Metal": 149472,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "BBC6BAE9",
+    "repo": "genui",
+    "full_name": "BBC6BAE9/genui",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-03-28",
+    "swift_bytes": 1219739,
+    "swift_share": 0.8417,
+    "languages": {
+      "Swift": 1219739,
+      "Makefile": 208551,
+      "C++": 20440,
+      "Shell": 447
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "BBC6BAE9",
+    "repo": "wwdc",
+    "full_name": "BBC6BAE9/wwdc",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-08-25",
+    "swift_bytes": 12096,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 12096
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "scrollInputBehavior"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "BachiLi",
+    "repo": "rtxvg",
+    "full_name": "BachiLi/rtxvg",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-02-10",
+    "swift_bytes": 14074,
+    "swift_share": 0.709,
+    "languages": {
+      "Swift": 14074,
+      "Metal": 5505,
+      "Shell": 271
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Boris-Bot69",
+    "repo": "fitness-ios",
+    "full_name": "Boris-Bot69/fitness-ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-03-28",
+    "swift_bytes": 437283,
+    "swift_share": 0.6564,
+    "languages": {
+      "Swift": 437283,
+      "Python": 185298,
+      "HTML": 28121,
+      "Ruby": 7666,
+      "JavaScript": 2820,
+      "Dockerfile": 1899,
+      "CSS": 1170,
+      "Makefile": 1013,
+      "Mako": 494,
+      "Shell": 374
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "DaidoujiChen",
+    "repo": "DiaBLE",
+    "full_name": "DaidoujiChen/DiaBLE",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-09-17",
+    "swift_bytes": 1508242,
+    "swift_share": 0.9992,
+    "languages": {
+      "Swift": 1508242,
+      "Python": 1201
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "DarkDust",
+    "repo": "AdventOfCode2024",
+    "full_name": "DarkDust/AdventOfCode2024",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-12-25",
+    "swift_bytes": 198846,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 198846
+    },
+    "flags": [],
+    "license": "BSD-2-Clause",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "DimaRU",
+    "repo": "PWMGraph",
+    "full_name": "DimaRU/PWMGraph",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-04-23",
+    "swift_bytes": 27005,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 27005
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "DnV1eX",
+    "repo": "Telegram-iOS",
+    "full_name": "DnV1eX/Telegram-iOS",
+    "default_branch": "LiquidGlassKit",
+    "stars": 0,
+    "pushed_at": "2026-01-07",
+    "swift_bytes": 79320692,
+    "swift_share": 0.4479,
+    "languages": {
+      "Swift": 79320692,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 836854,
+      "Python": 234339,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "EldestGruff",
+    "repo": "PersonalAI",
+    "full_name": "EldestGruff/PersonalAI",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-14",
+    "swift_bytes": 1693536,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1693536
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ExistOrLive",
+    "repo": "ZLBaseExtension",
+    "full_name": "ExistOrLive/ZLBaseExtension",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-05-03",
+    "swift_bytes": 42683,
+    "swift_share": 0.4666,
+    "languages": {
+      "Objective-C": 46827,
+      "Swift": 42683,
+      "Ruby": 1966
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "H-Ghadirian",
+    "repo": "Routina",
+    "full_name": "H-Ghadirian/Routina",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 6629847,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 6629847
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "IchenDEV",
+    "repo": "podcast-transcript-studio",
+    "full_name": "IchenDEV/podcast-transcript-studio",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-14",
+    "swift_bytes": 194620,
+    "swift_share": 0.4879,
+    "languages": {
+      "Swift": 194620,
+      "Python": 188810,
+      "Shell": 10573,
+      "HTML": 3604,
+      "CSS": 1294
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ItsArmin",
+    "repo": "RosaWriter",
+    "full_name": "ItsArmin/RosaWriter",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-13",
+    "swift_bytes": 169706,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 169706
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "JobsKits",
+    "repo": "Telegram-iOS",
+    "full_name": "JobsKits/Telegram-iOS",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-03-06",
+    "swift_bytes": 73689573,
+    "swift_share": 0.3932,
+    "languages": {
+      "C": 77283534,
+      "Swift": 73689573,
+      "Objective-C": 10063397,
+      "C++": 9467240,
+      "Starlark": 6319919,
+      "Assembly": 5689734,
+      "Objective-C++": 2038817,
+      "Makefile": 1000724,
+      "Python": 690139,
+      "Shell": 614341,
+      "Perl": 144531,
+      "JavaScript": 136875,
+      "Metal": 129240,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Meson": 7470,
+      "Ruby": 6497,
+      "CMake": 5270,
+      "M4": 3861,
+      "CSS": 2666,
+      "Smarty": 2284,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Batchfile": 247,
+      "Limbo": 219,
+      "Roff": 132,
+      "DTrace": 90
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Katya-AI-Systems-LLC",
+    "repo": "masta-ios",
+    "full_name": "Katya-AI-Systems-LLC/masta-ios",
+    "default_branch": "663-searchtext",
+    "stars": 0,
+    "pushed_at": "2025-10-04",
+    "swift_bytes": 3319624,
+    "swift_share": 0.9984,
+    "languages": {
+      "Swift": 3319624,
+      "Shell": 2527,
+      "Objective-C": 1483,
+      "Ruby": 1224,
+      "C": 104
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "KirillSharafutdinov",
+    "repo": "revilio-ios",
+    "full_name": "KirillSharafutdinov/revilio-ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-09-08",
+    "swift_bytes": 713957,
+    "swift_share": 0.9984,
+    "languages": {
+      "Swift": 713957,
+      "Metal": 1133
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "KylianVermeulen",
+    "repo": "Arboreal",
+    "full_name": "KylianVermeulen/Arboreal",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-04-11",
+    "swift_bytes": 122830,
+    "swift_share": 0.9428,
+    "languages": {
+      "Swift": 122830,
+      "Shell": 7455
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "LiLiKazine",
+    "repo": "TonerSplashScreen",
+    "full_name": "LiLiKazine/TonerSplashScreen",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-09-02",
+    "swift_bytes": 5641,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 5641
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "M-Quadra",
+    "repo": "MQKit",
+    "full_name": "M-Quadra/MQKit",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-01-25",
+    "swift_bytes": 207375,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 207375
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MarcelAusZell",
+    "repo": "SwiftCharts",
+    "full_name": "MarcelAusZell/SwiftCharts",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-12-02",
+    "swift_bytes": 64598,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 64598
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartZAxis",
+      "chartZSelection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MaxiJunkie",
+    "repo": "Telegram-contest-2025",
+    "full_name": "MaxiJunkie/Telegram-contest-2025",
+    "default_branch": "telegramTask/task3",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 78879460,
+    "swift_share": 0.4466,
+    "languages": {
+      "Swift": 78879460,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1423906,
+      "Makefile": 940975,
+      "Starlark": 829245,
+      "Python": 210955,
+      "Metal": 148802,
+      "JavaScript": 136875,
+      "Shell": 108639,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4983,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MichaelWDanko",
+    "repo": "Passport-API-Explorer",
+    "full_name": "MichaelWDanko/Passport-API-Explorer",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-11-18",
+    "swift_bytes": 378595,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 378595
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MostafaNafie",
+    "repo": "A-B-testing-demo",
+    "full_name": "MostafaNafie/A-B-testing-demo",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-11-23",
+    "swift_bytes": 22533,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 22533
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "MuhammadYM",
+    "repo": "afflo",
+    "full_name": "MuhammadYM/afflo",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-12-08",
+    "swift_bytes": 128713,
+    "swift_share": 0.9907,
+    "languages": {
+      "Swift": 128713,
+      "PLpgSQL": 1203
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "NoahKamara",
+    "repo": "Symbolic",
+    "full_name": "NoahKamara/Symbolic",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-05-26",
+    "swift_bytes": 88265,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 88265
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "PixelDough",
+    "repo": "mactrix",
+    "full_name": "PixelDough/mactrix",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-08-09",
+    "swift_bytes": 68752,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 68752
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "presentationPreventsAppTermination"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "SerialForBreakfast",
+    "repo": "NativeUIAuditKit",
+    "full_name": "SerialForBreakfast/NativeUIAuditKit",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 863741,
+    "swift_share": 0.9268,
+    "languages": {
+      "Swift": 863741,
+      "Python": 62092,
+      "Shell": 6089
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ShawnAlisson",
+    "repo": "Telegram",
+    "full_name": "ShawnAlisson/Telegram",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-10-27",
+    "swift_bytes": 69181731,
+    "swift_share": 0.4586,
+    "languages": {
+      "Swift": 69181731,
+      "C": 61616934,
+      "Objective-C": 9840684,
+      "Assembly": 3760453,
+      "C++": 2939366,
+      "Objective-C++": 1415556,
+      "Makefile": 731024,
+      "Starlark": 719497,
+      "Perl": 134995,
+      "Python": 123852,
+      "Metal": 115900,
+      "Shell": 107800,
+      "JavaScript": 104166,
+      "Cuda": 23157,
+      "HTML": 11881,
+      "MATLAB": 8120,
+      "Ruby": 6313,
+      "CSS": 2494,
+      "Awk": 1792,
+      "GLSL": 1551,
+      "Verilog": 738,
+      "Roff": 165,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Sparklydust",
+    "repo": "mont-blanc",
+    "full_name": "Sparklydust/mont-blanc",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-12-24",
+    "swift_bytes": 143178,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 143178
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "chartLineStyleScale",
+      "chartYVisibleDomain"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "TDCIAN",
+    "repo": "WassupWWDC2025",
+    "full_name": "TDCIAN/WassupWWDC2025",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-06-14",
+    "swift_bytes": 21540,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 21540
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "onDropSessionUpdated"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "TellezJohnnyboy927",
+    "repo": "GLEGram",
+    "full_name": "TellezJohnnyboy927/GLEGram",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-10",
+    "swift_bytes": 83677317,
+    "swift_share": 0.4569,
+    "languages": {
+      "Swift": 83677317,
+      "C": 75710061,
+      "Objective-C": 10064614,
+      "Assembly": 5634114,
+      "C++": 3407176,
+      "Objective-C++": 1918520,
+      "Makefile": 940975,
+      "Starlark": 922431,
+      "Python": 231096,
+      "JavaScript": 137402,
+      "Metal": 133913,
+      "Shell": 125814,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Meson": 7470,
+      "CMake": 5270,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "TopScrech",
+    "repo": "XProj",
+    "full_name": "TopScrech/XProj",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-29",
+    "swift_bytes": 164193,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 164193
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "toolbarItemHidden"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "TraceMachina",
+    "repo": "Telegram-iOS-NativeLink",
+    "full_name": "TraceMachina/Telegram-iOS-NativeLink",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-06-12",
+    "swift_bytes": 66379302,
+    "swift_share": 0.4488,
+    "languages": {
+      "Swift": 66379302,
+      "C": 61616934,
+      "Objective-C": 9824032,
+      "Assembly": 3760453,
+      "C++": 2939366,
+      "Objective-C++": 1415205,
+      "Makefile": 731024,
+      "Starlark": 696906,
+      "Perl": 134995,
+      "Python": 123811,
+      "Metal": 115900,
+      "Shell": 107752,
+      "Cuda": 23157,
+      "JavaScript": 13085,
+      "HTML": 11881,
+      "BitBake": 6470,
+      "CSS": 2494,
+      "Awk": 1792,
+      "GLSL": 1551,
+      "Ruby": 1462,
+      "Verilog": 738,
+      "Roff": 165,
+      "MATLAB": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Vaida12345",
+    "repo": "FinderItem",
+    "full_name": "Vaida12345/FinderItem",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 171104,
+    "swift_share": 0.991,
+    "languages": {
+      "Swift": 171104,
+      "C": 1554
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "exportedContentTypes",
+      "importedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "Vastra-Gotalandsregionen",
+    "repo": "designsystem-ios",
+    "full_name": "Vastra-Gotalandsregionen/designsystem-ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 1288431,
+    "swift_share": 0.9979,
+    "languages": {
+      "Swift": 1288431,
+      "Shell": 2658
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "abhiseksg88",
+    "repo": "WoundOS-V3.0",
+    "full_name": "abhiseksg88/WoundOS-V3.0",
+    "default_branch": "claude/clinical-measurement-arkit-BvFM7",
+    "stars": 0,
+    "pushed_at": "2026-05-02",
+    "swift_bytes": 492737,
+    "swift_share": 0.8309,
+    "languages": {
+      "Swift": 492737,
+      "Python": 88282,
+      "Shell": 10837,
+      "Mako": 634,
+      "Dockerfile": 495
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "akudryashov",
+    "repo": "Telegram_GlassContest",
+    "full_name": "akudryashov/Telegram_GlassContest",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 79319808,
+    "swift_share": 0.4479,
+    "languages": {
+      "Swift": 79319808,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 836629,
+      "Python": 234339,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "alexezh",
+    "repo": "reminora",
+    "full_name": "alexezh/reminora",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-10-04",
+    "swift_bytes": 1096440,
+    "swift_share": 0.8055,
+    "languages": {
+      "Swift": 1096440,
+      "Kotlin": 200312,
+      "JavaScript": 54342,
+      "TypeScript": 8232,
+      "Shell": 1892
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "andrejHurynovic",
+    "repo": "analogPhotography",
+    "full_name": "andrejHurynovic/analogPhotography",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-12-30",
+    "swift_bytes": 154302,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 154302
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "andychucs",
+    "repo": "ReNextNavi",
+    "full_name": "andychucs/ReNextNavi",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-09-13",
+    "swift_bytes": 7354469,
+    "swift_share": 0.9534,
+    "languages": {
+      "Swift": 7354469,
+      "JavaScript": 216556,
+      "HTML": 69483,
+      "CSS": 24746,
+      "Python": 19911,
+      "Shell": 15878,
+      "Ruby": 12501
+    },
+    "flags": [],
+    "license": "MPL-2.0",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ayungavis",
+    "repo": "aura-app",
+    "full_name": "ayungavis/aura-app",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-27",
+    "swift_bytes": 139298,
+    "swift_share": 0.9959,
+    "languages": {
+      "Swift": 139298,
+      "Metal": 568
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "belyaev249",
+    "repo": "Telegram-iOS",
+    "full_name": "belyaev249/Telegram-iOS",
+    "default_branch": "media-player-contest",
+    "stars": 0,
+    "pushed_at": "2024-10-27",
+    "swift_bytes": 69377003,
+    "swift_share": 0.4593,
+    "languages": {
+      "Swift": 69377003,
+      "C": 61616934,
+      "Objective-C": 9845067,
+      "Assembly": 3760453,
+      "C++": 2939366,
+      "Objective-C++": 1415556,
+      "Makefile": 731024,
+      "Starlark": 720645,
+      "Perl": 134995,
+      "Python": 121906,
+      "Metal": 120665,
+      "Shell": 107800,
+      "JavaScript": 104166,
+      "Cuda": 23157,
+      "HTML": 17259,
+      "MATLAB": 8120,
+      "Ruby": 6313,
+      "CSS": 2494,
+      "Awk": 1792,
+      "GLSL": 1551,
+      "Verilog": 738,
+      "Roff": 165,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "beniandthe",
+    "repo": "smart-chart",
+    "full_name": "beniandthe/smart-chart",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 1361192,
+    "swift_share": 0.9687,
+    "languages": {
+      "Swift": 1361192,
+      "Python": 43959
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "bf-dev",
+    "repo": "messaging-ios",
+    "full_name": "bf-dev/messaging-ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-03-30",
+    "swift_bytes": 82253059,
+    "swift_share": 0.4567,
+    "languages": {
+      "Swift": 82253059,
+      "C": 75449439,
+      "Objective-C": 9705683,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1426245,
+      "Makefile": 940975,
+      "Starlark": 894326,
+      "Python": 222371,
+      "JavaScript": 136875,
+      "Metal": 133913,
+      "Shell": 112490,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "briannadoubt",
+    "repo": "CodeView",
+    "full_name": "briannadoubt/CodeView",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-01",
+    "swift_bytes": 208052,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 208052
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "briannadoubt",
+    "repo": "PocketBaseAdmin",
+    "full_name": "briannadoubt/PocketBaseAdmin",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-02-07",
+    "swift_bytes": 887754,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 887754
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "bronenos",
+    "repo": "telegram-2024",
+    "full_name": "bronenos/telegram-2024",
+    "default_branch": "contest/fairy-turtle",
+    "stars": 0,
+    "pushed_at": "2024-10-27",
+    "swift_bytes": 69357747,
+    "swift_share": 0.4591,
+    "languages": {
+      "Swift": 69357747,
+      "C": 61616934,
+      "Objective-C": 9885151,
+      "Assembly": 3760453,
+      "C++": 2939366,
+      "Objective-C++": 1415556,
+      "Makefile": 731024,
+      "Starlark": 720863,
+      "Perl": 134995,
+      "Python": 121906,
+      "Metal": 115900,
+      "Shell": 107800,
+      "JavaScript": 104166,
+      "Cuda": 23157,
+      "HTML": 17259,
+      "MATLAB": 8120,
+      "Ruby": 6313,
+      "CSS": 2494,
+      "Awk": 1792,
+      "GLSL": 1551,
+      "Verilog": 738,
+      "Roff": 165,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "christianalexandre",
+    "repo": "right-hand",
+    "full_name": "christianalexandre/right-hand",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-23",
+    "swift_bytes": 681333,
+    "swift_share": 0.9019,
+    "languages": {
+      "Swift": 681333,
+      "HTML": 53625,
+      "JavaScript": 18078,
+      "Shell": 1733,
+      "Ruby": 654
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "cisidro93",
+    "repo": "InksyncPro",
+    "full_name": "cisidro93/InksyncPro",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1619641,
+    "swift_share": 0.7891,
+    "languages": {
+      "Swift": 1619641,
+      "HTML": 299188,
+      "Python": 130734,
+      "CSS": 2784,
+      "Shell": 161,
+      "Batchfile": 108
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "cmillstein1",
+    "repo": "Drift",
+    "full_name": "cmillstein1/Drift",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-02-11",
+    "swift_bytes": 2229563,
+    "swift_share": 0.9442,
+    "languages": {
+      "Swift": 2229563,
+      "PLpgSQL": 87925,
+      "TypeScript": 43788
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "cminow",
+    "repo": "Tesselations",
+    "full_name": "cminow/Tesselations",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-19",
+    "swift_bytes": 198890,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 198890
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "cryptexctl",
+    "repo": "mytelegram-iOS",
+    "full_name": "cryptexctl/mytelegram-iOS",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-09-16",
+    "swift_bytes": 75983150,
+    "swift_share": 0.4376,
+    "languages": {
+      "Swift": 75983150,
+      "C": 75449439,
+      "Objective-C": 9648157,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1422712,
+      "Makefile": 940975,
+      "Starlark": 783915,
+      "Python": 207152,
+      "Metal": 140957,
+      "JavaScript": 136875,
+      "Shell": 108639,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4983,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "danilobirbiglia",
+    "repo": "telegram-ios-contest-2025",
+    "full_name": "danilobirbiglia/telegram-ios-contest-2025",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 80410369,
+    "swift_share": 0.4236,
+    "languages": {
+      "Swift": 80410369,
+      "C": 75894697,
+      "Objective-C": 9828242,
+      "Starlark": 6402833,
+      "C++": 6251908,
+      "Assembly": 5634114,
+      "Objective-C++": 1995342,
+      "Python": 1259144,
+      "Makefile": 940975,
+      "Shell": 679537,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "Meson": 10657,
+      "CMake": 9853,
+      "MATLAB": 8120,
+      "Ruby": 5167,
+      "CSS": 2666,
+      "Smarty": 2588,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Batchfile": 247,
+      "Limbo": 201,
+      "Roff": 132,
+      "DTrace": 90
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "die-tageszeitung",
+    "repo": "NorthLib",
+    "full_name": "die-tageszeitung/NorthLib",
+    "default_branch": "release",
+    "stars": 0,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 747881,
+    "swift_share": 0.7163,
+    "languages": {
+      "Swift": 747881,
+      "C++": 277749,
+      "Objective-C++": 9633,
+      "C": 8807
+    },
+    "flags": [],
+    "license": "LGPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "dimasdaffa",
+    "repo": "KongkyApp",
+    "full_name": "dimasdaffa/KongkyApp",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-11",
+    "swift_bytes": 192325,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 192325
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "dleegan",
+    "repo": "Opply",
+    "full_name": "dleegan/Opply",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-07-08",
+    "swift_bytes": 39170,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 39170
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "toolbarItemHidden"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "doom-fish",
+    "repo": "coretext-rs",
+    "full_name": "doom-fish/coretext-rs",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 144560,
+    "swift_share": 0.3692,
+    "languages": {
+      "Rust": 246959,
+      "Swift": 144560
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "doublewater777",
+    "repo": "PagePilot",
+    "full_name": "doublewater777/PagePilot",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 613883,
+    "swift_share": 0.9941,
+    "languages": {
+      "Swift": 613883,
+      "Makefile": 2832,
+      "Ruby": 838
+    },
+    "flags": [],
+    "license": "BSD-3-Clause",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ericodx",
+    "repo": "swift-cpd",
+    "full_name": "ericodx/swift-cpd",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-25",
+    "swift_bytes": 743650,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 743650
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineSubtraction"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "euangd",
+    "repo": "ios-tts",
+    "full_name": "euangd/ios-tts",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-23",
+    "swift_bytes": 250145,
+    "swift_share": 0.9902,
+    "languages": {
+      "Swift": 250145,
+      "Shell": 2478
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "euangd",
+    "repo": "piper",
+    "full_name": "euangd/piper",
+    "default_branch": "test",
+    "stars": 0,
+    "pushed_at": "2026-05-23",
+    "swift_bytes": 290526,
+    "swift_share": 0.9697,
+    "languages": {
+      "Swift": 290526,
+      "Python": 6829,
+      "Shell": 2244
+    },
+    "flags": [],
+    "license": "GPL-3.0",
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gomez1112",
+    "repo": "DecisionJournal",
+    "full_name": "gomez1112/DecisionJournal",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-11-24",
+    "swift_bytes": 55921,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 55921
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "tabViewSidebarFooter"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gotlr98",
+    "repo": "Swift_learning",
+    "full_name": "gotlr98/Swift_learning",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-10-10",
+    "swift_bytes": 390224,
+    "swift_share": 0.9987,
+    "languages": {
+      "Swift": 390224,
+      "Ruby": 490
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "toolbarItemHidden"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gui-dos",
+    "repo": "DiaBLE",
+    "full_name": "gui-dos/DiaBLE",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1945139,
+    "swift_share": 0.9994,
+    "languages": {
+      "Swift": 1945139,
+      "Python": 1201
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "toolbarForegroundStyle"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "gybin02",
+    "repo": "ArcheryGame-SpriteKit",
+    "full_name": "gybin02/ArcheryGame-SpriteKit",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 38694,
+    "swift_share": 0.6959,
+    "languages": {
+      "Swift": 38694,
+      "HTML": 8670,
+      "Python": 6189,
+      "Shell": 2048
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "hnhattien",
+    "repo": "DatingApp-Swift",
+    "full_name": "hnhattien/DatingApp-Swift",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-03-02",
+    "swift_bytes": 158283,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 158283
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ilja82",
+    "repo": "llm-budget-tracker",
+    "full_name": "ilja82/llm-budget-tracker",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 160587,
+    "swift_share": 0.9776,
+    "languages": {
+      "Swift": 160587,
+      "Shell": 3678
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "chartYVisibleDomain"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "impactsnoser",
+    "repo": "CustomGram-iOS",
+    "full_name": "impactsnoser/CustomGram-iOS",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 85291604,
+    "swift_share": 0.4657,
+    "languages": {
+      "Swift": 85291604,
+      "C": 75449439,
+      "Objective-C": 9732359,
+      "Assembly": 5614184,
+      "C++": 2984280,
+      "Objective-C++": 1425494,
+      "Makefile": 940975,
+      "Starlark": 908174,
+      "Python": 220001,
+      "JavaScript": 136875,
+      "Metal": 132386,
+      "Perl": 103736,
+      "Shell": 90795,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "PowerShell": 3601,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Ruby": 1462,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ipratikk",
+    "repo": "FinanceOS",
+    "full_name": "ipratikk/FinanceOS",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 1979428,
+    "swift_share": 0.81,
+    "languages": {
+      "Swift": 1979428,
+      "Python": 329455,
+      "Shell": 78799,
+      "JavaScript": 50177,
+      "Makefile": 5997
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "jachin",
+    "repo": "onkea",
+    "full_name": "jachin/onkea",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-21",
+    "swift_bytes": 276776,
+    "swift_share": 0.9856,
+    "languages": {
+      "Swift": 276776,
+      "HTML": 4056
+    },
+    "flags": [],
+    "license": "Apache-2.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "juliantorr-es",
+    "repo": "Anigma",
+    "full_name": "juliantorr-es/Anigma",
+    "default_branch": "public-main-clean",
+    "stars": 0,
+    "pushed_at": "2026-05-06",
+    "swift_bytes": 21380303,
+    "swift_share": 0.4907,
+    "languages": {
+      "Swift": 21380303,
+      "C": 13557583,
+      "C++": 6670099,
+      "Python": 520248,
+      "Pascal": 404678,
+      "Shell": 383746,
+      "C#": 325855,
+      "Makefile": 75862,
+      "JavaScript": 71183,
+      "Vue": 60580,
+      "TypeScript": 42292,
+      "Mermaid": 23713,
+      "CMake": 19620,
+      "HTML": 17734,
+      "PLpgSQL": 13055,
+      "Metal": 3710,
+      "Perl": 3662,
+      "Cap'n Proto": 943
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "jysuhr",
+    "repo": "Swift-Charts3D",
+    "full_name": "jysuhr/Swift-Charts3D",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-10-28",
+    "swift_bytes": 11646,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 11646
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "kkk511github",
+    "repo": "HSgram_ios",
+    "full_name": "kkk511github/HSgram_ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 82086492,
+    "swift_share": 0.4562,
+    "languages": {
+      "Swift": 82086492,
+      "C": 75449439,
+      "Objective-C": 9711280,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1426245,
+      "Makefile": 940975,
+      "Starlark": 896052,
+      "Python": 219265,
+      "JavaScript": 136875,
+      "Metal": 133913,
+      "Shell": 114600,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "kleon6436",
+    "repo": "NightStarScope",
+    "full_name": "kleon6436/NightStarScope",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-30",
+    "swift_bytes": 1290777,
+    "swift_share": 0.9671,
+    "languages": {
+      "Swift": 1290777,
+      "Python": 43886
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "krowqa2k",
+    "repo": "StudyBuddy",
+    "full_name": "krowqa2k/StudyBuddy",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-03-30",
+    "swift_bytes": 353223,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 353223
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartYVisibleDomain"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "lehmacdj",
+    "repo": "multiplayer-clock",
+    "full_name": "lehmacdj/multiplayer-clock",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-11-24",
+    "swift_bytes": 67901,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 67901
+    },
+    "flags": [],
+    "license": "AGPL-3.0",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "likesjx",
+    "repo": "ProjectOne",
+    "full_name": "likesjx/ProjectOne",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-09-12",
+    "swift_bytes": 1210649,
+    "swift_share": 0.9978,
+    "languages": {
+      "Swift": 1210649,
+      "Shell": 2730
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "linhdk0712",
+    "repo": "ELAForKids",
+    "full_name": "linhdk0712/ELAForKids",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-08-21",
+    "swift_bytes": 1683895,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 1683895
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "lumaa-dev",
+    "repo": "Swiftseerr",
+    "full_name": "lumaa-dev/Swiftseerr",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 240916,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 240916
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "textInputFormattingControlVisibility"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "marcinobolewicz",
+    "repo": "shredmateios",
+    "full_name": "marcinobolewicz/shredmateios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-28",
+    "swift_bytes": 700248,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 700248
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mh-mobile",
+    "repo": "ManagaLauncher",
+    "full_name": "mh-mobile/ManagaLauncher",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 736624,
+    "swift_share": 0.9871,
+    "languages": {
+      "Swift": 736624,
+      "Shell": 9592
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "michael-attal",
+    "repo": "Charts3D",
+    "full_name": "michael-attal/Charts3D",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-07-11",
+    "swift_bytes": 94643,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 94643
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mihaelamj",
+    "repo": "cupertino-packages",
+    "full_name": "mihaelamj/cupertino-packages",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-27",
+    "swift_bytes": 404638947,
+    "swift_share": 0.5041,
+    "languages": {
+      "Swift": 404638947,
+      "C": 261608808,
+      "C++": 115036517,
+      "Assembly": 10219374,
+      "Python": 2869901,
+      "CMake": 2210870,
+      "TeX": 1892145,
+      "Shell": 1039944,
+      "Objective-C": 714042,
+      "Starlark": 568244,
+      "NASL": 525942,
+      "HTML": 336144,
+      "PowerShell": 257993,
+      "Objective-C++": 220311,
+      "Makefile": 125251,
+      "Ruby": 76790,
+      "LLVM": 67965,
+      "Emacs Lisp": 61862,
+      "Roff": 54825,
+      "CSS": 30828,
+      "Dockerfile": 27253,
+      "TypeScript": 22970,
+      "Vim Script": 20234,
+      "JavaScript": 18429,
+      "XSLT": 11938,
+      "TLA": 9640,
+      "Pawn": 9426,
+      "Racket": 8625,
+      "Linker Script": 8307,
+      "DTrace": 6069,
+      "Batchfile": 5627,
+      "Mustache": 2169,
+      "Awk": 547,
+      "Perl": 525,
+      "Metal": 384,
+      "MATLAB": 55
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "exportedContentTypes"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mikymoro2005",
+    "repo": "NoteCraft",
+    "full_name": "mikymoro2005/NoteCraft",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-06-06",
+    "swift_bytes": 122449,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 122449
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "miniapp-io",
+    "repo": "miniapp-lib-ios",
+    "full_name": "miniapp-io/miniapp-lib-ios",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 3278181,
+    "swift_share": 0.9996,
+    "languages": {
+      "Swift": 3278181,
+      "Ruby": 1010,
+      "Objective-C": 438
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "mldwg",
+    "repo": "teha",
+    "full_name": "mldwg/teha",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-07-04",
+    "swift_bytes": 343009,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 343009
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nagata-kobo",
+    "repo": "PDFGenerator",
+    "full_name": "nagata-kobo/PDFGenerator",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-05-22",
+    "swift_bytes": 31292,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 31292
+    },
+    "flags": [],
+    "license": "BSD-2-Clause",
+    "found_by": [
+      "writingDirection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nawazbytecraft",
+    "repo": "lottie-android",
+    "full_name": "nawazbytecraft/lottie-android",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-05-25",
+    "swift_bytes": 1139510,
+    "swift_share": 0.9996,
+    "languages": {
+      "Swift": 1139510,
+      "Ruby": 406
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "no-problem-dev",
+    "repo": "swift-a2ui",
+    "full_name": "no-problem-dev/swift-a2ui",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-07",
+    "swift_bytes": 533330,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 533330
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "noppefoxwolf",
+    "repo": "CoreTransferableBackport",
+    "full_name": "noppefoxwolf/CoreTransferableBackport",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-07-10",
+    "swift_bytes": 26106,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 26106
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "exportedContentTypes",
+      "importedContentTypes",
+      "withExportedFile"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "notshourya",
+    "repo": "neuroQuestBetaV6",
+    "full_name": "notshourya/neuroQuestBetaV6",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-11-18",
+    "swift_bytes": 460908,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 460908
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartZAxis"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nraptis",
+    "repo": "GestureView",
+    "full_name": "nraptis/GestureView",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-08-13",
+    "swift_bytes": 98899,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 98899
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "nthies",
+    "repo": "NorthLib",
+    "full_name": "nthies/NorthLib",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-03-20",
+    "swift_bytes": 532741,
+    "swift_share": 0.8112,
+    "languages": {
+      "Swift": 532741,
+      "C++": 111574,
+      "Objective-C++": 7565,
+      "C": 3742,
+      "Objective-C": 1109
+    },
+    "flags": [],
+    "license": "LGPL-3.0",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "oliver-cameron",
+    "repo": "Collinear",
+    "full_name": "oliver-cameron/Collinear",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-12-09",
+    "swift_bytes": 25793,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 25793
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "osbo",
+    "repo": "avante",
+    "full_name": "osbo/avante",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-28",
+    "swift_bytes": 130709,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 130709
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineIntersection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rayman-zhao",
+    "repo": "swift-windowsappsdk",
+    "full_name": "rayman-zhao/swift-windowsappsdk",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-28",
+    "swift_bytes": 3235004,
+    "swift_share": 0.9699,
+    "languages": {
+      "Swift": 3235004,
+      "C++": 75244,
+      "C": 18112,
+      "PowerShell": 7015
+    },
+    "flags": [],
+    "license": "BSD-3-Clause",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rayman-zhao",
+    "repo": "swift-winui",
+    "full_name": "rayman-zhao/swift-winui",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-04",
+    "swift_bytes": 10229575,
+    "swift_share": 0.9995,
+    "languages": {
+      "Swift": 10229575,
+      "PowerShell": 5010
+    },
+    "flags": [],
+    "license": "BSD-3-Clause",
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "reizhafajrian",
+    "repo": "telegram",
+    "full_name": "reizhafajrian/telegram",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 79384110,
+    "swift_share": 0.4481,
+    "languages": {
+      "Swift": 79384110,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 836629,
+      "Python": 234339,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "reverseBits",
+    "repo": "swift-ui-demos-best-practices",
+    "full_name": "reverseBits/swift-ui-demos-best-practices",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-12-16",
+    "swift_bytes": 103180,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 103180
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "lineSubtraction"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "ricardo-nth",
+    "repo": "AmbientMenubar",
+    "full_name": "ricardo-nth/AmbientMenubar",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-05-26",
+    "swift_bytes": 476925,
+    "swift_share": 0.9934,
+    "languages": {
+      "Swift": 476925,
+      "HTML": 3189
+    },
+    "flags": [],
+    "license": "NOASSERTION",
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "rursache",
+    "repo": "SimFiles",
+    "full_name": "rursache/SimFiles",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-05-16",
+    "swift_bytes": 51856,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 51856
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "dragContainerSelection"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "shiyukk",
+    "repo": "DualSpine",
+    "full_name": "shiyukk/DualSpine",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-14",
+    "swift_bytes": 257200,
+    "swift_share": 0.8498,
+    "languages": {
+      "Swift": 257200,
+      "JavaScript": 45465
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "siddharthjindal854",
+    "repo": "Telegram-iOS",
+    "full_name": "siddharthjindal854/Telegram-iOS",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-12-14",
+    "swift_bytes": 78846924,
+    "swift_share": 0.4465,
+    "languages": {
+      "Swift": 78846924,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1423906,
+      "Makefile": 940975,
+      "Starlark": 828060,
+      "Python": 211650,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 108639,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4983,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "smetanka828o-hash",
+    "repo": "TelegramMessenger-Telegram-iOS",
+    "full_name": "smetanka828o-hash/TelegramMessenger-Telegram-iOS",
+    "default_branch": "origin/main",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 78875886,
+    "swift_share": 0.4466,
+    "languages": {
+      "Swift": 78875886,
+      "C": 75449439,
+      "Objective-C": 9667246,
+      "Assembly": 5614184,
+      "C++": 2984280,
+      "Objective-C++": 1423276,
+      "Makefile": 940975,
+      "Starlark": 827367,
+      "Python": 210955,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 108639,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4983,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "stuffinydev-hub",
+    "repo": "miniature-disco",
+    "full_name": "stuffinydev-hub/miniature-disco",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-14",
+    "swift_bytes": 83284004,
+    "swift_share": 0.4593,
+    "languages": {
+      "Swift": 83284004,
+      "C": 75453257,
+      "Objective-C": 9852848,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1430814,
+      "Makefile": 940975,
+      "Starlark": 919919,
+      "Python": 249305,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 111802,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": "GPL-2.0",
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "sudhirvaghela15",
+    "repo": "SwiftUI_Catelog",
+    "full_name": "sudhirvaghela15/SwiftUI_Catelog",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-06-24",
+    "swift_bytes": 39079,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 39079
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "susom",
+    "repo": "astra",
+    "full_name": "susom/astra",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-06",
+    "swift_bytes": 8484166,
+    "swift_share": 0.9954,
+    "languages": {
+      "Swift": 8484166,
+      "Shell": 38843
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "contentToolbar"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "swi-parth-ft",
+    "repo": "SwiftUI-Examples",
+    "full_name": "swi-parth-ft/SwiftUI-Examples",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2024-07-25",
+    "swift_bytes": 14274,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 14274
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "lineSubtraction"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "tamalkc",
+    "repo": "TextFlow",
+    "full_name": "tamalkc/TextFlow",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-08-04",
+    "swift_bytes": 492528,
+    "swift_share": 0.9946,
+    "languages": {
+      "Swift": 492528,
+      "Ruby": 2530,
+      "Shell": 126
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "tcarmody",
+    "repo": "ocr",
+    "full_name": "tcarmody/ocr",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-02",
+    "swift_bytes": 5769444,
+    "swift_share": 0.9211,
+    "languages": {
+      "Swift": 5769444,
+      "JavaScript": 402012,
+      "Shell": 35733,
+      "HTML": 28082,
+      "Python": 16298,
+      "CSS": 8720,
+      "Rich Text Format": 1982,
+      "C": 1383
+    },
+    "flags": [],
+    "license": "MIT",
+    "found_by": [
+      "pageCommand"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "v-volodin",
+    "repo": "tg-contest",
+    "full_name": "v-volodin/tg-contest",
+    "default_branch": "liquid_glass_contest_volodin",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 79351959,
+    "swift_share": 0.4479,
+    "languages": {
+      "Swift": 79351959,
+      "C": 75449439,
+      "Objective-C": 9702129,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 837418,
+      "Python": 234339,
+      "Metal": 138995,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "GLSL": 9933,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "valik-svs",
+    "repo": "stogram",
+    "full_name": "valik-svs/stogram",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-20",
+    "swift_bytes": 85471320,
+    "swift_share": 0.4653,
+    "languages": {
+      "Swift": 85471320,
+      "C": 75460824,
+      "Objective-C": 10016632,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1433776,
+      "Starlark": 951087,
+      "Makefile": 940975,
+      "Python": 225909,
+      "JavaScript": 137402,
+      "Metal": 132564,
+      "Shell": 112644,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "valzevul",
+    "repo": "Telegram-iOS",
+    "full_name": "valzevul/Telegram-iOS",
+    "default_branch": "contest-2025",
+    "stars": 0,
+    "pushed_at": "2025-12-26",
+    "swift_bytes": 79619545,
+    "swift_share": 0.4488,
+    "languages": {
+      "Swift": 79619545,
+      "C": 75449439,
+      "Objective-C": 9667728,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1424055,
+      "Makefile": 940975,
+      "Starlark": 838771,
+      "Python": 234339,
+      "Metal": 158666,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 132,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "vitali-kurlovich",
+    "repo": "swift-image",
+    "full_name": "vitali-kurlovich/swift-image",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-04-27",
+    "swift_bytes": 78271,
+    "swift_share": 0.9527,
+    "languages": {
+      "Swift": 78271,
+      "Metal": 3884
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "dropConfiguration"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "wadetregaskis",
+    "repo": "Swift-Benchmarks",
+    "full_name": "wadetregaskis/Swift-Benchmarks",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-03",
+    "swift_bytes": 104269,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 104269
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "chartLineStyleScale"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "winstonjr",
+    "repo": "delayed_shortcuts",
+    "full_name": "winstonjr/delayed_shortcuts",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2026-06-05",
+    "swift_bytes": 86350,
+    "swift_share": 0.9371,
+    "languages": {
+      "Swift": 86350,
+      "Shell": 5799
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "yume190",
+    "repo": "TbCodeGenerater",
+    "full_name": "yume190/TbCodeGenerater",
+    "default_branch": "main",
+    "stars": 0,
+    "pushed_at": "2025-02-19",
+    "swift_bytes": 265410,
+    "swift_share": 1.0,
+    "languages": {
+      "Swift": 265410
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "textVariant"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  },
+  {
+    "owner": "zavolo",
+    "repo": "oios",
+    "full_name": "zavolo/oios",
+    "default_branch": "master",
+    "stars": 0,
+    "pushed_at": "2026-03-09",
+    "swift_bytes": 81138238,
+    "swift_share": 0.4535,
+    "languages": {
+      "Swift": 81138238,
+      "C": 75449439,
+      "Objective-C": 9674403,
+      "Assembly": 5614184,
+      "C++": 2984885,
+      "Objective-C++": 1350743,
+      "Makefile": 940975,
+      "Starlark": 887148,
+      "Python": 243899,
+      "Metal": 139231,
+      "JavaScript": 136875,
+      "Shell": 110397,
+      "Perl": 103736,
+      "Cuda": 84917,
+      "HTML": 17466,
+      "MATLAB": 8120,
+      "Ruby": 4986,
+      "CSS": 2666,
+      "Awk": 1912,
+      "GLSL": 1551,
+      "Verilog": 729,
+      "Roff": 33,
+      "Limbo": 1
+    },
+    "flags": [],
+    "license": null,
+    "found_by": [
+      "accessibilityScrollStatus"
+    ],
+    "categories": [
+      "(discovered)"
+    ],
+    "discovered_via": "github-code-search"
+  }
+]

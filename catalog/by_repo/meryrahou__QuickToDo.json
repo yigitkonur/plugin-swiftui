@@ -1,0 +1,83 @@
+{
+ "repo": "meryrahou/QuickToDo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b800c8d1651468165fb764f28713d34fab69ecac",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "meryrahou",
+   "score": 3,
+   "contributions": 10
+  }
+ ],
+ "loc": 201,
+ "custom_components": 5,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "frame",
+   "menuBarExtraStyle",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "strikethrough",
+   "textFieldStyle"
+  ],
+  "types": [
+   "BorderlessButtonStyle",
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "MenuBarExtra",
+   "PlainTextFieldStyle",
+   "Section",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "footnote"
+  ],
+  "macros": [],
+  "styleValues": [
+   "gray",
+   "horizontal",
+   "leading",
+   "top",
+   "window"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 12,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 32
+}

@@ -1,0 +1,48 @@
+{
+ "repo": "noppefoxwolf/CoreTransferableBackport",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5aae8c2ceb8ae77427417b20d0f2dd0abc4c569c",
+ "platform": "other",
+ "author_authority": 9820,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "noppefoxwolf",
+   "score": 9820,
+   "contributions": 12
+  }
+ ],
+ "loc": 701,
+ "custom_components": 0,
+ "imports": [
+  "CoreTransferable",
+  "CoreTransferableBackport",
+  "PackageDescription",
+  "Testing",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

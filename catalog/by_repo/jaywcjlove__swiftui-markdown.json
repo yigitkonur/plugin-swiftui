@@ -1,0 +1,98 @@
+{
+ "repo": "jaywcjlove/swiftui-markdown",
+ "stars": 140,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2ce968ffe518627dd1eb0265f3c6d68896aec193",
+ "platform": "macos",
+ "author_authority": 276678,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "jaywcjlove",
+   "score": 276678,
+   "contributions": 66
+  },
+  {
+   "login": "davidhakki",
+   "score": 335,
+   "contributions": 1
+  },
+  {
+   "login": "gewill",
+   "score": 78,
+   "contributions": 1
+  }
+ ],
+ "loc": 1089,
+ "custom_components": 26,
+ "imports": [
+  "AppKit",
+  "Markdown",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "font",
+   "frame",
+   "listStyle",
+   "navigationTitle",
+   "resizable",
+   "toolbar",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Section",
+   "SidebarListStyle",
+   "Spacer",
+   "Text",
+   "UnifiedCompactWindowToolbarStyle",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "light",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "sidebar"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 13,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 3,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 30
+}

@@ -1,0 +1,167 @@
+{
+ "repo": "marzent/XIV-on-Mac",
+ "stars": 388,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4ad3168e30fc97515e8d6a9e9fd4ba9c00b8f8f1",
+ "platform": "macos",
+ "author_authority": 25715,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "marzent",
+   "score": 25715,
+   "contributions": 620
+  },
+  {
+   "login": "seathasky",
+   "score": 711,
+   "contributions": 36
+  },
+  {
+   "login": "CovertDuck",
+   "score": 0,
+   "contributions": 29
+  }
+ ],
+ "loc": 7443,
+ "custom_components": 44,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "AppMover",
+  "Base32",
+  "CcURLSwift",
+  "Cocoa",
+  "Combine",
+  "CommonCrypto",
+  "CompatibilityTools",
+  "Embassy",
+  "Foundation",
+  "IOKit",
+  "KeyboardShortcuts",
+  "KeychainAccess",
+  "OSLog",
+  "OrderedCollections",
+  "ScreenCaptureKit",
+  "SeeURL",
+  "Serilog",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications",
+  "XIVLauncher"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "disableAutocorrection",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "disableAutocorrection",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "id",
+   "keyboardShortcut",
+   "lineLimit",
+   "listRowBackground",
+   "listStyle",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "sheet",
+   "stroke",
+   "tabItem",
+   "tag",
+   "transformEffect"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "List",
+   "LocalizedStringKey",
+   "NSHostingView",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "center",
+   "custom",
+   "footnote",
+   "headline",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "gray",
+   "horizontal",
+   "leading",
+   "red",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 23,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 80
+}

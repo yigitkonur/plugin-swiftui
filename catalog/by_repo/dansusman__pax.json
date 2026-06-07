@@ -1,0 +1,112 @@
+{
+ "repo": "dansusman/pax",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a7187ffecacc5145adcfd47fc4f054cc94581715",
+ "platform": "macos",
+ "author_authority": 28,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dansusman",
+   "score": 28,
+   "contributions": 16
+  }
+ ],
+ "loc": 582,
+ "custom_components": 17,
+ "imports": [
+  "Foundation",
+  "HighlightedTextEditor",
+  "MenuBarExtraAccess",
+  "SwiftData",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "disabled",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "monospaced",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onKeyPress",
+   "onReceive",
+   "padding",
+   "task",
+   "textFieldStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NavigationStack",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "regular",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "borderedProminent",
+   "bottom",
+   "primary",
+   "red",
+   "roundedBorder",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "modelContext",
+   "openWindow",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 13,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 6,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 56
+}

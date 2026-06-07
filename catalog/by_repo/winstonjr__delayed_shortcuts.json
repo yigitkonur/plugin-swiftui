@@ -1,0 +1,54 @@
+{
+ "repo": "winstonjr/delayed_shortcuts",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0ee5ef046ef56bfe34c62e3bd2caefed275e4d34",
+ "platform": "other",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "winstonjr",
+   "score": 1,
+   "contributions": 20
+  }
+ ],
+ "loc": 2501,
+ "custom_components": 0,
+ "imports": [
+  "ApplicationServices",
+  "Carbon",
+  "Cocoa",
+  "CoreFoundation",
+  "CoreGraphics",
+  "Darwin",
+  "DelayedShortcuts",
+  "Foundation",
+  "IOKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

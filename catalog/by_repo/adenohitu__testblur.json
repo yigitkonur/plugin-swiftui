@@ -1,0 +1,89 @@
+{
+ "repo": "adenohitu/testblur",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5e101e809aace17ef1ab8fd614712cc0d590d6bb",
+ "platform": "macos",
+ "author_authority": 50,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adenohitu",
+   "score": 50,
+   "contributions": 2
+  }
+ ],
+ "loc": 207,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "testblur"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "defaultSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "imageScale",
+   "opacity",
+   "padding",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "clear",
+   "hidden",
+   "horizontal",
+   "leading",
+   "tint",
+   "top"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 11,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 33
+}

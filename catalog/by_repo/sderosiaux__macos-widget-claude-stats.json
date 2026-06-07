@@ -1,0 +1,101 @@
+{
+ "repo": "sderosiaux/macos-widget-claude-stats",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "865b80125f30c36cce1ee48ff91c2fb4f71c23f9",
+ "platform": "macos",
+ "author_authority": 5929,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sderosiaux",
+   "score": 5929,
+   "contributions": 3
+  }
+ ],
+ "loc": 731,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "menuIndicator",
+   "onReceive",
+   "opacity",
+   "padding",
+   "scaleEffect",
+   "task",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Menu",
+   "NSHostingView",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "semibold",
+   "subheadline",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "clear",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "tertiary",
+   "vertical"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 15,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

@@ -1,0 +1,15 @@
+# build artifacts
+swiftui-scan/.build/
+*.swiftmodule
+
+# huge regenerable data (rebuild with scripts/)
+repos/
+sg/
+sg_std/
+*.tsv
+catalog/customComponents.json   # 92MB raw decl dump; not read by the CLI — regenerate via scripts/05_catalog.py
+
+# python / os
+__pycache__/
+*.pyc
+.DS_Store

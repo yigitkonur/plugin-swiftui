@@ -1,0 +1,89 @@
+{
+ "repo": "qvacua/vimr",
+ "stars": 6966,
+ "categories": [
+  "Text Editors"
+ ],
+ "sha": "4f9de3e5aaca62efd92a1e9090494fcbab0bc6df",
+ "platform": "macos",
+ "author_authority": 7371,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "qvacua",
+   "score": 7371,
+   "contributions": 4689
+  },
+  {
+   "login": "georgeharker",
+   "score": 320457,
+   "contributions": 66
+  },
+  {
+   "login": "cypheon",
+   "score": 2972,
+   "contributions": 9
+  }
+ ],
+ "loc": 24140,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "Commons",
+  "CommonsObjC",
+  "CoreData",
+  "DictionaryCoding",
+  "Down",
+  "EonilFSEvents",
+  "Foundation",
+  "GameKit",
+  "Ignore",
+  "MaterialIcons",
+  "MessagePack",
+  "Misc",
+  "Nimble",
+  "NvimApi",
+  "NvimView",
+  "OrderedCollections",
+  "PackageDescription",
+  "PureLayout",
+  "ShortcutRecorder",
+  "Socket",
+  "Sparkle",
+  "SpriteKit",
+  "Swifter",
+  "Tabs",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "WildmatchC",
+  "Workspace",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

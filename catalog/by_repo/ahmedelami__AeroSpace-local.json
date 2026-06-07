@@ -1,0 +1,153 @@
+{
+ "repo": "ahmedelami/AeroSpace-local",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7b1aec3698bb7feb6cd5b01e78e8b6f2a8d7a444",
+ "platform": "macos",
+ "author_authority": 158506,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nikitabobko",
+   "score": 162936,
+   "contributions": 1324
+  },
+  {
+   "login": "mobile-ar",
+   "score": 21176,
+   "contributions": 30
+  },
+  {
+   "login": "jakenvac",
+   "score": 103,
+   "contributions": 7
+  }
+ ],
+ "loc": 18112,
+ "custom_components": 25,
+ "imports": [
+  "Antlr4",
+  "AppBundle",
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Common",
+  "Darwin",
+  "Foundation",
+  "HotKey",
+  "ISSoundAdditions",
+  "OrderedCollections",
+  "PackageDescription",
+  "PrivateApi",
+  "ServiceManagement",
+  "ShellParserGenerated",
+  "Socket",
+  "SwiftUI",
+  "TOMLKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "bold",
+   "clipShape",
+   "compositingGroup",
+   "environmentObject",
+   "fill",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "monospaced",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "strokeBorder",
+   "symbolRenderingMode",
+   "textSelection",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "largeTitle",
+   "light",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "circular",
+   "default",
+   "horizontal",
+   "leading",
+   "trailing",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 23,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 5,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 72
+}

@@ -1,0 +1,139 @@
+{
+ "repo": "j1mmy2hang/QChat",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2308a44c65349bb70b579e9c6780d1b80f7b7c32",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "j1mmy2hang",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 806,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "MarkdownUI",
+  "Security",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "commands",
+   "defaultLaunchBehavior",
+   "defaultPosition",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "fill",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "mask",
+   "onAppear",
+   "onChange",
+   "onKeyPress",
+   "opacity",
+   "overlay",
+   "padding",
+   "phaseAnimator",
+   "scale",
+   "scaleEffect",
+   "shadow",
+   "strokeBorder",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "CommandGroup",
+   "ForEach",
+   "Form",
+   "HStack",
+   "LazyVStack",
+   "LinearGradient",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Section",
+   "SecureField",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "easeInOut",
+   "easeOut",
+   "medium",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "clear",
+   "grouped",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "regularMaterial",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusState",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 23,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 85
+}

@@ -1,0 +1,113 @@
+{
+ "repo": "leetcode-mafia/cheetah",
+ "stars": 4261,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e66db5be59951484d4d88dee0f170834ea63584f",
+ "platform": "macos",
+ "author_authority": 4261,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "leetcode-mafia",
+   "score": 4261,
+   "contributions": 22
+  }
+ ],
+ "loc": 2315,
+ "custom_components": 16,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "CheetahIPC",
+  "Cocoa",
+  "Combine",
+  "CoreFoundation",
+  "Foundation",
+  "FoundationNetworking",
+  "FoundationXML",
+  "LibWhisper",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "commands",
+   "disabled",
+   "fixedSize",
+   "font",
+   "frame",
+   "hidden",
+   "italic",
+   "labelsHidden",
+   "lineLimit",
+   "lineSpacing",
+   "monospaced",
+   "onChange",
+   "onReceive",
+   "padding",
+   "pickerStyle",
+   "previewDisplayName",
+   "previewLayout",
+   "privacySensitive",
+   "scaleEffect",
+   "tag",
+   "task",
+   "textSelection",
+   "truncationMode",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "Picker",
+   "ProgressView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote"
+  ],
+  "macros": [],
+  "styleValues": [
+   "hiddenTitleBar",
+   "leading",
+   "menu",
+   "none"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 17,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 52
+}

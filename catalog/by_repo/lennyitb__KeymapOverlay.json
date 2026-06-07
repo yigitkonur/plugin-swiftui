@@ -1,0 +1,150 @@
+{
+ "repo": "lennyitb/KeymapOverlay",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a16bdddea61e362cdc3a6ae3e790b0ceaeba04be",
+ "platform": "macos",
+ "author_authority": 14,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lennyitb",
+   "score": 14,
+   "contributions": 16
+  }
+ ],
+ "loc": 2142,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "CryptoKit",
+  "Foundation",
+  "IOKit",
+  "ObjectiveC",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftData",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "buttonStyle",
+   "controlSize",
+   "defaultLaunchBehavior",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "glassEffect",
+   "keyboardShortcut",
+   "lineLimit",
+   "monospaced",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "sheet",
+   "strokeBorder",
+   "task",
+   "textFieldStyle",
+   "truncationMode",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "MenuBarExtra",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NSHostingView",
+   "RoundedRectangle",
+   "Schema",
+   "Section",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "headline",
+   "largeTitle",
+   "medium",
+   "regular",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "center",
+   "clear",
+   "grouped",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "primary",
+   "quaternary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "tertiary",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "dismiss",
+   "openSettings",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 27,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 4,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 90
+}

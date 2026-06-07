@@ -1,0 +1,67 @@
+{
+ "repo": "Humble7/DotShakeUIKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c32519bd207cbf98f7d53e31a7f8c98965173b86",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Humble7",
+   "score": 0,
+   "contributions": 17
+  }
+ ],
+ "loc": 30616,
+ "custom_components": 1,
+ "imports": [
+  "Combine",
+  "CoreImage",
+  "DotShakeColorPicker",
+  "DotShakeFloatingPanel",
+  "DotShakeKnob",
+  "DotShakeNiblessComponents",
+  "DotShakeToolbar",
+  "DotShakeUIKit",
+  "Foundation",
+  "FoundationKit",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "ignoresSafeArea",
+   "preferredColorScheme"
+  ],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "default",
+   "primary",
+   "secondary"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 6
+}

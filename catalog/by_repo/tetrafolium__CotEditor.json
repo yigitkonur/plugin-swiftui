@@ -1,0 +1,72 @@
+{
+ "repo": "tetrafolium/CotEditor",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "93ecd7f13f87a0dfb10952e477532fc3e3605596",
+ "platform": "macos",
+ "author_authority": 10017,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "1024jp",
+   "score": 10300,
+   "contributions": 9822
+  },
+  {
+   "login": "usami-k",
+   "score": 75,
+   "contributions": 229
+  },
+  {
+   "login": "onevcat",
+   "score": 472632,
+   "contributions": 48
+  }
+ ],
+ "loc": 48610,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "Cocoa",
+  "ColorCode",
+  "Combine",
+  "CoreFoundation",
+  "CoreGraphics",
+  "CoreText",
+  "CotEditor",
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "OSAKit",
+  "PackageDescription",
+  "QuartzCore",
+  "Sparkle",
+  "WebKit",
+  "XCTest",
+  "Yams"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,104 @@
+{
+ "repo": "jpcerone/BlinkLauncher",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f9a8f5cdb6695337dcf5e28766312ef2bf8ac9e0",
+ "platform": "macos",
+ "author_authority": 15,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jpcerone",
+   "score": 15,
+   "contributions": 32
+  }
+ ],
+ "loc": 1153,
+ "custom_components": 7,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "OSLog",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "id",
+   "onAppear",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "shadow",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "NSHostingController",
+   "Rectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "center",
+   "clear",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 17,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

@@ -1,0 +1,46 @@
+{
+ "repo": "nraptis/GestureView",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a4e2b28840535a801d24f1b006de282de28fe332",
+ "platform": "other",
+ "author_authority": 33,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nraptis",
+   "score": 33,
+   "contributions": 2
+  }
+ ],
+ "loc": 2512,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "UIKit",
+  "simd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

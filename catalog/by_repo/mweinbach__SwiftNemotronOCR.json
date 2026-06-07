@@ -1,0 +1,53 @@
+{
+ "repo": "mweinbach/SwiftNemotronOCR",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "509f39a593b62f4900821dd8b967d2da14538f41",
+ "platform": "other",
+ "author_authority": 4429,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mweinbach",
+   "score": 4429,
+   "contributions": 3
+  }
+ ],
+ "loc": 4349,
+ "custom_components": 0,
+ "imports": [
+  "CoreGraphics",
+  "CoreML",
+  "Darwin",
+  "Foundation",
+  "ImageIO",
+  "MLX",
+  "MLXNN",
+  "NemotronOCR",
+  "PackageDescription",
+  "Testing"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

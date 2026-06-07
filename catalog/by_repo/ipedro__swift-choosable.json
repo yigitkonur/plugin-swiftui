@@ -1,0 +1,59 @@
+{
+ "repo": "ipedro/swift-choosable",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e2196d6470ead314dab519f1c5b661435805fc5d",
+ "platform": "other",
+ "author_authority": 51195,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ipedro",
+   "score": 51195,
+   "contributions": 46
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 556,
+ "custom_components": 1,
+ "imports": [
+  "Choosable",
+  "CoreGraphics",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "sizeThatFits"
+  ],
+  "types": [
+   "AnyShape"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

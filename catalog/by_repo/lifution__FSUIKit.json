@@ -1,0 +1,59 @@
+{
+ "repo": "lifution/FSUIKit",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "95dd73efe4c82d92a62e553d60ae37f096af3334",
+ "platform": "other",
+ "author_authority": 3364,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lifution",
+   "score": 3364,
+   "contributions": 233
+  }
+ ],
+ "loc": 20959,
+ "custom_components": 0,
+ "imports": [
+  "Combine",
+  "CommonCrypto",
+  "CoreGraphics",
+  "CoreTelephony",
+  "CoreText",
+  "CryptoKit",
+  "FSUIKitSwift",
+  "Foundation",
+  "ObjectiveC",
+  "RxCocoa",
+  "RxSwift",
+  "SnapKit",
+  "SystemConfiguration",
+  "UIKit",
+  "WebKit",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

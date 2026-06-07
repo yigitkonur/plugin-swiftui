@@ -1,0 +1,56 @@
+{
+ "repo": "rayman-zhao/swift-winui",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "810e1dcd6a549d9f66c57bf387d4b80d5fbb006f",
+ "platform": "other",
+ "author_authority": 1232,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "rayman-zhao",
+   "score": 1232,
+   "contributions": 30
+  },
+  {
+   "login": "wushihaooo",
+   "score": 10,
+   "contributions": 3
+  }
+ ],
+ "loc": 68132,
+ "custom_components": 0,
+ "imports": [
+  "CWinRT",
+  "Dispatch",
+  "Foundation",
+  "PackageDescription",
+  "UWP",
+  "WinAppSDK",
+  "WinSDK",
+  "WindowsFoundation"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

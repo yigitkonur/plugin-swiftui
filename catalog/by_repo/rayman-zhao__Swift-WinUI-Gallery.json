@@ -1,0 +1,61 @@
+{
+ "repo": "rayman-zhao/Swift-WinUI-Gallery",
+ "stars": 7,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e34289751f107ece67e26933c6da919343228ce6",
+ "platform": "other",
+ "author_authority": 1232,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "wushihaooo",
+   "score": 10,
+   "contributions": 35
+  },
+  {
+   "login": "rayman-zhao",
+   "score": 1232,
+   "contributions": 28
+  },
+  {
+   "login": "lijiyang1",
+   "score": 8,
+   "contributions": 18
+  }
+ ],
+ "loc": 30994,
+ "custom_components": 0,
+ "imports": [
+  "CppWinRT",
+  "Foundation",
+  "PackageDescription",
+  "UWP",
+  "WinAppSDK",
+  "WinSDK",
+  "WinUI",
+  "WindowsFoundation"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

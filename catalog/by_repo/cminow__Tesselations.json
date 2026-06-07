@@ -1,0 +1,105 @@
+{
+ "repo": "cminow/Tesselations",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "aecee79f180e2a41a2726ce7803d4ce7652cc1e4",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cminow",
+   "score": 0,
+   "contributions": 143
+  }
+ ],
+ "loc": 4555,
+ "custom_components": 67,
+ "imports": [
+  "Foundation",
+  "SwiftUI",
+  "Tesselations",
+  "Tessellations_macOS",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "fill",
+   "frame",
+   "listStyle",
+   "onEnded",
+   "onTapGesture",
+   "padding",
+   "scrollContentBackground",
+   "stroke"
+  ],
+  "types": [
+   "Angle",
+   "Canvas",
+   "Color",
+   "Gradient",
+   "HStack",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "NavigationStack",
+   "Path",
+   "Rectangle",
+   "RoundedRectangle",
+   "Section",
+   "Slider",
+   "Spacer",
+   "TapGesture",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "linearGradient",
+   "radialGradient"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "cyan",
+   "gray",
+   "hidden",
+   "leading",
+   "purple",
+   "red",
+   "sidebar",
+   "trailing",
+   "white",
+   "windowBackground",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 20,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 50
+}

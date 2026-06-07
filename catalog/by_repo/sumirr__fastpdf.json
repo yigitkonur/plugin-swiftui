@@ -1,0 +1,129 @@
+{
+ "repo": "sumirr/fastpdf",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "096034fac94e4b9bc8529a5961313a37939da00c",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sumirr",
+   "score": 2,
+   "contributions": 5
+  }
+ ],
+ "loc": 841,
+ "custom_components": 21,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PDFKit",
+  "QuartzCore",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "onAppear",
+   "onDrop",
+   "onReceive",
+   "opacity",
+   "padding",
+   "resizable",
+   "shadow",
+   "tabItem",
+   "tag",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "Menu",
+   "NSHostingController",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Stepper",
+   "TabView",
+   "Text",
+   "Toggle",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "clear",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "purple",
+   "red",
+   "secondary",
+   "top",
+   "white",
+   "windowBackground"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 24,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 73
+}

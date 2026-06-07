@@ -1,0 +1,78 @@
+{
+ "repo": "Enoch02/MTN-M30s-Info",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e806940f4095025b40a8af0e45994f25dc5e3b98",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Enoch02",
+   "score": 3,
+   "contributions": 2
+  }
+ ],
+ "loc": 335,
+ "custom_components": 4,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "defaultLaunchBehavior",
+   "environmentObject",
+   "foregroundStyle",
+   "frame",
+   "onAppear",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Spacer",
+   "Text",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "secondary"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 6,
+  "types": 11,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 2,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 24
+}

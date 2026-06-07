@@ -1,0 +1,98 @@
+{
+ "repo": "SwiftKickMobile/SwiftMessages",
+ "stars": 7556,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c0ff6c65bfc00e6a707957cb7069988c5cde2a30",
+ "platform": "other",
+ "author_authority": 14106,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "wtmoose",
+   "score": 14490,
+   "contributions": 294
+  },
+  {
+   "login": "mofeejegi",
+   "score": 9069,
+   "contributions": 4
+  },
+  {
+   "login": "defagos",
+   "score": 1840,
+   "contributions": 4
+  }
+ ],
+ "loc": 5781,
+ "custom_components": 15,
+ "imports": [
+  "Foundation",
+  "Messages",
+  "PackageDescription",
+  "QuartzCore",
+  "SwiftMessages",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "edgesIgnoringSafeArea",
+   "font",
+   "frame",
+   "mask",
+   "multilineTextAlignment",
+   "onChange",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "EdgeInsets",
+   "Rectangle",
+   "RoundedRectangle",
+   "Text",
+   "UnevenRoundedRectangle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "center",
+   "clear",
+   "leading",
+   "none",
+   "top",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 8,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 29
+}
