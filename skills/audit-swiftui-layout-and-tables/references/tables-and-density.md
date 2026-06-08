@@ -95,7 +95,7 @@ consensus shape `(_)` 100%, recommended permalink
 `https://github.com/sindresorhus/Gifski/blob/7f873856e2acd8b52e6681dee3aec31e6cab23e4/Gifski/EstimatedFileSize.swift#L163`.
 **Seam:** the `controlSize` *sizing axis* is this skill; *style variants* (`.buttonStyle`/`.pickerStyle`/
 `.formStyle(.grouped)`) are `controls-forms` — when the issue is the style not the density, `cross_ref`
-controls-forms. (`.extraLarge` exists at macOS 14 but resolves to `.large` on macOS — a no-op.)
+controls-forms. (`.extraLarge` exists at macOS 14 but resolves to `.large` on platforms other than visionOS — a no-op on macOS.)
 
 ## lt-07 — deprecated `tableStyle` case (hard-fail, **fix_mode: auto**)
 
@@ -110,10 +110,11 @@ Table(rows) { /* … */ }.tableStyle(.inset(alternatesRowBackgrounds: true))
 // ✅ CORRECT — split the style and the modifier (alternatingRowBackgrounds is macOS 14.0+, macOS-only)
 Table(rows) { /* … */ }.tableStyle(.inset).alternatingRowBackgrounds()
 ```
-**VERIFY caveat (honesty):** swiftui-ctx tracks deprecation at the **API** level — `swiftui-ctx deprecated
+**Confirmed (primary source):** swiftui-ctx tracks deprecation at the **API** level — `swiftui-ctx deprecated
 tableStyle` returns `deprecated:false` because the *modifier* isn't deprecated, only the specific **case**
-is. So this stays `source: verify against Xcode 26 SDK`, cite the Sosumi `tablestyle` page, and never
-assert it as a corpus fact. The floor/deprecation row is in `floors-master.md`; the auto-fix is a
+is. Both `inset(alternatesRowBackgrounds:)` and `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–26.5 Deprecated`
+on `developer.apple.com` — cite `source: https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
+The floor/deprecation row is in `floors-master.md`; the auto-fix is a
 mechanical single-answer swap (fix-safety protocol).
 
 ---

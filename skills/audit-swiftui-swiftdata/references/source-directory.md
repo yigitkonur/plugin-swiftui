@@ -39,7 +39,7 @@ permalinked example, deprecation-in-the-wild) is `swiftui-ctx` — its contract 
 | `ModelContainer(for:configurations:)` (variadic) | `modelcontainer` | **macOS 15.0+** |
 | `ModelContainer(for:migrationPlan:configurations:)` | `modelcontainer` | macOS 14.0+ |
 | `@ModelActor` | `modelactor` | macOS 14.0+ (`low_corpus` in swiftui-ctx) |
-| `PersistentIdentifier` | `persistentidentifier` | macOS 14.0+ (the `Sendable` hand-off) |
+| `PersistentIdentifier` | `persistentidentifier` | macOS 13.0+ (the `Sendable` hand-off) |
 | `#Index` / `#Unique` | `index` · `unique` | macOS 15.0+ |
 | `HistoryDescriptor` / `fetchHistory(_:)` | `historydescriptor` | macOS 15.0+ |
 | `HistoryDescriptor.sortBy` | `historydescriptor/sortby` | macOS 26.0+ (member badge: `verify-SDK`) |
@@ -62,7 +62,7 @@ SwiftData-specific invented-name list — defer to
 | id | Title | Covers |
 |---|---|---|
 | wwdc2025/291 | SwiftData: Dive into inheritance and schema migration | `@Model` inheritance gate + versioned schema + register all types (sd-11) |
-| wwdc2023/10196 | Meet SwiftData | the macro surface; the incomplete-`@Model` sample provenance |
+| wwdc2023/10196 | Dive deeper into SwiftData | the macro surface; the incomplete-`@Model` sample provenance |
 | wwdc2024/10137 | What's new in SwiftData | `#Index`/`#Unique`, history API |
 
 ## D. Practitioners (corroboration only — never primary; label findings `confidence:` low / verified-by-research)

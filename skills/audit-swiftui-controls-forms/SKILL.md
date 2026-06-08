@@ -84,7 +84,7 @@ ABSENT`** in `floors-master.md` — it is platform-wrong, **not** under-gated; n
 **Real (exist on macOS; floors are the reconciled truth in `floors-master.md` — read, never restate):**
 `formStyle(_:)` (`.grouped`/`.columns`/`.automatic`), `focusable(_:)`, `focused(_:)`, `@FocusState`,
 `help(_:)`, `listStyle(_:)` (`.sidebar`/`.inset`/`.bordered`/`.plain`), `buttonStyle(_:)`
-(`.bordered`/`.borderless`/`.plain`/`.link`/`.accessoryBar`/`.accessoryBarAction`), `pickerStyle(_:)`
+(`.bordered`/`.borderless`/`.plain`/`.link`/`.accessoryBar`/`.accessoryBarAction`/`.borderedProminent`), `pickerStyle(_:)`
 (`.menu`/`.segmented`/`.inline`/`.radioGroup`), `controlSize(_:)` (`.mini`/`.small`/`.regular`/`.large`).
 **`Glass.interactive` / `.buttonStyle(.glass)` are macOS 26.0+** and owned by `audit-swiftui-liquid-glass`;
 note in one line and `cross_ref`, don't gate them here.

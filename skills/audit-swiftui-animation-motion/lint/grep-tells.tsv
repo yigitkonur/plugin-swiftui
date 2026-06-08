@@ -6,7 +6,7 @@
 # Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
 anim-01	warn	\.animation\(	.animation( present — confirm it is the value-scoped .animation(_:value:); a single-arg .animation(x) is the DEPRECATED implicit form (macOS 12) → add value: or use withAnimation (anim-01). ast-grep anim-01 refines to single-arg.
 anim-02	warn	withAnimation[[:space:]]*[({]	withAnimation — confirm its body mutates @State/observed the view actually reads; a no-op body or a constant value: animates nothing (anim-02).
-anim-04	warn	\.bouncy|\.smooth|\.snappy	spring preset (.bouncy/.smooth/.snappy) — macOS 14 despite the rendered 10.15 (DocC quirk). REPORT only if deployment target < macOS 14 and ungated; gate #available(macOS 14, *) (anim-04). Read floor in ORIENT.
+anim-04	hard	\.bouncy|\.smooth|\.snappy	spring preset (.bouncy/.smooth/.snappy) — macOS 14 despite the rendered 10.15 (DocC quirk). REPORT only if deployment target < macOS 14 and ungated; gate #available(macOS 14, *) (anim-04). Read floor in ORIENT.
 anim-03	adv	\.linear\(duration|\.easeInOut\(duration|\.easeIn\(duration|\.easeOut\(duration	raw duration curve — for physical/interactive motion a spring preset .bouncy/.smooth/.snappy reads more native (anim-03, judgment/flag).
 anim-05	adv	\.repeatForever|Timer\.|\.repeatCount	hand-rolled / repeating loop — multi-step motion may fit PhaseAnimator/KeyframeAnimator (macOS 14) better (anim-05).
 anim-06	warn	\.symbolEffect\(	.symbolEffect — macOS 14.0+. REPORT if floor < 14 and ungated (gate #available(macOS 14,*)); else confirm a hand-animated SF Symbol shouldn't use it (anim-06).

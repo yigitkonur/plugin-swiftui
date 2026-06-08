@@ -73,9 +73,9 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | lt-08 | custom `: Layout` conformance where a built-in (`Grid`/`ViewThatFits`/`containerRelativeFrame`) fits | advisory | flag | `custom-layout.md` |
 
 **lt-07 is the only deprecation; lt-02 and lt-05 cross-ref siblings.** The macOS 26.5 case-level
-deprecation of `tableStyle(.inset(alternatesRowBackgrounds:))` is a SDK fact carried as
-`source: verify against Xcode 26 SDK` until re-confirmed against the Xcode 26 SDK (swiftui-ctx tracks
-deprecation at the API level, not the case level — see VERIFY).
+deprecation of `tableStyle(.inset(alternatesRowBackgrounds:))` is confirmed on `developer.apple.com`
+(swiftui-ctx tracks deprecation at the API level, not the case level — see VERIFY;
+primary source: `https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`).
 
 ## The real API, at a glance
 
@@ -131,9 +131,10 @@ Sosumi before flagging, and cross-check the canonical invented-name list in
    `${CLAUDE_PLUGIN_ROOT}/references/_shared/sosumi-reference.md` for the protocol (never `WebFetch`
    `developer.apple.com`). Cross-check `introduced_macos` against `floors-master.md` and the Sosumi
    `doc:` floor. The CLI contract is `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui-ctx-reference.md`.
-   **lt-07's case-level deprecation is not in the swiftui-ctx corpus** (`deprecated tableStyle` returns
-   `deprecated:false` at the modifier level) — keep it `source: verify against Xcode 26 SDK`, cite the
-   Sosumi `tablestyle` page, and never assert it as a corpus fact. Promote with the citation or discard.
+   **lt-07's case-level deprecation is confirmed on `developer.apple.com`** (`deprecated tableStyle` returns
+   `deprecated:false` at the modifier level in swiftui-ctx, but both `inset(alternatesRowBackgrounds:)` and
+   `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–26.5 Deprecated` directly) — cite
+   `source: https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
    **Deeper corpus evidence (lt-08 custom `Layout`):** before flagging a `: Layout` conformer as needless,
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx conformances Layout` for real conformers + permalinks (and
    `examples Table --shape` for real `Table` call sites) — 198 shipping repos write a custom `Layout`, almost
@@ -174,7 +175,7 @@ domain:
   ordered). Per-run index: `swiftui-audits/layout-and-tables/_index.md`.
 - `domain: layout-and-tables`. Frontmatter is the canonical schema; `fix_mode` is `auto` for lt-07, else
   `flag-only`. `availability` reads from `floors-master.md`. `source` is an Apple URL + access date
-  (fetched via Sosumi) or `verify against Xcode 26 SDK` (lt-07's case-level deprecation). Emit
+  (fetched via Sosumi); lt-07's case-level deprecation is confirmed at `https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`. Emit
   `cross_ref` on lt-02 (→ `scenes-windows`), lt-05 (→ `controls-forms`, when style not sizing), and any
   large-Table perf note (→ `view-performance`).
 

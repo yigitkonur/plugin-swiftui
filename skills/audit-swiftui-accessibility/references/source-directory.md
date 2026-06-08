@@ -24,7 +24,8 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 
 | Symbol | Path | Floor |
 |---|---|---|
-| `accessibilityLabel(_:)` | `view/accessibilitylabel(_:)` | macOS 13.0 |
+| `accessibilityLabel(_:)` (`StringProtocol`) | `view/accessibilitylabel(_:)-1d7jv` | macOS 11.0 |
+| `accessibilityLabel(_:)` (`LocalizedStringResource`) | `view/accessibilitylabel(_:)` | macOS 13.0 |
 | `accessibilityValue(_:)` | `view/accessibilityvalue(_:)` | macOS 11.0 |
 | `accessibilityHint(_:)` | `view/accessibilityhint(_:)` | macOS 13.0 |
 | `accessibilityHidden(_:)` | `view/accessibilityhidden(_:)` | macOS 11.0 |

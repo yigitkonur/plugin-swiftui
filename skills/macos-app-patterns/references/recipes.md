@@ -11,11 +11,11 @@ Run `swiftui-ctx recipe <name>` for the template + examples; `swiftui-ctx file <
 | `settings-form` | `Form`, `Section`, `Toggle`, `Picker`, `LabeledContent` | a grouped settings form |
 | `observable-model` | `Observable`, `State`, `Bindable` | modern Observation state ownership |
 | `window-scene` | `WindowGroup`, `windowStyle`, `windowResizability`, `defaultSize` | custom window config |
-| `charts-bar` | `Chart`, `BarMark`, `chartXAxis` | a bar chart with axis config |
+| `charts-bar` | `Chart`, `BarMark`, `chartXAxis(content:)` | a bar chart with axis config |
 | `searchable-list` | `searchable`, `searchScopes` | a searchable list |
 | `nsview-bridge` | `NSViewRepresentable` | wrap an AppKit view (Coordinator + make/update) |
 | `command-palette` | `searchable`, `keyboardShortcut`, `onKeyPress`, `focused` | a ⌘K command overlay |
-| `draggable-reorder` | `onMove`, `draggable`, `dropDestination`, `Transferable` | reorderable rows |
+| `draggable-reorder` | `onMove`, `draggable`, `dropDestination(for:isEnabled:action:)`, `Transferable` | reorderable rows |
 | `cached-async-image` | `AsyncImage` | remote image with placeholder (+ caching note) |
 
 Tips:

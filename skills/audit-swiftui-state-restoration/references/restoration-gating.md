@@ -14,7 +14,7 @@ exist. A `lookup` **exit 3** corroborates the hallucination.
 | `encodeRestorableState` / `decodeRestorableState` | `NSResponder`/`UIViewController` AppKit/UIKit hooks | persist via `@SceneStorage` + `NavigationPath.codable` |
 | `@FocusedDocument` | **not a real Apple symbol** (see `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`) | a custom `FocusedValues` key (`@Entry` on `FocusedValues` + `@FocusedValue`) |
 
-## sr-10 — restorationBehavior ungated under a <macOS 15 floor (hard-fail, flag-only)
+## sr-10 — restorationBehavior ungated under a <macOS 15 floor (warning, flag-only)
 
 `restorationBehavior(_:)` is a **macOS 15.0+** scene modifier (`.automatic` / `.disabled`) controlling
 whether the system restores a scene. Under a deployment target below macOS 15 an ungated call fails to

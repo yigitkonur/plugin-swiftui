@@ -17,7 +17,7 @@ a permalinked real example) comes from `swiftui-ctx` per
 1. **Does the fix-target symbol exist + its macOS floor?** Fetch
    `https://sosumi.ai/documentation/swiftui/<symbol-path>` and read the `**Available on:** … macOS N+ …`
    line. In this domain the symbols are all **real** (the defects are misuse) — the floor that matters is
-   `Text(_:format:)` (**macOS 15.0+**), to confirm the formatter fix isn't suggested under a macOS 14 target.
+   `Text(_:format:)` (**macOS 12.0+** for `FormatOutput == String`; **macOS 15.0+** for `FormatOutput == AttributedString`), to confirm the formatter fix is available at the project's deployment target.
 2. **What's the canonical *shape*?** Run `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx lookup <api> --json`
    → read `consensus` (the % shape), `recommended` (the permalink for the ✅), `introduced_macos`,
    `co_occurs_with`. Then `file <recommended.id> --smart` for the real enclosing body.
@@ -31,7 +31,7 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 
 | Symbol | Path | Floor / note |
 |---|---|---|
-| `Text(_:format:)` | `text/init(_:format:)` | macOS **15.0+** (FormatStyle→AttributedString overload) — the formatter fix |
+| `Text(_:format:)` | `text/init(_:format:)` | macOS **12.0+** (`FormatOutput == String`) · macOS **15.0+** (`FormatOutput == AttributedString`) — the formatter fix |
 | `ViewBuilder` | `viewbuilder` | the `AnyView` fix (returns `some View`) |
 | `EquatableView` / `View.equatable()` | `equatableview` · `view/equatable()` | macOS 10.15+ — the closure-prop fix |
 | `LazyVStack` / `LazyVGrid` | `lazyvstack` · `lazyvgrid` | macOS 11.0+ — the eager-`ForEach` fix |
@@ -50,7 +50,7 @@ they back the render test, not a fix target (see `rendering-model-and-profiling.
 |---|---|---|
 | 2021 / 10022 | Demystify SwiftUI | identity, lifetime, dependencies — the diffing model behind every defect |
 | 2023 / 10160 | Demystify SwiftUI performance | update cost, expensive `body` work, `List`/`ForEach` cost |
-| 2025 / 306 | Optimize SwiftUI performance with Instruments | the SwiftUI Instrument + Cause & Effect graph; the `@Environment` high-frequency fan-out warning |
+| 2025 / 306 | Discover the new SwiftUI instrument. | the SwiftUI Instrument + Cause & Effect graph; the `@Environment` high-frequency fan-out warning |
 
 ## C. Practitioners (corroboration only — never primary; label findings `confidence:` low / verified-by-research)
 

@@ -37,18 +37,20 @@ uncertain symbol via Sosumi (`${CLAUDE_PLUGIN_ROOT}/references/_shared/sosumi-re
 | `.buttonStyle(.glass)` / `GlassButtonStyle` | the glass button style | `glassbuttonstyle` |
 | `.buttonStyle(.glassProminent)` / `GlassProminentButtonStyle` | the tinted primary-action style | `glassprominentbuttonstyle` |
 | `Glass` (struct) | the variant descriptor passed to `glassEffect` | `glass` |
-| `Glass.regular` / `.clear` / `.identity` | variants (`.clear` only for media-rich/bold content) | `glass/regular` etc. |
+| `Glass.regular` / `.clear` / `.identity` | variants (`.clear` requires a dimming layer beneath for legibility) | `glass/regular` etc. |
 | `Glass.interactive(_:)` | pointer-driven elastic feel — **macOS 26.0+, NOT iOS-only** | `glass/interactive(_:)` |
 | `Glass.tint(_:)` | tint the glass (one primary action per screen) | `glass/tint(_:)` |
 | `glassEffectID(_:in:)` | morph identity across a state change | `view/glasseffectid(_:in:)` |
 | `glassEffectUnion(id:namespace:)` | merge siblings of the **same shape + variant + tint** | `view/glasseffectunion(id:namespace:)` |
 | `glassEffectTransition(_:)` | transition style for appearing/disappearing glass | `view/glasseffecttransition(_:)` |
+| `GlassEffectTransition.identity` | the identity (no-op) transition case | `glasseffecttransition/identity` |
+| `GlassEffectTransition.matchedGeometry` | the matched-geometry transition case | `glasseffecttransition/matchedgeometry` |
 | `GlassEffectTransition.materialize` | the materialize transition case | `glasseffecttransition/materialize` |
 | `backgroundExtensionEffect()` | extend content under a sidebar/inspector | `view/backgroundextensioneffect()` |
-| `scrollEdgeEffectStyle(_:for:)` | style the scroll edge (`.soft`/`.hard`) | `view/scrolledgeeffectstyle(_:for:)` |
+| `scrollEdgeEffectStyle(_:for:)` | style the scroll edge (`.automatic`/`.soft`/`.hard`) | `view/scrolledgeeffectstyle(_:for:)` |
 | `scrollEdgeEffectHidden(_:for:)` | hide a scroll edge effect | `view/scrolledgeeffecthidden(_:for:)` |
 | `ToolbarContent.sharedBackgroundVisibility(_:)` | group/hide the toolbar's shared glass background | `toolbarcontent/sharedbackgroundvisibility(_:)` |
-| `DefaultGlassEffectShape` | the default shape used by `glassEffect` | (named in the `glassEffect(_:in:)` signature) |
+| `DefaultGlassEffectShape` | the default shape used by `glassEffect` (a capsule) | (named in the `glassEffect(_:in:)` signature) |
 
 **Verbatim signatures (Xcode 26 SDK):**
 

@@ -107,9 +107,11 @@ single-answer fix; `flag` = show the ✅, dev applies.
 
 ¹ **state-01 is the headline two-shape defect** (read the model kind to pick the shape, the fix, AND the
 severity): the initializer on `@ObservedObject` is a **SILENT runtime reset** if `Type` is a real
-`ObservableObject` (warning — compiles, recreated every re-render) and a **COMPILE error** if `Type` is
-`@Observable` (hard-fail — `@ObservedObject` requires `ObservableObject` conformance, which `@Observable`
-does not provide). Same tell, opposite `failure_shape`. ² state-04 is hard-fail (compile) on a value
+`ObservableObject` (warning — compiles, recreated every re-render) and a **likely COMPILE error** if
+`Type` is `@Observable` (hard-fail in practice — Apple: *"may cause a compiler error"* because
+`@ObservedObject` requires `ObservableObject` conformance, which `@Observable` does not provide; Apple
+hedges with "may" — treat it as a build break but preserve the hedge when reporting). Same tell, opposite
+`failure_shape`. ² state-04 is hard-fail (compile) on a value
 type; advisory (migration smell) on a plain `@Observable`.
 
 ## The real API, at a glance

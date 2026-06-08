@@ -35,7 +35,7 @@ greedy `GeometryReader` or an `@Environment` timer tick fires constantly on ever
   cost** is `audit-swiftui-liquid-glass`'s API/placement turf; we note the high-frequency-glass smell
   and route there.
 - **The blanket "is every OS-floored API gated" sweep** belongs to `audit-swiftui-availability-gating`;
-  this skill gates the one floored API it suggests (`Text(_:format:)`, macOS 15.0+) and defers there.
+  this skill gates the one floored API it suggests (`Text(_:format:)`, macOS 12.0+ for `FormatOutput == String` / macOS 15.0+ for `AttributedString`) and defers there.
 
 ## The rendering model (three load-bearing facts)
 
@@ -83,12 +83,12 @@ practitioner reports put a plain `List` at ~10k smooth / ~50k usable on **macOS 
 
 These are the **fix targets** — all real on macOS, confirmed via `swiftui-ctx lookup` (see VERIFY):
 
-- `Text(_:format:)` (FormatStyle overload, **macOS 15.0+**) — replaces a `DateFormatter` in `body`.
+- `Text(_:format:)` (FormatStyle overload, **macOS 12.0+** for `FormatOutput == String`; macOS 15.0+ for `FormatOutput == AttributedString`) — replaces a `DateFormatter` in `body`.
 - `@ViewBuilder` (returns `some View`) — replaces an `AnyView`-returning helper.
 - `EquatableView` / `Equatable` conformance (macOS 10.15+) — makes a child with a closure prop
   skippable by comparing its *other* props.
 - `LazyVStack` / `LazyVGrid` / `List` / `Table` — lazy containers for large collections.
-- `Layout` / `.frame` / `.alignmentGuide` / `containerRelativeFrame` — replace a greedy
+- `Layout` (macOS 13.0+) / `.frame` / `.alignmentGuide` / `containerRelativeFrame` (macOS 14.0+) — replace a greedy
   `GeometryReader` when you only need arrangement, not the measured size.
 - `.task` / `@Observable` model methods / `static let` — homes for work wrongly placed in `init`/`body`.
 
@@ -130,7 +130,7 @@ permalink. The CLI contract is `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui
 
 1. **ORIENT.** `tree` / `find` the SwiftUI sources. Read the **deployment target** (`project.pbxproj`
    `MACOSX_DEPLOYMENT_TARGET`, or `Package.swift` `platforms:`). Load-bearing for the one floored fix
-   (`Text(_:format:)` needs macOS 15+); record it.
+   (`Text(_:format:)`: macOS 12.0+ for `FormatOutput == String`, macOS 15.0+ for `AttributedString`); record it.
 2. **LOCATE.** Run the shared hybrid lint runner:
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-lint.sh --skill audit-swiftui-view-performance --dir <sources> --json /tmp/vperf.json --sarif /tmp/vperf.sarif`.
    It runs this skill's tier-1 grep tells (`lint/grep-tells.tsv`) + tier-2 structural ast-grep rules

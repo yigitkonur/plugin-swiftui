@@ -4,7 +4,7 @@
 # the correct no-action way to open Settings; the failure is specific to the menu-bar closure, so grep on
 # the bare name would over-fire — containment is the whole point, and grep CANNOT express it. kind-anchored
 # on call_expression so ast-grep's validator accepts the `inside`. READ the file to confirm it is the
-# direct child of the MenuBarExtra content. SettingsLink is macOS 13.0+ (per floors-master). fix_mode: flag-only.
+# direct child of the MenuBarExtra content. SettingsLink is macOS 14.0+ (per floors-master). fix_mode: flag-only.
 id: sw-07-settingslink-in-menubarextra
 language: Swift
 severity: warning

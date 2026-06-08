@@ -40,12 +40,12 @@ struct CounterView: View {
 }
 ```
 
-### Shape B — HARD compile error (`failure_shape: compile-error`, severity hard-fail)
+### Shape B — likely compile error (`failure_shape: compile-error`, severity hard-fail)
 
-`Type` is `@Observable`. `@ObservedObject`/`@StateObject` *require* their wrapped object to conform to
-`ObservableObject`; an `@Observable` type does **not** conform, so the compiler rejects it outright. Per
-Apple's `@ObservedObject` docs: *"Attempting to wrap an Observable object with @ObservedObject may cause a
-compiler error, because it requires that its wrapped object conform to the ObservableObject protocol."*
+`Type` is `@Observable`. Per Apple's `@ObservedObject` docs: *"Attempting to wrap an Observable object
+with @ObservedObject **may** cause a compiler error, because it requires that its wrapped object conform to
+the ObservableObject protocol."* Apple's language deliberately hedges with "may"; in practice the Swift
+compiler does reject this — treat it as a build break — but note the spec's hedge when reporting.
 Fix: `@State` (owned) or `@Bindable` (passed in).
 
 ```swift

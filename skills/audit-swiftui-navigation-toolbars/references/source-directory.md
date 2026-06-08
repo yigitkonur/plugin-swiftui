@@ -44,8 +44,8 @@ values are reconciled in `floors-master.md`.
 | `ToolbarItemPlacement.primaryAction` (leading edge on macOS) | `toolbaritemplacement/primaryaction` | 11.0+ |
 | `ToolbarItemPlacement.topBarLeading` / `.topBarTrailing` | `toolbaritemplacement/topbarleading` | **macOS ABSENT** |
 | `ToolbarSpacer` / `SpacerSizing` | `toolbarspacer` · `spacersizing` | 26.0+ |
-| `searchable(text:placement:prompt:)` | `view/searchable(text:placement:prompt:)-18a8f` | 13.0+ |
-| `searchToolbarBehavior(_:)` (`.minimize`) | `view/searchtoolbarbehavior(_:)` | 26.0+ |
+| `searchable(text:placement:prompt:)` | `view/searchable(text:placement:prompt:)-18a8f` | 12.0+ |
+| `searchToolbarBehavior(_:)` (`.automatic` macOS-safe; `.minimize` iOS/iPadOS/Mac Catalyst/visionOS only) | `view/searchtoolbarbehavior(_:)` | 26.0+ |
 | `inspector(isPresented:content:)` / `inspectorColumnWidth(_:)` | `view/inspector(ispresented:content:)` | 14.0+ |
 | `ContentUnavailableView` | `contentunavailableview` | 14.0+ |
 | `SidebarListStyle` (`.sidebar`) | `sidebarliststyle` | 10.15+ |

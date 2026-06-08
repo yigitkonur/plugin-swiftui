@@ -5,7 +5,7 @@
 # ObservableObject vs @Observable vs value type), and decides. Structural rules grep cannot express
 # (the missing-@Bindable re-wrap, the computed-some-View read) live in ast-grep/*.yml (tier 2).
 # Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
-state-01	warn	@ObservedObject[[:space:]]+var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=	initializer on @ObservedObject — it does NOT own its object. READ the model kind: real ObservableObject = SILENT reset (→ @StateObject); @Observable type = COMPILE error (→ @State). state-01
+state-01	hard	@ObservedObject[[:space:]]+var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=	initializer on @ObservedObject — it does NOT own its object. READ the model kind: real ObservableObject = SILENT reset (→ @StateObject); @Observable type = COMPILE error (→ @State). state-01
 state-02	warn	@Observable[^\n]*\bclass\b[^\n]*:[^\n]*ObservableObject	@Observable class ALSO conforms to ObservableObject — redundant/contradictory; drop ": ObservableObject" (state-02, fix_mode: auto)
 state-03	warn	@Published	@Published — MEANINGLESS inside an @Observable class (macro tracks access automatically); confirm the enclosing class is @Observable, then remove it (state-03, fix_mode: auto)
 state-04	warn	@StateObject[[:space:]]+(private[[:space:]]+)?var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=[[:space:]]*[A-Z][A-Za-z0-9_]*\(	@StateObject with an initializer — COMPILE error if the type is a struct/enum (needs a reference type → @State); a migration SMELL if it is a plain @Observable class (finish converting → @State). READ the type. state-04

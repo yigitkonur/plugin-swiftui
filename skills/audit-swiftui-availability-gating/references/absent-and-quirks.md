@@ -20,7 +20,7 @@ if macOS is absent from the array the symbol is *platform-wrong*, not under-gate
 | macOS-ABSENT symbol | Mac equivalent |
 |---|---|
 | `.glassBackgroundEffect()` (visionOS) | `.glassEffect()` (macOS 26.0+, gated) |
-| `WheelPickerStyle` | `.menu` / `.segmented` / default `PickerStyle` |
+| `WheelPickerStyle` | `.menu` (macOS 11.0+; gate if target < 11) / `.segmented` / default `PickerStyle` |
 | `ToolbarItemPlacement.topBarLeading` / `.topBarTrailing` | `.navigation` / `.primaryAction` / `.automatic` |
 | `WindowStyle.volumetric` (visionOS) | `.automatic` / `.hiddenTitleBar` window style |
 | `navigationBarTitleDisplayMode(_:)` | `.navigationTitle(_:)` (+ `.navigationSubtitle` on macOS) |
@@ -29,7 +29,7 @@ if macOS is absent from the array the symbol is *platform-wrong*, not under-gate
 ```swift
 // ❌ gating a symbol that has no Mac arm — it will never resolve on macOS
 if #available(macOS 26.0, *) { picker.pickerStyle(WheelPickerStyle()) }
-// ✅ replace with a Mac picker style (no gate needed; .menu is macOS 10.15+)
+// ✅ replace with a Mac picker style (.menu is macOS 11.0+; gate it if target < 11)
 picker.pickerStyle(.menu)
 ```
 

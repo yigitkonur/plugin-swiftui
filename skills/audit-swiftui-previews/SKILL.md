@@ -62,7 +62,7 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | prev-02 | bare `@State`/`@Binding`/`@Bindable` in a `#Preview` body, no `@Previewable` | hard-fail | flag | `preview-macro-and-state.md` |
 | prev-03 | `struct *Key: EnvironmentKey` + `extension EnvironmentValues` boilerplate (use `@Entry`) | warning | flag | `entry-and-environment.md` |
 | prev-04 | manual `.frame(width:height:)` in a `#Preview` body (use a trait) | advisory | flag | `preview-macro-and-state.md` |
-| prev-05 | `Preview(…, windowStyle:)` on a Mac target (visionOS-only overload) | warning | flag | `preview-macro-and-state.md` |
+| prev-05 | `Preview(…, windowStyle:)` on a Mac target (visionOS-only overload) | hard-fail | flag | `preview-macro-and-state.md` |
 | prev-06 | `#Preview` of a `@Query`/SwiftData view, no `.modelContainer(… inMemory: true)` | warning | flag | `preview-crashes-and-injection.md` |
 | prev-07 | `#Preview` of a view reading `@Environment(Model.self)`, no `.environment(_:)` injection | advisory | flag | `preview-crashes-and-injection.md` |
 | prev-08 | `.environmentObject(…)` in a preview whose model is `@Observable` (wrong injector) | warning | flag | `entry-and-environment.md` |
@@ -99,7 +99,7 @@ The modern shape, from `swiftui-ctx lookup Preview` → `file <recommended.id> -
 ```
 
 - **Source (real permalink):** https://github.com/utmapp/UTM/blob/e4a4c34b671284263fc69f81b607de494d7e9b65/Platform/macOS/UTMServerView.swift#L170
-- **Apple doc (Sosumi):** `doc:` https://sosumi.ai/documentation/swiftui/preview (`#Preview` macro, `introduced_macos: 10.15`, practical macro-era floor macOS 14)
+- **Apple doc (Sosumi):** `doc:` https://sosumi.ai/documentation/swiftui/preview (`#Preview` macro, `introduced_macos: 10.15` — DocC inheritance artifact; authoritative Apple docs badge is **macOS 14.0+**, same trap as `Animation.bouncy` in floors files)
 
 This is the live grounding for prev-01: the canonical `#Preview { }` that replaces the legacy
 `struct …_Previews: PreviewProvider`. At FIX time, re-fetch the per-defect consensus shape

@@ -54,7 +54,7 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 | id | Title | Covers |
 |---|---|---|
 | wwdc2022/10075 | Use SwiftUI with AppKit | bridge only the piece that needs it; prefer native SwiftUI |
-| wwdc2023/10054 | What's new in SwiftUI | `MenuBarExtra` window style, `Transferable` ergonomics |
+| wwdc2023/10148 | What's new in SwiftUI | `MenuBarExtra` window style, `Transferable` ergonomics |
 | wwdc2025/256 | What's new in SwiftUI | macOS-26 rich-text `TextEditor`; native surfaces that retire bridges |
 
 ## D. Practitioners (corroboration only — never primary; label `confidence:` low / verified-by-research)

@@ -44,7 +44,7 @@ once `fileImporter` is in place is `audit-swiftui-sandbox-files` — cross_ref i
 ## over-04 — `NSItemProvider` / `NSPasteboard.writeObjects` → `Transferable`
 
 For drag/drop and copy/paste of a **model type**, `Transferable` conformance + `.draggable(_:)`,
-`.dropDestination(for:)`, `.copyable(_:)` / `.pasteDestination(for:)` is the native path; you almost
+`.dropDestination(for:isEnabled:action:)` (macOS 26+; `.dropDestination(for:action:isTargeted:)` is deprecated), `.copyable(_:)` / `.pasteDestination(for:action:validator:)` is the native path; you almost
 never need to hand-pack an `NSItemProvider` or write to `NSPasteboard` directly in SwiftUI. Use
 `swiftui-ctx recipe draggable-reorder` for the `Transferable` pattern + real examples. (`Transferable`
 is a conformance, so `lookup` redirects to the recipe.) Bridging raw pasteboard is justified only for a

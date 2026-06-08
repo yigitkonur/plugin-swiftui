@@ -133,7 +133,7 @@ MenuBarExtra("Status", systemImage: "star") {
 }
 ```
 
-`SettingsLink` is **macOS 13.0+** (per floors-master — *not* 14). Outside a `MenuBarExtra` it is the
+`SettingsLink` is **macOS 14.0+** (macOS-only). Outside a `MenuBarExtra` it is the
 correct no-action way to open Settings from a button; the failure is specific to the menu-bar closure.
 
 ---
@@ -144,7 +144,7 @@ correct no-action way to open Settings from a button; the failure is specific to
 |---|---|---|
 | https://developer.apple.com/documentation/swiftui/menubarextra | `MenuBarExtra` scene — macOS 13.0+ | high |
 | https://developer.apple.com/documentation/swiftui/opensettingsaction | `openSettings` / `OpenSettingsAction` — macOS 14.0+ | high |
-| https://developer.apple.com/documentation/swiftui/settingslink | `SettingsLink` — macOS 13.0+ (per floors-master); fails inside `MenuBarExtra` on macOS 26 | high (failure UNVERIFIED) |
+| https://developer.apple.com/documentation/swiftui/settingslink | `SettingsLink` — macOS 14.0+; fails inside `MenuBarExtra` on macOS 26 | high (failure UNVERIFIED) |
 | https://developer.apple.com/documentation/appkit/nsapplication/activate() | `NSApplication.activate()` (macOS 14+) replaces deprecated `activate(ignoringOtherApps:)` | high |
 | https://steipete.me/posts/2025/showing-settings-from-macos-menu-bar-items | Peter Steinberger, "Showing Settings from macOS Menu Bar Items: A 5-Hour Journey" (2025-06-17) — the macOS-15 activate-then-open fix **breaks on macOS 26**; current workaround is a hidden `Window` before `Settings` + toggling `.regular`/`.accessory` around `openSettings()`; `SettingsLink` inside a `MenuBarExtra` also fails | high |
 | https://mjtsai.com/blog/2025/06/18/showing-settings-from-macos-menu-bar-items/ | Michael Tsai — confirms the menu-bar→Settings activation gap and the macOS 26 (Tahoe) regression | high |

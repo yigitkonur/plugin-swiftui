@@ -39,7 +39,7 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | `Transferable` | `coretransferable/transferable` | 13.0+ |
 | `.draggable(_:)` | `swiftui/view/draggable(_:)` | 13.0+ |
 | `.dropDestination(for:action:isTargeted:)` (3-arg, **deprecated 26.5**) | `swiftui/view/dropdestination(for:action:istargeted:)` | 13.0+ (dep 26.5) |
-| `.dropDestination(for:isEnabled:action:)` (successor) | `swiftui/view/dropdestination(for:isenabled:action:)` | 26.0+ |
+| `.dropDestination(for:isEnabled:action:)` (successor; action: `([T], DropSession) -> Void`) | `swiftui/view/dropdestination(for:isenabled:action:)` | 26.0+ |
 | `NSOpenPanel` / `NSSavePanel` | `appkit/nsopenpanel` · `appkit/nssavepanel` | (AppKit Mac-only) |
 | `NSPasteboard` | `appkit/nspasteboard` | (AppKit Mac-only) |
 

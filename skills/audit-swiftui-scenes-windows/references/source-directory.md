@@ -39,7 +39,7 @@ below are per `floors-master.md` (re-confirmed 2026-06-07).
 | `Settings` scene | `settings` | 11.0+ (macOS-only) |
 | `MenuBarExtra` | `menubarextra` | 13.0+ (macOS-only) |
 | `menuBarExtraStyle(_:)` / `MenuBarExtraStyle` | `scene/menubarextrastyle(_:)` · `menubarextrastyle` | 13.0+ (case names UNVERIFIED) |
-| `SettingsLink` | `settingslink` | 13.0+ (macOS-only) |
+| `SettingsLink` | `settingslink` | 14.0+ (macOS-only) |
 | `openWindow` / `OpenWindowAction` | `openwindowaction` · `environmentvalues/openwindow` | 13.0+ |
 | `dismissWindow` / `DismissWindowAction` | `dismisswindowaction` · `environmentvalues/dismisswindow` | **14.0+ (NOT 13)** |
 | `openSettings` / `OpenSettingsAction` | `opensettingsaction` · `environmentvalues/opensettings` | 14.0+ (macOS-only) |

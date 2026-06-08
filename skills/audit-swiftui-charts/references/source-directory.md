@@ -35,7 +35,7 @@ Doc path = `developer.apple.com/documentation/charts/<path>` (fetch via `sosumi.
 | `RuleMark` / `RectangleMark` | `rulemark` · `rectanglemark` | macOS 13 |
 | `AxisMarks` / `AxisValueLabel` / `AxisGridLine` | `axismarks` · `axisvaluelabel` · `axisgridline` | macOS 13 |
 | `SectorMark` | `sectormark` | **macOS 14** |
-| `LinePlot` / `AreaPlot` | `lineplot` · `areaplot` | **macOS 15** |
+| `LinePlot` / `AreaPlot` / `BarPlot` / `PointPlot` / `SectorPlot` / `RectanglePlot` / `RulePlot` | `lineplot` · `areaplot` · `barplot` · `pointplot` · `sectorplot` · `rectangleplot` · `ruleplot` | **macOS 15** |
 
 ## B. Chart view modifiers (`documentation/swiftui/view/<path>`)
 
@@ -45,7 +45,7 @@ Doc path = `developer.apple.com/documentation/charts/<path>` (fetch via `sosumi.
 | `.foregroundStyle(by:)` | `documentation/charts/chartcontent/foregroundstyle(by:)` | macOS 13 |
 | `.chartXSelection` / `.chartYSelection` / `.chartAngleSelection` | `chartxselection(value:)` · `chartyselection(value:)` · `chartangleselection(value:)` | **macOS 14** |
 | `.chartScrollableAxes` / `.chartScrollPosition` / `.chartXVisibleDomain` | `chartscrollableaxes(_:)` · `chartscrollposition(x:)` · `chartxvisibledomain(length:)` | **macOS 14** |
-| `.accessibilityChartDescriptor(_:)` | `accessibilitychartdescriptor(_:)` | macOS 13 |
+| `.accessibilityChartDescriptor(_:)` | `accessibilitychartdescriptor(_:)` | macOS 12 |
 
 **Absent from the index → hallucinated (never emit):** `BarChart`, `LineChart`, `PieChart`, `AreaChart`,
 `ChartView`, `.chartType(...)`, `PieMark`, `DonutMark`, `ScatterMark`, `ColumnMark`.

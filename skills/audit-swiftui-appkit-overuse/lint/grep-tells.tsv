@@ -9,6 +9,6 @@ over-01	warn	NS(Button|TextField|SecureTextField|Switch|Slider|Stepper|ColorWell
 over-02	warn	NSStatusItem|NSStatusBar\.system	menu-bar item via NSStatusItem — MenuBarExtra scene (macOS 13+) is the native equal (over-02).
 over-03	warn	NSOpenPanel|NSSavePanel	AppKit file panel — for a simple import/export prefer .fileImporter/.fileExporter/.fileMover (over-03). cross_ref sandbox-files.
 over-04	adv	NSItemProvider|NSPasteboard	pasteboard/drag bridge — for a model type prefer Transferable + .draggable/.dropDestination/.copyable (over-04). cross_ref sandbox-files.
-over-05	warn	NSGlassEffectView|NSGlassEffectContainerView	AppKit glass bridged — use SwiftUI .glassEffect()/GlassEffectContainer (over-05). cross_ref liquid-glass.
+over-05	warn	NSGlassEffectView|NSGlassEffectContainerView	AppKit glass bridged — use SwiftUI .glassEffect(_:in:)/GlassEffectContainer (over-05). cross_ref liquid-glass.
 over-06	adv	NSHostingView\(|NSHostingController\(	reverse bridge (SwiftUI-in-AppKit) — in a SwiftUI-first app a whole-window host may mean a SwiftUI scene fits (over-06). READ to confirm scope. cross_ref scenes-windows.
 over-07	adv	NSTextView	NSTextView bridge — if plain/lightly-styled text AND floor is macOS 26, TextEditor(text:selection:) may remove it (over-07); below 26 (or true rich text) it is a JUSTIFIED hatch — do not flag.

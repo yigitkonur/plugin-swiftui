@@ -67,7 +67,7 @@ Gate it — see `gesture-availability.md` (pg-07).
 ```swift
 // ✅ CORRECT — resize cursor over a draggable divider (macOS 15+). consensus shape is .pointerStyle(_)
 if #available(macOS 15, *) {
-    Divider().frame(width: 8).pointerStyle(.columnResize)
+    Divider().frame(width: 8).pointerStyle(.columnResize(directions: .all))
 }
 ```
 
@@ -132,7 +132,7 @@ don't remove it.
 | https://developer.apple.com/documentation/swiftui/view/onhover(perform:) | `onHover(perform:)` — *"action to perform when the user moves the pointer over or away from the view's frame"*; macOS 10.15+, pointer-only | high |
 | https://developer.apple.com/documentation/swiftui/view/oncontinuoushover(coordinatespace:perform:) | `onContinuousHover` — phases `.active(CGPoint)` / `.ended`; macOS 14.0+ | high |
 | https://developer.apple.com/documentation/swiftui/view/pointerstyle(_:) | `pointerStyle(_:)` — *"sets the pointer style to display when the pointer is over the view"*; macOS 15.0+, macOS-only; cases `.grabActive`/`.grabIdle`/`.link`/`.columnResize`/`.frameResize(position:directions:)` | high |
-| https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:) | `contextMenu(menuItems:)` — macOS 10.15+; right-click on Mac, long-press on iOS | high |
+| https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:) | `contextMenu(menuItems:)` — macOS 10.15+, **deprecated**; prefer `contextMenu(menuItems:preview:)` (macOS 13.0+); right-click on Mac, long-press on iOS | high |
 | swiftui-ctx `lookup onHover` (732 repos, 5,694 uses) · `doc: sosumi.ai/documentation/swiftui/view/onhover` | consensus `{ }` 96%; recommended permalink `github.com/sindresorhus/Gifski/blob/7f873856e2acd8b52e6681dee3aec31e6cab23e4/Gifski/Components/TrimmingAVPlayer.swift#L729` (8.4k★) | high |
 | swiftui-ctx `lookup pointerStyle` | consensus `(_)` 100%; recommended `sindresorhus/Gifski` `CropOverlayView.swift#L49` permalink (macOS 15) | high |
 

@@ -48,7 +48,7 @@ Advisory, `flag-only` — "fixed icon vs stretchable canvas" is a human read.
 MeshGradient` → `introduced_macos: 15.0`; Sosumi `doc:` floor macOS 15.0). It is **real** — never flag it
 as invented. It must be gated only when the deployment floor is **below macOS 15**.
 
-- **draw-05 (ungated below floor, hard-fail).** A `MeshGradient(...)` not inside `if #available(macOS 15,
+- **draw-05 (ungated below floor, warning).** A `MeshGradient(...)` not inside `if #available(macOS 15,
   *)` while the project floor is < 15. The ast-grep rule `draw-05` proves the absence of an enclosing
   availability gate; the **deployment target read in ORIENT decides whether it fires** — floor ≥ 15 means
   no gate is needed and there is no finding. `flag-only` (the right gate placement is a human call).

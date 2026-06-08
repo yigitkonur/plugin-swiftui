@@ -53,8 +53,7 @@ Mac** (`hallucination-blacklist.md` §5).
 **Semantic placements resolve on macOS as:** `.navigation` → leading (ahead of the inline title);
 `.primaryAction` → **leading edge of the toolbar** (Apple: *"In macOS … the location for the primary
 action is the leading edge of the toolbar"*) — NOT trailing; `.principal` and `.status` → **centered**.
-Built-in toggles `.toggleSidebar` / `.toggleInspector` give correct icons, labels, localization, and
-behavior for free — anchor the sidebar toggle leading, keep the inspector toggle trailing-most.
+For a sidebar toggle, use `ToolbarDefaultItemKind.sidebarToggle` (macOS 14.0+, `static let sidebarToggle: ToolbarDefaultItemKind`) — this is a `defaultCustomization` item kind, not a `ToolbarItemPlacement`. No first-party inspector-toggle item kind exists on any SwiftUI type; toggle the inspector via its `.inspector(isPresented:)` binding instead.
 
 **swiftui-ctx grounding (run live in VERIFY):** `lookup toolbar --json` →
 `consensus: [{shape:"{ }", pct:89}]`, `co_occurs_with: ["ToolbarItem","ToolbarItemGroup","searchToolbarBehavior", …]`,
@@ -65,8 +64,7 @@ consensus shape backed by `file <recommended.id> --smart`.
 ## nav-10 · `.searchable` on a column, not the split view (advisory)
 
 `.searchable` goes on the `NavigationSplitView` itself, **not** on a column — otherwise it lands in the
-wrong toolbar slot on macOS. `searchToolbarBehavior(_:)` (correct case `.minimize`, macOS 26.0+) tunes
-the field; gate it if the floor is below 26.
+wrong toolbar slot on macOS. `searchToolbarBehavior(_:)` (macOS 26.0+) tunes the field; gate it if the floor is below 26. Note: `.minimize` is **not available on macOS** (iOS/iPadOS/Mac Catalyst/visionOS 26.0+ only); the macOS-safe case is `.automatic`.
 
 ```swift
 // ✅ searchable on the split view (right toolbar slot)
@@ -106,4 +104,4 @@ All Apple docs fetched via Sosumi (protocol:
 - `navigationTitle(_:)` (macOS → window titlebar / Windows menu / Mission Control): https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-43srq
 - `navigationSubtitle(_:)` (macOS 11.0+, also iOS/iPadOS 26.0+): https://developer.apple.com/documentation/swiftui/view/navigationsubtitle(_:)
 - `searchable(text:placement:prompt:)`: https://developer.apple.com/documentation/swiftui/view/searchable(text:placement:prompt:)-18a8f
-- `searchToolbarBehavior(_:)` (`.minimize`, macOS 26.0+): https://developer.apple.com/documentation/swiftui/view/searchtoolbarbehavior(_:)
+- `searchToolbarBehavior(_:)` (macOS 26.0+; `.minimize` is iOS/iPadOS/Mac Catalyst/visionOS 26.0+ only — not macOS; macOS-safe case is `.automatic`): https://developer.apple.com/documentation/swiftui/view/searchtoolbarbehavior(_:)

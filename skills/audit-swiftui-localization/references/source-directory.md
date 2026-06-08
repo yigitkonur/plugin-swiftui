@@ -30,7 +30,7 @@ Human doc path = `developer.apple.com/<path>` (fetch via `sosumi.ai/<path>`). Fl
 | Symbol | Path | Floor |
 |---|---|---|
 | `Text` (`LocalizedStringKey` overload) | `documentation/swiftui/text` | macOS 10.15+ |
-| `Text.init(_:comment:)` | `documentation/swiftui/text/init(_:tablename:bundle:comment:)` | macOS 13.0+ |
+| `Text.init(_:comment:)` | `documentation/swiftui/text/init(_:tablename:bundle:comment:)` | macOS 10.15+ |
 | `Text.init(verbatim:)` | `documentation/swiftui/text/init(verbatim:)` | macOS 10.15+ |
 | `Text.init(_:format:)` (FormatStyle overload) | `documentation/swiftui/text/init(_:format:)` | macOS 15.0+ |
 | `LocalizedStringKey` | `documentation/swiftui/localizedstringkey` | macOS 10.15+ |
@@ -60,7 +60,7 @@ Human doc path = `developer.apple.com/<path>` (fetch via `sosumi.ai/<path>`). Fl
 |---|---|---|
 | wwdc2023/10155 | Discover String Catalogs | `.xcstrings`; auto-extraction; plurals; comments |
 | wwdc2021/10221 | Streamline your localized strings | `String(localized:)`; `LocalizationValue`; comments |
-| wwdc2022/10110 | What's new in Foundation | grammar agreement (`inflect`); formatting |
+| wwdc2022/10110 | Build global apps: Localization by example | `String(localized:)`; automatic grammar agreement; SwiftUI layout |
 | wwdc2022/10107 | Get it right ... to left | RTL mirroring; directional symbols; numerals |
 
 ## D. Practitioners (corroboration only — never primary; label `confidence:` low / verified-by-research)

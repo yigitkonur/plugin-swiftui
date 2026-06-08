@@ -71,10 +71,11 @@ appearance owns the replacement craft). ac-06 carries `cross_ref: liquid-glass`;
 
 **Real (exist on macOS 26):** `Color` (`.primary`, `.secondary`, `Color.accentColor`, named
 asset-catalog `Color("Brand")`), `foregroundStyle(_:)` (macOS 12+, takes a `ShapeStyle` hierarchy —
-`.secondary`/`.tertiary`), `tint(_:)` (macOS 12+), `Material` (`.ultraThinMaterial` … macOS 12+),
+`.secondary`/`.tertiary`), `tint(_:)` (Color overload macOS 12+; the `ShapeStyle` overload is macOS 13+),
+`Material` (`.ultraThinMaterial` … macOS 12+),
 `@Environment(\.colorScheme)` / `@Environment(\.colorSchemeContrast)` (macOS 10.15+),
 `preferredColorScheme(_:)` (macOS 11+, *for scoped use*), `ShapeStyle` hierarchy levels
-(`.tertiary`/`.quaternary`). **`foregroundColor(_:)` and `accentColor(_:)` still resolve but are
+(`.secondary`/`.tertiary`/`.quaternary`/`.quinary` — `.quinary` is macOS 12+). **`foregroundColor(_:)` and `accentColor(_:)` still resolve but are
 deprecated at macOS 26.5 → `foregroundStyle(_:)` / `tint(_:)`.**
 
 **Invented / cross-platform (never SwiftUI-on-macOS):** `.textColor(_:)`, `.backgroundColor(_:)`,

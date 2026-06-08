@@ -9,9 +9,9 @@ glass-02	hard	\.glassBackgroundEffect\(	.glassBackgroundEffect is visionOS-only 
 glass-06	warn	glassEffect|GlassEffectContainer|\.buttonStyle\(\.glass|glassEffectID|glassEffectUnion|glassEffectTransition|backgroundExtensionEffect|scrollEdgeEffect|\.sharedBackgroundVisibility|Glass\.identity|Glass\.interactive	glass symbol present — REPORT only if deployment target < macOS 26 (read in ORIENT); else ignore. VERIFY it is gated #available(macOS 26, *).
 glass-07	warn	#available\(iOS 26	iOS-arm gate in a macOS target → gate on #available(macOS 26, *) (wrong-arm, fix_mode: auto)
 glass-03	warn	\.glassEffect\(	glass MAY be on content — confirm it is navigation-layer, not a List/ForEach/Table row/card/Text/Image
-glass-08	warn	\.glassEffect\(\.clear	.clear variant — confirm not mixed with .regular in one container (glass-08); .clear is media-rich only
+glass-08	warn	\.glassEffect\(\.clear	.clear variant — confirm not mixed with .regular in one container (glass-08); .clear requires a dimming layer beneath for legibility
 glass-09	warn	\.glassProminent|\.tint\(	prominent/tint — confirm only ONE primary action per screen carries it (tint spam = glass-09)
-glass-11	warn	\.toolbarBackground\(\.visible|\.toolbarColorScheme\(	pre-Tahoe override BLOCKS toolbar glass → delete (glass-11, fix_mode: auto)
+glass-11	warn	\.toolbarBackground\(\.visible|\.toolbarColorScheme\(	deprecated toolbar override BLOCKS toolbar glass → delete (glass-11, fix_mode: auto)
 glass-12	warn	TextEditor\(	TextEditor — if in a NavigationSplitView detail, may force an opaque toolbar (glass-12); suggest .scrollEdgeEffectStyle(.soft, for: .top). UNVERIFIED.
 glass-13	adv	\.background\(\.ultraThinMaterial|\.background\(\.regularMaterial	material background — if co-located with .glassEffect() = double transparency (glass-13, advisory/UNVERIFIED)
 glass-10	adv	\.toolbar[[:space:]]*\{|NavigationSplitView|\.sheet\(|\.inspector\(	auto-adopting chrome (toolbar/sidebar/sheet) — it gets glass FREE; a hand .glassEffect() on it is redundant/wrong (glass-10)

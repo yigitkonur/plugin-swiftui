@@ -83,8 +83,8 @@ era is read in ORIENT, not assumed.
 ## The real API, at a glance
 
 **Real & era-stable (back-deploy to `macOS 10.15+`):** `@MainActor`, `Sendable`, `MainActor.run`,
-`Task.detached`, `sending`, `@preconcurrency import`. **`.task` / `.task(id:)`** is `macOS 12.0+` and
-`@MainActor`-isolated. **Swift 6.2+ only** (verify the toolchain): `@concurrent` (ALWAYS the global
+`Task.detached`, `sending`, `@preconcurrency import`. **`.task` / `.task(id:)`** is `macOS 12.0+`; its closure
+inherits the caller's isolation via `@isolated(any)`. **Swift 6.2+ only** (verify the toolchain): `@concurrent` (ALWAYS the global
 executor), `nonisolated(nonsending)` (ALWAYS the caller's context, SE-0461), `-default-isolation
 MainActor`, the `NonisolatedNonsendingByDefault` upcoming-feature flag, `Task(name:)`.
 
@@ -100,7 +100,7 @@ Floor *values* are the reconciled truth in `${CLAUDE_PLUGIN_ROOT}/references/_sh
 
 The most common concurrency defect (conc-04) is a bare `Task { }` in `.onAppear` — unbound to view
 lifetime, never cancelled. The lifecycle-correct shape is `.task` / `.task(id:)` (`macOS 12.0+`,
-`@MainActor`-isolated, auto-cancelled on disappear). This is the **real consensus shape**, not a
+caller-isolation-inheriting via `@isolated(any)`, auto-cancelled on disappear). This is the **real consensus shape**, not a
 hand-written snippet — verified live via `swiftui-ctx lookup task` (step 5): **`.task { }` 70% ·
 `.task(id:)` 29%** across the corpus.
 

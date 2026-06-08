@@ -65,13 +65,14 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | a11y-11 | LEGACY combined `.accessibility(label:/hint:/addTraits:/value:)` modifier | warning | auto | `accessibility-api-surface.md` |
 | a11y-12 | `.isToggle` trait (macOS 14) or closure-form label/value (macOS 15) ungated under a lower floor | warning | flag | `labels-and-traits.md` |
 
-**`.accessibility(label:)`-is-deprecated is UNVERIFIED in the corpus** (swiftui-ctx reports it `deprecated:false`
-— low signal, not absence): carry a11y-11 as a `warning` migration with `source: verify against Xcode 26 SDK`
-unless Sosumi confirms the `@available(…, deprecated:)` annotation. Never assert the deprecation as fact.
+**`.accessibility(label:)` IS confirmed deprecated** — Apple docs show `macOS 10.15–26.5 Deprecated`, replacement
+`accessibilityLabel(_:)` (the whole combined family — `hint:`/`value:`/`hidden:`/`identifier:`/`addTraits:`/
+`removeTraits:`/`sortPriority:` — is deprecated likewise). The corpus `deprecated:false` was a false negative.
+Carry a11y-11 as a `warning` migration with `source: macOS 10.15–26.5 Deprecated → accessibilityLabel(_:)`.
 
 ## The real API, at a glance
 
-**Real (exist on macOS):** `accessibilityLabel(_:)` (string macOS 13; closure macOS 15), `accessibilityValue(_:)`
+**Real (exist on macOS):** `accessibilityLabel(_:)` (string `StringProtocol` macOS 11; string `LocalizedStringResource` macOS 13; closure macOS 15), `accessibilityValue(_:)`
 (macOS 11; closure form macOS 15), `accessibilityHint(_:)` (13), `accessibilityHidden(_:)` (11),
 `accessibilityElement(children:)` (10.15), `accessibilityAddTraits(_:)`/`accessibilityRemoveTraits(_:)` (11),
 `accessibilityFocused(_:)` + `AccessibilityFocusState` (12), `accessibilitySortPriority(_:)` (11),
@@ -143,7 +144,6 @@ Every finding's `## Correct` is built this way — never a hand-written snippet.
    for the protocol (never `WebFetch` `developer.apple.com`). Cross-check `introduced_macos` against
    `floors-master.md` and the Sosumi `doc:` floor. The CLI contract is
    `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui-ctx-reference.md`. Promote with the citation or discard.
-   Carry the a11y-11 deprecation as `source: verify against Xcode 26 SDK` until Sosumi confirms it.
 6. **REPORT.** Write each confirmed finding (output contract below). One finding per file, zero-padded,
    ordered. Emit `cross_ref` on the shared seams (a11y-05 → appearance-color, a11y-06 → animation-motion,
    a11y-07 → charts/drawing-canvas, a11y-01/08 → controls-forms `.help`). Write the run's `_index.md`.

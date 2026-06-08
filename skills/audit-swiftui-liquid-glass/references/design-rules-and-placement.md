@@ -89,7 +89,7 @@ wrap every view.
 
 **glass-08 — mixed variants in one group (warning, flag-only).** `.glassEffect(.regular` and
 `.glassEffect(.clear` in one container/stack. `.regular` and `.clear` have different characteristics;
-`.clear` is only for media-rich/bold/bright content. ✅ one variant per group.
+`.clear` requires a dimming layer or other treatment beneath for legibility. ✅ one variant per group.
 
 **glass-09 — tint spam (warning, flag-only).** Two+ `.tint(` / `.glassProminent` among sibling glass
 controls. ✅ tint/`.glassProminent` exactly **one** primary action per screen; siblings use `.glass`.

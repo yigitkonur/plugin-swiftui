@@ -33,7 +33,7 @@ exactly where memory fails). Pull the recipe, then open a real example. Announce
 | `charts-bar` | a Swift Charts bar chart with axes |
 | `searchable-list` | a list with a search field (+ scopes) |
 | `command-palette` | a ⌘K quick-open/command overlay |
-| `draggable-reorder` | reorderable rows (`onMove` / `draggable`+`dropDestination`) |
+| `draggable-reorder` | reorderable rows (`onMove` / `draggable`+`dropDestination(for:isEnabled:action:)`) |
 | `cached-async-image` | remote image with placeholder (+ caching note) |
 
 Full index with the APIs each pulls in → `references/recipes.md`.

@@ -25,6 +25,10 @@ Chart(data) { row in
 .chartXSelection(value: $selectedDay)
 ```
 
+**Also macOS 14+:** `.chartGesture(_:)` — `func chartGesture((ChartProxy) -> some Gesture) -> some View`
+provides a declarative gesture API backed by a `ChartProxy` without the manual `chartOverlay`/coordinate
+math. Prefer it when `.chartXSelection` doesn't cover the gesture shape needed.
+
 **Detection.** Tier-1 flags `.onTapGesture`/`DragGesture`/`.gesture(` — READ to confirm it's chart
 hit-testing (not an unrelated gesture). `flag-only`. If the project floor is below macOS 14, the modifier
 is unavailable — then this is a *gating* question, not a fix (see charts-08), or the hand-rolled path is
@@ -37,8 +41,9 @@ justified; note it.
 Emitting thousands of individual `BarMark`/`LineMark` from one array (one mark per point) is slow — every
 point is a separate plottable. Two scale fixes:
 
-- **macOS 15+:** `LinePlot` / `AreaPlot` are **vectorized** — one plot for the whole function/series
-  instead of N marks. Prefer them for dense continuous data.
+- **macOS 15+:** `LinePlot`, `AreaPlot`, `BarPlot`, `PointPlot`, `SectorPlot`, `RectanglePlot`, `RulePlot`
+  are **vectorized** — one plot for the whole function/series instead of N marks. Prefer them for dense
+  continuous data.
 - **macOS 14+:** `.chartScrollableAxes(.horizontal)` + `.chartXVisibleDomain(length:)` windows a long
   series so only the visible slice renders; pair with downsampling for very large arrays.
 

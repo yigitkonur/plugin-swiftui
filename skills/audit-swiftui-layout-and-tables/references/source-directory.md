@@ -20,7 +20,8 @@ values live in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`.
    corroborates).
 2. **Deprecation:** Sosumi shows the deprecation banner; `swiftui-ctx deprecated <api>` shows
    corpus-level deprecation. **Case-level** deprecation (e.g. `tableStyle(.inset(alternatesRowBackgrounds:))`)
-   is NOT in the corpus — confirm on the Sosumi `tablestyle` page and carry `verify against Xcode 26 SDK`.
+   is NOT in the corpus — confirmed directly on `developer.apple.com` as `macOS 12.0–26.5 Deprecated`;
+   cite `https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
 3. **Scene-sizing depth** (`defaultSize`/`windowResizability`) is `scenes-windows`' to own — verify the
    floor here, defer the depth there.
 
@@ -58,8 +59,8 @@ are the reconciled truth in `floors-master.md` — never restate them here.
 
 | id | Title | Covers |
 |---|---|---|
-| wwdc2022/16036 | Compose custom layouts with SwiftUI | the `Layout` protocol, `Grid`, `ViewThatFits` (when to hand-roll vs built-in) |
-| wwdc2021/10220 | SwiftUI on the Mac: Build the fundamentals | `Table`, multi-column sort, window sizing on the Mac |
+| wwdc2022/10056 | Compose custom layouts with SwiftUI | the `Layout` protocol, `Grid`, `ViewThatFits` (when to hand-roll vs built-in) |
+| wwdc2021/10062 | SwiftUI on the Mac: Build the fundamentals | `Table`, multi-column sort, window sizing on the Mac |
 | wwdc2021/10289 | SwiftUI on the Mac: The finishing touches | `Table` sorting wiring, selection, density |
 
 ## D. Practitioners (corroboration only — never primary; label findings `confidence:` low / verified-by-research)

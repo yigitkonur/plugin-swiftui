@@ -8,7 +8,7 @@
 # and check the activation policy (sw-06 is worst for an .accessory menu-bar-only app). fix_mode: flag-only.
 id: sw-06-activation-trap-in-menubarextra
 language: Swift
-severity: warning
+severity: error
 message: >-
   sw-06: an openWindow()/openSettings() call is INSIDE a MenuBarExtra closure. Without explicit
   NSApp.activate() the window opens behind / nothing appears; and even with it, an .accessory app on

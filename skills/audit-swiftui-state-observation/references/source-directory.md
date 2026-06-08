@@ -53,7 +53,8 @@ are `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` (read, never res
 | `@StateObject` | `swiftui/stateobject` | 11.0+ (not deprecated) |
 | `@ObservedObject` | `swiftui/observedobject` | 10.15+ (not deprecated) |
 | `@EnvironmentObject` | `swiftui/environmentobject` | 10.15+ (legacy) |
-| `@Environment` (type-based) / `.environment(_:)` | `swiftui/environment` | 14.0+ for `Type.self` |
+| `@Environment(\.keyPath)` / `.environment(\.keyPath, _:)` | `swiftui/environment` | 10.15+ |
+| `@Environment(_ objectType: T.Type)` / `.environment(_:)` | `swiftui/environment/init(_:)-8slkf` | 14.0+ |
 | Migration guide | `swiftui/migrating-from-the-observable-object-protocol-to-the-observable-macro` | — |
 
 ## C. WWDC sessions (`developer.apple.com/videos/play/wwdc<YYYY>/<id>`, via Sosumi)

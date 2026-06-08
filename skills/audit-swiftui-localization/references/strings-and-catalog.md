@@ -113,7 +113,7 @@ A `bundle:` argument (e.g. `Text("context", bundle: .module)`) is the right shap
 - Apple — `Text`, `LocalizedStringKey`, `LocalizedStringResource`, `String.init(localized:)`, String
   Catalogs, fetched via Sosumi (access 2026-06-07):
   `https://developer.apple.com/documentation/swiftui/text`,
-  `/documentation/swiftui/localizedstringkey`, `/documentation/swiftui/localizedstringresource`,
+  `/documentation/swiftui/localizedstringkey`, `/documentation/foundation/localizedstringresource`,
   `/documentation/swift/string/init(localized:table:bundle:locale:comment:)`,
   `/documentation/xcode/localizing-and-varying-text-with-a-string-catalog`.
 - WWDC23 — "Discover String Catalogs" (`/videos/play/wwdc2023/10155`); WWDC21 — "Streamline your

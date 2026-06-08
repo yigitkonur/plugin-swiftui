@@ -16,5 +16,5 @@ rule:
   kind: class_declaration
   all:
     - has: { kind: inheritance_specifier, stopBy: end, regex: 'View' }
-    - has: { stopBy: end, regex: 'TextField|SecureField|TextEditor|focusable|FocusState|focused' }
+    - has: { stopBy: end, regex: 'TextField|SecureField|TextEditor' }
     - not: { has: { stopBy: end, regex: 'focusable|FocusState|focused' } }

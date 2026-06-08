@@ -32,7 +32,7 @@ the cursor change, not a substitute API.
 ```swift
 // ✅ CORRECT — gated on the macOS arm; pre-15 path just omits the cursor shape
 if #available(macOS 15, *) {
-    handle.pointerStyle(.columnResize)
+    handle.pointerStyle(.columnResize(directions: .all))
 } else {
     handle                                  // no cursor change pre-15 (no equivalent API)
 }

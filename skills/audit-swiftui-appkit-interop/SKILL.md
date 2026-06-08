@@ -63,11 +63,10 @@ needs human context → `fix_mode: flag-only` across the board (show the ✅; th
 | interop-09 | observers / KVO / `Timer` added in `makeNSView` with **no** `static func dismantleNSView` (leak across identity) | warning | flag | `representable-lifecycle.md` |
 | interop-10 | a newer bridge surface (`NSHostingMenu`, `NSAnimationContext.animate`, `sceneBridgingOptions`, `NSHostingSizingOptions`) ungated under its floor | warning | flag | `newer-bridge-surfaces.md` |
 
-**Three claims are UNVERIFIED on a fresh Xcode 26 target — carry as the noted severity but cite `source:
+**Two claims are UNVERIFIED on a fresh Xcode 26 target — carry as the noted severity but cite `source:
 verify against Xcode 26 SDK`, never assert as fact:** that *Default Actor Isolation = Main Actor*
 (`-default-isolation MainActor`) is off (interop-06 fires only when it is off — it is opt-in, not the
-language default); that `@concurrent`/`-default-isolation` are Swift-6.2+ toolchain-gated; the exact
-`sceneBridgingOptions` default when the host is nested vs the window `contentView` (interop-08).
+language default); that `@concurrent`/`-default-isolation` are Swift-6.2+ toolchain-gated.
 
 ## The real API, at a glance
 

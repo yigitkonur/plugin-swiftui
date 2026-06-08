@@ -6,7 +6,7 @@
 # NOTE: sf-04 (entitlements) + sf-09 (Hardened Runtime cs.*) are READ BY HAND from *.entitlements/Info.plist
 # in ORIENT — the runner is *.swift-only; the sf-04 tell below only LOCATES the Swift APIs that REQUIRE a key.
 # Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
-sf-05	hard	UIPasteboard	UIPasteboard does NOT exist on macOS (won't compile) → NSPasteboard.general (sf-05, fix_mode: auto)
+sf-05	hard	UIPasteboard	UIPasteboard is absent from native macOS (Mac Catalyst 13.1+ carries it; this skill is native macOS only — won't compile) → NSPasteboard.general (sf-05, fix_mode: auto)
 sf-01	warn	String\(contentsOf:|Data\(contentsOf:|FileManager\.default\.(contents|createFile|removeItem|copyItem|moveItem)	file read/write — REPORT only if the URL is a literal/typed path or URL(fileURLWithPath:) with NO preceding fileImporter/NSOpenPanel/Bundle.main (sf-01). READ the file.
 sf-01	warn	URL\(fileURLWithPath:	URL(fileURLWithPath:) — a hard-coded path is unreachable under the sandbox unless user-consented (sf-01). Confirm there is no panel origin.
 sf-02	warn	\.bookmarkData\(	bookmarkData — REPORT if it lacks options: .withSecurityScope (a plain bookmark round-trips the path, NOT the permission) (sf-02). READ the call.

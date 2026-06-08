@@ -49,8 +49,8 @@ floor / never-correct), **warning** (compiles but wrong/fragile), **advisory** (
 
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
-| gate-01 | an above-floor symbol used with **no** availability gate under a deployment target below its floor | warning | flag | `gating-defects.md` |
-| gate-02 | `#available(iOS NN, *)` gating a macOS-floored API in a Mac target (wrong arm — the `*` always fires) | warning | auto | `gating-defects.md` |
+| gate-01 | an above-floor symbol used with **no** availability gate under a deployment target below its floor | hard-fail | flag | `gating-defects.md` |
+| gate-02 | `#available(iOS NN, *)` gating a macOS-floored API in a Mac target (wrong arm — the `*` always fires) | hard-fail | auto | `gating-defects.md` |
 | gate-03 | `#available(macOS NN, *)` whose `NN` ≠ the symbol's floor in `floors-master.md` (floor mismatch) | warning | flag | `gating-defects.md` |
 | gate-04 | an availability gate with **no `else`** where the gated view needs a pre-floor fallback | warning | flag | `gating-defects.md` |
 | gate-05 | an `@available` type/decl gate whose use site is unguarded, or a use site with no decl gate | warning | flag | `gating-defects.md` |

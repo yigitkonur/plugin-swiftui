@@ -12,7 +12,7 @@ The name/existence authority for the accessibility domain. Floor *values* are th
 
 | Modifier / type | macOS floor | Notes |
 |---|---|---|
-| `accessibilityLabel(_:)` (string) | 13.0 | the announced name; closure form `accessibilityLabel(content:)` = 15.0 |
+| `accessibilityLabel(_:)` (string `StringProtocol`) | 11.0 | the announced name; `LocalizedStringResource` overload = 13.0; closure form `accessibilityLabel(content:)` = 15.0 |
 | `accessibilityValue(_:)` | 11.0 | current value of a custom control; closure form `(_:isEnabled:)` = 15.0 |
 | `accessibilityHint(_:)` | 13.0 | what an action does |
 | `accessibilityHidden(_:)` | 11.0 | hide decorative elements from VoiceOver |
@@ -56,10 +56,13 @@ The pre-iOS-13.4 combinator bundled label/hint/traits/value into one `.accessibi
 ```
 
 `.accessibility(identifier:)` → `.accessibilityIdentifier(_:)` (test-only id, not user-facing).
-**Deprecation status is UNVERIFIED in the corpus** — `swiftui-ctx lookup "accessibility(label:)"` reports
-`deprecated:false` (low signal, not proof of currency). Confirm the `@available(…, deprecated:)` annotation
-on Sosumi before asserting; otherwise carry `source: verify against Xcode 26 SDK`. The split rewrite is
-behavior-preserving regardless, so the auto-fix is safe under the fix-safety protocol.
+**Confirmed deprecated: `macOS 10.15–26.5 Deprecated`** — Apple docs confirm the `@available(…, deprecated:)`
+annotation; replacement is `accessibilityLabel(_:)`. The sibling combinators (`accessibility(hint:)`,
+`accessibility(value:)`, `accessibility(hidden:)`, `accessibility(identifier:)`, `accessibility(addTraits:)`,
+`accessibility(removeTraits:)`, `accessibility(sortPriority:)`) are deprecated likewise. The corpus
+`deprecated:false` was a false negative. Carry a11y-11 as `source: macOS 10.15–26.5 Deprecated →
+accessibilityLabel(_:)`. The split rewrite is behavior-preserving regardless, so the auto-fix is safe under
+the fix-safety protocol.
 
 ## Sources
 

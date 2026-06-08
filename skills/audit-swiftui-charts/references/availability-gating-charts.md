@@ -13,7 +13,7 @@ the wrong-arm failure mode are in `${CLAUDE_PLUGIN_ROOT}/references/_shared/maco
 |---|---|
 | **macOS 13** | `Chart`, `BarMark`, `LineMark`, `PointMark`, `AreaMark`, `RuleMark`, `RectangleMark`, `AxisMarks`, `.chartXAxis`/`.chartYAxis`/`.chartLegend`, `.foregroundStyle(by:)` |
 | **macOS 14** | `SectorMark`, `.chartXSelection`/`.chartYSelection`/`.chartAngleSelection`, `.chartScrollableAxes`/`.chartScrollPosition`/`.chartXVisibleDomain` |
-| **macOS 15** | `LinePlot`, `AreaPlot` (vectorized function/series plots) |
+| **macOS 15** | `LinePlot`, `AreaPlot`, `BarPlot`, `PointPlot`, `SectorPlot`, `RectanglePlot`, `RulePlot` (vectorized function/series plots) |
 
 Two AI failure shapes — **charts-08 fires for both**:
 

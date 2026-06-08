@@ -44,7 +44,7 @@ the column width, not the material.
 ## cf-05 — `Button` with no explicit style in a dense pane (advisory, flag-only)
 
 A `Button` in a compact Mac pane (inspector, toolbar, settings grid) reads oversized at the iOS default.
-Set the Mac style explicitly: `.bordered` / `.borderless` / `.plain`, and `.link` for link-text actions.
+Set the Mac style explicitly: `.bordered` / `.borderless` / `.plain`, `.borderedProminent` for a prominent call-to-action (macOS 15.0+), and `.link` for link-text actions.
 
 ```swift
 // ❌ WRONG — default-styled button reads large in a dense pane
@@ -87,6 +87,7 @@ is **`.pickerStyle(.segmented)`** in `f/textream`:
 `https://github.com/f/textream/blob/6c34baaef9fea5de30bce619b4ed34cd675d5617/Textream/Textream/SettingsView.swift#L638`
 (fetched live with `swiftui-ctx file … --smart`; the `Picker` it styles uses a `ForEach` over enum cases).
 Put `.pickerStyle(.menu)` (the most native pop-up) or `.segmented` in `## Correct` per the data.
+**Picker styles have different floors:** `.menu` (`MenuPickerStyle`) macOS 11.0+; `.inline` (`InlinePickerStyle`) macOS 11.0+; `.segmented` / `.radioGroup` macOS 10.15+. Do **not** use `.menu` on a macOS 10.15 target — fall back to `.segmented` or `.radioGroup`.
 
 ## cf-07 — `.pickerStyle(.wheel)` / `WheelPickerStyle` on a Mac target (hard-fail, flag-only)
 
@@ -161,10 +162,12 @@ on macOS — no-op"). **Seam:** `controlSize` is a **split axis** — the *densi
 - Apple — `listStyle(_:)`: *"Sets the style for lists within this view."* (`.sidebar`/`.inset`/`.bordered`/
   `.plain`; macOS 10.15+): `https://developer.apple.com/documentation/swiftui/view/liststyle(_:)` (via
   Sosumi, accessed 2026-06-07).
-- Apple — `buttonStyle(_:)` / HIG Buttons: `.bordered`/`.borderless`/`.plain`; `.link` (macOS 10.15+,
-  macOS-only) and `.accessoryBar`/`.accessoryBarAction` (macOS 14.0+, macOS-only) have **different** floors:
+- Apple — `buttonStyle(_:)` / HIG Buttons: `.bordered`/`.borderless`/`.plain`; `.borderedProminent`
+  (macOS 15.0+); `.link` (macOS 10.15+, macOS-only) and `.accessoryBar`/`.accessoryBarAction` (macOS 14.0+,
+  macOS-only) have **different** floors:
   `https://developer.apple.com/design/human-interface-guidelines/buttons` (via Sosumi, accessed 2026-06-07).
-- Apple — `pickerStyle(_:)`: `.menu` (macOS pop-up) / `.segmented` / `.inline` / `.radioGroup`:
+- Apple — `pickerStyle(_:)`: `.menu` (`MenuPickerStyle`, macOS 11.0+) / `.inline` (macOS 11.0+) /
+  `.segmented` / `.radioGroup` (macOS 10.15+) — floors differ; see cf-06 note above:
   `https://developer.apple.com/documentation/swiftui/view/pickerstyle(_:)` (via Sosumi, accessed 2026-06-07).
 - Apple — `WheelPickerStyle`: iOS/watchOS spinning wheel — **macOS ABSENT** (no macOS availability arm):
   `https://developer.apple.com/documentation/swiftui/wheelpickerstyle` (via Sosumi, accessed 2026-06-07).

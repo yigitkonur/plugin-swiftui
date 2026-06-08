@@ -106,7 +106,7 @@ Ordered by frequency × impact × macOS-uniqueness. `Sev`: **C**=critical (broke
 | 49 | Heavy work in `body`/`init`, `.id(UUID())`, `AnyView`, filter-in-`ForEach` | Hoist formatters; stable ids; `@ViewBuilder` not `AnyView`; derive collections upstream | H | view-performance.md |
 | 50 | `openWindow(id:)` silently does nothing | The `id` must match a `Window(id:)`/`WindowGroup(id:)` exactly (shared constant); test at runtime | M | scenes-and-windows.md |
 | 51 | MenuBarExtra→`openSettings`/`openWindow` one-liner shows no window on **macOS 26** | The `NSApp.activate()`+`openSettings()` fix regressed on Tahoe — needs a hidden `Window` scene + `setActivationPolicy(.regular)` toggle | H | scenes-and-windows.md |
-| 52 | `Text("a") + Text("b")` (the `Text` `+` operator) | Deprecated macOS 26 → string interpolation `Text("a \(b)")` | M | version-and-hallucination.md |
+| 52 | `Text("a") + Text("b")` (the `Text` `+` operator) | Deprecated macOS 26.0 → string interpolation `Text("a \(b)")` | M | version-and-hallucination.md |
 
 ## Currency cliffs (dated wrong → right)
 

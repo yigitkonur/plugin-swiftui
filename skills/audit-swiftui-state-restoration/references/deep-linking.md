@@ -21,7 +21,7 @@ WindowGroup {
 }
 ```
 
-`handlesExternalEvents(matching:)` (macOS 11; Mac/iOS only — **no tvOS/watchOS**) routes an incoming URL to
+`handlesExternalEvents(matching:)` (macOS 11; Mac, iOS, visionOS — **no tvOS/watchOS**) routes an incoming URL to
 a *specific* scene; flag a `handlesExternalEvents` matcher with no `onOpenURL` to actually consume the URL.
 Window/scene activation semantics themselves are `audit-swiftui-scenes-windows` — emit
 `cross_ref: audit-swiftui-scenes-windows` and stay on the *handler-presence* question here.
@@ -34,7 +34,7 @@ Window/scene activation semantics themselves are `audit-swiftui-scenes-windows` 
 
 - Apple — `onOpenURL(perform:)`, macOS 11.0+:
   `https://developer.apple.com/documentation/swiftui/view/onopenurl(perform:)` (via Sosumi, accessed 2026-06-07).
-- Apple — `handlesExternalEvents(matching:)`, macOS 11.0+ (Mac/iOS):
+- Apple — `handlesExternalEvents(matching:)`, macOS 11.0+ (Mac, iOS, visionOS):
   `https://developer.apple.com/documentation/swiftui/view/handlesexternalevents(matching:)` (via Sosumi, 2026-06-07).
 - Apple — `onContinueUserActivity(_:perform:)`, macOS 11.0+:
   `https://developer.apple.com/documentation/swiftui/view/oncontinueuseractivity(_:perform:)` (via Sosumi, 2026-06-07).

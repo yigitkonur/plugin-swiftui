@@ -31,7 +31,7 @@ func importAll(_ raw: [RawTrip]) {
 ```
 ✅ a `@ModelActor` owns its own context; hand off `PersistentIdentifier`:
 ```swift
-@ModelActor                                             // macOS 14+; generates an actor with its own context
+@ModelActor                                             // macro (macOS 14+): implements protocol ModelActor, giving this actor its own ModelContext
 actor DataImporter {
     func importTrips(_ raw: [RawTrip]) throws {
         for r in raw { modelContext.insert(Trip(name: r.name)) }

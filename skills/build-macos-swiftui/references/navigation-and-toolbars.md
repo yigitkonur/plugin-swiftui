@@ -184,7 +184,7 @@ NavigationSplitView {
 - **Toolbar placements diverge.** Prefer **semantic** placements so SwiftUI positions per-platform. On macOS: `.navigation` is leading (ahead of the title), `.primaryAction` lands on the **leading edge** (not trailing), and `.principal`/`.status` are centered. `navigationBarLeading`/`navigationBarTrailing` are deprecated iOS-only; `topBarLeading`/`topBarTrailing` are **unavailable on macOS** (compile error on a Mac target), never the Mac default.
 - **`NavigationSplitView` auto-collapses** to a stack-style layout in compact width, so the same code adapts down to iPhone — but the *intent* on macOS is the expanded columns.
 - **Built-in toolbar toggles.** Use the system-provided `.toggleSidebar` and `.toggleInspector` toolbar items (AppKit identifiers; SwiftUI surfaces equivalents) to get correct icons, labels, localization, and behavior for free. Anchor the sidebar toggle at the leading edge; keep the inspector toggle trailing-most.
-- **`ToolbarSpacer` (macOS 26).** Insert deliberate gaps between toolbar items with `ToolbarSpacer(_:placement:)` and a `SpacerSizing`: `ToolbarSpacer(.fixed, placement:)` for a single system-standard gap, `ToolbarSpacer(.flexible, placement:)` to push items toward opposite ends of a region. Gate behind `#available(macOS 26, *)`.
+- **`ToolbarSpacer` (macOS 26.0+; also iOS/iPadOS 26.0+).** Insert deliberate gaps between toolbar items with `ToolbarSpacer(_:placement:)` and a `SpacerSizing`: `ToolbarSpacer(.fixed, placement:)` for a single system-standard gap, `ToolbarSpacer(.flexible, placement:)` to push items toward opposite ends of a region. Gate behind `#available(macOS 26, *)`.
 
   ```swift
   if #available(macOS 26, *) {
@@ -250,7 +250,7 @@ All scraped from developer.apple.com 2026-06-07 unless dated otherwise.
 - `NavigationSplitView` (2-/3-col inits, `columnVisibility:` variants): https://developer.apple.com/documentation/swiftui/navigationsplitview
 - `NavigationSplitViewVisibility` (`.all`/`.doubleColumn`/`.detailOnly`/`.automatic`; macOS always shows the content column): https://developer.apple.com/documentation/swiftui/navigationsplitviewvisibility
 - `ToolbarItemPlacement` (`.primaryAction` = leading edge on macOS; `.principal`/`.status` centered; `navigationBarLeading`/`Trailing` deprecated iOS-only; `topBarLeading`/`topBarTrailing` unavailable on macOS): https://developer.apple.com/documentation/swiftui/toolbaritemplacement
-- `ToolbarSpacer` + `SpacerSizing` (macOS 26; `.fixed`/`.flexible` toolbar gaps): https://developer.apple.com/documentation/swiftui/toolbarspacer
+- `ToolbarSpacer` + `SpacerSizing` (macOS 26.0+; also iOS/iPadOS 26.0+; `.fixed`/`.flexible` toolbar gaps): https://developer.apple.com/documentation/swiftui/toolbarspacer
 - `navigationTitle(_:)` (macOS → window titlebar / Windows menu / Mission Control): https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-43srq
 - `navigationSubtitle(_:)` (macOS 11.0+, also iOS/iPadOS 26.0+): https://developer.apple.com/documentation/swiftui/view/navigationsubtitle(_:)
 - `NavigationView` (deprecated `macOS 10.15–26.5`; "Use `NavigationStack` and `NavigationSplitView` instead"): https://developer.apple.com/documentation/swiftui/navigationview

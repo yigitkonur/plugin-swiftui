@@ -67,5 +67,5 @@ format) is not loc-07 — that is correct, deliberate locale control.
   `/documentation/swiftui/text/init(_:format:)`,
   `/documentation/foundation/formatstyle/numberformatstyle`,
   `/documentation/xcode/localizing-strings-that-contain-plurals`.
-- WWDC22 — "What's new in Foundation" (`/videos/play/wwdc2022/110342`, formatting); WWDC23 — "Discover
+- WWDC21 — "What's new in Foundation" (`/videos/play/wwdc2021/10109`, `FormatStyle`; grammar agreement engine); WWDC23 — "Discover
   String Catalogs" (`/videos/play/wwdc2023/10155`, plurals & grammar agreement), via Sosumi.

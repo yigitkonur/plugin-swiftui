@@ -24,6 +24,8 @@ $BIN lookup foregroundStyle             # real usage of the modern replacement
 ```
 `$BIN deprecated` (no arg) lists every deprecated API still in production use, with its replacement — the audit entry point.
 
+**Floor gaps:** replacements can have a higher macOS floor than the deprecated API — always check `min_macos` in the `lookup` result before swapping. Example: `tabItem(_:)` is macOS 10.15+ Deprecated, but its replacement `Tab` is macOS 15.0+. Using `Tab` on a macOS 13–14 deployment target is a compile error; use `#available(macOS 15, *)` or keep `tabItem` if you must support macOS 13–14.
+
 ## Building a known pattern (recipes)
 ```
 $BIN recipes                            # list patterns

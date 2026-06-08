@@ -48,7 +48,7 @@ a from-scratch animation generator.
 | anim-01 | single-arg `.animation(x)` (deprecated implicit form, macOS 12) | warning | flag | `animation-currency-and-springs.md` |
 | anim-02 | `.animation(_:value:)` on a constant, or `withAnimation` over no observed change | warning | flag | `animation-currency-and-springs.md` |
 | anim-03 | raw `.easeInOut(duration:)`/`.linear(duration:)` where a spring preset fits | advisory | flag | `animation-currency-and-springs.md` |
-| anim-04 | spring preset `.bouncy`/`.smooth`/`.snappy` ungated under a < macOS 14 floor | warning | flag | `animation-currency-and-springs.md` |
+| anim-04 | spring preset `.bouncy`/`.smooth`/`.snappy` ungated under a < macOS 14 floor | hard-fail | flag | `animation-currency-and-springs.md` |
 | anim-05 | `Timer`/`.repeatForever`/`repeatCount` loop where `PhaseAnimator`/`KeyframeAnimator` fits | advisory | flag | `phase-keyframe-and-symbol.md` |
 | anim-06 | `.symbolEffect` ungated under < macOS 14, or a hand-animated SF Symbol | warning | flag | `phase-keyframe-and-symbol.md` |
 | anim-07 | a value change (numeric `Text`, swapped symbol) animates without `.contentTransition` | advisory | flag | `phase-keyframe-and-symbol.md` |

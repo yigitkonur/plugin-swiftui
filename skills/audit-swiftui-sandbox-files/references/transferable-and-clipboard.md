@@ -3,8 +3,8 @@
 The current SwiftUI idiom for moving values in/out of an app is the **`Transferable`** protocol (macOS
 13.0+) with `.draggable` / `.dropDestination` and a **`Sendable`** transferred type, plus `NSPasteboard`
 for the raw clipboard. AI trained on iOS-shaped, pre-Swift-6 data reaches instead for manual
-`NSItemProvider` callbacks (which hop threads and fight Swift 6 isolation) and `UIPasteboard` (which **does
-not exist on macOS**).
+`NSItemProvider` callbacks (which hop threads and fight Swift 6 isolation) and `UIPasteboard` (which **is
+absent from native macOS**; Mac Catalyst 13.1+ carries it — this skill is native macOS only).
 
 > Seam: the `loadTransferable` Swift-6 **Sendable race** is owned by
 > `audit-swiftui-concurrency-safety` (isolation fix); this skill owns only the **file-consent** angle and
@@ -17,7 +17,7 @@ not exist on macOS**).
 ## sf-05 — `UIPasteboard` on Mac (won't compile)
 
 ```swift
-UIPasteboard.general.string = "hi"   // ❌ UIPasteboard does NOT exist on macOS
+UIPasteboard.general.string = "hi"   // ❌ UIPasteboard is absent from native macOS (Mac Catalyst 13.1+ carries it)
 ```
 
 ```swift
@@ -26,7 +26,7 @@ NSPasteboard.general.clearContents()
 NSPasteboard.general.setString("hi", forType: .string)
 ```
 
-`UIPasteboard` is iOS-only and won't even compile on Mac. This is the one **`fix_mode: auto`** defect in
+`UIPasteboard` is absent from native macOS (Mac Catalyst 13.1+ carries it) and won't compile in a native SwiftUI macOS target. This is the one **`fix_mode: auto`** defect in
 the domain: a mechanical `UIPasteboard.general.string = X` → `NSPasteboard.general.clearContents();
 NSPasteboard.general.setString(X, forType: .string)` rewrite. A `swiftui-ctx lookup UIPasteboard` on the
 macOS corpus returns **exit 3** (no shipping Mac app uses it) — corroborating the platform-wrong finding.
@@ -112,7 +112,9 @@ view.dropDestination(for: Note.self) { items, location in   // (for:action:isTar
 
 `dropDestination(for:action:isTargeted:)` (the 3-arg, Bool-returning form) is **deprecated in macOS 26.5**
 → `dropDestination(for:isEnabled:action:)` (the macOS-26.0+ successor). Per
-`${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`, the successor floors at macOS 26.0. The
+`${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`, the successor floors at macOS 26.0. Note the
+action closure signature changed: the deprecated form uses `([T], CGPoint) -> Bool`; the successor uses
+`([T], DropSession) -> Void` (second parameter `CGPoint` → `DropSession`; return `Bool` → `Void`). The
 **deprecation flag is owned by `audit-swiftui-api-currency`**; flag it here where it sits in a drag-drop
 pipeline and `cross_ref: audit-swiftui-api-currency`. Carry as **advisory**.
 

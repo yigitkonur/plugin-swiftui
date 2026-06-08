@@ -49,7 +49,7 @@ async-09:
 .onChange(of: query) { _, q in
     searchTask?.cancel()
     searchTask = Task {
-        try? await Task.sleep(for: .milliseconds(300))        // debounce window
+        try? await Task.sleep(for: .milliseconds(300))        // debounce — macOS 13+ (use nanoseconds: 300_000_000 on macOS 12)
         guard !Task.isCancelled else { return }
         results = await search(q)
     }

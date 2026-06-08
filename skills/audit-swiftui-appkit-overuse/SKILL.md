@@ -79,10 +79,10 @@ one of these is correct: emit `status: justified`, not a defect.
 `NSButton` → `Button` · `NSTextField` (plain) → `TextField`/`SecureField` · `NSTextView` (macOS 26
 rich) → `TextEditor(text:selection:)` · `NSSwitch` → `Toggle` · `NSSlider` → `Slider` · `NSStepper` →
 `Stepper` · `NSColorWell` → `ColorPicker` · `NSDatePicker` → `DatePicker` · `NSProgressIndicator` →
-`ProgressView` · `NSComboBox`/`NSPopUpButton`/`NSSegmentedControl` → `Picker` (with `.menu`/`.segmented`
+`ProgressView` (macOS 11+) · `NSComboBox`/`NSPopUpButton`/`NSSegmentedControl` → `Picker` (with `.menu`/`.segmented`
 style) · `NSStatusItem` → `MenuBarExtra` scene · `NSOpenPanel`/`NSSavePanel` →
 `fileImporter`/`fileExporter`/`fileMover` · `NSItemProvider`/`NSPasteboard` → `Transferable` +
-`.draggable`/`.dropDestination`/`.copyable` · `NSGlassEffectView` → `.glassEffect()`.
+`.draggable`/`.dropDestination`/`.copyable` · `NSGlassEffectView` → `.glassEffect(_:in:)`.
 
 These are existence/floor claims — **confirm the replacement actually exists** in VERIFY via
 `swiftui-ctx lookup` + Sosumi; floor *values* are the reconciled truth in

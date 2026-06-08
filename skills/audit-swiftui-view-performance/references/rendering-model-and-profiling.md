@@ -63,7 +63,7 @@ at a glance, not just one finding at a time.
 
 ## Sources
 
-- WWDC25 "Optimize SwiftUI performance with Instruments" (session 306) — the SwiftUI Instrument in
+- WWDC25 "Discover the new SwiftUI instrument." (session 306) — the SwiftUI Instrument in
   Instruments 26 and its Cause & Effect graph: https://developer.apple.com/videos/play/wwdc2025/306/
   (accessed 2026-06-07).
 - WWDC21 "Demystify SwiftUI" (session 10022) — identity, lifetime, dependencies (the diffing model):

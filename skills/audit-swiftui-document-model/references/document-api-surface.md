@@ -12,7 +12,7 @@ of availability truth). This file carries the **signatures, the existence allow-
 
 ## Why AI gets this wrong
 
-The document API (`DocumentGroup`/`FileDocument`/`ReferenceFileDocument`) shipped at WWDC20 (macOS 12 era)
+The document API (`DocumentGroup`/`FileDocument`/`ReferenceFileDocument`) shipped at WWDC20 (macOS 11.0+)
 but is thinly represented in training data — most SwiftUI sample code is single-window, not document-based.
 Two failure shapes:
 
@@ -34,13 +34,14 @@ lookup <api> --json` (the practice corpus).
 |---|---|---|
 | `DocumentGroup` | the document scene; `(newDocument:)`/`(viewing:)`/`(editing:migrationPlan:)` | `documentgroup` |
 | `FileDocument` | **value** document protocol (struct) | `filedocument` |
-| `ReferenceFileDocument` | **reference** document protocol (class) — requires `snapshot(contentType:)` | `referencefiledocument` |
+| `ReferenceFileDocument` | **reference** document protocol (class, `Sendable`) — requires `snapshot(contentType:)` | `referencefiledocument` |
 | `FileDocumentConfiguration` | gives the `$document` **binding** + `fileURL` + `isEditable` | `filedocumentconfiguration` |
 | `ReferenceFileDocumentConfiguration` | the reference-document equivalent | `referencefiledocumentconfiguration` |
 | `static readableContentTypes: [UTType]` | the types the document can open | `filedocument/readablecontenttypes` |
 | `static writableContentTypes: [UTType]` | the types the document can save | `filedocument/writablecontenttypes` |
 | `init(configuration:)` | the read path | `filedocument/init(configuration:)` |
-| `fileWrapper(configuration:)` | the write path | `filedocument/filewrapper(configuration:)` |
+| `fileWrapper(configuration:)` | the write path (FileDocument) | `filedocument/filewrapper(configuration:)` |
+| `fileWrapper(snapshot:configuration:)` | the write path (ReferenceFileDocument) | `referencefiledocument/filewrapper(snapshot:configuration:)` |
 | `func snapshot(contentType:)` | reference-doc: capture a value to serialize off-main | `referencefiledocument/snapshot(contenttype:)` |
 | `FileWrapper` (Foundation) | the on-disk representation (regular file or directory) | (Foundation `filewrapper`) |
 | `UTType(exportedAs:)` / `(importedAs:)` | a custom content type backed by an `Info.plist` declaration | (UniformTypeIdentifiers) |

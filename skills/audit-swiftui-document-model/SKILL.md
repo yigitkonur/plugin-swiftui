@@ -16,7 +16,7 @@ toolkit's unified schema; this domain has **no mechanical auto-fix** (every corr
 gated), so findings are emitted `flag-only` with the ✅ shown. Never a from-scratch document-app generator.
 
 The document API surface (`DocumentGroup`/`FileDocument`/`ReferenceFileDocument`/`FileDocumentConfiguration`)
-is **macOS-12-era** but thinly used, so AI frequently confuses the value vs reference split and invents
+is **macOS 11.0+** but thinly used, so AI frequently confuses the value vs reference split and invents
 `@FocusedDocument`. Be suspicious wherever AI wrote document-app scaffolding.
 
 ## Boundary / seam note (stay in lane)
@@ -80,12 +80,12 @@ grep locator and split in DETECT.
 
 ## The real API, at a glance
 
-**Real (exist on macOS):** `DocumentGroup(newDocument:)` / `(viewing:)` / `(editing:migrationPlan:)`,
-`FileDocument` (a **struct** protocol), `ReferenceFileDocument` (a **class** protocol, requires
+**Real (exist on macOS):** `DocumentGroup(newDocument:)` / `(viewing:)` / `(editing:migrationPlan:)` (macOS 14.0+),
+`FileDocument` (a **struct** protocol), `ReferenceFileDocument` (a **class** + `Sendable` protocol, requires
 `snapshot(contentType:)` + `fileWrapper(snapshot:configuration:)`), `FileDocumentConfiguration` (gives the
 `$document` **binding** + `fileURL` + `isEditable`), `ReferenceFileDocumentConfiguration`,
 `static readableContentTypes` / `writableContentTypes: [UTType]`, `init(configuration:)`,
-`fileWrapper(configuration:)`, `FileWrapper`, `UTType(exportedAs:)` / `(importedAs:)`,
+`fileWrapper(configuration:)` / `fileWrapper(snapshot:configuration:)`, `FileWrapper`, `UTType(exportedAs:)` / `(importedAs:)`,
 `@Environment(\.undoManager)`. **`DocumentGroupLaunchScene` is iOS/iPadOS-only — NO macOS arm.**
 
 **Hallucinated / wrong:** `@FocusedDocument` (**not a real symbol** → custom `FocusedValues` `@Entry` key +

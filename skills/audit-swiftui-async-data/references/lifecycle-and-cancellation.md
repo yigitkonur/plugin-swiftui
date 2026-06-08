@@ -28,7 +28,7 @@ The consensus shape (`swiftui-ctx lookup task`: 70% `{ }`, 29% `(id)`) and a rea
 .task { await model.load() }                          // cancelled when the view goes away
 .task(id: selectedID) { await model.load(selectedID) }   // restarts when id changes
 ```
-The `.task` closure is **`@MainActor`-isolated**, so view-state mutation inside needs no extra hop.
+The `.task` closure **inherits the actor context of its call site** — in a SwiftUI `View.body` (itself `@MainActor`) that means the closure runs on the main actor, so view-state mutation inside needs no extra hop in normal use. This is inherited context via `@_inheritActorContext`, not an explicit `@MainActor` annotation; a `.task` applied from a non-`@MainActor` call site would not inherit it.
 
 **Seam (own the lifecycle, not the isolation).** This skill fixes only the lifecycle move. If the captured
 loading state is **non-`Sendable`** (a model `class`, `ModelContext`, an `NSView`), the isolation verdict
@@ -74,8 +74,9 @@ concurrency-safety` when a `Sendable` boundary is also involved.
 ## Sources
 
 - Apple — `https://developer.apple.com/documentation/swiftui/view/task(priority:_:)` and
-  `/documentation/swiftui/view/task(id:priority:_:)` (the lifecycle-bound async modifiers; closure is
-  `@MainActor`, cancelled on disappear), fetched via Sosumi. Accessed 2026-06-07.
+  `/documentation/swiftui/view/task(id:priority:_:)` (the lifecycle-bound async modifiers; closure
+  inherits caller's actor context — `@MainActor` in normal `View.body` use via `@_inheritActorContext`;
+  cancelled on disappear), fetched via Sosumi. Accessed 2026-06-07.
 - Apple — `https://developer.apple.com/documentation/swift/task/iscancelled` and
   `/documentation/swift/task/cancel()` (cooperative cancellation), via Sosumi. Accessed 2026-06-07.
 - swiftui-ctx corpus — `lookup task` consensus `{ }` 70% / `(id)` 29%; recommended macOS-26 example

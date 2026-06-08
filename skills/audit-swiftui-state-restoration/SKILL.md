@@ -90,7 +90,7 @@ Sosumi). `restorationBehavior` is macOS 15.
 **Real (and their macOS floors — confirmed via swiftui-ctx `introduced_macos` + Sosumi):** `@AppStorage`
 (macOS 11), `@SceneStorage` (macOS 11), `NavigationPath` + `NavigationPath(codable:)` / `.codable`
 (macOS 13), `onOpenURL(perform:)` (macOS 11), `onContinueUserActivity(_:perform:)` (macOS 11),
-`handlesExternalEvents(matching:)` (macOS 11 — Mac/iOS only, no tvOS/watchOS), `restorationBehavior(_:)`
+`handlesExternalEvents(matching:)` (macOS 11 — Mac, iOS, visionOS; no tvOS/watchOS), `restorationBehavior(_:)`
 (macOS 15), `focusedSceneValue(_:_:)` (key-path macOS 12 / object macOS 14). Floor *values* live in
 `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` — read, never restate.
 

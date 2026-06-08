@@ -70,7 +70,7 @@ signature of over-broad observation.
 
 ## Sources
 
-- WWDC25 "Optimize SwiftUI performance with Instruments" (session 306) — the `@Environment`
+- WWDC25 "Discover the new SwiftUI instrument." (session 306) — the `@Environment`
   high-frequency fan-out warning; the Cause & Effect graph:
   https://developer.apple.com/videos/play/wwdc2025/306/ (accessed 2026-06-07).
 - Apple — `EquatableView`: https://developer.apple.com/documentation/swiftui/equatableview ·

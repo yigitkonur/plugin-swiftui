@@ -19,11 +19,11 @@ VERIFY (`swiftui-ctx lookup` + Sosumi) before flagging.
 | `NSStepper` | `Stepper(_:value:in:)` | |
 | `NSColorWell` | `ColorPicker(_:selection:)` | macOS 11+ |
 | `NSDatePicker` | `DatePicker(_:selection:)` | |
-| `NSProgressIndicator` | `ProgressView()` / `ProgressView(value:)` | indeterminate + determinate |
+| `NSProgressIndicator` | `ProgressView()` / `ProgressView(value:)` | indeterminate + determinate; **macOS 11+** |
 | `NSComboBox` / `NSPopUpButton` | `Picker(_:selection:)` `.pickerStyle(.menu)` | |
 | `NSSegmentedControl` | `Picker(...)` `.pickerStyle(.segmented)` | |
 | `NSImageView` | `Image(...)` / `AsyncImage` | |
-| `NSLevelIndicator` / `NSGauge`-like | `Gauge(value:in:)` | macOS 13+ |
+| `NSLevelIndicator` | `Gauge(value:in:)` | macOS 13+ |
 
 **The trap:** an `NSTextField` bridge is *not* automatically over-01 — it is a justified hatch when it
 exists for precise first-responder / field-editor / insertion-point control. READ the bridge: if it

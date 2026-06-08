@@ -43,7 +43,7 @@ symbol via `swiftui-ctx lookup <api> --json` (`introduced_macos`) + Sosumi.
 | `SectorMark` | pie / donut sector | **macOS 14** | `sectormark` |
 | `.chartXSelection` / `.chartYSelection` / `.chartAngleSelection` | value selection | **macOS 14** | `view/chartxselection(value:)` |
 | `.chartScrollableAxes` / `.chartScrollPosition` / `.chartXVisibleDomain` | scroll & windowing | **macOS 14** | `view/chartscrollableaxes(_:)` |
-| `LinePlot` / `AreaPlot` | vectorized function / large-series plot | **macOS 15** | `lineplot` |
+| `LinePlot` / `AreaPlot` / `BarPlot` / `PointPlot` / `SectorPlot` / `RectanglePlot` / `RulePlot` | vectorized function / large-series plot | **macOS 15** | `lineplot` · `areaplot` · `barplot` · `pointplot` · `sectorplot` · `rectangleplot` · `ruleplot` |
 
 **Consensus call shapes** (from `swiftui-ctx lookup`, the corpus of shipping macOS-26 apps):
 

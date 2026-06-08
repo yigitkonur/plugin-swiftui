@@ -48,14 +48,14 @@ audit-swiftui-appearance-color`. `era: rolling/≤26.5`.
 ## curr-04 · single-param `onChange(of:perform:)` → two-/zero-param
 
 ```swift
-.onChange(of: value) { newValue in handle(newValue) }                 // ❌ deprecated macOS 14
+.onChange(of: value) { newValue in handle(newValue) }                 // ❌ introduced macOS 11, deprecated macOS 14
 .onChange(of: value, initial: false) { oldValue, newValue in … }      // ✅ two-param
 .onChange(of: value) { recompute() }                                  // ✅ zero-param
 ```
 
 Current signature `onChange<V>(of:initial:_:)` with `(V, V) -> Void`, macOS 14.0+. The 1-param closure
 is the tell — caught structurally by `lint/ast-grep/curr-04-onchange-one-param.yml`. `cross_ref
-audit-swiftui-state-observation`. `era: macOS-14`.
+audit-swiftui-state-observation`. `era: macOS-11-introduced/macOS-14-deprecated`.
 
 ## curr-05 · `.tabItem { … }` → `Tab("…", systemImage:) { }`
 

@@ -81,7 +81,7 @@ dashboard layout, and the punch-list ordering are in `references/nativeness-scor
 These are the Mac affordances whose **absence** is the smell — all real on the floors below (the
 reconciled values live in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`; never restated
 here): `onHover` (macOS 10.15+), `help(_:)` (11+), `focusable(_:)` (**12+, not 10.15**), `contextMenu`
-(10.15+), `controlSize`/`formStyle` (12+), `Table` (12+), `pointerStyle(_:)` (15+),
+(10.15+), `controlSize` (10.15+), `formStyle` (13.0+), `Table` (12+), `pointerStyle(_:)` (15+),
 `onContinuousHover` (14+), `defaultSize`/`windowResizability` (13+), `NavigationSplitView` (13+),
 `Settings`/`SettingsLink` (11/14), `MenuBarExtra` (13+), `commands`/`CommandMenu`. The canonical
 **shape** of each is fetched live from `swiftui-ctx` in VERIFY/FIX — never hand-assert a signature.

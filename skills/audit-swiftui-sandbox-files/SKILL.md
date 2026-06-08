@@ -93,7 +93,7 @@ won't compile / never-correct on Mac), **warning** (compiles but breaks under th
 | sf-02 | a picked `URL` persisted by `.path` **or** plain `bookmarkData()` with no `options: .withSecurityScope` | warning | flag | `consent-and-bookmarks.md` |
 | sf-03 | `startAccessingSecurityScopedResource()` with no balancing `stopAccessing…`/`defer` (ref-count leak) | warning | flag | `consent-and-bookmarks.md` |
 | sf-04 | file/network/bookmark APIs in use but no `.entitlements` keys, or `com.apple.security.app-sandbox` missing on a Mac App Store target | warning | flag | `entitlements-and-hardened-runtime.md` |
-| sf-05 | `UIPasteboard` referenced in macOS code (does not exist on Mac → won't compile) | hard-fail | auto | `transferable-and-clipboard.md` |
+| sf-05 | `UIPasteboard` referenced in macOS code (absent from native macOS; Mac Catalyst 13.1+ carries it — this skill is native macOS only → won't compile) | hard-fail | auto | `transferable-and-clipboard.md` |
 | sf-06 | `NSItemProvider` `loadObject`/`loadDataRepresentation` or `.onDrop(of:)` callbacks instead of `Transferable` + `.dropDestination` | warning | flag | `transferable-and-clipboard.md` |
 | sf-07 | `loadTransferable` / `.task` touching a `@MainActor`-created picker item (file-consent angle; isolation = concurrency-safety) | warning | flag | `transferable-and-clipboard.md` |
 | sf-08 | `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) — deprecated macOS 26.5 | advisory | flag | `transferable-and-clipboard.md` |
@@ -115,7 +115,7 @@ entitlement **bodies** (sf-09, Apple pages not verbatim-captured); and the *Xcod
 `…files.user-selected.read-write` / `…files.bookmarks.app-scope` / `…network.client` /
 `com.apple.security.cs.*`.
 
-**Wrong on Mac / stale:** `UIPasteboard` (iOS-only — **does not exist on macOS**, the clipboard is
+**Wrong on Mac / stale:** `UIPasteboard` (absent from native macOS; Mac Catalyst 13.1+ carries it — the clipboard on native macOS is
 `NSPasteboard`); `dropDestination(for:action:isTargeted:)` (the 3-arg Bool-returning form — **deprecated
 macOS 26.5** → `dropDestination(for:isEnabled:action:)`); persisting a picked URL by `.path` or a plain
 `bookmarkData()` (round-trips the path, **not** the permission).

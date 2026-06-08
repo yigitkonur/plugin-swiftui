@@ -63,8 +63,8 @@ shape from the corpus is `(_)` at 100% (`swiftui-ctx lookup foregroundStyle --js
 Confirmed: `swiftui-ctx deprecated accentColor` → `replacement: tint`,
 `doc: https://sosumi.ai/documentation/swiftui/view/accentcolor`.
 
-❌ `.accentColor(.blue)` → ✅ `.tint(.blue)`. **fix_mode: auto** (same-argument rename). `tint(_:)` is
-macOS 12+; consensus shape `(_)` at 100% (`swiftui-ctx lookup tint --json`). Emit `cross_ref: api-currency`.
+❌ `.accentColor(.blue)` → ✅ `.tint(.blue)`. **fix_mode: auto** (same-argument rename). `tint(_ tint: Color?)` is
+macOS 12+; `tint<S: ShapeStyle>(_ tint: S?)` is macOS 13+. Consensus shape `(_)` at 100% (`swiftui-ctx lookup tint --json`). Emit `cross_ref: api-currency`.
 
 ## ac-08 — invented / cross-platform color APIs (hard-fail)
 

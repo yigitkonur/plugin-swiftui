@@ -54,7 +54,7 @@ single-answer rename; `flag` = show the ✅, dev applies.
 | curr-01 | `NavigationView { … }` (deprecated macOS 10.15–26.5) | warning | flag | `deprecations-and-renames.md` |
 | curr-02 | `.foregroundColor(_:)` (deprecated → `.foregroundStyle`) | warning | auto | `deprecations-and-renames.md` |
 | curr-03 | `.cornerRadius(_:)` (deprecated → `.clipShape(.rect(cornerRadius:))`) | warning | auto | `deprecations-and-renames.md` |
-| curr-04 | 1-param `.onChange(of:) { newValue in }` (deprecated macOS 14) | warning | flag | `deprecations-and-renames.md` |
+| curr-04 | 1-param `.onChange(of:) { newValue in }` (introduced macOS 11, deprecated macOS 14) | warning | flag | `deprecations-and-renames.md` |
 | curr-05 | `.tabItem { … }` (→ `Tab("…", systemImage:) { }`, macOS 15) | warning | flag | `deprecations-and-renames.md` |
 | curr-06 | inline `NavigationLink(…, destination:)` inside `List`/`ForEach` | warning | flag | `deprecations-and-renames.md` |
 | curr-07 | `Text("…") + Text("…")` concatenation (deprecated macOS 26.0) | warning | flag | `deprecations-and-renames.md` |

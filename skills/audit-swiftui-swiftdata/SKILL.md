@@ -75,7 +75,7 @@ crash / data loss — never correct), **warning** (compiles but wrong), **adviso
 | sd-06 | `#Preview` constructs a `@Model` with no in-memory `ModelContainer` → canvas crash | warning | flag | `container-and-preview.md` |
 | sd-07 | `fatalError` (or `try!`) on `ModelContainer` creation outside a preview → recoverable error crashes blind | warning | flag | `container-and-preview.md` |
 | sd-08 | indexing a relationship array (`.floors[0]`) / `ForEach` over a relationship with no `@Query(sort:)` | warning | flag | `query-and-persistence.md` |
-| sd-09 | off-actor `@Model` mutation in `Task`/`Task.detached`/`DispatchQueue` with no `@ModelActor` | warning | flag | `concurrency-and-saving.md` |
+| sd-09 | off-actor `@Model` mutation in `Task`/`Task.detached`/`DispatchQueue` with no `@ModelActor` | hard-fail | flag | `concurrency-and-saving.md` |
 | sd-10 | a mutation path with no `try modelContext.save()` (silent loss on Quit / window close) | advisory | flag | `concurrency-and-saving.md` |
 | sd-11 | a `@Model` subclass ungated / its types not all registered (macOS-26 inheritance) | warning | flag | `query-and-persistence.md` |
 | sd-12 | one container opened by app + widget/menu-bar helper with no lock-file serialization | advisory | flag | `container-and-preview.md` |
@@ -91,8 +91,8 @@ SDK` unless Sosumi confirms a `save()` requirement.
 
 **Real (exist on macOS 14.0+):** `@Model`, `ModelContext`, `ModelConfiguration(isStoredInMemoryOnly:)`,
 `@Relationship(deleteRule:inverse:)`, `@Attribute`, `@Query`, `@Query(sort:)`, `.modelContainer(for:)`,
-`@ModelActor` (generates an actor with its own context), `PersistentIdentifier` (the `Sendable`
-hand-off type). **macOS 15.0+:** the variadic `ModelContainer(for:configurations:)` (on a macOS-14
+`@ModelActor` (macro: converts a Swift `actor` to conform to `protocol ModelActor`, giving it its own `ModelContext`), `PersistentIdentifier` (the `Sendable`
+hand-off; macOS 13.0+). **macOS 15.0+:** the variadic `ModelContainer(for:configurations:)` (on a macOS-14
 target use `ModelContainer(for:migrationPlan:configurations:)` with `migrationPlan: nil`), `#Index`,
 `#Unique`, the history API (`HistoryDescriptor`, `fetchHistory(_:)`). **macOS 26.0+:** `@Model` class
 inheritance (every subclass needs `@available(macOS 26, *)`; register base + every subclass in the

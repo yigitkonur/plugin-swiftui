@@ -28,9 +28,9 @@ sidebar itself.
 
 ## Leftover overrides that BLOCK glass
 
-**glass-11 — pre-Tahoe overrides left on the toolbar (warning; fix_mode: auto).**
-`.toolbarBackground(.visible, …)` and `.toolbarColorScheme(_:)` are pre-26 overrides that **block glass
-rendering** on the toolbar. Under auto-glass they have no purpose; removal restores intended rendering.
+**glass-11 — deprecated toolbar overrides left on the toolbar (warning; fix_mode: auto).**
+`.toolbarBackground(.visible, …)` (formally deprecated macOS 13.0–26.5) and `.toolbarColorScheme(_:)`
+**block glass rendering** on the toolbar. Under auto-glass they have no purpose; removal restores intended rendering.
 Safe to auto-fix (deletion only). (`toolbarBackgroundVisibility(_:for:)` is itself macOS 15.0+ — see
 floors-master — and is the symbol used to *hide* a shared toolbar background where that is the goal.)
 
@@ -42,7 +42,7 @@ macOS title-bar/toolbar polish that frequently accompanies glass adoption (flag,
 
 ## Scroll-edge effects
 
-`scrollEdgeEffectStyle(_:for:)` styles the soft/hard fade where content meets chrome;
+`scrollEdgeEffectStyle(_:for:)` styles the automatic/soft/hard fade where content meets chrome;
 `scrollEdgeEffectHidden(_:for:)` removes it. Both are macOS 26.0+ (floors-master). Apple's own example
 uses `.scrollEdgeEffectStyle(.hard, for: .all)`, confirming `.hard` is a valid macOS style.
 

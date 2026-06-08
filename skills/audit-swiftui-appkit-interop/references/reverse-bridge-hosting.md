@@ -59,7 +59,6 @@ normally — or drive search via an `NSSearchField` in an `NSToolbar`. On macOS 
 scene bridge at all; `.toolbar` / `.navigationTitle` also do nothing under a hand-built `NSWindow`.
 
 Floors (`sceneBridgingOptions` = macOS 14): `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`.
-The exact nested-vs-contentView default is UNVERIFIED on a fresh SDK — cite `verify against Xcode 26 SDK`.
 
 ## Sources
 

@@ -14,7 +14,7 @@ accessibility. Findings are written to disk in the toolkit's unified schema; cer
 are fixed under the fix-safety protocol. This is never a from-scratch chart generator.
 
 Swift Charts is macOS 13+; **`SectorMark`, the `chart*Selection` family, and `chartScrollableAxes` are
-macOS 14 (not 13); `LinePlot`/`AreaPlot` vectorized plots are macOS 15.** AI routinely mis-floors these
+macOS 14 (not 13); `LinePlot`/`AreaPlot`/`BarPlot`/`PointPlot`/`SectorPlot`/`RectanglePlot`/`RulePlot` vectorized plots are macOS 15.** AI routinely mis-floors these
 and reaches for iOS-shaped or invented chart types — be suspicious wherever AI wrote chart code.
 
 ## Boundary / seam note (stay in lane)
@@ -63,8 +63,8 @@ Confirm the floor in `floors-master.md` + via `swiftui-ctx`/Sosumi before assert
 `RuleMark`, `RectangleMark`, `AxisMarks`, `AxisValueLabel`, `AxisGridLine`, `.chartXAxis`/`.chartYAxis`,
 `.chartLegend`, `.foregroundStyle(by:)`, `.symbol(by:)`, `.position(by:)`. **macOS 14.0+:** `SectorMark`
 (pie/donut), `.chartXSelection`/`.chartYSelection`/`.chartAngleSelection`, `.chartScrollableAxes`,
-`.chartScrollPosition`, `.chartXVisibleDomain`/`.chartYVisibleDomain`. **macOS 15.0+:** `LinePlot` /
-`AreaPlot` (vectorized function/large-series plots).
+`.chartScrollPosition`, `.chartXVisibleDomain`/`.chartYVisibleDomain`. **macOS 15.0+:** `LinePlot`,
+`AreaPlot`, `BarPlot`, `PointPlot`, `SectorPlot`, `RectanglePlot`, `RulePlot` (vectorized function/large-series plots).
 
 **Hallucinated (never exist):** `BarChart`, `LineChart`, `PieChart`, `AreaChart`, `ChartView`,
 `.chartType(...)`, `PieMark`, `DonutMark`, `ScatterMark`, `ColumnMark` — these are other-library /

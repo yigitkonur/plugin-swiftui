@@ -55,7 +55,7 @@ struct NoteCommands: Commands {
 
 `swiftui-ctx lookup CommandMenu` confirms this is the real production idiom — `CommandMenu`
 `co_occurs_with` `FocusedValue` / `focusedValue` / `FocusedObject` in the corpus; `swiftui-ctx lookup
-focusedValue` shows the dominant shape is `focusedValue(_, _)` (94%). The menu-03 finding is **hard-fail**
+focusedValue` shows the dominant shape is `focusedValue(_, _)` (94%). The menu-03 finding is **warning**
 when the closure references a concrete `@State`/model directly (it will not compile or it targets the
 wrong window); READ the closure to confirm it reaches `@FocusedValue`, not a captured instance.
 

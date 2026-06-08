@@ -35,7 +35,7 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 | `NavigationView` | `navigationview` | dep `macOS 10.15–26.5` → `NavigationStack`/`NavigationSplitView` |
 | `foregroundColor(_:)` | `view/foregroundcolor(_:)` | dep → `foregroundStyle(_:)` (macOS 12+) |
 | `cornerRadius(_:)` | `view/cornerradius(_:)` | dep → `clipShape(.rect(cornerRadius:))` (macOS 10.15+) |
-| `onChange(of:perform:)` (1-param) | `view/onchange(of:perform:)` | dep macOS 14 → `onChange(of:initial:_:)` |
+| `onChange(of:perform:)` (1-param) | `view/onchange(of:perform:)` | dep macOS 11.0–14.0 → `onChange(of:initial:_:)` |
 | `tabItem(_:)` | `view/tabitem(_:)` | → `Tab` struct (`tab`, macOS 15+) |
 | `NavigationLink(_:destination:)` | `navigationlink` | inline-in-`List` → `navigationDestination(for:destination:)` (macOS 13+) |
 | `Text` `+` operator | `text/+(_:_:)` | dep `macOS 10.15–26.0` → interpolation/`AttributedString` |

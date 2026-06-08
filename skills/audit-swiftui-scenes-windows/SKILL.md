@@ -87,7 +87,7 @@ regression itself** is an *open, unresolved platform gap* (sw-06) — flag it, d
 `WindowGroup(id:for:content:)` — string-`title`-label inits are deprecated), `Window` (13.0+, single
 unique), `UtilityWindow` (15.0+, **macOS-only** floating inspector panel), `Settings {}` (11.0+,
 **macOS-only**), `MenuBarExtra` (13.0+, **macOS-only**). **Actions:** `openWindow` (13.0+),
-`dismissWindow` (**14.0+ — NOT 13**), `openSettings` (14.0+, macOS-only), `SettingsLink` (13.0+).
+`dismissWindow` (**14.0+ — NOT 13**), `openSettings` (14.0+, macOS-only), `SettingsLink` (**14.0+**, macOS-only).
 **Scene modifiers:** `defaultSize`, `windowResizability`, `windowStyle`, `defaultLaunchBehavior` (15.0+),
 `windowIdealPlacement` (15.0+). **Lifecycle bridge:** `@NSApplicationDelegateAdaptor` (11.0+) →
 `applicationShouldTerminateAfterLastWindowClosed(_:)` / `applicationWillTerminate(_:)`.
@@ -235,7 +235,7 @@ hard requirement.* Two runs over the same code produce structurally identical tr
 
 | Shared file | For |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — `SettingsLink`=13, `dismissWindow`=14, `pushWindow`/`DocumentGroupLaunchScene`=verify-SDK) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — `SettingsLink`=14, `dismissWindow`=14, `pushWindow`/`DocumentGroupLaunchScene`=verify-SDK) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md` | the canonical invented-name list (incl. `@FocusedDocument` → custom `FocusedValues` key) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/macos-arm-gating.md` | the macOS-arm gating rule for any floored scene API under a <floor target |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/finding-schema.md` | the unified finding schema + frontmatter keys |
