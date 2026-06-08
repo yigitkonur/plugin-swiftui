@@ -22,11 +22,20 @@ jobs:
           swift build -c release --product swiftui-ctx --arch arm64 --arch x86_64
           cp .build/apple/Products/Release/swiftui-ctx "$GITHUB_WORKSPACE/swiftui-ctx"
           file "$GITHUB_WORKSPACE/swiftui-ctx"
-      - name: Verify it runs
+      - name: Verify it runs (version + doctor + subcommand smokes)
         run: |
+          set -euo pipefail
           chmod +x swiftui-ctx
-          SWIFTUI_CTX_CATALOG="$GITHUB_WORKSPACE/catalog" ./swiftui-ctx --version
-          SWIFTUI_CTX_CATALOG="$GITHUB_WORKSPACE/catalog" ./swiftui-ctx doctor
+          export SWIFTUI_CTX_CATALOG="$GITHUB_WORKSPACE/catalog"
+          ./swiftui-ctx --version
+          ok() { echo "smoke: $*"; ./swiftui-ctx "$@" --json | python3 -c 'import sys,json; assert json.load(sys.stdin)["ok"], "ok:false"'; }
+          ok doctor
+          ok lookup MenuBarExtra
+          ok deprecated
+          ok search drag
+          ok recipe menubar-app
+          ok conformances View
+          ok valueBuilders ease
       - name: Attach to release
         uses: softprops/action-gh-release@v2
         with:

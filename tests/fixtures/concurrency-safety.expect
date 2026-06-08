@@ -1,0 +1,4 @@
+# rule_ids that MUST fire on concurrency-safety.swift
+conc-01
+conc-02
+conc-03

@@ -2,7 +2,7 @@ PREFIX ?= /usr/local
 WRAPPER := $(abspath scripts/swiftui-ctx)
 CATALOG := $(abspath catalog)
 
-.PHONY: build build-universal install uninstall test validate refresh clean help
+.PHONY: build build-universal install uninstall test audit-selftest eval validate refresh clean help
 
 help:                ## Show targets
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | sed 's/:.*##/ —/'
@@ -29,6 +29,12 @@ test: build          ## Scanner regression test + CLI smoke test
 	python3 swiftui-scan/fixtures/check.py
 	@SWIFTUI_CTX_CATALOG=$(CATALOG) swiftui-scan/.build/release/swiftui-ctx lookup searchable --json | python3 -c 'import sys,json;assert json.load(sys.stdin)["ok"];print("cli OK")'
 
+audit-selftest:      ## Regression-test the audit lint engine against known-violation fixtures
+	bash scripts/audit-selftest.sh
+
+eval:                ## Proof-of-value: generate SwiftUI with vs without swiftui-ctx, score deterministically (see eval/README.md)
+	bash eval/run.sh && python3 eval/score.py
+
 validate:            ## Validate all skills against the Agent Skills spec (needs skills-ref / npx)
 	@for s in skills/*/; do \
 	  if command -v skills-ref >/dev/null; then skills-ref validate "$$s"; \
@@ -38,6 +44,7 @@ validate:            ## Validate all skills against the Agent Skills spec (needs
 
 refresh:             ## Rebuild the whole catalog from scratch (long; see RUN.md)
 	@echo "see RUN.md — runs scripts/00..08 (clones repos, ~hours)"
+	python3 scripts/gen_deprecated_list.py   # keep the hook's deprecated-names.txt in sync with the catalog
 
 clean:
 	cd swiftui-scan && swift package clean

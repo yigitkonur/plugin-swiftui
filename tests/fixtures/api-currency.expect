@@ -1,0 +1,6 @@
+# rule_ids that MUST fire on api-currency.swift (one per line)
+curr-01
+curr-02
+curr-03
+curr-04
+curr-13

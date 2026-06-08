@@ -1,0 +1,5 @@
+# rule_ids that MUST fire on state-observation.swift
+state-01
+state-03
+state-04
+state-05
