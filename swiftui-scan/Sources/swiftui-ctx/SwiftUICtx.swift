@@ -18,7 +18,8 @@ struct SwiftUICtx: ParsableCommand {
         Exit codes: 0 ok · 2 usage · 3 not-found · 4 network · 5 no-catalog.
         """,
         subcommands: [Lookup.self, Search.self, Examples.self, FileCmd.self,
-                      Recipe.self, Recipes.self, Repo.self, Deprecated.self, Stats.self],
+                      Recipe.self, Recipes.self, Repo.self, Deprecated.self, Stats.self,
+                      Bridges.self, Settings.self, Conformances.self, Rankings.self, Insights.self],
         defaultSubcommand: Lookup.self)
 }
 
