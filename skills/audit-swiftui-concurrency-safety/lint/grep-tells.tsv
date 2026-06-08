@@ -1,0 +1,16 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-concurrency-safety (conc-01 … conc-11).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (Task-in-onAppear containment, @Model-in-Task.detached co-occurrence) live in
+# ast-grep/*.yml (tier 2). conc-10 (a MISSING generation guard) is read-only — absence is unlintable.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+conc-01	warn	Task\.detached	Task.detached — confirm nothing non-Sendable crosses the boundary (a model class / ModelContext / NSView). Under the Swift 6 language mode this is an ERROR. cross_ref async-data if lifecycle-bound.
+conc-02	warn	@Sendable	@Sendable closure — if its body reads self. or a @MainActor property, that is "can not be referenced from a Sendable closure". Capture-by-value for reads; await MainActor.run to mutate (conc-02).
+conc-03	warn	DispatchQueue\.main\.async	DispatchQueue.main.async — GCD cargo-cult that side-steps isolation checking; in async/SwiftUI code use @MainActor / await MainActor.run (conc-03, fix_mode: auto).
+conc-04	adv	Task[[:space:]]*\{	bare Task { } — if inside .onAppear/.onChange it is not lifecycle-bound and never cancelled; prefer .task / .task(id:) (conc-04). SEAM: async-data owns the lifecycle fix.
+conc-05	adv	@MainActor[[:space:]]+(struct|enum|func|static)	@MainActor on a value type / free func — pure logic forced onto the main actor is isolation spam (conc-05); know the target's mode before relying on it.
+conc-06	adv	@Observable	@Observable type — if it touches UI state with NO @MainActor while assuming "6.2 makes it main-actor-by-default", verify the opt-in mode is actually ON (conc-06). cross_ref state-observation.
+conc-07	adv	@concurrent	@concurrent — Swift 6.2+ ONLY; always runs on the global executor. Confirm the target toolchain is 6.2+, else flag (conc-07, verify against Xcode 26 SDK).
+conc-08	adv	nonisolated[[:space:]]+func	plain nonisolated func — if async and assumed to run in the caller's context "because 6.2", that is FALSE without NonisolatedNonsendingByDefault; it hops to the global executor. Use nonisolated(nonsending) to force caller-context (conc-08).
+conc-09	warn	Transferable|loadTransferable|transferRepresentation	Transferable / loadTransferable — confirm the payload + its representation closures are Sendable (value type, no captured class) under strict checking (conc-09). cross_ref sandbox-files.

@@ -1,0 +1,27 @@
+# grep-tells.tsv — TIER 1 rules for audit-swiftui-macos-nativeness (nat-01 … nat-15).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv  (no hard rules here — nativeness breaks FEEL, not the build, so the
+# runner never exits 2). The runner greps each ERE over the target *.swift; this LOCATES only.
+#
+# IMPORTANT — this is a META-AUDIT of ABSENCE. Most nat-* smells are "this view has NO .onHover /
+# NO .formStyle / NO Settings scene", which grep CANNOT express. So these tells are of two kinds:
+#   (a) LOCATORS — presence of an interactive primitive / scene that the LLM must READ and check for a
+#       MISSING affordance (the absence is decided in SKILL.md step 3, never by the grep hit).
+#   (b) PRESENCE tells — a stale/iOS-only API or a touch idiom whose mere presence is the smell.
+# Every hit ROUTES to an owner skill (cross_ref) — this skill never fixes. Full per-smell method +
+# routing: ../references/smell-catalog.md + ../references/routing-map.md (routed from SKILL.md).
+nat-01	warn	\.onHover\b	LOCATOR: .onHover present (GOOD). READ siblings — custom interactive rows/cards WITHOUT .onHover are the smell (nat-01) → route audit-swiftui-pointer-gestures.
+nat-02	warn	Image\(systemName:	LOCATOR: icon view — if it is an icon-ONLY Button/segment with NO .help tooltip, smell nat-02 → route audit-swiftui-controls-forms (cross_ref accessibility for the label).
+nat-03	warn	@FocusState|\.focusable\(	LOCATOR: keyboard-focus API present (GOOD). READ — custom focus-taking views WITHOUT .focusable()/@FocusState are skipped by Tab (nat-03) → route audit-swiftui-controls-forms.
+nat-04	warn	\.swipeActions|onDelete\(|List\(	LOCATOR: row actions / List — a row with actions but NO right-click .contextMenu is non-native (nat-04) → route audit-swiftui-pointer-gestures.
+nat-05	adv	gesture\(DragGesture|Divider\(|\.resizable|onTapGesture	LOCATOR: draggable/divider/clickable view — if no .pointerStyle cursor (macOS 15+), smell nat-05 → route audit-swiftui-pointer-gestures.
+nat-06	warn	Form[[:space:]]*\{	LOCATOR: Form — confirm it carries .formStyle(.grouped); the macOS DEFAULT is ungrouped/non-native (nat-06) → route audit-swiftui-controls-forms.
+nat-07	adv	Picker\(|\.listStyle\(|\.buttonStyle\(|\.controlSize\(	LOCATOR: control styling — default density (no .listStyle/.controlSize/.pickerStyle(.menu)) reads oversized on macOS (nat-07) → route audit-swiftui-controls-forms.
+nat-08	warn	List[[:space:]]*\{|List\(	LOCATOR: List — structured multi-field rows belong in a sortable Table on macOS, not a single-column List (nat-08) → route audit-swiftui-layout-and-tables.
+nat-09	warn	WindowGroup|Window\(|DocumentGroup	LOCATOR: scene — confirm the root content view declares a min/ideal/max .frame; unsized windows collapse on drag (nat-09) → route audit-swiftui-layout-and-tables.
+nat-10	warn	WindowGroup|Window\(|Settings[[:space:]]*\{	LOCATOR: scene — confirm .defaultSize / .windowResizability is set on the scene; absent = arbitrary first-run size (nat-10) → route audit-swiftui-scenes-windows.
+nat-11	warn	NavigationStack[[:space:]]*\{|NavigationView[[:space:]]*\{	push stack as a shell — NavigationStack/NavigationView at the top level is an iPhone push idiom; a Mac wants NavigationSplitView (nat-11) → route audit-swiftui-navigation-toolbars. (NavigationView also deprecated.)
+nat-12	warn	navigationBarTitle|navigationBarTitleDisplayMode|navigationBarLeading|navigationBarTrailing|topBarLeading|topBarTrailing	iOS-bar API on a Mac target — navigationBarTitle/*DisplayMode have no macOS titlebar meaning; topBar* are UNAVAILABLE on macOS (compile error). Use navigationTitle + macOS placements (nat-12) → route audit-swiftui-navigation-toolbars.
+nat-13	warn	\.commands[[:space:]]*\{	LOCATOR: .commands present (GOOD). If the app instead fakes menu actions as in-window buttons and has NO .commands {} main-menu, smell nat-13 → route audit-swiftui-menus-commands.
+nat-14	warn	NSStatusItem|MenuBarExtra|Settings[[:space:]]*\{	LOCATOR/PRESENCE: NSStatusItem = a faked menu-bar app (use MenuBarExtra); absence of a Settings {} scene is the smell (nat-14) → route audit-swiftui-menus-commands / audit-swiftui-scenes-windows.
+nat-15	adv	\.swipeActions	swipe-to-delete idiom — if .swipeActions is the ONLY way to act on a row, that is the touch idiom; macOS needs a right-click .contextMenu too (nat-15) → route audit-swiftui-pointer-gestures.

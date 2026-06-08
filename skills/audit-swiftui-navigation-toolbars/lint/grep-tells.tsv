@@ -1,0 +1,21 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-navigation-toolbars (nav-01 … nav-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. The one structural rule
+# grep cannot express (a 3-col NavigationSplitView whose content: closure is just EmptyView() — nav-03)
+# lives in ast-grep/*.yml (tier 2). nav-04 (boolean+frame column-hide) and nav-08 (columnWidth INSIDE the
+# detail: closure) are kept here as grep tells, READ-confirmed, because neither makes a clean ast-grep rule
+# without heavy false positives (see ast-grep/nav-03-empty-middle-column.yml NOTE). Full ❌→✅ + sources:
+# ../references/*.md (routed from SKILL.md).
+nav-05	hard	\.topBarLeading|\.topBarTrailing	topBar* placement is UNAVAILABLE on macOS (compile error) → semantic .navigation/.primaryAction (nav-05, fix_mode: auto)
+nav-06	hard	\.navigationBarLeading|\.navigationBarTrailing	navigationBar* placement is deprecated iOS-only → .navigation/.primaryAction (nav-06, fix_mode: auto)
+nav-07	hard	\.navigationBarTitle\(|\.navigationBarTitleDisplayMode\(	iOS navigation-bar title concept — no-op on macOS → .navigationTitle/.navigationSubtitle (nav-07, fix_mode: auto)
+nav-11	warn	ToolbarSpacer\(|SpacerSizing	ToolbarSpacer/SpacerSizing is macOS 26.0+ — REPORT only if deployment target < macOS 26 (read in ORIENT); else verify it is gated #available(macOS 26, *) (nav-11)
+nav-01	warn	NavigationView[[:space:]]*\{	NavigationView is DEPRECATED (through macOS 26.5) → NavigationSplitView (sidebar+detail) / NavigationStack (drill-down). cross_ref api-currency (nav-01)
+nav-02	warn	NavigationStack[[:space:]]*\{	NavigationStack — if it is the TOP-LEVEL shell wrapping a sidebar List(selection:), it is the wrong Mac shell → NavigationSplitView; fine for drill-down inside a column. READ to confirm role (nav-02)
+nav-03	warn	NavigationSplitView[[:space:]]*\{	NavigationSplitView — if a 3-col init(sidebar:content:detail:) has an EmptyView()/placeholder content:, use the 2-col init(sidebar:detail:). READ the closures (nav-03)
+nav-04	warn	\.frame\([^)]*(maxWidth|width)[^)]*0[^)]*\)	a .frame(...width: 0) — if it collapses a column driven by a boolean instead of a columnVisibility binding, that is a frame hack (nav-04). READ for the NavigationSplitView context
+nav-08	warn	\.navigationSplitViewColumnWidth\(	navigationSplitViewColumnWidth — SILENT no-op on the DETAIL column; constrains leading columns only. For a resizable inspector use HSplitView/.inspector. UNVERIFIED — verify against Xcode 26 SDK (nav-08)
+nav-09	adv	List[[:space:]]*\(.*selection:	a sidebar List(selection:) — if it is the NavigationSplitView sidebar and lacks .listStyle(.sidebar), the material/selection highlight is wrong on macOS (nav-09)
+nav-10	adv	\.searchable\(	.searchable — put it on the NavigationSplitView, not on a column, or it lands in the wrong toolbar slot on macOS (nav-10)
+nav-12	adv	detail:[[:space:]]*\{	detail: closure — an empty/blank detail should be ContentUnavailableView, the native empty-state component (nav-12). READ the closure body
