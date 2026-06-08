@@ -17,7 +17,7 @@ struct SwiftUICtx: ParsableCommand {
         with `next_actions` you can run to drill in. Use --json for the machine envelope.
         Exit codes: 0 ok · 2 usage · 3 not-found · 4 network · 5 no-catalog.
         """,
-        version: "1.3.0",
+        version: "1.3.1",
         subcommands: [Lookup.self, Search.self, Examples.self, FileCmd.self,
                       Recipe.self, Recipes.self, Repo.self, Deprecated.self, Stats.self,
                       Bridges.self, Settings.self, Conformances.self, Rankings.self, Insights.self,
@@ -32,12 +32,12 @@ struct Doctor: ParsableCommand {
     func run() {
         let cat = loadCatalog(common)        // exits 5 with a clear error if the catalog is missing
         let idx = cat.index
-        let result: [String: Any] = ["version": "1.3.0", "ok": true,
+        let result: [String: Any] = ["version": "1.3.1", "ok": true,
             "catalog_dir": cat.dir.path, "repos": idx.i("repos_analyzed") ?? 0,
             "sdk": idx.s("sdk") ?? "?", "dimensions": idx.dict("dimension_sizes")]
         emit(result: result, next: [NextAction(cmd: "swiftui-ctx lookup searchable", why: "try a real query")],
              json: common.json) {
-            "swiftui-ctx 1.3.0 — OK\n  catalog: \(cat.dir.path)\n  corpus: \(idx.i("repos_analyzed") ?? 0) repos · \(idx.s("sdk") ?? "?")"
+            "swiftui-ctx 1.3.1 — OK\n  catalog: \(cat.dir.path)\n  corpus: \(idx.i("repos_analyzed") ?? 0) repos · \(idx.s("sdk") ?? "?")"
         }
     }
 }
