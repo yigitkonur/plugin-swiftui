@@ -1,14 +1,18 @@
 PREFIX ?= /usr/local
-WRAPPER := $(abspath swiftui-examples/scripts/swiftui-ctx)
+WRAPPER := $(abspath bin/swiftui-ctx)
 CATALOG := $(abspath catalog)
 
-.PHONY: build install uninstall test validate refresh clean help
+.PHONY: build build-universal install uninstall test validate refresh clean help
 
 help:                ## Show targets
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | sed 's/:.*##/ —/'
 
 build:               ## Build the release CLI (needs Xcode / Swift 6 toolchain)
 	cd swiftui-scan && swift build -c release --product swiftui-ctx
+
+build-universal:     ## Build a universal (arm64+x86_64) swiftui-ctx → ./swiftui-ctx (what CI ships)
+	cd swiftui-scan && swift build -c release --product swiftui-ctx --arch arm64 --arch x86_64
+	cp swiftui-scan/.build/apple/Products/Release/swiftui-ctx ./swiftui-ctx && file ./swiftui-ctx
 
 install: build       ## Symlink `swiftui-ctx` onto PATH ($(PREFIX)/bin)
 	@mkdir -p $(PREFIX)/bin
@@ -25,8 +29,12 @@ test: build          ## Scanner regression test + CLI smoke test
 	python3 swiftui-scan/fixtures/check.py
 	@SWIFTUI_CTX_CATALOG=$(CATALOG) swiftui-scan/.build/release/swiftui-ctx lookup searchable --json | python3 -c 'import sys,json;assert json.load(sys.stdin)["ok"];print("cli OK")'
 
-validate:            ## Validate the skill against the Agent Skills spec (needs skills-ref)
-	@command -v skills-ref >/dev/null && skills-ref validate ./swiftui-examples || echo "skills-ref not installed — see https://github.com/agentskills/agentskills"
+validate:            ## Validate all skills against the Agent Skills spec (needs skills-ref / npx)
+	@for s in skills/*/; do \
+	  if command -v skills-ref >/dev/null; then skills-ref validate "$$s"; \
+	  elif command -v npx >/dev/null; then npx -y @agentskills/skills-ref validate "$$s"; \
+	  else echo "no skills-ref/npx — manual check: $$s"; fi; done
+	@python3 -c 'import json;[json.load(open(f)) for f in (".claude-plugin/plugin.json",".claude-plugin/marketplace.json")];print("manifests: valid JSON")'
 
 refresh:             ## Rebuild the whole catalog from scratch (long; see RUN.md)
 	@echo "see RUN.md — runs scripts/00..08 (clones repos, ~hours)"

@@ -11,8 +11,9 @@ compatibility: Requires macOS with a Swift 6 toolchain (Xcode) to build the bund
 production repos**, quality-ranked (author authority + stars + modernity) with GitHub permalinks. It is the
 *practice* layer; the *spec* is **sosumi.ai** (official docs), which every result links to.
 
-`swiftui-ctx` is the bundled wrapper at `scripts/swiftui-ctx` (it builds the CLI on first run and points it at
-the catalog). Run `make install` once to put it on PATH, or call `scripts/swiftui-ctx <command>` directly.
+`swiftui-ctx` is the bundled wrapper at `${CLAUDE_PLUGIN_ROOT}/bin/swiftui-ctx` — it downloads or builds the CLI on
+first run and points it at the catalog automatically. Inside the plugin call `"$CLAUDE_PLUGIN_ROOT/bin/swiftui-ctx" <cmd>`;
+from a clone, run `make install` once to put `swiftui-ctx` on PATH. Both self-locate the catalog.
 
 ## The rule (do this first, every time)
 
@@ -45,16 +46,15 @@ Full rationale + how ranking works (so you can trust `recommended`/`consensus`) 
 - **iOS-only code** → only with `--platform any` (the corpus is macOS-first).
 
 ## First run / discovery
-The CLI + catalog ship in this skill's repo. The bundled wrapper (`scripts/swiftui-ctx`) builds the CLI on
-first use and finds the catalog automatically — no manual paths.
+The CLI + catalog ship with the plugin. The bundled wrapper downloads or builds the CLI on first use and finds the
+catalog automatically — no manual paths.
 ```sh
-make install          # from the repo root: builds the CLI + puts `swiftui-ctx` on PATH (one time)
-swiftui-ctx stats     # confirms the catalog loads (exit 5 = catalog missing → STOP, tell the user, do not fabricate)
+CTX="${CLAUDE_PLUGIN_ROOT:-.}/bin/swiftui-ctx"   # or just `swiftui-ctx` after `make install` from a clone
+"$CTX" doctor     # confirms the catalog loads (exit 5 = catalog missing → STOP, tell the user, do not fabricate)
 ```
-If `make install` can't write to PATH, run the wrapper directly — it self-builds and self-locates the catalog:
-`scripts/swiftui-ctx stats`. Names work as you write them: `lookup @State`, `lookup .searchable`,
-`lookup frame(width:height:)` all resolve. Add `--json` for the machine envelope; default is human markdown
-ending in a literal `Next:` block.
+First run may take ~1-2 min (downloads a prebuilt binary, or builds from source if a Swift toolchain is present).
+Names work as you write them: `lookup @State`, `lookup .searchable`, `lookup frame(width:height:)` all resolve.
+Add `--json` for the machine envelope; default is human markdown ending in a literal `Next:` block.
 
 ## The loop (non-negotiable)
 1. Run the **first command** for your situation (table below).

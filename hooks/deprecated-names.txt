@@ -1,0 +1,31 @@
+foregroundColor|foregroundStyle
+tabItem|Tab
+borderlessButton|borderless
+NavigationView|NavigationStack
+Alert|alert
+edgesIgnoringSafeArea|ignoresSafeArea
+presentationMode|dismiss
+accentColor|tint
+disableAutocorrection|autocorrectionDisabled
+MagnificationGesture|MagnifyGesture
+navigationViewStyle|(no replacement)
+navigationBarTitle|navigationTitle
+navigationBarHidden|(no replacement)
+controlActiveState|(no replacement)
+colorMultiply|foregroundStyle
+sizeCategory|dynamicTypeSize
+MenuButton|(no replacement)
+BorderlessButtonMenuStyle|(no replacement)
+ContextMenu|(no replacement)
+RotationGesture|RotateGesture
+borderedButton|(no replacement)
+DoubleColumnNavigationViewStyle|(no replacement)
+menuButtonStyle|(no replacement)
+BorderlessButtonMenuButtonStyle|(no replacement)
+PopUpButtonPickerStyle|(no replacement)
+DefaultNavigationViewStyle|(no replacement)
+accessibilityShowButtonShapes|accessibilityShowBorders
+MenuButtonStyle|(no replacement)
+ContentSizeCategory|DynamicTypeSize
+DefaultMenuButtonStyle|(no replacement)
+PullDownMenuButtonStyle|(no replacement)

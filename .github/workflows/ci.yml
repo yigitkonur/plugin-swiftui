@@ -1,0 +1,20 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build + scanner regression + CLI smoke
+        run: make test
+      - name: CLI doctor (catalog loads)
+        run: SWIFTUI_CTX_CATALOG="$PWD/catalog" swiftui-scan/.build/release/swiftui-ctx doctor
+      - name: Validate skills against the Agent Skills spec
+        run: |
+          if command -v npx >/dev/null; then
+            for s in skills/*/; do npx -y @agentskills/skills-ref validate "$s" || echo "validate skipped/failed for $s"; done
+          else echo "npx unavailable — skipping skills-ref validate"; fi

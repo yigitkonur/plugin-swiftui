@@ -19,16 +19,26 @@ i kept fighting my ai agent on swiftui. it'd confidently emit stuff that was eit
 - coverage: **511 modifiers · 402 types · ~120 style values · property wrappers · env keys · 12 recipes**
 - everything carries a **github permalink** pinned to a commit sha
 
-## quickstart
+## install
 
-```sh
-git clone https://github.com/yigitkonur/skill-swiftui
-cd skill-swiftui
-make install          # builds the cli (needs xcode/swift 6 toolchain) + symlinks `swiftui-ctx` onto PATH
-swiftui-ctx stats     # sanity check — should print the corpus size
+it's a claude code plugin. one marketplace add, one install:
+
+```
+/plugin marketplace add yigitkonur/skill-swiftui
+/plugin install swiftui
 ```
 
-no toolchain? you can still read `catalog/*.json` directly — it's plain json.
+that's it. you get **3 skills** (swiftui-examples, swiftui-modernize, macos-app-patterns), **2 commands** (`/swiftui`, `/swiftui-review`), a **reviewer agent**, and an opt-in **deprecation hook**. the cli auto-installs on first use — it downloads a prebuilt universal binary, or builds from source if you've got xcode. no manual paths, no setup.
+
+prefer the cli alone (no plugin)?
+
+```sh
+git clone https://github.com/yigitkonur/skill-swiftui && cd skill-swiftui
+make install          # downloads/builds the cli + symlinks `swiftui-ctx` onto PATH
+swiftui-ctx doctor    # sanity check
+```
+
+no toolchain and offline? the prebuilt binary covers you; worst case `catalog/*.json` is plain json you can read directly.
 
 ## what the cli does
 
@@ -55,9 +65,19 @@ it's reproducible. `scripts/00..08` do the whole thing (see [`run.md`](RUN.md)):
 
 the cli contract is in [`cli.md`](CLI.md). the catalog shards in `catalog/` are the queryable output (the 92mb raw decl dump is excluded — regenerate it with the pipeline if you want it).
 
-## the skill
+## what's in the plugin
 
-`swiftui-examples/` is the actual agent skill (follows the [agent skills spec](https://agentskills.io)). it tells the agent **when** to reach for the cli (before writing/reviewing/modernizing swiftui), makes it announce + query before it writes, and routes depth to `references/`. point your agent at it and it'll use the cli at the right moments instead of guessing.
+follows the [agent skills](https://agentskills.io) + claude code plugin specs (`.claude-plugin/`).
+
+- **skills/** (the agent reaches for these automatically, at the right moment):
+  - `swiftui-examples` — writing/looking up a swiftui api → real usage + consensus shape.
+  - `swiftui-modernize` — auditing/upgrading existing code → find + migrate deprecated apis.
+  - `macos-app-patterns` — scaffolding a whole feature → menu-bar app, settings, master-detail, nsview bridge…
+- **commands/** — `/swiftui <api|intent>` (quick lookup) · `/swiftui-review [file]` (deprecation + consensus audit).
+- **agents/** — `swiftui-reviewer`, a review subagent for swiftui diffs.
+- **hooks/** — an opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api and it nudges you with the fix (static grep, no latency, warn-only; `SWIFTUI_GUARD=off` to disable).
+
+all of it drives the same `swiftui-ctx` cli + bundled catalog. the cli contract is in [`cli.md`](CLI.md).
 
 ## honesty / caveats
 

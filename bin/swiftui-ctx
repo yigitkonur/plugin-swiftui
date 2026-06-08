@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# swiftui-ctx — plugin entrypoint. Resolves the binary in this order, then execs it with the bundled catalog:
+#   1. $SWIFTUI_CTX_BIN override
+#   2. in-repo dev build (swiftui-scan/.build/release)        — for cloned/dev checkouts
+#   3. cached prebuilt (~/.cache/swiftui-ctx/bin/<version>)    — downloaded once
+#   4. download the GitHub release asset for this version     — zero-toolchain path
+#   5. build from source into ~/.cache (writable; works from a read-only plugin dir)
+#   6. exit 5 with a doctor hint
+set -euo pipefail
+
+# --- locate the plugin/repo root (CLAUDE_PLUGIN_ROOT when run as a plugin, else this script's realpath) ---
+if [ -n "${CLAUDE_PLUGIN_ROOT:-}" ]; then
+  root="$CLAUDE_PLUGIN_ROOT"
+else
+  src="${BASH_SOURCE[0]}"
+  while [ -h "$src" ]; do d="$(cd -P "$(dirname "$src")" && pwd)"; src="$(readlink "$src")"; [[ $src != /* ]] && src="$d/$src"; done
+  root="$(cd -P "$(dirname "$src")/.." && pwd)"
+fi
+export SWIFTUI_CTX_CATALOG="${SWIFTUI_CTX_CATALOG:-$root/catalog}"
+
+repo="yigitkonur/skill-swiftui"
+ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.claude-plugin/plugin.json" 2>/dev/null | head -1)"
+ver="${ver:-dev}"
+cache="${XDG_CACHE_HOME:-$HOME/.cache}/swiftui-ctx"
+cached="$cache/bin/swiftui-ctx-$ver"
+mkdir -p "$cache/bin"
+
+works() { [ -x "$1" ] && "$1" --version >/dev/null 2>&1; }
+
+bin=""
+if [ -n "${SWIFTUI_CTX_BIN:-}" ] && works "$SWIFTUI_CTX_BIN"; then
+  bin="$SWIFTUI_CTX_BIN"
+elif works "$root/swiftui-scan/.build/release/swiftui-ctx"; then
+  bin="$root/swiftui-scan/.build/release/swiftui-ctx"
+elif works "$cached"; then
+  bin="$cached"
+else
+  # try the prebuilt release asset (universal macOS binary) — no toolchain needed
+  url="https://github.com/$repo/releases/download/v$ver/swiftui-ctx"
+  if command -v curl >/dev/null && curl -fsSL "$url" -o "$cached.tmp" 2>/dev/null; then
+    chmod +x "$cached.tmp"; mv "$cached.tmp" "$cached"
+    works "$cached" && bin="$cached" || rm -f "$cached"
+  fi
+  # fall back to building from source into the cache (works even if $root is read-only)
+  if [ -z "$bin" ] && command -v swift >/dev/null && [ -d "$root/swiftui-scan" ]; then
+    echo "swiftui-ctx: building from source (first run, ~1-2 min)…" >&2
+    ( cd "$root/swiftui-scan" && swift build -c release --product swiftui-ctx --build-path "$cache/build" >&2 )
+    built="$cache/build/release/swiftui-ctx"
+    works "$built" && { cp "$built" "$cached"; bin="$cached"; }
+  fi
+fi
+
+if [ -z "$bin" ]; then
+  echo "swiftui-ctx: no usable binary. Need either network (to download v$ver) or a Swift 6 toolchain (Xcode)." >&2
+  echo "  run: $root/bin/swiftui-ctx doctor   (once a binary exists) — or install Xcode and retry." >&2
+  exit 5
+fi
+exec "$bin" "$@"
