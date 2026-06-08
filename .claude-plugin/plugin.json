@@ -1,0 +1,14 @@
+{
+  "name": "swiftui",
+  "description": "Real production SwiftUI usage from 1,857 shipping macOS apps, via the swiftui-ctx CLI. Grounds AI-written SwiftUI in real, quality-ranked, current examples with GitHub permalinks: look up how an API is actually used, see consensus argument shapes, flag deprecated calls, scaffold whole patterns. Use before writing, reviewing, or modernizing SwiftUI on macOS.",
+  "version": "1.1.0",
+  "author": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
+  "homepage": "https://github.com/yigitkonur/skill-swiftui",
+  "repository": "https://github.com/yigitkonur/skill-swiftui",
+  "license": "MIT",
+  "keywords": ["swiftui", "macos", "swift", "code-examples", "cli"],
+  "skills": "./skills",
+  "commands": "./commands",
+  "agents": "./agents",
+  "hooks": "./hooks/hooks.json"
+}

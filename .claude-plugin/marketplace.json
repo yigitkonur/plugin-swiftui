@@ -1,0 +1,17 @@
+{
+  "name": "skill-swiftui",
+  "owner": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
+  "metadata": {
+    "description": "Real-world SwiftUI for AI agents — how 1,857 shipping macOS apps actually use SwiftUI, as a queryable CLI + skills.",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "swiftui",
+      "description": "Ground AI-written SwiftUI in real production usage from 1,857 macOS apps: lookup/consensus/deprecation/recipes via the swiftui-ctx CLI, plus skills, slash commands, a review agent, and a deprecation hook.",
+      "version": "1.1.0",
+      "author": { "name": "yigitkonur" },
+      "source": "."
+    }
+  ]
+}

@@ -9,6 +9,9 @@ jobs:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable          # Swift 6 toolchain (runner default is older)
       - name: Build + scanner regression + CLI smoke
         run: make test
       - name: CLI doctor (catalog loads)
