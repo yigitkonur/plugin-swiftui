@@ -7,7 +7,12 @@ repos/
 sg/
 sg_std/
 *.tsv
+!skills/*/lint/grep-tells.tsv     # tier-1 audit lint rules — MUST ship (not a pipeline intermediate)
+!scripts/audit-signals.tsv        # orchestrator routing signals — MUST ship (audit-scan.py reads it)
 catalog/customComponents.json   # 92MB raw decl dump; not read by the CLI — regenerate via scripts/05_catalog.py
+
+# the plugin manifest dir must ship even though a global ~/.gitignore may hide dot-dirs
+!.claude-plugin/
 
 # python / os
 __pycache__/
