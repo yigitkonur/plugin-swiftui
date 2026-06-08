@@ -19,7 +19,8 @@ struct SwiftUICtx: ParsableCommand {
         """,
         subcommands: [Lookup.self, Search.self, Examples.self, FileCmd.self,
                       Recipe.self, Recipes.self, Repo.self, Deprecated.self, Stats.self,
-                      Bridges.self, Settings.self, Conformances.self, Rankings.self, Insights.self],
+                      Bridges.self, Settings.self, Conformances.self, Rankings.self, Insights.self,
+                      ValueBuilders.self],
         defaultSubcommand: Lookup.self)
 }
 

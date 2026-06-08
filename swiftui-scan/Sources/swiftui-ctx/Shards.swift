@@ -205,6 +205,40 @@ struct Insights: ParsableCommand {
     }
 }
 
+// ---- valueBuilders — the Font/Color/Animation/gradient value vocabulary (valueBuilders.json) ----
+struct ValueBuilders: ParsableCommand {
+    static let configuration = CommandConfiguration(commandName: "valueBuilders",
+        abstract: "The real Font/Color/Animation/gradient value vocabulary, ranked by production usage.")
+    @OptionGroup var common: Common
+    @Argument(help: "Optional name filter (e.g. gradient, ease, system, bouncy). Omit to list the top builders.") var filter: String?
+
+    func run() {
+        let cat = loadCatalog(common)
+        let shard = cat.obj("valueBuilders.json")
+        let f = filter?.lowercased()
+        var items = shard.compactMap { (k, v) -> [String: Any]? in
+            guard let e = v as? [String: Any] else { return nil }
+            if let f = f, !k.lowercased().contains(f) { return nil }
+            return ["name": k, "total_uses": e.i("total_uses") ?? 0,
+                    "repo_count": e.i("repo_count") ?? 0, "low_corpus": e["low_corpus"] as? Bool ?? false]
+        }
+        items.sort { ($0["total_uses"] as? Int ?? 0) > ($1["total_uses"] as? Int ?? 0) }
+        let top = Array(items.prefix(common.limit))
+        let result: [String: Any] = ["total": shard.count, "matched": items.count, "builders": top]
+        var next: [NextAction] = []
+        if let first = top.first, let n = first["name"] as? String {
+            next.append(NextAction(cmd: "swiftui-ctx lookup \(n)", why: "per-symbol consensus + real examples"))
+        }
+        emit(result: result, next: next, json: common.json) {
+            var s = "# value builders" + (f != nil ? " matching '\(filter ?? "")'" : "") + " — \(items.count) of \(shard.count), top \(top.count) by use:"
+            for b in top {
+                s += "\n  \(b["name"] as? String ?? "")  \(b["total_uses"] as? Int ?? 0) uses · \(b["repo_count"] as? Int ?? 0) repos" + ((b["low_corpus"] as? Bool ?? false) ? "  ⚠️ low" : "")
+            }
+            return s
+        }
+    }
+}
+
 func prettySnippet(_ v: Any?) -> String {
     guard let v = v else { return "(none)" }
     if let d = try? JSONSerialization.data(withJSONObject: v, options: [.prettyPrinted]),
