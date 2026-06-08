@@ -28,7 +28,7 @@ it's a claude code plugin. one marketplace add, one install:
 /plugin install swiftui
 ```
 
-that's it. you get **3 skills** (swiftui-examples, swiftui-modernize, macos-app-patterns), **2 commands** (`/swiftui`, `/swiftui-review`), a **reviewer agent**, and an opt-in **deprecation hook**. the cli auto-installs on first use — it downloads a prebuilt universal binary, or builds from source if you've got xcode. no manual paths, no setup.
+that's it. you get **33 skills** — write/lookup (swiftui-examples, macos-app-patterns), modernize (swiftui-modernize), and a 28-skill macos-swiftui **audit suite** (orchestrated by `audit-macos-swiftui-full`) — plus **2 commands** (`/swiftui`, `/swiftui-review`), a **reviewer agent**, and an opt-in **deprecation hook**. the cli auto-installs on first use — it downloads a prebuilt universal binary, or builds from source if you've got xcode. no manual paths, no setup.
 
 prefer the cli alone (no plugin)?
 

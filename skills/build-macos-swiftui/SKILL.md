@@ -1,6 +1,6 @@
 ---
 name: build-macos-swiftui
-description: Use skill if you are writing, reviewing, or refactoring SwiftUI for macOS — @Observable state, scenes/windows/menu bar (Settings, MenuBarExtra, .commands), NavigationSplitView sidebars, AppKit (NSViewRepresentable) bridging, Swift 6 concurrency, SwiftData, App Sandbox file access, or macOS-gated Liquid Glass. Triggers include "write a SwiftUI view for Mac", "macOS menu bar app", "Settings window", "Mac sidebar app", "bridge NSTextView/NSView", "state isn't updating", "sandbox file access", "SwiftData crash", "Liquid Glass on macOS". NOT for iOS/iPadOS SwiftUI, visual-only HIG snapshot auditing, or codesigning/notarization.
+description: Use skill if you are writing, reviewing, or refactoring SwiftUI for macOS — @Observable state, scenes/windows/menu bar (Settings, MenuBarExtra, .commands), NavigationSplitView sidebars, AppKit (NSViewRepresentable) bridging, Swift 6 concurrency, SwiftData, App Sandbox file access, or macOS-gated Liquid Glass. Triggers include "write a SwiftUI view for Mac", "macOS menu bar app", "Settings window", "Mac sidebar app", "bridge NSTextView/NSView", "state isn't updating", "sandbox file access", "SwiftData crash", "Liquid Glass on macOS". NOT for iOS/iPadOS SwiftUI, visual-only HIG snapshot auditing, codesigning/notarization, a single-API lookup (use swiftui-examples), recipe/template scaffolding (use macos-app-patterns), or a whole-codebase audit (use audit-macos-swiftui-full).
 ---
 
 # Build macOS SwiftUI
@@ -9,11 +9,15 @@ Write correct, current, idiomatic **macOS** SwiftUI. This catalog encodes the mi
 Mac and the current rule for each. The target is **always macOS**; iOS appears only as a ❌ contrast.
 Depth for any topic is one hop away in `references/`.
 
-> **Write-time vs. audit.** This skill (+ its `macos-swiftui-reviewer` agent and the quick
+> **Write-time vs. audit.** This skill (+ its `swiftui-reviewer` agent and the quick
 > `scripts/macos-swiftui-lint.sh`) is the **write-time** authoring + review path. For a **deep, whole-codebase
 > audit** of a finished project, use the **`audit-macos-swiftui-full`** orchestrator and the 28
 > `audit-swiftui-*` skills (the shared 333-rule `scripts/swiftui-lint.sh`, Sosumi + `swiftui-ctx`
 > verification, findings written to `swiftui-audits/`). The two are complementary, not rivals.
+>
+> **Verify APIs against the live catalog.** Before emitting any non-trivial API, run `swiftui-ctx lookup <api>`
+> (the `swiftui-examples` skill) for the real consensus shape — `references/api-currency.md` is a curated summary,
+> not a substitute for the live corpus.
 
 ## When to use / not use
 
@@ -223,7 +227,7 @@ This skill ships a closed loop — use it to legitimately claim rung 2+ of the O
 - **Compile hook** — a `PostToolUse` hook (`hooks/hooks.json` → `swiftui-build-check.sh`) builds the
   enclosing project for the **macOS** destination after each Swift edit and **blocks on compile errors**.
   It needs Xcode + the macOS 26 SDK and a real Xcode/SwiftPM project; it no-ops elsewhere.
-- **Reviewer** — the `macos-swiftui-reviewer` subagent audits a diff against this catalog and reports
+- **Reviewer** — the `swiftui-reviewer` subagent audits a diff against this catalog and reports
   `FILE / RULE / LINE / VIOLATION / FIX`. Invoke it before declaring a change done.
 
 State the verification rung you actually reached. "Compiles" requires the hook/build to have run green.

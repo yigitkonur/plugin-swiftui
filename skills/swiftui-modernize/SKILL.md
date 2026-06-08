@@ -1,6 +1,6 @@
 ---
 name: swiftui-modernize
-description: Audit and modernize EXISTING SwiftUI code on macOS — find deprecated APIs and migrate them to the current idiom, backed by real production examples. Use when asked to "modernize", "upgrade", "clean up", or "update" SwiftUI, to "remove deprecated APIs", when raising a deployment target, or when reviewing old SwiftUI for staleness. Drives the swiftui-ctx CLI (deprecated + lookup). Do NOT use for writing brand-new code from scratch (use swiftui-examples), scaffolding whole features (use macos-app-patterns), or non-SwiftUI Swift.
+description: Audit and modernize EXISTING SwiftUI code on macOS — find deprecated APIs and migrate them to the current idiom, backed by real production examples. Use when asked to "modernize", "upgrade", "clean up", or "update" SwiftUI, to "remove deprecated APIs", when raising a deployment target, or when reviewing old SwiftUI for staleness. Drives the swiftui-ctx CLI (deprecated + lookup). Do NOT use for writing brand-new code from scratch (use swiftui-examples), scaffolding whole features (use macos-app-patterns), non-SwiftUI Swift, or a whole-codebase audit with structured findings (use audit-swiftui-api-currency, or audit-macos-swiftui-full for an end-to-end pass).
 license: MIT
 ---
 

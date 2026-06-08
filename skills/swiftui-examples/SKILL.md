@@ -1,6 +1,6 @@
 ---
 name: swiftui-examples
-description: Real production SwiftUI usage from 1,857 shipping macOS apps via the `swiftui-ctx` CLI. Use BEFORE writing or editing ANY SwiftUI code (a View, modifier, Scene, @State/@Observable/@Environment, gesture, command, style) and the moment you are about to write a SwiftUI API from memory, pick an argument shape, check if something is deprecated, modernize old code, review/audit SwiftUI, or plan a SwiftUI feature. It replaces guessing with real, quality-ranked, current examples that carry GitHub permalinks — stopping hallucinated and deprecated APIs. Do NOT use for official API signatures/semantics (use sosumi.ai), non-SwiftUI Swift (Foundation/Combine/AppKit), or Xcode/build config.
+description: Real production SwiftUI usage from 1,857 shipping macOS apps via the `swiftui-ctx` CLI. Use BEFORE writing or editing ANY SwiftUI code (a View, modifier, Scene, @State/@Observable/@Environment, gesture, command, style) and the moment you are about to write a SwiftUI API from memory, pick an argument shape, check the current idiom for an API, or plan a SwiftUI feature. It replaces guessing with real, quality-ranked, current examples that carry GitHub permalinks — stopping hallucinated and deprecated APIs. Do NOT use for official API signatures/semantics (use sosumi.ai), migrating an existing file off deprecated APIs (use swiftui-modernize), a whole-codebase audit (use audit-macos-swiftui-full), non-SwiftUI Swift (Foundation/Combine/AppKit), or Xcode/build config.
 license: MIT
 compatibility: Requires macOS with a Swift 6 toolchain (Xcode) to build the bundled CLI on first run; the file command needs network access. Using the CLI needs nothing else (the catalog is bundled).
 ---
@@ -37,8 +37,8 @@ Full rationale + how ranking works (so you can trust `recommended`/`consensus`) 
 
 ## When to use — fire on ANY of these
 - About to **write/edit** a SwiftUI call: a `View`/`Scene` type, a `.modifier(...)`, `@State`/`@Binding`/`@Observable`/`@Environment`/`@AppStorage`/`@FocusState`, a gesture, a `Command`, a style.
-- **Unsure** of an argument shape or which overload; **modernizing**; the word **"deprecated"** is in play.
-- **Reviewing / auditing** SwiftUI; **planning** a SwiftUI feature; **debugging** a SwiftUI symptom ("state not updating", "view won't refresh", "list is slow").
+- **Unsure** of an argument shape or which overload; verifying the **current idiom** for an API before you write it.
+- **Planning** a SwiftUI feature (which APIs/recipes to reach for). For *migrating* an existing file off deprecated APIs use `swiftui-modernize`; for *symptoms* in finished code ("state not updating", "list is slow") or a whole-codebase pass, run the relevant `audit-swiftui-*` skill / `audit-macos-swiftui-full`.
 
 ## Do NOT use (and what to use instead)
 - **Official signatures/semantics** → **sosumi.ai** (the `doc:` link in every result).
@@ -70,8 +70,8 @@ Add `--json` for the machine envelope; default is human markdown ending in a lit
 | Is it current / deprecated? | `swiftui-ctx deprecated <api>` | if deprecated → `swiftui-ctx lookup <replacement>` |
 | Building a known pattern | `swiftui-ctx recipe <name>` | `swiftui-ctx file <example.id> --smart` |
 | Planning a feature (unknown APIs) | `swiftui-ctx search "<intent>"` | `swiftui-ctx lookup <each candidate>` |
-| Reviewing / auditing SwiftUI | `swiftui-ctx deprecated` + `lookup <api>` per call | compare the code to `consensus`; flag deprecated |
-| Debugging a SwiftUI symptom | `swiftui-ctx lookup <suspect>` (check `deprecated` + `co_occurs_with`) | `file --smart` a correct example to diff against |
+
+(Migrating a file off deprecated APIs → `swiftui-modernize`. Reviewing/auditing finished code or a whole project → the `audit-swiftui-*` skills / `audit-macos-swiftui-full`. This skill is the *write/lookup* layer those skills call for the consensus shape.)
 
 Worked transcripts for each row + the recipe list → `references/playbook.md`.
 

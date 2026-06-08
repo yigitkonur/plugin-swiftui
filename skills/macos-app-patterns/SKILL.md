@@ -1,6 +1,6 @@
 ---
 name: macos-app-patterns
-description: Scaffold whole macOS SwiftUI features from real production patterns — menu-bar apps, settings/preferences screens, sidebar master-detail, NSView/AppKit bridges, Swift Charts, command palettes, drag-to-reorder, cached async images. Use when asked to "build", "add", "scaffold", or "set up" one of these on macOS, or when you need the multi-API recipe (not a single call). Drives the swiftui-ctx CLI (recipe + file). Do NOT use for a single API lookup (use swiftui-examples) or fixing deprecated code (use swiftui-modernize).
+description: Scaffold whole macOS SwiftUI features from real production patterns — menu-bar apps, settings/preferences screens, sidebar master-detail, NSView/AppKit bridges, Swift Charts, command palettes, drag-to-reorder, cached async images. Use when asked to "build", "add", "scaffold", or "set up" one of these on macOS, or when you need the multi-API recipe (not a single call). Drives the swiftui-ctx CLI (recipe + file). Do NOT use for a single API lookup (use swiftui-examples), fixing deprecated code (use swiftui-modernize), or auditing a finished codebase (use audit-macos-swiftui-full).
 license: MIT
 ---
 
