@@ -1,0 +1,3 @@
+# rule_ids that MUST fire on drawing-canvas.swift (guards the previously-malformed draw-05/draw-12 rows)
+draw-03
+draw-05
