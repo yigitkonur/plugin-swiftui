@@ -45,7 +45,7 @@ applied serially in this same order** per the fix-safety protocol (§FIX below).
 |---|---|---|
 | **0 · Guards (cross-cutting, sequential)** | `audit-swiftui-api-currency` → `audit-swiftui-availability-gating` → `audit-swiftui-concurrency-safety` | Mechanical-rename + gating + isolation guards. They rewrite/flag symbols every other domain depends on, so they must settle first (fix-safety §5). |
 | **1 · State & data** | `audit-swiftui-state-observation` → `audit-swiftui-swiftdata` → `audit-swiftui-async-data` → `audit-swiftui-state-restoration` → `audit-swiftui-document-model` | Where the model lives and how it loads/persists/restores — UI correctness depends on it. |
-| **2 · UI domains** | `audit-swiftui-scenes-windows` → `audit-swiftui-menus-commands` → `audit-swiftui-navigation-toolbars` → `audit-swiftui-controls-forms` → `audit-swiftui-layout-and-tables` → `audit-swiftui-liquid-glass` → `audit-swiftui-animation-motion` → `audit-swiftui-drawing-canvas` → `audit-swiftui-charts` → `audit-swiftui-typography-text` → `audit-swiftui-appearance-color` → `audit-swiftui-accessibility` → `audit-swiftui-localization` → `audit-swiftui-pointer-gestures` → `audit-swiftui-previews` → `audit-swiftui-sandbox-files` | Scene shell outward to content, chrome, motion, drawing, type, color, a11y, loc, pointer, previews, files. Each owns its own gating in depth (guards already caught the misses). |
+| **2 · UI domains** | `audit-swiftui-scenes-windows` → `audit-swiftui-menus-commands` → `audit-swiftui-navigation-toolbars` → `audit-swiftui-controls-forms` → `audit-swiftui-layout-and-tables` → `audit-swiftui-liquid-glass` → `audit-swiftui-animation-motion` → `audit-swiftui-drawing-canvas` → `audit-swiftui-charts` → `audit-swiftui-typography-text` → `audit-swiftui-appearance-color` → `audit-swiftui-accessibility` → `audit-swiftui-localization` → `audit-swiftui-pointer-gestures` → `audit-swiftui-previews` → `audit-swiftui-sandbox-files` → `audit-swiftui-view-performance` | Scene shell outward to content, chrome, motion, drawing, type, color, a11y, loc, pointer, previews, files, then render cost (`view-performance` reads over-rendering after state settles). Each owns its own gating in depth (guards already caught the misses). |
 | **3 · Boundary & scoring (last)** | `audit-swiftui-appkit-interop` → `audit-swiftui-appkit-overuse` → `audit-swiftui-macos-nativeness` | The AppKit seam (HOW↔WHETHER) and the 0-100 nativeness meta-score read the full codebase + the prior findings; nativeness re-scores last for a before/after delta. |
 
 28 skills total. The seam-ownership that decides who keeps a finding when two waves hit the same
@@ -154,11 +154,13 @@ not replace the VERIFY/READ step.
 
 | Shared file | Open when |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}/references/_shared/cross-ref-graph.md` | step DEDUP — seam ownership (who keeps a colliding finding) + the 89-edge `cross_ref` graph |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/cross-ref-graph.md` | step DEDUP — seam ownership (who keeps a colliding finding) + the 129-seam `cross_ref` graph |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/finding-schema.md` | the byte-identical finding format + the `_SUMMARY.md` contract every skill inherits |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/fix-safety-protocol.md` | step FIX — the 8-point protocol + the guards-first cross-skill order |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/lint-architecture.md` | step LOCATE — the shared runner's engine, JSON/SARIF shape, degradation rails |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | any floor/availability value (the reconciled truth) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/macos-arm-gating.md` | any arm-gating question (a macOS-version / wrong-arch availability miss) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md` | any invented-name question (a confabulated API like `@FocusedDocument`, `.glassBackground`) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/sosumi-reference.md` | step VERIFY — the Apple-doc spec fetch protocol |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui-ctx-reference.md` | step VERIFY — the shipping-corpus practice CLI (consensus shape + permalinked example) |
 

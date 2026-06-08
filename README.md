@@ -28,7 +28,17 @@ it's a claude code plugin. one marketplace add, one install:
 /plugin install swiftui
 ```
 
-that's it. you get **33 skills** — write/lookup (swiftui-examples, macos-app-patterns), modernize (swiftui-modernize), and a 28-skill macos-swiftui **audit suite** (orchestrated by `audit-macos-swiftui-full`) — plus **2 commands** (`/swiftui`, `/swiftui-review`), a **reviewer agent**, and an opt-in **deprecation hook**. the cli auto-installs on first use — it downloads a prebuilt universal binary, or builds from source if you've got xcode. no manual paths, no setup.
+that's it. you get **33 skills** — write/lookup (swiftui-examples, macos-app-patterns), modernize (swiftui-modernize), and a macos-swiftui **audit suite** (28 domain auditors + the `audit-macos-swiftui-full` orchestrator) — plus **3 commands** (`/swiftui`, `/swiftui-review`, `/swiftui-audit`), a **reviewer agent**, and an opt-in **deprecation hook**. the cli auto-installs on first use — it downloads a prebuilt universal binary, or builds from source if you've got xcode. no manual paths, no setup.
+
+### use it now (the three paths)
+
+```
+/swiftui NavigationSplitView      # look up how an api is really used (consensus shape + real examples)
+/swiftui-review MyView.swift      # review one file/diff for deprecated + non-idiomatic swiftui
+/swiftui-audit Sources/           # full whole-codebase audit (steers to the relevant domains, scores nativeness)
+```
+
+how they relate: **write** new code → `swiftui-examples` (per-api) or `macos-app-patterns` (whole feature); **fix** an existing file off deprecated apis → `swiftui-modernize`; **audit** a finished project → `/swiftui-audit`. the skills fire automatically when you describe the task; the commands are the explicit shortcuts.
 
 prefer the cli alone (no plugin)?
 
@@ -78,8 +88,8 @@ follows the [agent skills](https://agentskills.io) + claude code plugin specs (`
   - `build-macos-swiftui` — broader write/review/refactor guidance (@observable state, native mac idioms…).
 - **audit (28 skills):**
   - `audit-macos-swiftui-full` — the orchestrator: routes a codebase through the relevant domain audits in dependency-ordered waves and rolls everything into one `_SUMMARY.md`.
-  - 27 domain auditors — `audit-swiftui-{accessibility, concurrency-safety, state-observation, liquid-glass, navigation-toolbars, swiftdata, macos-nativeness, view-performance, scenes-windows, charts, …}`. each pairs a shared grep+ast-grep lint engine (locates candidates) with `swiftui-ctx` evidence (the auditor *judges*, the engine never reports a finding as fact).
-- **commands/** — `/swiftui <api|intent>` (quick lookup) · `/swiftui-review [file]` (deprecation + consensus audit).
+  - 28 domain auditors — `audit-swiftui-{accessibility, concurrency-safety, state-observation, liquid-glass, navigation-toolbars, swiftdata, macos-nativeness, view-performance, scenes-windows, charts, …}`. each pairs a shared 334-rule grep+ast-grep lint engine (locates candidates) with `swiftui-ctx` evidence (the auditor *judges*, the engine never reports a finding as fact).
+- **commands/** — `/swiftui <api|intent>` (quick lookup) · `/swiftui-review [file]` (deprecation + consensus audit) · `/swiftui-audit [dir]` (full audit-suite pass via the orchestrator).
 - **agents/** — `swiftui-reviewer`, a review subagent for swiftui diffs.
 - **hooks/** — opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api → it nudges the fix (static grep, no latency, warn-only; `SWIFTUI_GUARD=off` to disable).
 

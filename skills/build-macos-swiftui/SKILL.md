@@ -10,9 +10,10 @@ Mac and the current rule for each. The target is **always macOS**; iOS appears o
 Depth for any topic is one hop away in `references/`.
 
 > **Write-time vs. audit.** This skill (+ its `swiftui-reviewer` agent and the quick
-> `scripts/macos-swiftui-lint.sh`) is the **write-time** authoring + review path. For a **deep, whole-codebase
-> audit** of a finished project, use the **`audit-macos-swiftui-full`** orchestrator and the 28
-> `audit-swiftui-*` skills (the shared 333-rule `scripts/swiftui-lint.sh`, Sosumi + `swiftui-ctx`
+> `scripts/macos-swiftui-lint.sh` — a 67-rule write-time quick-lint) is the **write-time** authoring +
+> review path. For a **deep, whole-codebase audit** of a finished project, use the
+> **`audit-macos-swiftui-full`** orchestrator and the 28 `audit-swiftui-*` skills (the separate, shared
+> 334-rule audit engine `scripts/swiftui-lint.sh` — 282 grep tells + 52 ast-grep — Sosumi + `swiftui-ctx`
 > verification, findings written to `swiftui-audits/`). The two are complementary, not rivals.
 >
 > **Verify APIs against the live catalog.** Before emitting any non-trivial API, run `swiftui-ctx lookup <api>`
@@ -217,7 +218,7 @@ filter/sort inside `ForEach`; know the SwiftUI `Table` large-dataset ceiling (fa
 ## Detection
 
 Before proposing code, run the grep lint and fix every hard-fail:
-`bash ${CLAUDE_PLUGIN_ROOT}/scripts/macos-swiftui-lint.sh <files-or-dir>`. The full 62-rule list
+`bash ${CLAUDE_PLUGIN_ROOT}/scripts/macos-swiftui-lint.sh <files-or-dir>`. The full 67-rule list
 (WRONG → correct, mapped to each doc) is `references/lint-checklist.md`.
 
 ## Verification & enforcement
@@ -260,4 +261,4 @@ State the verification rung you actually reached. "Compiles" requires the hook/b
 | `references/previews.md` | #Preview / @Previewable / @Entry, SwiftData/env preview crashes |
 | `references/appkit-liquid-glass.md` | The AppKit glass surface (NSGlassEffectView…) + the inactive-window trap |
 | `references/view-performance.md` | Rendering anti-patterns, Table large-dataset ceiling, Intel-Mac glass cost |
-| `references/lint-checklist.md` | The 62 grep tells (mirrors the lint script) |
+| `references/lint-checklist.md` | The 67 grep tells (mirrors the lint script) |

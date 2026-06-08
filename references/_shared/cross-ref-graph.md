@@ -1,6 +1,6 @@
 # Shared Reference — Cross-Ref Graph & Seam-Ownership Verdicts
 
-The single source for cross-skill seams: the 89-edge directed `cross_ref` graph (which skill names
+The single source for cross-skill seams: the 129-seam directed `cross_ref` graph (which skill names
 which sibling, and why) plus the seam-ownership verdicts that decide, when two skills detect the same
 `file:line`, who keeps the primary finding and who is demoted to a `cross_ref`. **Both** the
 orchestrator's dedup pass **and** each skill's `cross_ref` emission derive from this one file, so the
@@ -57,7 +57,7 @@ table, kept on disk). `keep-both` = an intentional double-detection; both stay, 
 
 ---
 
-## 3. The 89-edge cross_ref graph (one row per skill, outgoing seams)
+## 3. The cross_ref graph (129 directed seams, one row per skill, outgoing)
 
 | Skill | cross_ref targets (seam reason) |
 |---|---|
@@ -72,6 +72,7 @@ table, kept on disk). `keep-both` = an intentional double-detection; both stay, 
 | **charts** | accessibility (chart descriptor) · appearance-color (per-series colors) · drawing-canvas (hand-rolled non-`Chart` drawings) · view-performance (large-dataset scrolling) |
 | **concurrency-safety** | async-data (lifecycle `.task` fix) · swiftdata (`@ModelActor` fix shape) · sandbox-files (`Transferable` Sendable seam) · appkit-overuse (Coordinator/`NSViewRepresentable` boundary) · state-observation (`@MainActor` on `@Observable`) |
 | **controls-forms** | pointer-gestures (hover/cursor/right-click/drag) · appearance-color (color/material crossover) · accessibility (`.help`↔label) |
+| **document-model** | sandbox-files (file IO + security-scoped bookmarks) · appkit-interop (`NSDocument`/`NSDocumentController` bridge) · state-restoration (document window state) · scenes-windows (`DocumentGroup` scene) · api-currency (`FileDocument`/`ReferenceFileDocument` currency) |
 | **drawing-canvas** | layout-and-tables (`GeometryReader`-vs-`Layout`) · accessibility (Canvas a11y) · animation-motion (`withAnimation` timing) · charts (Canvas-drawn charts theirs) · view-performance (`.drawingGroup()` rationale) |
 | **layout-and-tables** | view-performance (large-Table ceiling) · controls-forms (control styling/density) · navigation-toolbars (`NavigationSplitView` columns theirs) · scenes-windows (scene-modifier side of window sizing) |
 | **liquid-glass** | appearance-color (materials, Dark-Mode contrast) · availability-gating (blanket sweep) · animation-motion (glass morph vs generic) |
@@ -84,17 +85,15 @@ table, kept on disk). `keep-both` = an intentional double-detection; both stay, 
 | **sandbox-files** | concurrency-safety (`loadTransferable` Sendable) · swiftdata (store location, group-container) · appkit-overuse (`NSOpenPanel`/`NSItemProvider` over-bridging) |
 | **scenes-windows** | menus-commands (menu contents) · navigation-toolbars (`navigationTitle`-in-`Window` titlebar) |
 | **state-observation** | swiftdata (`@Query`) · concurrency-safety (`@Observable` isolation) · view-performance (over-broad observation) · previews (preview injection) · async-data (`onChange` lifecycle) |
+| **state-restoration** | state-observation (`@SceneStorage`/`@AppStorage` vs `@State`) · scenes-windows (`NavigationPath`/window restoration) · sandbox-files (security-scoped bookmark persistence) · async-data (`onOpenURL`/`onContinueUserActivity` lifecycle) · document-model (document state restore) |
 | **swiftdata** | concurrency-safety (`@ModelActor`/Sendable depth) · previews (preview-construction mechanics) · sandbox-files (store location + group-container) |
 | **typography-text** | localization (string externalization, `String(localized:)`) · api-currency (`Text + Text`/`Font.system` flag) · accessibility (Dynamic-Type as a11y) · appkit-interop (rich-text `NSTextView` bridge) |
 | **view-performance** | state-observation (over-broad observation) · layout-and-tables (Table/List structure) · animation-motion (animation cost) · liquid-glass (glass API correctness) · appkit-interop (`NSTableView`/`NSTextView` render cost) |
 
-**Total distinct unidirectional cross_ref edges: 89.**
+**Total directed cross_ref seams: 129, across all 28 domain skills** (every `audit-swiftui-*` has a row).
 
-> Two additional NEW skills (`state-restoration`, `document-model`) join the toolkit per the system
-> plan; their seams (`@AppStorage`/`NavigationPath`/`onOpenURL`; `DocumentGroup`/`FileDocument`,
-> `@FocusedDocument`-as-custom-`FocusedValues`-key) are emitted by those skills' own plans and added to
-> this graph when they are built. `@FocusedDocument` is **not** a real Apple symbol — use a custom
-> `FocusedValues` key (see `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`).
+> `@FocusedDocument` is **not** a real Apple symbol — use a custom `FocusedValues` key (see
+> `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`).
 
 ---
 
@@ -104,8 +103,10 @@ table, kept on disk). `keep-both` = an intentional double-detection; both stay, 
   `audit-swiftui-version-hallucination` and **no** `audit-swiftui-state-and-data-flow` — the
   availability sweep is `audit-swiftui-availability-gating`; the state skill is
   `audit-swiftui-state-observation`.
-- 8 edges are one-sided in the source plans (advisory); when building skill B named by skill A, add the
-  one-line reciprocal seam note. No structural change.
+- Seams are **directional by design**: `A → B` means "A's finding may overlap B's domain," and reciprocity
+  is common but not required (a downstream domain need not point back). Roughly half the 129 seams are
+  one-directional; that is expected, not a gap. When a new reciprocal seam is genuinely useful, add the
+  one-line note to the owning skill's row — no structural change.
 
 ---
 
