@@ -15,6 +15,13 @@ Input is normalized: a leading `@`/`.` and a trailing `(…)` signature are stri
 | `repo <owner/name>` | A corpus repo's fingerprint, modernity, author authority. |
 | `search <query>` | Intent/keyword → candidate APIs + recipes. |
 | `stats` | Corpus overview + coverage. |
+| `doctor` | Health check: confirms the catalog loads + prints version/repos/SDK. Run first if a query errors. |
+| `conformances <protocol>` | Real conformers of `View`/`ViewModifier`/`ButtonStyle`/`Layout`/… (custom-component evidence). |
+| `bridges [<filter>]` | AppKit↔SwiftUI bridges (`NSViewRepresentable`…) across the corpus + permalinks. |
+| `settings` | Production `Settings`/preferences screens + the Form vocab they use. |
+| `valueBuilders [<filter>]` | Real Font/Color/Animation/gradient value expressions (e.g. spring presets). |
+| `rankings <dim>` | Top repos by `by_total_unique_apis · by_modifier_breadth · by_custom_components · most_modern_stack`. |
+| `insights <section>` | Corpus signals: `modern-stack · deprecated · cooccurrence · external · components · categories`. |
 
 ## JSON envelope (`--json`)
 ```json

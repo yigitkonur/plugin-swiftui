@@ -13,7 +13,7 @@ resolve. **Global flags (every command):** `--json` (stable envelope) · `--limi
 `--platform macos|any` (default macos; `any` adds iOS/library) · `--offline` (catalog only, no live fetch) ·
 `--catalog <dir>`.
 
-## The 15 commands (full surface)
+## The 16 commands (full surface)
 | Command | Use it to… | Key result fields / flags |
 |---|---|---|
 | `lookup <api>` | **START HERE** — the context pack for one API | `consensus:[{shape,pct}]` (% over ALL uses), `recommended:{id,repo,permalink,src,stars,author_authority,min_macos,score}`, `diverse[]`, `co_occurs_with[]`, `recipes[]`, `introduced_macos`, `deprecated`, `replacement?`, `doc`, `low_corpus`. A protocol/pattern (e.g. `NSViewRepresentable`) soft-redirects to its `recipe`. |
@@ -24,6 +24,7 @@ resolve. **Global flags (every command):** `--json` (stable envelope) · `--limi
 | `repo <owner/name>` | a corpus repo's production fingerprint | `{stars, platform, author_authority, min_macos_inferred, custom_components, counts:{dim→n}, deprecated_apis_used[]}` — a model of what a clean audit looks like. |
 | `search <query>` | intent/keyword → APIs + recipes | alias-aware (`"drag drop"` → draggable/dropDestination + a recipe). |
 | `stats` | corpus overview + **the baseline** | `{repos, sdk, dimension_sizes, custom_components, modern_stack:{…adoption %…}}` (from `insights.json`). |
+| `doctor` | health check before relying on the CLI | confirms the catalog loads + prints `{version, catalog_dir, repos, sdk}`; exit `5` if no catalog. Run first if a query unexpectedly errors. |
 | `bridges [<filter>]` | real AppKit/UIKit bridges | `{count, repos, by_kind, examples:[{name,repo,conforms,permalink}]}`; `<filter>` = a conformance kind or name substring. |
 | `settings` | production Settings screens + Form vocab | `{count, repos, form_vocab:[{name,count}], screens:[{name,repo,permalink}]}`. |
 | `conformances [<protocol>]` | custom protocol conformers | no arg → all protocols + repo_count; `<protocol>` (Layout, ButtonStyle, Shape…) → `{repo_count, top_repos, examples}` (did-you-mean on miss). |

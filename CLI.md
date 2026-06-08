@@ -10,15 +10,27 @@ swiftui-scan/.build/release/swiftui-ctx <command> [--json] [--catalog <dir>] [--
 ```
 The catalog dir is found via `--catalog`, `$SWIFTUI_CTX_CATALOG`, `./catalog`, or the package-relative `../catalog`.
 
-## Commands
+## Commands (16)
+Core:
 - `lookup <api>` — consensus arg-shapes (%), recommended + diverse real examples, co-occurring APIs, deprecation note, doc link. **Start here.**
 - `examples <api> [--shape S] [--repo R] [--page N]` — ranked, paginated call sites.
-- `file <id|permalink> [--decl|--chain|--full]` — fetch real source live; `--decl` (default) shows the enclosing `var body`/func via SwiftSyntax.
+- `file <id|permalink> [--smart|--decl|--chain|--full]` — fetch real source live. `--smart` (default) = tightest useful span; `--decl` = whole enclosing `var body`/func; `--chain` = the modifier chain; `--full` = whole file. (SwiftSyntax-accurate.)
 - `recipe <name>` / `recipes` — production patterns (template + real examples).
 - `deprecated [<api>]` — deprecated APIs in use + modern replacement.
-- `repo <owner/name>` — a repo's fingerprint, modernity, authority.
 - `search <query>` — find APIs/recipes by keyword.
+- `repo <owner/name>` — a repo's fingerprint, modernity, authority.
 - `stats` — corpus overview.
+- `doctor` — health check: confirms the catalog loads, prints version + corpus size (run first if unsure).
+
+Shard / specialized:
+- `conformances <protocol>` — real types conforming to `View`/`ViewModifier`/`Transition`/… (custom-component evidence).
+- `bridges` — AppKit↔SwiftUI bridge usage (`NSViewRepresentable` etc.) across the corpus.
+- `settings` — `Settings`/preferences-scene patterns in the wild.
+- `valueBuilders <q>` — real Font/Color/Animation/gradient value expressions (e.g. spring presets).
+- `rankings <dim>` — top repos by dimension: `by_total_unique_apis · by_modifier_breadth · by_custom_components · most_modern_stack`.
+- `insights <section>` — corpus-level data: `modern-stack · deprecated · cooccurrence · external · components · categories`.
+
+Global flags (all commands): `--json` · `--catalog <dir>` · `--limit N` (default 6) · `--platform macos|any` · `--offline` (catalog only, no live fetch).
 
 ## Agent contract
 - **stdout** = data only (`--json` for the envelope); **stderr** = logs/errors.
