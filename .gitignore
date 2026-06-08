@@ -17,6 +17,9 @@ catalog/customComponents.json
 # the plugin manifest dir must ship even though a global ~/.gitignore may hide dot-dirs
 !.claude-plugin/
 
+# eval: generated model outputs (seeds + RESULTS.md are committed)
+eval/out/
+
 # python / os
 __pycache__/
 *.pyc
