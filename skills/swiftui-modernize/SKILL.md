@@ -10,7 +10,7 @@ Operates on **code that already exists**: it finds deprecated and outdated Swift
 shipping macOS apps use today, using `swiftui-ctx` as the source of truth. (Writing new code → `swiftui-examples`.
 Scaffolding a whole pattern → `macos-app-patterns`.)
 
-`swiftui-ctx` = `${CLAUDE_PLUGIN_ROOT}/bin/swiftui-ctx` (or `swiftui-ctx` on PATH). It self-builds + self-locates the catalog.
+`swiftui-ctx` = `${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx` (or `swiftui-ctx` on PATH). It self-builds + self-locates the catalog.
 
 ## The rule
 Do **not** guess whether an API is current. **Check it.** A call that compiles can still be deprecated — the catalog

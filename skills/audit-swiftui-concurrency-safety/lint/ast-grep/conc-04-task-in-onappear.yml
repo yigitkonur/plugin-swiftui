@@ -1,0 +1,22 @@
+# conc-04 (structural): a bare `Task { … }` nested INSIDE a `.onAppear { … }` / `.onChange { … }`
+# closure. grep can find `Task {` but CANNOT prove it sits inside the lifecycle modifier — that
+# containment is exactly what makes it leak (not cancelled on disappear). Patterns are quoted because
+# `onChange(of:)` contains a colon YAML would otherwise read as a mapping. READ the file: if a
+# non-Sendable value is captured or main-actor state is mutated, THIS skill owns the isolation verdict;
+# otherwise the lifecycle fix (.task / .task(id:)) belongs to async-data (cross_ref).
+id: conc-04-task-in-onappear
+language: Swift
+severity: warning
+message: >-
+  conc-04: a bare `Task { }` inside `.onAppear`/`.onChange` is not bound to view lifetime and is never
+  cancelled on disappear → leaks and races a re-appearing view. Prefer `.task` / `.task(id:)`. SEAM:
+  async-data owns the lifecycle fix; this skill owns the verdict only on an isolation hazard.
+rule:
+  all:
+    - pattern: "Task { $$$BODY }"
+    - inside:
+        any:
+          - pattern: "$RECV.onAppear { $$$ }"
+          - pattern: "$RECV.onChange(of: $V) { $$$ }"
+          - pattern: "$RECV.onChange(of: $V) { $A, $B in $$$ }"
+        stopBy: end

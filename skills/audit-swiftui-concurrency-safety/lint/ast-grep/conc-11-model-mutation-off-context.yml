@@ -1,0 +1,18 @@
+# conc-11 (structural): a SwiftData `modelContext` mutation (`.insert`/`.delete`/`.save`) reached from
+# INSIDE a `Task.detached { … }`. grep can find `Task.detached` and `modelContext` separately but CANNOT
+# prove the mutation happens inside the detached task — the co-occurrence is the race. Anchored on
+# call_expression. ModelContext is not Sendable, so touching it off its actor is a data-race error under
+# the Swift 6 language mode. SEAM: swiftdata prescribes the @ModelActor fix (cross_ref); this skill flags.
+id: conc-11-model-mutation-off-context
+language: Swift
+severity: warning
+message: >-
+  conc-11: a `modelContext` mutation (insert/delete/save) runs inside `Task.detached` — ModelContext is
+  NOT Sendable, so this is an off-context data race. Confine SwiftData work to its actor (@ModelActor).
+  SEAM: swiftdata owns the @ModelActor fix shape (cross_ref); this skill flags the isolation race.
+rule:
+  kind: call_expression
+  pattern: Task.detached { $$$BODY }
+  has:
+    stopBy: end
+    regex: 'modelContext|\.insert\(|\.delete\(|ModelContext'

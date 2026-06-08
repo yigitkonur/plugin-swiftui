@@ -4,7 +4,7 @@ argument-hint: <api or intent — e.g. searchable | NavigationSplitView | "menu 
 ---
 Ground this in real production SwiftUI before answering: **$ARGUMENTS**
 
-!`CTX="${CLAUDE_PLUGIN_ROOT}/bin/swiftui-ctx"; "$CTX" lookup "$ARGUMENTS" 2>/dev/null || "$CTX" search "$ARGUMENTS" 2>/dev/null || echo "swiftui-ctx unavailable — run: \"$CTX\" doctor"`
+!`CTX="${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx"; "$CTX" lookup "$ARGUMENTS" 2>/dev/null || "$CTX" search "$ARGUMENTS" 2>/dev/null || echo "swiftui-ctx unavailable — run: \"$CTX\" doctor"`
 
 Using the output above:
 - Follow the `consensus` shape and the `recommended` example (highest production quality).

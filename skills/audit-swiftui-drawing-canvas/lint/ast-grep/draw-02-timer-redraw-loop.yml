@@ -1,0 +1,21 @@
+# draw-02 (structural): a Timer / periodic publisher whose HANDLER mutates state purely to repaint — a
+# manual render loop SwiftUI already owns via TimelineView. grep sees only the `Timer` token; it CANNOT
+# prove the handler body assigns. This anchors on the `.onReceive(timer) { … }` or `Timer.scheduledTimer
+# { … }` call_expression and asserts its closure contains an `assignment` node. READ to confirm the
+# mutation exists ONLY to re-render a drawing (a real side effect — logging, model edit — is not draw-02).
+id: draw-02-timer-redraw-loop
+language: Swift
+severity: warning
+message: >-
+  draw-02: a Timer/periodic publisher handler mutates @State only to re-render a drawing — that is a
+  manual render loop SwiftUI owns. Replace with TimelineView(.animation/.periodic/.explicit) { context in … }
+  and drive the drawing off context.date. READ to confirm the mutation exists only to repaint.
+rule:
+  kind: call_expression
+  all:
+    - any:
+        - pattern: $RECV.onReceive($TIMER) { $$$BODY }
+        - pattern: Timer.scheduledTimer($$$ARGS) { $$$BODY }
+    - has:
+        stopBy: end
+        kind: assignment

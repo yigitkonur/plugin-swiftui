@@ -1,0 +1,27 @@
+# sf-03 (structural): a startAccessingSecurityScopedResource() call whose ENCLOSING function has NO
+# balancing stopAccessingSecurityScopedResource(). Security-scoped access is ref-counted — every start
+# needs one stop (use defer), or the extension leaks and a later access is denied. grep counts the symbol
+# per file but CANNOT see the start/stop balance across a function body; this is the canonical tier-2 rule.
+# READ the file to confirm the missing stop is real (a stop could live in a helper) — the engine only LOCATES.
+# Anchored on `kind: call_expression`. fix_mode: flag-only (the right wrapping depends on the call site).
+id: sf-03-start-without-stop
+language: Swift
+severity: warning
+message: >-
+  sf-03: startAccessingSecurityScopedResource() has NO balancing stopAccessingSecurityScopedResource()
+  in the enclosing function (ref-count leak). Balance every start with a stop via defer, and check the
+  returned Bool grant. READ the function to confirm no stop lives in a helper.
+rule:
+  kind: call_expression
+  has:
+    kind: simple_identifier
+    regex: '^startAccessingSecurityScopedResource$'
+    stopBy: end
+  inside:
+    kind: function_declaration
+    not:
+      has:
+        kind: simple_identifier
+        regex: '^stopAccessingSecurityScopedResource$'
+        stopBy: end
+    stopBy: end

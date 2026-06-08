@@ -1,0 +1,31 @@
+# state-07 (structural): a COMPUTED `some View` property OTHER THAN `body` (e.g. `private var list: some
+# View { … }`). Observation tracks per-property access at the granularity of a `View`'s `body`; a computed
+# `some View` property folds into the PARENT's body, so a change to any tracked property the parent reads
+# re-evaluates the WHOLE parent. Extract into a real child `View` TYPE (its own `body`) so it gets
+# @Observable's per-property invalidation. A perf regression, not a correctness bug → advisory, flag-only.
+# WHY tier-2: grep cannot distinguish a COMPUTED view property (`computed_property` child) from a stored
+# `let header: some View = …`, nor exclude the REQUIRED `var body: some View`. This rule anchors on
+# `property_declaration` with an `opaque_type` of `View` + a `computed_value: computed_property`, and
+# excludes `body` by name. READ the file to confirm the property actually reads an @Observable model
+# (cross_ref view-performance for the render-cost number). The engine only LOCATES.
+id: state-07-computed-some-view
+language: Swift
+severity: hint
+message: >-
+  state-07: a computed `some View` property (not `body`). If it reads an @Observable model, it folds into
+  the parent's body and defeats per-property invalidation → extract into a real child View TYPE passing
+  only the data it needs. advisory; cross_ref audit-swiftui-view-performance for the cost. READ to confirm.
+rule:
+  kind: property_declaration
+  all:
+    - has:
+        kind: type_annotation
+        has: { kind: opaque_type, regex: 'View' }
+    - has:
+        field: computed_value
+        kind: computed_property
+    - not:
+        has:
+          field: name
+          kind: pattern
+          regex: '^body$'

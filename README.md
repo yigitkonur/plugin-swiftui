@@ -69,15 +69,23 @@ the cli contract is in [`cli.md`](CLI.md). the catalog shards in `catalog/` are 
 
 follows the [agent skills](https://agentskills.io) + claude code plugin specs (`.claude-plugin/`).
 
-- **skills/** (the agent reaches for these automatically, at the right moment):
+**33 skills**, all driving the same `swiftui-ctx` cli + bundled catalog. the agent reaches for them automatically.
+
+- **write / look up:**
   - `swiftui-examples` — writing/looking up a swiftui api → real usage + consensus shape.
-  - `swiftui-modernize` — auditing/upgrading existing code → find + migrate deprecated apis.
-  - `macos-app-patterns` — scaffolding a whole feature → menu-bar app, settings, master-detail, nsview bridge…
+  - `swiftui-modernize` — upgrading existing code → find + migrate deprecated apis.
+  - `macos-app-patterns` — scaffolding a feature → menu-bar app, settings, master-detail, nsview bridge…
+  - `build-macos-swiftui` — broader write/review/refactor guidance (@observable state, native mac idioms…).
+- **audit (28 skills):**
+  - `audit-macos-swiftui-full` — the orchestrator: routes a codebase through the relevant domain audits in dependency-ordered waves and rolls everything into one `_SUMMARY.md`.
+  - 27 domain auditors — `audit-swiftui-{accessibility, concurrency-safety, state-observation, liquid-glass, navigation-toolbars, swiftdata, macos-nativeness, view-performance, scenes-windows, charts, …}`. each pairs a shared grep+ast-grep lint engine (locates candidates) with `swiftui-ctx` evidence (the auditor *judges*, the engine never reports a finding as fact).
 - **commands/** — `/swiftui <api|intent>` (quick lookup) · `/swiftui-review [file]` (deprecation + consensus audit).
 - **agents/** — `swiftui-reviewer`, a review subagent for swiftui diffs.
-- **hooks/** — an opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api and it nudges you with the fix (static grep, no latency, warn-only; `SWIFTUI_GUARD=off` to disable).
+- **hooks/** — opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api → it nudges the fix (static grep, no latency, warn-only; `SWIFTUI_GUARD=off` to disable).
 
-all of it drives the same `swiftui-ctx` cli + bundled catalog. the cli contract is in [`cli.md`](CLI.md).
+the cli contract is in [`cli.md`](CLI.md). the shared audit infra lives in `references/_shared/` + `scripts/swiftui-lint.sh`.
+
+**audit deps:** the audit lint tier wants [`ast-grep`](https://ast-grep.github.io) (structural rules) + [`ripgrep`](https://github.com/BurntSushi/ripgrep) (`brew install ast-grep ripgrep`). without ast-grep it degrades to the ripgrep/grep tier. `swiftui-ctx` itself needs neither.
 
 ## honesty / caveats
 

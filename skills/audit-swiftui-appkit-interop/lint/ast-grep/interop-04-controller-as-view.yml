@@ -1,0 +1,17 @@
+# interop-04 (structural): a makeNSView(...) implementation whose body returns a controller's `.view`
+# (e.g. `MyEditorVC().view`) — a controller-shaped component flattened to a bare NSView, which loses the
+# VC lifecycle/containment (the VC is deallocated). The right surface is NSViewControllerRepresentable.
+# grep can spot `.view` but not that it is the RETURN of a makeNSView body next to a Controller/VC — that
+# relational shape is structural. Anchored on the function_declaration kind.
+id: interop-04-controller-as-bare-view
+language: Swift
+severity: warning
+message: >-
+  interop-04: makeNSView returns a controller's `.view` (controller-shaped AppKit flattened to a bare NSView).
+  The NSViewController lifecycle/containment is lost (the VC deallocates). Use NSViewControllerRepresentable
+  (makeNSViewController/updateNSViewController) instead. READ to confirm the source is a controller.
+rule:
+  kind: function_declaration
+  all:
+    - has: { field: name, regex: '^makeNSView$' }
+    - has: { stopBy: end, regex: '(Controller|VC)\(\)\.view' }

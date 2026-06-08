@@ -1,0 +1,27 @@
+# sd-11 (structural): a @Model class that ALSO has an inheritance clause = a @Model SUBCLASS (macOS-26
+# class inheritance, the one new SwiftData feature this cycle). Every subclass needs @available(macOS 26,
+# *); adding one is a schema change requiring a versioned schema + MigrationStage; the container must
+# register the base AND every subclass. The @Model attribute and the inheritance clause co-occur on the
+# class declaration — grep sees neither the attribute-to-class binding nor the inheritance; this is the
+# tier-2 co-occurrence rule. READ to confirm the gate and the .modelContainer(for: [Base, Sub, …])
+# registration. The grep tell (sd-11) catches the `@available(macOS 26` gate string for cross-checking.
+id: sd-11-model-subclass-inheritance
+language: Swift
+severity: warning
+message: >-
+  sd-11: a @Model class declares an inheritance clause = a @Model SUBCLASS (macOS-26 inheritance). It
+  needs @available(macOS 26, *), a versioned schema + MigrationStage, and the container must register the
+  base AND every subclass: .modelContainer(for: [Base.self, Sub.self, …]). READ to confirm the gate and
+  registration; if the floor is below macOS 26 it is ungated. fix_mode: flag-only.
+rule:
+  kind: class_declaration
+  all:
+    - has:
+        kind: modifiers
+        stopBy: end
+        has:
+          kind: attribute
+          regex: 'Model'
+    - has:
+        kind: inheritance_specifier
+        stopBy: end

@@ -9,7 +9,7 @@ license: MIT
 For **building a whole feature**, not one call. Each recipe is a canonical template plus real examples from shipping
 macOS apps, served by `swiftui-ctx`. (One API → `swiftui-examples`. Deprecated cleanup → `swiftui-modernize`.)
 
-`swiftui-ctx` = `${CLAUDE_PLUGIN_ROOT}/bin/swiftui-ctx` (or `swiftui-ctx` on PATH). It self-builds + self-locates the catalog.
+`swiftui-ctx` = `${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx` (or `swiftui-ctx` on PATH). It self-builds + self-locates the catalog.
 
 ## The rule
 Don't reconstruct a macOS pattern from memory (menu-bar lifecycle, Settings scene, NSViewRepresentable wiring are

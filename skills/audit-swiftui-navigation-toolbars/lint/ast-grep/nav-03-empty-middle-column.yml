@@ -1,0 +1,32 @@
+# nav-03 (structural): a THREE-column NavigationSplitView — init(sidebar:content:detail:) — whose
+# content: closure is just EmptyView() (a placeholder). The middle column is dead; this should be the
+# TWO-column init(sidebar:detail:). grep CANNOT express this: it sees NavigationSplitView and EmptyView
+# as unrelated flat tokens and cannot tell the EmptyView sits in the content: closure of a 3-col split.
+# Anchored on kind: call_expression (validator requirement). The outer pattern proves the 3-col shape;
+# the `has` proves an EmptyView placeholder is present. READ the file to confirm content: is truly empty
+# (an EmptyView in detail: would also match) — the engine only LOCATES.
+id: nav-03-empty-middle-column
+language: Swift
+severity: warning
+message: >-
+  nav-03: a 3-column NavigationSplitView with a content: closure that is just EmptyView() — use the
+  2-column init(sidebar:detail:) (the empty middle is a dead column). READ to confirm content: is empty.
+rule:
+  kind: call_expression
+  all:
+    - pattern: "NavigationSplitView { $$$S } content: { $$$C } detail: { $$$D }"
+    - has:
+        stopBy: end
+        pattern: "EmptyView()"
+
+# NOTE — two structural tells are intentionally kept in the grep tier (lint-architecture.md: "when a
+# structural rule can't be expressed, keep it grep and note the limitation; never drop a rule"):
+#   • nav-04 (frame-hack column hide): the co-pattern is a boolean @State + .frame(...width: 0) collapsing
+#     a column instead of a columnVisibility binding. ast-grep cannot reliably tie the boolean, the frame,
+#     and the NavigationSplitView/HStack context into one validated rule without heavy false positives, so
+#     the grep tell locates the `.frame(...width: 0)` string and the agent READs the surrounding context.
+#   • nav-08 (columnWidth no-op on the DETAIL column): a NavigationSplitView { } detail: { } whose detail
+#     closure contains .navigationSplitViewColumnWidth(). ast-grep's `has: stopBy: end` searches the whole
+#     NavigationSplitView node and cannot scope to only the detail: closure subtree, so it also fires on a
+#     legitimate columnWidth on a LEADING column (false positive). The grep tell locates every
+#     navigationSplitViewColumnWidth( and the agent READs to confirm the detail-closure scope.

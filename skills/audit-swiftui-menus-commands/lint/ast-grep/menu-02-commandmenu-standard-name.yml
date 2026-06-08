@@ -1,0 +1,22 @@
+# menu-02 (structural): a CommandMenu(...) call_expression whose first argument is a string literal
+# naming a STANDARD macOS menu (File/Edit/View/Window/Help). CommandMenu ALWAYS adds a brand-new
+# top-level menu (inserted between View and Window), so naming it after a standard menu produces a
+# SECOND File/Edit/etc. To add to or override a standard menu, target a CommandGroupPlacement via
+# CommandGroup(after:/before:/replacing: .placement). The grep tell catches the same string; this
+# structural form proves it is the CommandMenu NAME argument (kind: call_expression), not an incidental
+# "File"/"Edit" string elsewhere. READ to confirm. Reserve CommandMenu for a genuinely NEW top menu.
+id: menu-02-commandmenu-standard-name
+language: Swift
+severity: warning
+message: >-
+  menu-02: CommandMenu is named after a STANDARD menu (File/Edit/View/Window/Help) → it adds a SECOND
+  one beside Apple's. Use CommandGroup(after:/replacing: .placement) to slot into the standard menu;
+  reserve CommandMenu for a genuinely new top-level menu. READ to confirm.
+rule:
+  kind: call_expression
+  any:
+    - pattern: CommandMenu("File") { $$$B }
+    - pattern: CommandMenu("Edit") { $$$B }
+    - pattern: CommandMenu("View") { $$$B }
+    - pattern: CommandMenu("Window") { $$$B }
+    - pattern: CommandMenu("Help") { $$$B }

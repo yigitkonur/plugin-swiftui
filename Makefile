@@ -1,5 +1,5 @@
 PREFIX ?= /usr/local
-WRAPPER := $(abspath bin/swiftui-ctx)
+WRAPPER := $(abspath scripts/swiftui-ctx)
 CATALOG := $(abspath catalog)
 
 .PHONY: build build-universal install uninstall test validate refresh clean help
@@ -17,12 +17,12 @@ build-universal:     ## Build a universal (arm64+x86_64) swiftui-ctx → ./swift
 install: build       ## Symlink `swiftui-ctx` onto PATH ($(PREFIX)/bin)
 	@mkdir -p $(PREFIX)/bin
 	@chmod +x $(WRAPPER)
-	@ln -sf $(WRAPPER) $(PREFIX)/bin/swiftui-ctx
-	@echo "installed: $(PREFIX)/bin/swiftui-ctx"
-	@SWIFTUI_CTX_CATALOG=$(CATALOG) $(PREFIX)/bin/swiftui-ctx stats >/dev/null && echo "catalog OK"
+	@ln -sf $(WRAPPER) $(PREFIX)/scripts/swiftui-ctx
+	@echo "installed: $(PREFIX)/scripts/swiftui-ctx"
+	@SWIFTUI_CTX_CATALOG=$(CATALOG) $(PREFIX)/scripts/swiftui-ctx stats >/dev/null && echo "catalog OK"
 
 uninstall:           ## Remove the symlink
-	@rm -f $(PREFIX)/bin/swiftui-ctx && echo "removed $(PREFIX)/bin/swiftui-ctx"
+	@rm -f $(PREFIX)/scripts/swiftui-ctx && echo "removed $(PREFIX)/scripts/swiftui-ctx"
 
 test: build          ## Scanner regression test + CLI smoke test
 	cd swiftui-scan && swift build -c release --product swiftui-scan

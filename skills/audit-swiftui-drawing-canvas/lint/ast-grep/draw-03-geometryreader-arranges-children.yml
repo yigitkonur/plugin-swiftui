@@ -1,0 +1,19 @@
+# draw-03 (structural): a GeometryReader whose closure POSITIONS children with .position()/.offset() —
+# that is layout work, not drawing geometry. grep can see `.position(` but CANNOT prove it sits inside a
+# GeometryReader closure (vs anywhere else in the file). This anchors on the GeometryReader call_expression
+# and asserts its body contains a positioning modifier. READ: GeometryReader that only READS a size into
+# Canvas/Path math is correct and stays; arranging children routes to layout-and-tables (cross_ref).
+id: draw-03-geometryreader-arranges-children
+language: Swift
+severity: warning
+message: >-
+  draw-03: a GeometryReader closure positions children with .position()/.offset() — that is layout, not
+  drawing geometry. Use the Layout protocol / containerRelativeFrame (cross_ref layout-and-tables). A
+  GeometryReader that only READS a size into Canvas/Path math is fine. READ to confirm it arranges views.
+rule:
+  kind: call_expression
+  all:
+    - pattern: GeometryReader { $$$BODY }
+    - has:
+        stopBy: end
+        regex: '\.position\(|\.offset\('

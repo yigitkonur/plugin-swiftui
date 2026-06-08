@@ -1,0 +1,25 @@
+# sd-02 (structural): a `self.X = Y` assignment INSIDE an initializer body. Assigning a relationship in
+# init bypasses SwiftData's hooks → the child rows' foreign key back to the parent is saved as NULL →
+# the relationship is EMPTY on relaunch (no compile or runtime error; data silently vanishes). grep
+# cannot express "an assignment whose scope is an init body" — this is the canonical containment rule.
+# `self.floors.append(contentsOf:)` is a call_expression, NOT an assignment, so it is correctly excluded.
+# READ to confirm the assigned property X is a @Model relationship (a value property like self.name = x
+# is fine); the agent decides — the engine only LOCATES.
+id: sd-02-relationship-assigned-in-init
+language: Swift
+severity: warning
+message: >-
+  sd-02: a `self.X = Y` assignment inside an initializer body. If X is a @Model RELATIONSHIP, the
+  in-init assignment bypasses SwiftData's hooks → child FK saved NULL → empty on relaunch. Default the
+  relationship to [] and `append(contentsOf:)` in init, or assign OUTSIDE init. READ to confirm X is a
+  relationship (assigning a plain value property is fine).
+rule:
+  kind: assignment
+  inside:
+    kind: function_body
+    stopBy: end
+  has:
+    field: target
+    has:
+      kind: self_expression
+      stopBy: end

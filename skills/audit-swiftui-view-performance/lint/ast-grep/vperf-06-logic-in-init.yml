@@ -1,0 +1,23 @@
+# vperf-06 (structural): non-trivial work inside a `View`'s `init`. A view's `init` runs every time its
+# parent re-evaluates `body`, so heavy work there runs constantly. WHY tier-2: grep cannot scope to an
+# `init` body, nor distinguish a trivial member-assign (`self.x = x`) from real work (a `.sorted`/`.map`,
+# a function call, a loop). This rule anchors on `init_declaration` whose `function_body` CONTAINS a
+# call_expression that is NOT a bare member assignment — a collection transform (`.sorted`/`.filter`/
+# `.map`) or a free function call. READ to confirm the work is non-trivial and should move to `.task`, an
+# `@Observable` method, or cached/`static` state. advisory; flag-only. The engine only LOCATES.
+id: vperf-06-logic-in-init
+language: Swift
+severity: hint
+message: >-
+  vperf-06: non-trivial work inside a View's init (init runs on every parent body re-eval). Move it to
+  .task, an @Observable model method, or cached/static state; keep init trivial. READ to confirm the work
+  is heavy (a .sorted/.map/.filter or a function call, not a bare member assignment).
+rule:
+  kind: init_declaration
+  has:
+    field: body
+    kind: function_body
+    has:
+      stopBy: end
+      kind: call_expression
+      regex: '\.sorted|\.filter|\.map|\.reduce|\.compactMap|\.flatMap'

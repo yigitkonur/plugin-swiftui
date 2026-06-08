@@ -1,0 +1,14 @@
+# anim-01 (structural): the DEPRECATED implicit single-argument `.animation(_)` modifier (macOS 12).
+# grep's `\.animation\(` cannot tell the single-arg implicit form from the modern `.animation(_:value:)`
+# — that is argument ARITY, which is structural. This matches exactly one positional argument on a
+# `.animation(...)` call expression; the value-scoped `.animation($A, value: $B)` form has two and will
+# NOT match. Fix: add `value:` (the property animated) or use `withAnimation`. fix_mode: flag (the value
+# is a judgment). READ to confirm.
+id: anim-01-implicit-single-arg-animation
+language: Swift
+severity: warning
+message: >-
+  anim-01: a single-argument `.animation(_)` modifier (the implicit form deprecated at macOS 12) — it
+  animates every upstream change. Use `.animation(_:value:)` or `withAnimation`. READ to confirm.
+rule:
+  pattern: $RECEIVER.animation($ARG)

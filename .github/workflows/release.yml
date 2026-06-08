@@ -1,6 +1,6 @@
 name: release
 # On a version tag, build a universal macOS `swiftui-ctx` and attach it to the GitHub Release.
-# The bundled wrapper (bin/swiftui-ctx) downloads this asset on first run — so plugin users need no toolchain.
+# The bundled wrapper (scripts/swiftui-ctx) downloads this asset on first run — so plugin users need no toolchain.
 on:
   push:
     tags: ["v*"]
