@@ -47,7 +47,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `accessibilityFocused(_:)` | macOS 12.0+ | No |
 | `accessibilityHidden(_:)` | macOS 11.0+ | No |
 | `accessibilityHint(_:)` | macOS 13.0+ | No |
-| `accessibilityLabel(_:)` (string form) | macOS 13.0+ | No |
+| `accessibilityLabel(_:)` (StringProtocol/Text overloads macOS 11.0+; LocalizedStringResource overload macOS 13.0+) | macOS 11.0+ | No |
 | `accessibilityLabel(content:)` (closure form) | macOS 15.0+ | No |
 | `accessibilityRepresentation(representation:)` | macOS 12.0+ | No |
 | `accessibilityRotor(_:entries:)` | macOS 13.0+ | No |
@@ -62,7 +62,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `AccessibilityTraits` type | macOS 10.15+ | No |
 | `AccessibilityTraits.isButton/.isImage/.isHeader/.isSelected/.isLink/.isStaticText/.playsSound/.updatesFrequently` | macOS 10.15+ | No |
 | `AccessibilityTraits.isToggle` | macOS 14.0+ (**NOT 10.15**) | No |
-| `animation(_:)` — single-arg implicit | macOS 12.0 | **Yes (deprecated at 12.0 → `animation(_:value:)` / `withAnimation`)** |
+| `animation(_:)` — single-arg implicit | macOS 10.15+ | **Yes (introduced 10.15, deprecated at 12.0 → `animation(_:value:)` / `withAnimation`)** |
 | `animation(_:value:)` | macOS 10.15+ | No |
 | `AreaMark` | macOS 13.0+ | No |
 | `AreaPlot` | macOS 15.0+ | No |
@@ -185,7 +185,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `SectorMark` | macOS 14.0+ (**NOT 13**) | No |
 | `SectorPlot` | macOS 15.0+ | No |
 | `Settings {}` scene | macOS 11.0+ | No |
-| `SettingsLink` | macOS 13.0+ | No |
+| `SettingsLink` | macOS 14.0+ | No |
 | `ShapeStyle.tertiary` / hierarchy levels / `.ultraThinMaterial` | macOS 12.0+ | No |
 | `SidebarListStyle` (`.sidebar`) | macOS 10.15+ | No |
 | `SidebarCommands` | macOS 11.0+ | No |
