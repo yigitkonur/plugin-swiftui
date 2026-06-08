@@ -35,12 +35,8 @@ audit-selftest:      ## Regression-test the audit lint engine against known-viol
 eval:                ## Proof-of-value: generate SwiftUI with vs without swiftui-ctx, score deterministically (see eval/README.md)
 	bash eval/run.sh && python3 eval/score.py
 
-validate:            ## Validate all skills against the Agent Skills spec (needs skills-ref / npx)
-	@for s in skills/*/; do \
-	  if command -v skills-ref >/dev/null; then skills-ref validate "$$s"; \
-	  elif command -v npx >/dev/null; then npx -y @agentskills/skills-ref validate "$$s"; \
-	  else echo "no skills-ref/npx — manual check: $$s"; fi; done
-	@python3 -c 'import json;[json.load(open(f)) for f in (".claude-plugin/plugin.json",".claude-plugin/marketplace.json")];print("manifests: valid JSON")'
+validate:            ## Validate every skill against the Agent Skills spec (dependency-free)
+	python3 scripts/validate-skills.py
 
 refresh:             ## Rebuild the whole catalog from scratch (long; see RUN.md)
 	@echo "see RUN.md — runs scripts/00..08 (clones repos, ~hours)"

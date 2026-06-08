@@ -46,8 +46,5 @@ jobs:
           git diff --exit-code hooks/deprecated-names.txt \
             || (echo "::error::hooks/deprecated-names.txt is stale — run scripts/gen_deprecated_list.py and commit" && exit 1)
 
-      - name: Validate every skill against the Agent Skills spec (fail-fast)
-        run: |
-          set -euo pipefail
-          for s in skills/*/; do npx -y @agentskills/skills-ref validate "$s"; done
-          python3 -c 'import json;[json.load(open(f)) for f in (".claude-plugin/plugin.json",".claude-plugin/marketplace.json")];print("manifests valid")'
+      - name: Validate every skill against the Agent Skills spec (dependency-free, fail-fast)
+        run: make validate
