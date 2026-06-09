@@ -31,6 +31,7 @@ fi
 if [ ! -x "$LINT" ] && [ ! -f "$LINT" ]; then
   echo "audit-gate: shared runner not found: $LINT" >&2; exit 64
 fi
+command -v jq >/dev/null 2>&1 || { echo "audit-gate: jq is required (brew install jq)." >&2; exit 69; }
 
 # ---- discover all 28 audit skills (skills with a lint/ dir) -----------------------------------------
 SKILLS=()

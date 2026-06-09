@@ -40,13 +40,14 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 
 the cli (`swiftui-ctx`) auto-installs on first use — downloads a prebuilt universal binary, or builds from source if xcode is available. no manual paths or env setup needed.
 
-**optional audit deps** (unlock the structural lint tier):
+**audit deps** — `jq` is required to run the audit/lint tier; `ast-grep` + `ripgrep` are optional (they unlock the structural lint tier):
 
 ```sh
-brew install ast-grep ripgrep
+brew install jq            # required for the audit suite
+brew install ast-grep ripgrep   # optional — structural + faster grep tiers
 ```
 
-without them the audit suite degrades gracefully to the ripgrep-only tier — it still runs 282 rules, just not the 52 ast-grep structural ones.
+without `ast-grep`/`ripgrep` the audit suite degrades gracefully to the grep-only tier — it still runs 282 rules, just not the 52 ast-grep structural ones. without `jq` the audit scripts exit early with a clear message.
 
 ### cli-only install (no plugin)
 
@@ -223,7 +224,7 @@ the file is gitignored automatically (`.claude/*.local.md` pattern). restart cla
 
 ## how the data was built
 
-the pipeline is reproducible. `scripts/00..08_*.sh` do the full thing (see [`RUN.md`](RUN.md)):
+the pipeline is reproducible. `scripts/00..08_*.py` do the full thing (run manually, step-by-step, per [`RUN.md`](RUN.md) — this is a dev-only offline build, not an install step):
 
 ```
 00  harvest seed repos from awesome-mac

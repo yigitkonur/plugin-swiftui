@@ -38,9 +38,9 @@ eval:                ## Proof-of-value: generate SwiftUI with vs without swiftui
 validate:            ## Validate every skill against the Agent Skills spec (dependency-free)
 	python3 scripts/validate-skills.py
 
-refresh:             ## Rebuild the whole catalog from scratch (long; see RUN.md)
-	@echo "see RUN.md — runs scripts/00..08 (clones repos, ~hours)"
+refresh:             ## Regenerate the hook's deprecated-names.txt from catalog/insights.json (full 00..08 rebuild is manual; see RUN.md)
 	python3 scripts/gen_deprecated_list.py   # keep the hook's deprecated-names.txt in sync with the catalog
+	@echo "deprecated-names.txt synced. For a full catalog rebuild, run scripts/00..08_*.py manually — see RUN.md."
 
 clean:
 	cd swiftui-scan && swift package clean

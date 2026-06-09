@@ -68,6 +68,7 @@ fi
 if [ ! -d "$RULES_DIR" ]; then
   echo "swiftui-lint: lint dir not found: $RULES_DIR" >&2; exit 64
 fi
+command -v jq >/dev/null 2>&1 || { echo "swiftui-lint: jq is required for JSON/SARIF output (brew install jq)." >&2; exit 69; }
 DOMAIN="$(basename "$(dirname "$RULES_DIR")")"
 TELLS="$RULES_DIR/grep-tells.tsv"
 AST_DIR="$RULES_DIR/ast-grep"
