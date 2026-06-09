@@ -42,13 +42,14 @@ PLUGIN_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 # ---- args -----------------------------------------------------------------
 SKILL=""; RULES_DIR=""; JSON_OUT=""; SARIF_OUT=""; NO_AST=0; QUIET=0
 TARGETS=()
+val() { [ "$2" -ge 2 ] || { echo "swiftui-lint: $1 requires a value" >&2; exit 64; }; }  # $1=flag $2=remaining argc
 while [ "$#" -gt 0 ]; do
   case "$1" in
-    --skill)  SKILL="$2"; shift 2;;
-    --rules)  RULES_DIR="$2"; shift 2;;
-    --dir)    TARGETS+=("$2"); shift 2;;
-    --json)   JSON_OUT="$2"; shift 2;;
-    --sarif)  SARIF_OUT="$2"; shift 2;;
+    --skill)  val "$1" "$#"; SKILL="$2"; shift 2;;
+    --rules)  val "$1" "$#"; RULES_DIR="$2"; shift 2;;
+    --dir)    val "$1" "$#"; TARGETS+=("$2"); shift 2;;
+    --json)   val "$1" "$#"; JSON_OUT="$2"; shift 2;;
+    --sarif)  val "$1" "$#"; SARIF_OUT="$2"; shift 2;;
     --no-ast) NO_AST=1; shift;;
     --quiet)  QUIET=1; shift;;
     -h|--help) sed -n '2,40p' "$0"; exit 0;;
