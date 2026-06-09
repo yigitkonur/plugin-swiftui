@@ -1,5 +1,5 @@
 {
-  "name": "skill-swiftui",
+  "name": "claude-swiftui-plugin",
   "owner": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
   "metadata": {
     "description": "Real-world SwiftUI for AI agents — how 1,857 shipping macOS apps actually use SwiftUI, as a queryable CLI + a 33-skill write/modernize/audit toolkit.",
