@@ -18,7 +18,7 @@ else
 fi
 export SWIFTUI_CTX_CATALOG="${SWIFTUI_CTX_CATALOG:-$root/catalog}"
 
-repo="yigitkonur/skill-swiftui"
+repo="yigitkonur/claude-swiftui-plugin"
 ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.claude-plugin/plugin.json" 2>/dev/null | head -1)"
 ver="${ver:-dev}"
 cache="${XDG_CACHE_HOME:-$HOME/.cache}/swiftui-ctx"
@@ -52,7 +52,7 @@ fi
 
 if [ -z "$bin" ]; then
   echo "swiftui-ctx: no usable binary. Need either network (to download v$ver) or a Swift 6 toolchain (Xcode)." >&2
-  echo "  run: $root/bin/swiftui-ctx doctor   (once a binary exists) — or install Xcode and retry." >&2
+  echo "  run: $root/scripts/swiftui-ctx doctor   (once a binary exists) — or install Xcode and retry." >&2
   exit 5
 fi
 exec "$bin" "$@"
