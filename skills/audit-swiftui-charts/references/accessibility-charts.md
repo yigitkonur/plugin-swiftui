@@ -41,6 +41,6 @@ auditing is `audit-swiftui-accessibility`. The two are deliberately kept separat
 - Apple — fetched via Sosumi (access 2026-06-07):
   `https://developer.apple.com/documentation/charts/creating-accessible-charts`,
   `/documentation/swiftui/view/accessibilitychartdescriptor(_:)`,
-  `/documentation/accessibility/axchartdescriptorrepresentable`.
+  `/documentation/swiftui/axchartdescriptorrepresentable` (the protocol lives in the SwiftUI module, not Accessibility).
 - WWDC21 — "Bring accessibility to charts in your app" (`/videos/play/wwdc2021/10122`); WWDC22 — "Hello
   Swift Charts" (`/videos/play/wwdc2022/10136`) accessibility section, via Sosumi.
