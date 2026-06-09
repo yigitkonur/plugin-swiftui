@@ -20,9 +20,9 @@ which pages to fetch. Floor *values* live in `${CLAUDE_PLUGIN_ROOT}/references/_
    `introducedAt` works when it resolves; it **404s** on parenthesized-symbol families (`defaultsize(_:)`,
    the state-restoration/document-model parenthesized symbols) — fall back to Sosumi (never 404s on a
    valid human URL). Never `WebFetch` `developer.apple.com`; never paper a 404 with a memory guess.
-3. **Platform-arm gotchas:** `pushWindow` and the `DocumentGroupLaunchScene` macOS arm are
-   **UNVERIFIED** — Apple pages currently show `pushWindow` as visionOS 2.0+ only. Confirm the macOS arm
-   on Sosumi before asserting any floor; if unconfirmed, carry `verify against Xcode 26 SDK`.
+3. **Platform-arm gotchas:** both `pushWindow` (`PushWindowAction`) and `DocumentGroupLaunchScene` are
+   **macOS ABSENT** (verified 2026-06-08): `pushWindow` is visionOS 2.0+ only; `DocumentGroupLaunchScene`
+   is iOS 18 / iPadOS 18 / Mac Catalyst 18 / visionOS 2 only. Using either on a Mac target is a compile error.
 
 ---
 
@@ -54,7 +54,7 @@ below are per `floors-master.md` (re-confirmed 2026-06-07).
 
 **Stale / absent → never emit (sw-01):** `Preferences {}` scene, `showSettingsWindow:` /
 `showPreferencesWindow:` selectors, `@FocusedDocument` (use a custom `FocusedValues` key — see the
-shared hallucination-blacklist). `DocumentGroupLaunchScene` on a Mac arm is **UNVERIFIED**.
+shared hallucination-blacklist). `DocumentGroupLaunchScene` is **macOS ABSENT** (iOS 18 / iPadOS 18 / Mac Catalyst 18 / visionOS 2 only).
 
 ## B. AppKit lifecycle / activation paths
 

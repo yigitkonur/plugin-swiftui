@@ -144,7 +144,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `matchedGeometryEffect(id:in:…)` | macOS 11.0+ | No |
 | `Material` struct | macOS 12.0+ | No |
 | `MenuBarExtra` | macOS 13.0+ | No |
-| `MenuBarExtraStyle` / `menuBarExtraStyle(_:)` | macOS 13.0+ (case names `.menu`/`.window`/`.automatic`: `verify-SDK`) | No |
+| `MenuBarExtraStyle` / `menuBarExtraStyle(_:)` | macOS 13.0+ (cases `.menu`/`.window`/`.automatic` confirmed) | No |
 | `MeshGradient` | macOS 15.0+ | No |
 | `ModelContainer.init(for:configurations:)` (variadic) | macOS 15.0+ | No |
 | `ModelContainer.init(for:migrationPlan:configurations:)` | macOS 14.0+ | No |
@@ -240,7 +240,7 @@ Surfaced as a set so the lint and `api-currency` audit catch them together:
 
 ## 3. Standing `verify against Xcode 26 SDK` items (carry as flags, never assert)
 
-`pushWindow` macOS availability · `menuBarExtraStyle` case names (`.menu`/`.window`/`.automatic`) ·
+`pushWindow` macOS availability ·
 `navigationSplitViewColumnWidth` no-op on detail · `PreviewModifier` / `.modifier(_:)` exact badge ·
 `.asymmetric(insertion:removal:)` factory floor · `Spring.spring(duration:bounce:blendDuration:)`
 overload badge · `RectanglePlot` / `RulePlot` exact badge · `scrollEdgeEffectStyle` `.hard`/`.soft`
