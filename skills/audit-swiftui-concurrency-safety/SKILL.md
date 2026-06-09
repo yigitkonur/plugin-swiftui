@@ -116,7 +116,7 @@ hand-written snippet — verified live via `swiftui-ctx lookup task` (step 5): *
 
 - **Real example** (`swiftui-ctx file ex_a1cff2419c --smart`): `sindresorhus/Gifski` —
   https://github.com/sindresorhus/Gifski/blob/7f873856e2acd8b52e6681dee3aec31e6cab23e4/Gifski/Utilities.swift#L5590
-- **doc:** https://sosumi.ai/documentation/swiftui/view/task(priority:_:) (`.task` floor `macOS 12.0+`)
+- **doc:** https://sosumi.ai/documentation/swiftui/view/task(name:priority:file:line:_:) (`.task` floor `macOS 12.0+`)
 - **Note the seam:** the lifecycle *fix* (`.task`) is `async-data`'s to prescribe — this skill owns the
   isolation verdict only when the captured value is non-`Sendable` or main-actor state is mutated
   off-context. Every ✅ in a written finding is reproduced this way: the consensus shape in `## Correct`,

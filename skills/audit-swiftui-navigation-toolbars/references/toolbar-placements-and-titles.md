@@ -53,7 +53,7 @@ Mac** (`hallucination-blacklist.md` §5).
 **Semantic placements resolve on macOS as:** `.navigation` → leading (ahead of the inline title);
 `.primaryAction` → **leading edge of the toolbar** (Apple: *"In macOS … the location for the primary
 action is the leading edge of the toolbar"*) — NOT trailing; `.principal` and `.status` → **centered**.
-For a sidebar toggle, use `ToolbarDefaultItemKind.sidebarToggle` (macOS 14.0+, `static let sidebarToggle: ToolbarDefaultItemKind`) — this is a `defaultCustomization` item kind, not a `ToolbarItemPlacement`. No first-party inspector-toggle item kind exists on any SwiftUI type; toggle the inspector via its `.inspector(isPresented:)` binding instead.
+`NavigationSplitView` adds a sidebar toggle automatically on macOS 14+; `ToolbarDefaultItemKind.sidebarToggle` (macOS 14.0+, `static let sidebarToggle: ToolbarDefaultItemKind`) is the identity token used with `toolbar(removing: .sidebarToggle)` to remove that default toggle — it is not a `ToolbarItemPlacement`. No first-party inspector-toggle item kind exists on any SwiftUI type; toggle the inspector via its `.inspector(isPresented:)` binding instead.
 
 **swiftui-ctx grounding (run live in VERIFY):** `lookup toolbar --json` →
 `consensus: [{shape:"{ }", pct:89}]`, `co_occurs_with: ["ToolbarItem","ToolbarItemGroup","searchToolbarBehavior", …]`,

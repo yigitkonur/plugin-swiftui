@@ -5,7 +5,7 @@
 # grep cannot express (MeshGradient-not-gated, GeometryReader-arranges-children, the Timer-redraw loop)
 # live in ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
 draw-05	warn	MeshGradient\(	MeshGradient (macOS 15.0+) — REPORT only if deployment target < macOS 15 AND it is ungated (read in ORIENT); else ignore. VERIFY it is gated #available(macOS 15, *). (ast-grep draw-05 proves the gate is absent)
-draw-12	warn	#available\(iOS\s+15	iOS-arm gate — if it guards MeshGradient in a macOS target, gate on #available(macOS 15, *) (wrong-arm, draw-12, fix_mode: auto). READ the block body. (ast-grep draw-12 proves the scope)
+draw-12	hard	#available\(iOS\s+15	iOS-arm gate — if it guards MeshGradient in a macOS target, gate on #available(macOS 15, *) (wrong-arm, draw-12, fix_mode: auto). READ the block body. (ast-grep draw-12 proves the scope)
 draw-02	warn	Timer\.publish|Timer\.scheduledTimer|Timer\(	a Timer driving a redraw — if it mutates @State only to re-render a drawing, replace with TimelineView(.animation/.periodic) { context in … } (draw-02). (ast-grep draw-02 proves the @State-mutating loop)
 draw-03	warn	GeometryReader[[:space:]]*\{	GeometryReader — if it wraps children to ARRANGE/position them, that's layout → Layout protocol/containerRelativeFrame (draw-03, cross_ref layout-and-tables). If it only READS a size into Canvas/Path math, it's fine. (ast-grep draw-03 proves children-arrangement)
 draw-06	warn	MeshGradient\(width:[[:space:]]*[0-9]|MeshGradient\([0-9]	MeshGradient with literal width/height — confirm points.count == colors.count == width*height (mesh arity, draw-06). A mismatch is a runtime no-op/error. UNVERIFIED: assert nothing, flag.

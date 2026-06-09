@@ -23,7 +23,7 @@ read in ORIENT) is **below** the floor.
 | `keyboardShortcut(_:modifiers:)` | macOS 11.0+ | macOS 11 |
 | `@FocusedValue` / `@FocusedBinding` / `FocusedValueKey` / `focusedValue(_:_:)` | macOS 11.0+ | macOS 11 |
 | `SidebarCommands()` / `ToolbarCommands()` / `TextEditingCommands()` / `TextFormattingCommands()` / `EmptyCommands()` | macOS 11.0+ | macOS 11 |
-| `@Entry` macro (on `FocusedValues`) | macOS 10.15+ (back-deploys; **Xcode 15+/Swift 5.9+ to expand**) | macOS 10.15 (runtime) — but the toolchain caveat is build-env, not a runtime gate |
+| `@Entry` macro (on `FocusedValues`) | macOS 10.15+ (back-deploys; **Xcode 15+/Swift 5.9+ to expand** _(toolchain requirement — verify-SDK)_) | macOS 10.15 (runtime) — but the toolchain caveat is build-env, not a runtime gate |
 | `ImportFromDevicesCommands()` | macOS 12.0+ | **macOS 12** |
 | `CommandGroupPlacement.singleWindowList` | macOS 13.0+ | **macOS 13** |
 | `commandsRemoved()` / `commandsReplaced(content:)` (scene modifiers) | macOS 13.0+ | **macOS 13** |

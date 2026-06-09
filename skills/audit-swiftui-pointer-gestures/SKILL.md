@@ -83,7 +83,7 @@ priority resolution for pg-11 (verify the specific control's built-in gesture ag
 
 **Real (exist on macOS):** `onHover(perform:)` (macOS 10.15+), `onContinuousHover(coordinateSpace:perform:)`
 (macOS 14.0+; phases `.active(CGPoint)` / `.ended`), `pointerStyle(_:)` + `PointerStyle` (macOS 15.0+,
-no iOS arm; cases `.grabActive` / `.grabIdle` / `.link` / `.columnResize` / `.rowResize` /
+no iOS arm; cases `.grabActive` / `.grabIdle` / `.link` / `.zoomIn` / `.zoomOut` / `.columnResize` / `.rowResize` /
 `.frameResize(position:directions:)`), `DragGesture` (macOS 10.15+), `MagnifyGesture` / `RotateGesture`
 (macOS 14.0+), `SpatialTapGesture` (macOS 13.0+), `@GestureState`, `.gesture` / `.simultaneousGesture` /
 `.highPriorityGesture`, `.contextMenu(menuItems:)` (macOS 10.15+, **deprecated** → prefer `contextMenu(menuItems:preview:)` macOS 13.0+). **`pointerStyle` is macOS + visionOS only (no iOS arm); `onContinuousHover` is cross-platform (iOS 17.0+, macOS 14.0+) — never flag either as invented.**

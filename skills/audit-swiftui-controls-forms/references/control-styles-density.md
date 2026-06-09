@@ -44,7 +44,7 @@ the column width, not the material.
 ## cf-05 — `Button` with no explicit style in a dense pane (advisory, flag-only)
 
 A `Button` in a compact Mac pane (inspector, toolbar, settings grid) reads oversized at the iOS default.
-Set the Mac style explicitly: `.bordered` / `.borderless` / `.plain`, `.borderedProminent` for a prominent call-to-action (macOS 15.0+), and `.link` for link-text actions.
+Set the Mac style explicitly: `.bordered` / `.borderless` / `.plain`, `.borderedProminent` for a prominent call-to-action (macOS 12.0+), and `.link` for link-text actions.
 
 ```swift
 // ❌ WRONG — default-styled button reads large in a dense pane
@@ -163,7 +163,7 @@ on macOS — no-op"). **Seam:** `controlSize` is a **split axis** — the *densi
   `.plain`; macOS 10.15+): `https://developer.apple.com/documentation/swiftui/view/liststyle(_:)` (via
   Sosumi, accessed 2026-06-07).
 - Apple — `buttonStyle(_:)` / HIG Buttons: `.bordered`/`.borderless`/`.plain`; `.borderedProminent`
-  (macOS 15.0+); `.link` (macOS 10.15+, macOS-only) and `.accessoryBar`/`.accessoryBarAction` (macOS 14.0+,
+  (macOS 12.0+); `.link` (macOS 10.15+, macOS-only) and `.accessoryBar`/`.accessoryBarAction` (macOS 14.0+,
   macOS-only) have **different** floors:
   `https://developer.apple.com/design/human-interface-guidelines/buttons` (via Sosumi, accessed 2026-06-07).
 - Apple — `pickerStyle(_:)`: `.menu` (`MenuPickerStyle`, macOS 11.0+) / `.inline` (macOS 11.0+) /

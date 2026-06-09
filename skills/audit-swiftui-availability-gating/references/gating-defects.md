@@ -62,7 +62,7 @@ hallucination — `Glass.interactive(_:)` and the like are real on macOS 26.0; t
 
 ---
 
-## gate-03 — floor mismatch (hard-fail; fix_mode: flag-only)
+## gate-03 — floor mismatch (warning; fix_mode: flag-only)
 
 A `#available(macOS NN, *)` gate exists but `NN` ≠ the symbol's floor in floors-master. Two shapes:
 

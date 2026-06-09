@@ -32,7 +32,7 @@ Human doc path = `developer.apple.com/documentation/<path>` (fetch as `sosumi.ai
 
 | Symbol | Path | Floor |
 |---|---|---|
-| `.task(priority:_:)` / `.task(id:priority:_:)` | `swiftui/view/task(priority:_:)` | macOS 12.0+ |
+| `.task(name:priority:file:line:_:)` / `.task(id:name:priority:file:line:_:)` | `swiftui/view/task(name:priority:file:line:_:)` | macOS 12.0+ |
 | `MainActor.run(resultType:body:)` | `swift/mainactor/run(resulttype:body:)` | macOS 10.15+ |
 | `@MainActor` / `Sendable` / `Task` / `Task.detached` | `swift/mainactor` · `swift/sendable` · `swift/task` | macOS 10.15+ |
 | `Transferable` / `transferRepresentation` | `coretransferable/transferable` | macOS 13.0+ |

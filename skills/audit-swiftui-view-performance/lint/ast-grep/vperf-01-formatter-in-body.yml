@@ -12,7 +12,8 @@ severity: warning
 message: >-
   vperf-01: a DateFormatter/NumberFormatter/JSONDecoder is constructed INSIDE a computed `some View`
   property (body). body re-runs on every render → a fresh formatter each time. Hoist to a `static let`,
-  or use Text(_:format:) (macOS 15.0+). READ to confirm it is re-run per render.
+  or use Text(_:format:) (macOS 12.0+ for FormatOutput == String / macOS 15.0+ for AttributedString).
+  READ to confirm it is re-run per render.
 rule:
   kind: property_declaration
   all:

@@ -29,7 +29,7 @@ sidebar itself.
 ## Leftover overrides that BLOCK glass
 
 **glass-11 — deprecated toolbar overrides left on the toolbar (warning; fix_mode: auto).**
-`.toolbarBackground(.visible, …)` (formally deprecated macOS 13.0–26.5) and `.toolbarColorScheme(_:)`
+`.toolbarBackground(.visible, …)` (formally deprecated macOS 13.0–exact closing version: verify against Xcode 26 SDK) and `.toolbarColorScheme(_:)`
 **block glass rendering** on the toolbar. Under auto-glass they have no purpose; removal restores intended rendering.
 Safe to auto-fix (deletion only). (`toolbarBackgroundVisibility(_:for:)` is itself macOS 15.0+ — see
 floors-master — and is the symbol used to *hide* a shared toolbar background where that is the goal.)

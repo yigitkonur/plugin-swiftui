@@ -35,8 +35,8 @@ per floors-master (re-confirmed 2026-06-07).
 | `onHover(perform:)` | `view/onhover(perform:)` | 10.15+ |
 | `onContinuousHover(coordinateSpace:perform:)` | `view/oncontinuoushover(coordinatespace:perform:)` | 14.0+ |
 | `pointerStyle(_:)` | `view/pointerstyle(_:)` | 15.0+ (macOS-only, no iOS arm) |
-| `PointerStyle` (cases `.grabActive`/`.grabIdle`/`.columnResize`/`.rowResize`/`.frameResize(position:directions:)`) | `pointerstyle` | 15.0+ |
-| `contextMenu(menuItems:)` | `view/contextmenu(menuitems:)` | 10.15+ |
+| `PointerStyle` (cases `.grabActive`/`.grabIdle`/`.link`/`.zoomIn`/`.zoomOut`/`.columnResize`/`.rowResize`/`.frameResize(position:directions:)`) | `pointerstyle` | 15.0+ |
+| `contextMenu(menuItems:)` | `view/contextmenu(menuitems:)` | 10.15+ (**deprecated** → prefer `contextMenu(menuItems:preview:)` macOS 13.0+) |
 | `DragGesture` | `draggesture` | 10.15+ |
 | `MagnifyGesture` | `magnifygesture` | 14.0+ |
 | `RotateGesture` | `rotategesture` | 14.0+ |

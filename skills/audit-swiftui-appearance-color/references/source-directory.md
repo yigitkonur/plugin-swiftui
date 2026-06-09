@@ -33,7 +33,8 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | `Color(_:bundle:)` (named asset color) | `swiftui/color/init(_:bundle:)` | 10.15+ |
 | `foregroundStyle(_:)` | `swiftui/view/foregroundstyle(_:)` | 12.0+ |
 | `foregroundColor(_:)` (deprecated) | `swiftui/view/foregroundcolor` | 10.15+ (deprecated 26.5) |
-| `tint(_:)` | `swiftui/view/tint(_:)` | 12.0+ |
+| `tint(_:)` (Color overload) | `swiftui/view/tint(_:)` | 12.0+ |
+| `tint(_:)` (ShapeStyle overload) | `swiftui/view/tint(_:)-93mfq` | 13.0+ |
 | `accentColor(_:)` (deprecated) | `swiftui/view/accentcolor` | 10.15+ (deprecated 26.5) |
 | `Material` | `swiftui/material` | 12.0+ |
 | `preferredColorScheme(_:)` | `swiftui/view/preferredcolorscheme(_:)` | 11.0+ |

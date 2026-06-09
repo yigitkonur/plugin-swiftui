@@ -11,7 +11,7 @@ via Sosumi (`references/source-directory.md`) and `${CLAUDE_PLUGIN_ROOT}/referen
 
 ## vperf-01 — a heavyweight built inside `body` (or a computed view prop)
 
-Allocating a `DateFormatter`/`NumberFormatter`/`JSONDecoder`/`ISO8601DateFormatter` inside `body` builds
+Allocating a `DateFormatter`/`NumberFormatter`/`JSONDecoder`/`ISO8601DateFormatter`/`JSONEncoder`/`RelativeDateTimeFormatter` inside `body` builds
 a fresh one on every render. (Why tier-2 ast-grep, not grep: a flat `DateFormatter(` cannot distinguish
 a constructor *inside* `body` from a correctly *hoisted* `static let` at type scope — the latter is the
 fix. The structural rule fires only on the in-`body` case.)
@@ -24,12 +24,13 @@ var body: some View {
 // ✅ CORRECT (a) — hoist to a type-scope static let (built once, reused)
 private static let df: DateFormatter = { let f = DateFormatter(); f.dateStyle = .medium; return f }()
 var body: some View { Text(Self.df.string(from: date)) }
-// ✅ CORRECT (b) — let SwiftUI format it: Text(_:format:) (macOS 15.0+; no formatter object at all)
+// ✅ CORRECT (b) — let SwiftUI format it: Text(_:format:) (macOS 12.0+ for FormatOutput == String; no formatter object at all)
 var body: some View { Text(date, format: .dateTime.month().day()) }
 ```
 
-`Text(_:format:)` is the leaner fix — confirm its **macOS 15.0+** floor (`floors-master.md`; the
-FormatStyle→AttributedString overload) so it isn't used under a macOS 14 target. The canonical shape +
+`Text(_:format:)` is the leaner fix — it requires **macOS 12.0+** for the `FormatOutput == String`
+overload (e.g. `.dateTime.month().day()`) and **macOS 15.0+** for the `FormatOutput == AttributedString`
+overload; confirm the correct floor against your deployment target (`floors-master.md`). The canonical shape +
 a permalinked example: `swiftui-ctx lookup "Text(_:format:)" --json` then `file <recommended.id> --smart`.
 
 ## vperf-05 — `GeometryReader` wrapping a whole screen / large subtree

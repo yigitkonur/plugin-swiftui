@@ -71,7 +71,7 @@ mechanical single-answer fix; `flag` = show the ✅, dev applies.
 | draw-09 | expensive *static* vector art (large `Path`/many shapes, no animation) with no `.drawingGroup()` | advisory | flag | `canvas-and-redraw.md` |
 | draw-10 | `.drawingGroup()` on a tiny/animated/text subtree (misapplied — flattens, breaks text/blends) | advisory | flag | `canvas-and-redraw.md` |
 | draw-11 | `Canvas`/hand-drawn data viz with no `.accessibilityLabel`/`accessibilityChartDescriptor` (a11y) | advisory | flag | `path-and-shapes.md` |
-| draw-12 | `#available(iOS 15, *)` gating `MeshGradient` in a macOS target (wrong arm) | warning | auto | `geometry-and-frames.md` |
+| draw-12 | `#available(iOS 15, *)` gating `MeshGradient` in a macOS target (wrong arm) | hard-fail | auto | `geometry-and-frames.md` |
 
 **Two claims are UNVERIFIED — carry as `advisory` with the flag, never assert as fact** (each flagged in
 its reference + becomes `source: verify against Xcode 26 SDK`): whether `.drawingGroup()` on a

@@ -37,7 +37,7 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 | `NavigationPath` / `.codable` | `/documentation/swiftui/navigationpath` | macOS 13.0 |
 | `onOpenURL(perform:)` | `/documentation/swiftui/view/onopenurl(perform:)` | macOS 11.0 |
 | `onContinueUserActivity(_:perform:)` | `/documentation/swiftui/view/oncontinueuseractivity(_:perform:)` | macOS 11.0 |
-| `handlesExternalEvents(matching:)` | `/documentation/swiftui/view/handlesexternalevents(matching:)` | macOS 11.0 (Mac, iOS, visionOS; no tvOS/watchOS) |
+| `handlesExternalEvents(matching:)` | `/documentation/swiftui/scene/handlesexternalevents(matching:)` | macOS 11.0 (Mac, iOS, visionOS; no tvOS/watchOS) |
 | `restorationBehavior(_:)` | `/documentation/swiftui/scene/restorationbehavior(_:)` | macOS 15.0 |
 | `focusedSceneValue(_:_:)` key-path | `/documentation/swiftui/view/focusedscenevalue(_:_:)` | macOS 12.0 |
 | `focusedSceneValue(_:)` object | `/documentation/swiftui/view/focusedscenevalue(_:)` | macOS 14.0 |

@@ -30,7 +30,6 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | Symbol | Path | Floor |
 |---|---|---|
 | `Text` (+ the deprecated `+` operator) | `swiftui/text` | 10.15+ (`+` deprecated 26.0) |
-| `Text(_:format:)` where `F.FormatOutput == String` | `swiftui/text/init(_:format:)` | 12.0+ |
 | `Text(_:format:)` where `F.FormatOutput == AttributedString` | `swiftui/text/init(_:format:)` | 15.0+ |
 | `AttributedString` | `foundation/attributedstring` | 12.0+ |
 | `AttributeContainer` | `foundation/attributecontainer` | 12.0+ |

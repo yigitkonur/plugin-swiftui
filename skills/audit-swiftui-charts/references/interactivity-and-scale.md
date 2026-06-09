@@ -68,7 +68,8 @@ when the series is genuinely large (hundreds–thousands of marks). Confirm `Lin
 - Apple — fetched via Sosumi (access 2026-06-07):
   `https://developer.apple.com/documentation/swiftui/view/chartxselection(value:)`,
   `/documentation/swiftui/view/chartscrollableaxes(_:)`,
-  `/documentation/charts/lineplot`.
+  `/documentation/charts/lineplot`,
+  `https://developer.apple.com/documentation/swiftui/view/chartgesture(_:)` (macOS 14.0+ / iOS 17.0+).
 - WWDC23 — "Explore pie charts and interactivity in Swift Charts" (`/videos/play/wwdc2023/10037`);
   WWDC24 — "Swift Charts: Vectorized and function plots" (`/videos/play/wwdc2024/10155`), via Sosumi.
 - Practice corpus — `swiftui-ctx lookup BarMark` `co_occurs_with` (`chartScrollPosition`,

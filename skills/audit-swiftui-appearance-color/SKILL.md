@@ -75,7 +75,7 @@ asset-catalog `Color("Brand")`), `foregroundStyle(_:)` (macOS 12+, takes a `Shap
 `Material` (`.ultraThinMaterial` … macOS 12+),
 `@Environment(\.colorScheme)` / `@Environment(\.colorSchemeContrast)` (macOS 10.15+),
 `preferredColorScheme(_:)` (macOS 11+, *for scoped use*), `ShapeStyle` hierarchy levels
-(`.secondary`/`.tertiary`/`.quaternary`/`.quinary` — `.quinary` is macOS 12+). **`foregroundColor(_:)` and `accentColor(_:)` still resolve but are
+(`.primary`/`.secondary`/`.tertiary`/`.quaternary`/`.quinary` — all macOS 12+). **`foregroundColor(_:)` and `accentColor(_:)` still resolve but are
 deprecated at macOS 26.5 → `foregroundStyle(_:)` / `tint(_:)`.**
 
 **Invented / cross-platform (never SwiftUI-on-macOS):** `.textColor(_:)`, `.backgroundColor(_:)`,

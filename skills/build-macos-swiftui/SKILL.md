@@ -119,11 +119,13 @@ The era-boundaries where a pre-2024 prior is stale. Full detail + availability s
 | `@Observable` macro (2023) | `class VM: ObservableObject { @Published }` + `@StateObject` | `@Observable class VM` + `@State`/`@Bindable`/`@Environment(Type.self)` | macOS 14 |
 | Two-param `onChange` (2023) | `.onChange(of:) { newValue in }` | `.onChange(of:, initial:) { old, new in }` | macOS 14 |
 | `#Preview`/`@Previewable`/`@Entry` (2023–24) | `PreviewProvider` + manual `EnvironmentKey` | `#Preview { @Previewable @State }`, `@Entry var` | macOS 14 |
-| Style deprecations (rolling) | `.foregroundColor`, `.cornerRadius`, `tabItem` | `.foregroundStyle`, `.clipShape(.rect(cornerRadius:))`, `Tab(){}` | macOS 12–13 |
+| Style deprecations (rolling) | `.foregroundColor`, `.cornerRadius`, `tabItem` | `.foregroundStyle`, `.clipShape(.rect(cornerRadius:))` | macOS 12 |
+| `tabItem` → `Tab(){}` | `tabItem {}` / `TabView` without `Tab` | `Tab("Label", systemImage:) {}` inside `TabView` | macOS 15 |
 | Swift 6 strict concurrency (2024) | non-`Sendable` across actors; `DispatchQueue.main.async` | `Sendable`-correct, `@MainActor`, `.task` | toolchain |
 | Swift 6.2 approachable concurrency (2025) | assume main-actor-by-default everywhere | opt-in `-default-isolation MainActor` build mode | toolchain 6.2 |
 | Liquid Glass (2025) | `.glassBackground()` / `.liquidGlass()` (invented) | `glassEffect(_:in:)`, `GlassEffectContainer`, `.buttonStyle(.glass)` — `#available(macOS 26)` | macOS 26 |
-| `Settings {}` scene | `NSApp.sendAction(showSettingsWindow:)` / `Preferences {}` | `Settings {}` scene + `SettingsLink` | macOS 11 |
+| `Settings {}` scene | `NSApp.sendAction(showSettingsWindow:)` / `Preferences {}` | `Settings {}` scene | macOS 11 |
+| `SettingsLink` | manual `NSApp.sendAction(showSettingsWindow:)` | `SettingsLink` (requires `Settings {}` scene) | macOS 14 |
 
 ## macOS-only primitives AI forgets exist
 

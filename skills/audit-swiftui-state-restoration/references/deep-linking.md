@@ -35,7 +35,7 @@ Window/scene activation semantics themselves are `audit-swiftui-scenes-windows` 
 - Apple — `onOpenURL(perform:)`, macOS 11.0+:
   `https://developer.apple.com/documentation/swiftui/view/onopenurl(perform:)` (via Sosumi, accessed 2026-06-07).
 - Apple — `handlesExternalEvents(matching:)`, macOS 11.0+ (Mac, iOS, visionOS):
-  `https://developer.apple.com/documentation/swiftui/view/handlesexternalevents(matching:)` (via Sosumi, 2026-06-07).
+  `https://developer.apple.com/documentation/swiftui/scene/handlesexternalevents(matching:)` (via Sosumi, 2026-06-07).
 - Apple — `onContinueUserActivity(_:perform:)`, macOS 11.0+:
   `https://developer.apple.com/documentation/swiftui/view/oncontinueuseractivity(_:perform:)` (via Sosumi, 2026-06-07).
 - swiftui-ctx practice corpus — `lookup onOpenURL` (introduced_macos 11.0; `recommended`:

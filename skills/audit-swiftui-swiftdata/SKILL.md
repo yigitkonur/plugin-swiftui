@@ -67,7 +67,7 @@ crash / data loss — never correct), **warning** (compiles but wrong), **adviso
 
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
-| sd-01 | `let` on a bidirectional `@Relationship` property (runtime cast crash) | warning | flag | `model-shape-and-relationships.md` |
+| sd-01 | `let` on a bidirectional `@Relationship` property (runtime cast crash) | hard-fail | flag | `model-shape-and-relationships.md` |
 | sd-02 | a relationship assigned in `init` (`self.x = y`) → child FK saved `NULL`, empty on relaunch | hard-fail | flag | `model-shape-and-relationships.md` |
 | sd-03 | `@Model` class with stored properties but no `init(` (Apple's incomplete sample) | warning | flag | `model-shape-and-relationships.md` |
 | sd-04 | `@Relationship(.cascade)` positional (`.cascade` is a `DeleteRule`, slot wants `.Option`) → type error | hard-fail | auto | `model-shape-and-relationships.md` |

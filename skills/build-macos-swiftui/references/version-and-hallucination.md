@@ -209,7 +209,7 @@ ALWAYS gate above your deployment target — on the macOS arm:
   @available(macOS 14.0, *) on whole types using @Observable / @Bindable.
 ```
 
-**Confirmed floors** (Apple docs): `Tab(...)` struct = `macOS 15.0+`; `clipShape(_:style:)` + `RoundedRectangle` = `macOS 10.15+` (universally safe). **Still UNVERIFIED** — verify against your Xcode 26 SDK before asserting: `GlassProminentButtonStyle` / `.buttonStyle(.glassProminent)` (symbol exists; exact availability unconfirmed).
+**Confirmed floors** (Apple docs): `Tab(...)` struct = `macOS 15.0+`; `clipShape(_:style:)` + `RoundedRectangle` = `macOS 10.15+` (universally safe); `GlassProminentButtonStyle` / `.buttonStyle(.glassProminent)` = `macOS 26.0+` (confirmed — struct exists, not deprecated).
 
 ---
 

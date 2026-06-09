@@ -60,7 +60,7 @@ single-answer fix; `flag` = show the ✅, dev applies.
 
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
-| vperf-01 | `DateFormatter(`/`NumberFormatter(`/`JSONDecoder(`/`ISO8601DateFormatter(` built inside `body` or a computed view prop | warning | flag | `body-and-init-cost.md` |
+| vperf-01 | `DateFormatter(`/`NumberFormatter(`/`JSONDecoder(`/`ISO8601DateFormatter(`/`JSONEncoder(`/`RelativeDateTimeFormatter(` built inside `body` or a computed view prop | warning | flag | `body-and-init-cost.md` |
 | vperf-02 | `.id(UUID())` / `.id(UUID().uuidString)` — fresh identity every render | warning | auto | `identity-and-erasure.md` |
 | vperf-03 | `AnyView(` in view code — erases the type SwiftUI diffs on | warning | flag | `identity-and-erasure.md` |
 | vperf-04 | a closure passed as a child view's stored prop (child can't be skipped) | advisory | flag | `skippability-and-observation.md` |
@@ -231,7 +231,7 @@ a hard requirement.* Two runs over the same code produce structurally identical 
 
 | Shared file | For |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — e.g. `Text(_:format:)` macOS 15.0+) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — e.g. `Text(_:format:)`: macOS 12.0+ (String) / 15.0+ (AttributedString)) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/finding-schema.md` | the unified finding schema + frontmatter keys |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/fix-safety-protocol.md` | the 8-point fix-safety protocol (step 7) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/sosumi-reference.md` | the Apple-doc spec fetch protocol (step 5 VERIFY) |

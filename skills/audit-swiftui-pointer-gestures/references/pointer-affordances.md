@@ -100,10 +100,11 @@ modifier fires via long-press on iOS — the right-click *idiom* is the Mac's. M
 
 ```swift
 // ✅ CORRECT — right-click menu, the Mac idiom (also long-press on iOS)
-Text(item.title).contextMenu {
+// Uses contextMenu(menuItems:preview:) (macOS 13.0+) — the non-deprecated overload
+Text(item.title).contextMenu(menuItems: {
     Button("Rename") { rename(item) }
     Button("Delete", role: .destructive) { delete(item) }
-}
+})
 ```
 If the menu items deserve `keyboardShortcut`s or mirror a `CommandMenu`, `cross_ref: menus-commands`.
 

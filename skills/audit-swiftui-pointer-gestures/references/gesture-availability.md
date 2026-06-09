@@ -20,7 +20,7 @@ pg-07 when the project floor is below them (read the value from `floors-master.m
 `.onHover` and `.contextMenu` are macOS 10.15+ and effectively never need a gate; `MagnifyGesture` /
 `RotateGesture` are macOS 14.0+ (gate only under a sub-14 floor — see `gestures-and-state.md`).
 
-## pg-07 — an ungated pointer modifier under a lower floor (hard-fail)
+## pg-07 — an ungated pointer modifier under a lower floor (warning)
 
 If the deployment target (read in ORIENT) is **below** the modifier's floor and the call is not wrapped in
 `#available(macOS NN, *)` (or annotated `@available`), it is a build break / silent no-op. Report pg-07
