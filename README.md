@@ -40,6 +40,20 @@ that's it. you get **33 skills** — write/lookup (swiftui-examples, macos-app-p
 
 how they relate: **write** new code → `swiftui-examples` (per-api) or `macos-app-patterns` (whole feature); **fix** an existing file off deprecated apis → `swiftui-modernize`; **audit** a finished project → `/swiftui-audit`. the skills fire automatically when you describe the task; the commands are the explicit shortcuts.
 
+### configure per-project settings (optional)
+
+run `/swiftui-settings` once in any project to create `.claude/swiftui.local.md`:
+
+```markdown
+---
+enabled: true       # false → silences the deprecation hook
+strict_audit: true  # false → /swiftui-audit warnings only, no non-zero exit on hard findings
+---
+```
+
+the file is gitignored automatically (`.claude/*.local.md`). changes take effect after restarting claude code.
+you can also set `SWIFTUI_GUARD=off` as an env var to skip the hook without a config file.
+
 prefer the cli alone (no plugin)?
 
 ```sh
@@ -91,7 +105,7 @@ follows the [agent skills](https://agentskills.io) + claude code plugin specs (`
   - 28 domain auditors — `audit-swiftui-{accessibility, concurrency-safety, state-observation, liquid-glass, navigation-toolbars, swiftdata, macos-nativeness, view-performance, scenes-windows, charts, …}`. each pairs a shared 334-rule grep+ast-grep lint engine (locates candidates) with `swiftui-ctx` evidence (the auditor *judges*, the engine never reports a finding as fact).
 - **commands/** — `/swiftui <api|intent>` (quick lookup) · `/swiftui-review [file]` (deprecation + consensus audit) · `/swiftui-audit [dir]` (full audit-suite pass via the orchestrator).
 - **agents/** — `swiftui-reviewer`, a review subagent for swiftui diffs.
-- **hooks/** — opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api → it nudges the fix (static grep, no latency, warn-only; `SWIFTUI_GUARD=off` to disable).
+- **hooks/** — opt-in `PostToolUse` guard: edit a `.swift` that adds a deprecated api → it nudges the fix (static grep, no latency, warn-only). disable via `/swiftui-settings` (`enabled: false`) or `SWIFTUI_GUARD=off`.
 
 the cli contract is in [`cli.md`](CLI.md). the shared audit infra lives in `references/_shared/` + `scripts/swiftui-lint.sh`.
 

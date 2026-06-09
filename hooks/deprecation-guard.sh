@@ -1,9 +1,19 @@
 #!/usr/bin/env bash
 # PostToolUse guard — NON-BLOCKING. When an edited *.swift file introduces a deprecated SwiftUI API,
 # nudge the agent (never deny the edit). Static grep only: no CLI call, no build, no latency.
-# Disable by removing the hooks entry, or set SWIFTUI_GUARD=off.
+#
+# Configuration (checked in order):
+#   1. .claude/swiftui.local.md in the project root — set `enabled: false` to disable.
+#   2. SWIFTUI_GUARD=off environment variable — legacy opt-out.
 set -euo pipefail
 [ "${SWIFTUI_GUARD:-on}" = "off" ] && exit 0
+
+# Read plugin settings if present (.claude/swiftui.local.md per plugin-settings pattern)
+if [[ -f ".claude/swiftui.local.md" ]]; then
+  _fm=$(sed -n '/^---$/,/^---$/{ /^---$/d; p; }' ".claude/swiftui.local.md")
+  _en=$(echo "$_fm" | grep '^enabled:' | sed 's/enabled: *//' | sed 's/^"\(.*\)"$/\1/')
+  [[ "$_en" == "false" ]] && exit 0
+fi
 
 root="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 names="$root/hooks/deprecated-names.txt"

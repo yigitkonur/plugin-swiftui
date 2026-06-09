@@ -20,6 +20,10 @@ catalog/customComponents.json
 # eval: generated model outputs (seeds + RESULTS.md are committed)
 eval/out/
 
+# plugin settings (user-local, never committed)
+.claude/*.local.md
+.claude/*.local.json
+
 # python / os
 __pycache__/
 *.pyc
