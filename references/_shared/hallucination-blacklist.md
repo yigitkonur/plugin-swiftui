@@ -49,8 +49,8 @@ live in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`.
 |---|---|---|
 | `PointerStyle.grabbing` | Stale/invented case name. | `PointerStyle.grabActive` / `.grabIdle` (macOS 15.0+) |
 | `pointerStyle(.grabbing)` | Same — no `.grabbing` case. | `.pointerStyle(.grabActive)` (macOS 15.0+) |
-| `MagnificationGesture` as the *current* API | Real but **deprecated** (27.0). | `MagnifyGesture` (macOS 14.0+) |
-| `RotationGesture` as the *current* API | Real but **deprecated** (27.0). | `RotateGesture` (macOS 14.0+) |
+| `MagnificationGesture` as the *current* API | Real but **deprecated** (26.5). | `MagnifyGesture` (macOS 14.0+) |
+| `RotationGesture` as the *current* API | Real but **deprecated** (26.5). | `RotateGesture` (macOS 14.0+) |
 
 ---
 

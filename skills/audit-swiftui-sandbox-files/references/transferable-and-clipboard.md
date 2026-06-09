@@ -102,7 +102,7 @@ pre-isolate and mask this — never assume that mode is on; it is opt-in. Carry 
 
 ---
 
-## sf-08 — deprecated 3-arg `dropDestination` (macOS 27.0)
+## sf-08 — deprecated 3-arg `dropDestination` (macOS 26.5)
 
 ```swift
 view.dropDestination(for: Note.self) { items, location in   // (for:action:isTargeted:) — 3-arg Bool-returning
@@ -110,7 +110,7 @@ view.dropDestination(for: Note.self) { items, location in   // (for:action:isTar
 }
 ```
 
-`dropDestination(for:action:isTargeted:)` (the 3-arg, Bool-returning form) is **deprecated in macOS 27.0**
+`dropDestination(for:action:isTargeted:)` (the 3-arg, Bool-returning form) is **deprecated in macOS 26.5**
 → `dropDestination(for:isEnabled:action:)` (the macOS-26.0+ successor). Per
 `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`, the successor floors at macOS 26.0. Note the
 action closure signature changed: the deprecated form uses `([T], CGPoint) -> Bool`; the successor uses
@@ -120,7 +120,7 @@ pipeline and `cross_ref: audit-swiftui-api-currency`. Carry as **advisory**.
 
 > **Corpus-vs-spec note (honesty).** `swiftui-ctx lookup dropDestination` / `deprecated dropDestination`
 > currently report `deprecated: false` — the 1,857-app catalog was parsed against the macOS 26.5 SDK but
-> **predates the 27.0 doc revision** that records the deprecation, so the corpus hasn't caught up. When
+> **predates the 26.5 doc revision** that records the deprecation, so the corpus hasn't caught up. When
 > the corpus and `floors-master.md` disagree, **floors-master wins** (failure protocol): treat the
 > deprecation as fact and note the catalog lag in the finding's `## Evidence`.
 
@@ -140,14 +140,14 @@ pipeline and `cross_ref: audit-swiftui-api-currency`. Carry as **advisory**.
 |---|---|---|---|
 | https://developer.apple.com/documentation/coretransferable/transferable | primary-doc | high (symbol) | `Transferable` protocol — current SwiftUI drag-drop/paste model. macOS 13.0+. Body JS-rendered. Accessed 2026-06-06. |
 | https://developer.apple.com/documentation/swiftui/view/draggable(_:) | primary-doc | high (symbol) | `.draggable(_:)` — the source side, macOS 13.0+. Accessed 2026-06-06. |
-| https://developer.apple.com/documentation/swiftui/view/dropdestination(for:action:istargeted:) | primary-doc | high (symbol) | The 3-arg `.dropDestination(for:action:isTargeted:)` — paired with `.draggable`; **deprecated macOS 27.0** → `dropDestination(for:isEnabled:action:)` (successor macOS 26.0+, per floors-master). Accessed 2026-06-06. |
+| https://developer.apple.com/documentation/swiftui/view/dropdestination(for:action:istargeted:) | primary-doc | high (symbol) | The 3-arg `.dropDestination(for:action:isTargeted:)` — paired with `.draggable`; **deprecated macOS 26.5** → `dropDestination(for:isEnabled:action:)` (successor macOS 26.0+, per floors-master). Accessed 2026-06-06. |
 | https://developer.apple.com/documentation/appkit/nspasteboard | primary-doc | high (symbol) | `NSPasteboard.general` — the raw clipboard on macOS; `UIPasteboard` has no Mac arm. Accessed 2026-06-06. |
 | https://www.reddit.com/r/swift/comments/1dk8ces/strict_concurrency_swift_6_causes/ | forum (lived) | high | Error verbatim *"Sending main actor-isolated value of type 'PhotosPickerItem' …"*; fix = move the item + `loadTransferable` into an `@Observable` view-model held as `@State`; *"The `.task()` is nonisolated … the PhotosPickerItem is isolated to mainactor."* Accessed 2026-06-06. |
-| swiftui-ctx `lookup dropDestination` / `deprecated dropDestination` (corpus of 1,857 macOS apps) | practice | high | consensus drop shape `(for)` 87%; `introduced_macos: 13.0`; corpus reports `deprecated: false` (**predates the 27.0 doc** — floors-master is authoritative); `doc:` https://sosumi.ai/documentation/swiftui/view/dropdestination. Run 2026-06-07. |
+| swiftui-ctx `lookup dropDestination` / `deprecated dropDestination` (corpus of 1,857 macOS apps) | practice | high | consensus drop shape `(for)` 87%; `introduced_macos: 13.0`; corpus reports `deprecated: false` (**predates the 26.5 doc** — floors-master is authoritative); `doc:` https://sosumi.ai/documentation/swiftui/view/dropdestination. Run 2026-06-07. |
 
 Floors are cross-checked against `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`
 (`Transferable`/`draggable`/`dropDestination(3-arg)` macOS 13.0+; `dropDestination(for:isEnabled:action:)`
-macOS 26.0+; the 27.0 deprecation) and the platform-wrong list in
+macOS 26.0+; the 26.5 deprecation) and the platform-wrong list in
 `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`; pages fetched via Sosumi (access
 2026-06-07). Apple doc bodies render via JavaScript — symbols and availability confirmed; where exact body
 prose or a Swift-6 build setting matters, **verify against Xcode 26 SDK**.

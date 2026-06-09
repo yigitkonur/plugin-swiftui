@@ -18,7 +18,7 @@ of which pages to fetch. Floor values live in `${CLAUDE_PLUGIN_ROOT}/references/
    a `swiftui-ctx lookup` exit-3).
 2. **Is it deprecated, and when?** For ac-03/ac-04 run `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx
    deprecated <api>` and cross-check the Sosumi "Deprecated" banner against `floors-master.md`
-   (`foregroundColor` and `accentColor` both close at 27.0).
+   (`foregroundColor` and `accentColor` both close at 26.5).
 3. **Never** `WebFetch` `developer.apple.com`; never paper a 404 with a memory guess.
 
 ---
@@ -32,10 +32,10 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | `Color` | `swiftui/color` | 10.15+ |
 | `Color(_:bundle:)` (named asset color) | `swiftui/color/init(_:bundle:)` | 10.15+ |
 | `foregroundStyle(_:)` | `swiftui/view/foregroundstyle(_:)` | 12.0+ |
-| `foregroundColor(_:)` (deprecated) | `swiftui/view/foregroundcolor` | 10.15+ (deprecated 27.0) |
+| `foregroundColor(_:)` (deprecated) | `swiftui/view/foregroundcolor` | 10.15+ (deprecated 26.5) |
 | `tint(_:)` (Color overload) | `swiftui/view/tint(_:)` | 12.0+ |
 | `tint(_:)` (ShapeStyle overload) | `swiftui/view/tint(_:)-93mfq` | 13.0+ |
-| `accentColor(_:)` (deprecated) | `swiftui/view/accentcolor` | 10.15+ (deprecated 27.0) |
+| `accentColor(_:)` (deprecated) | `swiftui/view/accentcolor` | 10.15+ (deprecated 26.5) |
 | `Material` | `swiftui/material` | 12.0+ |
 | `preferredColorScheme(_:)` | `swiftui/view/preferredcolorscheme(_:)` | 11.0+ |
 | `EnvironmentValues.colorScheme` | `swiftui/environmentvalues/colorscheme` | 10.15+ |

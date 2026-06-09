@@ -32,7 +32,7 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 
 | Symbol | Path | Deprecation / floor |
 |---|---|---|
-| `NavigationView` | `navigationview` | dep `macOS 10.15–27.0` → `NavigationStack`/`NavigationSplitView` |
+| `NavigationView` | `navigationview` | dep `macOS 10.15–26.5` → `NavigationStack`/`NavigationSplitView` |
 | `foregroundColor(_:)` | `view/foregroundcolor(_:)` | dep → `foregroundStyle(_:)` (macOS 12+) |
 | `cornerRadius(_:)` | `view/cornerradius(_:)` | dep → `clipShape(.rect(cornerRadius:))` (macOS 10.15+) |
 | `onChange(of:perform:)` (1-param) | `view/onchange(of:perform:)` | dep macOS 11.0–14.0 → `onChange(of:initial:_:)` |
@@ -40,9 +40,9 @@ Human doc path = `developer.apple.com/documentation/swiftui/<path>` (fetch via `
 | `NavigationLink(_:destination:)` | `navigationlink` | inline-in-`List` → `navigationDestination(for:destination:)` (macOS 13+) |
 | `Text` `+` operator | `text/+(_:_:)` | dep `macOS 10.15–26.0` → interpolation/`AttributedString` |
 | `MagnificationGesture` / `RotationGesture` | `magnificationgesture` · `rotationgesture` | renamed → `MagnifyGesture`/`RotateGesture` (macOS 14+) |
-| `Font.system(_:design:)` | `font/system(_:design:)` | design-only dep macOS 27.0 → `system(_:design:weight:)` |
-| `accentColor(_:)` | `view/accentcolor(_:)` | dep macOS 27.0 → `tint(_:)` (macOS 12+) |
-| `dropDestination(for:action:isTargeted:)` | `view/dropdestination(for:action:istargeted:)` | 3-arg dep macOS 27.0 → `dropDestination(for:isEnabled:action:)` — **verify signature** |
+| `Font.system(_:design:)` | `font/system(_:design:)` | design-only dep macOS 26.5 → `system(_:design:weight:)` |
+| `accentColor(_:)` | `view/accentcolor(_:)` | dep macOS 26.5 → `tint(_:)` (macOS 12+) |
+| `dropDestination(for:action:isTargeted:)` | `view/dropdestination(for:action:istargeted:)` | 3-arg dep macOS 26.5 → `dropDestination(for:isEnabled:action:)` — **verify signature** |
 
 ## B. Hallucinated / platform-wrong (curr-13 / curr-14)
 

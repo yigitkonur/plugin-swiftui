@@ -55,7 +55,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `accessibilityShowsLargeContentViewer()` | macOS 12.0+ | No |
 | `accessibilityValue(_:)` | macOS 11.0+ | No |
 | `accessibilityValue(_:isEnabled:)` (closure form) | macOS 15.0+ | No |
-| `accentColor(_:)` / `.accentColor` | macOS 10.15+ | **Yes (27.0 → `.tint(_:)`)** |
+| `accentColor(_:)` / `.accentColor` | macOS 10.15+ | **Yes (26.5 → `.tint(_:)`)** |
 | `AccessibilityChildBehavior` (`.combine`/`.ignore`/`.contain`) | macOS 10.15+ | No |
 | `AccessibilityFocusState` (property-wrapper type) | macOS 12.0+ | No |
 | `AccessibilityRotorContent` | macOS 12.0+ | No |
@@ -93,7 +93,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `DisclosureGroup` | macOS 11.0+ | No |
 | `draggable(_:)` | macOS 13.0+ | No |
 | `DragConfiguration` / `DropConfiguration` | macOS 26.0+ | No |
-| `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) | macOS 13.0+ | **Yes (27.0 → `dropDestination(for:isEnabled:action:)`)** |
+| `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) | macOS 13.0+ | **Yes (26.5 → `dropDestination(for:isEnabled:action:)`)** |
 | `dropDestination(for:isEnabled:action:)` (successor) | macOS 26.0+ | No |
 | `EnvironmentValues.accessibilityDifferentiateWithoutColor` | macOS 10.15+ | No |
 | `EnvironmentValues.accessibilityReduceMotion` | macOS 10.15+ | No |
@@ -104,9 +104,9 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `fileExporter(...)` / `fileImporter(...)` | macOS 11.0+ | No |
 | `focusable(_:)` | macOS 12.0+ (**NOT 10.15 — corpus error corrected**) | No |
 | `focused(_:)` | macOS 12.0+ | No |
-| `Font.system(_:design:)` (design-only, no `weight:`) | macOS 10.15+ | **Yes (27.0 → `system(_:design:weight:)`)** |
+| `Font.system(_:design:)` (design-only, no `weight:`) | macOS 10.15+ | **Yes (26.5 → `system(_:design:weight:)`)** |
 | `Font.system(_:design:weight:)` (current overload) | macOS 13.0+ | No |
-| `foregroundColor(_:)` | macOS 10.15+ | **Yes (27.0 → `.foregroundStyle(_:)`)** |
+| `foregroundColor(_:)` | macOS 10.15+ | **Yes (26.5 → `.foregroundStyle(_:)`)** |
 | `foregroundStyle(_:)` | macOS 12.0+ | No |
 | `formStyle(_:)` | macOS 13.0+ | No |
 | `FocusedValueKey` protocol | macOS 11.0+ | No |
@@ -139,7 +139,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `LinePlot` | macOS 15.0+ | No |
 | `List(_:children:rowContent:)` (hierarchical) | macOS 12.0+ | No |
 | `LocalizedStringResource` | macOS 13.0+ | No |
-| `MagnificationGesture` | macOS 10.15+ | **Yes (27.0 → `MagnifyGesture`)** |
+| `MagnificationGesture` | macOS 10.15+ | **Yes (26.5 → `MagnifyGesture`)** |
 | `MagnifyGesture` | macOS 14.0+ | No |
 | `matchedGeometryEffect(id:in:…)` | macOS 11.0+ | No |
 | `Material` struct | macOS 12.0+ | No |
@@ -153,7 +153,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `navigationDestination(for:)` | macOS 13.0+ | No |
 | `NavigationSplitView` / `NavigationSplitViewVisibility` | macOS 13.0+ | No |
 | `NavigationStack` | macOS 13.0+ | No |
-| `NavigationView` | macOS 10.15+ | **Yes (27.0 → `NavigationStack`/`NavigationSplitView`)** |
+| `NavigationView` | macOS 10.15+ | **Yes (26.5 → `NavigationStack`/`NavigationSplitView`)** |
 | `navigationSplitViewColumnWidth(min:ideal:max:)` | macOS 13.0+ | No (no-op on detail column: `verify-SDK`) |
 | `navigationSubtitle(_:)` | macOS 11.0+ (iOS floor is 26.0 — much higher) | No |
 | `navigationTitle(_:)` | macOS 11.0+ | No |
@@ -177,7 +177,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `pushWindow` / `PushWindowAction` | **`verify-SDK` — Apple pages show visionOS 2.0+ only; macOS unconfirmed** | N/A |
 | `RectangleMark` / `RuleMark` | macOS 13.0+ | No |
 | `RectanglePlot` / `RulePlot` | macOS 15.0+ (exact badge: `verify-SDK`) | No |
-| `RotationGesture` | macOS 10.15+ | **Yes (27.0 → `RotateGesture`)** |
+| `RotationGesture` | macOS 10.15+ | **Yes (26.5 → `RotateGesture`)** |
 | `RotateGesture` | macOS 14.0+ | No |
 | `scrollEdgeEffectHidden(_:for:)` | macOS 26.0+ | No |
 | `scrollEdgeEffectStyle(_:for:)` | macOS 26.0+ (`.hard`/`.soft` default: `verify-SDK`) | No |
@@ -197,14 +197,14 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `String.init(localized:…)` / `String.LocalizationValue` | macOS 12.0+ | No |
 | `symbolEffect(_:options:value:)` / `(_:options:isActive:)` | macOS 14.0+ | No |
 | `Tab` struct | macOS 15.0+ | No |
-| `tabItem { … }` | macOS 10.15+ | **Yes (27.0 → `Tab("…") { }`)** |
+| `tabItem { … }` | macOS 10.15+ | **Yes (26.5 → `Tab("…") { }`)** |
 | `Table` (SwiftUI) | macOS 12.0+ | No |
 | `TableColumnForEach` | macOS 14.4+ | No |
-| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **Yes (27.0 → `.tableStyle(.inset).alternatingRowBackgrounds()`)** |
+| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **Yes (26.5 → `.tableStyle(.inset).alternatingRowBackgrounds()`)** |
 | `TextEditor(text:selection:)` (styled/rich-text init) | macOS 26.0+ | No |
 | `TextRenderer` (protocol) | macOS 14.0+ | No |
 | `textRenderer(_:)` (modifier applying a renderer) | macOS 15.0+ | No |
-| `Text("a") + Text("b")` (`Text` `+` operator) | macOS 10.15+ | **Yes (26.0 → Text interpolation / `AttributedString`) — closes at 26.0, one release before the 27.0 set** |
+| `Text("a") + Text("b")` (`Text` `+` operator) | macOS 10.15+ | **Yes (26.0 → Text interpolation / `AttributedString`) — closes at 26.0, one release before the 26.5 set** |
 | `Text.init(_:format:)` (FormatStyle→AttributedString overload) | macOS 15.0+ | No |
 | `tint(_:)` | macOS 12.0+ | No |
 | `ToolbarCommands` | macOS 11.0+ | No |
@@ -227,7 +227,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 
 ---
 
-## 2. The four new macOS-27.0 deprecations (post-date the shipped doc)
+## 2. The macOS-26.5 deprecation set (post-date most training data)
 
 Surfaced as a set so the lint and `api-currency` audit catch them together:
 
@@ -235,6 +235,20 @@ Surfaced as a set so the lint and `api-currency` audit catch them together:
 2. `MagnificationGesture` / `RotationGesture` → `MagnifyGesture` / `RotateGesture`
 3. `Font.system(_:design:)` (design-only) → `Font.system(_:design:weight:)`
 4. `foregroundColor(_:)` / `accentColor(_:)` → `foregroundStyle(_:)` / `tint(_:)`
+5. `tabItem { … }` → `Tab(…) { }` · `NavigationView` → `NavigationStack`/`NavigationSplitView` ·
+   `tableStyle(.inset(alternatesRowBackgrounds:))` → `.tableStyle(.inset).alternatingRowBackgrounds()`
+
+> **What "26.5" means here — verified against the local SDK (`MacOSX26.5.sdk`,
+> `SwiftUI.swiftinterface`, 2026-06-09).** Every symbol above is annotated
+> `@available(macOS, introduced: …, deprecated: 100000.0, …)`. `100000.0` is Apple's
+> **soft-deprecation sentinel**: deprecated *now* (the annotation is already present in the
+> macOS 26.5 SDK), with **no fixed removal version**. Xcode/`developer.apple.com` render the
+> sentinel as whatever SDK you view it against — so against this corpus's target **macOS 26.5
+> SDK it surfaces as "deprecated, 26.5."** Treat "26.5" as *that SDK rendering*, **not** a hard
+> removal version; do **not** assert a literal future close (e.g. "27.0"). The lone genuinely
+> versioned member is the **`Text` `+` operator**, which carries a concrete `deprecated: 26.0`
+> (one cycle earlier) — keep it labelled 26.0. The 1,857-app corpus reports these as
+> `deprecated: false` because it was parsed before the doc revision; **this table wins.**
 
 ---
 
@@ -245,7 +259,12 @@ Surfaced as a set so the lint and `api-currency` audit catch them together:
 `.asymmetric(insertion:removal:)` factory floor · `Spring.spring(duration:bounce:blendDuration:)`
 overload badge · `RectanglePlot` / `RulePlot` exact badge · `scrollEdgeEffectStyle` `.hard`/`.soft`
 default · `HistoryDescriptor.sortBy` member badge · inspector 270-vs-225 pt · `cornerRadius`
-deprecation window · `ToolbarItemPlacement.navigationBar*` deprecation version.
+deprecation window.
+
+*(Resolved 2026-06-09 against the local `MacOSX26.5.sdk`: `@Model` inheritance = macOS 26.0;
+`windowIdealPlacement` = 15.0; `#Index` = 15.0; `Text.init(_:format:)` AttributedString = 15.0;
+`HistoryDescriptor.sortBy` = 26.0; `RectanglePlot`/`RulePlot` = 15.0; `ToolbarItemPlacement.navigationBar*`
+= macOS ABSENT, not a low floor. The deprecation set in §2 carries Apple's `100000` soft-sentinel, not a literal version.)*
 
 ---
 

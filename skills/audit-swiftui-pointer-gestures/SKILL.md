@@ -68,8 +68,8 @@ fix; `flag` = show the ✅, dev applies.
 | pg-05 | row/item view with action buttons but **no** right-click `.contextMenu` | warning | flag | `pointer-affordances.md` |
 | pg-06 | `.swipeActions` as the *only* way to act on a row (touch idiom) — add `.contextMenu` | advisory | flag | `pointer-affordances.md` |
 | pg-07 | `pointerStyle`(macOS 15) / `onContinuousHover`(macOS 14) ungated under a lower floor | warning | flag | `gesture-availability.md` |
-| pg-08 | `MagnificationGesture` (deprecated 27.0) → `MagnifyGesture` (macOS 14) | warning | flag | `gestures-and-state.md` |
-| pg-09 | `RotationGesture` (deprecated 27.0) → `RotateGesture` (macOS 14) | warning | flag | `gestures-and-state.md` |
+| pg-08 | `MagnificationGesture` (deprecated 26.5) → `MagnifyGesture` (macOS 14) | warning | flag | `gestures-and-state.md` |
+| pg-09 | `RotationGesture` (deprecated 26.5) → `RotateGesture` (macOS 14) | warning | flag | `gestures-and-state.md` |
 | pg-10 | continuous `DragGesture`/`MagnifyGesture`/`RotateGesture` with **no** `@GestureState` (no live value) | warning | flag | `gestures-and-state.md` |
 | pg-11 | `.gesture(` on a control that also has a built-in gesture → use `.simultaneousGesture` / `.highPriorityGesture` | advisory | flag | `gestures-and-state.md` |
 | pg-12 | `#available(iOS …)` gating a pointer modifier in a macOS target (wrong arm) | hard-fail | auto | `gesture-availability.md` |
@@ -89,7 +89,7 @@ no iOS arm; cases `.grabActive` / `.grabIdle` / `.link` / `.zoomIn` / `.zoomOut`
 `.highPriorityGesture`, `.contextMenu(menuItems:)` (macOS 10.15+, **deprecated** → prefer `contextMenu(menuItems:preview:)` macOS 13.0+). **`pointerStyle` is macOS + visionOS only (no iOS arm); `onContinuousHover` is cross-platform (iOS 17.0+, macOS 14.0+) — never flag either as invented.**
 
 **Stale / invented (never use):** `PointerStyle.grabbing` (no such case → `.grabActive` / `.grabIdle`).
-**Real-but-deprecated (27.0):** `MagnificationGesture` → `MagnifyGesture`; `RotationGesture` →
+**Real-but-deprecated (26.5):** `MagnificationGesture` → `MagnifyGesture`; `RotationGesture` →
 `RotateGesture`.
 
 **Grounded ✅ — the pointer-feedback shape, from real shipping code (not a placeholder).** The pg-02

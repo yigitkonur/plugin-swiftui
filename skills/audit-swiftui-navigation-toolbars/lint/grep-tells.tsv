@@ -11,7 +11,7 @@ nav-05	hard	\.topBarLeading|\.topBarTrailing	topBar* placement is UNAVAILABLE on
 nav-06	hard	\.navigationBarLeading|\.navigationBarTrailing	navigationBar* placement is deprecated iOS-only → .navigation/.primaryAction (nav-06, fix_mode: auto)
 nav-07	hard	\.navigationBarTitle\(|\.navigationBarTitleDisplayMode\(	iOS navigation-bar title concept — no-op on macOS → .navigationTitle/.navigationSubtitle (nav-07, fix_mode: auto)
 nav-11	warn	ToolbarSpacer\(|SpacerSizing	ToolbarSpacer/SpacerSizing is macOS 26.0+ — REPORT only if deployment target < macOS 26 (read in ORIENT); else verify it is gated #available(macOS 26, *) (nav-11)
-nav-01	warn	NavigationView[[:space:]]*\{	NavigationView is DEPRECATED (through macOS 27.0) → NavigationSplitView (sidebar+detail) / NavigationStack (drill-down). cross_ref api-currency (nav-01)
+nav-01	warn	NavigationView[[:space:]]*\{	NavigationView is DEPRECATED (through macOS 26.5) → NavigationSplitView (sidebar+detail) / NavigationStack (drill-down). cross_ref api-currency (nav-01)
 nav-02	warn	NavigationStack[[:space:]]*\{	NavigationStack — if it is the TOP-LEVEL shell wrapping a sidebar List(selection:), it is the wrong Mac shell → NavigationSplitView; fine for drill-down inside a column. READ to confirm role (nav-02)
 nav-03	warn	NavigationSplitView[[:space:]]*\{	NavigationSplitView — if a 3-col init(sidebar:content:detail:) has an EmptyView()/placeholder content:, use the 2-col init(sidebar:detail:). READ the closures (nav-03)
 nav-04	warn	\.frame\([^)]*(maxWidth|width)[^)]*0[^)]*\)	a .frame(...width: 0) — if it collapses a column driven by a boolean instead of a columnVisibility binding, that is a frame hack (nav-04). READ for the NavigationSplitView context

@@ -14,7 +14,7 @@ Increase-Contrast, and invented or cross-platform color APIs. Findings are writt
 toolkit's unified schema; certain mechanical defects are fixed under the fix-safety protocol. This is
 never a from-scratch theming generator.
 
-Two of this domain's modifiers **deprecate at macOS 27.0** (after most training data), so AI frequently
+Two of this domain's modifiers **deprecate at macOS 26.5** (after most training data), so AI frequently
 emits `.foregroundColor` and `.accentColor`, and pads dark-broken literal RGB throughout. Be suspicious
 wherever AI set a color.
 
@@ -38,7 +38,7 @@ wherever AI set a color.
    or a **named asset-catalog color** that carries Any/Dark variants. A raw `Color(red:green:blue:)` or
    `Color.white`/`.black` paints one appearance and breaks Dark Mode.
 2. **Style the foreground through the hierarchy.** `.foregroundStyle(.secondary)` / `.tertiary` adapts to
-   appearance and vibrancy; a hardcoded gray does not. `.foregroundColor` is deprecated at 27.0.
+   appearance and vibrancy; a hardcoded gray does not. `.foregroundColor` is deprecated at 26.5.
 3. **Let chrome breathe with a `Material`.** Sidebars, overlays, popovers, and bars behind content want
    `.ultraThinMaterial`/`.regularMaterial` (or a glass surface), not an opaque `Color` fill.
 4. **Never force the appearance app-wide.** `.preferredColorScheme(.dark)` at the root overrides the
@@ -56,8 +56,8 @@ wherever AI set a color.
 |---|---|---|---|---|
 | ac-01 | hardcoded `Color(red:green:blue:)` / `Color(.sRGB…)` literal RGB → breaks Dark Mode | warning | flag | `colors-semantic-and-assets.md` |
 | ac-02 | `Color.white` / `Color.black` / `Color(white:)` as content fg/bg → no Dark-Mode adapt | warning | flag | `colors-semantic-and-assets.md` |
-| ac-03 | `.foregroundColor(_:)` deprecated 27.0 → `.foregroundStyle(_:)` (+ `.secondary` hierarchy) | warning | auto | `colors-semantic-and-assets.md` |
-| ac-04 | `.accentColor(_:)` deprecated 27.0 → `.tint(_:)` | warning | auto | `colors-semantic-and-assets.md` |
+| ac-03 | `.foregroundColor(_:)` deprecated 26.5 → `.foregroundStyle(_:)` (+ `.secondary` hierarchy) | warning | auto | `colors-semantic-and-assets.md` |
+| ac-04 | `.accentColor(_:)` deprecated 26.5 → `.tint(_:)` | warning | auto | `colors-semantic-and-assets.md` |
 | ac-05 | forced `.preferredColorScheme(_:)` at app/root scope → overrides user appearance | warning | flag | `color-scheme-and-contrast.md` |
 | ac-06 | opaque `Color` background where a `Material` belongs (sidebar/overlay/bar) | advisory | flag | `materials-and-vibrancy.md` |
 | ac-07 | custom colors with no `@Environment(\.colorSchemeContrast)` branch under Increase Contrast | advisory | flag | `color-scheme-and-contrast.md` |
@@ -76,7 +76,7 @@ asset-catalog `Color("Brand")`), `foregroundStyle(_:)` (macOS 12+, takes a `Shap
 `@Environment(\.colorScheme)` / `@Environment(\.colorSchemeContrast)` (macOS 10.15+),
 `preferredColorScheme(_:)` (macOS 11+, *for scoped use*), `ShapeStyle` hierarchy levels
 (`.primary`/`.secondary`/`.tertiary`/`.quaternary`/`.quinary` — all macOS 12+). **`foregroundColor(_:)` and `accentColor(_:)` still resolve but are
-deprecated at macOS 27.0 → `foregroundStyle(_:)` / `tint(_:)`.**
+deprecated at macOS 26.5 → `foregroundStyle(_:)` / `tint(_:)`.**
 
 **Invented / cross-platform (never SwiftUI-on-macOS):** `.textColor(_:)`, `.backgroundColor(_:)`,
 `.tintColor(_:)`, `.foregroundColour(_:)`, `UIColor` (UIKit — absent on macOS; the bridge is
@@ -91,7 +91,7 @@ Floor / deprecation *values* are the reconciled truth in
 
 1. **ORIENT.** `tree` / `find` the SwiftUI sources. Read the **deployment target**
    (`project.pbxproj` `MACOSX_DEPLOYMENT_TARGET`, or `Package.swift` `platforms:`). It is load-bearing:
-   the ac-03/ac-04 deprecations are advisory below their 27.0 close and become live-warning at/after it.
+   the ac-03/ac-04 deprecations are advisory below their 26.5 close and become live-warning at/after it.
    Also note whether an **asset catalog** (`*.xcassets`) with color sets exists — its presence changes the
    ac-01/02 ✅ to "move the literal into a color set." Record both.
 2. **LOCATE.** Run the shared hybrid lint runner:
@@ -183,7 +183,7 @@ domain:
 | `<context>` | File a finding here when… |
 |---|---|
 | `hardcoded-color/` | a literal RGB / white / black color paints one appearance, or an invented color API appears (ac-01, ac-02, ac-08) |
-| `deprecated-modifiers/` | `.foregroundColor` or `.accentColor` is used at/under their 27.0 close (ac-03, ac-04) |
+| `deprecated-modifiers/` | `.foregroundColor` or `.accentColor` is used at/under their 26.5 close (ac-03, ac-04) |
 | `color-scheme/` | the appearance is force-set app-wide, or Increase Contrast is ignored (ac-05, ac-07) |
 | `materials/` | an opaque `Color` fills chrome that should breathe with a `Material` (ac-06) |
 

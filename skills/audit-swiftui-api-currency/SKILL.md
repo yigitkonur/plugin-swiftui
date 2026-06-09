@@ -1,6 +1,6 @@
 ---
 name: audit-swiftui-api-currency
-description: Audits a finished or in-progress macOS SwiftUI codebase for stale, deprecated, renamed, or hallucinated APIs and writes per-finding Markdown to swiftui-audits/. Use when the user says the code uses old APIs, deprecation warnings, or "is this current for macOS 26"; when AI may have emitted NavigationView, foregroundColor, cornerRadius, one-parameter onChange, tabItem, inline NavigationLink, Text plus Text concatenation, or DispatchQueue.main.async cargo-cult; when a macOS-27.0 deprecation appears (3-arg dropDestination, MagnificationGesture, RotationGesture, design-only Font.system, accentColor); or when an invented name like glassBackground, liquidGlass, LiquidGlassView, material(.glass), or visionOS-only glassBackgroundEffect slips into a Mac target. AUDIT-ONLY, macOS-only, SwiftUI-only. Not for the deep Liquid-Glass design audit, not for the blanket availability-gating sweep, not for positive color or typography craft, not for from-scratch or inline single-file fixes (use swiftui-modernize).
+description: Audits a finished or in-progress macOS SwiftUI codebase for stale, deprecated, renamed, or hallucinated APIs and writes per-finding Markdown to swiftui-audits/. Use when the user says the code uses old APIs, deprecation warnings, or "is this current for macOS 26"; when AI may have emitted NavigationView, foregroundColor, cornerRadius, one-parameter onChange, tabItem, inline NavigationLink, Text plus Text concatenation, or DispatchQueue.main.async cargo-cult; when a macOS-26.5 deprecation appears (3-arg dropDestination, MagnificationGesture, RotationGesture, design-only Font.system, accentColor); or when an invented name like glassBackground, liquidGlass, LiquidGlassView, material(.glass), or visionOS-only glassBackgroundEffect slips into a Mac target. AUDIT-ONLY, macOS-only, SwiftUI-only. Not for the deep Liquid-Glass design audit, not for the blanket availability-gating sweep, not for positive color or typography craft, not for from-scratch or inline single-file fixes (use swiftui-modernize).
 ---
 
 # Audit SwiftUI API Currency
@@ -8,7 +8,7 @@ description: Audits a finished or in-progress macOS SwiftUI codebase for stale, 
 **AUDIT-ONLY · macOS-only · SwiftUI-only.** Run this on a *finished or in-progress* macOS SwiftUI
 project to detect — and where certain, fix — every way an API drifts out of currency on a macOS 26
 (Tahoe) target: the **stale** symbol the model learned from a 2019–2022 corpus (`NavigationView`,
-`.foregroundColor`, 1-param `onChange`), the freshly-**deprecated** macOS-27.0 call, the **renamed**
+`.foregroundColor`, 1-param `onChange`), the freshly-**deprecated** macOS-26.5 call, the **renamed**
 gesture, and the **hallucinated** modifier AI confabulated for a surface it never saw. Findings are
 written to disk in the toolkit's unified schema; certain mechanical renames are fixed under the
 fix-safety protocol. This is never a from-scratch modernizer.
@@ -37,7 +37,7 @@ tell: the code *reads* idiomatic and usually compiles, so it survives casual rev
 ## The currency model (three failure shapes)
 
 1. **Deprecated/renamed** — a real symbol Apple superseded; it compiles with a warning today and breaks
-   when the window closes (`NavigationView` → 27.0; `Text + Text` → 26.0). Flag + cite the current idiom.
+   when the window closes (`NavigationView` → 26.5; `Text + Text` → 26.0). Flag + cite the current idiom.
 2. **Hallucinated** — a name that never existed on macOS; a hard-fail. A `swiftui-ctx lookup` **exit 3**
    (not-found) corroborates it: no shipping Mac app uses the symbol.
 3. **Ungated current API** — the *right* replacement carries its own macOS floor; using it below the
@@ -51,7 +51,7 @@ single-answer rename; `flag` = show the ✅, dev applies.
 
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
-| curr-01 | `NavigationView { … }` (deprecated macOS 10.15–27.0) | warning | flag | `deprecations-and-renames.md` |
+| curr-01 | `NavigationView { … }` (deprecated macOS 10.15–26.5) | warning | flag | `deprecations-and-renames.md` |
 | curr-02 | `.foregroundColor(_:)` (deprecated → `.foregroundStyle`) | warning | auto | `deprecations-and-renames.md` |
 | curr-03 | `.cornerRadius(_:)` (deprecated → `.clipShape(.rect(cornerRadius:))`) | warning | auto | `deprecations-and-renames.md` |
 | curr-04 | 1-param `.onChange(of:) { newValue in }` (introduced macOS 11, deprecated macOS 14) | warning | flag | `deprecations-and-renames.md` |
@@ -59,10 +59,10 @@ single-answer rename; `flag` = show the ✅, dev applies.
 | curr-06 | inline `NavigationLink(…, destination:)` inside `List`/`ForEach` | warning | flag | `deprecations-and-renames.md` |
 | curr-07 | `Text("…") + Text("…")` concatenation (deprecated macOS 26.0) | warning | flag | `deprecations-and-renames.md` |
 | curr-08 | `DispatchQueue.main.async` cargo-cult in async-aware code | advisory | flag | `deprecations-and-renames.md` |
-| curr-09 | 3-arg `dropDestination(for:action:isTargeted:)` (deprecated macOS 27.0) | warning | flag | `deprecations-and-renames.md` |
-| curr-10 | `MagnificationGesture` / `RotationGesture` (renamed macOS 27.0) | warning | auto | `deprecations-and-renames.md` |
-| curr-11 | `Font.system(_:design:)` design-only, no `weight:` (deprecated 27.0) | advisory | flag | `deprecations-and-renames.md` |
-| curr-12 | `.accentColor(_:)` (deprecated macOS 27.0 → `.tint(_:)`) | warning | auto | `deprecations-and-renames.md` |
+| curr-09 | 3-arg `dropDestination(for:action:isTargeted:)` (deprecated macOS 26.5) | warning | flag | `deprecations-and-renames.md` |
+| curr-10 | `MagnificationGesture` / `RotationGesture` (renamed macOS 26.5) | warning | auto | `deprecations-and-renames.md` |
+| curr-11 | `Font.system(_:design:)` design-only, no `weight:` (deprecated 26.5) | advisory | flag | `deprecations-and-renames.md` |
+| curr-12 | `.accentColor(_:)` (deprecated macOS 26.5 → `.tint(_:)`) | warning | auto | `deprecations-and-renames.md` |
 | curr-13 | `.glassBackground()` / `.liquidGlass()` / `LiquidGlassView` / `.material(.glass)` / `.cardStyle()` | hard-fail | flag | `hallucinated-currency.md` |
 | curr-14 | `.glassBackgroundEffect()` on a Mac target (visionOS-only) | hard-fail | flag | `hallucinated-currency.md` |
 
@@ -179,7 +179,7 @@ domain:
 - Findings: `swiftui-audits/api-currency/<context>/NN-slug.md` (one finding per file, zero-padded,
   ordered). Per-run index: `swiftui-audits/api-currency/_index.md`.
 - `domain: api-currency`. Uses the additive field **`era`** (free-string release wave, e.g.
-  `WWDC22/macOS-13`, `macOS-27.0`, `WWDC25/macOS-26`). `fix_mode` is `auto` for curr-02/03/10/12, else
+  `WWDC22/macOS-13`, `macOS-26.5`, `WWDC25/macOS-26`). `fix_mode` is `auto` for curr-02/03/10/12, else
   `flag-only`. `availability` reads from `floors-master.md`. `source` is an Apple URL + access date
   (fetched via Sosumi) or `verify against Xcode 26 SDK`. Emit `cross_ref` per the seam note.
 
@@ -189,7 +189,7 @@ domain:
 |---|---|
 | `deprecated-renamed/` | a real symbol Apple superseded — nav, color, clip, onChange, tab, link, Text+Text (curr-01…07) |
 | `concurrency-cargo-cult/` | a `DispatchQueue.main.async` hop in async-aware code (curr-08) |
-| `macos-27-0-deprecations/` | a freshly-deprecated 27.0 surface — dropDestination, gesture renames, Font weight, accentColor (curr-09…12) |
+| `macos-26-5-deprecations/` | a freshly-deprecated 26.5 surface — dropDestination, gesture renames, Font weight, accentColor (curr-09…12) |
 | `hallucinated-api/` | an invented name (curr-13) or a visionOS-only symbol on a Mac target (curr-14) |
 | `gating/` | a current-but-floored *replacement* used below the deployment target (route depth → availability-gating) |
 

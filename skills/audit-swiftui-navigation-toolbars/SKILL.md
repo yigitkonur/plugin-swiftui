@@ -74,7 +74,7 @@ macOS), **warning** (compiles but non-native / silently no-ops), **advisory** (j
 
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
-| nav-01 | `NavigationView {` — deprecated container (through macOS 27.0) | warning | flag | `navigation-shell-and-columns.md` |
+| nav-01 | `NavigationView {` — deprecated container (through macOS 26.5) | warning | flag | `navigation-shell-and-columns.md` |
 | nav-02 | top-level `NavigationStack {` wrapping a sidebar `List(selection:)` → wrong Mac shell | warning | flag | `navigation-shell-and-columns.md` |
 | nav-03 | three-column `init(sidebar:content:detail:)` whose `content:` is `EmptyView()`/placeholder → should be 2-column | warning | flag | `navigation-shell-and-columns.md` |
 | nav-04 | boolean `+` `.frame(maxWidth: shown ? .infinity : 0)` (or `width: 0`) to hide a column | warning | flag | `navigation-shell-and-columns.md` |
@@ -120,7 +120,7 @@ read, never restate them.
 1. **ORIENT.** `tree` / `find` the SwiftUI sources. Read the **deployment target**
    (`project.pbxproj` `MACOSX_DEPLOYMENT_TARGET`, or `Package.swift` `platforms:`). It is load-bearing:
    nav-11 (`ToolbarSpacer`) fires **only** when the floor is **below macOS 26**; nav-01 deprecation
-   prose depends on the floor relative to 27.0. Record it.
+   prose depends on the floor relative to 26.5. Record it.
 2. **LOCATE.** Run the shared hybrid lint runner:
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-lint.sh --skill audit-swiftui-navigation-toolbars --dir <sources> --json /tmp/nav.json --sarif /tmp/nav.sarif`.
    It runs this skill's tier-1 grep tells (`lint/grep-tells.tsv`) + the tier-2 structural ast-grep rule

@@ -1,6 +1,6 @@
 # Reference — Semantic Color, Asset Catalogs & the Deprecated Color Modifiers (ac-01/02/03/04/08)
 
-How shipping Mac apps color a SwiftUI view so it survives Dark Mode, vibrancy, and macOS 27.0 — and the
+How shipping Mac apps color a SwiftUI view so it survives Dark Mode, vibrancy, and macOS 26.5 — and the
 ❌→✅ rewrites for the literal-color and deprecated-modifier defects. Floor / deprecation *values* are the
 reconciled truth in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` (read, never restate); the
 invented-name list is `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`. Get the ✅
@@ -45,7 +45,7 @@ panel in a dark app). ✅ a semantic surface/foreground (`.background(.backgroun
 `.foregroundStyle(.primary)`) or a named asset color. `Color.white`/`.black` are legitimate *only* for a
 genuinely appearance-independent mark (a printed-page canvas, a fixed logo) — READ to decide.
 
-## ac-03 — `.foregroundColor(_:)` deprecated at macOS 27.0
+## ac-03 — `.foregroundColor(_:)` deprecated at macOS 26.5
 
 Confirmed deprecated in the corpus: `swiftui-ctx deprecated foregroundColor` → `replacement:
 foregroundStyle`, `doc: https://sosumi.ai/documentation/swiftui/view/foregroundcolor`.
@@ -58,7 +58,7 @@ hierarchy) is `flag-only`. Emit `cross_ref: api-currency` (currency owns the dep
 owns the replacement craft). `foregroundStyle(_:)` is macOS 12+ and takes a `ShapeStyle` — the consensus
 shape from the corpus is `(_)` at 100% (`swiftui-ctx lookup foregroundStyle --json`).
 
-## ac-04 — `.accentColor(_:)` deprecated at macOS 27.0
+## ac-04 — `.accentColor(_:)` deprecated at macOS 26.5
 
 Confirmed: `swiftui-ctx deprecated accentColor` → `replacement: tint`,
 `doc: https://sosumi.ai/documentation/swiftui/view/accentcolor`.

@@ -18,7 +18,7 @@ file is the typography-specific *map* of which pages to fetch. Floor values live
    `swiftui-ctx lookup` exit-3).
 2. **Is it deprecated, and when?** For txt-01/02 run `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx
    deprecated <api>` and cross-check the Sosumi "Deprecated" banner against `floors-master.md` (Text `+`
-   closes 26.0; `Font.system(_:design:)` design-only closes 27.0).
+   closes 26.0; `Font.system(_:design:)` design-only closes 26.5).
 3. **Never** `WebFetch` `developer.apple.com`; never paper a 404 with a memory guess.
 
 ---
@@ -34,7 +34,7 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | `AttributedString` | `foundation/attributedstring` | 12.0+ |
 | `AttributeContainer` | `foundation/attributecontainer` | 12.0+ |
 | `Font.system(_:design:weight:)` | `swiftui/font/system(_:design:weight:)` | 13.0+ |
-| `Font.system(_:design:)` (deprecated) | `swiftui/font/system(_:design:)` | 10.15+ (deprecated 27.0) |
+| `Font.system(_:design:)` (deprecated) | `swiftui/font/system(_:design:)` | 10.15+ (deprecated 26.5) |
 | `@ScaledMetric` | `swiftui/scaledmetric` | 11.0+ |
 | `lineLimit(_:reservesSpace:)` | `swiftui/view/linelimit(_:reservesspace:)` | 13.0+ |
 | `TextRenderer` (protocol) | `swiftui/textrenderer` | 14.0+ |

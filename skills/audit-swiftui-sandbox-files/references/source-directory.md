@@ -38,13 +38,13 @@ Human doc path = `developer.apple.com/documentation/<framework>/<path>` (fetch v
 | `startAccessingSecurityScopedResource()` | `foundation/url/startaccessingsecurityscopedresource()` | 10.10+ |
 | `Transferable` | `coretransferable/transferable` | 13.0+ |
 | `.draggable(_:)` | `swiftui/view/draggable(_:)` | 13.0+ |
-| `.dropDestination(for:action:isTargeted:)` (3-arg, **deprecated 27.0**) | `swiftui/view/dropdestination(for:action:istargeted:)` | 13.0+ (dep 27.0) |
+| `.dropDestination(for:action:isTargeted:)` (3-arg, **deprecated 26.5**) | `swiftui/view/dropdestination(for:action:istargeted:)` | 13.0+ (dep 26.5) |
 | `.dropDestination(for:isEnabled:action:)` (successor; action: `([T], DropSession) -> Void`) | `swiftui/view/dropdestination(for:isenabled:action:)` | 26.0+ |
 | `NSOpenPanel` / `NSSavePanel` | `appkit/nsopenpanel` · `appkit/nssavepanel` | (AppKit Mac-only) |
 | `NSPasteboard` | `appkit/nspasteboard` | (AppKit Mac-only) |
 
 **Platform-wrong / stale (never emit on a Mac path):** `UIPasteboard` (iOS-only — use `NSPasteboard`);
-`dropDestination(for:action:isTargeted:)` as the *current* API (deprecated 27.0). See
+`dropDestination(for:action:isTargeted:)` as the *current* API (deprecated 26.5). See
 `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md`.
 
 ## B. Entitlement / Hardened-Runtime key map

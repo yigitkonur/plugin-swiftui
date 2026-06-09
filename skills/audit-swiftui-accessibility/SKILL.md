@@ -65,10 +65,10 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | a11y-11 | LEGACY combined `.accessibility(label:/hint:/addTraits:/value:)` modifier | warning | auto | `accessibility-api-surface.md` |
 | a11y-12 | `.isToggle` trait (macOS 14) or closure-form label/value (macOS 15) ungated under a lower floor | warning | flag | `labels-and-traits.md` |
 
-**`.accessibility(label:)` IS confirmed deprecated** — Apple docs show `macOS 10.15–27.0 Deprecated`, replacement
+**`.accessibility(label:)` IS confirmed deprecated** — Apple docs show `macOS 10.15–26.5 Deprecated`, replacement
 `accessibilityLabel(_:)` (the whole combined family — `hint:`/`value:`/`hidden:`/`identifier:`/`addTraits:`/
 `removeTraits:`/`sortPriority:` — is deprecated likewise). The corpus `deprecated:false` was a false negative.
-Carry a11y-11 as a `warning` migration with `source: macOS 10.15–27.0 Deprecated → accessibilityLabel(_:)`.
+Carry a11y-11 as a `warning` migration with `source: macOS 10.15–26.5 Deprecated → accessibilityLabel(_:)`.
 
 ## The real API, at a glance
 

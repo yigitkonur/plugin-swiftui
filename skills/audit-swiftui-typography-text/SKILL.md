@@ -14,7 +14,7 @@ defeat Dynamic Type, `lineLimit(N)` that jumps layout, the design-only `Font.sys
 certain mechanical defects are fixed under the fix-safety protocol. This is never a from-scratch text-UI
 generator.
 
-Several of this domain's deprecations **close at macOS 26.0 / 27.0** (after most training data), so AI
+Several of this domain's deprecations **close at macOS 26.0 / 26.5** (after most training data), so AI
 frequently emits the now-deprecated `Text + Text` and design-only `Font.system`. Be suspicious wherever AI
 composed styled text.
 
@@ -50,7 +50,7 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | id | One-line tell | Sev | Fix | Reference |
 |---|---|---|---|---|
 | txt-01 | `Text(…) + Text(…)` concatenation (deprecated macOS 26.0) | warning | flag | `text-composition-and-attributed.md` |
-| txt-02 | `Font.system(_:design:)` design-only overload (deprecated 27.0 → add `weight:`) | warning | auto | `fonts-and-dynamic-type.md` |
+| txt-02 | `Font.system(_:design:)` design-only overload (deprecated 26.5 → add `weight:`) | warning | auto | `fonts-and-dynamic-type.md` |
 | txt-03 | `.font(.system(size: N))` hardcoded size — defeats Dynamic Type | advisory | flag | `fonts-and-dynamic-type.md` |
 | txt-04 | `.lineLimit(N)` integer without `reservesSpace:` → layout jump | advisory | flag | `text-layout-and-rendering.md` |
 | txt-05 | `AttributedString(…)` built wrong (String concat / no `AttributeContainer`) | warning | flag | `text-composition-and-attributed.md` |
@@ -68,7 +68,7 @@ typography owns the craft). txt-03 carries `cross_ref: accessibility` (Dynamic T
 `Font.system(_:design:weight:)`, `@ScaledMetric(relativeTo:)`, `lineLimit(_:reservesSpace:)` (macOS 13+),
 `TextRenderer` (protocol, macOS 14+) + `textRenderer(_:)` (modifier, macOS 15+), `LabeledContent` (macOS 13+),
 `monospacedDigit()`, `Text(_:format:)`. **`Font.system(_:design:)` (no `weight:`) still resolves but is
-deprecated at macOS 27.0 → `system(_:design:weight:)`; `Text("a") + Text("b")` is deprecated at 26.0.**
+deprecated at macOS 26.5 → `system(_:design:weight:)`; `Text("a") + Text("b")` is deprecated at 26.0.**
 
 **Invented (never exist):** `.fontSize(_:)`, `.textStyle(_:)`, `Text(styled:)`, `.attributedText(_:)`,
 `.font(size:)` (the real spelling is `.font(.system(size:))`). Confirm any uncertain name via
@@ -104,7 +104,7 @@ permalink + Sosumi `doc:` in `## Source` (step 7 FIX).
 1. **ORIENT.** `tree` / `find` the SwiftUI sources. Read the **deployment target**
    (`project.pbxproj` `MACOSX_DEPLOYMENT_TARGET`, or `Package.swift` `platforms:`). It is load-bearing:
    txt-06 mis-gating fires only when the floor is **below the symbol's introduction**, and the txt-01/02
-   deprecations are advisory below their close (26.0 / 27.0) but become live-warning at/after it. Record it.
+   deprecations are advisory below their close (26.0 / 26.5) but become live-warning at/after it. Record it.
 2. **LOCATE.** Run the shared hybrid lint runner:
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-lint.sh --skill audit-swiftui-typography-text --dir <sources> --json /tmp/txt.json --sarif /tmp/txt.sarif`.
    It runs this skill's tier-1 grep tells (`lint/grep-tells.tsv`) + the tier-2 structural ast-grep rule

@@ -69,10 +69,10 @@ single-answer fix; `flag` = show the ✅, dev applies.
 | lt-04 | `Table(` with no `sortOrder:` binding / no `KeyPathComparator` → non-sortable on a click-to-sort platform | warning | flag | `tables-and-density.md` |
 | lt-05 | dense Mac pane (inspector/settings/toolbar) with no `.controlSize(.small/.mini)` → oversized density | advisory | flag | `tables-and-density.md` |
 | lt-06 | blanket both-axis `.fixedSize()` on a *container* → freezes both axes, overflows a resizable window | advisory | flag | `layout-window-sizing.md` |
-| lt-07 | `.tableStyle(.inset(alternatesRowBackgrounds:))` / `.bordered(alternatesRowBackgrounds:)` — DEPRECATED (macOS 27.0) | hard-fail | flag | `tables-and-density.md` |
+| lt-07 | `.tableStyle(.inset(alternatesRowBackgrounds:))` / `.bordered(alternatesRowBackgrounds:)` — DEPRECATED (macOS 26.5) | hard-fail | flag | `tables-and-density.md` |
 | lt-08 | custom `: Layout` conformance where a built-in (`Grid`/`ViewThatFits`/`containerRelativeFrame`) fits | advisory | flag | `custom-layout.md` |
 
-**lt-07 is the only deprecation; lt-02 and lt-05 cross-ref siblings.** The macOS 27.0 case-level
+**lt-07 is the only deprecation; lt-02 and lt-05 cross-ref siblings.** The macOS 26.5 case-level
 deprecation of `tableStyle(.inset(alternatesRowBackgrounds:))` is confirmed on `developer.apple.com`
 (swiftui-ctx tracks deprecation at the API level, not the case level — see VERIFY;
 primary source: `https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`).
@@ -87,7 +87,7 @@ primary source: `https://developer.apple.com/documentation/swiftui/tablestyle/in
 `Grid`/`GridRow`, `ViewThatFits`. The **scene** modifiers `defaultSize(_:)` / `windowResizability(_:)`
 exist but are **owned by `scenes-windows`** (lt-02 companion).
 
-**Deprecated:** `tableStyle(.inset(alternatesRowBackgrounds:))` and the `.bordered` variant — macOS 27.0,
+**Deprecated:** `tableStyle(.inset(alternatesRowBackgrounds:))` and the `.bordered` variant — macOS 26.5,
 → `.tableStyle(.inset).alternatingRowBackgrounds()` (lt-07).
 
 No invented names are central to this domain; if audited code reaches for a layout symbol you can't place
@@ -133,7 +133,7 @@ Sosumi before flagging, and cross-check the canonical invented-name list in
    `doc:` floor. The CLI contract is `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui-ctx-reference.md`.
    **lt-07's case-level deprecation is confirmed on `developer.apple.com`** (`deprecated tableStyle` returns
    `deprecated:false` at the modifier level in swiftui-ctx, but both `inset(alternatesRowBackgrounds:)` and
-   `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–27.0 Deprecated` directly) — cite
+   `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–26.5 Deprecated` directly) — cite
    `source: https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
    **Deeper corpus evidence (lt-08 custom `Layout`):** before flagging a `: Layout` conformer as needless,
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx conformances Layout` for real conformers + permalinks (and
@@ -209,7 +209,7 @@ hard requirement.* Two runs over the same code produce structurally identical tr
 
 | Shared file | For |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability/deprecation value (the reconciled truth — `Table` 12.0, `controlSize` 10.15, `TableColumnForEach` 14.4, the `tableStyle` 27.0 deprecation) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability/deprecation value (the reconciled truth — `Table` 12.0, `controlSize` 10.15, `TableColumnForEach` 14.4, the `tableStyle` 26.5 deprecation) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md` | the canonical invented-name list (cross-check a made-up layout/Table symbol) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/macos-arm-gating.md` | the macOS-arm gating rule (a fix that uses a 14.x floor under a lower target needs a gate) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/finding-schema.md` | the unified finding schema + frontmatter keys + context-folder ownership |

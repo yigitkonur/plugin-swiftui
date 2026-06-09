@@ -12,16 +12,16 @@ Wrong = AI's stale training default. Right = current macOS idiom. Floor = lowest
 
 | Era boundary (date) | Wrong (stale) | Right (current) | macOS floor |
 |---|---|---|---|
-| **NavigationView deprecation** (WWDC22 / macOS 13, 2022; window closes 27.0) | `NavigationView { }` | `NavigationStack` (push) / `NavigationSplitView` (Mac sidebar/columns) | macOS 13.0+ |
+| **NavigationView deprecation** (WWDC22 / macOS 13, 2022; window closes 26.5) | `NavigationView { }` | `NavigationStack` (push) / `NavigationSplitView` (Mac sidebar/columns) | macOS 13.0+ |
 | **`@Observable` macro** (WWDC23 / macOS 14, 2023) | `class VM: ObservableObject { @Published … }` + `@StateObject` | `@Observable class VM` + `@State` / `@Bindable` / `@Environment(Type.self)` | macOS 14.0+ |
 | **Two-param `onChange`** (macOS 14, 2023) | `.onChange(of:) { newValue in }` | `.onChange(of:, initial:) { old, new in }` (or 0-param) | macOS 14.0+ |
 | **`#Preview` / `@Previewable`** (Xcode 15, 2023 / Xcode 16, 2024) | `struct _Previews: PreviewProvider` | `#Preview { @Previewable @State … }` | macOS 14.0+ |
 | **`@Entry` macro** (Xcode 16, 2024) | 3-part `EnvironmentKey` struct + `EnvironmentValues` extension | `@Entry var myKey: T = default` | macOS 10.15+ (back-deploys) |
-| **Style deprecations** (rolling; deprecated through 27.0) | `.foregroundColor`, `.cornerRadius`, `tabItem`, inline-dest `NavigationLink` | `.foregroundStyle`, `.clipShape(.rect(cornerRadius:))`, `Tab(){}`, `.navigationDestination(for:)` | macOS 11–14+ |
-| **`dropDestination(for:action:isTargeted:)` 3-arg deprecation** (macOS 27.0) | `dropDestination(for:action:isTargeted:)` (3-arg `Bool`-returning form) | `dropDestination(for:isEnabled:action:)` (macOS 26.0+ successor) | macOS 26.0+ |
-| **Gesture renames** (macOS 27.0; successors macOS 14+) | `MagnificationGesture` · `RotationGesture` | `MagnifyGesture` · `RotateGesture` | macOS 14.0+ |
-| **`Font.system(_:design:)` (design-only)** (macOS 27.0) | `Font.system(_:design:)` (design arg, no `weight:`) | `Font.system(_:design:weight:)` | same macOS floor as existing form |
-| **`.accentColor(_:)` deprecation** (macOS 27.0; successor macOS 12+) | `.accentColor(_:)` | `.tint(_:)` | macOS 12.0+ |
+| **Style deprecations** (rolling; deprecated through 26.5) | `.foregroundColor`, `.cornerRadius`, `tabItem`, inline-dest `NavigationLink` | `.foregroundStyle`, `.clipShape(.rect(cornerRadius:))`, `Tab(){}`, `.navigationDestination(for:)` | macOS 11–14+ |
+| **`dropDestination(for:action:isTargeted:)` 3-arg deprecation** (macOS 26.5) | `dropDestination(for:action:isTargeted:)` (3-arg `Bool`-returning form) | `dropDestination(for:isEnabled:action:)` (macOS 26.0+ successor) | macOS 26.0+ |
+| **Gesture renames** (macOS 26.5; successors macOS 14+) | `MagnificationGesture` · `RotationGesture` | `MagnifyGesture` · `RotateGesture` | macOS 14.0+ |
+| **`Font.system(_:design:)` (design-only)** (macOS 26.5) | `Font.system(_:design:)` (design arg, no `weight:`) | `Font.system(_:design:weight:)` | same macOS floor as existing form |
+| **`.accentColor(_:)` deprecation** (macOS 26.5; successor macOS 12+) | `.accentColor(_:)` | `.tint(_:)` | macOS 12.0+ |
 | **Swift 6 strict concurrency default** (Swift 6.0, Sept 2024) | non-`Sendable` crossing actors; `DispatchQueue.main.async` | `Sendable`-correct types, `@MainActor` / `await MainActor.run`, `.task` | toolchain (all targets) |
 | **Swift 6.2 "approachable concurrency"** (Sept 15, 2025) | assumes main-actor-by-default everywhere; invents `@concurrent` semantics | opt-in `-default-isolation MainActor` build mode; `@concurrent` is Swift 6.2+ only | toolchain 6.2+ |
 | **Liquid Glass** (WWDC25 / macOS 26 Tahoe, 2025) | `.glassBackground()` / `.liquidGlass()` / `.material(.glass)` (hallucinated) | `glassEffect(_:in:)`, `GlassEffectContainer`, `.buttonStyle(.glass)`, `.buttonStyle(.glassProminent)` — `#available(macOS 26)`-gated | macOS 26.0+ |
@@ -34,7 +34,7 @@ Wrong = AI's stale training default. Right = current macOS idiom. Floor = lowest
 Eight clusters, each with the exact macOS availability string and a verbatim signature scraped 2026-06-06.
 
 ### 1. Navigation — `NavigationView` is DEPRECATED
-- macOS availability: **`macOS 10.15–27.0 Deprecated`** (deprecation window closes at OS 27.0)
+- macOS availability: **`macOS 10.15–26.5 Deprecated`** (deprecation window closes at OS 26.5)
 - Signature: `struct NavigationView<Content> where Content : View`
 - Apple guidance (verbatim): *"Use `NavigationStack` and `NavigationSplitView` instead. For more information, see Migrating to new navigation types."*
 - Also deprecated on the same page: `NavigationViewStyle`, `navigationViewStyle(_:)`.

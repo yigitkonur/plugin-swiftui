@@ -13,7 +13,7 @@
 ### 1. `NavigationView` → `NavigationStack` / `NavigationSplitView`
 
 ```swift
-// ❌ WRONG — deprecated macOS 10.15–27.0; also iOS-shaped (stack where a Mac wants columns)
+// ❌ WRONG — deprecated macOS 10.15–26.5; also iOS-shaped (stack where a Mac wants columns)
 NavigationView { List(items) { row($0) } }
 
 // ✅ CORRECT — push/stack IA
@@ -23,12 +23,12 @@ NavigationStack { List(items) { row($0) } }
 NavigationSplitView { Sidebar() } detail: { Detail() }
 ```
 
-`NavigationView` is deprecated on every platform through OS 27.0. On macOS the *right* replacement is usually `NavigationSplitView` (2–3 columns), not the stack — Apple: "Use `NavigationStack` and `NavigationSplitView` instead." Both replacements are macOS 13.0+.
+`NavigationView` is deprecated on every platform through OS 26.5. On macOS the *right* replacement is usually `NavigationSplitView` (2–3 columns), not the stack — Apple: "Use `NavigationStack` and `NavigationSplitView` instead." Both replacements are macOS 13.0+.
 
 ### 2. `.foregroundColor(_:)` → `.foregroundStyle(_:)`
 
 ```swift
-// ❌ WRONG — deprecated macOS 10.15–27.0
+// ❌ WRONG — deprecated macOS 10.15–26.5
 Text("Hi").foregroundColor(.red)
 
 // ✅ CORRECT — same length, accepts ShapeStyle (gradients, hierarchical .primary/.secondary)
@@ -145,7 +145,7 @@ Text("Hello \(name)").bold()
 Text(AttributedString(makeStyledGreeting(name)))   // per-run styling
 ```
 
-A favourite AI cargo-cult: `static func +(Text, Text) -> Text` lets you glue styled runs, and models lean on it constantly. Apple now deprecates it — "Text concatenation using the + operator is deprecated… Use Text interpolation instead." Reach for `Text("… \(value) …")` for a uniformly-styled string, or an `AttributedString` when individual runs need different styling. **Note the window closes early:** this operator is gone at `macOS 26.0`, ahead of the `27.0` cutoff most of the other deprecations carry — so it warns sooner.
+A favourite AI cargo-cult: `static func +(Text, Text) -> Text` lets you glue styled runs, and models lean on it constantly. Apple now deprecates it — "Text concatenation using the + operator is deprecated… Use Text interpolation instead." Reach for `Text("… \(value) …")` for a uniformly-styled string, or an `AttributedString` when individual runs need different styling. **Note the window closes early:** this operator is gone at `macOS 26.0`, ahead of the `26.5` cutoff most of the other deprecations carry — so it warns sooner.
 
 ---
 
@@ -216,8 +216,8 @@ ALWAYS gate above your deployment target — on the macOS arm:
 ## Sources
 
 - Paul Hudson, "What to fix in AI-generated Swift code," 2025-12-09 — https://www.hackingwithswift.com/articles/281/what-to-fix-in-ai-generated-swift-code (accessed 2026-06-06). Source for the deprecation/discouraged set (`NavigationView`, `.foregroundColor`, 1-param `onChange`, `.cornerRadius`, `tabItem`, inline `NavigationLink`, `DispatchQueue.main.async`) and hallucination prevalence.
-- Apple — `NavigationView` (deprecated `macOS 10.15–27.0`; "Use NavigationStack and NavigationSplitView instead"): https://developer.apple.com/documentation/swiftui/navigationview (scraped 2026-06-06).
-- Apple — `foregroundColor(_:)` (deprecated `macOS 10.15–27.0`; "Use foregroundStyle(_:) instead"): https://developer.apple.com/documentation/SwiftUI/View/foregroundColor(_:) (scraped 2026-06-06).
+- Apple — `NavigationView` (deprecated `macOS 10.15–26.5`; "Use NavigationStack and NavigationSplitView instead"): https://developer.apple.com/documentation/swiftui/navigationview (scraped 2026-06-06).
+- Apple — `foregroundColor(_:)` (deprecated `macOS 10.15–26.5`; "Use foregroundStyle(_:) instead"): https://developer.apple.com/documentation/SwiftUI/View/foregroundColor(_:) (scraped 2026-06-06).
 - Apple — `onChange(of:initial:_:)` (current 2-param, `macOS 14.0+`): https://developer.apple.com/documentation/SwiftUI/View/onChange(of:initial:_:)-4psgg (scraped 2026-06-06). Compiler deprecation text via Use Your Loaf — https://useyourloaf.com/blog/swiftui-onchange-deprecation/ (accessed 2026-06-06).
 - Apple — `glassEffect(_:in:)` and `GlassEffectContainer` (real Liquid Glass names, `macOS 26.0+`): https://developer.apple.com/documentation/swiftui/view/glasseffect(_:in:) and https://developer.apple.com/documentation/swiftui/glasseffectcontainer (scraped 2026-06-06).
 - Apple — `clipShape(_:style:)` (`macOS 10.15+`) and `RoundedRectangle` (`macOS 10.15+`), the safe `.cornerRadius(_:)` replacement: https://developer.apple.com/documentation/swiftui/view/clipshape(_:style:) and https://developer.apple.com/documentation/swiftui/roundedrectangle (confirmed 2026-06-07).
