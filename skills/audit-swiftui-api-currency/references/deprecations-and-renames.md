@@ -106,7 +106,7 @@ is `cross_ref audit-swiftui-async-data` / concurrency-safety. `era: Swift-6`.
 
 ```swift
 .dropDestination(for: URL.self) { items, location in handle(items) } isTargeted: { hovering = $0 }   // ❌ deprecated macOS 26.5
-.dropDestination(for: URL.self, isEnabled: canDrop) { items, location in handle(items) }              // ✅ macOS 26.0+ successor
+.dropDestination(for: URL.self, isEnabled: canDrop) { items, session in handle(items) }               // ✅ macOS 26.0+ successor (2nd param is DropSession, not CGPoint)
 ```
 
 The `Bool`-returning 3-arg form (with `isTargeted:`) is deprecated at 26.5. **VERIFY the exact successor

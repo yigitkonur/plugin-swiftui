@@ -96,7 +96,7 @@ unique), `UtilityWindow` (15.0+, **macOS-only** floating inspector panel), `Sett
 selectors are **stale pre-`Settings`-scene** patterns; `@FocusedDocument` is **not a real Apple symbol**
 (use a custom `FocusedValues` key — see the shared blacklist). **Floor-uncertain — carry `verify against
 Xcode 26 SDK`:** `pushWindow` (Apple pages show **visionOS 2.0+ only; macOS unconfirmed** — do *not*
-assert macOS 15) and `DocumentGroupLaunchScene` (**no confirmed macOS arm**). `NSApp.activate(ignoringOtherApps:)`
+assert macOS 15) and `DocumentGroupLaunchScene` (**macOS ABSENT** — iOS/iPadOS/Mac Catalyst/visionOS only). `NSApp.activate(ignoringOtherApps:)`
 is deprecated — use plain `NSApp.activate()` on macOS 14+.
 
 Floor *values* are the reconciled truth in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`

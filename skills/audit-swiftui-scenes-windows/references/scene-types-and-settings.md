@@ -53,7 +53,7 @@ These do not exist or are stale on a macOS target. The canonical shared list is
 | `Preferences {}` scene | **stale** — never the SwiftUI scene name | `Settings {}` |
 | `NSApp.sendAction(Selector(("showSettingsWindow:")), …)` / `showPreferencesWindow:` | stale selector hacks pre-`Settings`-scene | `Settings {}` scene + `SettingsLink` / `openSettings` |
 | `@FocusedDocument` | **not a real Apple symbol** | a custom `FocusedValues` key: `@Entry var focusedDocument: …` on `FocusedValues` + `@FocusedValue(\.focusedDocument)` |
-| `DocumentGroupLaunchScene` on a Mac arm | **no confirmed macOS arm** — `verify against Xcode 26 SDK` before asserting | a plain `WindowGroup`/`DocumentGroup`; verify the launch-scene's macOS availability first |
+| `DocumentGroupLaunchScene` on a Mac arm | **macOS ABSENT** — iOS 18 / iPadOS 18 / Mac Catalyst 18 / visionOS 2 only (no native macOS arm; compile error on a Mac target) | a plain `WindowGroup`/`DocumentGroup` |
 | `pushWindow` assumed macOS 15 | Apple pages show **visionOS 2.0+ only; macOS unconfirmed** | do *not* assert macOS 15 — `verify against Xcode 26 SDK`; use `openWindow` + `dismissWindow` for the same effect |
 
 A `lookup` **exit 3** (not-found, with a did-you-mean `suggestion`) corroborates a stale/invented
@@ -136,4 +136,4 @@ recipe settings-form` (and `recipe settings-screen`) — back the ✅ with that 
 
 All Apple-doc availability strings cross-checked against `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`
 (the reconciled truth) and fetched via Sosumi (access 2026-06-07). `pushWindow` and
-`DocumentGroupLaunchScene` macOS arms are **UNVERIFIED** — flagged inline.
+`DocumentGroupLaunchScene` is **macOS ABSENT** (iOS 18 / iPadOS 18 / Mac Catalyst 18 / visionOS 2 only — verified 2026-06-08, sosumi.ai/developer.apple.com); using it on a Mac target is a compile error, not a gating problem.
