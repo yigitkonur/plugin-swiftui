@@ -100,10 +100,10 @@ controls-forms. (`.extraLarge` exists at macOS 14 but resolves to `.large` on pl
 ## lt-07 — deprecated `tableStyle` case (hard-fail, **fix_mode: auto**)
 
 `.tableStyle(.inset(alternatesRowBackgrounds:))` (and the `.bordered` variant) is **DEPRECATED (macOS
-26.5)**. Apple: *"Use the `.inset` style with the `.alternatingRowBackgrounds()` view modifier."*
+27.0)**. Apple: *"Use the `.inset` style with the `.alternatingRowBackgrounds()` view modifier."*
 
 ```swift
-// ❌ DEPRECATED (macOS 26.5)
+// ❌ DEPRECATED (macOS 27.0)
 Table(rows) { /* … */ }.tableStyle(.inset(alternatesRowBackgrounds: true))
 ```
 ```swift
@@ -112,7 +112,7 @@ Table(rows) { /* … */ }.tableStyle(.inset).alternatingRowBackgrounds()
 ```
 **Confirmed (primary source):** swiftui-ctx tracks deprecation at the **API** level — `swiftui-ctx deprecated
 tableStyle` returns `deprecated:false` because the *modifier* isn't deprecated, only the specific **case**
-is. Both `inset(alternatesRowBackgrounds:)` and `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–26.5 Deprecated`
+is. Both `inset(alternatesRowBackgrounds:)` and `bordered(alternatesRowBackgrounds:)` show `macOS 12.0–27.0 Deprecated`
 on `developer.apple.com` — cite `source: https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
 The floor/deprecation row is in `floors-master.md`; the auto-fix is a
 mechanical single-answer swap (fix-safety protocol).
@@ -134,7 +134,7 @@ mechanical single-answer swap (fix-safety protocol).
 - Apple — `Table`: *"A container that presents rows of data arranged in one or more columns, optionally
   providing the ability to select one or more members."* — `iOS 16.0+ … macOS 12.0+`.
   `https://developer.apple.com/documentation/swiftui/table` (via Sosumi, accessed 2026-06-07).
-- Apple — `tableStyle(_:)`: `.inset(alternatesRowBackgrounds:)` **deprecated (macOS 26.5)**: *"Use the
+- Apple — `tableStyle(_:)`: `.inset(alternatesRowBackgrounds:)` **deprecated (macOS 27.0)**: *"Use the
   .inset style with the .alternatingRowBackgrounds() view modifier."* (same for `.bordered`).
   `https://developer.apple.com/documentation/swiftui/view/tablestyle(_:)` (via Sosumi, accessed
   2026-06-07).

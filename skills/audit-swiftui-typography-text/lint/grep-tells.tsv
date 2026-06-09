@@ -6,7 +6,7 @@
 # Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
 txt-09	hard	\.fontSize\(|\.textStyle\(|Text\(styled:|\.attributedText\(|NSAttributedText|\.font\(size:	INVENTED type API (does not exist) → .font(.system(size:))/text style/AttributedString. See hallucination-blacklist.
 txt-01	warn	Text\([^)]*\)[[:space:]]*\+[[:space:]]*Text\(	Text + Text concatenation DEPRECATED macOS 26.0 → AttributedString / string interpolation into one Text. cross_ref api-currency.
-txt-02	warn	\.system\([^)]*design:	Font.system(_:design:) design-only overload DEPRECATED 26.5 → add weight: → system(_:design:weight:). grep can't see weight: absence — READ to confirm no weight arg. cross_ref api-currency.
+txt-02	warn	\.system\([^)]*design:	Font.system(_:design:) design-only overload DEPRECATED 27.0 → add weight: → system(_:design:weight:). grep can't see weight: absence — READ to confirm no weight arg. cross_ref api-currency.
 txt-05	warn	AttributedString\(	AttributedString present — VERIFY it uses AttributeContainer / .runs, not String concatenation or a hallucinated init (txt-05).
 txt-06	warn	\.textRenderer\(	textRenderer(_:) modifier is macOS 15+ (TextRenderer protocol macOS 14+) — VERIFY gated #available(macOS 15, *) under a <15 floor, on the macOS arm (txt-06).
 txt-03	adv	\.system\(size:	hardcoded font size defeats Dynamic Type → semantic text style (.system(.body)) or @ScaledMetric(relativeTo:) (txt-03). cross_ref accessibility.

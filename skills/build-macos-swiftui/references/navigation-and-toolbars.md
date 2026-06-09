@@ -8,7 +8,7 @@ The in-window navigation chrome for a Mac app: `NavigationSplitView` (2–3 colu
 
 ## Why AI gets this wrong
 
-**(1) iOS-default mental model.** Most training data is iPhone navigation: one `NavigationStack` (or legacy `NavigationView`) pushing detail screens. macOS wants a *persistent* multi-column sidebar — a different container entirely. **(2) Rename + deprecation churn.** `NavigationView` is deprecated (through OS 26.5); `navigationBarLeading`/`navigationBarTrailing` are deprecated; `navigationBarTitle`/`navigationBarTitleDisplayMode` are iOS-bar concepts with no macOS titlebar meaning. Models trained on 2020–2022 code emit the stale names confidently. **(3) Subtle column semantics.** Two- vs three-column initializers differ only by an extra `content:` closure; `NavigationSplitViewVisibility` cases mean different things in 2- vs 3-column mode. **(4) Undocumented macOS gaps.** `navigationSplitViewColumnWidth(min:ideal:max:)` silently no-ops on the detail column, so AI's "set the inspector width" code fails with no signal why.
+**(1) iOS-default mental model.** Most training data is iPhone navigation: one `NavigationStack` (or legacy `NavigationView`) pushing detail screens. macOS wants a *persistent* multi-column sidebar — a different container entirely. **(2) Rename + deprecation churn.** `NavigationView` is deprecated (through OS 27.0); `navigationBarLeading`/`navigationBarTrailing` are deprecated; `navigationBarTitle`/`navigationBarTitleDisplayMode` are iOS-bar concepts with no macOS titlebar meaning. Models trained on 2020–2022 code emit the stale names confidently. **(3) Subtle column semantics.** Two- vs three-column initializers differ only by an extra `content:` closure; `NavigationSplitViewVisibility` cases mean different things in 2- vs 3-column mode. **(4) Undocumented macOS gaps.** `navigationSplitViewColumnWidth(min:ideal:max:)` silently no-ops on the detail column, so AI's "set the inspector width" code fails with no signal why.
 
 ---
 
@@ -20,7 +20,7 @@ The in-window navigation chrome for a Mac app: `NavigationSplitView` (2–3 colu
 
 ```swift
 // ❌ WRONG — deprecated container, or iPhone push-IA as the Mac shell
-NavigationView {                          // deprecated macOS 10.15–26.5
+NavigationView {                          // deprecated macOS 10.15–27.0
     List(items) { Text($0.name) }
     Text("Detail")
 }
@@ -253,7 +253,7 @@ All scraped from developer.apple.com 2026-06-07 unless dated otherwise.
 - `ToolbarSpacer` + `SpacerSizing` (macOS 26.0+; also iOS/iPadOS 26.0+; `.fixed`/`.flexible` toolbar gaps): https://developer.apple.com/documentation/swiftui/toolbarspacer
 - `navigationTitle(_:)` (macOS → window titlebar / Windows menu / Mission Control): https://developer.apple.com/documentation/swiftui/view/navigationtitle(_:)-43srq
 - `navigationSubtitle(_:)` (macOS 11.0+, also iOS/iPadOS 26.0+): https://developer.apple.com/documentation/swiftui/view/navigationsubtitle(_:)
-- `NavigationView` (deprecated `macOS 10.15–26.5`; "Use `NavigationStack` and `NavigationSplitView` instead"): https://developer.apple.com/documentation/swiftui/navigationview
+- `NavigationView` (deprecated `macOS 10.15–27.0`; "Use `NavigationStack` and `NavigationSplitView` instead"): https://developer.apple.com/documentation/swiftui/navigationview
 - Migrating to new navigation types: https://developer.apple.com/documentation/swiftui/migrating-to-new-navigation-types
 - HWS — two-/three-column `NavigationSplitView` (auto-collapse to stack in compact width): https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview
 - Michael Sena — *Three Column Editors in SwiftUI on macOS* (`navigationSplitViewColumnWidth` no-op on detail; `HSplitView` / `NSSplitViewController` workaround; 2023-03-30): https://msena.com/posts/three-column-swiftui-macos/

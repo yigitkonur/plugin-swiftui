@@ -13,15 +13,15 @@ Floor values are NOT restated — read them from
 
 ---
 
-## pg-08 / pg-09 — `MagnificationGesture` / `RotationGesture` deprecated (26.5)
+## pg-08 / pg-09 — `MagnificationGesture` / `RotationGesture` deprecated (27.0)
 
-Both are real but **deprecated in macOS 26.5**; the replacements `MagnifyGesture` / `RotateGesture` ship
+Both are real but **deprecated in macOS 27.0**; the replacements `MagnifyGesture` / `RotateGesture` ship
 at **macOS 14.0+**. `swiftui-ctx deprecated MagnificationGesture` returns `deprecated:true`,
 `migrate_to: MagnifyGesture` — corroborate every flag with it. The value carrier renames too:
 `MagnifyGesture.Value.magnification` (was `.magnitude`) and `RotateGesture.Value.rotation`.
 
 ```swift
-// ❌ WRONG — deprecated 26.5
+// ❌ WRONG — deprecated 27.0
 @GestureState private var scale: CGFloat = 1
 content.gesture(MagnificationGesture().updating($scale) { v, s, _ in s = v })
 ```
@@ -110,7 +110,7 @@ row.simultaneousGesture(DragGesture().onChanged { … })       // or .highPriori
 | URL | Claim | Confidence |
 |---|---|---|
 | https://developer.apple.com/documentation/swiftui/magnifygesture | `MagnifyGesture` — macOS 14.0+; `Value.magnification`; replaces deprecated `MagnificationGesture` | high |
-| https://developer.apple.com/documentation/swiftui/magnificationgesture | `MagnificationGesture` — deprecated (26.5) → `MagnifyGesture` | high |
+| https://developer.apple.com/documentation/swiftui/magnificationgesture | `MagnificationGesture` — deprecated (27.0) → `MagnifyGesture` | high |
 | https://developer.apple.com/documentation/swiftui/rotategesture | `RotateGesture` — macOS 14.0+; `Value.rotation`; replaces deprecated `RotationGesture` | high |
 | https://developer.apple.com/documentation/swiftui/gesturestate | `@GestureState` — transient gesture value that auto-resets when the gesture ends | high |
 | https://developer.apple.com/documentation/swiftui/view/simultaneousgesture(_:including:) | `.simultaneousGesture` / `.highPriorityGesture` — compose with a built-in gesture | high |

@@ -46,7 +46,7 @@ per floors-master (re-confirmed 2026-06-07).
 | `SimultaneousGesture` / `ExclusiveGesture` / `.sequenced(before:)` | `simultaneousgesture` · `exclusivegesture` · `gesture/sequenced(before:)` | 10.15+ |
 
 **Stale / invented (never emit):** `PointerStyle.grabbing` (→ `.grabActive`/`.grabIdle`).
-**Real-but-deprecated (26.5):** `MagnificationGesture` (→ `MagnifyGesture`), `RotationGesture` (→
+**Real-but-deprecated (27.0):** `MagnificationGesture` (→ `MagnifyGesture`), `RotationGesture` (→
 `RotateGesture`).
 
 ## B. Apple conceptual / HIG pages

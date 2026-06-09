@@ -56,11 +56,11 @@ The pre-iOS-13.4 combinator bundled label/hint/traits/value into one `.accessibi
 ```
 
 `.accessibility(identifier:)` → `.accessibilityIdentifier(_:)` (test-only id, not user-facing).
-**Confirmed deprecated: `macOS 10.15–26.5 Deprecated`** — Apple docs confirm the `@available(…, deprecated:)`
+**Confirmed deprecated: `macOS 10.15–27.0 Deprecated`** — Apple docs confirm the `@available(…, deprecated:)`
 annotation; replacement is `accessibilityLabel(_:)`. The sibling combinators (`accessibility(hint:)`,
 `accessibility(value:)`, `accessibility(hidden:)`, `accessibility(identifier:)`, `accessibility(addTraits:)`,
 `accessibility(removeTraits:)`, `accessibility(sortPriority:)`) are deprecated likewise. The corpus
-`deprecated:false` was a false negative. Carry a11y-11 as `source: macOS 10.15–26.5 Deprecated →
+`deprecated:false` was a false negative. Carry a11y-11 as `source: macOS 10.15–27.0 Deprecated →
 accessibilityLabel(_:)`. The split rewrite is behavior-preserving regardless, so the auto-fix is safe under
 the fix-safety protocol.
 

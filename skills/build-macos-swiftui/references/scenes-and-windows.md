@@ -387,7 +387,7 @@ struct MenuBarContent: View {
 | `.windowManagerRole(_:)` | macOS 15.0+ | **macOS-only** — principal vs. auxiliary role for the window manager |
 | `.windowStyle(_:)` | macOS 11.0+ | macOS-only; exact string **UNVERIFIED** |
 | `@NSApplicationDelegateAdaptor` | macOS 11.0+ | bridges an `NSApplicationDelegate` for lifecycle SwiftUI scenes don't expose |
-| `NSApp.activate(ignoringOtherApps:)` | deprecated macOS 10.0–26.5 | use `NSApp.activate()` (macOS 14+) instead |
+| `NSApp.activate(ignoringOtherApps:)` | deprecated macOS 10.0–27.0 | use `NSApp.activate()` (macOS 14+) instead |
 | `Preferences {}` / `showSettingsWindow:` selector | — | **stale** — replaced by `Settings {}` |
 
 UNVERIFIED items: verify against your Xcode 26 SDK before asserting the exact string/case names.
@@ -409,7 +409,7 @@ UNVERIFIED items: verify against your Xcode 26 SDK before asserting the exact st
 | https://developer.apple.com/documentation/swiftui/utilitywindow | `UtilityWindow` scene — floating utility/inspector panel, macOS 15.0+ | high |
 | https://developer.apple.com/documentation/swiftui/scene/windowmanagerrole(_:) | `windowManagerRole(_:)` — principal vs. auxiliary scene role, macOS 15.0+ | high |
 | https://developer.apple.com/documentation/swiftui/scene/windowidealsize(_:) | `windowIdealSize(_:)` (and `windowIdealPlacement(_:)`) — macOS 15.0+ | high |
-| https://developer.apple.com/documentation/appkit/nsapplication/activate() | `NSApplication.activate()` (macOS 14+) replaces deprecated `activate(ignoringOtherApps:)` (deprecated macOS 10.0–26.5) | high |
+| https://developer.apple.com/documentation/appkit/nsapplication/activate() | `NSApplication.activate()` (macOS 14+) replaces deprecated `activate(ignoringOtherApps:)` (deprecated macOS 10.0–27.0) | high |
 | https://developer.apple.com/documentation/appkit/nsapplicationdelegate/applicationshouldterminateafterlastwindowclosed(_:) | quit-on-last-window AppKit hook bridged via `@NSApplicationDelegateAdaptor` (macOS 11.0+) | high |
 | https://developer.apple.com/documentation/swiftui/scenes | Scenes index — `Window` / `WindowGroup` primitives; value-based `WindowGroup(id:for:content:)`, string-`title`-label inits deprecated | medium |
 | https://steipete.me/posts/2025/showing-settings-from-macos-menu-bar-items | Peter Steinberger, "Showing Settings from macOS Menu Bar Items: A 5-Hour Journey" (2025-06-17) — the macOS-15 activate-then-open fix **breaks on macOS 26**; current workaround is a hidden `Window` declared before `Settings` + toggling `.regular`/`.accessory` activation policy around `openSettings()`; `SettingsLink` inside a `MenuBarExtra` also fails | high |

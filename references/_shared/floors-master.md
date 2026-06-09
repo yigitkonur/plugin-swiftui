@@ -55,7 +55,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `accessibilityShowsLargeContentViewer()` | macOS 12.0+ | No |
 | `accessibilityValue(_:)` | macOS 11.0+ | No |
 | `accessibilityValue(_:isEnabled:)` (closure form) | macOS 15.0+ | No |
-| `accentColor(_:)` / `.accentColor` | macOS 10.15+ | **Yes (26.5 → `.tint(_:)`)** |
+| `accentColor(_:)` / `.accentColor` | macOS 10.15+ | **Yes (27.0 → `.tint(_:)`)** |
 | `AccessibilityChildBehavior` (`.combine`/`.ignore`/`.contain`) | macOS 10.15+ | No |
 | `AccessibilityFocusState` (property-wrapper type) | macOS 12.0+ | No |
 | `AccessibilityRotorContent` | macOS 12.0+ | No |
@@ -93,7 +93,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `DisclosureGroup` | macOS 11.0+ | No |
 | `draggable(_:)` | macOS 13.0+ | No |
 | `DragConfiguration` / `DropConfiguration` | macOS 26.0+ | No |
-| `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) | macOS 13.0+ | **Yes (26.5 → `dropDestination(for:isEnabled:action:)`)** |
+| `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) | macOS 13.0+ | **Yes (27.0 → `dropDestination(for:isEnabled:action:)`)** |
 | `dropDestination(for:isEnabled:action:)` (successor) | macOS 26.0+ | No |
 | `EnvironmentValues.accessibilityDifferentiateWithoutColor` | macOS 10.15+ | No |
 | `EnvironmentValues.accessibilityReduceMotion` | macOS 10.15+ | No |
@@ -104,9 +104,9 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `fileExporter(...)` / `fileImporter(...)` | macOS 11.0+ | No |
 | `focusable(_:)` | macOS 12.0+ (**NOT 10.15 — corpus error corrected**) | No |
 | `focused(_:)` | macOS 12.0+ | No |
-| `Font.system(_:design:)` (design-only, no `weight:`) | macOS 10.15+ | **Yes (26.5 → `system(_:design:weight:)`)** |
+| `Font.system(_:design:)` (design-only, no `weight:`) | macOS 10.15+ | **Yes (27.0 → `system(_:design:weight:)`)** |
 | `Font.system(_:design:weight:)` (current overload) | macOS 13.0+ | No |
-| `foregroundColor(_:)` | macOS 10.15+ | **Yes (26.5 → `.foregroundStyle(_:)`)** |
+| `foregroundColor(_:)` | macOS 10.15+ | **Yes (27.0 → `.foregroundStyle(_:)`)** |
 | `foregroundStyle(_:)` | macOS 12.0+ | No |
 | `formStyle(_:)` | macOS 13.0+ | No |
 | `FocusedValueKey` protocol | macOS 11.0+ | No |
@@ -139,7 +139,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `LinePlot` | macOS 15.0+ | No |
 | `List(_:children:rowContent:)` (hierarchical) | macOS 12.0+ | No |
 | `LocalizedStringResource` | macOS 13.0+ | No |
-| `MagnificationGesture` | macOS 10.15+ | **Yes (26.5 → `MagnifyGesture`)** |
+| `MagnificationGesture` | macOS 10.15+ | **Yes (27.0 → `MagnifyGesture`)** |
 | `MagnifyGesture` | macOS 14.0+ | No |
 | `matchedGeometryEffect(id:in:…)` | macOS 11.0+ | No |
 | `Material` struct | macOS 12.0+ | No |
@@ -153,7 +153,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `navigationDestination(for:)` | macOS 13.0+ | No |
 | `NavigationSplitView` / `NavigationSplitViewVisibility` | macOS 13.0+ | No |
 | `NavigationStack` | macOS 13.0+ | No |
-| `NavigationView` | macOS 10.15+ | **Yes (26.5 → `NavigationStack`/`NavigationSplitView`)** |
+| `NavigationView` | macOS 10.15+ | **Yes (27.0 → `NavigationStack`/`NavigationSplitView`)** |
 | `navigationSplitViewColumnWidth(min:ideal:max:)` | macOS 13.0+ | No (no-op on detail column: `verify-SDK`) |
 | `navigationSubtitle(_:)` | macOS 11.0+ (iOS floor is 26.0 — much higher) | No |
 | `navigationTitle(_:)` | macOS 11.0+ | No |
@@ -177,7 +177,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `pushWindow` / `PushWindowAction` | **`verify-SDK` — Apple pages show visionOS 2.0+ only; macOS unconfirmed** | N/A |
 | `RectangleMark` / `RuleMark` | macOS 13.0+ | No |
 | `RectanglePlot` / `RulePlot` | macOS 15.0+ (exact badge: `verify-SDK`) | No |
-| `RotationGesture` | macOS 10.15+ | **Yes (26.5 → `RotateGesture`)** |
+| `RotationGesture` | macOS 10.15+ | **Yes (27.0 → `RotateGesture`)** |
 | `RotateGesture` | macOS 14.0+ | No |
 | `scrollEdgeEffectHidden(_:for:)` | macOS 26.0+ | No |
 | `scrollEdgeEffectStyle(_:for:)` | macOS 26.0+ (`.hard`/`.soft` default: `verify-SDK`) | No |
@@ -197,18 +197,18 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 | `String.init(localized:…)` / `String.LocalizationValue` | macOS 12.0+ | No |
 | `symbolEffect(_:options:value:)` / `(_:options:isActive:)` | macOS 14.0+ | No |
 | `Tab` struct | macOS 15.0+ | No |
-| `tabItem { … }` | macOS 10.15+ | **Yes (26.5 → `Tab("…") { }`)** |
+| `tabItem { … }` | macOS 10.15+ | **Yes (27.0 → `Tab("…") { }`)** |
 | `Table` (SwiftUI) | macOS 12.0+ | No |
 | `TableColumnForEach` | macOS 14.4+ | No |
-| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **Yes (26.5 → `.tableStyle(.inset).alternatingRowBackgrounds()`)** |
+| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **Yes (27.0 → `.tableStyle(.inset).alternatingRowBackgrounds()`)** |
 | `TextEditor(text:selection:)` (styled/rich-text init) | macOS 26.0+ | No |
 | `TextRenderer` (protocol) | macOS 14.0+ | No |
 | `textRenderer(_:)` (modifier applying a renderer) | macOS 15.0+ | No |
-| `Text("a") + Text("b")` (`Text` `+` operator) | macOS 10.15+ | **Yes (26.0 → Text interpolation / `AttributedString`) — closes at 26.0, one release before the 26.5 set** |
+| `Text("a") + Text("b")` (`Text` `+` operator) | macOS 10.15+ | **Yes (26.0 → Text interpolation / `AttributedString`) — closes at 26.0, one release before the 27.0 set** |
 | `Text.init(_:format:)` (FormatStyle→AttributedString overload) | macOS 15.0+ | No |
 | `tint(_:)` | macOS 12.0+ | No |
 | `ToolbarCommands` | macOS 11.0+ | No |
-| `ToolbarItemPlacement.navigationBarLeading` / `.navigationBarTrailing` | macOS 11.0+ | **Yes (→ `.navigation`/`.primaryAction`; exact version `verify-SDK`)** |
+| `ToolbarItemPlacement.navigationBarLeading` / `.navigationBarTrailing` | **macOS ABSENT — no macOS arm (iOS/iPadOS/Mac Catalyst/tvOS/visionOS only, deprecated → `topBarLeading`/`topBarTrailing` which are themselves macOS-absent)** | N/A — on macOS use `.navigation`/`.primaryAction` |
 | `ToolbarItemPlacement.topBarLeading` / `.topBarTrailing` | **macOS ABSENT — compile error on Mac** | N/A — use `.navigation`/`.primaryAction` |
 | `ToolbarItemPlacement.primaryAction` | macOS 11.0+ (leads on macOS) | No |
 | `ToolbarSpacer` | macOS 26.0+ | No |
@@ -227,7 +227,7 @@ Floors confirmed against the `developer.apple.com` JSON availability endpoints (
 
 ---
 
-## 2. The four new macOS-26.5 deprecations (post-date the shipped doc)
+## 2. The four new macOS-27.0 deprecations (post-date the shipped doc)
 
 Surfaced as a set so the lint and `api-currency` audit catch them together:
 

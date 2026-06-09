@@ -55,7 +55,7 @@ Ordered by frequency × impact × macOS-uniqueness. `Sev`: **C**=critical (broke
 
 | # | Symptom (what AI emits) | Correct macOS rule | Sev | → |
 |---|---|---|---|---|
-| 1 | `NavigationView { … }` for new code | `NavigationStack`, or for a sidebar app `NavigationSplitView` (deprecated through OS 26.5) | C | navigation-and-toolbars.md |
+| 1 | `NavigationView { … }` for new code | `NavigationStack`, or for a sidebar app `NavigationSplitView` (deprecated through OS 27.0) | C | navigation-and-toolbars.md |
 | 2 | Invents `.glassBackground()` / `.liquidGlass()` / `.material(.glass)` / `LiquidGlassView` | Real API: `glassEffect(_:in:)`, `GlassEffectContainer`, `.buttonStyle(.glass)` — the rest don't exist | C | liquid-glass.md |
 | 3 | macOS-26/14-only API with no `#available`/`@available` gate | Gate every above-floor API on the **macOS arm** (`#available(macOS 26, *)`) | C | version-and-hallucination.md |
 | 4 | `@ObservedObject var x = Model()` — view creates what it doesn't own | Owner uses `@State` (`@Observable`) or `@StateObject` (`ObservableObject`); else silent state reset | C | state-and-observation.md |

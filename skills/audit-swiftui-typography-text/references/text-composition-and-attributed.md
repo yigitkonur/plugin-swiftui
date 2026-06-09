@@ -12,7 +12,7 @@ way to build an `AttributedString`, and the invented type APIs AI hallucinates. 
 ## txt-01 — `Text + Text` concatenation (deprecated macOS 26.0)
 
 The `Text` `+` operator (`Text("a") + Text("b")`) is **deprecated at macOS 26.0** (per floors-master:
-"closes at 26.0, one release before the 26.5 set"). It still resolves but is non-native and warns on a
+"closes at 26.0, one release before the 27.0 set"). It still resolves but is non-native and warns on a
 26.0 floor. The currency *flag* is owned by `audit-swiftui-api-currency`; this skill owns the **positive
 craft** → emit `cross_ref: api-currency`.
 

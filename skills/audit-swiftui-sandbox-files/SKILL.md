@@ -96,7 +96,7 @@ won't compile / never-correct on Mac), **warning** (compiles but breaks under th
 | sf-05 | `UIPasteboard` referenced in macOS code (absent from native macOS; Mac Catalyst 13.1+ carries it — this skill is native macOS only → won't compile) | hard-fail | auto | `transferable-and-clipboard.md` |
 | sf-06 | `NSItemProvider` `loadObject`/`loadDataRepresentation` or `.onDrop(of:)` callbacks instead of `Transferable` + `.dropDestination` | warning | flag | `transferable-and-clipboard.md` |
 | sf-07 | `loadTransferable` / `.task` touching a `@MainActor`-created picker item (file-consent angle; isolation = concurrency-safety) | warning | flag | `transferable-and-clipboard.md` |
-| sf-08 | `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) — deprecated macOS 26.5 | advisory | flag | `transferable-and-clipboard.md` |
+| sf-08 | `dropDestination(for:action:isTargeted:)` (3-arg Bool-returning) — deprecated macOS 27.0 | advisory | flag | `transferable-and-clipboard.md` |
 | sf-09 | Developer-ID build that JITs / loads plug-ins / injects, Hardened Runtime off or no `com.apple.security.cs.*` | advisory | flag | `entitlements-and-hardened-runtime.md` |
 
 **Two claims are carried as `advisory` and never asserted as fact** (each flagged in its reference +
@@ -117,7 +117,7 @@ entitlement **bodies** (sf-09, Apple pages not verbatim-captured); and the *Xcod
 
 **Wrong on Mac / stale:** `UIPasteboard` (absent from native macOS; Mac Catalyst 13.1+ carries it — the clipboard on native macOS is
 `NSPasteboard`); `dropDestination(for:action:isTargeted:)` (the 3-arg Bool-returning form — **deprecated
-macOS 26.5** → `dropDestination(for:isEnabled:action:)`); persisting a picked URL by `.path` or a plain
+macOS 27.0** → `dropDestination(for:isEnabled:action:)`); persisting a picked URL by `.path` or a plain
 `bookmarkData()` (round-trips the path, **not** the permission).
 
 Floor *values* are the reconciled truth in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`;
@@ -161,8 +161,8 @@ the canonical platform-wrong/invented-name list is
    `WebFetch` `developer.apple.com`). Cross-check `introduced_macos` against `floors-master.md` and the
    Sosumi `doc:` floor. The CLI contract is
    `${CLAUDE_PLUGIN_ROOT}/references/_shared/swiftui-ctx-reference.md`. **When the corpus and floors-master
-   disagree, floors-master wins** — the catalog predates the macOS-26.5 doc and reports `dropDestination`
-   as not-deprecated, but floors-master records the 26.5 deprecation; carry it as fact and note the lag.
+   disagree, floors-master wins** — the catalog predates the macOS-27.0 doc and reports `dropDestination`
+   as not-deprecated, but floors-master records the 27.0 deprecation; carry it as fact and note the lag.
    Promote with the citation or discard. Carry the two UNVERIFIED items as `advisory` with
    `source: verify against Xcode 26 SDK` — never as fact.
 6. **REPORT.** Write each confirmed finding (output contract below). One finding per file, zero-padded,
@@ -237,7 +237,7 @@ hard requirement.* Two runs over the same code produce structurally identical tr
 
 | Shared file | For |
 |---|---|
-| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — incl. the `dropDestination` 26.5 deprecation) |
+| `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md` | every floor/availability value (the reconciled truth — incl. the `dropDestination` 27.0 deprecation) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md` | the canonical platform-wrong/invented-name list |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/macos-arm-gating.md` | the macOS-arm gating rule (the `dropDestination` successor's macOS-26 floor) |
 | `${CLAUDE_PLUGIN_ROOT}/references/_shared/finding-schema.md` | the unified finding schema + frontmatter keys |

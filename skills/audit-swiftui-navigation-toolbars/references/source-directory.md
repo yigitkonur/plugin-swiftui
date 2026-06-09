@@ -36,7 +36,7 @@ values are reconciled in `floors-master.md`.
 | `NavigationSplitView` | `navigationsplitview` | 13.0+ |
 | `NavigationSplitViewVisibility` | `navigationsplitviewvisibility` | 13.0+ |
 | `NavigationStack` | `navigationstack` | 13.0+ |
-| `NavigationView` (deprecated) | `navigationview` | 10.15+ → 26.5 dep. |
+| `NavigationView` (deprecated) | `navigationview` | 10.15+ → 27.0 dep. |
 | `navigationSplitViewColumnWidth(min:ideal:max:)` | `view/navigationsplitviewcolumnwidth(min:ideal:max:)` | 13.0+ (no-op on detail: verify-SDK) |
 | `navigationTitle(_:)` | `view/navigationtitle(_:)-43srq` | 11.0+ |
 | `navigationSubtitle(_:)` | `view/navigationsubtitle(_:)` | 11.0+ (iOS 26.0) |

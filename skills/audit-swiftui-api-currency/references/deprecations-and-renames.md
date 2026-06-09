@@ -16,7 +16,7 @@ era labels for the `era` finding field, not a restated floor table.** The canoni
 ## curr-01 · `NavigationView` → `NavigationStack` / `NavigationSplitView`
 
 ```swift
-NavigationView { List(items) { row($0) } }                 // ❌ deprecated macOS 10.15–26.5
+NavigationView { List(items) { row($0) } }                 // ❌ deprecated macOS 10.15–27.0
 NavigationStack { List(items) { row($0) } }                // ✅ push/stack IA
 NavigationSplitView { Sidebar() } detail: { Detail() }     // ✅ macOS-idiomatic columns (the rare-but-right swap)
 ```
@@ -28,12 +28,12 @@ is `cross_ref audit-swiftui-navigation-toolbars`.** `era: WWDC22/macOS-13`.
 ## curr-02 · `.foregroundColor(_:)` → `.foregroundStyle(_:)` *(fix_mode: auto)*
 
 ```swift
-Text("Hi").foregroundColor(.red)        // ❌ deprecated macOS 10.15–26.5
+Text("Hi").foregroundColor(.red)        // ❌ deprecated macOS 10.15–27.0
 Text("Hi").foregroundStyle(.red)        // ✅ same length; accepts ShapeStyle, hierarchical .secondary, glass vibrancy
 ```
 
 Apple: *"Use `foregroundStyle(_:)` instead."* Mechanical single-answer rename → `fix_mode: auto`. Craft
-(gradients, hierarchical styles) is `cross_ref audit-swiftui-appearance-color`. `era: rolling/≤26.5`.
+(gradients, hierarchical styles) is `cross_ref audit-swiftui-appearance-color`. `era: rolling/≤27.0`.
 
 ## curr-03 · `.cornerRadius(_:)` → `.clipShape(.rect(cornerRadius:))` *(fix_mode: auto)*
 
@@ -43,7 +43,7 @@ view.clipShape(.rect(cornerRadius: 12))            // ✅ universally safe — R
 ```
 
 Apple: *"Use `clipShape(_:style:)` with `RoundedRectangle` instead."* No gating needed. `cross_ref
-audit-swiftui-appearance-color`. `era: rolling/≤26.5`.
+audit-swiftui-appearance-color`. `era: rolling/≤27.0`.
 
 ## curr-04 · single-param `onChange(of:perform:)` → two-/zero-param
 
@@ -87,7 +87,7 @@ Text("Hello \(name)").bold()                         // ✅ uniformly-styled run
 Text(AttributedString(makeStyledGreeting(name)))     // ✅ per-run styling
 ```
 
-The window closes at **macOS 26.0**, ahead of the 26.5 cutoff most deprecations carry — it warns sooner.
+The window closes at **macOS 26.0**, ahead of the 27.0 cutoff most deprecations carry — it warns sooner.
 Craft (`AttributedString`) is `cross_ref audit-swiftui-typography-text`. `era: macOS-26`.
 
 ## curr-08 · `DispatchQueue.main.async` cargo-cult → `@MainActor` / structured concurrency
@@ -105,42 +105,42 @@ is `cross_ref audit-swiftui-async-data` / concurrency-safety. `era: Swift-6`.
 ## curr-09 · 3-arg `dropDestination(for:action:isTargeted:)` → `dropDestination(for:isEnabled:action:)`
 
 ```swift
-.dropDestination(for: URL.self) { items, location in handle(items) } isTargeted: { hovering = $0 }   // ❌ deprecated macOS 26.5
+.dropDestination(for: URL.self) { items, location in handle(items) } isTargeted: { hovering = $0 }   // ❌ deprecated macOS 27.0
 .dropDestination(for: URL.self, isEnabled: canDrop) { items, session in handle(items) }               // ✅ macOS 26.0+ successor (2nd param is DropSession, not CGPoint)
 ```
 
-The `Bool`-returning 3-arg form (with `isTargeted:`) is deprecated at 26.5. **VERIFY the exact successor
+The `Bool`-returning 3-arg form (with `isTargeted:`) is deprecated at 27.0. **VERIFY the exact successor
 signature** with `swiftui-ctx lookup dropDestination` + Sosumi before asserting; else `source: verify
-against Xcode 26 SDK`. `cross_ref audit-swiftui-sandbox-files`. `era: macOS-26.5`.
+against Xcode 26 SDK`. `cross_ref audit-swiftui-sandbox-files`. `era: macOS-27.0`.
 
 ## curr-10 · `MagnificationGesture` / `RotationGesture` → `MagnifyGesture` / `RotateGesture` *(fix_mode: auto)*
 
 ```swift
-MagnificationGesture()    RotationGesture()          // ❌ renamed macOS 26.5
+MagnificationGesture()    RotationGesture()          // ❌ renamed macOS 27.0
 MagnifyGesture()          RotateGesture()            // ✅ successors are macOS 14.0+
 ```
 
 Pure name swap → `fix_mode: auto`. The successors back-deploy to macOS 14, so the rename is safe down to
-that floor. Mechanics `cross_ref audit-swiftui-pointer-gestures`. `era: macOS-26.5`.
+that floor. Mechanics `cross_ref audit-swiftui-pointer-gestures`. `era: macOS-27.0`.
 
 ## curr-11 · design-only `Font.system(_:design:)` → `Font.system(_:design:weight:)`
 
 ```swift
-Font.system(.body, design: .rounded)                 // ❌ design-only form deprecated macOS 26.5 (if no weight:)
+Font.system(.body, design: .rounded)                 // ❌ design-only form deprecated macOS 27.0 (if no weight:)
 Font.system(.body, design: .rounded, weight: .regular)   // ✅ pass weight explicitly
 ```
 
 **Only fires when there is no `weight:` argument** — READ to confirm (advisory). `cross_ref
-audit-swiftui-typography-text`. `era: macOS-26.5`.
+audit-swiftui-typography-text`. `era: macOS-27.0`.
 
 ## curr-12 · `.accentColor(_:)` → `.tint(_:)` *(fix_mode: auto)*
 
 ```swift
-SomeControl().accentColor(.blue)     // ❌ deprecated macOS 26.5
+SomeControl().accentColor(.blue)     // ❌ deprecated macOS 27.0
 SomeControl().tint(.blue)            // ✅ .tint is macOS 12.0+
 ```
 
-Mechanical rename → `fix_mode: auto`. `cross_ref audit-swiftui-appearance-color`. `era: macOS-26.5`.
+Mechanical rename → `fix_mode: auto`. `cross_ref audit-swiftui-appearance-color`. `era: macOS-27.0`.
 
 ---
 
@@ -155,7 +155,7 @@ net). The wrong-arm rule is `${CLAUDE_PLUGIN_ROOT}/references/_shared/macos-arm-
 ## Sources
 
 - Paul Hudson, "What to fix in AI-generated Swift code," 2025-12-09 — https://www.hackingwithswift.com/articles/281/what-to-fix-in-ai-generated-swift-code (accessed 2026-06-06).
-- Apple — `NavigationView` (deprecated `macOS 10.15–26.5`): https://developer.apple.com/documentation/swiftui/navigationview (scraped 2026-06-06).
+- Apple — `NavigationView` (deprecated `macOS 10.15–27.0`): https://developer.apple.com/documentation/swiftui/navigationview (scraped 2026-06-06).
 - Apple — `foregroundColor(_:)` (deprecated, "Use foregroundStyle(_:) instead"): https://developer.apple.com/documentation/SwiftUI/View/foregroundColor(_:) (scraped 2026-06-06).
 - Apple — `onChange(of:initial:_:)` (current 2-param, `macOS 14.0+`): https://developer.apple.com/documentation/SwiftUI/View/onChange(of:initial:_:)-4psgg (scraped 2026-06-06); deprecation text via Use Your Loaf — https://useyourloaf.com/blog/swiftui-onchange-deprecation/ (accessed 2026-06-06).
 - Apple — `clipShape(_:style:)` (`macOS 10.15+`) and `RoundedRectangle`: https://developer.apple.com/documentation/swiftui/view/clipshape(_:style:) (confirmed 2026-06-07).

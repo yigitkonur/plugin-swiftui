@@ -8,10 +8,10 @@ overload, and stopping live numerics from jiggling. Floor *values* live in
 
 ---
 
-## txt-02 — `Font.system(_:design:)` design-only overload (deprecated macOS 26.5)
+## txt-02 — `Font.system(_:design:)` design-only overload (deprecated macOS 27.0)
 
 Per floors-master, `Font.system(_:design:)` (the overload with **no `weight:`**) is **deprecated at
-macOS 26.5** → the current overload `Font.system(_:design:weight:)` (macOS 13.0+). The currency *flag* is
+macOS 27.0** → the current overload `Font.system(_:design:weight:)` (macOS 13.0+). The currency *flag* is
 api-currency's; this skill owns the craft → emit `cross_ref: api-currency`. This is `fix_mode: auto`: the
 mechanical single-answer fix is appending `weight: .regular`.
 

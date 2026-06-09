@@ -11,7 +11,7 @@ the **swiftui-ctx consensus** (run the `lookup` in step VERIFY for the live perm
 
 ## nav-01 · `NavigationView` is deprecated
 
-`NavigationView` is deprecated (macOS 10.15 → 26.5; Apple: "Use `NavigationStack` and
+`NavigationView` is deprecated (macOS 10.15 → 27.0; Apple: "Use `NavigationStack` and
 `NavigationSplitView` instead"). swiftui-ctx confirms: `deprecated NavigationView` → `deprecated:true`,
 `migrate_to: NavigationStack`, note *"use NavigationStack for single-column, NavigationSplitView for
 sidebar+detail."* `api-currency` owns the deprecation *flag*; **this skill owns the structural
@@ -159,7 +159,7 @@ access 2026-06-07. Floors live in `floors-master.md`; the live consensus shape +
 - `NavigationSplitView` (2-/3-col inits, `columnVisibility:` / `preferredCompactColumn:` variants): https://developer.apple.com/documentation/swiftui/navigationsplitview
 - `NavigationSplitViewVisibility` (`.all`/`.doubleColumn`/`.detailOnly`/`.automatic`; macOS always shows the content column): https://developer.apple.com/documentation/swiftui/navigationsplitviewvisibility
 - `NavigationStack` (drill-down inside a column): https://developer.apple.com/documentation/swiftui/navigationstack
-- `NavigationView` (deprecated `macOS 10.15–26.5`; "Use `NavigationStack` and `NavigationSplitView` instead"): https://developer.apple.com/documentation/swiftui/navigationview
+- `NavigationView` (deprecated `macOS 10.15–27.0`; "Use `NavigationStack` and `NavigationSplitView` instead"): https://developer.apple.com/documentation/swiftui/navigationview
 - Migrating to new navigation types: https://developer.apple.com/documentation/swiftui/migrating-to-new-navigation-types
 - `SidebarListStyle` (`.sidebar`): https://developer.apple.com/documentation/swiftui/sidebarliststyle
 - HWS — two-/three-column `NavigationSplitView` (auto-collapse to stack in compact width): https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-a-two-column-or-three-column-layout-with-navigationsplitview

@@ -138,7 +138,7 @@ Text(label).fixedSize(horizontal: false, vertical: true)
   }
   ```
 - **Sorting is one wiring.** `sortOrder: $binding` to `[KeyPathComparator]` + `.onChange(of: sortOrder) { _, new in data.sort(using: new) }`. SwiftUI draws the header sort-arrow and cycles ascending → descending on click automatically.
-- **Alternating rows / inset style.** ❌ `Table { … }.tableStyle(.inset(alternatesRowBackgrounds: true))` is **DEPRECATED (macOS 26.5)** — Apple: *"Use the `.inset` style with the `.alternatingRowBackgrounds()` view modifier."* (same for the `.bordered` variant). ✅ `Table { … }.tableStyle(.inset).alternatingRowBackgrounds()` — `alternatingRowBackgrounds(_:)` is **macOS 14.0+** and macOS-only. `BorderedTableStyle` (`.bordered`) is likewise macOS-only.
+- **Alternating rows / inset style.** ❌ `Table { … }.tableStyle(.inset(alternatesRowBackgrounds: true))` is **DEPRECATED (macOS 27.0)** — Apple: *"Use the `.inset` style with the `.alternatingRowBackgrounds()` view modifier."* (same for the `.bordered` variant). ✅ `Table { … }.tableStyle(.inset).alternatingRowBackgrounds()` — `alternatingRowBackgrounds(_:)` is **macOS 14.0+** and macOS-only. `BorderedTableStyle` (`.bordered`) is likewise macOS-only.
 - **Scale to AppKit at size.** SwiftUI `Table`/`List` render via `NSTableView` but struggle past ~5,000 rows or with heavy custom cells; bridge `NSTableView` via `NSViewRepresentable` for high-complexity / high-row-count grids (per `appkit-interop`).
 - **`controlSize` matters more on Mac.** Pointer-driven dense layouts (inspectors, toolbars, settings grids) routinely use `.small`/`.mini`; iOS touch targets rarely shrink. Cross-ref `references/version-and-hallucination.md` for control styles.
 
@@ -208,7 +208,7 @@ struct PeopleTable: View {
 | `layoutPriority(_:)` | macOS 10.15+ | cross-platform |
 | `TableColumnForEach` | macOS 14.4+ | macOS-first (Mac tables); `ForEach` equivalent for a runtime-variable number of `TableColumn`s |
 | `tableStyle(.inset)` + `alternatingRowBackgrounds(_:)` | macOS 14.0+ | macOS-only; replaces the deprecated `.inset(alternatesRowBackgrounds:)` |
-| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **DEPRECATED (macOS 26.5)** — use `.inset` + `.alternatingRowBackgrounds()` |
+| `tableStyle(.inset(alternatesRowBackgrounds:))` | macOS 12.0+ | **DEPRECATED (macOS 27.0)** — use `.inset` + `.alternatingRowBackgrounds()` |
 
 ---
 
@@ -226,7 +226,7 @@ All Apple-doc availability strings were scraped 2026-06-06. Items are primary-so
 | https://developer.apple.com/documentation/swiftui/view/layoutpriority(_:) | *"Sets the priority by which a parent layout should apportion space to this child."* — macOS 10.15+ | medium |
 | https://developer.apple.com/documentation/swiftui/scenes | Scenes index — `Window` / `WindowGroup` sizing primitives | medium |
 | https://www.createwithswift.com/understanding-scenes-for-your-macos-app/ | "Understanding scenes for your macOS app" — scene/window sizing modifiers | medium |
-| https://developer.apple.com/documentation/swiftui/table/tablestyle(_:) | `.inset(alternatesRowBackgrounds:)` **deprecated (macOS 26.5)**: *"Use the .inset style with the .alternatingRowBackgrounds() view modifier."* (same for `.bordered`) | high |
+| https://developer.apple.com/documentation/swiftui/table/tablestyle(_:) | `.inset(alternatesRowBackgrounds:)` **deprecated (macOS 27.0)**: *"Use the .inset style with the .alternatingRowBackgrounds() view modifier."* (same for `.bordered`) | high |
 | https://developer.apple.com/documentation/swiftui/view/alternatingrowbackgrounds(_:) | *"Sets the alternating row background style of rows in this table."* — macOS 14.0+, macOS-only | high |
 | https://developer.apple.com/documentation/swiftui/tablecolumnforeach | *"A structure that computes columns on demand from an underlying collection of identified data."* — macOS 14.4+ | high |
 | https://developer.apple.com/documentation/swiftui/view/containerrelativeframe(_:alignment:) | *"Positions this view within an invisible frame with a size relative to the nearest container."* — macOS 14.0+ | high |

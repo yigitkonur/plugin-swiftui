@@ -20,7 +20,7 @@ values live in `${CLAUDE_PLUGIN_ROOT}/references/_shared/floors-master.md`.
    corroborates).
 2. **Deprecation:** Sosumi shows the deprecation banner; `swiftui-ctx deprecated <api>` shows
    corpus-level deprecation. **Case-level** deprecation (e.g. `tableStyle(.inset(alternatesRowBackgrounds:))`)
-   is NOT in the corpus — confirmed directly on `developer.apple.com` as `macOS 12.0–26.5 Deprecated`;
+   is NOT in the corpus — confirmed directly on `developer.apple.com` as `macOS 12.0–27.0 Deprecated`;
    cite `https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)`.
 3. **Scene-sizing depth** (`defaultSize`/`windowResizability`) is `scenes-windows`' to own — verify the
    floor here, defer the depth there.
@@ -38,7 +38,7 @@ are the reconciled truth in `floors-master.md` — never restate them here.
 | `Table` / `TableColumn` / `TableRow` | `table` · `tablecolumn` · `tablerow` |
 | `TableColumnForEach` | `tablecolumnforeach` |
 | `KeyPathComparator` (Foundation) | `documentation/foundation/keypathcomparator` |
-| `tableStyle(_:)` (case `.inset(alternatesRowBackgrounds:)` **deprecated 26.5**) | `view/tablestyle(_:)` |
+| `tableStyle(_:)` (case `.inset(alternatesRowBackgrounds:)` **deprecated 27.0**) | `view/tablestyle(_:)` |
 | `alternatingRowBackgrounds(_:)` (macOS 14.0+, macOS-only) | `view/alternatingrowbackgrounds(_:)` |
 | `controlSize(_:)` / `ControlSize` | `view/controlsize(_:)` · `controlsize` |
 | `fixedSize()` / `fixedSize(horizontal:vertical:)` | `view/fixedsize()` · `view/fixedsize(horizontal:vertical:)` |
