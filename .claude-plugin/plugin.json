@@ -6,9 +6,5 @@
   "homepage": "https://github.com/yigitkonur/claude-swiftui-plugin",
   "repository": "https://github.com/yigitkonur/claude-swiftui-plugin",
   "license": "MIT",
-  "keywords": ["swiftui", "macos", "swift", "code-examples", "audit", "cli"],
-  "skills": "./skills",
-  "commands": "./commands",
-  "agents": ["./agents"],
-  "hooks": "./hooks/hooks.json"
+  "keywords": ["swiftui", "macos", "swift", "code-examples", "audit", "cli"]
 }
