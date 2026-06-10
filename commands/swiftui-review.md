@@ -1,18 +1,13 @@
 ---
 description: Audit a SwiftUI file (or the current diff) for deprecated APIs and non-idiomatic usage, grounded in real macOS apps.
 argument-hint: "[path/to/File.swift]  (defaults to changed Swift files)"
-allowed-tools: Bash(swiftui-ctx:*), Bash(*/swiftui-ctx:*)
 ---
-Audit SwiftUI in: **$ARGUMENTS** _(empty = the current git diff)_
+This file is instructions for *you* to run — there is no pre-computed output to wait for, and nothing here is broken.
 
-Deprecated APIs still seen in production (scan the target against these):
-!`CTX="$(command -v swiftui-ctx 2>/dev/null || echo "${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx")"; "$CTX" deprecated 2>/dev/null | head -20 || echo "swiftui-ctx unavailable"`
+**Do this now**, via the Bash tool (`swiftui-ctx` is a bundled command on your PATH; if it isn't, use `"$CLAUDE_PLUGIN_ROOT/scripts/swiftui-ctx"`):
 
-If the block above is empty or shows a raw `` !`…` `` template (model-invocation path), run `swiftui-ctx deprecated` yourself via the Bash tool first (`swiftui-ctx` is on PATH; else `"$CLAUDE_PLUGIN_ROOT/scripts/swiftui-ctx" deprecated`).
+1. `swiftui-ctx deprecated` — load the deprecated-in-the-wild list.
+2. Read the target: the path in the request, or `git diff` if none was given.
+3. For each SwiftUI symbol used, run `swiftui-ctx deprecated <api>` (flag + replacement) and compare its call to `swiftui-ctx lookup <api>` `consensus`.
 
-Now:
-1. Read the target file(s) (or `git diff` if no path given).
-2. For each SwiftUI symbol used, check `swiftui-ctx deprecated <api>` (flag + replacement)
-   and compare its call to `swiftui-ctx lookup <api>` `consensus`.
-3. Report findings as `file:line — issue → fix` with the swiftui-ctx permalink as evidence, ranked deprecated (high)
-   > non-consensus shape (medium) > nit. Do not rewrite unless asked.
+Report findings as `file:line — issue → fix` with the swiftui-ctx permalink as evidence, ranked deprecated (high) > non-consensus shape (medium) > nit. Do not rewrite unless asked.

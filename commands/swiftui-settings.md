@@ -1,6 +1,5 @@
 ---
 description: Create or update .claude/swiftui.local.md to configure the swiftui plugin for this project
-allowed-tools: ["Read", "Write", "Bash"]
 ---
 
 # /swiftui-settings — Configure the swiftui plugin for this project
