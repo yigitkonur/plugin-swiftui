@@ -9,6 +9,6 @@
   "keywords": ["swiftui", "macos", "swift", "code-examples", "audit", "cli"],
   "skills": "./skills",
   "commands": "./commands",
-  "agents": "./agents",
+  "agents": ["./agents"],
   "hooks": "./hooks/hooks.json"
 }
