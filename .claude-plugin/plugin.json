@@ -1,7 +1,7 @@
 {
   "name": "swiftui",
   "description": "Real production SwiftUI usage from 1,857 shipping macOS apps PLUS 33 macOS-SwiftUI skills (28 domain audits + write/modernize/scaffold) — all backed by the swiftui-ctx CLI. Look up how an API is really used and the consensus argument shape, flag deprecated calls, scaffold whole patterns, and run domain audits (accessibility, concurrency, state/observation, liquid glass, navigation, nativeness, and more) that ground every finding in real code with GitHub permalinks. Use before writing, reviewing, modernizing, or auditing SwiftUI on macOS.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
   "homepage": "https://github.com/yigitkonur/claude-swiftui-plugin",
   "repository": "https://github.com/yigitkonur/claude-swiftui-plugin",
