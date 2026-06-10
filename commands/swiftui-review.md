@@ -2,7 +2,7 @@
 description: Audit a SwiftUI file (or the current diff) for deprecated APIs and non-idiomatic usage, grounded in real macOS apps.
 argument-hint: "[path/to/File.swift]  (defaults to changed Swift files)"
 ---
-Audit SwiftUI in: **${ARGUMENTS:-the current git diff}**
+Audit SwiftUI in: **$ARGUMENTS** _(empty = the current git diff)_
 
 Deprecated APIs still seen in production (scan the target against these):
 !`"${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx" deprecated 2>/dev/null | head -20 || echo "swiftui-ctx unavailable"`
