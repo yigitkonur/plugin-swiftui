@@ -1,11 +1,14 @@
 ---
 description: Run the full macOS-SwiftUI audit suite over a codebase — steer to the relevant domains, then audit each against real production evidence.
 argument-hint: "[path/to/Sources]  (defaults to the current directory)"
+allowed-tools: Bash(python3:*)
 ---
 Audit the macOS SwiftUI codebase at: **$ARGUMENTS** _(empty = current directory)_
 
 Relevance scan (which of the 28 domain auditors actually apply here):
 !`P="$ARGUMENTS"; [ -z "$P" ] && P="."; python3 "${CLAUDE_PLUGIN_ROOT}/scripts/audit-scan.py" "$P" 2>/dev/null || echo '{"error":"audit-scan unavailable — is this a Swift project?"}'`
+
+If the block above is empty or shows a raw `` !`…` `` template (model-invocation path), run the scan yourself via the Bash tool first: `python3 "$CLAUDE_PLUGIN_ROOT/scripts/audit-scan.py" "<path or .>"`.
 
 Now drive the **`audit-macos-swiftui-full`** orchestrator:
 1. From the scan above, take `relevant_skills[]` (the `always` cross-cutting set + any `cond` domains whose signal hit) — ignore `skipped_skills`.
