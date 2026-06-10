@@ -113,12 +113,12 @@ struct Lookup: ParsableCommand {
 
     func run() {
         let cat = loadCatalog(common)
-        let api = normalizeAPI(self.api)
+        var api = normalizeAPI(self.api)
         if api.isEmpty {
             die(CtxError(cls: "usage", code: "EMPTY_QUERY", message: "API name is empty",
                 retryable: false, suggestion: "e.g. swiftui-ctx lookup searchable", exit: .usage), json: common.json)
         }
-        guard let (dim, entry) = cat.symbol(api) else {
+        guard let found = cat.find(api) else {
             // soft redirect: protocols/patterns (e.g. NSViewRepresentable) live in recipes, not dimensions
             if let rec = cat.recipes().first(where: { (($0["apis"] as? [String]) ?? []).contains(api) }),
                let rn = rec.s("name") {
@@ -128,12 +128,43 @@ struct Lookup: ParsableCommand {
                      json: common.json) { "ℹ️ \(api) is a pattern, not a single API → swiftui-ctx recipe \(rn)" }
                 return
             }
+            // AppKit/UIKit name (NSWindow…, UIView…) → out of scope; we only index SwiftUI.
+            if api.range(of: "^(NS|UI)[A-Z]", options: .regularExpression) != nil {
+                var next: [NextAction] = []
+                if cat.recipe("nsview-bridge") != nil {
+                    next.append(NextAction(cmd: "swiftui-ctx recipe nsview-bridge", why: "wrap an AppKit/UIKit view in SwiftUI"))
+                }
+                next.append(NextAction(cmd: "swiftui-ctx search \(api)", why: "find related SwiftUI APIs"))
+                emit(result: ["api": api, "out_of_scope": "appkit_uikit",
+                              "note": "\(api) looks like an AppKit/UIKit type — swiftui-ctx indexes SwiftUI only"],
+                     next: next, json: common.json) {
+                    "ℹ️ \(api) looks like an AppKit/UIKit API — swiftui-ctx indexes SwiftUI only.\n  For bridging an AppKit view into SwiftUI, see: swiftui-ctx recipe nsview-bridge"
+                }
+                return
+            }
+            // intent / multi-word resolution (aliases, substring, recipes) before giving up.
+            let r = cat.resolve(self.api)
+            if !r.apis.isEmpty || !r.recipes.isEmpty {
+                let apis = Array(r.apis.prefix(common.limit))
+                var next = apis.prefix(3).map { NextAction(cmd: "swiftui-ctx lookup \($0)", why: "production usage") }
+                if let rn = r.recipes.first { next.append(NextAction(cmd: "swiftui-ctx recipe \(rn)", why: "the full pattern")) }
+                emit(result: ["api": api, "redirect": "search", "apis": apis, "recipes": r.recipes,
+                              "note": "no single API named '\(api)' — closest matches by intent"],
+                     next: next, json: common.json) {
+                    var s = "ℹ️ no single API named '\(api)' — closest by intent:\n  apis: " + apis.joined(separator: ", ")
+                    if !r.recipes.isEmpty { s += "\n  recipes: " + r.recipes.joined(separator: ", ") }
+                    return s
+                }
+                return
+            }
             let sug = cat.suggest(api)
             die(CtxError(cls: "not_found", code: "UNKNOWN_API",
                 message: "no usage found for '\(api)'", retryable: false,
                 suggestion: sug.isEmpty ? "run `swiftui-ctx search \(api)`" : "did you mean: \(sug.joined(separator: ", "))?",
                 exit: .notFound), json: common.json)
         }
+        api = found.name                 // canonical casing (handles `navigationstack` → NavigationStack)
+        let dim = found.dim, entry = found.entry
         let av = entry.dict("availability")
         let exs = examplesFiltered(entry, platform: common.platform, shape: nil, repo: nil)
         // recommended = top-scored; diverse = next distinct shapes
@@ -182,6 +213,8 @@ struct Lookup: ParsableCommand {
             let cons = consensus(entry)
             if !cons.isEmpty {
                 s += "\nconsensus: " + cons.map { "\($0["shape"] as? String ?? "") \($0["pct"] as? Int ?? 0)%" }.joined(separator: " · ")
+            } else if dim == "propertyWrappers" || dim == "macros" {
+                s += "\nconsensus: — (used as a bare attribute; no argument forms)"
             }
             if let r = recommended {
                 s += "\n\n▶ recommended (\(r["repo"] as? String ?? ""), \(r["stars"] as? Int ?? 0)★):\n  \(r["src"] as? String ?? "")\n  \(r["permalink"] as? String ?? "")"
@@ -420,30 +453,11 @@ struct Search: ParsableCommand {
     @Argument(help: "A keyword or intent fragment.") var query: String
     func run() {
         let cat = loadCatalog(common)
-        let q = query.lowercased()
-        // 1) intent/alias hits (curated keyword → APIs/recipes) — highest confidence.
-        // Match on substring OR shared significant word (so "drag drop" hits "drag and drop").
-        let qWords = Set(q.split(whereSeparator: { !$0.isLetter }).map(String.init).filter { $0.count >= 4 })
-        var aliasApis: [String] = [], aliasRecs: [String] = []
-        for (kw, v) in cat.aliases() {
-            let kwWords = Set(kw.split(whereSeparator: { !$0.isLetter }).map(String.init).filter { $0.count >= 4 })
-            let hit = q.contains(kw) || kw.contains(q) || !qWords.isDisjoint(with: kwWords)
-            guard hit, let d = v as? [String: Any] else { continue }
-            aliasApis += (d["apis"] as? [String]) ?? []
-            aliasRecs += (d["recipes"] as? [String]) ?? []
-        }
-        // 2) substring symbol matches
-        let subs = cat.allSymbols().filter { $0.0.lowercased().contains(q) }
-            .sorted { $0.0.count < $1.0.count }.map { $0.0 }
-        // 3) recipe name/description matches
-        let recHits = cat.recipes().filter {
-            ($0.s("name")?.lowercased().contains(q) ?? false) || ($0.s("description")?.lowercased().contains(q) ?? false)
-        }.compactMap { $0.s("name") }
-        func uniq(_ xs: [String]) -> [String] { var seen = Set<String>(); return xs.filter { seen.insert($0).inserted } }
-        let apis = Array(uniq(aliasApis + subs).prefix(common.limit))
-        let recs = uniq(aliasRecs + recHits)
+        let r = cat.resolve(query)
+        let apis = Array(r.apis.prefix(common.limit))
+        let recs = r.recipes
         let result: [String: Any] = ["query": query, "apis": apis, "recipes": recs,
-                                     "matched_intent": !aliasApis.isEmpty]
+                                     "matched_intent": r.matchedIntent]
         var next = apis.prefix(3).map { NextAction(cmd: "swiftui-ctx lookup \($0)", why: "production usage") }
         if let r = recs.first { next.append(NextAction(cmd: "swiftui-ctx recipe \(r)", why: "the full pattern")) }
         emit(result: result, next: next, json: common.json) {
