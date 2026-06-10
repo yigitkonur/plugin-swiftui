@@ -30,3 +30,6 @@ __pycache__/
 .DS_Store
 
 .agent-docs/
+
+# universal binary produced by `make build-universal` (shipped via GitHub release, not committed)
+/swiftui-ctx
