@@ -1,0 +1,71 @@
+{
+ "repo": "facebook/lexical-ios",
+ "stars": 657,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5ec416b17e99c461c1f11e3c9ac387445db4fbb7",
+ "platform": "other",
+ "author_authority": 50355,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mansimransingh",
+   "score": 1,
+   "contributions": 4
+  },
+  {
+   "login": "patelneal",
+   "score": 0,
+   "contributions": 3
+  },
+  {
+   "login": "drodriguez",
+   "score": 226598,
+   "contributions": 2
+  }
+ ],
+ "loc": 24376,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "CoreGraphics",
+  "EditorHistoryPlugin",
+  "Foundation",
+  "Lexical",
+  "LexicalHTML",
+  "LexicalInlineImagePlugin",
+  "LexicalLinkPlugin",
+  "LexicalListPlugin",
+  "LexicalMarkdown",
+  "Markdown",
+  "MobileCoreServices",
+  "PackageDescription",
+  "SelectableDecoratorNode",
+  "SwiftSoup",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

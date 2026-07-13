@@ -1,0 +1,62 @@
+{
+ "repo": "SuperSwiftMarkup/SuperSwiftMarkdownPrototype",
+ "stars": 88,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6e0d5f422d4dffcfcb2b47ac01894adb5793482d",
+ "platform": "macos",
+ "author_authority": 26,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "colbyn",
+   "score": 26,
+   "contributions": 64
+  }
+ ],
+ "loc": 8587,
+ "custom_components": 7,
+ "imports": [
+  "AppKit",
+  "Core",
+  "CoreGraphics",
+  "Foundation",
+  "Markdown",
+  "MediaSample",
+  "PackageDescription",
+  "SSDMUtilities",
+  "SSDocumentAction",
+  "SSDocumentEngine",
+  "SSDocumentModel",
+  "SSMarkupFormat",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "light"
+  ],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 1,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

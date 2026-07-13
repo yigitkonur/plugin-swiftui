@@ -1,0 +1,121 @@
+{
+ "repo": "orangeidle25/savr",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "104d0e552de3a2cda078c985426020eea790a4d4",
+ "platform": "macos",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "orangeidle25",
+   "score": 4,
+   "contributions": 22
+  }
+ ],
+ "loc": 462,
+ "custom_components": 19,
+ "imports": [
+  "Foundation",
+  "IOKit",
+  "KeyboardShortcuts",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "environment",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "imageScale",
+   "interpolation",
+   "keyboardShortcut",
+   "listStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "resizable",
+   "tabItem",
+   "textFieldStyle",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "List",
+   "MenuBarExtra",
+   "Section",
+   "Settings",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "regular",
+   "semibold",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "grouped",
+   "inset",
+   "leading",
+   "roundedBorder",
+   "secondary",
+   "tertiary",
+   "tint",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 20,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 64
+}

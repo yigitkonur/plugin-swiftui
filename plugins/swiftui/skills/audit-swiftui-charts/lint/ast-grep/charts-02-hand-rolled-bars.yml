@@ -1,0 +1,21 @@
+# charts-02 (structural): a Rectangle/RoundedRectangle/Capsule sized by .frame(...) INSIDE a ForEach —
+# the canonical hand-rolled bar chart (one bar per data row, height/width driven by the value). grep can
+# locate the shape and the ForEach separately but CANNOT express the containment that makes it a chart.
+# READ the file to confirm the frame dimension is bound to data (not a fixed spacer) — the engine only
+# LOCATES. The fix is Chart { BarMark(x:.value, y:.value) }. If the bars are Canvas-drawn, route to
+# drawing-canvas instead (cross_ref).
+id: charts-02-hand-rolled-bars
+language: Swift
+severity: warning
+message: >-
+  charts-02: a Rectangle/Capsule sized by .frame() inside a ForEach is a hand-rolled bar chart. Prefer
+  Chart { BarMark(x: .value(...), y: .value(...)) } for free axes, legend, and accessibility. READ the
+  file to confirm the dimension is data-driven; if Canvas-drawn, cross_ref drawing-canvas.
+rule:
+  any:
+    - pattern: Rectangle().frame($$$F)
+    - pattern: RoundedRectangle($$$R).frame($$$F)
+    - pattern: Capsule().frame($$$F)
+  inside:
+    pattern: ForEach($$$ARGS) { $$$BODY }
+    stopBy: end

@@ -1,0 +1,115 @@
+{
+ "repo": "Kadxy/FlowX",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "aa638545bfd784dd50775db58597d996ab992120",
+ "platform": "macos",
+ "author_authority": 35797,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Kadxy",
+   "score": 35797,
+   "contributions": 2
+  }
+ ],
+ "loc": 2235,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "QuartzCore",
+  "ScriptingBridge",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "clipShape",
+   "controlSize",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelsHidden",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "strokeBorder",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "medium",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "hidden",
+   "horizontal",
+   "leading",
+   "primary",
+   "secondary",
+   "switch",
+   "tertiary",
+   "thinMaterial",
+   "top",
+   "trailing",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 16,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 60
+}

@@ -1,0 +1,88 @@
+{
+ "repo": "objcio/S01E462-visual-node-editor-4",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "eba1ee25931ae8d621c5fb9c925c1efe155e5cc7",
+ "platform": "other",
+ "author_authority": 1578,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "floriankugler",
+   "score": 1578,
+   "contributions": 1
+  }
+ ],
+ "loc": 395,
+ "custom_components": 16,
+ "imports": [
+  "Foundation",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "contentShape",
+   "fill",
+   "frame",
+   "gesture",
+   "modifier",
+   "offset",
+   "onChanged",
+   "onEnded",
+   "onKeyPress",
+   "onModifierKeysChanged",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "position",
+   "stroke"
+  ],
+  "types": [
+   "DragGesture",
+   "ForEach",
+   "Path",
+   "Rectangle",
+   "TextField",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "bottom",
+   "bottomLeading",
+   "bottomTrailing",
+   "leading",
+   "primary",
+   "top",
+   "topLeading",
+   "topTrailing",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 37
+}

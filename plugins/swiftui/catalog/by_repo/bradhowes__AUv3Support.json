@@ -1,0 +1,69 @@
+{
+ "repo": "bradhowes/AUv3Support",
+ "stars": 25,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "33b66795c5f724c1b721e2f27295b6382810447f",
+ "platform": "macos",
+ "author_authority": 5995,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "bradhowes",
+   "score": 5995,
+   "contributions": 484
+  },
+  {
+   "login": "kant",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 7966,
+ "custom_components": 0,
+ "imports": [
+  "AUv3Support",
+  "AUv3Support_iOS",
+  "AUv3Support_macOS",
+  "AVFAudio",
+  "AVFoundation",
+  "AVKit",
+  "Accelerate",
+  "AppKit",
+  "AudioToolbox",
+  "AudioUnit",
+  "Cocoa",
+  "CoreAudioKit",
+  "DSPHeaders",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "Observable"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 1
+}

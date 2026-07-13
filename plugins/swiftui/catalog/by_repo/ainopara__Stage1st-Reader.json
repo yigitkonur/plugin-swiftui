@@ -1,0 +1,161 @@
+{
+ "repo": "ainopara/Stage1st-Reader",
+ "stars": 28,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0c276a82b7d27fd6c125e8a19d834594c3a2da86",
+ "platform": "other",
+ "author_authority": 2343,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "ainopara",
+   "score": 2343,
+   "contributions": 1857
+  },
+  {
+   "login": "Gal3riel",
+   "score": 6,
+   "contributions": 12
+  },
+  {
+   "login": "kukushi",
+   "score": 1014,
+   "contributions": 1
+  }
+ ],
+ "loc": 19745,
+ "custom_components": 33,
+ "imports": [
+  "AcknowList",
+  "ActionSheetPicker_3_0",
+  "Ainoaibo",
+  "Alamofire",
+  "CloudKit",
+  "CocoaLumberjack",
+  "CodableExtensions",
+  "Combine",
+  "CommonCrypto",
+  "CryptoKit",
+  "DeviceKit",
+  "Files",
+  "Foundation",
+  "Fuzi",
+  "HorizontalFloatingHeaderLayout",
+  "Html",
+  "JTSImageViewController",
+  "Kingfisher",
+  "KissXML",
+  "Mustache",
+  "OHHTTPStubs",
+  "OnePasswordExtension",
+  "PackageDescription",
+  "Photos",
+  "QuartzCore",
+  "QuickTableViewController",
+  "Reachability",
+  "ReactiveCocoa",
+  "ReactiveSwift",
+  "SWHttpTrafficRecorder",
+  "SafariServices",
+  "Sentry",
+  "SnapKit",
+  "Stage1st",
+  "SwiftUI",
+  "UIKit",
+  "WebKit",
+  "XCTest",
+  "YYKeyboardManager",
+  "YapDatabase",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "inset",
+   "lineSpacing",
+   "navigationTitle",
+   "offset",
+   "onTapGesture",
+   "padding",
+   "previewDisplayName",
+   "previewLayout",
+   "tag"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "EdgeInsets",
+   "EmptyView",
+   "Font",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "NavigationView",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "bottom",
+   "center",
+   "clear",
+   "default",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "ObservedObject"
+  ],
+  "environmentKeys": [
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 22,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

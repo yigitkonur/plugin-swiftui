@@ -1,0 +1,116 @@
+{
+ "repo": "jysuhr/Swift-Charts3D",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "02123f9f51b88fe7ab30798d8e078e6540e4bbe3",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jysuhr",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 373,
+ "custom_components": 10,
+ "imports": [
+  "Charts",
+  "CreateML",
+  "Spatial",
+  "SwiftUI",
+  "TabularData"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "chart3DCameraProjection",
+   "chart3DPose",
+   "chartXAxisLabel",
+   "chartXScale",
+   "chartYAxisLabel",
+   "chartYScale",
+   "chartZAxisLabel",
+   "chartZScale",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "stroke",
+   "tabItem",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Chart3D",
+   "Chart3DPose",
+   "Circle",
+   "Divider",
+   "DragGesture",
+   "ForEach",
+   "HStack",
+   "Label",
+   "Picker",
+   "PointMark",
+   "SurfacePlot",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "degrees"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "heightBased",
+   "leading",
+   "normalBased",
+   "plain",
+   "primary",
+   "secondary",
+   "segmented",
+   "switch",
+   "top",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 18,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 59
+}

@@ -1,0 +1,111 @@
+{
+ "repo": "davidcaddy/DCSettings",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7d9ad3d99df0e5262059ca53f921a47055ef5da7",
+ "platform": "macos",
+ "author_authority": 15,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "davidcaddy",
+   "score": 15,
+   "contributions": 49
+  }
+ ],
+ "loc": 2469,
+ "custom_components": 26,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "DCSettings",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "controlSize",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "horizontalRadioGroupLayout",
+   "labelsHidden",
+   "listStyle",
+   "monospacedDigit",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "ColorPicker",
+   "DatePicker",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "Section",
+   "SegmentedPickerStyle",
+   "SidebarListStyle",
+   "Slider",
+   "Spacer",
+   "StateObject",
+   "Stepper",
+   "SwitchToggleStyle",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "footnote",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "gray",
+   "green",
+   "primary",
+   "red",
+   "secondary",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "isEnabled"
+  ]
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 23,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 52
+}

@@ -1,0 +1,35 @@
+# loc-02 (structural): a non-literal String passed to Text(...). The Text(_ key: LocalizedStringKey)
+# overload auto-localizes a STRING LITERAL; passing a variable resolves to Text(_ content: some
+# StringProtocol), which does NOT localize. grep cannot tell a literal from an identifier — this rule
+# anchors on `call_expression` named Text that contains a bare identifier argument and NO string literal.
+# The runner only LOCATES: the agent READS the hit and confirms it is user-facing copy (not e.g.
+# Text(count, format: .number), which is correct) before reporting (SKILL.md step 3).
+id: loc-02-nonliteral-text
+language: Swift
+severity: warning
+message: >-
+  loc-02: Text(...) is given a non-literal argument (a String variable), which uses the
+  StringProtocol overload and is NOT localized. Confirm it is user-facing copy with no format:/comment:;
+  if so, source the text from the String Catalog via LocalizedStringResource / String(localized:). READ to confirm.
+rule:
+  kind: call_expression
+  all:
+    - has:
+        kind: simple_identifier
+        regex: '^Text$'
+    - has:
+        stopBy: end
+        kind: value_argument
+        has:
+          stopBy: end
+          kind: simple_identifier
+  not:
+    has:
+      stopBy: end
+      kind: value_argument
+      has:
+        stopBy: end
+        any:
+          - kind: line_string_literal
+          - kind: raw_string_literal
+          - kind: multi_line_string_literal

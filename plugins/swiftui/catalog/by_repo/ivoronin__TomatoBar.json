@@ -1,0 +1,116 @@
+{
+ "repo": "ivoronin/TomatoBar",
+ "stars": 3352,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "90a77d664dfe33c016bf24f89b0c82e77f9aec84",
+ "platform": "macos",
+ "author_authority": 75235,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "ivoronin",
+   "score": 75235,
+   "contributions": 159
+  },
+  {
+   "login": "Jerry23011",
+   "score": 20618,
+   "contributions": 3
+  },
+  {
+   "login": "evnoj",
+   "score": 63603,
+   "contributions": 1
+  }
+ ],
+ "loc": 802,
+ "custom_components": 13,
+ "imports": [
+  "AVFoundation",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "SwiftState",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "monospacedDigit",
+   "onChange",
+   "onEnded",
+   "onHover",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "GeometryReader",
+   "GridItem",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "LazyVGrid",
+   "NSHostingView",
+   "Picker",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Stepper",
+   "TapGesture",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading",
+   "plain",
+   "segmented",
+   "switch"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

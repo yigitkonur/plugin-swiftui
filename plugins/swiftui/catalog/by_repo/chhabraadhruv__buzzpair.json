@@ -1,0 +1,125 @@
+{
+ "repo": "chhabraadhruv/buzzpair",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0e95680fda10db9baa108b03cc8451aa1160349d",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "chhabraadhruv",
+   "score": 2,
+   "contributions": 10
+  }
+ ],
+ "loc": 832,
+ "custom_components": 16,
+ "imports": [
+  "AVFoundation",
+  "Combine",
+  "CoreBluetooth",
+  "CryptoKit",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "controlSize",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "multilineTextAlignment",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "symbolEffect",
+   "tabItem",
+   "tag",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "LazyVStack",
+   "Link",
+   "MenuBarExtra",
+   "NavigationView",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "medium",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "center",
+   "default",
+   "green",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "red",
+   "secondary",
+   "segmented",
+   "top",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 24,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 67
+}

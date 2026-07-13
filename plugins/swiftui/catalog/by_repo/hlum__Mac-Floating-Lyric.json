@@ -1,0 +1,80 @@
+{
+ "repo": "hlum/Mac-Floating-Lyric",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b23420f3c0f6bab5393ddcf67a5a01e2dbeba56d",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "hlum",
+   "score": 5,
+   "contributions": 12
+  }
+ ],
+ "loc": 1187,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "AppleScriptObjC",
+  "Combine",
+  "CoreBluetooth",
+  "Foundation",
+  "LaunchAtLogin",
+  "MediaPlayer",
+  "ORSSerial",
+  "OSLog",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "environment",
+   "font",
+   "frame",
+   "ignoresSafeArea"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "gray",
+   "green",
+   "hidden",
+   "leading",
+   "orange",
+   "red"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 6,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 22
+}

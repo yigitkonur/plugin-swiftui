@@ -1,0 +1,93 @@
+{
+ "repo": "akselpekin/Cryptor",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1d4be9cff7477a2026c2da41050f7c92ba873c57",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "akselpekin",
+   "score": 0,
+   "contributions": 29
+  }
+ ],
+ "loc": 307,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "CryptoKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "stroke",
+   "textContentType",
+   "textFieldStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "RoundedRectangle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "gray",
+   "leading",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 13,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 38
+}

@@ -1,0 +1,16 @@
+# async-07 (structural): an `AsyncImage(url: …)` call in its bare URL-only shape — no `content`/`placeholder`
+# closures and no `phase` handler. grep matches `AsyncImage(` but cannot tell the url-only form (which shows
+# a blank box on failure and no skeleton) from the content+placeholder / phase forms that handle error+empty.
+# The url-only form is 90% of corpus usage (swiftui-ctx consensus) and is fine for a one-off avatar, but in a
+# list/grid it needs a cache and a failure phase. READ the file: is it in a row/cell? then flag the missing
+# error phase + missing cache; a lone decorative image may be acceptable.
+id: async-07-asyncimage-no-phase
+language: Swift
+severity: warning
+message: >-
+  async-07: `AsyncImage(url:)` in its url-only shape — the failure/empty phase is unhandled (blank box) and
+  there is no cache. In a List/ForEach/Grid row use the `phase:` or content+placeholder form and add a cache
+  (custom @Observable loader). READ to confirm it is in a reused cell, not a one-off decorative image.
+rule:
+  pattern: 'AsyncImage(url: $URL)'
+  kind: call_expression

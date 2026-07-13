@@ -1,0 +1,123 @@
+{
+ "repo": "NiklasWyld/CutMate",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1b2c351290258a940336ec0910d8cbed8a427d42",
+ "platform": "macos",
+ "author_authority": 7,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "NiklasWyld",
+   "score": 7,
+   "contributions": 20
+  }
+ ],
+ "loc": 928,
+ "custom_components": 16,
+ "imports": [
+  "AVKit",
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "HotKey",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "background",
+   "buttonStyle",
+   "commands",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "id",
+   "ignoresSafeArea",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "gray",
+   "green",
+   "leading",
+   "menu",
+   "orange",
+   "purple",
+   "red",
+   "secondary",
+   "top",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 24,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 65
+}

@@ -1,0 +1,141 @@
+{
+ "repo": "Mikynek/onePercent",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9d1e515fed515889ce52c6e92d77e7a8bbcd133c",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Mikynek",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 1080,
+ "custom_components": 42,
+ "imports": [
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "badge",
+   "bold",
+   "buttonStyle",
+   "cornerRadius",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "italic",
+   "labelStyle",
+   "listRowSeparator",
+   "listStyle",
+   "modelContainer",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaleEffect",
+   "sheet",
+   "strikethrough",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "BorderlessButtonStyle",
+   "Button",
+   "CheckboxToggleStyle",
+   "DatePicker",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NavigationLink",
+   "NavigationSplitView",
+   "Picker",
+   "RoundedBorderTextFieldStyle",
+   "Schema",
+   "Section",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "State",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottomTrailing",
+   "gray",
+   "hidden",
+   "iconOnly",
+   "leading",
+   "orange",
+   "plain",
+   "secondary",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 30,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 85
+}

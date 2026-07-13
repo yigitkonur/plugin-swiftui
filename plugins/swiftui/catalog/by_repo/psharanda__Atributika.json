@@ -1,0 +1,78 @@
+{
+ "repo": "psharanda/Atributika",
+ "stars": 1507,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2de3536009a6f9ba88344a612ed219e2eb99ca2f",
+ "platform": "macos",
+ "author_authority": 1702,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "psharanda",
+   "score": 1702,
+   "contributions": 167
+  },
+  {
+   "login": "rivera-ernesto",
+   "score": 102,
+   "contributions": 3
+  },
+  {
+   "login": "rushk2112",
+   "score": 1,
+   "contributions": 2
+  }
+ ],
+ "loc": 4603,
+ "custom_components": 5,
+ "imports": [
+  "AppKit",
+  "Atributika",
+  "AtributikaTests",
+  "AtributikaViews",
+  "Foundation",
+  "Markdown",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "frame",
+   "onPreferenceChange",
+   "padding",
+   "preference"
+  ],
+  "types": [
+   "ForEach",
+   "GeometryReader",
+   "List"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "horizontal",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 3,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 11
+}

@@ -1,0 +1,152 @@
+{
+ "repo": "DimaRU/PWMGraph",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7b9b016d8e0435f4a1b3921001a8786246c14c2f",
+ "platform": "macos",
+ "author_authority": 144,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "DimaRU",
+   "score": 144,
+   "contributions": 14
+  }
+ ],
+ "loc": 762,
+ "custom_components": 11,
+ "imports": [
+  "Charts",
+  "Foundation",
+  "Spatial",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "bold",
+   "chart3DCameraProjection",
+   "chart3DPose",
+   "chartBackground",
+   "chartOverlay",
+   "chartXAxis",
+   "chartXAxisLabel",
+   "chartXScale",
+   "chartYAxis",
+   "chartYAxisLabel",
+   "chartYScale",
+   "chartZAxis",
+   "chartZAxisLabel",
+   "chartZScale",
+   "contentShape",
+   "exclusively",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "gridColumnAlignment",
+   "ignoresSafeArea",
+   "monospaced",
+   "monospacedDigit",
+   "offset",
+   "onChanged",
+   "onEnded",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "position",
+   "strokeBorder",
+   "tag",
+   "windowStyle"
+  ],
+  "types": [
+   "AxisGridLine",
+   "AxisMarks",
+   "AxisTick",
+   "AxisValueLabel",
+   "Chart",
+   "Chart3D",
+   "Circle",
+   "DragGesture",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Grid",
+   "GridRow",
+   "LineMark",
+   "NavigationLink",
+   "NavigationSplitView",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Slider",
+   "SliderTick",
+   "SliderTickContentForEach",
+   "Spacer",
+   "SpatialTapGesture",
+   "StrokeStyle",
+   "SurfacePlot",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "background",
+   "black",
+   "blue",
+   "center",
+   "clear",
+   "default",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "linear",
+   "mint",
+   "primary",
+   "quaternary",
+   "radioGroup",
+   "red",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 38,
+  "types": 30,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 23,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 97
+}

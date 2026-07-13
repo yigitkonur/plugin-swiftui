@@ -1,0 +1,18 @@
+# interop-01 (structural): an NSViewRepresentable / NSViewControllerRepresentable type that declares a
+# make…() member but NO update…() member. grep can see the conformance and the `make` call, but it cannot
+# prove the *absence* of `updateNSView` across the whole type body — that is containment + negation, the
+# canonical tier-2 shape. READ the type to confirm there is genuinely no update half (it is required).
+id: interop-01-representable-missing-update
+language: Swift
+severity: warning
+message: >-
+  interop-01: a representable declares makeNSView/makeNSViewController but no updateNSView/updateNSViewController.
+  The make half runs ONCE; without update, later @Binding/state changes never reach the AppKit view (silent
+  staleness). Implement both halves and guard the write. READ the type to confirm.
+rule:
+  kind: class_declaration
+  all:
+    - has: { stopBy: end, regex: 'NSViewRepresentable|NSViewControllerRepresentable' }
+    - has: { stopBy: end, regex: 'func make(NSView|NSViewController)' }
+    - not:
+        has: { stopBy: end, regex: 'func update(NSView|NSViewController)' }

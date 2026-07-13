@@ -1,0 +1,108 @@
+{
+ "repo": "kdeda/idd-alert",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "da08c299ce53a1aee4b368bbe483defa76fb3e64",
+ "platform": "other",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kdeda",
+   "score": 2,
+   "contributions": 13
+  }
+ ],
+ "loc": 925,
+ "custom_components": 12,
+ "imports": [
+  "Carbon",
+  "ComposableArchitecture",
+  "Foundation",
+  "IDDSwift",
+  "Log4swift",
+  "PackageDescription",
+  "SwiftUI",
+  "SwiftUINavigation",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environment",
+   "fixedSize",
+   "focusable",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onDisappear",
+   "padding",
+   "resizable",
+   "sheet",
+   "textSelection",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "light",
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "center",
+   "horizontal",
+   "none",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 11,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 3,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 47
+}

@@ -1,0 +1,134 @@
+{
+ "repo": "MisterNeptun/ImageBar",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "807b1fb7958a71008dd39d5408fb30403c340707",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "MisterNeptun",
+   "score": 1,
+   "contributions": 36
+  }
+ ],
+ "loc": 746,
+ "custom_components": 20,
+ "imports": [
+  "AVKit",
+  "AudioToolbox",
+  "Cocoa",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "border",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "offset",
+   "onAppear",
+   "onDrag",
+   "onDrop",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "preferredColorScheme",
+   "resizable",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "symbolRenderingMode",
+   "textFieldStyle",
+   "toggleStyle",
+   "weight",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "LazyVStack",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Tab",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "light",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "black",
+   "center",
+   "gray",
+   "leading",
+   "palette",
+   "red",
+   "switch",
+   "top",
+   "topTrailing",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 25,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 78
+}

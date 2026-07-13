@@ -1,0 +1,159 @@
+{
+ "repo": "frederikhandberg0709/swift-todo-app",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a6bff756d9832830c7cd7b471920e632e5ba6f2c",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "frederikhandberg0709",
+   "score": 1,
+   "contributions": 12
+  }
+ ],
+ "loc": 1171,
+ "custom_components": 23,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "autocorrectionDisabled",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "contextMenu",
+   "cornerRadius",
+   "datePickerStyle",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "matchedGeometryEffect",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onExitCommand",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pointerStyle",
+   "popover",
+   "scaleEffect",
+   "scrollContentBackground",
+   "shadow",
+   "simultaneousGesture",
+   "stroke",
+   "swipeActions",
+   "textFieldStyle",
+   "tint",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "DatePicker",
+   "Divider",
+   "DragGesture",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "List",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "easeInOut",
+   "headline",
+   "medium",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "compact",
+   "graphical",
+   "green",
+   "hidden",
+   "horizontal",
+   "horizontalText",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "Namespace",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 42,
+  "types": 21,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 23,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 105
+}

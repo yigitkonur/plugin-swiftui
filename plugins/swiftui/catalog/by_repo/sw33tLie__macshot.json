@@ -1,0 +1,93 @@
+{
+ "repo": "sw33tLie/macshot",
+ "stars": 1921,
+ "categories": [
+  "Screenshot Tools"
+ ],
+ "sha": "6771c6c8b4a630b7898a9cdd950a48e513cc64be",
+ "platform": "macos",
+ "author_authority": 134484,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "sw33tLie",
+   "score": 134484,
+   "contributions": 9
+  },
+  {
+   "login": "bytepl",
+   "score": 8693,
+   "contributions": 5
+  },
+  {
+   "login": "fxzer",
+   "score": 13092,
+   "contributions": 2
+  }
+ ],
+ "loc": 43288,
+ "custom_components": 2,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "AppKit",
+  "AuthenticationServices",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreVideo",
+  "CryptoKit",
+  "Foundation",
+  "ImageIO",
+  "NaturalLanguage",
+  "QuickLookUI",
+  "ScreenCaptureKit",
+  "Security",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "Translation",
+  "UniformTypeIdentifiers",
+  "VideoToolbox",
+  "Vision",
+  "WebP",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fill",
+   "frame",
+   "stroke"
+  ],
+  "types": [
+   "Color",
+   "ImageRenderer",
+   "MeshGradient",
+   "NSHostingView"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 4,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 10
+}

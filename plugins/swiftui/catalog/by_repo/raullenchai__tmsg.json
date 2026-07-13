@@ -1,0 +1,149 @@
+{
+ "repo": "raullenchai/tmsg",
+ "stars": 46,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2018d3cea19306832f0f8856a8f070d908b9c99a",
+ "platform": "macos",
+ "author_authority": 1032057,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "raullenchai",
+   "score": 1032057,
+   "contributions": 5
+  }
+ ],
+ "loc": 1394,
+ "custom_components": 27,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftTerm",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contextMenu",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "id",
+   "keyboardShortcut",
+   "lineLimit",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onHover",
+   "onReceive",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "rotationEffect",
+   "sheet",
+   "stroke",
+   "textCase",
+   "textFieldStyle",
+   "tint",
+   "truncationMode",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "KeyEquivalent",
+   "Label",
+   "LazyVStack",
+   "LinearGradient",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "degrees",
+   "easeInOut",
+   "light",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "thin"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "bottomTrailing",
+   "clear",
+   "default",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "top",
+   "topLeading",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 37,
+  "types": 23,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 92
+}

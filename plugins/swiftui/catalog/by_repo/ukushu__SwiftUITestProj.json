@@ -1,0 +1,83 @@
+{
+ "repo": "ukushu/SwiftUITestProj",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "08b870b59bcbbd7b9f65504ed5bddcfa63367ea2",
+ "platform": "macos",
+ "author_authority": 318,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ukushu",
+   "score": 318,
+   "contributions": 173
+  },
+  {
+   "login": "serg-vinnie",
+   "score": 1,
+   "contributions": 7
+  }
+ ],
+ "loc": 857,
+ "custom_components": 10,
+ "imports": [
+  "AVKit",
+  "AppKit",
+  "Cocoa",
+  "Essentials",
+  "Foundation",
+  "MoreSwiftUI",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "frame",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "ScrollView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "clear",
+   "leading",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 11,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 24
+}

@@ -1,0 +1,140 @@
+{
+ "repo": "lehmacdj/multiplayer-clock",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "554ff7abf50522a8978b90e2a3f1f12297880850",
+ "platform": "other",
+ "author_authority": 35262,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "lehmacdj",
+   "score": 35262,
+   "contributions": 73
+  },
+  {
+   "login": "claude",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 2179,
+ "custom_components": 41,
+ "imports": [
+  "Combine",
+  "Foil",
+  "Foundation",
+  "Multiplayer_Clock",
+  "PlaygroundSupport",
+  "SnapshotTesting",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "accentColor",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "alert",
+   "allowsHitTesting",
+   "border",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "monospacedDigit",
+   "navigationTitle",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "rotationEffect",
+   "scaledToFit",
+   "sheet",
+   "weight",
+   "zIndex"
+  ],
+  "types": [
+   "Angle",
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "NavigationLink",
+   "NavigationView",
+   "Path",
+   "Picker",
+   "ScaledMetric",
+   "Section",
+   "State",
+   "Stepper",
+   "Text",
+   "Toggle",
+   "UnitPoint",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "radians",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "black",
+   "blue",
+   "center",
+   "green",
+   "orange",
+   "purple",
+   "red",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "ScaledMetric",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 26,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 73
+}

@@ -1,0 +1,73 @@
+{
+ "repo": "cjlee38/guarana",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "483dfbcd3a3593502ab8801958b9eeb7aef98806",
+ "platform": "macos",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cjlee38",
+   "score": 4,
+   "contributions": 10
+  }
+ ],
+ "loc": 743,
+ "custom_components": 10,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "CoreImage",
+  "Foundation",
+  "IOKit",
+  "Observation",
+  "ServiceManagement",
+  "SwiftUI",
+  "Vision",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "tag"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Group",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "Text",
+   "Toggle"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "menu"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 10,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 16
+}

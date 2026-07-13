@@ -1,0 +1,56 @@
+{
+ "repo": "MCJack123/SDL3-Swift",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "67b4eb608c7ca8346ffeec042d8140bb7beb4615",
+ "platform": "macos",
+ "author_authority": 14017,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "MCJack123",
+   "score": 14017,
+   "contributions": 10
+  }
+ ],
+ "loc": 15675,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CompilerPluginSupport",
+  "Metal",
+  "PackageDescription",
+  "QuartzCore",
+  "SDL3_Native",
+  "SDL3_Swift",
+  "SwiftCompilerPlugin",
+  "SwiftDiagnostics",
+  "SwiftSyntax",
+  "SwiftSyntaxMacros",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

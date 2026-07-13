@@ -1,0 +1,122 @@
+{
+ "repo": "jiangfengwhu/shotty",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0799454f22319bce1b91258908e58fc5382960e5",
+ "platform": "macos",
+ "author_authority": 13,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jiangfengwhu",
+   "score": 13,
+   "contributions": 1
+  }
+ ],
+ "loc": 1256,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "KeyboardShortcuts",
+  "SwiftUI",
+  "SwiftUICore",
+  "Vision",
+  "WKWebViewJavascriptBridge",
+  "WebKit",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "opacity",
+   "padding",
+   "resizable",
+   "shadow",
+   "tabItem",
+   "tag",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "ForEach",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "NSHostingView",
+   "PlainButtonStyle",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "bottom",
+   "clear",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 61
+}

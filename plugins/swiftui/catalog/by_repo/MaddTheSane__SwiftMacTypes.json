@@ -1,0 +1,75 @@
+{
+ "repo": "MaddTheSane/SwiftMacTypes",
+ "stars": 29,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f61e9c1a88ba07d6ea4ed6b22a22cae2e23325e8",
+ "platform": "macos",
+ "author_authority": 12268,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "MaddTheSane",
+   "score": 12268,
+   "contributions": 563
+  }
+ ],
+ "loc": 18783,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "AudioUnit",
+  "CTAdditionsSwiftHelpers",
+  "Carbon",
+  "Cocoa",
+  "ColorSync",
+  "ColorSyncHelpers",
+  "CoreAudio",
+  "CoreFoundation",
+  "CoreGraphics",
+  "CoreServices",
+  "CoreText",
+  "CoreTextAdditions",
+  "Darwin",
+  "Foundation",
+  "FoundationAdditions",
+  "IOKit",
+  "PackageDescription",
+  "QuartzAdditions",
+  "QuartzCore",
+  "SIMDAdditions",
+  "Swift",
+  "SwiftAdditions",
+  "SwiftAudioAdditions",
+  "SwiftIOKitAdditions",
+  "TISAdditions",
+  "UIKit",
+  "UTTypeOSTypes",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

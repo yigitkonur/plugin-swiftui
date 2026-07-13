@@ -1,0 +1,60 @@
+{
+ "repo": "pujiaxin33/StackUI",
+ "stars": 146,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5953297813666b75e5945ad8989fb5745e8f623a",
+ "platform": "other",
+ "author_authority": 14768,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "pujiaxin33",
+   "score": 14768,
+   "contributions": 41
+  },
+  {
+   "login": "EkkoG",
+   "score": 102555,
+   "contributions": 1
+  }
+ ],
+ "loc": 3859,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "RxCocoa",
+  "RxSwift",
+  "StackUI",
+  "StackUIWithRxSwift",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "default",
+   "white"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

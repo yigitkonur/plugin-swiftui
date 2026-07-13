@@ -1,0 +1,120 @@
+{
+ "repo": "winebarrel/PagerCall",
+ "stars": 10,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d076fb26a31190e5b6af4fef17b540ff960440ee",
+ "platform": "macos",
+ "author_authority": 44247,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "winebarrel",
+   "score": 44247,
+   "contributions": 270
+  }
+ ],
+ "loc": 783,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "AsyncAlgorithms",
+  "Foundation",
+  "MenuBarExtraAccess",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "Valet",
+  "VersionCompare",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "tag",
+   "underline"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Link",
+   "List",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "SecureField",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "footnote",
+   "push"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "brown",
+   "gray",
+   "horizontal",
+   "leading",
+   "menu",
+   "primary",
+   "red",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 20,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 59
+}

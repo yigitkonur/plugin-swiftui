@@ -1,0 +1,116 @@
+{
+ "repo": "joepetrakovich/utter",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9284e11af020e5567f1c78fae25d521791749181",
+ "platform": "macos",
+ "author_authority": 20647,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "joepetrakovich",
+   "score": 20647,
+   "contributions": 12
+  }
+ ],
+ "loc": 798,
+ "custom_components": 12,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "FluidAudio",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonBorderShape",
+   "buttonStyle",
+   "contentShape",
+   "environment",
+   "fill",
+   "fixedSize",
+   "focused",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "italic",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "multilineTextAlignment",
+   "onChange",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "ModelConfiguration",
+   "ModelContainer",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Schema",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "horizontal",
+   "leading",
+   "orange",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 19,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 59
+}

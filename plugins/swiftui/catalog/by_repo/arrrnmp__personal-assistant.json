@@ -1,0 +1,127 @@
+{
+ "repo": "arrrnmp/personal-assistant",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "abce3d361ed32c3a6522f6294d0513090c813a72",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "arrrnmp",
+   "score": 1,
+   "contributions": 2
+  }
+ ],
+ "loc": 1270,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "CoreGraphics",
+  "Foundation",
+  "MarkdownUI",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "contextMenu",
+   "disabled",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "help",
+   "id",
+   "keyboardShortcut",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "scaleEffect",
+   "textFieldStyle",
+   "textSelection",
+   "truncationMode",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "NSHostingView",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "headline",
+   "medium",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "clear",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "plain",
+   "quaternary",
+   "quinary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 20,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 17,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 72
+}

@@ -1,0 +1,135 @@
+{
+ "repo": "nilsramsperger/GroLi",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2cd4e7ed7ac3e9f852d0898d3ffe1da0fc504323",
+ "platform": "other",
+ "author_authority": 38,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nilsramsperger",
+   "score": 38,
+   "contributions": 60
+  }
+ ],
+ "loc": 1518,
+ "custom_components": 21,
+ "imports": [
+  "Combine",
+  "CoreData",
+  "Foundation",
+  "GroLi",
+  "SwiftUI",
+  "SwiftUICore",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "keyboardShortcut",
+   "modifier",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onChanged",
+   "onDrag",
+   "onDrop",
+   "onEnded",
+   "onHover",
+   "onReceive",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "presentationDetents",
+   "resizable",
+   "scaledToFit",
+   "sheet",
+   "textFieldStyle",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "CheckboxToggleStyle",
+   "Circle",
+   "DragGesture",
+   "DropProposal",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "gray",
+   "green",
+   "leading",
+   "plain",
+   "roundedBorder",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 22,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 73
+}

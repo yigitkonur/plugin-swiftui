@@ -1,0 +1,85 @@
+{
+ "repo": "powilliam/sidekick",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1d68941cb824a7db257184fcec8d29e2212e3a17",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "powilliam",
+   "score": 3,
+   "contributions": 7
+  }
+ ],
+ "loc": 563,
+ "custom_components": 10,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonBorderShape",
+   "buttonStyle",
+   "environmentObject",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "menuBarExtraStyle",
+   "padding",
+   "scrollIndicators"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "MenuBarExtra",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "subheadline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "center",
+   "cyan",
+   "hidden",
+   "leading",
+   "red",
+   "secondary",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 11,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 34
+}

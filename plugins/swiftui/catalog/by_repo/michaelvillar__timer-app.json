@@ -1,0 +1,59 @@
+{
+ "repo": "michaelvillar/timer-app",
+ "stars": 2702,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d94373b718f730e7aad4abd76a3de50baf49de77",
+ "platform": "macos",
+ "author_authority": 10657,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "karbassi",
+   "score": 0,
+   "contributions": 68
+  },
+  {
+   "login": "michaelvillar",
+   "score": 10657,
+   "contributions": 56
+  },
+  {
+   "login": "robinstewart",
+   "score": 8,
+   "contributions": 31
+  }
+ ],
+ "loc": 2740,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Foundation",
+  "Timer",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,143 @@
+{
+ "repo": "giarcheuli/Zippy",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "508c9d55f66c268c8f4fbd0adab4e3c27a010571",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "giarcheuli",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 2160,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "OSLog",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "ZIPFoundation",
+  "Zippy"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "commands",
+   "contextMenu",
+   "cornerRadius",
+   "defaultSize",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDrag",
+   "onDrop",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "progressViewStyle",
+   "scaleEffect",
+   "shadow",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "ProgressView",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "VSplitView",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "largeTitle",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "center",
+   "horizontal",
+   "inset",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "roundedBorder",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 22,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 83
+}

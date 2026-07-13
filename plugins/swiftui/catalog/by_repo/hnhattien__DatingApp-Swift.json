@@ -1,0 +1,54 @@
+{
+ "repo": "hnhattien/DatingApp-Swift",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0ec09265b53fbad97f4a2eb59bd17c19ad47c325",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sunwarder0105",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 5046,
+ "custom_components": 0,
+ "imports": [
+  "Alamofire",
+  "DatingApp",
+  "Foundation",
+  "Security",
+  "SwiftUI",
+  "Swinject",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "Color"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 1
+}

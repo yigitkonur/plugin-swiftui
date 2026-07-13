@@ -1,0 +1,86 @@
+{
+ "repo": "ethanhuang13/NSAttributedStringBuilder",
+ "stars": 759,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "873f3e3b27cceac11c84e269dde9c610ddb2a018",
+ "platform": "macos",
+ "author_authority": 4784,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ethanhuang13",
+   "score": 4784,
+   "contributions": 55
+  }
+ ],
+ "loc": 1693,
+ "custom_components": 7,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "NSAttributedStringBuilder",
+  "NSAttributedStringBuilderTests",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "baselineOffset",
+   "font",
+   "foregroundColor",
+   "kerning",
+   "lineSpacing",
+   "padding",
+   "shadow",
+   "strikethrough",
+   "stroke",
+   "underline"
+  ],
+  "types": [
+   "Image",
+   "Link",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "headline",
+   "largeTitle"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "clear",
+   "cyan",
+   "green",
+   "leading",
+   "none",
+   "red",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 4,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 29
+}

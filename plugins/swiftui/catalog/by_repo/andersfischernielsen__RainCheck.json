@@ -1,0 +1,129 @@
+{
+ "repo": "andersfischernielsen/RainCheck",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "44456ecb606e738482b17ae78c0d849ee1c112ae",
+ "platform": "macos",
+ "author_authority": 8710,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "andersfischernielsen",
+   "score": 8710,
+   "contributions": 24
+  }
+ ],
+ "loc": 1560,
+ "custom_components": 28,
+ "imports": [
+  "CoreLocation",
+  "Foundation",
+  "PackageDescription",
+  "RainCheckLib",
+  "Security",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "cornerRadius",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "italic",
+   "lineLimit",
+   "listStyle",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "previewDisplayName",
+   "progressViewStyle",
+   "scaleEffect",
+   "shadow",
+   "textFieldStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "Color",
+   "DefaultProgressViewStyle",
+   "Divider",
+   "ForEach",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "LazyVStack",
+   "List",
+   "MenuBarExtra",
+   "NSHostingView",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "center",
+   "footnote",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 22,
+  "valueBuilders": 13,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 73
+}

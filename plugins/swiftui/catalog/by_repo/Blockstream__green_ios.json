@@ -1,0 +1,97 @@
+{
+ "repo": "Blockstream/green_ios",
+ "stars": 161,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e68e9ebddb44d7193922d1910b87a425f2ef15ce",
+ "platform": "other",
+ "author_authority": 584,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "lvaccaro",
+   "score": 1019,
+   "contributions": 1746
+  },
+  {
+   "login": "mauroolivo",
+   "score": 162,
+   "contributions": 1104
+  },
+  {
+   "login": "domegabri",
+   "score": 934,
+   "contributions": 195
+  }
+ ],
+ "loc": 76910,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AsyncAlgorithms",
+  "AsyncBluetooth",
+  "BreezSDK",
+  "Combine",
+  "CommonCrypto",
+  "CoreBluetooth",
+  "CoreData",
+  "CoreImage",
+  "Countly",
+  "DGCharts",
+  "FirebaseCore",
+  "FirebaseMessaging",
+  "Foundation",
+  "GreenlightSDK",
+  "LinkPresentation",
+  "LiquidWalletKit",
+  "LocalAuthentication",
+  "OSLog",
+  "ObjectiveC",
+  "PromiseKit",
+  "RiveRuntime",
+  "RxBluetoothKit",
+  "RxSwift",
+  "ScreenShield",
+  "Security",
+  "Semaphore",
+  "StoreKit",
+  "SupportSDK",
+  "SwiftCBOR",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "XCTest",
+  "ZendeskCoreSDK",
+  "core",
+  "gaios",
+  "gdk",
+  "green",
+  "greenaddress",
+  "hw",
+  "lightning",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

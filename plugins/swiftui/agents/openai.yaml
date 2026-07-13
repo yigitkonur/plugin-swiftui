@@ -1,0 +1,4 @@
+interface:
+  display_name: "SwiftUI Production Intelligence"
+  short_description: "Production SwiftUI patterns and audits for macOS"
+  default_prompt: "Use $swiftui to ground this SwiftUI task in real production examples."

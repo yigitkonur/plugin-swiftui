@@ -1,0 +1,23 @@
+# over-01 (structural): a `makeNSView(context:)` function whose body CONSTRUCTS a 1:1-native AppKit
+# control (NSButton/NSSwitch/NSSlider/…). The grep tell only proves the class name appears somewhere in
+# the file; this rule proves it is actually the thing the representable builds — i.e. the bridge wraps a
+# control that has a native SwiftUI equal (over-01 overuse), not that the name is mentioned in a comment
+# or a justified custom subclass. Anchored on the function_declaration kind. READ the file to apply the
+# WHETHER test (a custom first-responder NSTextField subclass is a justified hatch, not over-01).
+id: over-01-makensview-builds-native-control
+language: Swift
+severity: warning
+message: >-
+  over-01: makeNSView constructs a 1:1-native AppKit control (NSButton/NSSwitch/NSSlider/NSStepper/
+  NSColorWell/NSDatePicker/NSProgressIndicator/NSComboBox/NSPopUpButton/NSSegmentedControl). A native
+  SwiftUI control (Button/Toggle/Slider/Stepper/ColorPicker/DatePicker/ProgressView/Picker) likely fits.
+  flag-only. READ and apply the WHETHER test before reporting (a custom focus hatch is justified).
+rule:
+  kind: function_declaration
+  all:
+    - has:
+        field: name
+        regex: '^makeNSView$'
+    - has:
+        stopBy: end
+        regex: 'NS(Button|Switch|Slider|Stepper|ColorWell|DatePicker|ProgressIndicator|ComboBox|PopUpButton|SegmentedControl)\('

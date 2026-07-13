@@ -1,0 +1,62 @@
+{
+ "repo": "macosui/macos_window_utils.dart",
+ "stars": 74,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c1b84297bdfaa2321c1e7b79596be489378793bf",
+ "platform": "macos",
+ "author_authority": 7970,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Adrian-Samoticha",
+   "score": 8107,
+   "contributions": 292
+  },
+  {
+   "login": "EchoEllet",
+   "score": 42549,
+   "contributions": 3
+  },
+  {
+   "login": "cbenhagen",
+   "score": 24153,
+   "contributions": 2
+  }
+ ],
+ "loc": 2500,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Flutter",
+  "FlutterMacOS",
+  "Foundation",
+  "PackageDescription",
+  "UIKit",
+  "appkit_ui_element_colors",
+  "macos_window_utils"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

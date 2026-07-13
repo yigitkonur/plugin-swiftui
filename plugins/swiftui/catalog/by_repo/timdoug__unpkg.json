@@ -1,0 +1,101 @@
+{
+ "repo": "timdoug/unpkg",
+ "stars": 147,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3c97200eeb4c8ff2f3cb326ed2d789d359551c32",
+ "platform": "macos",
+ "author_authority": 9596,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "timdoug",
+   "score": 9596,
+   "contributions": 11
+  }
+ ],
+ "loc": 705,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "commands",
+   "font",
+   "foregroundColor",
+   "frame",
+   "handlesExternalEvents",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "onDrop",
+   "onReceive",
+   "opacity",
+   "padding",
+   "progressViewStyle",
+   "resizable"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "HStack",
+   "Image",
+   "ProgressView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading",
+   "linear",
+   "plain",
+   "red",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 11,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 45
+}

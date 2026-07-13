@@ -1,0 +1,110 @@
+{
+ "repo": "pisrcio/easymacpomo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "55539ac0907cfbe4a59fbc8989a8ba06fce8bb1c",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zxhmike",
+   "score": 3,
+   "contributions": 27
+  }
+ ],
+ "loc": 899,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "fill",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "strikethrough",
+   "stroke",
+   "textFieldStyle",
+   "tint"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingView",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "headline",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "center",
+   "green",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "white",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 11,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

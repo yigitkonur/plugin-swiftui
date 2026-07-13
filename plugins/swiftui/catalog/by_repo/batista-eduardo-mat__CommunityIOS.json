@@ -1,0 +1,122 @@
+{
+ "repo": "batista-eduardo-mat/CommunityIOS",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6439a38be8de7aefa22cc4da446a08ecb9d98da7",
+ "platform": "other",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "batista-eduardo-mat",
+   "score": 1,
+   "contributions": 24
+  }
+ ],
+ "loc": 1351,
+ "custom_components": 18,
+ "imports": [
+  "CommunityIOS",
+  "CoreText",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "accentColor",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "animation",
+   "background",
+   "buttonStyle",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelStyle",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "scaleEffect",
+   "stroke",
+   "strokeBorder",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "BorderedButtonStyle",
+   "BorderedProminentButtonStyle",
+   "Button",
+   "ButtonToggleStyle",
+   "CheckboxToggleStyle",
+   "Color",
+   "DefaultButtonStyle",
+   "DefaultPickerStyle",
+   "DefaultProgressViewStyle",
+   "IconOnlyLabelStyle",
+   "InlinePickerStyle",
+   "Label",
+   "LinearProgressViewStyle",
+   "MenuPickerStyle",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "RadioGroupPickerStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "SegmentedPickerStyle",
+   "SwitchToggleStyle",
+   "Text",
+   "TitleAndIconLabelStyle",
+   "TitleOnlyLabelStyle",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "easeOut",
+   "medium"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "clear",
+   "cyan",
+   "gray",
+   "green",
+   "horizontal",
+   "orange",
+   "primary",
+   "red",
+   "secondary",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 27,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 64
+}

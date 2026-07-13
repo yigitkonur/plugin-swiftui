@@ -1,0 +1,25 @@
+# lt-01 (structural): a WindowGroup { ... } / DocumentGroup whose content closure carries NO min/ideal
+# frame anchor (minWidth/idealWidth/minHeight/idealHeight). On a free-resizing Mac window an unconstrained
+# root content view opens too small/large and collapses on drag. grep CANNOT prove the ABSENCE of the
+# .frame across the whole closure — it only sees the WindowGroup line; this anchors on the call_expression
+# node and asserts the closure body lacks the frame constraint. READ to confirm the root content (not a
+# nested subview) is the unconstrained one. scenes-windows owns the scene layer (companion note);
+# layout-and-tables owns this content-frame layer.
+id: lt-01-scene-content-no-frame
+language: Swift
+severity: warning
+message: >-
+  lt-01: a WindowGroup/DocumentGroup content closure has no min/ideal .frame anchor (minWidth/idealWidth/
+  minHeight/idealHeight). Declare .frame(minWidth:idealWidth:maxWidth:minHeight:idealHeight:maxHeight:) on
+  the ROOT content view so a resizable Mac window can't collapse. READ to confirm it's the root content.
+rule:
+  kind: call_expression
+  all:
+    - any:
+        - pattern: WindowGroup { $$$BODY }
+        - pattern: WindowGroup($$$ARGS) { $$$BODY }
+        - pattern: DocumentGroup($$$ARGS) { $$$BODY }
+    - not:
+        has:
+          stopBy: end
+          regex: 'minWidth|idealWidth|minHeight|idealHeight'

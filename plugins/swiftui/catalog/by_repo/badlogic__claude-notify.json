@@ -1,0 +1,105 @@
+{
+ "repo": "badlogic/claude-notify",
+ "stars": 12,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fb83f8ad0a2f06bcd53e75ca0d84924e9c5dcf76",
+ "platform": "macos",
+ "author_authority": 504316,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "badlogic",
+   "score": 504316,
+   "contributions": 47
+  }
+ ],
+ "loc": 908,
+ "custom_components": 8,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "blur",
+   "buttonStyle",
+   "cornerRadius",
+   "fill",
+   "fixedSize",
+   "focusEffectDisabled",
+   "focusable",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "modifier",
+   "multilineTextAlignment",
+   "onExitCommand",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "shadow"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 13,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

@@ -1,0 +1,150 @@
+{
+ "repo": "KoukeNeko/RufusX",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "73e1a18abdf19bcd1eb6d797efad3e6aac6cf4dd",
+ "platform": "macos",
+ "author_authority": 140961,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KoukeNeko",
+   "score": 140961,
+   "contributions": 70
+  }
+ ],
+ "loc": 5319,
+ "custom_components": 28,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CryptoKit",
+  "DiskArbitration",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "defaultPosition",
+   "disabled",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "id",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "listStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "shadow",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "DisclosureGroup",
+   "Divider",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Link",
+   "List",
+   "Picker",
+   "ProgressView",
+   "ScrollViewReader",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "largeTitle",
+   "medium",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "linear",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 22,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 91
+}

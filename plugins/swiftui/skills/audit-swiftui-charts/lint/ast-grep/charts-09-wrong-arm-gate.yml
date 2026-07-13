@@ -1,0 +1,21 @@
+# charts-09 (structural): an `#available(iOS …, *)` gate whose body CONTAINS a Charts symbol, inside a
+# macOS target. The iOS arm never runs on the Mac → the chart is unreachable / the floor is wrong. grep
+# can find `#available(iOS` and `BarMark` separately but CANNOT prove the mark is scoped by that gate.
+# This is gate-scope containment — the canonical tier-2 rule. Fix: gate on #available(macOS N, *) with the
+# real floor (Charts macOS 13; SectorMark/selection/scroll macOS 14; LinePlot/AreaPlot macOS 15).
+id: charts-09-wrong-arm-gate
+language: Swift
+severity: hard
+message: >-
+  charts-09: an #available(iOS …) gate scopes a Charts symbol in a macOS target (wrong arm). Gate on
+  #available(macOS N, *) with the floor from floors-master (fix_mode: auto).
+rule:
+  pattern: if #available(iOS $V, *) { $$$BODY }
+  has:
+    any:
+      - pattern: Chart($$$C)
+      - pattern: BarMark($$$B)
+      - pattern: LineMark($$$L)
+      - pattern: SectorMark($$$S)
+      - pattern: PointMark($$$P)
+    stopBy: end

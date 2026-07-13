@@ -1,0 +1,43 @@
+{
+ "repo": "gybin02/ArcheryGame-SpriteKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "83411140452ce0b0cd1dab18af82c84e8e90ff7c",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 1184,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "CoreGraphics",
+  "Foundation",
+  "SVGKit",
+  "SpriteKit",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

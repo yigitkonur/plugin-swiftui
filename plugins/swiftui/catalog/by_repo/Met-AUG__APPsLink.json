@@ -1,0 +1,124 @@
+{
+ "repo": "Met-AUG/APPsLink",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "951dff9152a3ead66f04866b5098663c8c2fa1e2",
+ "platform": "macos",
+ "author_authority": 143,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Met-AUG",
+   "score": 143,
+   "contributions": 3
+  }
+ ],
+ "loc": 710,
+ "custom_components": 6,
+ "imports": [
+  "APPsLink",
+  "AppKit",
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "commands",
+   "disabled",
+   "fileImporter",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "offset",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "truncationMode",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Alert",
+   "AnyView",
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "UnifiedWindowToolbarStyle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "orange",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 24,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 66
+}

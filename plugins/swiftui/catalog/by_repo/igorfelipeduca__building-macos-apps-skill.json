@@ -1,0 +1,120 @@
+{
+ "repo": "igorfelipeduca/building-macos-apps-skill",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2a3ad2ce743c5e1a28f1b54469ff11c2a92d151a",
+ "platform": "other",
+ "author_authority": 212,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "igorfelipeduca",
+   "score": 212,
+   "contributions": 4
+  }
+ ],
+ "loc": 464,
+ "custom_components": 17,
+ "imports": [
+  "Foundation",
+  "FoundationModels",
+  "Observation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "buttonStyle",
+   "clipShape",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "interpolation",
+   "keyboardShortcut",
+   "lineSpacing",
+   "mask",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "opacity",
+   "overlay",
+   "padding",
+   "pointerStyle",
+   "resizable",
+   "strokeBorder",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "UnitPoint",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "headline",
+   "largeTitle",
+   "linear",
+   "medium",
+   "semibold",
+   "snappy",
+   "system",
+   "title",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "borderedProminent",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "fill",
+   "horizontal",
+   "leading",
+   "link",
+   "none",
+   "orange",
+   "pink",
+   "plain",
+   "purple",
+   "secondary",
+   "top",
+   "topLeading",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 13,
+  "valueBuilders": 10,
+  "macros": 0,
+  "styleValues": 19,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 68
+}

@@ -1,0 +1,148 @@
+{
+ "repo": "swiftyfinch/xtree",
+ "stars": 42,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8e081a533bb45ef10a4c76060627ba336cd250f5",
+ "platform": "macos",
+ "author_authority": 857,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "swiftyfinch",
+   "score": 857,
+   "contributions": 84
+  },
+  {
+   "login": "ivanglushko",
+   "score": 13,
+   "contributions": 1
+  },
+  {
+   "login": "VaslD",
+   "score": 1581,
+   "contributions": 1
+  }
+ ],
+ "loc": 3198,
+ "custom_components": 16,
+ "imports": [
+  "AppKit",
+  "ArgumentParser",
+  "ArgumentParserToolInfo",
+  "CryptoKit",
+  "Darwin",
+  "Fish",
+  "Foundation",
+  "PackageDescription",
+  "Rainbow",
+  "SwiftUI",
+  "XTreeKit",
+  "XcodeProj",
+  "Yams",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "disableAutocorrection",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "disableAutocorrection",
+   "disabled",
+   "dropDestination",
+   "environmentObject",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "imageScale",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "offset",
+   "onChange",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "rotationEffect",
+   "stroke",
+   "strokeBorder",
+   "textFieldStyle",
+   "toolbar",
+   "transition",
+   "windowStyle",
+   "windowToolbarStyle",
+   "zIndex"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "Picker",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "ProgressView",
+   "RoundedRectangle",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "regular",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "center",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 18,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 73
+}

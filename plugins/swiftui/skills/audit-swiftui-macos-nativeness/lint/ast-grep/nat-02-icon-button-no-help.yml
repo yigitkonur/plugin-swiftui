@@ -1,0 +1,25 @@
+# nat-02 (structural): an icon-ONLY Button (its label closure contains an Image(systemName:) and no
+# text) whose enclosing expression is NOT wrapped in a .help(...) modifier. A Mac user can't tell what
+# an unlabeled icon button does without a tooltip. grep can locate Image(systemName:) but CANNOT express
+# the co-occurrence-ABSENCE of a .help in the surrounding chain — that is this tier-2 rule. READ to
+# confirm the button is truly icon-only (no adjacent Text), then ROUTE to audit-swiftui-controls-forms
+# (cross_ref audit-swiftui-accessibility for the VoiceOver label). This skill never applies the fix.
+id: nat-02-icon-button-no-help
+language: Swift
+severity: warning
+message: >-
+  nat-02: an icon-only Button (Image(systemName:) label) is not wrapped in .help(...) — no Mac tooltip.
+  READ to confirm it is icon-only, then route audit-swiftui-controls-forms (cross_ref accessibility).
+rule:
+  all:
+    - any:
+        - pattern: "Button($$$ARGS) { $$$BODY }"
+        - pattern: "Button($$$ARGS2) { $$$ACTION } label: { $$$LABEL }"
+        - pattern: "Button { $$$ACTION2 } label: { $$$LABEL2 }"
+    - has:
+        pattern: "Image(systemName: $SYM)"
+        stopBy: end
+  not:
+    inside:
+      pattern: $RECV.help($$$HELP)
+      stopBy: end

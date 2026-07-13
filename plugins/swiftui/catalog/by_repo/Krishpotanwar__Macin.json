@@ -1,0 +1,141 @@
+{
+ "repo": "Krishpotanwar/Macin",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "76208f3ebe1ce66a9c943993ee460fb46f0680aa",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Krishpotanwar",
+   "score": 3,
+   "contributions": 2
+  }
+ ],
+ "loc": 1720,
+ "custom_components": 27,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Network",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "defaultSize",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "lineLimit",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "scale",
+   "shadow",
+   "sheet",
+   "stroke",
+   "textFieldStyle",
+   "transition",
+   "weight",
+   "windowResizability",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "largeTitle",
+   "medium",
+   "semibold",
+   "spring",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "blue",
+   "borderedProminent",
+   "clear",
+   "cyan",
+   "gray",
+   "green",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "mint",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "sidebar",
+   "teal",
+   "tertiary",
+   "unifiedCompact",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 20,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 21,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 85
+}

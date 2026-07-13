@@ -1,0 +1,52 @@
+{
+ "repo": "rayman-zhao/swift-windowsappsdk",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2346e09cf7a6f5fb6bbb0a616c0cf73b6a77c3bf",
+ "platform": "other",
+ "author_authority": 1232,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rayman-zhao",
+   "score": 1232,
+   "contributions": 24
+  }
+ ],
+ "loc": 62762,
+ "custom_components": 0,
+ "imports": [
+  "CWinAppSDK",
+  "CWinRT",
+  "Foundation",
+  "PackageDescription",
+  "UWP",
+  "WinAppSDK",
+  "WinSDK",
+  "WindowsFoundation",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

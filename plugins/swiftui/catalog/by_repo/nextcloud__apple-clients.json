@@ -1,0 +1,160 @@
+{
+ "repo": "nextcloud/apple-clients",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3e0e27646cd6a4d707d3c02ece0d7b7169287d6f",
+ "platform": "macos",
+ "author_authority": 22521,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "claucambra",
+   "score": 22921,
+   "contributions": 169
+  },
+  {
+   "login": "i2h3",
+   "score": 7445,
+   "contributions": 3
+  }
+ ],
+ "loc": 2332,
+ "custom_components": 32,
+ "imports": [
+  "FileProvider",
+  "Foundation",
+  "NextSync",
+  "NextSyncKit",
+  "NextcloudFileProviderKit",
+  "NextcloudKit",
+  "OSLog",
+  "SDWebImageSVGCoder",
+  "SDWebImageSwiftUI",
+  "SwiftData",
+  "SwiftUI",
+  "SwiftyJSON",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "autocorrectionDisabled",
+   "background",
+   "blur",
+   "bold",
+   "clipShape",
+   "colorInvert",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelsHidden",
+   "listStyle",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "multilineTextAlignment",
+   "navigationDestination",
+   "navigationSplitViewColumnWidth",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onOpenURL",
+   "onReceive",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "progressViewStyle",
+   "resizable",
+   "stroke",
+   "tabItem",
+   "tag",
+   "task",
+   "textContentType",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "FetchDescriptor",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "ModelContainer",
+   "ModelContext",
+   "NavigationLink",
+   "NavigationSplitView",
+   "NavigationStack",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "TabView",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "center",
+   "circular",
+   "leading",
+   "plain",
+   "regularMaterial",
+   "roundedBorder",
+   "secondary",
+   "separator",
+   "trailing",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "Observable",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "modelContext",
+   "openSettings",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 38,
+  "types": 27,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 7,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 89
+}

@@ -1,0 +1,140 @@
+{
+ "repo": "manueldidonna/comic2books",
+ "stars": 81,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1f1413e3bf33fc81c3a6fb0ab5c0d9b832fde88a",
+ "platform": "macos",
+ "author_authority": 377,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "manueldidonna",
+   "score": 377,
+   "contributions": 14
+  }
+ ],
+ "loc": 1119,
+ "custom_components": 33,
+ "imports": [
+  "Algorithms",
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "controlSize",
+   "environment",
+   "fileImporter",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "inspector",
+   "inspectorColumnWidth",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "opacity",
+   "overlay",
+   "padding",
+   "presentationSizing",
+   "safeAreaBar",
+   "safeAreaInset",
+   "scenePadding",
+   "tableStyle",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "toggleStyle",
+   "toolbar",
+   "width",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "ContentUnavailableView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "NavigationStack",
+   "Picker",
+   "ProgressView",
+   "ScrollView",
+   "Section",
+   "Stepper",
+   "Table",
+   "TableColumn",
+   "TableRow",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "ToolbarSpacer",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "semibold"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "cancellationAction",
+   "center",
+   "checkbox",
+   "glassProminent",
+   "green",
+   "grouped",
+   "inset",
+   "leading",
+   "plain",
+   "primaryAction",
+   "red",
+   "regularMaterial",
+   "titleBar",
+   "unified",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openURL",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 23,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 85
+}

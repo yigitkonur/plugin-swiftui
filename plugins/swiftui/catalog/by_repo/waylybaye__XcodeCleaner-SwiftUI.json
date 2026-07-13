@@ -1,0 +1,142 @@
+{
+ "repo": "waylybaye/XcodeCleaner-SwiftUI",
+ "stars": 1421,
+ "categories": [
+  "Cleanup and Uninstall"
+ ],
+ "sha": "4e9455484a8625f442593dce67da40692f76d3a0",
+ "platform": "other",
+ "author_authority": 1599,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "waylybaye",
+   "score": 0,
+   "contributions": 84
+  },
+  {
+   "login": "Kyle-Ye",
+   "score": 137575,
+   "contributions": 1
+  },
+  {
+   "login": "heart",
+   "score": 412,
+   "contributions": 1
+  }
+ ],
+ "loc": 1234,
+ "custom_components": 29,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "Alert",
+  "DefaultNavigationViewStyle",
+  "NavigationView",
+  "foregroundColor",
+  "navigationViewStyle"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "bold",
+   "contentShape",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "modifier",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "navigationViewStyle",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "toolbar"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Color",
+   "DefaultNavigationViewStyle",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "List",
+   "LocalizedStringKey",
+   "NSHostingView",
+   "NavigationView",
+   "Path",
+   "Rectangle",
+   "Section",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "easeIn",
+   "easeInOut",
+   "footnote",
+   "largeTitle",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "center",
+   "circular",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "pink",
+   "primary",
+   "secondary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "ObservedObject"
+  ],
+  "environmentKeys": [
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 23,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 73
+}

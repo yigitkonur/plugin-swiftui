@@ -1,0 +1,92 @@
+{
+ "repo": "bealex/SFSymbolBuilder",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "aefa5a7a3c53785b7392c533e78ebd697d2aec1b",
+ "platform": "macos",
+ "author_authority": 140,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bealex",
+   "score": 140,
+   "contributions": 17
+  }
+ ],
+ "loc": 1386,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "FoundationXML",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "border",
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "fileImporter",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "handlesExternalEvents",
+   "padding",
+   "resizable",
+   "tint"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "default",
+   "secondary",
+   "tertiary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 14,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 38
+}

@@ -1,0 +1,53 @@
+{
+ "repo": "ktraunmueller/winrt-monorepo",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "47b347f65fcf2c56bdd4bad16a76244b769b64bb",
+ "platform": "other",
+ "author_authority": 144,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ktraunmueller",
+   "score": 144,
+   "contributions": 122
+  }
+ ],
+ "loc": 269182,
+ "custom_components": 0,
+ "imports": [
+  "CWinAppSDK",
+  "CWinRT",
+  "Dispatch",
+  "Foundation",
+  "UWP",
+  "WinAppSDK",
+  "WinSDK",
+  "WinUI",
+  "WindowsFoundation",
+  "ucrt"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

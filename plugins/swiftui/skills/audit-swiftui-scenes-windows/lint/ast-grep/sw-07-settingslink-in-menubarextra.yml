@@ -1,0 +1,24 @@
+# sw-07 (structural): a SettingsLink placed DIRECTLY inside a MenuBarExtra { ... } closure. On macOS 26
+# this ALSO fails to surface the Settings window (same activation gap as sw-06) — the manual openSettings()
+# path with the activation-policy workaround is required instead. Outside a MenuBarExtra, SettingsLink is
+# the correct no-action way to open Settings; the failure is specific to the menu-bar closure, so grep on
+# the bare name would over-fire — containment is the whole point, and grep CANNOT express it. kind-anchored
+# on call_expression so ast-grep's validator accepts the `inside`. READ the file to confirm it is the
+# direct child of the MenuBarExtra content. SettingsLink is macOS 14.0+ (per floors-master). fix_mode: flag-only.
+id: sw-07-settingslink-in-menubarextra
+language: Swift
+severity: warning
+message: >-
+  sw-07: a SettingsLink is inside a MenuBarExtra closure — it fails to surface Settings on macOS 26.
+  Route through a Button that runs the manual openSettings() activation-policy workaround (see sw-06).
+  READ the file to confirm. fix_mode: flag-only.
+rule:
+  kind: simple_identifier
+  regex: '^SettingsLink$'
+  inside:
+    kind: call_expression
+    stopBy: end
+    has:
+      kind: simple_identifier
+      regex: '^MenuBarExtra$'
+      stopBy: end

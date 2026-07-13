@@ -1,0 +1,104 @@
+{
+ "repo": "castaneai/Meruru",
+ "stars": 45,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7bd9dbfdbb34470443c15388686e32194976174e",
+ "platform": "macos",
+ "author_authority": 1983,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "castaneai",
+   "score": 1983,
+   "contributions": 26
+  },
+  {
+   "login": "konikoni428",
+   "score": 15,
+   "contributions": 6
+  },
+  {
+   "login": "i4M1k0SU",
+   "score": 29,
+   "contributions": 4
+  }
+ ],
+ "loc": 406,
+ "custom_components": 7,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "VLCKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "navigationTitle",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "task"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuPickerStyle",
+   "Picker",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "horizontal",
+   "leading",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 16,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 39
+}

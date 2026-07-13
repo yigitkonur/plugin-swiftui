@@ -1,0 +1,19 @@
+# nat-11 (structural): a NavigationStack/NavigationView used DIRECTLY as the top-level shell — nested
+# inside the App's WindowGroup scene body. That is the iPhone push-stack idiom; a Mac wants a persistent
+# NavigationSplitView sidebar. grep CANNOT express "inside WindowGroup" (containment) — this proves the
+# stack is the SHELL, not a drill-down inside a column (which is legitimate). READ to confirm, then
+# ROUTE to audit-swiftui-navigation-toolbars (this skill never applies the fix).
+id: nat-11-push-stack-as-shell
+language: Swift
+severity: warning
+message: >-
+  nat-11: a NavigationStack/NavigationView is nested directly in WindowGroup — used as the top-level Mac
+  shell (push-stack idiom). A Mac app wants a persistent NavigationSplitView sidebar. READ the scene to
+  confirm it is the shell (not a drill-down inside a column), then route audit-swiftui-navigation-toolbars.
+rule:
+  inside:
+    pattern: WindowGroup { $$$BODY }
+    stopBy: end
+  any:
+    - pattern: NavigationStack { $$$A }
+    - pattern: NavigationView { $$$B }

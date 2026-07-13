@@ -1,0 +1,144 @@
+{
+ "repo": "dqhieu/EyesBuddy",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8f529f5f8be37eff4ba9ce375c20ea99e1104b1a",
+ "platform": "macos",
+ "author_authority": 72120,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dqhieu",
+   "score": 72120,
+   "contributions": 56
+  }
+ ],
+ "loc": 966,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "LaunchAtLogin",
+  "SettingsAccess",
+  "Sparkle",
+  "SwiftUI",
+  "TelemetryClient"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "commands",
+   "contentTransition",
+   "disabled",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "imageScale",
+   "italic",
+   "lineLimit",
+   "matchedGeometryEffect",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFit",
+   "scrollDisabled",
+   "symbolEffect",
+   "tabItem",
+   "tag",
+   "toggleStyle",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "PlainButtonStyle",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "largeTitle",
+   "light",
+   "regular",
+   "semibold",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "center",
+   "fill",
+   "grouped",
+   "hiddenTitleBar",
+   "horizontal",
+   "linear",
+   "menu",
+   "primary",
+   "secondary",
+   "switch",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Namespace",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 20,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 84
+}

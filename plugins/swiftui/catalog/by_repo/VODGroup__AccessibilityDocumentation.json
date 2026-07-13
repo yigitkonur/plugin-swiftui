@@ -1,0 +1,70 @@
+{
+ "repo": "VODGroup/AccessibilityDocumentation",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "31de92dc73de9e9c2e87ebe884bd890f3848f097",
+ "platform": "other",
+ "author_authority": 46,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "crescentheaded",
+   "score": 1,
+   "contributions": 269
+  },
+  {
+   "login": "akaDuality",
+   "score": 207,
+   "contributions": 79
+  }
+ ],
+ "loc": 500,
+ "custom_components": 5,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityAddTraits",
+   "accessibilityDirectTouch",
+   "accessibilityRepresentation",
+   "background",
+   "fill",
+   "frame",
+   "onTapGesture"
+  ],
+  "types": [
+   "Button",
+   "Rectangle",
+   "Slider",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 5,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 14
+}

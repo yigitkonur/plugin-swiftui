@@ -1,0 +1,128 @@
+{
+ "repo": "AlonX2/LightsOut",
+ "stars": 112,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3d29040ac19c1dd01194e2080bdeff980829f6e0",
+ "platform": "macos",
+ "author_authority": 131,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "AlonX2",
+   "score": 131,
+   "contributions": 67
+  }
+ ],
+ "loc": 1208,
+ "custom_components": 25,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "Foundation",
+  "LaunchAtLogin",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "multilineTextAlignment",
+   "onAppear",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "rotationEffect",
+   "scaledToFit",
+   "shadow",
+   "stroke"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Color",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "headline",
+   "linear",
+   "medium",
+   "regular",
+   "semibold",
+   "snappy",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "center",
+   "gray",
+   "horizontal",
+   "leading",
+   "primary",
+   "purple",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 17,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 69
+}

@@ -1,0 +1,159 @@
+{
+ "repo": "IhorShevchuk/piper-app",
+ "stars": 45,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0878426403c83f50e62b81edb3fdac59ec871232",
+ "platform": "macos",
+ "author_authority": 9511,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "IhorShevchuk",
+   "score": 6236,
+   "contributions": 114
+  },
+  {
+   "login": "cclauss",
+   "score": 1093879,
+   "contributions": 1
+  }
+ ],
+ "loc": 3782,
+ "custom_components": 42,
+ "imports": [
+  "AVFAudio",
+  "AVFoundation",
+  "Accelerate",
+  "AppKit",
+  "AudioToolbox",
+  "Combine",
+  "CoreAudioKit",
+  "CoreTransferable",
+  "Foundation",
+  "OSLog",
+  "PackageDescription",
+  "PiperAppUtils",
+  "ProjectDescription",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "os",
+  "piper_objc"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityAddTraits",
+   "accessibilityElement",
+   "accessibilityHidden",
+   "accessibilityLabel",
+   "accessibilityValue",
+   "alert",
+   "alignmentGuide",
+   "bold",
+   "buttonStyle",
+   "disabled",
+   "fileImporter",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "lineLimit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "opacity",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "rotationEffect",
+   "scaledToFit",
+   "stroke",
+   "tag",
+   "tint",
+   "toolbar",
+   "trim",
+   "windowResizability"
+  ],
+  "types": [
+   "BorderlessButtonStyle",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "ScrollView",
+   "Section",
+   "ShareLink",
+   "SharePreview",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "degrees",
+   "footnote",
+   "headline",
+   "subheadline",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "bordered",
+   "bottom",
+   "center",
+   "circular",
+   "gray",
+   "leading",
+   "listRowSeparatorLeading",
+   "primaryAction",
+   "red",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject",
+   "UIApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 28,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 85
+}

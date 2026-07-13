@@ -1,0 +1,114 @@
+{
+ "repo": "akselpekin/This-and-That",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7cc30a736fb35f94a38f4fee60ddca02034835fd",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "akselpekin",
+   "score": 0,
+   "contributions": 7
+  }
+ ],
+ "loc": 340,
+ "custom_components": 8,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "mask",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "shadow",
+   "stroke",
+   "tag",
+   "transition",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "GridItem",
+   "HiddenTitleBarWindowStyle",
+   "LazyVGrid",
+   "LinearGradient",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "heavy",
+   "largeTitle",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "horizontal",
+   "menu",
+   "segmented",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 18,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 61
+}

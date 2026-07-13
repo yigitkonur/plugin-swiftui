@@ -1,0 +1,75 @@
+{
+ "repo": "yukicoder0509/BongoCat",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3673abf2d9a537191debb6d59751435f961f9340",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "yukicoder0509",
+   "score": 11,
+   "contributions": 5
+  }
+ ],
+ "loc": 269,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "BongoCatTyping",
+  "Cocoa",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "frame",
+   "gesture",
+   "offset",
+   "onChange",
+   "resizable",
+   "scaledToFit",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "clear",
+   "hidden",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 5,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 21
+}

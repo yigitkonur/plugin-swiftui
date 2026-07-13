@@ -1,0 +1,135 @@
+{
+ "repo": "trozware/To-Day",
+ "stars": 109,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7d98f4ca02d630474cab88233b2d80b476ba6ca1",
+ "platform": "macos",
+ "author_authority": 611,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "trozware",
+   "score": 611,
+   "contributions": 64
+  },
+  {
+   "login": "hodgesd",
+   "score": 24,
+   "contributions": 1
+  }
+ ],
+ "loc": 947,
+ "custom_components": 41,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityElement",
+   "accessibilityHidden",
+   "accessibilityLabel",
+   "aspectRatio",
+   "buttonStyle",
+   "defaultPosition",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fixedSize",
+   "focused",
+   "font",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "help",
+   "labelsHidden",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onModifierKeysChanged",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "resizable",
+   "strikethrough",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "toggleStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "DataStore",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "Picker",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "headline",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "bottom",
+   "center",
+   "green",
+   "grouped",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "squareBorder",
+   "switch",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 17,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 74
+}

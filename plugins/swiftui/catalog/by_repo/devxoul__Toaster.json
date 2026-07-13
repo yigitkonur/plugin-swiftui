@@ -1,0 +1,59 @@
+{
+ "repo": "devxoul/Toaster",
+ "stars": 1859,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "db7f2f5096b642c711dcdcedceb450382bbc5abe",
+ "platform": "other",
+ "author_authority": 4,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "devxoul",
+   "score": 0,
+   "contributions": 186
+  },
+  {
+   "login": "Coeur",
+   "score": 0,
+   "contributions": 55
+  },
+  {
+   "login": "cozzin",
+   "score": 94,
+   "contributions": 13
+  }
+ ],
+ "loc": 1066,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "Photos",
+  "Toaster",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

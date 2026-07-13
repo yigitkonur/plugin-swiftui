@@ -1,0 +1,133 @@
+{
+ "repo": "saamerm/VoiceSlidedeckController-Mac-SwiftUI",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cbda7f57a327606ef5cc580f696b723ae45537ae",
+ "platform": "macos",
+ "author_authority": 6304,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "saamerm",
+   "score": 6304,
+   "contributions": 11
+  }
+ ],
+ "loc": 1173,
+ "custom_components": 33,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "Speech",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blur",
+   "commands",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "keyboardShortcut",
+   "mask",
+   "navigationTitle",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "shadow",
+   "stroke",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "Gradient",
+   "Group",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "MenuBarExtra",
+   "NavigationLink",
+   "NavigationStack",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "bottom",
+   "bottomTrailing",
+   "cyan",
+   "default",
+   "gray",
+   "hidden",
+   "leading",
+   "none",
+   "primary",
+   "red",
+   "secondary",
+   "tint",
+   "top",
+   "topLeading",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 24,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 78
+}

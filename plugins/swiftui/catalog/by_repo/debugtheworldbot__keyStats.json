@@ -1,0 +1,129 @@
+{
+ "repo": "debugtheworldbot/keyStats",
+ "stars": 1335,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "e3ede0c2d896d1848a2cdf6427082255958ad3c2",
+ "platform": "macos",
+ "author_authority": 54296,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "debugtheworldbot",
+   "score": 54296,
+   "contributions": 292
+  },
+  {
+   "login": "huangxida",
+   "score": 378695,
+   "contributions": 20
+  },
+  {
+   "login": "claude",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 13644,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "IOKit",
+  "KeyStatsCore",
+  "PackageDescription",
+  "PostHog",
+  "Security",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "contentTransition",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "minimumScaleFactor",
+   "monospacedDigit",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "padding",
+   "renderingMode",
+   "resizable",
+   "size",
+   "stroke"
+  ],
+  "types": [
+   "Circle",
+   "Color",
+   "Divider",
+   "Group",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "NSHostingView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "push",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bar",
+   "center",
+   "clear",
+   "default",
+   "fill",
+   "horizontal",
+   "lastTextBaseline",
+   "leading",
+   "primary",
+   "secondary",
+   "separator",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 12,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 54
+}

@@ -1,0 +1,71 @@
+{
+ "repo": "The-SolShare-Team/SolanaWalletAdapterKit",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7a70a32aa27dbc7a8d2b27af1ed5a0d12768d1da",
+ "platform": "macos",
+ "author_authority": 363,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Samuel-Martineau",
+   "score": 560,
+   "contributions": 37
+  },
+  {
+   "login": "dkchiem",
+   "score": 264,
+   "contributions": 15
+  },
+  {
+   "login": "WilliamJin123",
+   "score": 337,
+   "contributions": 5
+  }
+ ],
+ "loc": 4658,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Base58",
+  "ByteBuffer",
+  "Collections",
+  "CryptoKit",
+  "Foundation",
+  "PackageDescription",
+  "Salt",
+  "Security",
+  "SimpleKeychain",
+  "SolanaRPC",
+  "SolanaTransactions",
+  "SolanaWalletAdapterKit",
+  "SwiftBorsh",
+  "Testing",
+  "TweetNacl",
+  "UIKit",
+  "salkt"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,99 @@
+{
+ "repo": "adamorad/csv-quick-look",
+ "stars": 1,
+ "categories": [
+  "QuickLook Plugins"
+ ],
+ "sha": "9842b48576af59957f0f23a68f5e8936ba2a3220",
+ "platform": "macos",
+ "author_authority": 146063,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adamorad",
+   "score": 146063,
+   "contributions": 27
+  }
+ ],
+ "loc": 415,
+ "custom_components": 7,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "QuickLookUI",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "monospacedDigit",
+   "onChange",
+   "padding",
+   "weight",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "semibold",
+   "subheadline",
+   "system",
+   "thin",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "link",
+   "secondary",
+   "titleBar",
+   "top",
+   "unified",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 14,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 44
+}

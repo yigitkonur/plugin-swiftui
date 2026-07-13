@@ -1,0 +1,88 @@
+{
+ "repo": "MihaelIsaev/UIKitPlus",
+ "stars": 628,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f1d23d0ebdd1a79beffbe154382564a83a985905",
+ "platform": "macos",
+ "author_authority": 1796,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "MihaelIsaev",
+   "score": 1796,
+   "contributions": 652
+  },
+  {
+   "login": "EkkoG",
+   "score": 102555,
+   "contributions": 3
+  },
+  {
+   "login": "skrew",
+   "score": 19,
+   "contributions": 2
+  }
+ ],
+ "loc": 35415,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "UIKitPlus"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "border",
+   "colorScheme",
+   "edgesIgnoringSafeArea",
+   "font",
+   "onTapGesture",
+   "preferredColorScheme",
+   "previewDevice",
+   "previewDisplayName",
+   "previewLayout"
+  ],
+  "types": [
+   "PreviewDevice"
+  ],
+  "valueBuilders": [
+   "device",
+   "light",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "black",
+   "blue",
+   "center",
+   "clear",
+   "green",
+   "red",
+   "white"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 1,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 22
+}

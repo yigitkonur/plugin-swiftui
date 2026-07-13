@@ -1,0 +1,153 @@
+{
+ "repo": "DanielPires2000/7ZMac",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "045cbd0c95b9ce64a50d2c262a35c05ca31cacf6",
+ "platform": "macos",
+ "author_authority": 74,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "DanielPires2000",
+   "score": 74,
+   "contributions": 7
+  }
+ ],
+ "loc": 5356,
+ "custom_components": 30,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "FinderSync",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "XCTest",
+  "_ZMac",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alternatingRowBackgrounds",
+   "background",
+   "buttonStyle",
+   "disabled",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "listStyle",
+   "monospacedDigit",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "padding",
+   "progressViewStyle",
+   "tableStyle",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "toolbar",
+   "truncationMode",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NSHostingView",
+   "NavigationSplitView",
+   "Picker",
+   "ProgressView",
+   "ScrollView",
+   "Section",
+   "SecureField",
+   "Settings",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bar",
+   "blue",
+   "bottom",
+   "center",
+   "default",
+   "firstTextBaseline",
+   "gray",
+   "horizontal",
+   "inset",
+   "leading",
+   "linear",
+   "navigation",
+   "orange",
+   "plain",
+   "primary",
+   "primaryAction",
+   "purple",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "sidebar",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 27,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 24,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 91
+}

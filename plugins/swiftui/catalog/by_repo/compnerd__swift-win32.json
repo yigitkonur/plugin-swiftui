@@ -1,0 +1,70 @@
+{
+ "repo": "compnerd/swift-win32",
+ "stars": 1169,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d34ff1b8b3f15cfdf2cb71109a3c313001122a54",
+ "platform": "other",
+ "author_authority": 221070,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "compnerd",
+   "score": 221070,
+   "contributions": 788
+  },
+  {
+   "login": "egorzhdan",
+   "score": 118128,
+   "contributions": 17
+  },
+  {
+   "login": "rjallanreal",
+   "score": 1,
+   "contributions": 11
+  }
+ ],
+ "loc": 21763,
+ "custom_components": 0,
+ "imports": [
+  "AutoLayoutTests",
+  "CRT",
+  "Cassowary",
+  "CoreAnimation",
+  "CoreGraphics",
+  "CoreGraphicsTests",
+  "Foundation",
+  "Logging",
+  "OrderedCollections",
+  "PackageDescription",
+  "SwiftCOM",
+  "SwiftWin32",
+  "TestUtilities",
+  "UICoreTests",
+  "WinSDK",
+  "XCTest",
+  "ucrt"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

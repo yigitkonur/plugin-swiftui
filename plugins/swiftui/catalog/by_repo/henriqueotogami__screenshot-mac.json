@@ -1,0 +1,88 @@
+{
+ "repo": "henriqueotogami/screenshot-mac",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "90796ee2c173c69726d2f663c45be87d2705b51a",
+ "platform": "macos",
+ "author_authority": 63,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "henriqueotogami",
+   "score": 63,
+   "contributions": 9
+  }
+ ],
+ "loc": 297,
+ "custom_components": 12,
+ "imports": [
+  "Foundation",
+  "KeyboardShortcuts",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "contentMargins",
+   "draggable",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "labelStyle",
+   "menuBarExtraStyle",
+   "onDrag",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "tabItem"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Form",
+   "GridItem",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "MenuBarExtra",
+   "ScrollView",
+   "Settings",
+   "TabView",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "full",
+   "iconOnly",
+   "leading",
+   "tint",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 14,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 35
+}

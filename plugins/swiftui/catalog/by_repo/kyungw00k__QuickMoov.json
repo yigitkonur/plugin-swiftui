@@ -1,0 +1,128 @@
+{
+ "repo": "kyungw00k/QuickMoov",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c22ba289ce0d47228add3946b5507bf46f9f890d",
+ "platform": "macos",
+ "author_authority": 55083,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kyungw00k",
+   "score": 55083,
+   "contributions": 8
+  }
+ ],
+ "loc": 1968,
+ "custom_components": 10,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Foundation",
+  "QuickMoov",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "opacity",
+   "padding",
+   "scaleEffect",
+   "stroke",
+   "truncationMode",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "ProgressView",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "Spacer",
+   "State",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "medium",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "center",
+   "gray",
+   "green",
+   "grouped",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 19,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 69
+}

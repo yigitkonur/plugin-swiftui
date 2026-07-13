@@ -1,0 +1,115 @@
+{
+ "repo": "schwa/VoronoiDiagram",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7fdeaa21e99e5e286c32534d11182eb52c143b8a",
+ "platform": "other",
+ "author_authority": 1092,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "schwa",
+   "score": 1092,
+   "contributions": 5
+  }
+ ],
+ "loc": 3013,
+ "custom_components": 7,
+ "imports": [
+  "CoreGraphics",
+  "CoreTransferable",
+  "Foundation",
+  "Geometry",
+  "Numerics",
+  "PackageDescription",
+  "SwiftFormats",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "contextMenu",
+   "exported",
+   "exportedContentTypes",
+   "fill",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "inspector",
+   "inspectorColumnWidth",
+   "onChange",
+   "onChanged",
+   "onEnded",
+   "onGeometryChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "stroke",
+   "tabItem",
+   "toolbar",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Circle",
+   "Color",
+   "DragGesture",
+   "ForEach",
+   "Form",
+   "Label",
+   "MagnifyGesture",
+   "Path",
+   "RoundedRectangle",
+   "ShareLink",
+   "SharePreview",
+   "TabView",
+   "Table",
+   "TableColumn",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "radians"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottomTrailing",
+   "cyan",
+   "green",
+   "red",
+   "thinMaterial",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 21,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

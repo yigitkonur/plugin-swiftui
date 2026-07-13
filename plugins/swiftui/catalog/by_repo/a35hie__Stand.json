@@ -1,0 +1,168 @@
+{
+ "repo": "a35hie/Stand",
+ "stars": 26,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f43837713e31b910d2215b2d4538fbbf95975ada",
+ "platform": "macos",
+ "author_authority": 13341,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "a35hie",
+   "score": 13341,
+   "contributions": 55
+  },
+  {
+   "login": "thorsten-rinne-mw",
+   "score": 0,
+   "contributions": 1
+  },
+  {
+   "login": "thorsten",
+   "score": 3845,
+   "contributions": 1
+  }
+ ],
+ "loc": 2606,
+ "custom_components": 54,
+ "imports": [
+  "AppKit",
+  "DynamicNotchKit",
+  "Foundation",
+  "LaunchAtLogin",
+  "Luminare",
+  "MarkdownUI",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "imageScale",
+   "keyboardShortcut",
+   "layoutPriority",
+   "listStyle",
+   "mask",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "scaledToFit",
+   "scrollContentBackground",
+   "stroke",
+   "tag",
+   "toolbar"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Gradient",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "List",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "ToolbarItem",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "easeIn",
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "light",
+   "medium",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "automatic",
+   "blue",
+   "borderless",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "foreground",
+   "hidden",
+   "horizontal",
+   "indigo",
+   "leading",
+   "menu",
+   "mint",
+   "navigation",
+   "primary",
+   "secondary",
+   "sidebar",
+   "tertiary",
+   "top",
+   "topLeading",
+   "vertical",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 20,
+  "valueBuilders": 13,
+  "macros": 1,
+  "styleValues": 25,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 100
+}

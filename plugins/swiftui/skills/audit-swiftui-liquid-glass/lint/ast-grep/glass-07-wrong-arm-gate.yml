@@ -1,0 +1,20 @@
+# glass-07 (structural): an `if #available(iOS …)` block whose body uses a glass symbol, inside a macOS
+# target = wrong availability arm (hard-fail). The grep tell catches the bare `#available(iOS 26` string;
+# this structural form proves the GATE SCOPE actually wraps glass (not just that the string appears).
+# Gate on #available(macOS 26, *). fix_mode: auto.
+id: glass-07-ios-arm-gates-glass
+language: Swift
+severity: error
+message: >-
+  glass-07: an `if #available(iOS …)` block guards glass in a macOS target (wrong availability arm).
+  Gate on #available(macOS 26, *). fix_mode: auto. READ to confirm the body uses a glass symbol.
+rule:
+  kind: if_statement
+  all:
+    - has:
+        field: condition
+        kind: availability_condition
+        regex: 'iOS'
+    - has:
+        stopBy: end
+        regex: 'glassEffect|GlassEffectContainer|buttonStyle\(\.glass|glassEffectID|glassEffectUnion|backgroundExtensionEffect|scrollEdgeEffect'

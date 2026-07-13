@@ -1,0 +1,74 @@
+{
+ "repo": "noppefoxwolf/Swinub",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dfbddd96a532ef816f6e00febbfd43c8e5a006cc",
+ "platform": "other",
+ "author_authority": 9820,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "noppefoxwolf",
+   "score": 9820,
+   "contributions": 228
+  }
+ ],
+ "loc": 6511,
+ "custom_components": 6,
+ "imports": [
+  "AppleProductTypes",
+  "AuthenticationServices",
+  "CoreTransferable",
+  "CoreTransferableBackport",
+  "Foundation",
+  "HTTPTypes",
+  "HTTPTypesFoundation",
+  "PackageDescription",
+  "RegexBuilder",
+  "SwiftUI",
+  "Swinub",
+  "SwinubStreaming",
+  "Testing",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "navigationTitle",
+   "onAppear",
+   "task"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "Text",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "inline"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 3,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 13
+}

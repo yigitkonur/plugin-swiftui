@@ -1,0 +1,134 @@
+{
+ "repo": "dannystewart/volumeHUD",
+ "stars": 298,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8351dab083cca0324ad11c6e0415fc7367d4824b",
+ "platform": "macos",
+ "author_authority": 613,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dannystewart",
+   "score": 613,
+   "contributions": 292
+  }
+ ],
+ "loc": 3921,
+ "custom_components": 9,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "AudioToolbox",
+  "Combine",
+  "CoreAudio",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityHint",
+   "accessibilityLabel",
+   "accessibilityValue",
+   "animation",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "offset",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "toggleStyle",
+   "underline",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "SwitchToggleStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "cyan",
+   "gray",
+   "green",
+   "hiddenTitleBar",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "regularMaterial",
+   "secondary",
+   "top",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 17,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 72
+}

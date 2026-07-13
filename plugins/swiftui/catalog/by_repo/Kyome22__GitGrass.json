@@ -1,0 +1,134 @@
+{
+ "repo": "Kyome22/GitGrass",
+ "stars": 100,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2fb03b4103d3309f6ebe13691e6c1980f42729af",
+ "platform": "macos",
+ "author_authority": 13013,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "Kyome22",
+   "score": 13013,
+   "contributions": 98
+  },
+  {
+   "login": "lorant-csonka-ICE",
+   "score": 6233,
+   "contributions": 6
+  }
+ ],
+ "loc": 4453,
+ "custom_components": 30,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "DataSource",
+  "Foundation",
+  "KeychainAccess",
+  "LicenseList",
+  "Logging",
+  "Model",
+  "Observation",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "UserInterface",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "disableAutocorrection",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "border",
+   "buttonStyle",
+   "defaultLaunchBehavior",
+   "disableAutocorrection",
+   "disabled",
+   "environment",
+   "fill",
+   "fixedSize",
+   "fontDesign",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "labelsHidden",
+   "navigationTitle",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tabItem",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "toggleStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "AlertScene",
+   "Binding",
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "MenuBarExtra",
+   "NavigationStack",
+   "Picker",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "grouped",
+   "menu",
+   "roundedBorder",
+   "secondary",
+   "switch",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 24,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 61
+}

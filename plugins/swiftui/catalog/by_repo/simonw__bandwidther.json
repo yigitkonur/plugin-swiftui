@@ -1,0 +1,107 @@
+{
+ "repo": "simonw/bandwidther",
+ "stars": 78,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "22f3858272cbbf23caf2febd912e459d998242e4",
+ "platform": "macos",
+ "author_authority": 263063,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "simonw",
+   "score": 263063,
+   "contributions": 11
+  }
+ ],
+ "loc": 1064,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "Darwin",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "opacity",
+   "padding",
+   "scaleEffect",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Circle",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "NSHostingController",
+   "Path",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "blue",
+   "foreground",
+   "green",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "topTrailing",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 20,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

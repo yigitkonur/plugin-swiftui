@@ -1,0 +1,87 @@
+{
+ "repo": "sssynk/Clipper",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d65b91bca8d617a7473b537445c33149441ab381",
+ "platform": "macos",
+ "author_authority": 32,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sssynk",
+   "score": 32,
+   "contributions": 2
+  }
+ ],
+ "loc": 669,
+ "custom_components": 4,
+ "imports": [
+  "AVFoundation",
+  "Carbon",
+  "CoreMedia",
+  "Observation",
+  "ScreenCaptureKit",
+  "SwiftUI",
+  "VideoToolbox",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "controlSize",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "ProgressView",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "red",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 12,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 31
+}

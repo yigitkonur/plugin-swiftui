@@ -1,0 +1,142 @@
+{
+ "repo": "devxoul/allkdic",
+ "stars": 140,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ef8b5e6cae32d612c2fdd32839a1b1273bbed8dc",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "devxoul",
+   "score": 0,
+   "contributions": 333
+  },
+  {
+   "login": "EdenYoon",
+   "score": 0,
+   "contributions": 1
+  },
+  {
+   "login": "asahi",
+   "score": 2,
+   "contributions": 1
+  }
+ ],
+ "loc": 1653,
+ "custom_components": 19,
+ "imports": [
+  "Allkdic",
+  "AmplitudeSwift",
+  "Carbon",
+  "Cocoa",
+  "Foundation",
+  "PackageDescription",
+  "ProjectDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "buttonStyle",
+   "controlSize",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "menuIndicator",
+   "menuStyle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "stroke",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "KeyEquivalent",
+   "Menu",
+   "NSHostingController",
+   "NSHostingView",
+   "ProgressView",
+   "Section",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderlessButton",
+   "bottom",
+   "circular",
+   "firstTextBaseline",
+   "grouped",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "primary",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "vertical",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 18,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 70
+}

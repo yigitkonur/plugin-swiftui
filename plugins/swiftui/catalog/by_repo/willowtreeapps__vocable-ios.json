@@ -1,0 +1,165 @@
+{
+ "repo": "willowtreeapps/vocable-ios",
+ "stars": 87,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "58ba45a978e1ebaeae71d9e88509703a9bd67bd6",
+ "platform": "other",
+ "author_authority": 5099,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Clstroud",
+   "score": 95,
+   "contributions": 842
+  },
+  {
+   "login": "stevefosterwta",
+   "score": 0,
+   "contributions": 200
+  },
+  {
+   "login": "pg8wood",
+   "score": 47273,
+   "contributions": 126
+  }
+ ],
+ "loc": 25126,
+ "custom_components": 42,
+ "imports": [
+  "ARKit",
+  "AVFoundation",
+  "Algorithms",
+  "AudioToolbox",
+  "Collections",
+  "Combine",
+  "CoreData",
+  "CoreGraphics",
+  "Firebase",
+  "FirebaseAuth",
+  "Foundation",
+  "MessageUI",
+  "Mixpanel",
+  "OrderedCollections",
+  "SceneKit",
+  "Speech",
+  "SpriteKit",
+  "SwiftUI",
+  "UIKit",
+  "Vocable",
+  "VocableListenCore",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "navigationBarHidden",
+  "navigationBarTitle",
+  "navigationViewStyle"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "listStyle",
+   "navigationBarHidden",
+   "navigationBarTitle",
+   "navigationTitle",
+   "navigationViewStyle",
+   "opacity",
+   "overlay",
+   "padding",
+   "safeAreaPadding",
+   "scaleEffect",
+   "stroke",
+   "transition"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "Color",
+   "EmptyView",
+   "FetchRequest",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "clear",
+   "easeIn",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "automatic",
+   "center",
+   "compact",
+   "full",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FetchRequest",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "horizontalSizeClass",
+   "isEnabled",
+   "managedObjectContext",
+   "verticalSizeClass"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 24,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 5
+ },
+ "total_unique_apis": 75
+}

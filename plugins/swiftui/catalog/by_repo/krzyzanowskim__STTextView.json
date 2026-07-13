@@ -1,0 +1,135 @@
+{
+ "repo": "krzyzanowskim/STTextView",
+ "stars": 1552,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0ca8960392e3f0b6049dafaa1b436e0a6cca968c",
+ "platform": "macos",
+ "author_authority": 56263,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "krzyzanowskim",
+   "score": 56263,
+   "contributions": 1141
+  },
+  {
+   "login": "lukepistrol",
+   "score": 1284,
+   "contributions": 6
+  },
+  {
+   "login": "Ehlster",
+   "score": 162,
+   "contributions": 5
+  }
+ ],
+ "loc": 17760,
+ "custom_components": 18,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "CoreTextSwift",
+  "Foundation",
+  "NaturalLanguage",
+  "OSLog",
+  "PackageDescription",
+  "STObjCLandShim",
+  "STTextKitPlus",
+  "STTextView",
+  "STTextViewAppKit",
+  "STTextViewCommon",
+  "STTextViewSwiftUI",
+  "STTextViewSwiftUIAppKit",
+  "STTextViewSwiftUICommon",
+  "STTextViewSwiftUIUIKit",
+  "STTextViewUIKit",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "cornerRadius",
+   "environment",
+   "fill",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "monospacedDigit",
+   "navigationTitle",
+   "onAppear",
+   "padding",
+   "resizable",
+   "symbolRenderingMode",
+   "toolbar"
+  ],
+  "types": [
+   "Color",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingView",
+   "NavigationStack",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "custom",
+   "largeTitle",
+   "medium",
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "clear",
+   "default",
+   "horizontal",
+   "inline",
+   "leading",
+   "link",
+   "none",
+   "plain",
+   "windowBackground",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "autocorrectionDisabled",
+   "colorScheme",
+   "font",
+   "isEnabled",
+   "lineSpacing"
+  ]
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 12,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 5
+ },
+ "total_unique_apis": 52
+}

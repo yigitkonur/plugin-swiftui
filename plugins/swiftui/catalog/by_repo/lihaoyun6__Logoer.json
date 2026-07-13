@@ -1,0 +1,113 @@
+{
+ "repo": "lihaoyun6/Logoer",
+ "stars": 711,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "90c40692f5d76f8dfc18e3b1822fca764d1dc557",
+ "platform": "macos",
+ "author_authority": 18671,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lihaoyun6",
+   "score": 18671,
+   "contributions": 51
+  }
+ ],
+ "loc": 1330,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "IOKit",
+  "SDWebImageSwiftUI",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "clipShape",
+   "disabled",
+   "fileImporter",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "interpolation",
+   "mask",
+   "offset",
+   "onChange",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaledToFill",
+   "scaledToFit",
+   "shadow",
+   "size",
+   "stroke",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ColorPicker",
+   "Divider",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "black",
+   "checkbox",
+   "clear",
+   "green",
+   "primary",
+   "secondary",
+   "switch",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 17,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 54
+}

@@ -1,0 +1,117 @@
+{
+ "repo": "rennnss/timer",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2f4c1d681fc6ba8c564783e101744d5deeb056ec",
+ "platform": "macos",
+ "author_authority": 322,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rennnss",
+   "score": 322,
+   "contributions": 4
+  }
+ ],
+ "loc": 818,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "contentTransition",
+   "cornerRadius",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "minimumScaleFactor",
+   "modifier",
+   "offset",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "scaleEffect",
+   "stroke",
+   "trim"
+  ],
+  "types": [
+   "Angle",
+   "Button",
+   "Circle",
+   "EmptyView",
+   "ForEach",
+   "GlassEffectContainer",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "easeInOut",
+   "headline",
+   "semibold",
+   "spring",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "clear",
+   "horizontal",
+   "top",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 17,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 62
+}

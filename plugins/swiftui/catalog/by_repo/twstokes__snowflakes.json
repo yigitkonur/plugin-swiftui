@@ -1,0 +1,88 @@
+{
+ "repo": "twstokes/snowflakes",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1251d29b926a7a6b7a12eb67f30fffdd1952bb8b",
+ "platform": "macos",
+ "author_authority": 34667,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "twstokes",
+   "score": 34667,
+   "contributions": 50
+  }
+ ],
+ "loc": 917,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SnowFlakes",
+  "SpriteKit",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "bold",
+   "frame",
+   "horizontalRadioGroupLayout",
+   "labelsHidden",
+   "padding",
+   "pickerStyle",
+   "previewDisplayName",
+   "resizable",
+   "scaleEffect",
+   "tag",
+   "tint",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Group",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "Picker",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "checkbox",
+   "leading",
+   "radioGroup",
+   "switch",
+   "top"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 12,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 33
+}

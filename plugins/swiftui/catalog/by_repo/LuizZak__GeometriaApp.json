@@ -1,0 +1,72 @@
+{
+ "repo": "LuizZak/GeometriaApp",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7e2b49f801320d87bb3179fe7a812f9fe7951c3a",
+ "platform": "macos",
+ "author_authority": 725,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LuizZak",
+   "score": 725,
+   "contributions": 79
+  }
+ ],
+ "loc": 16679,
+ "custom_components": 3,
+ "imports": [
+  "AppKit",
+  "Blend2DRenderer",
+  "Cocoa",
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "Geometria",
+  "GeometriaApp",
+  "GeometriaAppLib",
+  "Glibc",
+  "ImagineUI",
+  "PackageDescription",
+  "QuartzCore",
+  "RealModule",
+  "SwiftBlend2D",
+  "SwiftUI",
+  "Text",
+  "XCTest",
+  "blend2d",
+  "simd"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "NSHostingView"
+  ],
+  "valueBuilders": [
+   "center",
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "none",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 1,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 3,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 6
+}

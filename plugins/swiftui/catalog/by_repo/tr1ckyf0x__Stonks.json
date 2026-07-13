@@ -1,0 +1,96 @@
+{
+ "repo": "tr1ckyf0x/Stonks",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "728edd696f74885e53d33ce8686107fb8a1ea7e8",
+ "platform": "macos",
+ "author_authority": 23,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tr1ckyf0x",
+   "score": 23,
+   "contributions": 52
+  }
+ ],
+ "loc": 827,
+ "custom_components": 10,
+ "imports": [
+  "CocoaLumberjackSwift",
+  "Combine",
+  "FirebaseAnalytics",
+  "FirebaseCore",
+  "Foundation",
+  "Network",
+  "Sparkle",
+  "SwiftUI",
+  "Swinject"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "fixedSize",
+   "font",
+   "frame",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFit",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Link",
+   "MenuBarExtra",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "headline",
+   "largeTitle",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "leading",
+   "trailing",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 12,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 38
+}

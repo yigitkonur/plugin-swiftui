@@ -1,0 +1,66 @@
+{
+ "repo": "raptor-build/raptor",
+ "stars": 87,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8ed07d9e45b3a9630582ba82bdc136cf10a059eb",
+ "platform": "other",
+ "author_authority": 91,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "raptor-build",
+   "score": 91,
+   "contributions": 11
+  }
+ ],
+ "loc": 53789,
+ "custom_components": 0,
+ "imports": [
+  "ArgumentParser",
+  "CoreImage",
+  "Foundation",
+  "Markdown",
+  "OrderedCollections",
+  "PackageDescription",
+  "Raptor",
+  "RaptorCLI",
+  "RaptorHTML",
+  "SwiftSoup",
+  "SwiftUI",
+  "Testing",
+  "Vapor"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "font",
+   "hidden",
+   "id"
+  ],
+  "types": [
+   "Button",
+   "Text"
+  ],
+  "valueBuilders": [
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 4,
+  "types": 2,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 7
+}

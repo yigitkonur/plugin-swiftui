@@ -1,0 +1,78 @@
+{
+ "repo": "OpenEmu/OpenEmu",
+ "stars": 17593,
+ "categories": [
+  "Gaming Software"
+ ],
+ "sha": "1d205104640d8410659d321809889cbfd06b99a9",
+ "platform": "macos",
+ "author_authority": 22,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "cyco",
+   "score": 0,
+   "contributions": 1581
+  },
+  {
+   "login": "clobber",
+   "score": 57,
+   "contributions": 1516
+  },
+  {
+   "login": "J-rg",
+   "score": 0,
+   "contributions": 704
+  }
+ ],
+ "loc": 32991,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "Carbon",
+  "Cocoa",
+  "CommonCrypto",
+  "CoreData",
+  "CryptoKit",
+  "Finite",
+  "Foundation",
+  "IOKit",
+  "OSLog",
+  "OpenEmu",
+  "OpenEmuBase",
+  "OpenEmuKit",
+  "OpenEmuShaders",
+  "OpenEmuSystem",
+  "OrderedCollections",
+  "Quartz",
+  "QuartzCore",
+  "QuickLookThumbnailing",
+  "SQLite3",
+  "Sparkle",
+  "XADMaster",
+  "XCTest",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

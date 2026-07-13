@@ -1,0 +1,127 @@
+{
+ "repo": "npwitk/MacShot",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9d40afd2392ab2c7f2728735c339990bca84788f",
+ "platform": "macos",
+ "author_authority": 28,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "npwitk",
+   "score": 28,
+   "contributions": 7
+  }
+ ],
+ "loc": 432,
+ "custom_components": 7,
+ "imports": [
+  "Foundation",
+  "ScreenCaptureKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "defaultWindowPlacement",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "pointerStyle",
+   "restorationBehavior",
+   "sizeThatFits",
+   "tag",
+   "toggleStyle",
+   "windowLevel",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "Rectangle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "caption2",
+   "largeTitle",
+   "semibold",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "link",
+   "orange",
+   "plain",
+   "primary",
+   "purple",
+   "red",
+   "segmented",
+   "switch",
+   "top",
+   "trailing",
+   "ultraThickMaterial",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 12,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 24,
+  "propertyWrappers": 4,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 75
+}

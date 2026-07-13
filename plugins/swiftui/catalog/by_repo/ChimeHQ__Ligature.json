@@ -1,0 +1,52 @@
+{
+ "repo": "ChimeHQ/Ligature",
+ "stars": 13,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "677abb3ad29e0979248f062dc969c16160951217",
+ "platform": "macos",
+ "author_authority": 130686,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mattmassicotte",
+   "score": 130686,
+   "contributions": 44
+  }
+ ],
+ "loc": 1158,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Glyph",
+  "Ligature",
+  "PackageDescription",
+  "Rearrange",
+  "Testing",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

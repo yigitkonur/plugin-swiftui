@@ -1,0 +1,144 @@
+{
+ "repo": "saihgupr/DMGMaker",
+ "stars": 284,
+ "categories": [
+  "Frameworks For Hybrid Applications"
+ ],
+ "sha": "5d4253f042d9be75d481e6011cc934516eab3d8c",
+ "platform": "macos",
+ "author_authority": 2803,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "saihgupr",
+   "score": 2803,
+   "contributions": 12
+  }
+ ],
+ "loc": 651,
+ "custom_components": 16,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "blur",
+   "buttonStyle",
+   "clipShape",
+   "clipped",
+   "controlSize",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "lineLimit",
+   "modifier",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onDrop",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "symbolRenderingMode",
+   "textFieldStyle",
+   "tint",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "AngularGradient",
+   "Button",
+   "Circle",
+   "Color",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "LinearGradient",
+   "Path",
+   "ProgressView",
+   "RadialGradient",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "light",
+   "medium",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "cyan",
+   "fill",
+   "hidden",
+   "hiddenTitleBar",
+   "plain",
+   "primary",
+   "purple",
+   "secondary",
+   "top",
+   "topLeading",
+   "topTrailing",
+   "trailing",
+   "ultraThinMaterial",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 38,
+  "types": 21,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 21,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 88
+}

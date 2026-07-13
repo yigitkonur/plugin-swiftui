@@ -1,0 +1,141 @@
+{
+ "repo": "heyvito/dbedit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6f0d7254e8cfc9a5d07393ad26da08312e2b0d1d",
+ "platform": "macos",
+ "author_authority": 19681,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "heyvito",
+   "score": 19681,
+   "contributions": 4
+  }
+ ],
+ "loc": 1696,
+ "custom_components": 28,
+ "imports": [
+  "Combine",
+  "DBEdit",
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "coordinateSpace",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "listStyle",
+   "modifier",
+   "modifiers",
+   "monospaced",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onChanged",
+   "onEnded",
+   "onModifierKeysChanged",
+   "onPreferenceChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preference",
+   "scrollContentBackground",
+   "shadow",
+   "stroke",
+   "tag",
+   "toolbar",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "DocumentGroup",
+   "DragGesture",
+   "ForEach",
+   "GeometryReader",
+   "HSplitView",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NSHostingController",
+   "NSHostingView",
+   "Path",
+   "Rectangle",
+   "RoundedRectangle",
+   "Schema",
+   "Section",
+   "Spacer",
+   "Text",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "custom",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "black",
+   "bottom",
+   "clear",
+   "hidden",
+   "leading",
+   "navigation",
+   "none",
+   "plain",
+   "secondary",
+   "sidebar",
+   "titleBar",
+   "top",
+   "topLeading",
+   "trailing",
+   "unifiedCompact",
+   "visible",
+   "white",
+   "windowBackground",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 24,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 85
+}

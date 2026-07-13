@@ -1,0 +1,105 @@
+{
+ "repo": "AdinAck/PresentationKit",
+ "stars": 10,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b29ef25a7a7a2192c88389569d236578795306a4",
+ "platform": "other",
+ "author_authority": 215443,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "AdinAck",
+   "score": 215443,
+   "contributions": 19
+  }
+ ],
+ "loc": 485,
+ "custom_components": 13,
+ "imports": [
+  "AVKit",
+  "Foundation",
+  "PackageDescription",
+  "PresentationKit",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "bold",
+   "commands",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "layoutPriority",
+   "mask",
+   "offset",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pointerStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandMenu",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TimelineView",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "slide",
+   "spring"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "green",
+   "horizontal",
+   "leading",
+   "link",
+   "none",
+   "primary",
+   "secondary",
+   "thinMaterial",
+   "top",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 14,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

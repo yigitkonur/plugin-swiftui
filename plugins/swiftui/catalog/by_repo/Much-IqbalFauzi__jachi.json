@@ -1,0 +1,171 @@
+{
+ "repo": "Much-IqbalFauzi/jachi",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8b81f1dda6d71464ffdd10de1fb144598e9326dc",
+ "platform": "other",
+ "author_authority": 4,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Much-IqbalFauzi",
+   "score": 4,
+   "contributions": 27
+  },
+  {
+   "login": "tasyafelcia",
+   "score": 2,
+   "contributions": 16
+  },
+  {
+   "login": "NicholasTristan34",
+   "score": 1,
+   "contributions": 4
+  }
+ ],
+ "loc": 3372,
+ "custom_components": 45,
+ "imports": [
+  "AVFAudio",
+  "AVFoundation",
+  "Combine",
+  "CoreML",
+  "Foundation",
+  "SoundAnalysis",
+  "Speech",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "blur",
+   "clipShape",
+   "clipped",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "modelContainer",
+   "multilineTextAlignment",
+   "navigationBarBackButtonHidden",
+   "navigationDestination",
+   "navigationTitle",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preferredColorScheme",
+   "progressViewStyle",
+   "resizable",
+   "scaledToFill",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "symbolEffect",
+   "transition",
+   "underline"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "NavigationPath",
+   "NavigationStack",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "StateObject",
+   "Text",
+   "UnevenRoundedRectangle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "easeIn",
+   "easeOut",
+   "headline",
+   "heavy",
+   "interpolatingSpring",
+   "light",
+   "medium",
+   "semibold",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "circular",
+   "fill",
+   "gray",
+   "horizontal",
+   "leading",
+   "orange",
+   "red",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "modelContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 39,
+  "types": 23,
+  "valueBuilders": 12,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 99
+}

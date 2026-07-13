@@ -1,0 +1,119 @@
+{
+ "repo": "shock/swift_metal",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1b99d59e1b61cf7609d79ccd12dfb84549d1e070",
+ "platform": "macos",
+ "author_authority": 43,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shock",
+   "score": 43,
+   "contributions": 239
+  }
+ ],
+ "loc": 4639,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "EventKit",
+  "Foundation",
+  "MetalKit",
+  "SwiftOSC",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "border",
+   "clipped",
+   "contentShape",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "focusable",
+   "focused",
+   "font",
+   "frame",
+   "gesture",
+   "lineLimit",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onChanged",
+   "onDisappear",
+   "onEnded",
+   "onKeyPress",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "textFieldStyle",
+   "textSelection",
+   "zIndex"
+  ],
+  "types": [
+   "Binding",
+   "DragGesture",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "LazyHStack",
+   "NSHostingController",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "bottom",
+   "horizontal",
+   "leading",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "undoManager"
+  ]
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 16,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 61
+}

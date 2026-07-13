@@ -1,0 +1,137 @@
+{
+ "repo": "hudalfabera/CleanRoot",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "53dcc132fa98e33b82cf009e79cc3158ea23523d",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "hudalfabera",
+   "score": 5,
+   "contributions": 3
+  }
+ ],
+ "loc": 1087,
+ "custom_components": 29,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "contentTransition",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "id",
+   "ignoresSafeArea",
+   "interpolation",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "strokeBorder",
+   "symbolEffect",
+   "textSelection",
+   "tracking",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "AnyShapeStyle",
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "LinearGradient",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "easeOut",
+   "light",
+   "medium",
+   "regular",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "bottomTrailing",
+   "firstTextBaseline",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "secondary",
+   "tertiary",
+   "thinMaterial",
+   "titleBar",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 21,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 22,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 84
+}

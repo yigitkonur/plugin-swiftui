@@ -8,6 +8,7 @@ import { parseDocument } from "yaml";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CLAUDE = path.join(ROOT, "dist", "claude-swiftui-plugin");
 const CODEX = path.join(ROOT, "dist", "codex-swiftui-plugin");
+const MARKETPLACE_CODEX = path.join(ROOT, "plugins", "swiftui");
 
 async function walk(directory) {
   const found = [];
@@ -17,6 +18,14 @@ async function walk(directory) {
     if (entry.isDirectory()) found.push(...await walk(current));
   }
   return found;
+}
+
+async function relativeFiles(directory) {
+  const files = [];
+  for (const file of await walk(directory)) {
+    if (!(await lstat(file)).isDirectory()) files.push(path.relative(directory, file));
+  }
+  return files.sort();
 }
 
 async function json(file) {
@@ -40,9 +49,25 @@ test("all package and binary versions match VERSION", async () => {
   assert.equal(claudeMarketplace.plugins[0].version, version);
   assert.equal(claudeMarketplace.plugins[0].source.version, version);
   const codexMarketplace = await json(path.join(ROOT, ".agents/plugins/marketplace.json"));
-  assert.equal(codexMarketplace.plugins[0].source.version, version);
+  assert.deepEqual(codexMarketplace.plugins[0].source, {
+    source: "local",
+    path: "./plugins/swiftui",
+  });
   const swift = await readFile(path.join(ROOT, "swiftui-scan/Sources/swiftui-ctx/SwiftUICtx.swift"), "utf8");
   assert.match(swift, new RegExp(`swiftuiCtxVersion = "${version.replaceAll(".", "\\.")}"`));
+});
+
+test("committed Codex marketplace plugin matches the assembled package", async () => {
+  const assembledPaths = await relativeFiles(CODEX);
+  const marketplacePaths = await relativeFiles(MARKETPLACE_CODEX);
+  assert.deepEqual(marketplacePaths, assembledPaths);
+  for (const relative of assembledPaths) {
+    assert.deepEqual(
+      await readFile(path.join(MARKETPLACE_CODEX, relative)),
+      await readFile(path.join(CODEX, relative)),
+      relative,
+    );
+  }
 });
 
 test("assembled packages are isolated and contain only runtime assets", async () => {

@@ -1,0 +1,134 @@
+{
+ "repo": "iPrograms/little-lemon-resturant",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0fb6b1b6ed5f24713822ad79bb43e3f4ec822535",
+ "platform": "other",
+ "author_authority": 5266,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "iPrograms",
+   "score": 5266,
+   "contributions": 14
+  }
+ ],
+ "loc": 1096,
+ "custom_components": 36,
+ "imports": [
+  "CoreData",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "bold",
+   "border",
+   "clipShape",
+   "clipped",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "navigationBarBackButtonHidden",
+   "navigationDestination",
+   "navigationTitle",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "resizable",
+   "scrollIndicatorsFlash",
+   "shadow",
+   "stroke",
+   "tabItem",
+   "task",
+   "toggleStyle"
+  ],
+  "types": [
+   "AsyncImage",
+   "Button",
+   "CheckboxToggleStyle",
+   "Circle",
+   "Color",
+   "Divider",
+   "FetchRequest",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationStack",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "clear",
+   "custom",
+   "headline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "bottom",
+   "center",
+   "circular",
+   "clear",
+   "fill",
+   "gray",
+   "horizontal",
+   "leading",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "managedObjectContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 24,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 77
+}

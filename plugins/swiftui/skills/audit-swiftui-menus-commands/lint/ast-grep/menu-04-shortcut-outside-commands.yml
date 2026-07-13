@@ -1,0 +1,23 @@
+# menu-04 (structural): a .keyboardShortcut(...) call that is NOT inside a .commands { } block AND not
+# inside a CommandMenu/CommandGroup closure = a shortcut on a buried in-window control. It fires only
+# while that control is focused and renders NOTHING in the menu bar. The app-global, discoverable home
+# for a shortcut is a menu item. grep finds every keyboardShortcut; this scopes it to the misplaced ones.
+# READ the file: a deliberately view-local shortcut (e.g. a focus-cycling key) can be legitimate — the
+# engine only LOCATES. Move app-wide actions into .commands. Anchored on `kind: call_expression`.
+id: menu-04-shortcut-outside-commands
+language: Swift
+severity: warning
+message: >-
+  menu-04: a .keyboardShortcut() is NOT inside .commands { } / CommandMenu / CommandGroup — a buried
+  in-window control. It fires only while focused and shows nothing in the menu bar. The app-global home
+  for a shortcut is a menu item; move the action into .commands. READ to confirm it is meant to be global.
+rule:
+  kind: call_expression
+  pattern: $R.keyboardShortcut($$$A)
+  not:
+    inside:
+      any:
+        - pattern: $S.commands { $$$CMDBODY }
+        - pattern: CommandMenu($$$M) { $$$MBODY }
+        - pattern: CommandGroup($$$G) { $$$GBODY }
+      stopBy: end

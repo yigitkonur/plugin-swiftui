@@ -1,0 +1,170 @@
+{
+ "repo": "mchakravarty/CodeEditorView",
+ "stars": 902,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5386056ab53d43363083cb96069715a9608aa048",
+ "platform": "macos",
+ "author_authority": 1918,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mchakravarty",
+   "score": 1918,
+   "contributions": 324
+  },
+  {
+   "login": "barnettben",
+   "score": 1817,
+   "contributions": 5
+  },
+  {
+   "login": "kkebo",
+   "score": 122813,
+   "contributions": 4
+  }
+ ],
+ "loc": 11629,
+ "custom_components": 37,
+ "imports": [
+  "AppKit",
+  "CodeEditorView",
+  "Combine",
+  "Foundation",
+  "LanguageSupport",
+  "PackageDescription",
+  "PlaygroundSupport",
+  "Rearrange",
+  "RegexBuilder",
+  "SwiftUI",
+  "System",
+  "Testing",
+  "UIKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "cornerRadius",
+   "environment",
+   "fill",
+   "fixedSize",
+   "focusEffectDisabled",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "hidden",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "listRowInsets",
+   "listRowSeparator",
+   "modifier",
+   "offset",
+   "onAppear",
+   "onPreferenceChange",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preference",
+   "preferredColorScheme",
+   "shadow",
+   "sizeThatFits",
+   "stroke",
+   "transition",
+   "truncationMode"
+  ],
+  "types": [
+   "Angle",
+   "AnyView",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "EdgeInsets",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "NSHostingController",
+   "OpenURLAction",
+   "Path",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ViewThatFits",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "heavy",
+   "light",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "thin",
+   "ultraLight"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "clear",
+   "gray",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "separator",
+   "top",
+   "topTrailing",
+   "trailing",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "Observable",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 25,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 93
+}

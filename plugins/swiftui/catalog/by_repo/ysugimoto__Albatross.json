@@ -1,0 +1,59 @@
+{
+ "repo": "ysugimoto/Albatross",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "046a2d49e17c1927cad3df8885714da16f130ec1",
+ "platform": "macos",
+ "author_authority": 2034,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ysugimoto",
+   "score": 2034,
+   "contributions": 32
+  }
+ ],
+ "loc": 1466,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "Yams"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "defaultLaunchBehavior",
+   "restorationBehavior"
+  ],
+  "types": [
+   "EmptyView",
+   "Settings"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 5
+}

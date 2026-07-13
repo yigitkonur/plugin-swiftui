@@ -1,0 +1,149 @@
+{
+ "repo": "fig7/StuPlayer",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "aaad8737fe9589f80b95be941c4de444dc46130f",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "fig7",
+   "score": 0,
+   "contributions": 101
+  }
+ ],
+ "loc": 5969,
+ "custom_components": 47,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "OSLog",
+  "SFBAudioEngine",
+  "StoreKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "allowsHitTesting",
+   "aspectRatio",
+   "autocorrectionDisabled",
+   "background",
+   "bold",
+   "commands",
+   "contentShape",
+   "defaultSize",
+   "disabled",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "hidden",
+   "keyboardShortcut",
+   "lineLimit",
+   "monospaced",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "resizable",
+   "stroke",
+   "textFieldStyle",
+   "textSelection",
+   "toggleStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "UnitPoint",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "headline",
+   "semibold",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "center",
+   "checkbox",
+   "clear",
+   "gray",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "red",
+   "roundedBorder",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "appearsActive",
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 37,
+  "types": 24,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 17,
+  "propertyWrappers": 7,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 91
+}

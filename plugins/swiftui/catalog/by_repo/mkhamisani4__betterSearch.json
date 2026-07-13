@@ -1,0 +1,134 @@
+{
+ "repo": "mkhamisani4/betterSearch",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "94a829206f1cf603eb608b111aceb0ce1e43dbf6",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mkhamisani4",
+   "score": 3,
+   "contributions": 3
+  }
+ ],
+ "loc": 518,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Darwin",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "controlSize",
+   "defaultLaunchBehavior",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelStyle",
+   "lineLimit",
+   "offset",
+   "onAppear",
+   "onHover",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "truncationMode",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "ContentUnavailableView",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "LinearGradient",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeOut",
+   "medium",
+   "semibold",
+   "subheadline",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "bottomTrailing",
+   "horizontal",
+   "iconOnly",
+   "leading",
+   "roundedBorder",
+   "segmented",
+   "topLeading",
+   "topTrailing",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 23,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 79
+}

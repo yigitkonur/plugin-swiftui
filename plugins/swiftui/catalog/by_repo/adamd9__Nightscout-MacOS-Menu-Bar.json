@@ -1,0 +1,149 @@
+{
+ "repo": "adamd9/Nightscout-MacOS-Menu-Bar",
+ "stars": 28,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3eaa172e3eda5e95d0859730391c46585fd85288",
+ "platform": "macos",
+ "author_authority": 34608,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "adamd9",
+   "score": 34608,
+   "contributions": 67
+  },
+  {
+   "login": "pertzis",
+   "score": 0,
+   "contributions": 2
+  },
+  {
+   "login": "adamdWalkMe",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 2310,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Charts",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "Nightscout_Menu_Bar",
+  "ServiceManagement",
+  "SwiftUI",
+  "SystemConfiguration",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "chartXAxis",
+   "chartXScale",
+   "chartYAxis",
+   "chartYScale",
+   "clipShape",
+   "disabled",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "layoutPriority",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onPreferenceChange",
+   "onReceive",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "preference",
+   "resizable",
+   "scaledToFit",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Alert",
+   "AxisGridLine",
+   "AxisMarks",
+   "AxisTick",
+   "AxisValueLabel",
+   "Binding",
+   "Button",
+   "Chart",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LineMark",
+   "NSHostingController",
+   "NSHostingView",
+   "Picker",
+   "PlainButtonStyle",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "light",
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "checkbox",
+   "hidden",
+   "leading",
+   "primary",
+   "quinary",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "topTrailing",
+   "visible",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 27,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 78
+}

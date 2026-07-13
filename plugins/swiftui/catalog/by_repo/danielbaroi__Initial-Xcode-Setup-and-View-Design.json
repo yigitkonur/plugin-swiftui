@@ -1,0 +1,119 @@
+{
+ "repo": "danielbaroi/Initial-Xcode-Setup-and-View-Design",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f4be99d9476a354ec5ea95e0a557dbc8b9f46e61",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "danielbaroi",
+   "score": 0,
+   "contributions": 5
+  }
+ ],
+ "loc": 613,
+ "custom_components": 19,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Initial_Xcode_Setup_and_View_Design",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "clipped",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "multilineTextAlignment",
+   "onAppear",
+   "onTapGesture",
+   "padding",
+   "resizable",
+   "safeAreaInset",
+   "scaledToFill",
+   "sheet",
+   "tabItem",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "NavigationView",
+   "ScrollView",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "clear",
+   "gray",
+   "horizontal",
+   "leading",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 17,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

@@ -1,0 +1,120 @@
+{
+ "repo": "TheEZProducts/SwiftEZSDK",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "afaf1683831a6976f1083ecb1405d95044bd26fe",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "TheEZProducts",
+   "score": 0,
+   "contributions": 1
+  },
+  {
+   "login": "nersonSwift",
+   "score": 2,
+   "contributions": 1
+  }
+ ],
+ "loc": 27457,
+ "custom_components": 22,
+ "imports": [
+  "Android",
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CompilerPluginSupport",
+  "Darwin",
+  "EZAssociatedKit",
+  "EZAsyncKit",
+  "EZBuilderKit",
+  "EZChannelKit",
+  "EZHelpersKit",
+  "EZIMVPackKit",
+  "EZMacrosKit",
+  "EZObservableKit",
+  "EZSUIPackKit",
+  "EZSwiftUIBridgeKit",
+  "EZTransitionKit",
+  "EZUIPackKit",
+  "Foundation",
+  "Glibc",
+  "PackageDescription",
+  "PackagePlugin",
+  "RegexBuilder",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "XcodeProjectPlugin",
+  "ucrt"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "id",
+   "ignoresSafeArea",
+   "onAppear",
+   "onDisappear"
+  ],
+  "types": [
+   "AnyLayout",
+   "AnyView",
+   "Button",
+   "Color",
+   "Group",
+   "HStackLayout",
+   "NSHostingView",
+   "NavigationView",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "VStack",
+   "VStackLayout",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "clear",
+   "hidden",
+   "red",
+   "secondary",
+   "sidebar",
+   "trailing",
+   "unified",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 14,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 36
+}

@@ -1,0 +1,130 @@
+{
+ "repo": "ouwargui/schedy",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b38435b1a4dfd2f819667729e6e8e7287f5bc026",
+ "platform": "macos",
+ "author_authority": 78629,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ouwargui",
+   "score": 78629,
+   "contributions": 134
+  }
+ ],
+ "loc": 2940,
+ "custom_components": 20,
+ "imports": [
+  "AppAuth",
+  "AppAuthCore",
+  "AppKit",
+  "Foundation",
+  "GTMAppAuth",
+  "GTMSessionFetcherCore",
+  "GoogleAPIClientForREST_Calendar",
+  "KeyboardShortcuts",
+  "Schedy",
+  "Sparkle",
+  "SwiftData",
+  "SwiftUI",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "buttonBorderShape",
+   "commands",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundStyle",
+   "help",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "navigationSplitViewColumnWidth",
+   "navigationTitle",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "padding",
+   "pointerStyle",
+   "tag",
+   "toolbar",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "ContentUnavailableView",
+   "Divider",
+   "FetchDescriptor",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "List",
+   "Menu",
+   "MenuBarExtra",
+   "NavigationLink",
+   "NavigationSplitView",
+   "Picker",
+   "ProgressView",
+   "SidebarCommands",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "push",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading",
+   "link",
+   "menu",
+   "primaryAction",
+   "secondary",
+   "titleBar"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 25,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 9,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 67
+}

@@ -1,0 +1,101 @@
+{
+ "repo": "fwcd/enter",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "49f86bf958cf2a628d0009bf21b3018c50b5051f",
+ "platform": "macos",
+ "author_authority": 4268,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "fwcd",
+   "score": 4268,
+   "contributions": 36
+  }
+ ],
+ "loc": 577,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "Charts",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "aspectRatio",
+   "background",
+   "chartXScale",
+   "contentShape",
+   "environment",
+   "fill",
+   "focusEffectDisabled",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelStyle",
+   "modifier",
+   "onAppear",
+   "onKeyPress",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "safeAreaInset",
+   "stroke"
+  ],
+  "types": [
+   "Chart",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LineMark",
+   "Rectangle",
+   "RoundedRectangle",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "clear",
+   "foreground",
+   "keyboard",
+   "top",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 12,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

@@ -1,0 +1,4572 @@
+{
+ "View": {
+  "repo_count": 1690,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    2603
+   ],
+   [
+    "Imagine-That-Ai/BurnBar",
+    1138
+   ],
+   [
+    "doxuto/kavsoft-animation",
+    1093
+   ],
+   [
+    "yigitkonur/SWComp",
+    993
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    885
+   ],
+   [
+    "mherrera53/GitMac",
+    787
+   ],
+   [
+    "smykla-skalski/harness",
+    754
+   ],
+   [
+    "instructure/canvas-ios",
+    689
+   ],
+   [
+    "anyproto/anytype-swift",
+    643
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    626
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "SettingsView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/SettingsView.swift#L11"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ContentView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/ContentView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "AppMenu",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/AppMenu.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ImageListView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/ImageListView.swift#L14"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "LoadImageView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/LoadImageView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "BuildImageView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/BuildImageView.swift#L13"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "SaveImageView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/SaveImageView.swift#L14"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "AddRemoteImageView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/AddRemoteImageView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "LocalImagePickingView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Image/LocalImagePickingView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "InUseContainersView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/InUseContainersView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ContainerDetailView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/ContainerDetailView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ContainerLogsView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/ContainerDetailView.swift#L283"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "CreateContainerView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/CreateContainerView.swift#L31"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "VolumeRow",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/CreateContainerView.swift#L376"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ContainerListView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Container/ContainerListView.swift#L12"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ExecutableUnavailableView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/ExecutableUnavailableView.swift#L11"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "ExecutableEditView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/ExecutableUnavailableView.swift#L123"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "FileSelectView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/FileSelectView.swift#L29"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "AddableRow",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/AddableRow.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "KeyValuesEditView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/KeyValuesEditView.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "KeyValuesDisplayView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/KeyValuesDisplayView.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "CustomProgressView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/CustomProgressView.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "SearchBox",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/SearchBox.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "SystemStoppedView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/SystemStoppedView.swift#L10"
+   },
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "VolumePickingView",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Volume/VolumePickingView.swift#L13"
+   }
+  ]
+ },
+ "App": {
+  "repo_count": 1517,
+  "top_repos": [
+   [
+    "doxuto/kavsoft-animation",
+    349
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    327
+   ],
+   [
+    "jaywcjlove/swiftui-example",
+    230
+   ],
+   [
+    "yungfan/SwiftUI-learning",
+    214
+   ],
+   [
+    "MatHeartGaming/coolStuff_with_SwiftUI",
+    172
+   ],
+   [
+    "munsangu/SwiftUI",
+    143
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    85
+   ],
+   [
+    "stevencurtis/SwiftCoding",
+    67
+   ],
+   [
+    "wigging/swift-macos",
+    58
+   ],
+   [
+    "GREENOVER/playground",
+    55
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "AppleContainerDesktopApp",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/AppleContainerDesktopApp.swift#L11"
+   },
+   {
+    "repo": "0Itsuki0/SwiftChartsDemo",
+    "name": "SwiftChartDemoApp",
+    "permalink": "https://github.com/0Itsuki0/SwiftChartsDemo/blob/3dcc1701c28e6dbda4d20e41ef8c0b6bd98bc70a/SwiftChartDemo/SwiftChartDemoApp.swift#L11"
+   },
+   {
+    "repo": "0boluan0/Chronicle",
+    "name": "ChronicleApp",
+    "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/ChronicleApp.swift#L11"
+   },
+   {
+    "repo": "0x1b2c/Yomi",
+    "name": "YomiApp",
+    "permalink": "https://github.com/0x1b2c/Yomi/blob/1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa/Yomi/YomiApp.swift#L25"
+   },
+   {
+    "repo": "0xAdiyat/Oto",
+    "name": "OtoApp",
+    "permalink": "https://github.com/0xAdiyat/Oto/blob/d6918c98b2a493b1a7049eb1fd55e3f00a8372c4/Oto/OtoApp.swift#L51"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "wBlockApp",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/wBlockApp.swift#L12"
+   },
+   {
+    "repo": "0xatrilla/Repo-Radar",
+    "name": "Repo_RadarApp",
+    "permalink": "https://github.com/0xatrilla/Repo-Radar/blob/a4779a74e98853b4140226fc712962e038c32f3f/Repo Radar/Repo_RadarApp.swift#L14"
+   },
+   {
+    "repo": "0xdw/PM2-GUI",
+    "name": "PM2GUIApp",
+    "permalink": "https://github.com/0xdw/PM2-GUI/blob/8c215c3de447391e9f0b472a7dcbce9bcf8bc9a0/PM2GUI/PM2GUIApp.swift#L11"
+   },
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "iOSLearnApp",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/iOSLearnApp.swift#L11"
+   },
+   {
+    "repo": "1989v/muxbar",
+    "name": "MuxBarApp",
+    "permalink": "https://github.com/1989v/muxbar/blob/17ff17c6387d8b9be239237f1955b6a2091d52c6/Sources/MuxBarApp/MuxBarApp.swift#L10"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "TVApp",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashyTV/TVApp.swift#L13"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "ClaudeVisorApp",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/App/ClaudeVisorApp.swift#L11"
+   },
+   {
+    "repo": "ADITYAGABA1322/ExoVerse",
+    "name": "WorldApp",
+    "permalink": "https://github.com/ADITYAGABA1322/ExoVerse/blob/9b24329e0f83a218797fa69cb623fa4df3c7eb3e/ExoVerse/WorldApp.swift#L6"
+   },
+   {
+    "repo": "AHES03/MusicTagger",
+    "name": "MT_UIApp",
+    "permalink": "https://github.com/AHES03/MusicTagger/blob/98cec46f7f183adae3bd9bf17a4e2ec7f7e3527c/MT_UI/MusicTaggerApp.swift#L122"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "MiniatureApp",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/Miniature/MiniatureApp.swift#L5"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "SIGAI_v3App",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/SIGAIApp.swift#L26"
+   },
+   {
+    "repo": "Aayush9029/Crisp",
+    "name": "CrispApp",
+    "permalink": "https://github.com/Aayush9029/Crisp/blob/5ad57a78f40d1c5582bb0aaa26f9157d5eae217b/Crisp/App/CrispApp.swift#L5"
+   },
+   {
+    "repo": "Aayush9029/NativeYoutube",
+    "name": "NativeYoutubeApp",
+    "permalink": "https://github.com/Aayush9029/NativeYoutube/blob/1ee58e87484f24554dd1233321ec9871eb38ecb6/NativeYoutube/NativeYoutubeApp.swift#L8"
+   },
+   {
+    "repo": "AbodiDawoud/FinderFC",
+    "name": "FinderFileCreatorApp",
+    "permalink": "https://github.com/AbodiDawoud/FinderFC/blob/15f51163e3a6cdba9ea621f51ff61d617084da7a/FinderFileCreator/App.swift#L8"
+   },
+   {
+    "repo": "AcrylicMadness/Dynapaper",
+    "name": "DynapaperApp",
+    "permalink": "https://github.com/AcrylicMadness/Dynapaper/blob/e3ab7b37a6040acc0c9c992e11a737844e173b2b/Dynapaper/DynapaperApp.swift#L11"
+   },
+   {
+    "repo": "ActuallyTaylor/OpenCANMonitor",
+    "name": "OpenCANMonitorApp",
+    "permalink": "https://github.com/ActuallyTaylor/OpenCANMonitor/blob/e45372aa9a107274d523e816b12e75fec584055f/OpenCANMonitor/CanMonitorApp.swift#L11"
+   },
+   {
+    "repo": "AdityaMuthukattu/blink",
+    "name": "blinkApp",
+    "permalink": "https://github.com/AdityaMuthukattu/blink/blob/7b095026ae96e19a4ebf6ece897c026d7b361cdb/blink/blinkApp.swift#L7"
+   },
+   {
+    "repo": "AdityasCode/fanforge",
+    "name": "FanForgeApp",
+    "permalink": "https://github.com/AdityasCode/fanforge/blob/4cf66d4d3ca8dbb3255aa03bfad7ef636a2c5b88/App/FanForgeApp.swift#L5"
+   },
+   {
+    "repo": "AerialScreensaver/Aerial",
+    "name": "AerialCompanionApp",
+    "permalink": "https://github.com/AerialScreensaver/Aerial/blob/84b6849ccea25a64616235afae9701be79d32cbb/Aerial/AerialCompanionApp.swift#L11"
+   },
+   {
+    "repo": "AgarwalAarush/Wave",
+    "name": "WaveApp",
+    "permalink": "https://github.com/AgarwalAarush/Wave/blob/30937a2c59213a7aee4d71e51ba9a318395f0822/Wave/WaveApp.swift#L5"
+   }
+  ]
+ },
+ "NSViewRepresentable": {
+  "repo_count": 749,
+  "top_repos": [
+   [
+    "manaflow-ai/cmux",
+    64
+   ],
+   [
+    "xpadev-net/ccx-t1",
+    57
+   ],
+   [
+    "feritzcan2/termloop",
+    41
+   ],
+   [
+    "kageroumado/refrax-browser",
+    37
+   ],
+   [
+    "FedyaLight/sumi-webkit",
+    29
+   ],
+   [
+    "mherrera53/GitMac",
+    26
+   ],
+   [
+    "nook-browser/Nook",
+    26
+   ],
+   [
+    "ThinkInAIXYZ/clawdhome",
+    25
+   ],
+   [
+    "Ebullioscopic/Atoll",
+    24
+   ],
+   [
+    "bradwilson331/cmux-linux",
+    24
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0boluan0/Chronicle",
+    "name": "WindowConfigurationBridge",
+    "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/App/AppWindowScenes.swift#L43"
+   },
+   {
+    "repo": "0boluan0/Chronicle",
+    "name": "MouseXTrackingView",
+    "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/Views/MarkerTimelineView.swift#L666"
+   },
+   {
+    "repo": "0x1b2c/Yomi",
+    "name": "WindowAccessor",
+    "permalink": "https://github.com/0x1b2c/Yomi/blob/1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa/Yomi/WindowManager.swift#L59"
+   },
+   {
+    "repo": "0x1b2c/Yomi",
+    "name": "FuriganaTextView",
+    "permalink": "https://github.com/0x1b2c/Yomi/blob/1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa/Yomi/FuriganaTextView.swift#L24"
+   },
+   {
+    "repo": "0xAdiyat/Oto",
+    "name": "FocusRingSuppressor",
+    "permalink": "https://github.com/0xAdiyat/Oto/blob/d6918c98b2a493b1a7049eb1fd55e3f00a8372c4/Oto/UI/OtoTheme.swift#L295"
+   },
+   {
+    "repo": "0xAdiyat/Oto",
+    "name": "SettingsWindowConfigurator",
+    "permalink": "https://github.com/0xAdiyat/Oto/blob/d6918c98b2a493b1a7049eb1fd55e3f00a8372c4/Oto/UI/Settings/SettingsScene.swift#L906"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "CodeMirrorTextEditor",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/CodeMirrorTextEditor.swift#L133"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "SyntaxHighlightingTextView",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/SyntaxHighlightingTextView.swift#L11"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "MonospacedTextView",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/MonospacedTextView.swift#L6"
+   },
+   {
+    "repo": "1989v/muxbar",
+    "name": "AttributedTextView",
+    "permalink": "https://github.com/1989v/muxbar/blob/17ff17c6387d8b9be239237f1955b6a2091d52c6/Sources/Features/SessionPreview/SessionPreviewView.swift#L25"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "MultiLineInput",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ChatView.swift#L3283"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "ChatScrollBridgeRegistrar",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ChatView.swift#L3654"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "SoundTypePicker",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Settings/Sounds/SoundTypePicker.swift#L10"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "WindowCloseInterceptor",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Settings/Skills/SkillDetailView.swift#L642"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "HeaderDragAreaView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatWindowHeaderView.swift#L208"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "HeaderMenuAnchorView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatWindowHeaderView.swift#L441"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ChatWindowFileDropBindingView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatWindowFileDropOverlay.swift#L26"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ChatMainWindowDragAreaRepresentable",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatMainWindowView.swift#L638"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ChatMainWindowAnchorView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatMainWindowView.swift#L1085"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ChatWindowUpdateNotificationHoverTracker",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/PanelViews/ChatWindowUpdateNotification.swift#L250"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "SkillContentWebView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/SkillImport/SkillImportView.swift#L231"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "NativeVideoPlayer",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/SkillImport/SkillMediaCarousel.swift#L6"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "MenuAnchorView",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Conversation/ConversationListMenu+PopupSearch.swift#L759"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ConversationListScrollContainer",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Conversation/ConversationListMenu.swift#L685"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "ConversationListNativeScrollViewConfigurator",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Conversation/ConversationListMenu.swift#L699"
+   }
+  ]
+ },
+ "ViewModifier": {
+  "repo_count": 683,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    120
+   ],
+   [
+    "smykla-skalski/harness",
+    116
+   ],
+   [
+    "chocoford/ExcalidrawZ",
+    110
+   ],
+   [
+    "StitchDesign/Stitch",
+    86
+   ],
+   [
+    "schatt/sixlayer",
+    81
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    69
+   ],
+   [
+    "raindropio/ios",
+    67
+   ],
+   [
+    "leoPark220716/KpMedicalRefactor",
+    56
+   ],
+   [
+    "anyproto/anytype-swift",
+    53
+   ],
+   [
+    "jasudev/FabulaItemsProvider",
+    53
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "OnChangeCompatModifier",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/SwiftUICompatibility.swift#L20"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "SearchMinimizeBehavior",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/LiquidGlassDesignSystem.swift#L176"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "UnifiedTabListStyleModifier",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/UnifiedTabUI.swift#L31"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "UnifiedTabCardSectionRowModifier",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/UnifiedTabUI.swift#L42"
+   },
+   {
+    "repo": "0xCUB3/wBlock",
+    "name": "ContentModifiers",
+    "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/ContentView.swift#L632"
+   },
+   {
+    "repo": "0xdw/PM2-GUI",
+    "name": "LiquidGlassEffect",
+    "permalink": "https://github.com/0xdw/PM2-GUI/blob/8c215c3de447391e9f0b472a7dcbce9bcf8bc9a0/PM2GUI/Views/ProcessListView.swift#L605"
+   },
+   {
+    "repo": "0xdw/PM2-GUI",
+    "name": "LiquidGlassTextFieldStyle",
+    "permalink": "https://github.com/0xdw/PM2-GUI/blob/8c215c3de447391e9f0b472a7dcbce9bcf8bc9a0/PM2GUI/Views/ProcessListView.swift#L683"
+   },
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "CustomModifier",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/UI/EventModifiersDemoView.swift#L44"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "SceneLiveUpdatesModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/SharedUtilities.swift#L92"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "ShimmerModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/SharedUtilities.swift#L561"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "SkeletonModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/SharedUtilities.swift#L592"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "ToastModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/ToastManager.swift#L100"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "SceneDetailAlertModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/SceneDetailView.swift#L979"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "SceneDetailLifecycleModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/SceneDetailView.swift#L1007"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "StashSyncManagerModifier",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/ReelsView.swift#L4055"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "TVExitCommandDismiss",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashyTV/TVNavigationTypes.swift#L59"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "TVNavigationDestinations",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashyTV/TVNavigationTypes.swift#L80"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "ChatScaledFont",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ChatView.swift#L32"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "IdentityScrollAnchor",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ChatView.swift#L3605"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "ScrollGeometryModifier",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ChatView.swift#L3624"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ScrollTargetLayoutViewModifier",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/compatibility/ScrollView_18.swift#L10"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ScrollTargetBehaviorViewModifier",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/compatibility/ScrollView_18.swift#L22"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "DefaultScrollAnchorViewModifier",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/compatibility/ScrollView_18.swift#L50"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ScrollPositionViewModifier",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/compatibility/ScrollView_18.swift#L79"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ListBackgroundColor",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/compatibility/ListBackgroundColor.swift#L4"
+   }
+  ]
+ },
+ "ButtonStyle": {
+  "repo_count": 430,
+  "top_repos": [
+   [
+    "duckduckgo/apple-browsers",
+    50
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    43
+   ],
+   [
+    "Automattic/pocket-casts-ios",
+    34
+   ],
+   [
+    "ProtonVPN/ios-mac-app",
+    32
+   ],
+   [
+    "Moonfin-Client/tvOS",
+    21
+   ],
+   [
+    "hehehai/voxt",
+    16
+   ],
+   [
+    "jonzey231/AerioTV",
+    14
+   ],
+   [
+    "Azor287/KazumiTV",
+    13
+   ],
+   [
+    "Drvolks/StreamClient",
+    13
+   ],
+   [
+    "FedyaLight/sumi-webkit",
+    13
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0Itsuki0/AppleContainerDesktop",
+    "name": "CustomButtonStyle",
+    "permalink": "https://github.com/0Itsuki0/AppleContainerDesktop/blob/2595351b2268f4f5a9bddce5ff620edc2efbd9b1/AppleContainerDesktop/Views/Components/CustomButtonStyle.swift#L10"
+   },
+   {
+    "repo": "0xdw/PM2-GUI",
+    "name": "NeonGlowButtonStyle",
+    "permalink": "https://github.com/0xdw/PM2-GUI/blob/8c215c3de447391e9f0b472a7dcbce9bcf8bc9a0/PM2GUI/Views/ProcessListView.swift#L571"
+   },
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "CustonButtonStyle",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/Views/ButtonDemoView.swift#L82"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "NumberPadButtonStyle",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/configuration/privacy and security/app access/NumberPadView.swift#L194"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ScaleButtonStyle",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/style/ScaledButtonStyle.swift#L25"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ButtonStyle_NavigationLink",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/style/NavigationLinkStyle.swift#L23"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "PillButtonStyle",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Extension/Extension+ButtonStyle.swift#L3"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "OnPressButtonStyle",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Helpers/OnPressButtonStyle.swift#L10"
+   },
+   {
+    "repo": "AHES03/MusicTagger",
+    "name": "PrimaryButtonStyle",
+    "permalink": "https://github.com/AHES03/MusicTagger/blob/98cec46f7f183adae3bd9bf17a4e2ec7f7e3527c/MT_UI/Views/CustomButtons.swift#L10"
+   },
+   {
+    "repo": "AHES03/MusicTagger",
+    "name": "SecondaryButtonStyle",
+    "permalink": "https://github.com/AHES03/MusicTagger/blob/98cec46f7f183adae3bd9bf17a4e2ec7f7e3527c/MT_UI/Views/CustomButtons.swift#L23"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "BlueButton",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Developer/WeeklyRoundupDebugScreen.swift#L5"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "SubscribeButtonStyle",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Post/Publishing/Views/PrepublishingSocialAccountsTableFooterView.swift#L76"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "SubscribeButtonStyle",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Post/Prepublishing/PrepublishingSocialAccountsTableFooterView.swift#L76"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "ScalingButtonStyle",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/DesignSystem/Components/DSButtonStyle.swift#L51"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "PrimaryButtonStyle",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/DesignSystem/Components/ButtonStyles.swift#L8"
+   },
+   {
+    "repo": "Aayush9029/NativeYoutube",
+    "name": "LicenseDarkActionButtonStyle",
+    "permalink": "https://github.com/Aayush9029/NativeYoutube/blob/1ee58e87484f24554dd1233321ec9871eb38ecb6/NativeYoutube/License/LicensePromptComponents.swift#L43"
+   },
+   {
+    "repo": "Afcoo/shortcut-dictionary",
+    "name": "NextButton",
+    "permalink": "https://github.com/Afcoo/shortcut-dictionary/blob/9459b00dcda4d1084e0d26f48b24cb5396a4e131/ShortcutDictionary/Views/OnboardingView.swift#L131"
+   },
+   {
+    "repo": "AhmedRagab99/GitWizard",
+    "name": "ModernButtonStyle",
+    "permalink": "https://github.com/AhmedRagab99/GitWizard/blob/ac93f9c3b89bd66018fe4caf618047bedf849f73/GitApp/Core/Extensions/ModernButtonStyle.swift#L24"
+   },
+   {
+    "repo": "AkshayKrGupta/NanoPress",
+    "name": "GradientButtonStyle",
+    "permalink": "https://github.com/AkshayKrGupta/NanoPress/blob/d6369cddecd9819a545c5a0f71171ad312d3cbf2/Sources/NanoPress/Views/Components/DesignSystem.swift#L223"
+   },
+   {
+    "repo": "AkshayKrGupta/NanoPress",
+    "name": "PremiumButtonStyle",
+    "permalink": "https://github.com/AkshayKrGupta/NanoPress/blob/d6369cddecd9819a545c5a0f71171ad312d3cbf2/Sources/NanoPress/Views/Components/Components.swift#L39"
+   },
+   {
+    "repo": "Amcinox/MirageDock",
+    "name": "EditorCardButtonStyle",
+    "permalink": "https://github.com/Amcinox/MirageDock/blob/9300fc38658066fe3dc53fbb595c291012e86b78/Views/SettingsView.swift#L339"
+   },
+   {
+    "repo": "Pixley-Growth/PixleyReader",
+    "name": "FolderButtonStyle",
+    "permalink": "https://github.com/Pixley-Growth/PixleyReader/blob/cb70510884dd6800c12027b531ad23a9cf5ccb43/Sources/Views/Screens/StartView.swift#L451"
+   },
+   {
+    "repo": "Pixley-Growth/PixleyReader",
+    "name": "MascotButtonStyle",
+    "permalink": "https://github.com/Pixley-Growth/PixleyReader/blob/cb70510884dd6800c12027b531ad23a9cf5ccb43/Sources/Views/Screens/StartView.swift#L504"
+   },
+   {
+    "repo": "Archimedes4/Social-Activity",
+    "name": "StatusButtonStyle",
+    "permalink": "https://github.com/Archimedes4/Social-Activity/blob/f07e96bc0286704d931d5d55dad30bf809225802/Social_Activity/HomeView.swift#L58"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "MusicControlButton",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/MusicPlayerWidget/MusicControlButton.swift#L10"
+   }
+  ]
+ },
+ "PreviewProvider": {
+  "repo_count": 402,
+  "top_repos": [
+   [
+    "doxuto/kavsoft-animation",
+    852
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    454
+   ],
+   [
+    "huangboju/Moots",
+    324
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    298
+   ],
+   [
+    "jasudev/FabulaItemsProvider",
+    290
+   ],
+   [
+    "yungfan/SwiftUI-learning",
+    242
+   ],
+   [
+    "jaywcjlove/swiftui-example",
+    235
+   ],
+   [
+    "instructure/canvas-ios",
+    163
+   ],
+   [
+    "pommdau/swiftui-practice",
+    153
+   ],
+   [
+    "andychucs/ReNextNavi",
+    135
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "AboutView_Previews",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/configuration/general/AboutView.swift#L46"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "WeeklyRoundupDebugScreen_Preview",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Developer/WeeklyRoundupDebugScreen.swift#L231"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "StoreSandboxSecretScreen_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Developer/StoreSandboxSecretScreen.swift#L55"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "DynamicDashboardCard_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Blog/Blog Dashboard/Cards/Dynamic/DynamicDashboardCard.swift#L134"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "DomainPurchaseChoicesView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Me/All Domains/Views/DomainPurchaseChoicesView.swift#L209"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "AllDomainsListCardView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Me/All Domains/Views/AllDomainsListCardView.swift#L159"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenMultiStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/LockScreenWidgets/Views/LockScreenMultiStatView.swift#L63"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenUnconfiguredView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/LockScreenWidgets/Views/LockScreenUnconfiguredView.swift#L24"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenSingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/LockScreenWidgets/Views/LockScreenSingleStatView.swift#L28"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenMultiStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenMultiStatView.swift#L63"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenUnconfiguredView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenUnconfiguredView.swift#L24"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenSingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenSingleStatView.swift#L28"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "PlaceholderView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Sources/Views/UnconfiguredView.swift#L54"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "SingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Sources/Views/SingleStatView.swift#L50"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "PlaceholderView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Views/UnconfiguredView.swift#L54"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "SingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/JetpackStatsWidgets/Views/SingleStatView.swift#L50"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenMultiStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenMultiStatView.swift#L63"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenUnconfiguredView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenUnconfiguredView.swift#L24"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "LockScreenSingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/JetpackStatsWidgets/Sources/LockScreenWidgets/Views/LockScreenSingleStatView.swift#L28"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "PlaceholderView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/JetpackStatsWidgets/Sources/Views/UnconfiguredView.swift#L54"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "SingleStatView_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Sources/JetpackStatsWidgets/Sources/Views/SingleStatView.swift#L50"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "UserChangePasswordViewPreviews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/WordPressUI/Views/Users/Views/UserChangePasswordView.swift#L53"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "DSButton_Previews",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/DesignSystem/Components/DSButton.swift#L159"
+   },
+   {
+    "repo": "AbodiDawoud/FinderFC",
+    "name": "CodeEditor_Previews",
+    "permalink": "https://github.com/AbodiDawoud/FinderFC/blob/15f51163e3a6cdba9ea621f51ff61d617084da7a/CodeEditor/Sources/CodeEditor/CodeEditor.swift#L341"
+   },
+   {
+    "repo": "AbodiDawoud/FinderFC",
+    "name": "UXCodeTextViewRepresentable_Previews",
+    "permalink": "https://github.com/AbodiDawoud/FinderFC/blob/15f51163e3a6cdba9ea621f51ff61d617084da7a/CodeEditor/Sources/CodeEditor/UXCodeTextViewRepresentable.swift#L322"
+   }
+  ]
+ },
+ "Shape": {
+  "repo_count": 313,
+  "top_repos": [
+   [
+    "doxuto/kavsoft-animation",
+    55
+   ],
+   [
+    "jasudev/FabulaItemsProvider",
+    46
+   ],
+   [
+    "Imagine-That-Ai/BurnBar",
+    42
+   ],
+   [
+    "chocoford/ExcalidrawZ",
+    37
+   ],
+   [
+    "ijuanlux/macbroom",
+    20
+   ],
+   [
+    "Sharnabh/MindFlow",
+    15
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    15
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    14
+   ],
+   [
+    "the-ora/browser",
+    14
+   ],
+   [
+    "StitchDesign/Stitch",
+    10
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0boluan0/Chronicle",
+    "name": "MarkerClipIndicator",
+    "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/Views/MarkerTimelineView.swift#L580"
+   },
+   {
+    "repo": "0xatrilla/Repo-Radar",
+    "name": "LineShape",
+    "permalink": "https://github.com/0xatrilla/Repo-Radar/blob/a4779a74e98853b4140226fc712962e038c32f3f/Repo Radar/AnalyticsCharts.swift#L223"
+   },
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "Face",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/Animation/AnimationCustomShapeDemoView.swift#L32"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "HotOrNotPhotoTopClipShape",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/HotOrNotToolsView.swift#L523"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "NotchShape",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Components/NotchShape.swift#L10"
+   },
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "RoundedCorner",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ToolResultViews.swift#L2485"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "Line",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/utils/shapes.swift#L3"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "RoundedCorner",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/utils/shapes.swift#L13"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "ChevronShape",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/widgets/AnimatedChevron.swift#L3"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "AnimatedLogoPath",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Components/AnimatedLogo.swift#L10"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "RoundedCorner",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/JetpackStats/Screens/ChartDataListView.swift#L231"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeB",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L10"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeM",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L44"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeF",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L78"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "StarScatterShape",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L112"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeBLong",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L133"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeMLong",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L173"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "CloudShapeFLong",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L207"
+   },
+   {
+    "repo": "AINAL/SIGAI",
+    "name": "StarScatterShapeLong",
+    "permalink": "https://github.com/AINAL/SIGAI/blob/61beb275b35ddec3c2575e31f8c454ff46f13800/SIGAI/others/cloudShape.swift#L266"
+   },
+   {
+    "repo": "AlexGladkov/Spacie",
+    "name": "DonutSlice",
+    "permalink": "https://github.com/AlexGladkov/Spacie/blob/21d1dbd13c61bf52347c49e3c7d3cbf21bf8e1da/Spacie/Features/Visualization/Shared/YellowPhaseOverview.swift#L315"
+   },
+   {
+    "repo": "AlexGladkov/Spacie",
+    "name": "FileTypeDonutSlice",
+    "permalink": "https://github.com/AlexGladkov/Spacie/blob/21d1dbd13c61bf52347c49e3c7d3cbf21bf8e1da/Spacie/Features/StorageBrowser/StorageBrowserView.swift#L714"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ProjectGovernanceDialArcShape",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/UI/ProjectGovernanceThreeAxisOverviewView.swift#L1190"
+   },
+   {
+    "repo": "Arvid-pku/ID-Photo-Helper",
+    "name": "Grid",
+    "permalink": "https://github.com/Arvid-pku/ID-Photo-Helper/blob/2e64a87acb60e39b6198d0ccbda873a539fc7f6c/ID_Photo_Helper/Views/PhotoEditorView.swift#L639"
+   },
+   {
+    "repo": "Arvid-pku/ID-Photo-Helper",
+    "name": "GridLines",
+    "permalink": "https://github.com/Arvid-pku/ID-Photo-Helper/blob/2e64a87acb60e39b6198d0ccbda873a539fc7f6c/ID_Photo_Helper/Views/PhotoEditorView.swift#L944"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "ComfyNotchShape",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Shapes/NotchShape.swift#L5"
+   }
+  ]
+ },
+ "Layout": {
+  "repo_count": 198,
+  "top_repos": [
+   [
+    "smykla-skalski/harness",
+    14
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    13
+   ],
+   [
+    "Imagine-That-Ai/BurnBar",
+    9
+   ],
+   [
+    "JuliusBrussee/revu-swift",
+    6
+   ],
+   [
+    "BBC6BAE9/a2ui-swift",
+    5
+   ],
+   [
+    "barbaramartina/swiftuicatalog",
+    5
+   ],
+   [
+    "chocoford/ChocofordKit",
+    5
+   ],
+   [
+    "cmillstein1/Drift",
+    5
+   ],
+   [
+    "instructure/canvas-ios",
+    5
+   ],
+   [
+    "DataDog/dd-sdk-ios",
+    4
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "FileStructLayout",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/UI/CustomLayoutDemoView.swift#L36"
+   },
+   {
+    "repo": "1letzgo/stashy",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/1letzgo/stashy/blob/b3723ab5b67933cdbd98947f979b10dbbbfdb37a/stashy/UniversalSearchView.swift#L669"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Post/PostSettings/Views/PostTagsView.swift#L166"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/WordPress/Classes/ViewRelated/Tags/TagsView.swift#L229"
+   },
+   {
+    "repo": "AerialScreensaver/Aerial",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/AerialScreensaver/Aerial/blob/84b6849ccea25a64616235afae9701be79d32cbb/Aerial/UI/VideoBrowser/FormatBadge.swift#L71"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/UI/TaskDecomposition/TaskDecompositionView.swift#L620"
+   },
+   {
+    "repo": "Azor287/KazumiTV",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/Azor287/KazumiTV/blob/d2680057c123e85c86e5ad83e98424887850f7e5/Views/BangumiDetailView.swift#L1861"
+   },
+   {
+    "repo": "BBC6BAE9/a2ui-swift",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/BBC6BAE9/a2ui-swift/blob/c726da94205373e3ecde2cd1d093a937c0b6fc55/samples/travel_app/TravelApp/Catalog/InputGroup.swift#L98"
+   },
+   {
+    "repo": "BBC6BAE9/a2ui-swift",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/BBC6BAE9/a2ui-swift/blob/c726da94205373e3ecde2cd1d093a937c0b6fc55/Sources/v_08/V08/Views/Components/A2UIChoicePicker_V08.swift#L533"
+   },
+   {
+    "repo": "BBC6BAE9/a2ui-swift",
+    "name": "IconSizingLayout",
+    "permalink": "https://github.com/BBC6BAE9/a2ui-swift/blob/c726da94205373e3ecde2cd1d093a937c0b6fc55/Sources/v_08/Views/Helpers/SVGIconView.swift#L64"
+   },
+   {
+    "repo": "BBC6BAE9/a2ui-swift",
+    "name": "IconSizingLayout",
+    "permalink": "https://github.com/BBC6BAE9/a2ui-swift/blob/c726da94205373e3ecde2cd1d093a937c0b6fc55/Sources/A2UISwiftUI/Helpers/SVGIconView.swift#L65"
+   },
+   {
+    "repo": "BBC6BAE9/a2ui-swift",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/BBC6BAE9/a2ui-swift/blob/c726da94205373e3ecde2cd1d093a937c0b6fc55/Sources/A2UISwiftUI/Helpers/SharedViewHelpers.swift#L613"
+   },
+   {
+    "repo": "BBC6BAE9/genui",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/BBC6BAE9/genui/blob/036055f1c5eff7e0840aa24ba97590a969af9455/GenUI/Catalog/InputGroup.swift#L97"
+   },
+   {
+    "repo": "BBC6BAE9/genui",
+    "name": "IconSizingLayout",
+    "permalink": "https://github.com/BBC6BAE9/genui/blob/036055f1c5eff7e0840aa24ba97590a969af9455/packages/a2ui-swiftui/Sources/A2UIV09/Core/Helpers/SVGIconView.swift#L64"
+   },
+   {
+    "repo": "BBC6BAE9/genui",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/BBC6BAE9/genui/blob/036055f1c5eff7e0840aa24ba97590a969af9455/packages/a2ui-swiftui/Sources/A2UIV09/Core/Helpers/SharedViewHelpers.swift#L586"
+   },
+   {
+    "repo": "Beingpax/VoiceInk",
+    "name": "TagLayout",
+    "permalink": "https://github.com/Beingpax/VoiceInk/blob/0df2a9ab4de28c684d6fbff77686807abb14f876/VoiceInk/Views/PromptEditorView.swift#L360"
+   },
+   {
+    "repo": "Beingpax/VoiceInk",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/Beingpax/VoiceInk/blob/0df2a9ab4de28c684d6fbff77686807abb14f876/VoiceInk/Views/Components/FlowLayout.swift#L3"
+   },
+   {
+    "repo": "CodeBlog-ai/codeblog-mac",
+    "name": "ChatFlowLayout",
+    "permalink": "https://github.com/CodeBlog-ai/codeblog-mac/blob/576051602da707086b49530d3971b625682b8dfa/CodeBlog/Views/Chat/ChatComponents.swift#L205"
+   },
+   {
+    "repo": "CodeBlog-ai/codeblog-mac",
+    "name": "FlowLayout",
+    "permalink": "https://github.com/CodeBlog-ai/codeblog-mac/blob/576051602da707086b49530d3971b625682b8dfa/CodeBlog/Views/Components/CategoryPickerOverlay.swift#L189"
+   },
+   {
+    "repo": "CodeBlog-ai/codeblog-mac",
+    "name": "FocusCategoryFlowLayout",
+    "permalink": "https://github.com/CodeBlog-ai/codeblog-mac/blob/576051602da707086b49530d3971b625682b8dfa/CodeBlog/Views/Components/DaySummaryView.swift#L1355"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "StackedLayout",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Layouts/StackedLayout.swift#L13"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "ColumnsLayout",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Layouts/ColumnsLayout.swift#L64"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "CircleLayout",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Layouts/CircleLayout.swift#L13"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "TagsCloudLayout",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Layouts/TagsCloudLayout.swift#L13"
+   },
+   {
+    "repo": "Desbeers/Chord-Provider",
+    "name": "ColumnsLayout",
+    "permalink": "https://github.com/Desbeers/Chord-Provider/blob/eb24061f7041f4f7215d96d0f9164c5421f6f20a/ChordProviderMac/Chord Provider/Views/Shared/ColumnsLayout.swift#L11"
+   }
+  ]
+ },
+ "Commands": {
+  "repo_count": 183,
+  "top_repos": [
+   [
+    "smykla-skalski/harness",
+    16
+   ],
+   [
+    "CodeEditApp/CodeEdit",
+    13
+   ],
+   [
+    "tcarmody/ocr",
+    10
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    8
+   ],
+   [
+    "austin-smith/BitDream",
+    7
+   ],
+   [
+    "supabitapp/supacode",
+    7
+   ],
+   [
+    "fitchmultz/cueloop",
+    6
+   ],
+   [
+    "lucasfischer/Pagi",
+    6
+   ],
+   [
+    "LeonardoLarranaga/Browser",
+    5
+   ],
+   [
+    "TheAcharya/MarkerData",
+    5
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "0boluan0/Chronicle",
+    "name": "AppWindowRouterCommands",
+    "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/App/AppWindowScenes.swift#L17"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "DebugCommands",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Commands/DebugCommands.swift#L15"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "HelpCommands",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Commands/HelpCommands.swift#L11"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "MapCommands",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Commands/MapCommands.swift#L12"
+   },
+   {
+    "repo": "AryanRogye/ComfyFiles",
+    "name": "ComfyFilesMenuBar",
+    "permalink": "https://github.com/AryanRogye/ComfyFiles/blob/3498cee82988cafa023a579653938f266db5c44c/ComfyFiles/App/ComfyFilesMenuBar.swift#L10"
+   },
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "MainCommands",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/Commands/MainCommands.swift#L10"
+   },
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "LibraryCommands",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/Commands/LibraryCommands.swift#L10"
+   },
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "CircuitProCommands",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/Commands/CircuitProCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "CommandsForEach",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/Extensions/Commands+ForEach.swift#L16"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "NavigateCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/NavigateCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ViewCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/ViewCommands.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "FileCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/FileCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "HelpCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/HelpCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "MainCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/MainCommands.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "WindowCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/WindowCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ExtensionCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/ExtensionCommands.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "SourceControlCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/SourceControlCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "EditorCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/EditorCommands.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "CodeEditCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/CodeEditCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "FindCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/FindCommands.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "TasksCommands",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/WindowCommands/TasksCommands.swift#L11"
+   },
+   {
+    "repo": "D1a0y1bb/PitcherPlant",
+    "name": "PitcherPlantCommands",
+    "permalink": "https://github.com/D1a0y1bb/PitcherPlant/blob/829372a502ea6b601df65a59018b27e8232e61f4/PitcherPlantApp/Sources/PitcherPlantApp/App/PitcherPlantCommands.swift#L3"
+   },
+   {
+    "repo": "DamascenoRafael/reminders-menubar",
+    "name": "AppCommands",
+    "permalink": "https://github.com/DamascenoRafael/reminders-menubar/blob/c38bd6f51796ddbdc488d970f1ad61d1bd556918/reminders-menubar/AppCommands.swift#L3"
+   },
+   {
+    "repo": "DengNaichen/Rhythm",
+    "name": "AppMenuCommands",
+    "permalink": "https://github.com/DengNaichen/Rhythm/blob/d381dd9ab40180e8f50b4920dc8ff0904b704f5e/Rhythm/Application/RhythmApp.swift#L70"
+   },
+   {
+    "repo": "Desbeers/Komodio",
+    "name": "GithubHelpCommand",
+    "permalink": "https://github.com/Desbeers/Komodio/blob/0364f9650414b0f2c8de2a58cbdbda567e9a3d34/Komodio/macOS/MacCommands (macOS).swift#L11"
+   }
+  ]
+ },
+ "ToggleStyle": {
+  "repo_count": 158,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    8
+   ],
+   [
+    "urbanairship/ios-library",
+    5
+   ],
+   [
+    "Erick2280/luisa-deaccessibilizer",
+    4
+   ],
+   [
+    "jasudev/FabulaItemsProvider",
+    4
+   ],
+   [
+    "Automattic/pocket-casts-ios",
+    3
+   ],
+   [
+    "alienator88/Pearcleaner",
+    3
+   ],
+   [
+    "alienator88/Viz",
+    3
+   ],
+   [
+    "instructure/canvas-ios",
+    3
+   ],
+   [
+    "israelrp/mxi_ios",
+    3
+   ],
+   [
+    "lexuanquynh/Clean-Architecture-SwiftUI",
+    3
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "103style/iOSLearnSwift",
+    "name": "CustomToggleStyle",
+    "permalink": "https://github.com/103style/iOSLearnSwift/blob/423d2a69fc53970f7900cfd41836a2050ecda52c/iOSLearn/Views/ToggleDemoView.swift#L51"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/style/CheckboxToggleStyle.swift#L7"
+   },
+   {
+    "repo": "AgarwalAarush/Wave",
+    "name": "AccentToggleStyle",
+    "permalink": "https://github.com/AgarwalAarush/Wave/blob/30937a2c59213a7aee4d71e51ba9a318395f0822/Wave/SettingsView.swift#L613"
+   },
+   {
+    "repo": "Automattic/pocket-casts-ios",
+    "name": "WidgetFirstEpisodePlayToggleStyle",
+    "permalink": "https://github.com/Automattic/pocket-casts-ios/blob/ba8678348422bb407eceb68f1cb6af65e529127f/WidgetExtension/Up Next/EpisodeView.swift#L63"
+   },
+   {
+    "repo": "Automattic/pocket-casts-ios",
+    "name": "WidgetPlayToggleStyle",
+    "permalink": "https://github.com/Automattic/pocket-casts-ios/blob/ba8678348422bb407eceb68f1cb6af65e529127f/WidgetExtension/Up Next/EpisodeView.swift#L99"
+   },
+   {
+    "repo": "Automattic/pocket-casts-ios",
+    "name": "ThemedSwitchToggleStyle",
+    "permalink": "https://github.com/Automattic/pocket-casts-ios/blob/ba8678348422bb407eceb68f1cb6af65e529127f/podcasts/ThemedSwitchToggleStyle.swift#L4"
+   },
+   {
+    "repo": "Beingpax/VoiceInk",
+    "name": "CircularCheckboxStyle",
+    "permalink": "https://github.com/Beingpax/VoiceInk/blob/0df2a9ab4de28c684d6fbff77686807abb14f876/VoiceInk/Views/History/TranscriptionListItem.swift#L59"
+   },
+   {
+    "repo": "Boris-Bot69/fitness-ios",
+    "name": "ActiveToggleStyle",
+    "permalink": "https://github.com/Boris-Bot69/fitness-ios/blob/e3509a62f13fadb26311c894612e99e53cdc1f1d/MRI_iPad/MRI_iPad/Views/PatientsSummary/EditPatient/ActiveToggleStyle.swift#L11"
+   },
+   {
+    "repo": "BoxPay-SDKs/checkout-ios-sdk",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/BoxPay-SDKs/checkout-ios-sdk/blob/3fe37421c7a04ded883214cfda844721a8722042/Sources/iosCheckoutSdk/Components/CheckboxToggleStyle.swift#L12"
+   },
+   {
+    "repo": "CHANTXU64/MoviePilot-TV",
+    "name": "SheetToggleStyle",
+    "permalink": "https://github.com/CHANTXU64/MoviePilot-TV/blob/1fba4883d10a37da59ccb62187066422dfa91650/MoviePilot-TV/Views/Components/SheetStyles.swift#L41"
+   },
+   {
+    "repo": "COMP0422-KPCM/2025-COMP0422-AccidentMap",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/COMP0422-KPCM/2025-COMP0422-AccidentMap/blob/bc835bdb19066ee7f67fb3481d1cb9b9a151d199/AccidentMap/AccidentMap/StatsView.swift#L132"
+   },
+   {
+    "repo": "COMP0422-KPCM/2025-COMP0422-AccidentMap",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/COMP0422-KPCM/2025-COMP0422-AccidentMap/blob/bc835bdb19066ee7f67fb3481d1cb9b9a151d199/AccidentMap/AccidentMap/Views/Trend/StatsView.swift#L143"
+   },
+   {
+    "repo": "CeoatNorthstar/BrewCap",
+    "name": "GlassToggleStyle",
+    "permalink": "https://github.com/CeoatNorthstar/BrewCap/blob/5f60b75bf93c85dae133de323ad5a94247bf7806/BrewCap/GlassEffects.swift#L99"
+   },
+   {
+    "repo": "CodeBlog-ai/codeblog-mac",
+    "name": "SunriseGlassPillToggleStyle",
+    "permalink": "https://github.com/CodeBlog-ai/codeblog-mac/blob/576051602da707086b49530d3971b625682b8dfa/CodeBlog/Views/UI/SunriseGlassPillToggleStyle.swift#L3"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "IconToggleStyle",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/CodeEditUI/Styles/IconToggleStyle.swift#L10"
+   },
+   {
+    "repo": "Dandjix/HoldMania",
+    "name": "CheckBoxToggleStyle",
+    "permalink": "https://github.com/Dandjix/HoldMania/blob/91cb1be5a99a1208b77379ce70bf10683acc13db/HoldMania/Views/SearchHolds.swift#L163"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "CustomToggleStyle",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Controls/TogglesView.swift#L139"
+   },
+   {
+    "repo": "DawnLiExp/PocketPrefs",
+    "name": "CustomCheckboxToggleStyle",
+    "permalink": "https://github.com/DawnLiExp/PocketPrefs/blob/2d625063ba4f333f5d6c52586da59396393486e6/PocketPrefs/UI/Components/CustomCheckboxToggleStyle.swift#L12"
+   },
+   {
+    "repo": "DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily/blob/1ee0aa17033e74ec668f345724568e934dfc6514/BeggarsGrowing/BeggarsGrowing/View/RefriFlow/RefriAddFoodView.swift#L135"
+   },
+   {
+    "repo": "EldestGruff/PersonalAI",
+    "name": "OutlinedToggleStyle",
+    "permalink": "https://github.com/EldestGruff/PersonalAI/blob/4cd38ed8041ce16e804f1090c19ef40053403bdf/Sources/UI/Theme/OutlinedToggleStyle.swift#L16"
+   },
+   {
+    "repo": "Ender-Wang/Swifka",
+    "name": "ChipToggleStyle",
+    "permalink": "https://github.com/Ender-Wang/Swifka/blob/d07a1d23ae56b3b3de2892dc793868f235497ec7/Swifka/Features/Trends/TrendCharts.swift#L214"
+   },
+   {
+    "repo": "Erick2280/luisa-deaccessibilizer",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/Erick2280/luisa-deaccessibilizer/blob/93272d26c2ebc0de573f9079a7f3fd609a161cee/misc/swift-file-samples/Romilda_noAccessibilityHintModifierWithComments.swift#L199"
+   },
+   {
+    "repo": "Erick2280/luisa-deaccessibilizer",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/Erick2280/luisa-deaccessibilizer/blob/93272d26c2ebc0de573f9079a7f3fd609a161cee/misc/swift-file-samples/Romilda.swift#L199"
+   },
+   {
+    "repo": "Erick2280/luisa-deaccessibilizer",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/Erick2280/luisa-deaccessibilizer/blob/93272d26c2ebc0de573f9079a7f3fd609a161cee/misc/swift-file-samples/Romilda_noAccessibilityHintModifier.swift#L199"
+   },
+   {
+    "repo": "Erick2280/luisa-deaccessibilizer",
+    "name": "CheckboxToggleStyle",
+    "permalink": "https://github.com/Erick2280/luisa-deaccessibilizer/blob/93272d26c2ebc0de573f9079a7f3fd609a161cee/misc/swift-file-samples/Romilda_noAccessibilityValueModifier.swift#L195"
+   }
+  ]
+ },
+ "NSViewControllerRepresentable": {
+  "repo_count": 91,
+  "top_repos": [
+   [
+    "AuroraEditor/AuroraEditor",
+    6
+   ],
+   [
+    "Bogdanp/Franz",
+    5
+   ],
+   [
+    "CodeEditApp/CodeEdit",
+    5
+   ],
+   [
+    "SwiftPackageRepository/GameKitUI.swift",
+    5
+   ],
+   [
+    "BBC6BAE9/Mojo",
+    4
+   ],
+   [
+    "TableProApp/TablePro",
+    4
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    4
+   ],
+   [
+    "schatt/sixlayer",
+    4
+   ],
+   [
+    "FedyaLight/sumi-webkit",
+    3
+   ],
+   [
+    "freysie/kaomoji-palette",
+    3
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "TabHierarchyView",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Core/NavigatorSidebar/Model/HierarchyNavigator/TabHierarchyView.swift#L12"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "ProjectNavigatorView",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Core/NavigatorSidebar/Model/ProjectNavigator/ProjectNavigatorView.swift#L13"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "FindNavigatorResultList",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Core/NavigatorSidebar/Model/FindNavigator/FindNavigatorResultList.swift#L13"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "SourceControlView",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Core/NavigatorSidebar/Model/SourceControlNavigator/Changes/SourceControlView.swift#L13"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "RepositoriesWrapperView",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Core/NavigatorSidebar/Model/SourceControlNavigator/Repositories/RepositoriesWrapperView.swift#L13"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "WorkflowWrapperView",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Features/Version Control/UI/Actions/Cell/Workflow/WorkflowWrapperView.swift#L13"
+   },
+   {
+    "repo": "BBC6BAE9/Mojo",
+    "name": "MPVMetalPlayerView",
+    "permalink": "https://github.com/BBC6BAE9/Mojo/blob/0aa063171e7faa0239bb358a05eca9b138ee739e/Packages/MPVKit/Demo/Demo-macOS/Demo-macOS/Player/Metal/MPVMetalPlayerView.swift#L4"
+   },
+   {
+    "repo": "BBC6BAE9/Mojo",
+    "name": "MPVPlayerView",
+    "permalink": "https://github.com/BBC6BAE9/Mojo/blob/0aa063171e7faa0239bb358a05eca9b138ee739e/Packages/MPVKit/Demo/Demo-macOS/Demo-macOS/Player/OpenGL/MPVPlayerView.swift#L4"
+   },
+   {
+    "repo": "BBC6BAE9/Mojo",
+    "name": "MPVMetalPlayerView",
+    "permalink": "https://github.com/BBC6BAE9/Mojo/blob/0aa063171e7faa0239bb358a05eca9b138ee739e/Mojo/Player/Metal/MPVMetalPlayerView.swift#L5"
+   },
+   {
+    "repo": "BBC6BAE9/Mojo",
+    "name": "MPVPlayerView",
+    "permalink": "https://github.com/BBC6BAE9/Mojo/blob/0aa063171e7faa0239bb358a05eca9b138ee739e/Mojo/Player/OpenGL/MPVPlayerView.swift#L5"
+   },
+   {
+    "repo": "BirdsWind/Match3AR",
+    "name": "GameView",
+    "permalink": "https://github.com/BirdsWind/Match3AR/blob/8dff7765dff172f220d6369ccd88d3e3352d5448/MatchTre/GameView+macOS.swift#L5"
+   },
+   {
+    "repo": "Bogdanp/Franz",
+    "name": "SchemaEditorToolbar",
+    "permalink": "https://github.com/Bogdanp/Franz/blob/21845a649864d8293bc2d866dc13467504ace26f/FranzCocoa/SchemaEditorToolbarController.swift#L34"
+   },
+   {
+    "repo": "Bogdanp/Franz",
+    "name": "GroupOffsetsTable",
+    "permalink": "https://github.com/Bogdanp/Franz/blob/21845a649864d8293bc2d866dc13467504ace26f/FranzCocoa/GroupOffsetsOutlineViewController.swift#L161"
+   },
+   {
+    "repo": "Bogdanp/Franz",
+    "name": "TopicRecordsTable",
+    "permalink": "https://github.com/Bogdanp/Franz/blob/21845a649864d8293bc2d866dc13467504ace26f/FranzCocoa/TopicRecordsTableViewController.swift#L923"
+   },
+   {
+    "repo": "Bogdanp/Franz",
+    "name": "ResourceConfigTable",
+    "permalink": "https://github.com/Bogdanp/Franz/blob/21845a649864d8293bc2d866dc13467504ace26f/FranzCocoa/ResourceConfigTableViewController.swift#L124"
+   },
+   {
+    "repo": "Bogdanp/Franz",
+    "name": "Editor",
+    "permalink": "https://github.com/Bogdanp/Franz/blob/21845a649864d8293bc2d866dc13467504ace26f/FranzCocoa/Editor.swift#L441"
+   },
+   {
+    "repo": "ChimeHQ/Chime",
+    "name": "LineNumberView",
+    "permalink": "https://github.com/ChimeHQ/Chime/blob/84b7afa4153acce27fc9b28ced457b7cb1acb477/Modules/Gutter/LineNumberView.swift#L5"
+   },
+   {
+    "repo": "ChimeHQ/Chime",
+    "name": "ExtensionContent",
+    "permalink": "https://github.com/ChimeHQ/Chime/blob/84b7afa4153acce27fc9b28ced457b7cb1acb477/Modules/Inspector/ExtensionContent.swift#L4"
+   },
+   {
+    "repo": "Cindori/Navigation",
+    "name": "ViewControllerWrapper",
+    "permalink": "https://github.com/Cindori/Navigation/blob/314a69f0458fdf356a83aa2312a45aaa71d383e9/Sources/NavigationRouter.swift#L96"
+   },
+   {
+    "repo": "Cindori/Navigation",
+    "name": "ViewControllerWrapper",
+    "permalink": "https://github.com/Cindori/Navigation/blob/314a69f0458fdf356a83aa2312a45aaa71d383e9/Sources/Helpers/ViewControllerWrapper.swift#L12"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "SplitViewControllerView",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/SplitView/Views/SplitViewControllerView.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ProjectNavigatorOutlineView",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/NavigatorArea/ProjectNavigator/OutlineView/ProjectNavigatorOutlineView.swift#L12"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "FindNavigatorResultList",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/NavigatorArea/FindNavigator/FindNavigatorResultList/FindNavigatorResultList.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ExtensionActivatorView",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/Extensions/ExtensionActivatorView.swift#L11"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ExtensionSceneView",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/Extensions/ExtensionSceneView.swift#L13"
+   }
+  ]
+ },
+ "ToolbarContent": {
+  "repo_count": 80,
+  "top_repos": [
+   [
+    "ryan-token/YouHQ",
+    9
+   ],
+   [
+    "H-Ghadirian/Routina",
+    7
+   ],
+   [
+    "TL0225/college-planner",
+    6
+   ],
+   [
+    "rafaelclaycon/MedoDelirioiOSApp",
+    6
+   ],
+   [
+    "smykla-skalski/harness",
+    6
+   ],
+   [
+    "AndrewXie-Rich/x-hub-system",
+    5
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    4
+   ],
+   [
+    "a7t-ai/poirot",
+    3
+   ],
+   [
+    "cburnett837/Make-It-Rain",
+    3
+   ],
+   [
+    "Dimillian/IcySky",
+    2
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ContentToolbar",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/ContentView.swift#L807"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ContentResumeToolbarItems",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/ContentView.swift#L890"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ContentWorkToolbarItems",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/ContentView.swift#L930"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ContentActiveWorkToolbarItems",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/ContentView.swift#L951"
+   },
+   {
+    "repo": "AndrewXie-Rich/x-hub-system",
+    "name": "ContentControlToolbarItems",
+    "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-terminal/Sources/ContentView.swift#L1072"
+   },
+   {
+    "repo": "AryanRogye/ComfyFiles",
+    "name": "ComfyFileContentToolbar",
+    "permalink": "https://github.com/AryanRogye/ComfyFiles/blob/3498cee82988cafa023a579653938f266db5c44c/ComfyFiles/Views/ComfyFiles/ComfyFileContent/ComfyFileContentToolbar.swift#L10"
+   },
+   {
+    "repo": "Dimillian/IcySky",
+    "name": "ComposerHeaderView",
+    "permalink": "https://github.com/Dimillian/IcySky/blob/03560c6a30277175ea91a6bfc63b50380542017c/Packages/Features/Sources/ComposerUI/Views/ComposerHeaderView.swift#L5"
+   },
+   {
+    "repo": "Dimillian/IcySky",
+    "name": "ComposerToolbarView",
+    "permalink": "https://github.com/Dimillian/IcySky/blob/03560c6a30277175ea91a6bfc63b50380542017c/Packages/Features/Sources/ComposerUI/Views/ComposerToolbarView.swift#L5"
+   },
+   {
+    "repo": "DragonSenseiGuy/quicksnap",
+    "name": "EditorToolbar",
+    "permalink": "https://github.com/DragonSenseiGuy/quicksnap/blob/19d7f51f2905cc8479be015d03ed9b5818f903a5/QuickSnap/Views/Editor/EditorView.swift#L465"
+   },
+   {
+    "repo": "ElmerCat/PraxPress",
+    "name": "MainToolbar",
+    "permalink": "https://github.com/ElmerCat/PraxPress/blob/aaa42346810a491a6ece5af05018633978917a5c/PraxPress/Application/MainToolbar.swift#L12"
+   },
+   {
+    "repo": "Fred78290/caker",
+    "name": "ToolbarSettings",
+    "permalink": "https://github.com/Fred78290/caker/blob/800049a02e1b5413a7624d5c9de5e34c88069e60/Sources/caker/Views/ToolbarSettings.swift#L157"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "HomeMacHomeToolbarContent",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaMacApp/Screens/Home/Components/HomeMacHomeToolbarContent.swift#L4"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "TaskDetailToolbarContent",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaMacApp/Screens/TaskDetail/TaskDetailToolbarContent.swift#L4"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "RoutinaMacPlaceCheckInToolbarItem",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaMacApp/Screens/Shared/RoutinaMacPlaceCheckInToolbarControls.swift#L4"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "RoutinaMacFocusTimerToolbarItem",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaMacApp/Screens/Shared/RoutinaMacFocusTimerToolbarBadge.swift#L42"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "GoalsEditorToolbarContent",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/SharedCore/Views/GoalsEditorForm.swift#L7"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "HomeIOSHomeToolbarContent",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/iOS/Screens/Home/HomeIOSHomeToolbarContent.swift#L3"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "TaskDetailToolbarContent",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/iOS/Screens/TaskDetail/TaskDetailToolbarContent.swift#L4"
+   },
+   {
+    "repo": "Hardin22/BetterFinder",
+    "name": "BrowserToolbar",
+    "permalink": "https://github.com/Hardin22/BetterFinder/blob/8812416379f5834f76d72582912f35fd24a6d8ad/BetterFinder/Views/Toolbar/ToolbarView.swift#L4"
+   },
+   {
+    "repo": "Imagine-That-Ai/BurnBar",
+    "name": "DashboardToolbar",
+    "permalink": "https://github.com/Imagine-That-Ai/BurnBar/blob/8b8eb6b9cb4fd66f45a55b02e3161f98cc9744da/AgentLens/Views/Dashboard/DashboardToolbar.swift#L16"
+   },
+   {
+    "repo": "a7t-ai/poirot",
+    "name": "ConfigLayoutToolbar",
+    "permalink": "https://github.com/a7t-ai/poirot/blob/4b2d2d9e2c12437fc5cdfe0813ed23fb342c7e80/Poirot/Sources/Views/Config/ConfigLayoutToolbar.swift#L3"
+   },
+   {
+    "repo": "a7t-ai/poirot",
+    "name": "HistoryToolbarContent",
+    "permalink": "https://github.com/a7t-ai/poirot/blob/4b2d2d9e2c12437fc5cdfe0813ed23fb342c7e80/Poirot/Sources/Views/History/HistoryListView.swift#L512"
+   },
+   {
+    "repo": "a7t-ai/poirot",
+    "name": "SessionToolbar",
+    "permalink": "https://github.com/a7t-ai/poirot/blob/4b2d2d9e2c12437fc5cdfe0813ed23fb342c7e80/Poirot/Sources/Views/Session/SessionToolbarContent.swift#L5"
+   },
+   {
+    "repo": "RockxyApp/Rockxy",
+    "name": "ProxyToolbarContent",
+    "permalink": "https://github.com/RockxyApp/Rockxy/blob/6777e38cc36326e10570329ece7dcbb1c886ba36/Rockxy/Views/Toolbar/ProxyToolbarContent.swift#L9"
+   },
+   {
+    "repo": "Louioui/Pawtrackr",
+    "name": "EmptyToolbarContent",
+    "permalink": "https://github.com/Louioui/Pawtrackr/blob/c307c32de12d11aa8c84fbffab5bbbc2743d50df/Pawtrackr/Features/Clients/ClientDetailView.swift#L862"
+   }
+  ]
+ },
+ "LabelStyle": {
+  "repo_count": 73,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-packages",
+    19
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    8
+   ],
+   [
+    "fajfer/mObywatel",
+    6
+   ],
+   [
+    "jellyfin/Swiftfin",
+    6
+   ],
+   [
+    "neziw/mObywatel-mirror",
+    6
+   ],
+   [
+    "voidboost/hdrezka-swiftui",
+    6
+   ],
+   [
+    "krowqa2k/StudyBuddy",
+    5
+   ],
+   [
+    "JavierCS/iOSDemoApp",
+    4
+   ],
+   [
+    "cdillard/LogicSage",
+    4
+   ],
+   [
+    "raindropio/ios",
+    4
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "824zzy/claude-visor",
+    "name": "ReverseIconLabelStyle",
+    "permalink": "https://github.com/824zzy/claude-visor/blob/2e507f568fd1842b97e97e85b33ef571e69d344f/ClaudeVisor/UI/Views/ToolResultViews.swift#L1358"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "LabelStyle_NavigationLink",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/style/NavigationLinkStyle.swift#L5"
+   },
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "SettingItemLabelStyle",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Helpers/Label+SettingItem.swift#L10"
+   },
+   {
+    "repo": "AIDingDing449/WordPress-iOS",
+    "name": "EmptyStateViewLabelStyle",
+    "permalink": "https://github.com/AIDingDing449/WordPress-iOS/blob/a2f9ba5d7dcab00d423b0da33d2220dbfe0fb816/Modules/Sources/WordPressUI/Views/EmptyStateView.swift#L96"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "InlineBannerLabelStyle",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Modules/AlidadeUI/Sources/AlidadeUI/InlineBanner/InlineBannerLabelStyle.swift#L10"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "RedBorderedLabelStyle",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Controls/LabelsView.swift#L290"
+   },
+   {
+    "repo": "Desbeers/Chord-Provider",
+    "name": "CreateDocumentLabelStyle",
+    "permalink": "https://github.com/Desbeers/Chord-Provider/blob/eb24061f7041f4f7215d96d0f9164c5421f6f20a/ChordProviderMac/Chord Provider/Views/Shared/Styles.swift#L20"
+   },
+   {
+    "repo": "Desbeers/Chord-Provider",
+    "name": "SongFileLabelStyle",
+    "permalink": "https://github.com/Desbeers/Chord-Provider/blob/eb24061f7041f4f7215d96d0f9164c5421f6f20a/ChordProviderMac/Chord Provider/Views/Shared/Styles.swift#L34"
+   },
+   {
+    "repo": "Desbeers/Komodio",
+    "name": "PlayLabel",
+    "permalink": "https://github.com/Desbeers/Komodio/blob/0364f9650414b0f2c8de2a58cbdbda567e9a3d34/Komodio/Shared/Styles/LabelStyles.swift#L15"
+   },
+   {
+    "repo": "Desbeers/Komodio",
+    "name": "DetailLabel",
+    "permalink": "https://github.com/Desbeers/Komodio/blob/0364f9650414b0f2c8de2a58cbdbda567e9a3d34/Komodio/Shared/Styles/LabelStyles.swift#L60"
+   },
+   {
+    "repo": "Desbeers/Komodio",
+    "name": "StatisticsLabel",
+    "permalink": "https://github.com/Desbeers/Komodio/blob/0364f9650414b0f2c8de2a58cbdbda567e9a3d34/Komodio/Shared/Views/StatisticsView.swift#L57"
+   },
+   {
+    "repo": "Desbeers/SwiftlyKodiAPI",
+    "name": "MediaLabelStyle",
+    "permalink": "https://github.com/Desbeers/SwiftlyKodiAPI/blob/37f01e9ff81844cbea978b5a5defe24ffdeea07c/Sources/SwiftlyKodiAPI/SwiftUI/MediaButtons.swift#L269"
+   },
+   {
+    "repo": "Dimillian/IcySky",
+    "name": "CustomSpacingLabel",
+    "permalink": "https://github.com/Dimillian/IcySky/blob/03560c6a30277175ea91a6bfc63b50380542017c/Packages/Features/Sources/DesignSystem/Components/CustomSpacingLabel.swift#L3"
+   },
+   {
+    "repo": "Fred78290/caker",
+    "name": "ToolbarSettingLabelStyle",
+    "permalink": "https://github.com/Fred78290/caker/blob/800049a02e1b5413a7624d5c9de5e34c88069e60/Sources/caker/Views/ToolbarSettings.swift#L15"
+   },
+   {
+    "repo": "H-Ghadirian/What-I-Learned",
+    "name": "TrailingIconLabelStyle",
+    "permalink": "https://github.com/H-Ghadirian/What-I-Learned/blob/7fa22734c7bdf8c77da42b30bd55c7873db3e4c3/WhatILearned/Projects/SyncUp/SyncUpsList.swift#L86"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "TopIconLabelStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/Label/TopIconLabelStyle.swift#L10"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "LeadingIconLabelStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/Label/LeadingIconLabelStyle.swift#L10"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "RedBorderedLabelStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/Label/RedBorderedLabelStyle.swift#L10"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "BottomIconLabelStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/Label/BottomIconLabelStyle.swift#L10"
+   },
+   {
+    "repo": "PDF-Archiver/PDF-Archiver",
+    "name": "VerticalLabelStyle",
+    "permalink": "https://github.com/PDF-Archiver/PDF-Archiver/blob/39bdd3382280cebe84be029e91dc3bc1fbbd5995/ArchiverLib/Sources/Shared/Views/VerticalLabelStyle.swift#L10"
+   },
+   {
+    "repo": "JuliusBrussee/revu-swift",
+    "name": "LeadingIconLabelStyle",
+    "permalink": "https://github.com/JuliusBrussee/revu-swift/blob/c58ed02e179909aab542ae20aaf157701ffb64e3/Revu/Revu/Views/Import/ImportFormatGuideView.swift#L250"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "RedBorderedLabelStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/SwiftUIExample/New in iOS 14/View and Controls/SU_Label.swift#L56"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "RedBorderedLabelStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/ZeroToOne/LabelSample/LabelSample/ContentView.swift#L66"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "CustomLabelStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/Practices/ITime/ITime/Code/Features/Target/Chats/Test17.swift#L89"
+   },
+   {
+    "repo": "KDE/kdeconnect-ios",
+    "name": "AccessibilityTitleOnlyLabelStyle",
+    "permalink": "https://github.com/KDE/kdeconnect-ios/blob/df155dd483a137c11d5ace2c6cb6a77cb6ec3aa7/KDE Connect/KDE Connect/Views/Abstracted Views/Accessibility/AccessibilityTitleOnlyLabelStyle.swift#L17"
+   }
+  ]
+ },
+ "Scene": {
+  "repo_count": 57,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    14
+   ],
+   [
+    "tungnt620/marciai",
+    8
+   ],
+   [
+    "kyleerhabor/advance",
+    7
+   ],
+   [
+    "SilverMarcs/LynkChat",
+    6
+   ],
+   [
+    "Kyome22/GitGrass",
+    5
+   ],
+   [
+    "Mannydefreitas7/aperture",
+    5
+   ],
+   [
+    "AlidadeMC/alidade",
+    4
+   ],
+   [
+    "lswank/menustow",
+    4
+   ],
+   [
+    "raisukeshirabe/official-visionOS-samples",
+    4
+   ],
+   [
+    "schwa/judo",
+    4
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AdinAck/PresentationKit",
+    "name": "PresentationScene",
+    "permalink": "https://github.com/AdinAck/PresentationKit/blob/b29ef25a7a7a2192c88389569d236578795306a4/Sources/Presentation.swift#L141"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "AboutWindow",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Entrypoint.swift#L143"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "DocumentLaunchScene",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Scenes/DocumentLaunchExperience.swift#L12"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "DocumentLaunchView",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Scenes/DocumentLaunchExperience.swift#L42"
+   },
+   {
+    "repo": "AlidadeMC/alidade",
+    "name": "CartographyGalleryScene",
+    "permalink": "https://github.com/AlidadeMC/alidade/blob/abce88d302b0a115d3244bae5890d34d034e05bc/Alidade/Views/Gallery/CartographyGalleryScene.swift#L14"
+   },
+   {
+    "repo": "Bikz/codex-chat",
+    "name": "CodexChatDesktopScene",
+    "permalink": "https://github.com/Bikz/codex-chat/blob/b956525b4bc076be69e5e8b82bd847daacbff17f/apps/CodexChatApp/Sources/CodexChatApp/CodexChatApp.swift#L81"
+   },
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "AboutWindowScene",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/Scenes/AboutWindowScene.swift#L11"
+   },
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "WelcomeWindowScene",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/Scenes/WelcomeWindowScene.swift#L12"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "SettingsWindow",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/Settings/SettingsWindow.swift#L10"
+   },
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "ExtensionManagerWindow",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/Extensions/ExtensionManagerWindow.swift#L10"
+   },
+   {
+    "repo": "Fred78290/caker",
+    "name": "CakerMenuBarExtraScene",
+    "permalink": "https://github.com/Fred78290/caker/blob/800049a02e1b5413a7624d5c9de5e34c88069e60/Sources/caker/CakerMenuBarExtraScene.swift#L12"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "RoutinaMacRootScene",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaMacApp/Screens/App/RoutinaMacRootScene.swift#L6"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "RoutinaIOSRootScene",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/iOS/App/RoutinaIOSRootScene.swift#L6"
+   },
+   {
+    "repo": "H-Ghadirian/Routina",
+    "name": "RoutinaWatchRootScene",
+    "permalink": "https://github.com/H-Ghadirian/Routina/blob/f53592ba30c3535a4bec63dd1128fac4077edd77/RoutinaWatchExtension/RoutinaWatchRootScene.swift#L3"
+   },
+   {
+    "repo": "Itzadetunji/clip-it-macos",
+    "name": "ClipItMenuBarExtra",
+    "permalink": "https://github.com/Itzadetunji/clip-it-macos/blob/69a09a438515fb8ae9c39f316ecd0ba0cad1276f/ClipIt/Components/MenuBar.swift#L11"
+   },
+   {
+    "repo": "IvanKoskov/SXMac",
+    "name": "FramelessWindow",
+    "permalink": "https://github.com/IvanKoskov/SXMac/blob/d2f228e6104c8a17ebd204f5abf1334b563e9e3f/swiftui-frameless-window-main/Sources/FramelessWindow/FramelessWindow.swift#L10"
+   },
+   {
+    "repo": "KC-2001MS/AboutUI",
+    "name": "About",
+    "permalink": "https://github.com/KC-2001MS/AboutUI/blob/bff0ff9b5c2430419991185c32198166e8cc3d4c/Sources/AboutUI/UI/Scene/About.swift#L20"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "AppAlertScene",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/Scenes/AppAlertScene.swift#L24"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "_AppAlertScene",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/Scenes/AppAlertScene.swift#L34"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "MenuBarScene",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/Scenes/MenuBarScene.swift#L24"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "SettingsWindowScene",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/Scenes/SettingsWindowScene.swift#L23"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "LicenseWindowScene",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/Scenes/LicenseWindowScene.swift#L24"
+   },
+   {
+    "repo": "Kyome22/NewCanvas",
+    "name": "WorkspaceWindow",
+    "permalink": "https://github.com/Kyome22/NewCanvas/blob/51839bc3b9250d698cf3706aef6b790a19935f92/NewCanvasPackages/Sources/Presentation/Scene/WorkspaceWindow.swift#L12"
+   },
+   {
+    "repo": "RockxyApp/Rockxy",
+    "name": "ComposeWindowScene",
+    "permalink": "https://github.com/RockxyApp/Rockxy/blob/6777e38cc36326e10570329ece7dcbb1c886ba36/Rockxy/RockxyApp.swift#L284"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "CaptureWindow",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Features/Capture/Capture+Window.swift#L10"
+   }
+  ]
+ },
+ "PrimitiveButtonStyle": {
+  "repo_count": 38,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    12
+   ],
+   [
+    "chocoford/ChocofordKit",
+    8
+   ],
+   [
+    "nathantannar4/Engine",
+    7
+   ],
+   [
+    "Mannydefreitas7/aperture",
+    3
+   ],
+   [
+    "Shopify/tophat",
+    3
+   ],
+   [
+    "chocoford/ExcalidrawZ",
+    3
+   ],
+   [
+    "signalapp/Signal-iOS",
+    3
+   ],
+   [
+    "MonsoudZ/devreader",
+    2
+   ],
+   [
+    "cntrump/Customizing-window-styles-and-state-restoration-behavior-in-macOS",
+    2
+   ],
+   [
+    "insidegui/VirtualBuddy",
+    2
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "MyOwnButtonStyle",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Styles/MyOwnButtonStyle.swift#L12"
+   },
+   {
+    "repo": "Kyome22/GitGrass",
+    "name": "PreActionButtonStyle",
+    "permalink": "https://github.com/Kyome22/GitGrass/blob/2fb03b4103d3309f6ebe13691e6c1980f42729af/LocalPackage/Sources/UserInterface/PreActionButtonStyle.swift#L23"
+   },
+   {
+    "repo": "LiYanan2004/MarkdownView",
+    "name": "AccessoryButtonStyle",
+    "permalink": "https://github.com/LiYanan2004/MarkdownView/blob/232f6f674ecc6bc7f30c256bcf5015054aac6584/Sources/MarkdownView/Renderers/Node Representations/Code Blocks/Styles/DefaultCodeBlockStyle.swift#L248"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "GlassToolBarButtonStyle",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Views/Styles/Button.swift#L31"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "RecordButtonStyle",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Views/Styles/Button.swift#L86"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "PushDownButtonStyle",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Views/Styles/Button.swift#L123"
+   },
+   {
+    "repo": "MonsoudZ/devreader",
+    "name": "DSPrimaryButtonStyle",
+    "permalink": "https://github.com/MonsoudZ/devreader/blob/230a0776dbb192febeb0243df1e2584ee934e71d/Utils/DesignSystem.swift#L254"
+   },
+   {
+    "repo": "MonsoudZ/devreader",
+    "name": "DSSecondaryButtonStyle",
+    "permalink": "https://github.com/MonsoudZ/devreader/blob/230a0776dbb192febeb0243df1e2584ee934e71d/Utils/DesignSystem.swift#L265"
+   },
+   {
+    "repo": "Shopify/tophat",
+    "name": "InlineButtonStyle",
+    "permalink": "https://github.com/Shopify/tophat/blob/bac3a6917ab1c084dd381b5fd66cb3c114b129c7/Tophat/Views/Generic/InlineButtonStyle.swift#L11"
+   },
+   {
+    "repo": "Shopify/tophat",
+    "name": "SettingsLinkAdditionalActionButtonStyle",
+    "permalink": "https://github.com/Shopify/tophat/blob/bac3a6917ab1c084dd381b5fd66cb3c114b129c7/Tophat/Views/Generic/SettingsLinkAdditionalActionButtonStyle.swift#L11"
+   },
+   {
+    "repo": "Shopify/tophat",
+    "name": "MenuItemButtonStyle",
+    "permalink": "https://github.com/Shopify/tophat/blob/bac3a6917ab1c084dd381b5fd66cb3c114b129c7/Tophat/Views/Generic/MenuItemButtonStyle.swift#L11"
+   },
+   {
+    "repo": "Sophiestication/Cappella",
+    "name": "PlatterMenuButtonStyle",
+    "permalink": "https://github.com/Sophiestication/Cappella/blob/54ea14e3bbab1ddcb4507a52a6d749b2a3406ea1/Cappella/Menu/PlatterMenuButtonStyle.swift#L27"
+   },
+   {
+    "repo": "alienator88/Viz",
+    "name": "PaddedProminentButtonStyle",
+    "permalink": "https://github.com/alienator88/Viz/blob/43db4b67abb10fc625b7e90e836acb53f362f35a/Viz/Styles.swift#L186"
+   },
+   {
+    "repo": "barbaramartina/swiftuicatalog",
+    "name": "MyOwnButtonStyle",
+    "permalink": "https://github.com/barbaramartina/swiftuicatalog/blob/a07e696104de0a6f4debf2ea83b101409516f6fb/SwiftUICatalog/Views/Sections/Styles/MyOwnButtonStyle.swift#L12"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "CheckboxButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/CheckboxButtonStyle.swift#L10"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "OutlinedButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/OutlinedButtonStyle.swift#L11"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "PressablePrimitiveButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/PressablePrimitiveButtonStyle.swift#L58"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "FilledButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/FilledButtonStyle.swift#L12"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "ListButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/ListButtonStyle.swift#L10"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "TextButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/TextButtonStyle.swift#L11"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "CustomLinkButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/LinkButtonStyle.swift#L63"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "LinkStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/LinkButtonStyle.swift#L71"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "ExcalidrawZSidebarRowButtonStyle",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/Sidebar/components/SidebarRowModifier.swift#L95"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "FileCheckpointRowButtonStyle",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/FileHistory/FileCheckpointRowView.swift#L181"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "ExportButtonStyle",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/Share/components/ExportButtonStyle.swift#L11"
+   }
+  ]
+ },
+ "TextFieldStyle": {
+  "repo_count": 37,
+  "top_repos": [
+   [
+    "DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily",
+    2
+   ],
+   [
+    "Kaydeewrld/sidekick-local-ai",
+    2
+   ],
+   [
+    "PresearchOfficial/presearch-browser-ios",
+    2
+   ],
+   [
+    "alienator88/Pearcleaner",
+    2
+   ],
+   [
+    "andychucs/ReNextNavi",
+    2
+   ],
+   [
+    "chocoford/ChocofordKit",
+    2
+   ],
+   [
+    "johnbean393/Sidekick",
+    2
+   ],
+   [
+    "mccaffers/search-ops",
+    2
+   ],
+   [
+    "mherrera53/GitMac",
+    2
+   ],
+   [
+    "Automattic/pocket-casts-ios",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "Automattic/pocket-casts-ios",
+    "name": "RequiredFieldStyle",
+    "permalink": "https://github.com/Automattic/pocket-casts-ios/blob/ba8678348422bb407eceb68f1cb6af65e529127f/podcasts/Styles.swift#L68"
+   },
+   {
+    "repo": "CeoatNorthstar/BrewCap",
+    "name": "GlassTextFieldStyle",
+    "permalink": "https://github.com/CeoatNorthstar/BrewCap/blob/5f60b75bf93c85dae133de323ad5a94247bf7806/BrewCap/GlassEffects.swift#L230"
+   },
+   {
+    "repo": "DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily",
+    "name": "PriceTextfieldStyle",
+    "permalink": "https://github.com/DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily/blob/1ee0aa17033e74ec668f345724568e934dfc6514/BeggarsGrowing/BeggarsGrowing/View/RefriFlow/RefriAddFoodView.swift#L150"
+   },
+   {
+    "repo": "DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily",
+    "name": "TextfieldStyle",
+    "permalink": "https://github.com/DeveloperAcademy-POSTECH/2024-MC3-M02-SpyFamily/blob/1ee0aa17033e74ec668f345724568e934dfc6514/BeggarsGrowing/BeggarsGrowing/View/RecipeFlow/RecipeAddView_FoodSauce.swift#L199"
+   },
+   {
+    "repo": "Gabriel0110/Mac-Storage-Genie",
+    "name": "GenieSearchFieldStyle",
+    "permalink": "https://github.com/Gabriel0110/Mac-Storage-Genie/blob/5bb6216595d9b44285a43fd754d18cacf3d043c3/Sources/AppShell/ViewModifiers.swift#L413"
+   },
+   {
+    "repo": "Kaydeewrld/sidekick-local-ai",
+    "name": "ChatStyle",
+    "permalink": "https://github.com/Kaydeewrld/sidekick-local-ai/blob/1333d2c65be74bd7c161302beefe2e64b19be955/Sidekick/Views/Chat/Conversation/ChatStyle.swift#L10"
+   },
+   {
+    "repo": "Kaydeewrld/sidekick-local-ai",
+    "name": "ChatFieldStyle",
+    "permalink": "https://github.com/Kaydeewrld/sidekick-local-ai/blob/1333d2c65be74bd7c161302beefe2e64b19be955/Sidekick/Views/Styles/ChatStyle.swift#L10"
+   },
+   {
+    "repo": "Macaify/MacaifyApp",
+    "name": "CustomTextFieldStyle",
+    "permalink": "https://github.com/Macaify/MacaifyApp/blob/2fa364af3b2e6a50f27ac72ebec383011ba95e4f/XCAChatGPTMac/business/main/ConversationPreferenceView.swift#L338"
+   },
+   {
+    "repo": "PresearchOfficial/presearch-browser-ios",
+    "name": "BraveTextFieldStyle",
+    "permalink": "https://github.com/PresearchOfficial/presearch-browser-ios/blob/87b27f33952d25c62a14b1845b440baebebb4d9f/BraveUI/Design System/Views/BraveTextFieldStyle.swift#L15"
+   },
+   {
+    "repo": "PresearchOfficial/presearch-browser-ios",
+    "name": "BraveValidatedTextFieldStyle",
+    "permalink": "https://github.com/PresearchOfficial/presearch-browser-ios/blob/87b27f33952d25c62a14b1845b440baebebb4d9f/BraveUI/Design System/Views/BraveTextFieldStyle.swift#L32"
+   },
+   {
+    "repo": "ProtonVPN/ios-mac-app",
+    "name": "HermesTextFieldStyle",
+    "permalink": "https://github.com/ProtonVPN/ios-mac-app/blob/6973fc1f7703314d80cada3eba377766c55710e5/libraries/Features/ios_app/Sources/ios_app/Scenes/Settings/Hermes/HermesStyles.swift#L67"
+   },
+   {
+    "repo": "SL-CodeWorrier/Bodima_iOS_app",
+    "name": "CustomTextFieldStyle",
+    "permalink": "https://github.com/SL-CodeWorrier/Bodima_iOS_app/blob/0ce68102441b7d066148ccae17111c69141760fa/Bodima/Views/Authentication/CreateProfileScreen.swift#L321"
+   },
+   {
+    "repo": "alienator88/Pearcleaner",
+    "name": "RoundedTextFieldStyle",
+    "permalink": "https://github.com/alienator88/Pearcleaner/blob/1b3e07a484e36a09a6602836a85821d03f4ff491/Pearcleaner/Style/Styles.swift#L419"
+   },
+   {
+    "repo": "alienator88/Pearcleaner",
+    "name": "SimpleSearchStyleSidebar",
+    "permalink": "https://github.com/alienator88/Pearcleaner/blob/1b3e07a484e36a09a6602836a85821d03f4ff491/Pearcleaner/Style/Styles.swift#L756"
+   },
+   {
+    "repo": "alienator88/Viz",
+    "name": "SimpleSearchStyle",
+    "permalink": "https://github.com/alienator88/Viz/blob/43db4b67abb10fc625b7e90e836acb53f362f35a/Viz/Styles.swift#L296"
+   },
+   {
+    "repo": "alin23/Lunar",
+    "name": "PaddedTextFieldStyle",
+    "permalink": "https://github.com/alin23/Lunar/blob/3e5024189914502d95c991f2d8d4c265b3a5add1/Lunar/Controllers/QuickActionsViewController.swift#L24"
+   },
+   {
+    "repo": "amebalabs/TRex",
+    "name": "ModernTextFieldStyle",
+    "permalink": "https://github.com/amebalabs/TRex/blob/8dbda1bceddfbadce82c6aaee589e10eae3c5f38/TRex/App/UI/Onboarding/Views/Components/ModernTextFieldStyle.swift#L3"
+   },
+   {
+    "repo": "andychucs/ReNextNavi",
+    "name": "BraveTextFieldStyle",
+    "permalink": "https://github.com/andychucs/ReNextNavi/blob/b72e65210978095a4ad5788682b75ffe3a76cc29/Sources/DesignSystem/Views/BraveTextFieldStyle.swift#L15"
+   },
+   {
+    "repo": "andychucs/ReNextNavi",
+    "name": "BraveValidatedTextFieldStyle",
+    "permalink": "https://github.com/andychucs/ReNextNavi/blob/b72e65210978095a4ad5788682b75ffe3a76cc29/Sources/DesignSystem/Views/BraveTextFieldStyle.swift#L32"
+   },
+   {
+    "repo": "austin-smith/BitDream",
+    "name": "ValidationTextFieldStyle",
+    "permalink": "https://github.com/austin-smith/BitDream/blob/eba3cca6e36a112c2d53542c76b57a66f1c8d642/BitDream/Views/macOS/macOSServerDetail.swift#L6"
+   },
+   {
+    "repo": "beamlegacy/beam",
+    "name": "CustomTFStyle",
+    "permalink": "https://github.com/beamlegacy/beam/blob/74bcab9a3c666cc13ee1e9e62c8a3538cf258dc3/Beam/Classes/Components/NotesList/SearchBar.swift#L33"
+   },
+   {
+    "repo": "brandyodhiambo/TorqueNet",
+    "name": "TappableTextFieldStyle",
+    "permalink": "https://github.com/brandyodhiambo/TorqueNet/blob/218bb79e486de087a97897e266025f16837a02b0/TorqueNet/Core/Component/InputField/TappableTextFieldStyle.swift#L10"
+   },
+   {
+    "repo": "bretth18/seeleseek",
+    "name": "SeeleTextFieldStyle",
+    "permalink": "https://github.com/bretth18/seeleseek/blob/40b381d4e6e9bba60f5d595a33307d7aa82a6597/seeleseek/DesignSystem/Components/Forms/FormStyles.swift#L7"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "OutlinedTextFieldStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/TextFields/OutlinedTextFieldStyle.swift#L84"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "SecurityCodeFieldStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Inputs/SecurityCodeFieldStyle.swift#L11"
+   }
+  ]
+ },
+ "ProgressViewStyle": {
+  "repo_count": 35,
+  "top_repos": [
+   [
+    "instructure/canvas-ios",
+    5
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    4
+   ],
+   [
+    "swiftDialog/swiftDialog",
+    3
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    2
+   ],
+   [
+    "flocked/FZUIKit",
+    2
+   ],
+   [
+    "insidegui/WWDC",
+    2
+   ],
+   [
+    "jellyfin/Swiftfin",
+    2
+   ],
+   [
+    "macmixing/keyvox",
+    2
+   ],
+   [
+    "vrgsptn/SwiftUI-by-Apple-Developer-Documentation",
+    2
+   ],
+   [
+    "AFK-surf/OpenBridge",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AFK-surf/OpenBridge",
+    "name": "CircularProgressStyle",
+    "permalink": "https://github.com/AFK-surf/OpenBridge/blob/a9ca905547309a7db9d6e9f246c554c4cc416a3c/macos/OpenBridge/Interface/Components/CircularProgressStyle.swift#L8"
+   },
+   {
+    "repo": "AdityaMuthukattu/blink",
+    "name": "LinearProgressViewStyle",
+    "permalink": "https://github.com/AdityaMuthukattu/blink/blob/7b095026ae96e19a4ebf6ece897c026d7b361cdb/blink/FullScreenBreakView.swift#L132"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "CustomProgressViewStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/ProgressView/CustomProgressViewStyle.swift#L10"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "DarkBlueShadowProgressViewStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/SwiftUIExample/New in iOS 14/View and Controls/SU_ProgressView.swift#L49"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "PinkBorderedProgressViewStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/ZeroToOne/IndicatorValueSample/IndicatorValueSample/ProgressViewSample.swift#L56"
+   },
+   {
+    "repo": "KaneEast/SwiftKnowledgeBase",
+    "name": "CustomProgressViewStyle",
+    "permalink": "https://github.com/KaneEast/SwiftKnowledgeBase/blob/1f6c43fa9f38d92fe32891611114eb1841d53f36/SwiftUI_CookBook/SwiftUI_CookBook/SwiftUICheetSheet/BasicViews/Indicators_ProgressViewStyleView.swift#L18"
+   },
+   {
+    "repo": "Krishpotanwar/Macin",
+    "name": "GlassProgressStyle",
+    "permalink": "https://github.com/Krishpotanwar/Macin/blob/76208f3ebe1ce66a9c943993ee460fb46f0680aa/MacinApp/Views/Components/GlassProgressStyle.swift#L4"
+   },
+   {
+    "repo": "Much-IqbalFauzi/jachi",
+    "name": "Progress",
+    "permalink": "https://github.com/Much-IqbalFauzi/jachi/blob/8b81f1dda6d71464ffdd10de1fb144598e9326dc/Jachi/Features/Component/Progress.swift#L10"
+   },
+   {
+    "repo": "Shopify/tophat",
+    "name": "TophatProgressViewStyle",
+    "permalink": "https://github.com/Shopify/tophat/blob/bac3a6917ab1c084dd381b5fd66cb3c114b129c7/Tophat/Views/Generic/TophatProgressViewStyle.swift#L11"
+   },
+   {
+    "repo": "andychucs/ReNextNavi",
+    "name": "BraveCircularProgressViewStyle",
+    "permalink": "https://github.com/andychucs/ReNextNavi/blob/b72e65210978095a4ad5788682b75ffe3a76cc29/Sources/BraveUI/Buttons/LoaderView.swift#L132"
+   },
+   {
+    "repo": "austin-smith/BitDream",
+    "name": "LinearTorrentProgressStyle",
+    "permalink": "https://github.com/austin-smith/BitDream/blob/eba3cca6e36a112c2d53542c76b57a66f1c8d642/BitDream/Views/macOS/macOSTorrentList.swift#L6"
+   },
+   {
+    "repo": "aviwad/LyricFever",
+    "name": "ColoredThinProgressViewStyle",
+    "permalink": "https://github.com/aviwad/LyricFever/blob/20a44f0fc18a39f28824bf288dc8f368b17b9a99/LyricFever/Views/MenubarWindowView/ColoredThinProgressViewStyle.swift#L10"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "PieProgressViewStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/ProgressView/PieProgressViewStyle.swift#L40"
+   },
+   {
+    "repo": "davedelong/extendedswift",
+    "name": "ThinCircularProgressViewStyle",
+    "permalink": "https://github.com/davedelong/extendedswift/blob/8139152ba20945644aff4d07362657f0ec25f08b/Sources/ExtendedKit/SwiftUI/ProgressViewStyle.swift#L14"
+   },
+   {
+    "repo": "fayazara/bucketdrop",
+    "name": "ActiveProgressViewStyle",
+    "permalink": "https://github.com/fayazara/bucketdrop/blob/92816bedcd2267022ede0c797d12e593f0997e4b/BucketDrop/ContentView.swift#L605"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "BarProgressStyle",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Classes/SwiftUI/BarProgressStyle.swift#L12"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "BarProgressLabelStyle",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Classes/SwiftUI/BarProgressStyle.swift#L39"
+   },
+   {
+    "repo": "huangboju/Moots",
+    "name": "ScrumProgressViewStyle",
+    "permalink": "https://github.com/huangboju/Moots/blob/33b540546d7c014932932317d6226c17bd55b95d/Examples/SwiftUI/Scrumdinger/Scrumdinger/ScrumProgressViewStyle.swift#L7"
+   },
+   {
+    "repo": "insidegui/WWDC",
+    "name": "TrackColorProgressViewStyle",
+    "permalink": "https://github.com/insidegui/WWDC/blob/416c1474d9f8c3328e527becf98fbd93c7cb482d/WWDC/Views/TrackColorView.swift#L11"
+   },
+   {
+    "repo": "insidegui/WWDC",
+    "name": "WWDCProgressViewStyle",
+    "permalink": "https://github.com/insidegui/WWDC/blob/416c1474d9f8c3328e527becf98fbd93c7cb482d/WWDC/Views/WWDCProgressIndicator.swift#L28"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "DeterminateBarProgressViewStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/SwiftUIViews/ProgressViewStyle/DeterminateBarProgressViewStyle.swift#L21"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "IndeterminateBarProgressViewStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/SwiftUIViews/ProgressViewStyle/IndeterminateBarProgressViewStyle.swift#L21"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "DeterminateBorderedBarProgressViewStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/SwiftUIViews/ProgressViewStyle/DeterminateBorderedBarProgressViewStyle.swift#L21"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "IndeterminateCircleProgressViewStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/SwiftUIViews/ProgressViewStyle/IndeterminateCircleProgressViewStyle.swift#L21"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "DeterminateCircleProgressViewStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/SwiftUIViews/ProgressViewStyle/DeterminateCircleProgressViewStyle.swift#L21"
+   }
+  ]
+ },
+ "InsettableShape": {
+  "repo_count": 34,
+  "top_repos": [
+   [
+    "jasudev/FabulaItemsProvider",
+    14
+   ],
+   [
+    "flocked/FZUIKit",
+    7
+   ],
+   [
+    "nathantannar4/Engine",
+    6
+   ],
+   [
+    "Snapp-Mobile/SnappTheming",
+    2
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    2
+   ],
+   [
+    "insidegui/VirtualBuddy",
+    2
+   ],
+   [
+    "kageroumado/refrax-browser",
+    2
+   ],
+   [
+    "kieranb662/Sliders-SwiftUI",
+    2
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    2
+   ],
+   [
+    "NSEvent/xbox-controller-mapper",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "NSEvent/xbox-controller-mapper",
+    "name": "GroupShape",
+    "permalink": "https://github.com/NSEvent/xbox-controller-mapper/blob/56769ad78b929c2bc1cc7c8394a00fe38910ee0d/XboxControllerMapper/XboxControllerMapper/Views/Components/ButtonIconView.swift#L421"
+   },
+   {
+    "repo": "PhamHungTien/PHTV",
+    "name": "PHTVRoundedRect",
+    "permalink": "https://github.com/PhamHungTien/PHTV/blob/e465f754a9b136a2e95a2c96c1266b1c3a31831d/App/PHTV/UI/Shared/ViewModifiers.swift#L13"
+   },
+   {
+    "repo": "Snapp-Mobile/SnappTheming",
+    "name": "EitherInsettableShape",
+    "permalink": "https://github.com/Snapp-Mobile/SnappTheming/blob/d8dc40940d68e9d0fa073589b0eb16820d81d15f/Sources/SnappTheming/Builders/Foundation/EitherInsettableShape.swift#L18"
+   },
+   {
+    "repo": "Snapp-Mobile/SnappTheming",
+    "name": "EmptyShape",
+    "permalink": "https://github.com/Snapp-Mobile/SnappTheming/blob/d8dc40940d68e9d0fa073589b0eb16820d81d15f/Sources/SnappTheming/Builders/Foundation/EmptyShape.swift#L15"
+   },
+   {
+    "repo": "SwiftUIX/SwiftUIX",
+    "name": "Square",
+    "permalink": "https://github.com/SwiftUIX/SwiftUIX/blob/d349805b22052287d35a461cb492e1b9d750ad8c/Sources/SwiftUIX/Intramodular/Geometry/Square.swift#L9"
+   },
+   {
+    "repo": "alienator88/Pearcleaner",
+    "name": "LadderTopRoundedRectangle",
+    "permalink": "https://github.com/alienator88/Pearcleaner/blob/1b3e07a484e36a09a6602836a85821d03f4ff491/Pearcleaner/Style/Styles.swift#L13"
+   },
+   {
+    "repo": "andychucs/ReNextNavi",
+    "name": "ContainerShape",
+    "permalink": "https://github.com/andychucs/ReNextNavi/blob/b72e65210978095a4ad5788682b75ffe3a76cc29/Sources/BraveWallet/MultipleCircleIconView.swift#L9"
+   },
+   {
+    "repo": "anyproto/anytype-swift",
+    "name": "VariableRoundedRectangle",
+    "permalink": "https://github.com/anyproto/anytype-swift/blob/cf77b42148e9d33f47dfbe31f3ad2a141e4449b0/Modules/DesignKit/Sources/DesignKit/Components/StandardButton/StandardButton.swift#L191"
+   },
+   {
+    "repo": "chenhaiteng/Rings",
+    "name": "ClockIndexShape",
+    "permalink": "https://github.com/chenhaiteng/Rings/blob/c4133149ca02f5c78da7d022c2c01b7463ae466f/Sources/Rings/ClockIndexShape.swift#L55"
+   },
+   {
+    "repo": "dawsonblock/OPENCLAW-SECURITY-",
+    "name": "ChatBubbleShape",
+    "permalink": "https://github.com/dawsonblock/OPENCLAW-SECURITY-/blob/52f65f77f2459bd1b4aa867bc34d9b893152b6dc/apps/shared/OpenClawKit/Sources/OpenClawChatUI/ChatMessageViews.swift#L10"
+   },
+   {
+    "repo": "duckduckgo/apple-browsers",
+    "name": "CustomRoundedCornersShape",
+    "permalink": "https://github.com/duckduckgo/apple-browsers/blob/48ae495ada22b74d15b1a141661838c17a8ff39d/macOS/DuckDuckGo/Common/View/SwiftUI/CustomRoundedCornersShape.swift#L21"
+   },
+   {
+    "repo": "duckduckgo/apple-browsers",
+    "name": "Bubble",
+    "permalink": "https://github.com/duckduckgo/apple-browsers/blob/48ae495ada22b74d15b1a141661838c17a8ff39d/SharedPackages/UIComponents/Sources/UIComponents/Shared/BubbleView.swift#L47"
+   },
+   {
+    "repo": "ericjypark/codex-island",
+    "name": "IslandShape",
+    "permalink": "https://github.com/ericjypark/codex-island/blob/fd6c5f657036d133f4b7b67d2bda2f22e777491f/Sources/Views/IslandShape.swift#L10"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "RelativeRoundedRectangle",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/RelativeRoundedRectangle.swift#L20"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "ContactShadowShape",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/ContactShadow.swift#L12"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "DeepShadowShape",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/DeepShadowShape.swift#L13"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "FlatLongShadowShape",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/FlatLongShadow.swift#L12"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "CurvedShadowShape",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/CurveShadow.swift#L12"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "RoundedCornerRectangle",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/RoundedCornerRectangle.swift#L13"
+   },
+   {
+    "repo": "flocked/FZUIKit",
+    "name": "UnevenRelativeRoundedRectangle",
+    "permalink": "https://github.com/flocked/FZUIKit/blob/666c8a7ec5f5a04b7a9032d956221bb9e3d507dc/Sources/FZUIKit/Extensions/SwiftUI/Shape/UnevenRelativeRoundedRectangle.swift#L20"
+   },
+   {
+    "repo": "funway/Countdown",
+    "name": "Arc",
+    "permalink": "https://github.com/funway/Countdown/blob/f35dd771b17fb265a061603e7894016d6ea68aef/Countdown/View/ProgressView/ArcProgress.swift#L49"
+   },
+   {
+    "repo": "insidegui/VirtualBuddy",
+    "name": "RimShape",
+    "permalink": "https://github.com/insidegui/VirtualBuddy/blob/afb78e397e05c1acf613092577d14f56849efc9e/VirtualUI/Source/Components/LiquidGlassCompat/RimShape.swift#L11"
+   },
+   {
+    "repo": "insidegui/VirtualBuddy",
+    "name": "AnyInsettableShape",
+    "permalink": "https://github.com/insidegui/VirtualBuddy/blob/afb78e397e05c1acf613092577d14f56849efc9e/VirtualUI/Source/Components/LiquidGlassCompat/AnyInsettableShape.swift#L4"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "SmoothRoundedRectangle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/packages/HorizonUI/Sources/HorizonUI/Sources/Foundation/CornerRadius/HorizonUI.SmoothRoundedRectangle.swift#L22"
+   },
+   {
+    "repo": "jasudev/FabulaItemsProvider",
+    "name": "RoundedCorners",
+    "permalink": "https://github.com/jasudev/FabulaItemsProvider/blob/af08a0815e21889db8251578ec28c2c27e5b27b1/Sources/FabulaItemsProvider/Items/P9_RightSheet.swift#L93"
+   }
+  ]
+ },
+ "GroupBoxStyle": {
+  "repo_count": 30,
+  "top_repos": [
+   [
+    "fajfer/mObywatel",
+    4
+   ],
+   [
+    "neziw/mObywatel-mirror",
+    4
+   ],
+   [
+    "ACINQ/phoenix",
+    2
+   ],
+   [
+    "StefKors/Commitment",
+    2
+   ],
+   [
+    "alienator88/Pearcleaner",
+    2
+   ],
+   [
+    "kyleerhabor/advance",
+    2
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    2
+   ],
+   [
+    "processout/processout-ios",
+    2
+   ],
+   [
+    "AuroraEditor/AuroraEditor",
+    1
+   ],
+   [
+    "ElmerCat/PraxPress",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "InsetGroupBoxStyle",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/style/InsetGroupBoxStyle.swift#L5"
+   },
+   {
+    "repo": "ACINQ/phoenix",
+    "name": "PriorityBoxStyle",
+    "permalink": "https://github.com/ACINQ/phoenix/blob/34e00ffc5a981e4837c51f91161f3e1e06644820/phoenix-ios/phoenix-ios/views/send/PriorityBoxStyle.swift#L3"
+   },
+   {
+    "repo": "AuroraEditor/AuroraEditor",
+    "name": "AEGroupBox",
+    "permalink": "https://github.com/AuroraEditor/AuroraEditor/blob/309be084bc4ac85fa725aa04d4efdd63f147f328/AuroraEditor/Components/Styles/GroupBox.swift#L12"
+   },
+   {
+    "repo": "ElmerCat/PraxPress",
+    "name": "BottomLabelGroupBoxStyle",
+    "permalink": "https://github.com/ElmerCat/PraxPress/blob/aaa42346810a491a6ece5af05018633978917a5c/PraxPress/Application/MainToolbar.swift#L184"
+   },
+   {
+    "repo": "FuzzyIdeas/Cling",
+    "name": "SettingsCardGroupBoxStyle",
+    "permalink": "https://github.com/FuzzyIdeas/Cling/blob/519836869217f4f6ec4102a2ba59930df1433360/Cling/SettingsView.swift#L1254"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "CardGroupBoxStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/GroupBox/CardGroupBoxStyle.swift#L10"
+   },
+   {
+    "repo": "Macaify/MacaifyApp",
+    "name": "CardGroupBoxStyle",
+    "permalink": "https://github.com/Macaify/MacaifyApp/blob/2fa364af3b2e6a50f27ac72ebec383011ba95e4f/Shared/design/SettingsUI.swift#L11"
+   },
+   {
+    "repo": "MaudeCode/cowtail",
+    "name": "CowtailCardStyle",
+    "permalink": "https://github.com/MaudeCode/cowtail/blob/b032107c7b568300ae48ca3a156001680385e790/ios/CowtailApp/Sources/UI/Shared/CowtailStyle.swift#L17"
+   },
+   {
+    "repo": "ParetoSecurity/pareto-mac",
+    "name": "AboutGroupBoxStyle",
+    "permalink": "https://github.com/ParetoSecurity/pareto-mac/blob/5e25b536bd1a988805d3c2c8586d9037a7744831/Pareto/Views/Settings/AboutSettingsView.swift#L323"
+   },
+   {
+    "repo": "XcodesOrg/XcodesApp",
+    "name": "PreferencesGroupBoxStyle",
+    "permalink": "https://github.com/XcodesOrg/XcodesApp/blob/1a0d3353b9a100b2245fc4b23d6d8e7d05d02fd8/Xcodes/Frontend/Preferences/AdvancedPreferencePane.swift#L173"
+   },
+   {
+    "repo": "Sophiestication/Cappella",
+    "name": "SettingsGroupBoxStyle",
+    "permalink": "https://github.com/Sophiestication/Cappella/blob/54ea14e3bbab1ddcb4507a52a6d749b2a3406ea1/Cappella/Settings/SettingsGroupBoxStyle.swift#L27"
+   },
+   {
+    "repo": "StefKors/Commitment",
+    "name": "MaterialAccentBorderGroupBoxStyle",
+    "permalink": "https://github.com/StefKors/Commitment/blob/ae88c9fe7e143002c2d28b991c0299ddd2da5350/Commitment/Components/MaterialAccentBorderGroupBoxStyle.swift#L10"
+   },
+   {
+    "repo": "StefKors/Commitment",
+    "name": "AccentBorderGroupBoxStyle",
+    "permalink": "https://github.com/StefKors/Commitment/blob/ae88c9fe7e143002c2d28b991c0299ddd2da5350/Commitment/Components/AccentBorderGroupBoxStyle.swift#L10"
+   },
+   {
+    "repo": "StefKors/GitLab",
+    "name": "PlainGroupBoxStyle",
+    "permalink": "https://github.com/StefKors/GitLab/blob/5404b774127ba9c0f5f06489a5f709547001798e/Shared/UserInterface/Extensions/PlainGroupBoxStyle.swift#L10"
+   },
+   {
+    "repo": "alienator88/Pearcleaner",
+    "name": "CollapsibleGroupBoxStyle",
+    "permalink": "https://github.com/alienator88/Pearcleaner/blob/1b3e07a484e36a09a6602836a85821d03f4ff491/Pearcleaner/Style/Styles.swift#L997"
+   },
+   {
+    "repo": "alienator88/Pearcleaner",
+    "name": "TransparentGroupBox",
+    "permalink": "https://github.com/alienator88/Pearcleaner/blob/1b3e07a484e36a09a6602836a85821d03f4ff491/Pearcleaner/Views/Brew/MaintenanceSection.swift#L501"
+   },
+   {
+    "repo": "ashchan/returns",
+    "name": "ReturnGroupBoxStyle",
+    "permalink": "https://github.com/ashchan/returns/blob/d6cf40f9b9f1fcb658361457a49753714fe46f93/macOS/Views/PortfolioView/PortfolioReturnView.swift#L136"
+   },
+   {
+    "repo": "bbingz/engram",
+    "name": "SettingsCardGroupBoxStyle",
+    "permalink": "https://github.com/bbingz/engram/blob/88f86631ac49ff32b7810236a5c8b7509cb6a753/macos/Engram/Views/SettingsView.swift#L155"
+   },
+   {
+    "repo": "TableProApp/TablePro",
+    "name": "CodeBlockGroupBoxStyle",
+    "permalink": "https://github.com/TableProApp/TablePro/blob/e3afc6457cd819eca5226c3874a9b4d7ad318a67/TablePro/Views/AIChat/AIChatCodeBlockView.swift#L189"
+   },
+   {
+    "repo": "dawsonblock/OPENCLAW-SECURITY-",
+    "name": "PlainSettingsGroupBoxStyle",
+    "permalink": "https://github.com/dawsonblock/OPENCLAW-SECURITY-/blob/52f65f77f2459bd1b4aa867bc34d9b893152b6dc/apps/macos/Sources/OpenClaw/DebugSettings.swift#L955"
+   },
+   {
+    "repo": "fajfer/mObywatel",
+    "name": "ListHeaderGroupBoxStyle",
+    "permalink": "https://github.com/fajfer/mObywatel/blob/d39d2f947b1078332d758de086cb3cb7dd163940/iOS/Sources/Components/ListHeader/ListHeaderGroupBoxStyle.swift#L3"
+   },
+   {
+    "repo": "fajfer/mObywatel",
+    "name": "SectionHeaderStyle",
+    "permalink": "https://github.com/fajfer/mObywatel/blob/d39d2f947b1078332d758de086cb3cb7dd163940/iOS/Sources/Components/SectionHeader/SectionHeaderGroupBoxStyle.swift#L3"
+   },
+   {
+    "repo": "fajfer/mObywatel",
+    "name": "EmptyStateGroupBoxStyle",
+    "permalink": "https://github.com/fajfer/mObywatel/blob/d39d2f947b1078332d758de086cb3cb7dd163940/iOS/Sources/Components/EmptyState/EmptyStateGroupBoxStyle.swift#L3"
+   },
+   {
+    "repo": "fajfer/mObywatel",
+    "name": "SingleCardGroupBoxStyle",
+    "permalink": "https://github.com/fajfer/mObywatel/blob/d39d2f947b1078332d758de086cb3cb7dd163940/iOS/Sources/Components/SingleCard/SingleCardGroupBoxStyle.swift#L3"
+   },
+   {
+    "repo": "github/CopilotForXcode",
+    "name": "CardGroupBoxStyle",
+    "permalink": "https://github.com/github/CopilotForXcode/blob/2ba57a272719ad72f2bb44667133d759812949c1/Core/Sources/HostApp/SharedComponents/CardGroupBoxStyle.swift#L4"
+   }
+  ]
+ },
+ "Animatable": {
+  "repo_count": 27,
+  "top_repos": [
+   [
+    "MatHeartGaming/coolStuff_with_SwiftUI",
+    8
+   ],
+   [
+    "chocoford/ExcalidrawZ",
+    8
+   ],
+   [
+    "doxuto/kavsoft-animation",
+    5
+   ],
+   [
+    "tobitech/Exploration",
+    4
+   ],
+   [
+    "duckduckgo/apple-browsers",
+    3
+   ],
+   [
+    "jasudev/FabulaItemsProvider",
+    3
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    3
+   ],
+   [
+    "nathantannar4/Engine",
+    3
+   ],
+   [
+    "vrgsptn/SwiftUI-by-Apple-Developer-Documentation",
+    3
+   ],
+   [
+    "munsangu/SwiftUI",
+    2
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AlexW00/Zettel",
+    "name": "ClearAnimationModifier",
+    "permalink": "https://github.com/AlexW00/Zettel/blob/9f7f2540d3717a45d9adc431f4776b408f3be0da/Zettel/Views/MainView.swift#L496"
+   },
+   {
+    "repo": "Ebullioscopic/Atoll",
+    "name": "GlowingSnake",
+    "permalink": "https://github.com/Ebullioscopic/Atoll/blob/01a73f05c442e688979ab398665db9badcd6f10b/DynamicIsland/animations/HelloAnimation.swift#L74"
+   },
+   {
+    "repo": "MKS2508/MKS-IPTV-App",
+    "name": "AnimatedProgressText",
+    "permalink": "https://github.com/MKS2508/MKS-IPTV-App/blob/c869c5ebdf0927d347c8f87bd1e95095a85543e4/mks-multiplatform-iptv/IPTVDownloader/Features/Download/Views/DownloadRowView.swift#L4"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "AnimatedPositionModifier",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/Netflix UI Animations/Netflix UI Animations/Views/ProfileView.swift#L202"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "RotateModifier",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/Flip Clock Effect/Flip Clock Effect/Helpers/FlipClockTextEffect.swift#L117"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "FlipTransition",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/Custom Transitions/Custom Transitions/ContentView.swift#L44"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "AnimationEndCallback",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/Sticky Header Autoscrollable Tabs/Sticky Header Autoscrollable Tabs/Helpers/Extensions.swift#L63"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "AnimationProgress",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/GooeyEffect/GooeyEffect/Helpers/AnimationProgress.swift#L23"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "OpenableBookView",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/FlipBook Animation/FlipBook Animation/ContentView.swift#L97"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "FlipTransition",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/iOS_18/Credit Card Input Form/Credit Card Input Form/Helpers/FlipTransition.swift#L10"
+   },
+   {
+    "repo": "MatHeartGaming/coolStuff_with_SwiftUI",
+    "name": "AnimatedText",
+    "permalink": "https://github.com/MatHeartGaming/coolStuff_with_SwiftUI/blob/86adf313004104d18a80bf9fff51edb00cf46e03/ExpenseTracker Animation Challenge/ExpenseTracker Animation Challenge/Views/AnimatedText.swift#L10"
+   },
+   {
+    "repo": "NSFuntik/SwiftToolkit",
+    "name": "AnimationEndedCallback",
+    "permalink": "https://github.com/NSFuntik/SwiftToolkit/blob/e026174a25d0546d2d02e8e3608dc9851ee33867/Sources/UI/Utilities/FrameObserver.swift#L96"
+   },
+   {
+    "repo": "OrdinarySF/LyricFever-Lite",
+    "name": "MulticolorGradient",
+    "permalink": "https://github.com/OrdinarySF/LyricFever-Lite/blob/61d414c387c0b39818904bb8d4cc29a771436b66/SpotifyLyricsInMenubar/MulticolorGradient.swift#L11"
+   },
+   {
+    "repo": "TheBoredTeam/boring.notch",
+    "name": "GlowingSnake",
+    "permalink": "https://github.com/TheBoredTeam/boring.notch/blob/ff5e01a22deb2b3719a19712364f0d725a13e0de/boringNotch/animations/HelloAnimation.swift#L59"
+   },
+   {
+    "repo": "adwivedi0416/notch",
+    "name": "GlowingSnake",
+    "permalink": "https://github.com/adwivedi0416/notch/blob/5a9f4cc71529ed44a7162b0546e30118ca287add/animations/HelloAnimation.swift#L59"
+   },
+   {
+    "repo": "agg23/Sila",
+    "name": "ChatTransitionViewModifier",
+    "permalink": "https://github.com/agg23/Sila/blob/6b33e958443b099c0f52b4e138a44e64677e6d4f/Sila/View/Chat/ChatAnimation.swift#L24"
+   },
+   {
+    "repo": "anyproto/anytype-swift",
+    "name": "HomeUpdateView",
+    "permalink": "https://github.com/anyproto/anytype-swift/blob/cf77b42148e9d33f47dfbe31f3ad2a141e4449b0/Anytype/Sources/PresentationLayer/Modules/HomeWidgets/Container/Submodule/HomeUpdate/HomeUpdateView.swift#L4"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "FileHomeItemHeroSurface",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/ContentView+/Detail/Components/FileHomeItemTransition.swift#L288"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "SizeAnimatableContainer",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/ContentView+/Detail/Components/FileHomeItemTransition.swift#L372"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "AnimatableContainerSizeModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/ExcalidrawView/Toolbar/ApplePencilToolbar/ApplePencilToolbar.swift#L631"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "ChatTopDownRevealModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/AIChat/components/Messages/ChatTopDownRevealTransition.swift#L10"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "ChatTopDownRevealFrameModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/AIChat/components/Messages/ChatTopDownRevealTransition.swift#L59"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "CompactSummaryRowHeightModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/AIChat/components/Messages/CompactRows.swift#L134"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "RevealHeightModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/AIChat/components/Messages/SmoothStreamingText.swift#L123"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "ToolEventBodyHeightModifier",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/SidebarTrailing/AIChat/components/ToolCards/_ToolEventCard.swift#L155"
+   }
+  ]
+ },
+ "MenuStyle": {
+  "repo_count": 21,
+  "top_repos": [
+   [
+    "nathantannar4/Engine",
+    3
+   ],
+   [
+    "DataDog/dd-sdk-ios",
+    2
+   ],
+   [
+    "barbaramartina/swiftuicatalog",
+    2
+   ],
+   [
+    "chocoford/ChocofordKit",
+    2
+   ],
+   [
+    "raindropio/ios",
+    2
+   ],
+   [
+    "CodeEditApp/CodeEdit",
+    1
+   ],
+   [
+    "FedyaLight/sumi-webkit",
+    1
+   ],
+   [
+    "JavierCS/iOSDemoApp",
+    1
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    1
+   ],
+   [
+    "Kaydeewrld/sidekick-local-ai",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "CodeEditApp/CodeEdit",
+    "name": "StatusBarMenuStyle",
+    "permalink": "https://github.com/CodeEditApp/CodeEdit/blob/cec6287a49a0a460cd7cab17f254eebc3ada828e/CodeEdit/Features/StatusBar/Views/StatusBarItems/StatusBarMenuStyle.swift#L11"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "RedBorderMenuStyle",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Controls/MenuesView.swift#L210"
+   },
+   {
+    "repo": "DataDog/dd-sdk-ios",
+    "name": "MyOwnMenuStyle",
+    "permalink": "https://github.com/DataDog/dd-sdk-ios/blob/ece71d98d06335a6f18555c8649ba6bde37f297d/BenchmarkTests/CatalogSwiftUI/Views/Sections/Styles/MyOwnMenuStyle.swift#L12"
+   },
+   {
+    "repo": "FedyaLight/sumi-webkit",
+    "name": "NavMenuStyle",
+    "permalink": "https://github.com/FedyaLight/sumi-webkit/blob/4f73b729b471c2e5123f9e1ecadb3222abe96b51/UI/Buttons/NavButtons/NavMenuStyle.swift#L9"
+   },
+   {
+    "repo": "JavierCS/iOSDemoApp",
+    "name": "CapsuleMenuStyle",
+    "permalink": "https://github.com/JavierCS/iOSDemoApp/blob/edc03ebcf2f916738492cead20569275bdb1d3d5/iOSDemoApp/Modules/SwiftUI/UIElements/Menu/CapsuleMenuStyle.swift#L10"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "RedBorderMenuStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/Practices/ITime/ITime/Code/Features/Target/Chats/Test17.swift#L82"
+   },
+   {
+    "repo": "Kaydeewrld/sidekick-local-ai",
+    "name": "CircleMenuStyle",
+    "permalink": "https://github.com/Kaydeewrld/sidekick-local-ai/blob/1333d2c65be74bd7c161302beefe2e64b19be955/Sidekick/Views/Styles/CircleMenuStyle.swift#L10"
+   },
+   {
+    "repo": "Mochi-Team/mochi",
+    "name": "MaterialToolbarButtonMenuStyle",
+    "permalink": "https://github.com/Mochi-Team/mochi/blob/69948b73598c3b1135b718c69c357c8977c7cb1a/Sources/Shared/Styling/TopBar.swift#L38"
+   },
+   {
+    "repo": "barbaramartina/swiftuicatalog",
+    "name": "RedBorderMenuStyle",
+    "permalink": "https://github.com/barbaramartina/swiftuicatalog/blob/a07e696104de0a6f4debf2ea83b101409516f6fb/SwiftUICatalog/Views/Sections/Controls/MenuesView.swift#L221"
+   },
+   {
+    "repo": "barbaramartina/swiftuicatalog",
+    "name": "MyOwnMenuStyle",
+    "permalink": "https://github.com/barbaramartina/swiftuicatalog/blob/a07e696104de0a6f4debf2ea83b101409516f6fb/SwiftUICatalog/Views/Sections/Styles/MyOwnMenuStyle.swift#L12"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "OutlinedMenuButtonStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Buttons/ButtonStyles/OutlinedButtonStyle.swift#L119"
+   },
+   {
+    "repo": "chocoford/ChocofordKit",
+    "name": "OutlinedMenuStyle",
+    "permalink": "https://github.com/chocoford/ChocofordKit/blob/427904748863a8740071b4d967fef707082b576a/Sources/UI/Components/Menus/OutlinedMenuStyle.swift#L11"
+   },
+   {
+    "repo": "duckduckgo/apple-browsers",
+    "name": "SideMenuStyle",
+    "permalink": "https://github.com/duckduckgo/apple-browsers/blob/48ae495ada22b74d15b1a141661838c17a8ff39d/macOS/LocalPackages/NetworkProtectionMac/Sources/NetworkProtectionUI/SwiftUI/AccordionView.swift#L22"
+   },
+   {
+    "repo": "github/CopilotForXcode",
+    "name": "CreateOtherChatTabMenuStyle",
+    "permalink": "https://github.com/github/CopilotForXcode/blob/2ba57a272719ad72f2bb44667133d759812949c1/Core/Sources/SuggestionWidget/ChatWindowView.swift#L667"
+   },
+   {
+    "repo": "johnbean393/Sidekick",
+    "name": "CircleMenuStyle",
+    "permalink": "https://github.com/johnbean393/Sidekick/blob/487898c83b7c04b5ce022717d45381bf1c322d4b/Sidekick/Views/Styles/CircleMenuStyle.swift#L10"
+   },
+   {
+    "repo": "nalexn/ViewInspector",
+    "name": "TestMenuStyle",
+    "permalink": "https://github.com/nalexn/ViewInspector/blob/4785ee635cc39196fecc7787015e74d523f0d334/Tests/ViewInspectorTests/SwiftUI/MenuTests.swift#L105"
+   },
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "AnyMenuStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/EngineExtensions/AnyMenuStyle.swift#L10"
+   },
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "PreviewMenuStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/EngineExtensions/AnyMenuStyle.swift#L66"
+   },
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "PreviewMenuStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/Engine/Sources/Menu+Extensions.swift#L65"
+   },
+   {
+    "repo": "psugihara/FreeChat",
+    "name": "CircleMenuStyle",
+    "permalink": "https://github.com/psugihara/FreeChat/blob/110ec9c7d4315d418249e1d413b3de8dcbd5f53a/mac/FreeChat/Views/CircleMenuStyle.swift#L11"
+   },
+   {
+    "repo": "raindropio/ios",
+    "name": "DottedMenuButtonStyle",
+    "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/UI/Button/buttonStyle+dotted.swift#L56"
+   },
+   {
+    "repo": "raindropio/ios",
+    "name": "ChipMenuButtonStyle",
+    "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/UI/Button/buttonStyle+chip.swift#L56"
+   },
+   {
+    "repo": "sudhirvaghela15/SwiftUI_Catelog",
+    "name": "PinkBorderMenuStyle",
+    "permalink": "https://github.com/sudhirvaghela15/SwiftUI_Catelog/blob/723d906100d63056c792fba1704ec754a26506ea/SwiftUICatelog/Modules/Controlls/MenuComponentView.swift#L19"
+   },
+   {
+    "repo": "supabitapp/supacode",
+    "name": "SecondaryToolbarMenuStyle",
+    "permalink": "https://github.com/supabitapp/supacode/blob/1d888dbc30f564ed9e8ed26b55c13da961b0887f/supacode/Support/SecondaryToolbarMenuStyle.swift#L5"
+   },
+   {
+    "repo": "tungnt620/marciai",
+    "name": "IconMenuStyle",
+    "permalink": "https://github.com/tungnt620/marciai/blob/5078c8c5fcd0760a5ca89ad83019f955edce990c/App/Sources/UI/Views/Commands/ApplicationCommandView.swift#L204"
+   }
+  ]
+ },
+ "LabeledContentStyle": {
+  "repo_count": 21,
+  "top_repos": [
+   [
+    "jellyfin/Swiftfin",
+    5
+   ],
+   [
+    "mihaelamj/cupertino-sample-code",
+    5
+   ],
+   [
+    "nathantannar4/Engine",
+    2
+   ],
+   [
+    "suhang12332/Swift-Craft-Launcher",
+    2
+   ],
+   [
+    "Desbeers/Chord-Provider",
+    1
+   ],
+   [
+    "LynkSphere/SwiftTerminal",
+    1
+   ],
+   [
+    "SilverMarcs/Atrium",
+    1
+   ],
+   [
+    "Sophiestication/Cappella",
+    1
+   ],
+   [
+    "aumosita/AntiElectricity",
+    1
+   ],
+   [
+    "b0x42/prizm",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "Desbeers/Chord-Provider",
+    "name": "EditorLabeledContentStyle",
+    "permalink": "https://github.com/Desbeers/Chord-Provider/blob/eb24061f7041f4f7215d96d0f9164c5421f6f20a/ChordProviderMac/Chord Provider/Views/Shared/Styles.swift#L52"
+   },
+   {
+    "repo": "LynkSphere/SwiftTerminal",
+    "name": "ShortcutLabeledContentStyle",
+    "permalink": "https://github.com/LynkSphere/SwiftTerminal/blob/7f41ccdbe4bb28e9895d040fadedc7f51d1e4a38/SwiftTerminal/Views/Settings/ShortcutsSettingsView.swift#L50"
+   },
+   {
+    "repo": "SilverMarcs/Atrium",
+    "name": "ShortcutLabeledContentStyle",
+    "permalink": "https://github.com/SilverMarcs/Atrium/blob/e849d9a805d619b05cb2d2c166c94a13ad565f31/Atrium/Views/Settings/ShortcutsSettingsView.swift#L50"
+   },
+   {
+    "repo": "Sophiestication/Cappella",
+    "name": "PlatterMenuLabeledContentStyle",
+    "permalink": "https://github.com/Sophiestication/Cappella/blob/54ea14e3bbab1ddcb4507a52a6d749b2a3406ea1/Cappella/Menu/PlatterMenuLabeledContentStyle.swift#L27"
+   },
+   {
+    "repo": "aumosita/AntiElectricity",
+    "name": "InspectorLabeledContentStyle",
+    "permalink": "https://github.com/aumosita/AntiElectricity/blob/2571074f7bbf909481a9b2f16123bad33401a8d9/CotEditor/Sources/Document Window/Inspector/DocumentInspectorView.swift#L382"
+   },
+   {
+    "repo": "b0x42/prizm",
+    "name": "VerticalLabeledContentStyle",
+    "permalink": "https://github.com/b0x42/prizm/blob/cf73fdb935b9589326c16a7fa135be33fa112a65/Prizm/Presentation/Components/VerticalLabeledContentStyle.swift#L7"
+   },
+   {
+    "repo": "coteditor/CotEditor",
+    "name": "InspectorLabeledContentStyle",
+    "permalink": "https://github.com/coteditor/CotEditor/blob/387f0a9fef03d69cb1c470dbcc00f3f5f6fa8c1f/CotEditor/Sources/Document Window/Inspector/DocumentInspectorView.swift#L351"
+   },
+   {
+    "repo": "davedelong/extendedswift",
+    "name": "StackLabeledContentStyle",
+    "permalink": "https://github.com/davedelong/extendedswift/blob/8139152ba20945644aff4d07362657f0ec25f08b/Sources/ExtendedKit/SwiftUI/LabeledContentStyle.swift#L44"
+   },
+   {
+    "repo": "elyukai/MensaSH",
+    "name": "VerticalLabeledContentStyle",
+    "permalink": "https://github.com/elyukai/MensaSH/blob/eba122ecb39ad3a0ce2cdf67b5a08b678f4873ed/Shared/Extensions/LabeledContentStyle.swift#L10"
+   },
+   {
+    "repo": "hjy-233/SwiftCraftServerLauncher",
+    "name": "CustomLabeledContentStyle",
+    "permalink": "https://github.com/hjy-233/SwiftCraftServerLauncher/blob/981e5fed809ad5ec9ca970619603d496b196b41b/scsl_macos/SwiftCraftServerLauncher/Common/Views/SettingsView.swift#L56"
+   },
+   {
+    "repo": "insidegui/VirtualBuddy",
+    "name": "VerticalLabeledContentStyle",
+    "permalink": "https://github.com/insidegui/VirtualBuddy/blob/afb78e397e05c1acf613092577d14f56849efc9e/VirtualUI/Source/Settings/Components/VerticalLabeledContentStyle.swift#L3"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "LearnMoreLabeledContentStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Extensions/LabeledContentStyle.swift#L18"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "ItemAttributeLabeledContentStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Extensions/LabeledContentStyle.swift#L40"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "DeviceProfileLabeledContentStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Extensions/LabeledContentStyle.swift#L62"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "PlaybackInfoLabeledContentStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Extensions/LabeledContentStyle.swift#L85"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "FocusableLabeledContentStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Extensions/LabeledContentStyle.swift#L129"
+   },
+   {
+    "repo": "kyleerhabor/advance",
+    "name": "SettingsLabeledContentStyle",
+    "permalink": "https://github.com/kyleerhabor/advance/blob/2ed8402b14e1115bdbb8102da43c35db45f6824b/Advance/UI/Views/SettingsView.swift#L41"
+   },
+   {
+    "repo": "lswank/menustow",
+    "name": "MenustowFormLabeledContentStyle",
+    "permalink": "https://github.com/lswank/menustow/blob/0c06fa87091c265d000ea8e1edfd29d121777514/menustow/UI/MenustowUI/MenustowForm.swift#L73"
+   },
+   {
+    "repo": "lukepistrol/TimeMachineStatus",
+    "name": "CustomLabeledContentStyle",
+    "permalink": "https://github.com/lukepistrol/TimeMachineStatus/blob/ed5b9e5f7254bd6847b44ec9a00b37e47f568d15/TimeMachineStatus/Components/CustomLabeledContentStyle.swift#L14"
+   },
+   {
+    "repo": "lumaa-dev/Swiftseerr",
+    "name": "FullLabeledContent",
+    "permalink": "https://github.com/lumaa-dev/Swiftseerr/blob/c8c02cdd6a95efc3509c8a4a14e2c1085fa040cd/Shared/Components/FullLabeledContent.swift#L5"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "CardFieldLabeledContentStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-building-a-document-based-app-using-swiftdata/Start/FlashCard/Views/CardEditorView.swift#L57"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "CardFieldLabeledContentStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-building-a-document-based-app-using-swiftdata/End/FlashCard/Views/CardEditorView.swift#L57"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "CommentLabeledContentStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/accessibility-enhancing-the-accessibility-of-your-swiftui-app/Sources/Styles/CommentLabeledContentStyle.swift#L12"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "PostLabeledContentStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/accessibility-enhancing-the-accessibility-of-your-swiftui-app/Sources/Styles/PostLabeledContentStyle.swift#L14"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "ContactDetailLabelStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-adopting-drag-and-drop-using-swiftui/AdoptingDragAndDropInASwiftUIApp/Views/ContactInfoView.swift#L53"
+   }
+  ]
+ },
+ "DisclosureGroupStyle": {
+  "repo_count": 15,
+  "top_repos": [
+   [
+    "instructure/canvas-ios",
+    3
+   ],
+   [
+    "Mannydefreitas7/aperture",
+    2
+   ],
+   [
+    "chocoford/ExcalidrawZ",
+    2
+   ],
+   [
+    "CircuitProApp/CircuitPro",
+    1
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    1
+   ],
+   [
+    "Vastra-Gotalandsregionen/designsystem-ios",
+    1
+   ],
+   [
+    "aumosita/AntiElectricity",
+    1
+   ],
+   [
+    "buresdv/Cork",
+    1
+   ],
+   [
+    "coteditor/CotEditor",
+    1
+   ],
+   [
+    "katipally/Doom-Coder",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "NavigatorDisclosureGroupStyle",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/UI/DisclosureGroupStyle/NavigatorDisclosureGroupStyle.swift#L10"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "MyDisclosureStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/Categorys/List/List/ListDisclosureGroup.swift#L28"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "CollapsibleDisclosureGroupStyle",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Views/Styles/DisclosureGroup.swift#L39"
+   },
+   {
+    "repo": "Mannydefreitas7/aperture",
+    "name": "IntrospectDisclosureGroupStyle",
+    "permalink": "https://github.com/Mannydefreitas7/aperture/blob/a63b1c4563cce80d684455792b658577b48ec901/Aperture/Views/Styles/DisclosureGroup.swift#L57"
+   },
+   {
+    "repo": "Vastra-Gotalandsregionen/designsystem-ios",
+    "name": "VGRDisclosureGroupStyle",
+    "permalink": "https://github.com/Vastra-Gotalandsregionen/designsystem-ios/blob/ee28d1634df60dde1a5967df159bd16b221b4f5c/Sources/DesignSystem/Views/Cards/DisclosureGroup/VGRDisclosureGroupStyle.swift#L3"
+   },
+   {
+    "repo": "aumosita/AntiElectricity",
+    "name": "InspectorDisclosureGroupStyle",
+    "permalink": "https://github.com/aumosita/AntiElectricity/blob/2571074f7bbf909481a9b2f16123bad33401a8d9/CotEditor/Sources/Document Window/Inspector/DocumentInspectorView.swift#L366"
+   },
+   {
+    "repo": "buresdv/Cork",
+    "name": "NoPadding",
+    "permalink": "https://github.com/buresdv/Cork/blob/c7ec6d35b3dff4e19cbc4e29cb1afc42eaa6f1e8/Cork/Styles/DisclosureGroup - No Padding.swift#L10"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "SelectableDisclosureGroupStyle",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/components/DisclosureGroup+/SelectableDisclosureGroup.swift#L170"
+   },
+   {
+    "repo": "chocoford/ExcalidrawZ",
+    "name": "LeadingChevronDisclosureGroupStyle",
+    "permalink": "https://github.com/chocoford/ExcalidrawZ/blob/9457b50c9a36c34e7bafc3c39479652c7e6b1af7/ExcalidrawZ/components/DisclosureGroup+/LeadingChevronDisclosureGroupStyle.swift#L48"
+   },
+   {
+    "repo": "coteditor/CotEditor",
+    "name": "InspectorDisclosureGroupStyle",
+    "permalink": "https://github.com/coteditor/CotEditor/blob/387f0a9fef03d69cb1c470dbcc00f3f5f6fa8c1f/CotEditor/Sources/Document Window/Inspector/DocumentInspectorView.swift#L331"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "CourseSearchSectionDisclosureStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Features/Courses/SmartSearch/View/CourseSmartSearchResultsView.swift#L146"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "CollapsibleListRowDisclosureStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Core/Core/Common/CommonUI/AcademicUI/Views/CollapsibleListRow.swift#L74"
+   },
+   {
+    "repo": "instructure/canvas-ios",
+    "name": "PlainDisclosureGroupStyle",
+    "permalink": "https://github.com/instructure/canvas-ios/blob/195fb97b2138b4832ba6922dcb909af9466d0fcb/Student/Student/LearnerDashboard/Settings/View/LearnerDashboardColorSelectorView.swift#L83"
+   },
+   {
+    "repo": "katipally/Doom-Coder",
+    "name": "PillDisclosureStyle",
+    "permalink": "https://github.com/katipally/Doom-Coder/blob/207972a23a4f884dddfeb08ba8d44f33135e7a80/DoomCoder/PanelRootView.swift#L958"
+   },
+   {
+    "repo": "m1guelpf/Lattice",
+    "name": "LeftLabelSectionDisclosureStyle",
+    "permalink": "https://github.com/m1guelpf/Lattice/blob/9e462c1a5c8786704a2b8da37c503301fe45b220/src/Views/Styles/LeftLabelSectionDisclosureStyle.swift#L3"
+   },
+   {
+    "repo": "msdrigg/roam",
+    "name": "StandardDisclosureGroupStyle",
+    "permalink": "https://github.com/msdrigg/roam/blob/1f9f9c90fc08c4bb8c443324e4c13db00f4d0510/Shared/Views/Settings/StandardDislosureGroupStyle.swift#L3"
+   },
+   {
+    "repo": "raindropio/ios",
+    "name": "AppKitDisclosureStyle",
+    "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/UI/DisclosureGroup/DisclosureGroupStyle+appKit.swift#L10"
+   },
+   {
+    "repo": "rasmuslos/ShelfPlayer",
+    "name": "BetterDisclosureGroupStyle",
+    "permalink": "https://github.com/rasmuslos/ShelfPlayer/blob/a4fc6ae0db2a493006f89fc7c7041f97688825ff/App/Utility/BetterDisclosureGroupStyle.swift#L11"
+   },
+   {
+    "repo": "tofunori/canopee",
+    "name": "ToolCardDisclosureStyle",
+    "permalink": "https://github.com/tofunori/canopee/blob/86f6bc5303ad11a44ba9863e9aad70480a65c03e/Canope/Views/Chat/AIChatSupportingViews.swift#L507"
+   }
+  ]
+ },
+ "ShapeStyle": {
+  "repo_count": 13,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    6
+   ],
+   [
+    "OpenSwiftUIProject/OpenSwiftUI",
+    2
+   ],
+   [
+    "Py-Swift/ElementaryViews",
+    2
+   ],
+   [
+    "jellyfin/Swiftfin",
+    2
+   ],
+   [
+    "nathantannar4/Engine",
+    2
+   ],
+   [
+    "schatt/sixlayer",
+    2
+   ],
+   [
+    "CircuitProApp/CircuitPro",
+    1
+   ],
+   [
+    "Jyhwenchai/SwiftUIExample",
+    1
+   ],
+   [
+    "anyproto/anytype-swift",
+    1
+   ],
+   [
+    "microsoft/fluentui-apple",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "CircuitProApp/CircuitPro",
+    "name": "StrokeColor",
+    "permalink": "https://github.com/CircuitProApp/CircuitPro/blob/162a550cfbc0b830939151ad6f0fa5f2d1cf7efe/CircuitPro/UI/ShapeStyle/StrokeColor.swift#L10"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "MyTabItemShapeStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/Practices/FoodDelivery/FoodDelivery/Pages/HomeView.swift#L40"
+   },
+   {
+    "repo": "OpenSwiftUIProject/OpenSwiftUI",
+    "name": "OpenSwiftUIColor2SwiftUIColorAdapter",
+    "permalink": "https://github.com/OpenSwiftUIProject/OpenSwiftUI/blob/ded2a8747b97c4a5dcbb173035a0e1c14c535b63/Sources/OpenSwiftUIBridge/SwiftUI/SwiftUI.Color.swift#L30"
+   },
+   {
+    "repo": "OpenSwiftUIProject/OpenSwiftUI",
+    "name": "SwiftUIColor2OpenSwiftUIColorAdapter",
+    "permalink": "https://github.com/OpenSwiftUIProject/OpenSwiftUI/blob/ded2a8747b97c4a5dcbb173035a0e1c14c535b63/Sources/OpenSwiftUIBridge/SwiftUI/SwiftUI.Color.swift#L45"
+   },
+   {
+    "repo": "Py-Swift/ElementaryViews",
+    "name": "OpenSwiftUIColor2SwiftUIColorAdapter",
+    "permalink": "https://github.com/Py-Swift/ElementaryViews/blob/45d6985dd9cf08e6757d9903c2ef3c1fe9d8b9a5/research/OpenSwiftUI/Sources/OpenSwiftUIBridge/SwiftUI/SwiftUI.Color.swift#L30"
+   },
+   {
+    "repo": "Py-Swift/ElementaryViews",
+    "name": "SwiftUIColor2OpenSwiftUIColorAdapter",
+    "permalink": "https://github.com/Py-Swift/ElementaryViews/blob/45d6985dd9cf08e6757d9903c2ef3c1fe9d8b9a5/research/OpenSwiftUI/Sources/OpenSwiftUIBridge/SwiftUI/SwiftUI.Color.swift#L45"
+   },
+   {
+    "repo": "anyproto/anytype-swift",
+    "name": "DynamicForegroundStyle",
+    "permalink": "https://github.com/anyproto/anytype-swift/blob/cf77b42148e9d33f47dfbe31f3ad2a141e4449b0/Anytype/Sources/PresentationLayer/Common/SwiftUI/BasicComponents/DynamicForeground.swift#L4"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "ComplexSecondaryShapeStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Components/ComplexSecondaryShapeStyle.swift#L18"
+   },
+   {
+    "repo": "jellyfin/Swiftfin",
+    "name": "TintedMaterialShapeStyle",
+    "permalink": "https://github.com/jellyfin/Swiftfin/blob/09884e0015c4a97b40fa7868e5b2d0a25125882f/Shared/Components/TintedMaterialShapeStyle.swift#L18"
+   },
+   {
+    "repo": "microsoft/fluentui-apple",
+    "name": "DynamicColor",
+    "permalink": "https://github.com/microsoft/fluentui-apple/blob/674c96ed2fb6b9ef50d9b11406f6e912c94e7411/Sources/FluentUI_common/Core/Theme/Tokens/DynamicColor.swift#L29"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10029/Start/BackyardBirdsUI/Styles.swift#L22"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantlyBlendedShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10029/Start/BackyardBirdsUI/Styles.swift#L49"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10029/End/BackyardBirdsUI/Styles.swift#L22"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantlyBlendedShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10029/End/BackyardBirdsUI/Styles.swift#L49"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-backyard-birds-sample/BackyardBirdsUI/Styles.swift#L22"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "VibrantlyBlendedShapeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-backyard-birds-sample/BackyardBirdsUI/Styles.swift#L49"
+   },
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "CustomStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/Engine/Sources/AnyShapeStyle+Extensions.swift#L251"
+   },
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "CustomGradientStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/Engine/Sources/AnyShapeStyle+Extensions.swift#L257"
+   },
+   {
+    "repo": "pookjw/MySwiftUI",
+    "name": "Material",
+    "permalink": "https://github.com/pookjw/MySwiftUI/blob/2ade0caabc58b191e4ac64deb7a9b8b17fe4ca82/Sources/MySwiftUICore/Material.swift#L56"
+   },
+   {
+    "repo": "ruddarr/app",
+    "name": "SheetBackgroundStyle",
+    "permalink": "https://github.com/ruddarr/app/blob/4be91a7a9b5fb181ce765a1932e15f764e18a0cd/Ruddarr/Utilities/View.swift#L239"
+   },
+   {
+    "repo": "schatt/sixlayer",
+    "name": "PlatformAnyShapeStyle",
+    "permalink": "https://github.com/schatt/sixlayer/blob/f593ee5c02e59b384eba18306515a29c30f1e034/Framework/Sources/Extensions/Platform/PlatformAnyShapeStyle.swift#L9"
+   },
+   {
+    "repo": "schatt/sixlayer",
+    "name": "AccessibilityAwareShapeStyle",
+    "permalink": "https://github.com/schatt/sixlayer/blob/f593ee5c02e59b384eba18306515a29c30f1e034/Framework/Sources/Extensions/Platform/PlatformAnyShapeStyle.swift#L32"
+   },
+   {
+    "repo": "stevencurtis/SwiftCoding",
+    "name": "StarRatingForegroundStyle",
+    "permalink": "https://github.com/stevencurtis/SwiftCoding/blob/a993d258c72224e11b82d3827a4b9ccd45b74d70/NewSwiftUI/NewSwiftUI/NewSwiftUI/TableDisplayCustomizationView.swift#L48"
+   }
+  ]
+ },
+ "CustomizableToolbarContent": {
+  "repo_count": 6,
+  "top_repos": [
+   [
+    "liveview-native/liveview-client-swiftui",
+    2
+   ],
+   [
+    "Desbeers/Chord-Provider",
+    1
+   ],
+   [
+    "cmsj/Arkyve",
+    1
+   ],
+   [
+    "mihaelamj/cupertino-packages",
+    1
+   ],
+   [
+    "trozware/swiftui-mac-2024",
+    1
+   ],
+   [
+    "tuliopc23/flying-dutchman-app",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "Desbeers/Chord-Provider",
+    "name": "ToolbarView",
+    "permalink": "https://github.com/Desbeers/Chord-Provider/blob/eb24061f7041f4f7215d96d0f9164c5421f6f20a/ChordProviderMac/Chord Provider/Views/MainScene/ToolbarView.swift#L11"
+   },
+   {
+    "repo": "cmsj/Arkyve",
+    "name": "ToolbarContentView",
+    "permalink": "https://github.com/cmsj/Arkyve/blob/282ffd76ab6bad2e93457f958c7c4a86f9f55130/Arkyve/Windows/Archive/ToolbarContentView.swift#L11"
+   },
+   {
+    "repo": "liveview-native/liveview-client-swiftui",
+    "name": "CustomizableToolbarItem",
+    "permalink": "https://github.com/liveview-native/liveview-client-swiftui/blob/79479ca56ac029937c2ad66fb3a98393fe57ecb3/Sources/LiveViewNative/Views/Toolbars/ToolbarItem.swift#L85"
+   },
+   {
+    "repo": "liveview-native/liveview-client-swiftui",
+    "name": "ToolbarTitleMenu",
+    "permalink": "https://github.com/liveview-native/liveview-client-swiftui/blob/79479ca56ac029937c2ad66fb3a98393fe57ecb3/Sources/LiveViewNative/Views/Toolbars/ToolbarTitleMenu.swift#L26"
+   },
+   {
+    "repo": "mihaelamj/cupertino-packages",
+    "name": "WithPerceptionTracking",
+    "permalink": "https://github.com/mihaelamj/cupertino-packages/blob/717311488db5f05455d149492aa864206a42e54e/pointfreeco/swift-perception/Sources/PerceptionCore/SwiftUI/WithPerceptionTracking.swift#L145"
+   },
+   {
+    "repo": "trozware/swiftui-mac-2024",
+    "name": "ToolbarView",
+    "permalink": "https://github.com/trozware/swiftui-mac-2024/blob/eb5983bae50d98174ea364d80df1b18029f03461/SwiftUI-Mac-2024/Controls/ToolbarView.swift#L8"
+   },
+   {
+    "repo": "tuliopc23/flying-dutchman-app",
+    "name": "MainToolbar",
+    "permalink": "https://github.com/tuliopc23/flying-dutchman-app/blob/a803ef48645653eb63756b028e331c37632b0024/Projects/Features/Shell/Sources/Shell/MainWindow.swift#L164"
+   }
+  ]
+ },
+ "GaugeStyle": {
+  "repo_count": 5,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    3
+   ],
+   [
+    "chenhaiteng/Rings",
+    2
+   ],
+   [
+    "KaneEast/SwiftKnowledgeBase",
+    1
+   ],
+   [
+    "buresdv/Cork",
+    1
+   ],
+   [
+    "cburnett837/Make-It-Rain",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "KaneEast/SwiftKnowledgeBase",
+    "name": "SegmentedGaugeStyle",
+    "permalink": "https://github.com/KaneEast/SwiftKnowledgeBase/blob/1f6c43fa9f38d92fe32891611114eb1841d53f36/Food Truck/Widgets/SegmentedGauge.swift#L30"
+   },
+   {
+    "repo": "buresdv/Cork",
+    "name": "MiniGaugeStyle",
+    "permalink": "https://github.com/buresdv/Cork/blob/c7ec6d35b3dff4e19cbc4e29cb1afc42eaa6f1e8/Cork/Styles/Gauge - Mini Gauge.swift#L11"
+   },
+   {
+    "repo": "cburnett837/Make-It-Rain",
+    "name": "VariableSizeCircularStyle",
+    "permalink": "https://github.com/cburnett837/Make-It-Rain/blob/3a482272e33eee4b5858af67fc1e07b965c02c09/MakeItRain/Budget/MonthlyBudgetTable.swift#L10"
+   },
+   {
+    "repo": "chenhaiteng/Rings",
+    "name": "CustomStyle",
+    "permalink": "https://github.com/chenhaiteng/Rings/blob/c4133149ca02f5c78da7d022c2c01b7463ae466f/Sources/Rings/RingGaugeMeterStyle.swift#L29"
+   },
+   {
+    "repo": "chenhaiteng/Rings",
+    "name": "SemiCircleStyle",
+    "permalink": "https://github.com/chenhaiteng/Rings/blob/c4133149ca02f5c78da7d022c2c01b7463ae466f/Sources/Rings/RingGaugeMeterStyle.swift#L62"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "HabitatGaugeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10031/Start/Backyard Birds Watch App/BackyardBirdsUI/HabitatGaugeStyle.swift#L10"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "HabitatGaugeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/watchos-apps-updating-your-app-and-widgets-for-watchos-10/Session 10031/End/Backyard Birds Watch App/BackyardBirdsUI/HabitatGaugeStyle.swift#L10"
+   },
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "SegmentedGaugeStyle",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/swiftui-food-truck-building-a-swiftui-multiplatform-app/Widgets/SegmentedGauge.swift#L30"
+   }
+  ]
+ },
+ "ControlGroupStyle": {
+  "repo_count": 3,
+  "top_repos": [
+   [
+    "Jyhwenchai/SwiftUIExample",
+    2
+   ],
+   [
+    "TableProApp/TablePro",
+    1
+   ],
+   [
+    "raindropio/ios",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "VerticalControlGroupStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/SwiftUIExample/New in iOS 15/View Layout and Presentation/SU_15_ControlGroup.swift#L48"
+   },
+   {
+    "repo": "Jyhwenchai/SwiftUIExample",
+    "name": "ControlGroupTitleStyle",
+    "permalink": "https://github.com/Jyhwenchai/SwiftUIExample/blob/6a883cd060b65b63abccb8665d2b442dc147bf49/SwiftUIExample/New in iOS 15/View Layout and Presentation/SU_15_ControlGroup.swift#L56"
+   },
+   {
+    "repo": "TableProApp/TablePro",
+    "name": "PanelControlGroupStyle",
+    "permalink": "https://github.com/TableProApp/TablePro/blob/e3afc6457cd819eca5226c3874a9b4d7ad318a67/LocalPackages/CodeEditSourceEditor/Sources/CodeEditSourceEditor/SupportingViews/PanelStyles.swift#L21"
+   },
+   {
+    "repo": "raindropio/ios",
+    "name": "HorizontalControlGroupStyle",
+    "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/UI/ControlGroup/ControlGroupStyle+horizontal.swift#L9"
+   }
+  ]
+ },
+ "FormStyle": {
+  "repo_count": 3,
+  "top_repos": [
+   [
+    "Sophiestication/Cappella",
+    1
+   ],
+   [
+    "kyleerhabor/advance",
+    1
+   ],
+   [
+    "raindropio/ios",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "Sophiestication/Cappella",
+    "name": "SettingsFormStyle",
+    "permalink": "https://github.com/Sophiestication/Cappella/blob/54ea14e3bbab1ddcb4507a52a6d749b2a3406ea1/Cappella/Settings/SettingsFormStyle.swift#L27"
+   },
+   {
+    "repo": "kyleerhabor/advance",
+    "name": "SettingsFormStyle",
+    "permalink": "https://github.com/kyleerhabor/advance/blob/2ed8402b14e1115bdbb8102da43c35db45f6824b/Advance/UI/Views/SettingsView.swift#L71"
+   },
+   {
+    "repo": "raindropio/ios",
+    "name": "ModernFormStyle",
+    "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/UI/Form/FormStyle+optimal.swift#L9"
+   }
+  ]
+ },
+ "DropDelegate": {
+  "repo_count": 2,
+  "top_repos": [
+   [
+    "ghfbsd/BTrain",
+    2
+   ],
+   [
+    "okooo5km/HiPixel",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "ghfbsd/BTrain",
+    "name": "DragAndDropLineView",
+    "permalink": "https://github.com/ghfbsd/BTrain/blob/9c2984bb7105a19e931157812663e4eb94023271/BTrain/Views/Common/DragAndDropLineView.swift#L16"
+   },
+   {
+    "repo": "ghfbsd/BTrain",
+    "name": "LocomotiveIconView",
+    "permalink": "https://github.com/ghfbsd/BTrain/blob/9c2984bb7105a19e931157812663e4eb94023271/BTrain/Views/Locomotives/LocomotiveIconView.swift#L16"
+   },
+   {
+    "repo": "okooo5km/HiPixel",
+    "name": "ContentView",
+    "permalink": "https://github.com/okooo5km/HiPixel/blob/a53eb917f6a7a45af916dcd1a265baf49da49c5a/HiPixel/Views/ContentView.swift#L11"
+   }
+  ]
+ },
+ "DatePickerStyle": {
+  "repo_count": 2,
+  "top_repos": [
+   [
+    "nathantannar4/Engine",
+    1
+   ],
+   [
+    "yungfan/SwiftUI-learning",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "nathantannar4/Engine",
+    "name": "AnyDatePickerStyle",
+    "permalink": "https://github.com/nathantannar4/Engine/blob/f12defc84b8359af69d9027ce17d39fbdc5ef023/Sources/EngineExtensions/AnyDatePickerStyle.swift#L11"
+   },
+   {
+    "repo": "yungfan/SwiftUI-learning",
+    "name": "CustomStyle",
+    "permalink": "https://github.com/yungfan/SwiftUI-learning/blob/452cecd650043eafa17e034a73bc9c08489cfc9a/SwiftUI 4.0/View-DatePicker/View-DatePicker/ContentView.swift#L22"
+   }
+  ]
+ },
+ "Widget": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "AryanRogye/ComfyNotch",
+    17
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "CompactAlbumWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/CompactAlbumWidget.swift#L10"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "SettingsButtonWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/SettingsWidget.swift#L5"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "MovingDotsView",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/MovingDotsWidget.swift#L76"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "CurrentSongWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/CurrentSongWidget.swift#L4"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "QuickAccessWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/QuickAccessWidget.swift#L16"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "QuickAccessWidgetDynamic",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/QuickAccessWidget.swift#L33"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "QuickAccessWidgetSimple",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/QuickAccessWidget.swift#L90"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "FancyMovingBars",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/FancyMovingBars.swift#L92"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "BrightnessNumber",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/Brightness/BrightnessNumber.swift#L11"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "BrightnessIcon",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/Brightness/BrightnessIcon.swift#L11"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "VolumeIcon",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/Volume/VolumeIcon.swift#L10"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "VolumeNumber",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/CompactWidgets/Volume/VolumeNumber.swift#L10"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "TimeWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/TimeWidget/TimeWidget.swift#L4"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "MusicPlayerWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/MusicPlayerWidget/MusicPlayerWidget.swift#L10"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "NotesWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/NotesWidget/NotesWidget.swift#L9"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "EventWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/EventWidget/EventWidget.swift#L11"
+   },
+   {
+    "repo": "AryanRogye/ComfyNotch",
+    "name": "CameraWidget",
+    "permalink": "https://github.com/AryanRogye/ComfyNotch/blob/00499d03c5998709eb23a0773aa9e68ea660963a/ComfyNotch/Widgets/ExpandedWidgets/CameraWidget/CameraWidget.swift#L6"
+   }
+  ]
+ },
+ "DynamicProperty": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "SwiftUIX/SwiftUIX",
+    3
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "SwiftUIX/SwiftUIX",
+    "name": "_WithDynamicPropertyExistential",
+    "permalink": "https://github.com/SwiftUIX/SwiftUIX/blob/d349805b22052287d35a461cb492e1b9d750ad8c/Sources/SwiftUIX/Intramodular/Runtime/_WithDynamicPropertyExistential.swift#L8"
+   },
+   {
+    "repo": "SwiftUIX/SwiftUIX",
+    "name": "Guts",
+    "permalink": "https://github.com/SwiftUIX/SwiftUIX/blob/d349805b22052287d35a461cb492e1b9d750ad8c/Sources/SwiftUIX/Intramodular/Runtime/_WithDynamicPropertyExistential.swift#L33"
+   },
+   {
+    "repo": "SwiftUIX/SwiftUIX",
+    "name": "_CocoaMenuBarExtra",
+    "permalink": "https://github.com/SwiftUIX/SwiftUIX/blob/d349805b22052287d35a461cb492e1b9d750ad8c/Sources/SwiftUIX/Intramodular/Menu Bar/_CocoaMenuBarExtraCoordinator.swift#L218"
+   }
+  ]
+ },
+ "WindowStyle": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "daiokawa/EzImageCleaner",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "daiokawa/EzImageCleaner",
+    "name": "HiddenTitleBarWindowStyle",
+    "permalink": "https://github.com/daiokawa/EzImageCleaner/blob/7e38d9f76621d19da48e9538297e8f8187deb2d1/Source/SwiftUI/EzImageCleanerApp.swift#L22"
+   }
+  ]
+ },
+ "ChartContent": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "manz/clone",
+    7
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "manz/clone",
+    "name": "BarMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L115"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "LineMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L153"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "AreaMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L183"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "PointMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L210"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "RuleMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L236"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "RectangleMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L264"
+   },
+   {
+    "repo": "manz/clone",
+    "name": "SectorMark",
+    "permalink": "https://github.com/manz/clone/blob/9c34b9529848fad2842bb3b2d7aec76afbff734b/Sources/SDK/Charts/Charts.swift#L287"
+   }
+  ]
+ },
+ "ChartSymbolShape": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "mihaelamj/cupertino-sample-code",
+    1
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "mihaelamj/cupertino-sample-code",
+    "name": "Square",
+    "permalink": "https://github.com/mihaelamj/cupertino-sample-code/blob/951a5092d39cda9af50eece057b416444c599c06/charts-visualizing-your-app-s-data/SwiftChartsExample/Charts/LocationsOverview.swift#L73"
+   }
+  ]
+ },
+ "TableStyle": {
+  "repo_count": 1,
+  "top_repos": [
+   [
+    "taikun114/Mocolamma",
+    2
+   ]
+  ],
+  "examples": [
+   {
+    "repo": "taikun114/Mocolamma",
+    "name": "SimpleTableStyle",
+    "permalink": "https://github.com/taikun114/Mocolamma/blob/1e6f5b7690dd5b5fa9a201b965baceae3f4262d3/Mocolamma/Views/MessageView.swift#L1373"
+   },
+   {
+    "repo": "taikun114/Mocolamma",
+    "name": "SimpleThinkingTableStyle",
+    "permalink": "https://github.com/taikun114/Mocolamma/blob/1e6f5b7690dd5b5fa9a201b965baceae3f4262d3/Mocolamma/Views/MessageView.swift#L1733"
+   }
+  ]
+ }
+}

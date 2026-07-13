@@ -1,0 +1,142 @@
+{
+ "repo": "PrimadonnaGit/AIAudioCapture",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "597176bef702e7497260d5d5364342ad510024de",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "PrimadonnaGit",
+   "score": 5,
+   "contributions": 3
+  }
+ ],
+ "loc": 3894,
+ "custom_components": 29,
+ "imports": [
+  "AIAudioSummary",
+  "AVFoundation",
+  "AudioToolbox",
+  "Combine",
+  "CoreAudio",
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "accentColor",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "animation",
+   "background",
+   "buttonStyle",
+   "commands",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "lineSpacing",
+   "multilineTextAlignment",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "shadow",
+   "sheet",
+   "sizeThatFits",
+   "stroke",
+   "strokeBorder",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "ForEach",
+   "Gradient",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "LinearGradient",
+   "PlainButtonStyle",
+   "ProgressView",
+   "ProposedViewSize",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeIn",
+   "easeOut",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 27,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 79
+}

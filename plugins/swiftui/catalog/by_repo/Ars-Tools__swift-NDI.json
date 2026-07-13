@@ -1,0 +1,67 @@
+{
+ "repo": "Ars-Tools/swift-NDI",
+ "stars": 9,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "86f05245faa334b3b9e0835543ce6b020a3a32d0",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kotan-kn",
+   "score": 3,
+   "contributions": 55
+  }
+ ],
+ "loc": 1234,
+ "custom_components": 1,
+ "imports": [
+  "AVFoundation",
+  "CoreImage",
+  "NDILib",
+  "NDISDK",
+  "PackageDescription",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "padding"
+  ],
+  "types": [
+   "ForEach",
+   "Group",
+   "Image",
+   "NSHostingController",
+   "Picker",
+   "Text",
+   "View"
+  ],
+  "valueBuilders": [
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "none",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 7,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 12
+}

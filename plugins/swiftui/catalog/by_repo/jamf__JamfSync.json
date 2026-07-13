@@ -1,0 +1,157 @@
+{
+ "repo": "jamf/JamfSync",
+ "stars": 80,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9aca6b0b239335674ea1e28c7b7b3f3fd4f948bf",
+ "platform": "macos",
+ "author_authority": 291,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "HarryStrandJamf",
+   "score": 80,
+   "contributions": 134
+  },
+  {
+   "login": "BIG-RAT",
+   "score": 1355,
+   "contributions": 37
+  },
+  {
+   "login": "macnotes",
+   "score": 351,
+   "contributions": 1
+  }
+ ],
+ "loc": 11726,
+ "custom_components": 91,
+ "imports": [
+  "Combine",
+  "CoreData",
+  "CryptoKit",
+  "Foundation",
+  "Haversack",
+  "IOKit",
+  "Jamf_Sync",
+  "NetFS",
+  "OSLog",
+  "QuickLook",
+  "Subprocess",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "alternatingRowBackgrounds",
+   "animation",
+   "background",
+   "buttonStyle",
+   "commands",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "opacity",
+   "padding",
+   "phaseAnimator",
+   "popover",
+   "scaleEffect",
+   "sheet",
+   "tag",
+   "toggleStyle",
+   "toolbar",
+   "width"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "NSHostingView",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "SecureField",
+   "Settings",
+   "Spacer",
+   "SwitchToggleStyle",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "clear",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "smooth",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bar",
+   "bottom",
+   "center",
+   "checkbox",
+   "gray",
+   "green",
+   "leading",
+   "none",
+   "red",
+   "top",
+   "trailing",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FetchRequest",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 24,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 83
+}

@@ -1,0 +1,76 @@
+{
+ "repo": "die-tageszeitung/taz-neo.ios",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e95ec70273625331e93bd876b601360188612c24",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nthies",
+   "score": 0,
+   "contributions": 510
+  },
+  {
+   "login": "NicoPatzelt",
+   "score": 0,
+   "contributions": 12
+  },
+  {
+   "login": "bochos-bln",
+   "score": 0,
+   "contributions": 12
+  }
+ ],
+ "loc": 49440,
+ "custom_components": 0,
+ "imports": [
+  "BackgroundTasks",
+  "CoreData",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "GameController",
+  "LinkPresentation",
+  "MatomoTracker",
+  "MediaPlayer",
+  "MessageUI",
+  "Network",
+  "NorthBase",
+  "NorthFoundation",
+  "NorthLib",
+  "NorthUIKit",
+  "PDFKit",
+  "SafariServices",
+  "StoreKit",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "XCTest",
+  "die_tageszeitung"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

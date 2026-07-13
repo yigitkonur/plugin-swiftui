@@ -1,0 +1,182 @@
+{
+ "repo": "leits/MeetingBar",
+ "stars": 5243,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "6a088d3b530a6f75023d44b53720532349944fd4",
+ "platform": "macos",
+ "author_authority": 27338,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "leits",
+   "score": 27338,
+   "contributions": 1184
+  },
+  {
+   "login": "jgoldhammer",
+   "score": 33,
+   "contributions": 165
+  },
+  {
+   "login": "weblate",
+   "score": 0,
+   "contributions": 110
+  }
+ ],
+ "loc": 9114,
+ "custom_components": 79,
+ "imports": [
+  "AppAuthCore",
+  "AppIntents",
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "Defaults",
+  "EventKit",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "MeetingBar",
+  "Security",
+  "SwiftUI",
+  "SwiftUICore",
+  "SwiftyStoreKit",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "Alert",
+  "MenuButton",
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "alert",
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "colorScheme",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "inset",
+   "labelsHidden",
+   "lineLimit",
+   "listStyle",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "resizable",
+   "sheet",
+   "stroke",
+   "tabItem",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "DisclosureGroup",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuButton",
+   "NSHostingView",
+   "Path",
+   "Picker",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "Section",
+   "SidebarListStyle",
+   "Spacer",
+   "Stepper",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "VisualEffect",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "center",
+   "headline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "brown",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "red",
+   "secondary",
+   "sidebar",
+   "top",
+   "topLeading",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 33,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 98
+}

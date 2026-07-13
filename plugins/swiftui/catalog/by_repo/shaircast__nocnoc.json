@@ -1,0 +1,143 @@
+{
+ "repo": "shaircast/nocnoc",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dbce84887f43150feb088536f70d315f20d80f62",
+ "platform": "macos",
+ "author_authority": 66,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shaircast",
+   "score": 66,
+   "contributions": 17
+  }
+ ],
+ "loc": 2491,
+ "custom_components": 43,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "IOKit",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "simd"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "shadow",
+   "sheet",
+   "stroke",
+   "weight",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Canvas",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "LinearGradient",
+   "MenuBarExtra",
+   "Path",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "linearGradient",
+   "medium",
+   "semibold",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottomTrailing",
+   "center",
+   "default",
+   "horizontal",
+   "leading",
+   "topLeading",
+   "vertical",
+   "white",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 30,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 86
+}

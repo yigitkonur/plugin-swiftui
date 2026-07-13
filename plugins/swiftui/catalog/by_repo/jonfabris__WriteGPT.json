@@ -1,0 +1,85 @@
+{
+ "repo": "jonfabris/WriteGPT",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "901092116e618bf8af162b08ed44ded605841dd6",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jonfabris",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 492,
+ "custom_components": 12,
+ "imports": [
+  "Foundation",
+  "OpenAIKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "border",
+   "disabled",
+   "frame",
+   "horizontalRadioGroupLayout",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Picker",
+   "ProgressView",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "blue",
+   "center",
+   "gray",
+   "radioGroup"
+  ],
+  "propertyWrappers": [
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 13,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 34
+}

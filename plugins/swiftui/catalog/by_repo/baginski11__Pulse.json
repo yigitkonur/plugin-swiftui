@@ -1,0 +1,115 @@
+{
+ "repo": "baginski11/Pulse",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8127f9a440d4943ffa5577f0473137e339d49da4",
+ "platform": "macos",
+ "author_authority": 1916,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "baginski11",
+   "score": 1916,
+   "contributions": 4
+  }
+ ],
+ "loc": 603,
+ "custom_components": 31,
+ "imports": [
+  "AppKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "background",
+   "blendMode",
+   "buttonStyle",
+   "clipShape",
+   "contentTransition",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "ignoresSafeArea",
+   "inset",
+   "onChanged",
+   "onEnded",
+   "onHover",
+   "onKeyPress",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "symbolEffect",
+   "textFieldStyle",
+   "updating",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "DragGesture",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "center",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "FocusState",
+   "GestureState",
+   "Observable",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 7,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 65
+}

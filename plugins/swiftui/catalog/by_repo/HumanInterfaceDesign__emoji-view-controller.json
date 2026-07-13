@@ -1,0 +1,50 @@
+{
+ "repo": "HumanInterfaceDesign/emoji-view-controller",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1b06d7755b5340356c295fe39abe035ce801fafa",
+ "platform": "other",
+ "author_authority": 27152,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "gtokman",
+   "score": 27152,
+   "contributions": 4
+  }
+ ],
+ "loc": 5211,
+ "custom_components": 0,
+ "imports": [
+  "Collections",
+  "EmojiPickerViewController",
+  "Foundation",
+  "PackageDescription",
+  "Testing",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

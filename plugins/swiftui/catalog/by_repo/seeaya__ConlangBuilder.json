@@ -1,0 +1,153 @@
+{
+ "repo": "seeaya/ConlangBuilder",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5c71c8eea7049110d0a1fa2312cc594646897815",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "cbarnes-rv",
+   "score": 0,
+   "contributions": 5
+  },
+  {
+   "login": "seeaya",
+   "score": 1,
+   "contributions": 1
+  }
+ ],
+ "loc": 1998,
+ "custom_components": 51,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "ConlangModels",
+  "Foundation",
+  "PackageDescription",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14.04",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "animation",
+   "autocorrectionDisabled",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "contextMenu",
+   "disabled",
+   "draggable",
+   "dropDestination",
+   "environment",
+   "fixedSize",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "listRowInsets",
+   "listRowSeparator",
+   "modelContainer",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onDeleteCommand",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "safeAreaInset",
+   "scrollContentBackground",
+   "scrollDisabled",
+   "tag",
+   "textFieldStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "DocumentGroup",
+   "EdgeInsets",
+   "EmptyView",
+   "FetchDescriptor",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "Menu",
+   "NSHostingMenu",
+   "NSHostingView",
+   "NavigationPath",
+   "NavigationSplitView",
+   "Picker",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "snappy",
+   "subheadline",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "firstTextBaseline",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "primary",
+   "principal",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "top",
+   "trailing",
+   "visible",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "Model",
+   "Observable",
+   "Query",
+   "Relationship",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 25,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 9,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 89
+}

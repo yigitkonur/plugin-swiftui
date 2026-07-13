@@ -1,0 +1,117 @@
+{
+ "repo": "cloner69/InstaDesktop",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b667583a762ead5a470618b7eeb3f5229bfea3cf",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cloner69",
+   "score": 5,
+   "contributions": 2
+  }
+ ],
+ "loc": 509,
+ "custom_components": 15,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "cornerRadius",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "matchedGeometryEffect",
+   "opacity",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "stroke",
+   "textFieldStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "semibold",
+   "spring",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "bottom",
+   "fill",
+   "gray",
+   "horizontal",
+   "leading",
+   "none",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Namespace",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 24,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 65
+}

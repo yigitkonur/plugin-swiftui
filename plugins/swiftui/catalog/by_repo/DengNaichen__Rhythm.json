@@ -1,0 +1,151 @@
+{
+ "repo": "DengNaichen/Rhythm",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d381dd9ab40180e8f50b4920dc8ff0904b704f5e",
+ "platform": "macos",
+ "author_authority": 13061,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "DengNaichen",
+   "score": 13061,
+   "contributions": 6
+  }
+ ],
+ "loc": 7888,
+ "custom_components": 28,
+ "imports": [
+  "AppKit",
+  "CoreLocation",
+  "Darwin",
+  "EventKit",
+  "Foundation",
+  "JSONSchema",
+  "MCP",
+  "Network",
+  "OSLog",
+  "Observation",
+  "Ontology",
+  "OrderedCollections",
+  "Rhythm",
+  "SQLite3",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "commands",
+   "contentShape",
+   "defaultLaunchBehavior",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "menuBarExtraStyle",
+   "modifier",
+   "monospacedDigit",
+   "navigationSplitViewColumnWidth",
+   "navigationSplitViewStyle",
+   "navigationTitle",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "tag",
+   "task",
+   "textSelection",
+   "truncationMode",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "List",
+   "MenuBarExtra",
+   "NavigationSplitView",
+   "NavigationStack",
+   "ProgressView",
+   "RoundedRectangle",
+   "Section",
+   "Spacer",
+   "State",
+   "Stepper",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "footnote",
+   "medium",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "balanced",
+   "blue",
+   "center",
+   "grouped",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "red",
+   "secondary",
+   "sidebar",
+   "teal",
+   "tertiary",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 25,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 82
+}

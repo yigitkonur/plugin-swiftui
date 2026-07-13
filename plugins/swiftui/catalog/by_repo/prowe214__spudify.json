@@ -1,0 +1,84 @@
+{
+ "repo": "prowe214/spudify",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "164beb69148462de860358629fdefc1c8fbf78ca",
+ "platform": "macos",
+ "author_authority": 24,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "prowe214",
+   "score": 24,
+   "contributions": 3
+  }
+ ],
+ "loc": 648,
+ "custom_components": 7,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Foundation",
+  "MediaPlayer",
+  "Spudify",
+  "SwiftUI",
+  "Testing",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "foregroundColor",
+   "frame",
+   "navigationTitle",
+   "onAppear",
+   "padding",
+   "scaleEffect",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Color",
+   "ProgressView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "secondary",
+   "titleBar",
+   "top",
+   "unified",
+   "visible",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 6,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 25
+}

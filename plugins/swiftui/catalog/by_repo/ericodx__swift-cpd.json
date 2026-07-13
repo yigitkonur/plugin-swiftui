@@ -1,0 +1,53 @@
+{
+ "repo": "ericodx/swift-cpd",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "35ef7b7fb6b310e454d5681a57d62e9735d2d21f",
+ "platform": "other",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ericodx",
+   "score": 2,
+   "contributions": 165
+  }
+ ],
+ "loc": 22069,
+ "custom_components": 0,
+ "imports": [
+  "CryptoKit",
+  "Darwin",
+  "Foundation",
+  "PackageDescription",
+  "PackagePlugin",
+  "SwiftParser",
+  "SwiftSyntax",
+  "Testing",
+  "XcodeProjectPlugin",
+  "swift_cpd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,21 @@
+# cf-01 (structural): a Form { ... } call_expression whose enclosing modifier chain carries NO .formStyle.
+# On macOS the default Form is ungrouped/non-native; the System-Settings idiom is .formStyle(.grouped).
+# grep can only confirm `Form {` is present (it can't see whether .formStyle is anywhere in the SAME chain
+# vs. some unrelated line); this anchors on the Form call_expression and asserts it is NOT inside an outer
+# call_expression whose subtree mentions `formStyle`. READ the file to confirm it is a settings/pane Form
+# (a transient inline Form may not want grouping) — the engine only LOCATES.
+id: cf-01-form-without-formstyle
+language: Swift
+severity: warning
+message: >-
+  cf-01: a Form { } is not governed by a .formStyle(.grouped) — ungrouped/non-native macOS settings pane.
+  Add .formStyle(.grouped) for the System-Settings look (the macOS default is ungrouped; iOS forms are
+  grouped out of the box). READ to confirm it is a settings/pane Form, not a throwaway inline one.
+rule:
+  kind: call_expression
+  pattern: Form { $$$BODY }
+  not:
+    inside:
+      kind: call_expression
+      has: { stopBy: end, regex: 'formStyle' }
+      stopBy: end

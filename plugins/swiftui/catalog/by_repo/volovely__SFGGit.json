@@ -1,0 +1,113 @@
+{
+ "repo": "volovely/SFGGit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8abdbbe83e0163baac429a99c5b9552ba473edcc",
+ "platform": "macos",
+ "author_authority": 7,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "volovely",
+   "score": 7,
+   "contributions": 1
+  }
+ ],
+ "loc": 1020,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "defaultPosition",
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "stroke",
+   "textFieldStyle",
+   "textSelection",
+   "windowResizability"
+  ],
+  "types": [
+   "BorderedButtonStyle",
+   "BorderedProminentButtonStyle",
+   "Button",
+   "Color",
+   "Divider",
+   "GroupBox",
+   "HStack",
+   "MenuBarExtra",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "SecureField",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "medium",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "leading",
+   "menu",
+   "primary",
+   "secondary",
+   "top",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 18,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 58
+}

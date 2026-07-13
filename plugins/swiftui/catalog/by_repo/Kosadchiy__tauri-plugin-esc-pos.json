@@ -1,0 +1,46 @@
+{
+ "repo": "Kosadchiy/tauri-plugin-esc-pos",
+ "stars": 13,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3b188b9604a95bf053453603219a0f32aa43d36d",
+ "platform": "other",
+ "author_authority": 28,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Kosadchiy",
+   "score": 28,
+   "contributions": 4
+  }
+ ],
+ "loc": 677,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "Tauri"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

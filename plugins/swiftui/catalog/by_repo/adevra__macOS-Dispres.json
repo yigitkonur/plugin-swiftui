@@ -1,0 +1,101 @@
+{
+ "repo": "adevra/macOS-Dispres",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0148c6b33e68bd885fe8967cac948ae6f3d8ace4",
+ "platform": "macos",
+ "author_authority": 3319,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adevra",
+   "score": 3319,
+   "contributions": 6
+  }
+ ],
+ "loc": 1459,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "CGVirtualDisplayBridge",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "IOKit",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "padding",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "center",
+   "headline",
+   "regular",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "leading",
+   "menu",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 14,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 44
+}

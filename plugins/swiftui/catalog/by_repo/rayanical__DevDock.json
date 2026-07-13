@@ -1,0 +1,142 @@
+{
+ "repo": "rayanical/DevDock",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "84fea531f111f69ea9239b6dd99a319156836343",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rayanical",
+   "score": 2,
+   "contributions": 4
+  }
+ ],
+ "loc": 2108,
+ "custom_components": 28,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "id",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "sizeThatFits",
+   "stroke",
+   "textFieldStyle",
+   "textSelection",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "easeInOut",
+   "headline",
+   "medium",
+   "semibold",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "default",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "switch",
+   "trailing",
+   "vertical",
+   "window",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 24,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 88
+}

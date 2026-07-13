@@ -1,0 +1,63 @@
+{
+ "repo": "timi2506/GoogleSearch",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "aed1bf9c27c536fecc75da2e4bc4159442ab56ec",
+ "platform": "macos",
+ "author_authority": 5025,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "timi2506",
+   "score": 5025,
+   "contributions": 3
+  }
+ ],
+ "loc": 214,
+ "custom_components": 8,
+ "imports": [
+  "GoogleSearch",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "frame",
+   "padding",
+   "windowStyle"
+  ],
+  "types": [
+   "HiddenTitleBarWindowStyle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "center",
+   "none"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 3,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 3,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 12
+}

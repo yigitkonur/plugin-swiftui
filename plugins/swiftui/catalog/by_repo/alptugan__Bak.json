@@ -1,0 +1,107 @@
+{
+ "repo": "alptugan/Bak",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "619c9e0086df5fe4ba77b407950d7e14e73683d9",
+ "platform": "macos",
+ "author_authority": 847,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "alptugan",
+   "score": 491,
+   "contributions": 21
+  },
+  {
+   "login": "ImgBotApp",
+   "score": 9744,
+   "contributions": 2
+  }
+ ],
+ "loc": 332,
+ "custom_components": 4,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Highlighter",
+  "Quartz",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "buttonStyle",
+   "fixedSize",
+   "focusable",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "multilineTextAlignment",
+   "onAppear",
+   "onReceive",
+   "padding",
+   "tag",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "Picker",
+   "Slider",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "largeTitle",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "center",
+   "green",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "red",
+   "secondary",
+   "tint",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 13,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 47
+}

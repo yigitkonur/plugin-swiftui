@@ -1,0 +1,124 @@
+{
+ "repo": "othyn/macos-jockey",
+ "stars": 25,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e539773645ee890666272ca01c405add6e634464",
+ "platform": "macos",
+ "author_authority": 668,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "othyn",
+   "score": 668,
+   "contributions": 40
+  }
+ ],
+ "loc": 1402,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "LaunchAtLogin",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "focusable",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "padding",
+   "tabItem",
+   "textFieldStyle",
+   "width",
+   "windowLevel"
+  ],
+  "types": [
+   "BorderlessButtonStyle",
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "TabView",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "headline",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "bottom",
+   "center",
+   "green",
+   "horizontal",
+   "leading",
+   "menu",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 22,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 67
+}

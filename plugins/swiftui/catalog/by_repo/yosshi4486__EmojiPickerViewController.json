@@ -1,0 +1,61 @@
+{
+ "repo": "yosshi4486/EmojiPickerViewController",
+ "stars": 15,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "92d0c204829f18347cf24957cdbdeba7eae58b7d",
+ "platform": "other",
+ "author_authority": 1430,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "yosshi4486",
+   "score": 1430,
+   "contributions": 235
+  },
+  {
+   "login": "tuche24",
+   "score": 0,
+   "contributions": 2
+  },
+  {
+   "login": "madsodgaard",
+   "score": 101962,
+   "contributions": 1
+  }
+ ],
+ "loc": 5372,
+ "custom_components": 0,
+ "imports": [
+  "Collections",
+  "EmojiPickerViewController",
+  "Foundation",
+  "PackageDescription",
+  "SwiftyXMLParser",
+  "Testing",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,104 @@
+{
+ "repo": "shivatinker/Checks7m",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "86a0a569499dccbfccfb4a90e64d03f4ab03ece9",
+ "platform": "macos",
+ "author_authority": 45305,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shivatinker",
+   "score": 45305,
+   "contributions": 25
+  }
+ ],
+ "loc": 1807,
+ "custom_components": 9,
+ "imports": [
+  "AppKit",
+  "ChecksumKit",
+  "CommonCrypto",
+  "DevChallengeXPC",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "disabled",
+   "draggable",
+   "dropDestination",
+   "foregroundStyle",
+   "frame",
+   "listStyle",
+   "onHover",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LinearProgressViewStyle",
+   "List",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "RadioGroupPickerStyle",
+   "RoundedRectangle",
+   "Spacer",
+   "StateObject",
+   "Table",
+   "TableColumn",
+   "TableRow",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "horizontal",
+   "plain",
+   "quaternary",
+   "quinary",
+   "red",
+   "secondary",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 20,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 47
+}

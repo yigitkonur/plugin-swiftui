@@ -1,0 +1,85 @@
+{
+ "repo": "toba/lyrico",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bdd7daccd4ea0649adc32b04c7a9c6c3956f1520",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Jason-Abbott",
+   "score": 0,
+   "contributions": 8
+  }
+ ],
+ "loc": 1580,
+ "custom_components": 9,
+ "imports": [
+  "Foundation",
+  "LyricoKit",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "controlSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "multilineTextAlignment",
+   "opacity",
+   "padding",
+   "task",
+   "windowLevel",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Group",
+   "ProgressView",
+   "State",
+   "Text",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "semibold",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "hiddenTitleBar",
+   "primary",
+   "red",
+   "secondary",
+   "thinMaterial"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 6,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 31
+}

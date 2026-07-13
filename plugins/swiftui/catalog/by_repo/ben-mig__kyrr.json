@@ -1,0 +1,133 @@
+{
+ "repo": "ben-mig/kyrr",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ab605735b38ea66eb28bb913d6f2e7acadd1dd22",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ben-mig",
+   "score": 0,
+   "contributions": 16
+  }
+ ],
+ "loc": 2638,
+ "custom_components": 24,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "AudioToolbox",
+  "Cocoa",
+  "CoreAudio",
+  "Foundation",
+  "IOKit",
+  "Kyrr",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityHidden",
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "shadow",
+   "stroke",
+   "tag",
+   "toggleStyle",
+   "tracking"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScaleType",
+   "Slider",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "clear",
+   "firstTextBaseline",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "primary",
+   "secondary",
+   "switch",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 19,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 70
+}

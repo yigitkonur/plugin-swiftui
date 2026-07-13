@@ -1,0 +1,36 @@
+# ac-01 (structural): a hardcoded `Color(red:green:blue:)` literal init — including the MULTI-LINE / spaced
+# form a flat grep cannot reliably anchor (the `red:`, `green:`, `blue:` labels can land on separate lines,
+# and the tier-1 `Color(red:` tell only catches the same-line opener). A literal RGB Color paints ONE
+# appearance and breaks Dark Mode → move it into a named asset-catalog color set (Any/Dark variants) or use a
+# semantic color. The engine only LOCATES — READ the file to confirm it is a content fill, not a deliberate
+# brand mark whose exact value is intentional. cross_ref: none (own finding).
+id: ac-01-hardcoded-rgb
+language: Swift
+severity: warning
+message: >-
+  ac-01: a hardcoded Color(red:green:blue:) literal init breaks Dark Mode (it paints one appearance).
+  Move the value into a named asset-catalog color set with an Any/Dark variant, or use a semantic color.
+  READ the file to confirm it is a content fill, not an intentional brand mark.
+# Anchored on `call_expression`: a Color(...) call whose argument list carries the red:/green:/blue: labels.
+# The Swift tree-sitter grammar exposes the call as `call_expression` with a `simple_identifier` callee and
+# `value_argument` children; the labelled args (`red:`/`green:`/`blue:`) are matched by kind + a `^red:` regex
+# so the multi-line / extra-arg (opacity:) forms are caught regardless of line breaks. Verified single-line,
+# fully multi-line, and negative (`Color("Brand")` / `foo(red:)`) against the bundled npx ast-grep.
+rule:
+  kind: call_expression
+  all:
+    - has:
+        kind: simple_identifier
+        regex: "^Color$"
+    - has:
+        kind: value_argument
+        regex: "^red:"
+        stopBy: end
+    - has:
+        kind: value_argument
+        regex: "^green:"
+        stopBy: end
+    - has:
+        kind: value_argument
+        regex: "^blue:"
+        stopBy: end

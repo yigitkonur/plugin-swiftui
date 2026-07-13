@@ -1,0 +1,61 @@
+{
+ "repo": "gavinaboulhosn/SwiftMCP",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4360efd0fb0c467e157756f5565cf272e1fb3e26",
+ "platform": "other",
+ "author_authority": 1891,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "gavinaboulhosn",
+   "score": 16,
+   "contributions": 40
+  },
+  {
+   "login": "noahlozevski",
+   "score": 10,
+   "contributions": 7
+  },
+  {
+   "login": "michaellatman",
+   "score": 46349,
+   "contributions": 2
+  }
+ ],
+ "loc": 8640,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "JSONSchema",
+  "OSLog",
+  "Observation",
+  "PackageDescription",
+  "SwiftMCP",
+  "Testing",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

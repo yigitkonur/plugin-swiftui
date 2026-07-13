@@ -1,0 +1,143 @@
+{
+ "repo": "gagonzalezro/PDFPortalPrep",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0cff621cde8c1857255cb4ae84d4e6418a67e71b",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "gagonzalezro",
+   "score": 1,
+   "contributions": 6
+  }
+ ],
+ "loc": 3205,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "CryptoKit",
+  "Foundation",
+  "Network",
+  "PDFKit",
+  "PDFPortalPrep",
+  "PackageDescription",
+  "Quartz",
+  "Security",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "accentColor",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "horizontalRadioGroupLayout",
+   "lineLimit",
+   "listStyle",
+   "multilineTextAlignment",
+   "onDrop",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "strokeBorder",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "textSelection",
+   "tint",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "DisclosureGroup",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Picker",
+   "PlainListStyle",
+   "ProgressView",
+   "RadioGroupPickerStyle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "SegmentedPickerStyle",
+   "Slider",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "semibold",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "balanced",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "green",
+   "leading",
+   "orange",
+   "plain",
+   "radioGroup",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "titleBar",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 23,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 18,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 79
+}

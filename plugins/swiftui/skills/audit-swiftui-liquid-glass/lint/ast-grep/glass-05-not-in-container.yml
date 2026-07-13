@@ -1,0 +1,17 @@
+# glass-05 (structural): a .glassEffect(...) call that is NOT inside a GlassEffectContainer { ... }.
+# Sibling glass without a container samples independently → mismatched blur/tint, extra passes, no morph.
+# grep CANNOT express containment; this is the canonical tier-2 rule. READ the file to confirm there are
+# actually 2+ siblings (a lone glassed control may be fine) — the engine only LOCATES.
+id: glass-05-glass-not-in-container
+language: Swift
+severity: warning
+message: >-
+  glass-05/glass-10: .glassEffect() is NOT inside a GlassEffectContainer. If 2+ sibling glass surfaces,
+  group them in a GlassEffectContainer (mismatched blur/tint + no morphing otherwise). If it is on free
+  chrome (toolbar/sidebar/sheet) it may be redundant. READ the file and apply the placement test.
+rule:
+  pattern: $RECEIVER.glassEffect($$$ARGS)
+  not:
+    inside:
+      pattern: GlassEffectContainer { $$$BODY }
+      stopBy: end

@@ -1,0 +1,63 @@
+{
+ "repo": "rztime/RZColorfulSwift",
+ "stars": 89,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "53b738694211650a664786fee8dc11da44d6adc0",
+ "platform": "other",
+ "author_authority": 7323,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "rztime",
+   "score": 7323,
+   "contributions": 35
+  },
+  {
+   "login": "smalls0098",
+   "score": 40646,
+   "contributions": 1
+  },
+  {
+   "login": "meilbn",
+   "score": 982,
+   "contributions": 1
+  }
+ ],
+ "loc": 3154,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "Foundation",
+  "JavaScriptCore",
+  "PackageDescription",
+  "QuicklySwift",
+  "RZColorfulSwift",
+  "SnapKit",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

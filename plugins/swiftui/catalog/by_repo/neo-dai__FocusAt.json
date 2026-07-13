@@ -1,0 +1,89 @@
+{
+ "repo": "neo-dai/FocusAt",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "551eb9aca5322304087ff2f48c036160aef1c553",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "neo-dai",
+   "score": 0,
+   "contributions": 10
+  }
+ ],
+ "loc": 620,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "UserNotifications",
+  "WatchKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "monospacedDigit",
+   "onReceive",
+   "opacity",
+   "padding",
+   "task",
+   "textFieldStyle",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "RoundedRectangle",
+   "ScrollView",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "horizontal",
+   "leading",
+   "roundedBorder",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 9,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 35
+}

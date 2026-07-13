@@ -1,0 +1,110 @@
+{
+ "repo": "enarche-ahn/FnLamp",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ae7f13600b838c79084b4133fcddfc717691c62b",
+ "platform": "macos",
+ "author_authority": 8,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "enarche-ahn",
+   "score": 8,
+   "contributions": 3
+  }
+ ],
+ "loc": 745,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "minimumScaleFactor",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "strokeBorder"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "secondary",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 14,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

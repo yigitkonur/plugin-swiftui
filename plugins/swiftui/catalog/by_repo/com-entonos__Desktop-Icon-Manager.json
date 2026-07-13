@@ -1,0 +1,48 @@
+{
+ "repo": "com-entonos/Desktop-Icon-Manager",
+ "stars": 39,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "27270a1b8ad680df7da411732209cfc7b0fac98f",
+ "platform": "macos",
+ "author_authority": 57,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "entonos",
+   "score": 57,
+   "contributions": 191
+  }
+ ],
+ "loc": 3182,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "AppleScriptObjC",
+  "Cocoa",
+  "OSLog",
+  "ServiceManagement"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

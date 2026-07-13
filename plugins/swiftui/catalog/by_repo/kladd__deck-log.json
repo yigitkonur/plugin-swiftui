@@ -1,0 +1,100 @@
+{
+ "repo": "kladd/deck-log",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fc2f324d132735d9345e5972ed5c8f44903455f7",
+ "platform": "macos",
+ "author_authority": 278,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kladd",
+   "score": 278,
+   "contributions": 6
+  }
+ ],
+ "loc": 326,
+ "custom_components": 12,
+ "imports": [
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "start"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "focused",
+   "font",
+   "keyboardShortcut",
+   "labelStyle",
+   "modelContainer",
+   "monospaced",
+   "onAppear",
+   "onExitCommand",
+   "onSubmit",
+   "padding",
+   "symbolRenderingMode",
+   "tabViewStyle",
+   "textFieldStyle",
+   "toolbar",
+   "toolbarBackgroundVisibility"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Spacer",
+   "Tab",
+   "TabSection",
+   "TabView",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "hidden",
+   "iconOnly",
+   "leading",
+   "plain",
+   "sidebarAdaptable",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 14,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 44
+}

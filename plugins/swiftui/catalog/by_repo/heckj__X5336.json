@@ -1,0 +1,69 @@
+{
+ "repo": "heckj/X5336",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0fa20c85ee01325ba5962ab2aaad9aba05d52c30",
+ "platform": "macos",
+ "author_authority": 205217,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "heckj",
+   "score": 205217,
+   "contributions": 141
+  }
+ ],
+ "loc": 474,
+ "custom_components": 10,
+ "imports": [
+  "Lindenmayer",
+  "LindenmayerViews",
+  "PackageDescription",
+  "SceneKit",
+  "SceneKitDebugTools",
+  "SwiftUI",
+  "X5336",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "navigationViewStyle"
+ ],
+ "unique": {
+  "modifiers": [
+   "navigationViewStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Angle",
+   "Button",
+   "HStack",
+   "NavigationView",
+   "Text",
+   "TextField",
+   "UnifiedWindowToolbarStyle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 9,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 12
+}

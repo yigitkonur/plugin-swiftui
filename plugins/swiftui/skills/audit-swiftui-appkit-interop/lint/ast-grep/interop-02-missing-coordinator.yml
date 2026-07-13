@@ -1,0 +1,19 @@
+# interop-02 (structural): a representable type that carries a @Binding but declares NO makeCoordinator().
+# Without a Coordinator there is no delegate to own the AppKit→SwiftUI direction, so the bound value never
+# updates from user edits. grep can find @Binding and the conformance separately but cannot prove the type
+# lacks makeCoordinator across its whole body — containment + negation. READ to confirm the binding is meant
+# to be written back (a pure read-only binding may legitimately skip the Coordinator).
+id: interop-02-representable-missing-coordinator
+language: Swift
+severity: warning
+message: >-
+  interop-02: a representable has a @Binding but no makeCoordinator(). The AppKit→SwiftUI direction is dead —
+  edits show on screen but never flow back to the bound value. Add makeCoordinator() + set
+  .delegate = context.coordinator and write parent.<binding> from the delegate callback. READ to confirm.
+rule:
+  kind: class_declaration
+  all:
+    - has: { stopBy: end, regex: 'NSViewRepresentable|NSViewControllerRepresentable' }
+    - has: { stopBy: end, regex: '@Binding' }
+    - not:
+        has: { stopBy: end, regex: 'func makeCoordinator' }

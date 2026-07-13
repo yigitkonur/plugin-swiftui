@@ -1,0 +1,52 @@
+{
+ "repo": "pwsacademy/comicviewer-scui",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f78a5d182445e3fd00ca165ef7cb54cae3790dc5",
+ "platform": "other",
+ "author_authority": 294,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "svanimpe",
+   "score": 294,
+   "contributions": 13
+  }
+ ],
+ "loc": 1431,
+ "custom_components": 0,
+ "imports": [
+  "ComicViewer",
+  "DefaultBackend",
+  "Foundation",
+  "FoundationNetworking",
+  "ImageFormats",
+  "Logging",
+  "PackageDescription",
+  "SwiftCrossUI",
+  "Testing"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,115 @@
+{
+ "repo": "jaywcjlove/swiftui-texteditor",
+ "stars": 40,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dbd9b2a598dd17e22eb9497914d7c3aefce743c5",
+ "platform": "macos",
+ "author_authority": 276678,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jaywcjlove",
+   "score": 276678,
+   "contributions": 43
+  }
+ ],
+ "loc": 1312,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "PackageDescription",
+  "Sdifft",
+  "SwiftUI",
+  "TextEditorPlus",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "border",
+   "controlSize",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelsHidden",
+   "navigationSplitViewColumnWidth",
+   "navigationSplitViewStyle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "tag",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "ColorPicker",
+   "Divider",
+   "EdgeInsets",
+   "EmptyView",
+   "HSplitView",
+   "HStack",
+   "List",
+   "LocalizedStringKey",
+   "NavigationSplitView",
+   "Picker",
+   "ProgressView",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "UnifiedCompactWindowToolbarStyle",
+   "VSplitView",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "regular"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "clear",
+   "leading",
+   "prominentDetail",
+   "red",
+   "top",
+   "topLeading",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 22,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 56
+}

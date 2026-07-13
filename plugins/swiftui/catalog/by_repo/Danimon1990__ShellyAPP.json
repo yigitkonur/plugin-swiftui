@@ -1,0 +1,110 @@
+{
+ "repo": "Danimon1990/ShellyAPP",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "06b257598dcac917285ecb2d4cf712cf8dbfe71d",
+ "platform": "other",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Danimon1990",
+   "score": 4,
+   "contributions": 6
+  }
+ ],
+ "loc": 1572,
+ "custom_components": 20,
+ "imports": [
+  "Foundation",
+  "PDFKit",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "border",
+   "cornerRadius",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "modelContainer",
+   "overlay",
+   "padding",
+   "sheet",
+   "tabItem",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "CheckboxToggleStyle",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "LazyHGrid",
+   "LazyVGrid",
+   "ModelConfiguration",
+   "ModelContainer",
+   "RoundedBorderTextFieldStyle",
+   "Schema",
+   "ScrollView",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "headline",
+   "subheadline",
+   "system",
+   "title",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "bottomTrailing",
+   "checkbox",
+   "leading",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 22,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 52
+}

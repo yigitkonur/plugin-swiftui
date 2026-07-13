@@ -1,0 +1,142 @@
+{
+ "repo": "SubaashNair/exam_monitor_swift",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9baed13afd286fb969ced70b173ddda49630711d",
+ "platform": "macos",
+ "author_authority": 66294,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "SubaashNair",
+   "score": 66294,
+   "contributions": 8
+  }
+ ],
+ "loc": 2255,
+ "custom_components": 34,
+ "imports": [
+  "AVFoundation",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "ImageIO",
+  "Network",
+  "ScreenCaptureKit",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "client_monitor",
+  "server_monitor"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "sheet",
+   "stroke",
+   "textFieldStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "BorderedButtonStyle",
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "largeTitle",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "fill",
+   "firstTextBaseline",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 24,
+  "valueBuilders": 10,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 79
+}

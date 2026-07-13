@@ -1,0 +1,126 @@
+{
+ "repo": "glinford/dns-easy-switcher",
+ "stars": 347,
+ "categories": [
+  "Utilities"
+ ],
+ "sha": "899f4234618256013d0751f0b2fedc701af5a53b",
+ "platform": "macos",
+ "author_authority": 171647,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "glinford",
+   "score": 171647,
+   "contributions": 31
+  },
+  {
+   "login": "majdsabik",
+   "score": 5,
+   "contributions": 1
+  }
+ ],
+ "loc": 1639,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "LocalAuthentication",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "hidden",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "modelContainer",
+   "onAppear",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "textFieldStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Link",
+   "List",
+   "Menu",
+   "MenuBarExtra",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NSHostingView",
+   "ProgressView",
+   "Schema",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "center",
+   "custom",
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "bottom",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "Query",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 24,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 65
+}

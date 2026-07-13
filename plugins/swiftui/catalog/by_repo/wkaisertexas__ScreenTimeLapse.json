@@ -1,0 +1,177 @@
+{
+ "repo": "wkaisertexas/ScreenTimeLapse",
+ "stars": 821,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fb61920fd154425aa5313f4757c46ed2ba81f7a8",
+ "platform": "macos",
+ "author_authority": 11053,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "wkaisertexas",
+   "score": 11053,
+   "contributions": 169
+  },
+  {
+   "login": "Lulzx",
+   "score": 79062,
+   "contributions": 2
+  },
+  {
+   "login": "booi",
+   "score": 3036,
+   "contributions": 1
+  }
+ ],
+ "loc": 2834,
+ "custom_components": 34,
+ "imports": [
+  "AVFoundation",
+  "AppIntents",
+  "AppKit",
+  "Cocoa",
+  "CoreData",
+  "CoreMedia",
+  "Foundation",
+  "IOKit",
+  "ScreenCaptureKit",
+  "SettingsAccess",
+  "StoreKit",
+  "SwiftUI",
+  "TimeLapze",
+  "UserNotifications",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "accessibilityLabel",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "focusable",
+   "font",
+   "fontWeight",
+   "fontWidth",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "stroke",
+   "tabItem",
+   "transition",
+   "windowResizability",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Gradient",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "Link",
+   "Menu",
+   "MenuBarExtra",
+   "MenuPickerStyle",
+   "Picker",
+   "Section",
+   "SegmentedPickerStyle",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "Stepper",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "condensed",
+   "headline",
+   "medium",
+   "push",
+   "regular",
+   "semibold",
+   "slide",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "background",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "expanded",
+   "fill",
+   "gray",
+   "hiddenTitleBar",
+   "leading",
+   "menu",
+   "segmented",
+   "top",
+   "unifiedCompact",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openSettings",
+   "openURL",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 29,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 98
+}

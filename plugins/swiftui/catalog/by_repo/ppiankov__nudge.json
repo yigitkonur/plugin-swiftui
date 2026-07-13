@@ -1,0 +1,105 @@
+{
+ "repo": "ppiankov/nudge",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b2b5f48e21a9bec91a360c728ee15ebcd3c41b15",
+ "platform": "macos",
+ "author_authority": 17,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ppiankov",
+   "score": 17,
+   "contributions": 3
+  }
+ ],
+ "loc": 929,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "Nudge",
+  "PackageDescription",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "opacity",
+   "padding",
+   "popover",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "ScrollView",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "switch",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 15,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

@@ -1,0 +1,95 @@
+{
+ "repo": "Kyome22/NewCanvas",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "51839bc3b9250d698cf3706aef6b790a19935f92",
+ "platform": "macos",
+ "author_authority": 13013,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Kyome22",
+   "score": 13013,
+   "contributions": 25
+  }
+ ],
+ "loc": 1026,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CoreGraphics",
+  "DataLayer",
+  "Domain",
+  "Foundation",
+  "Logging",
+  "Observation",
+  "PackageDescription",
+  "Presentation",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "controlSize",
+   "defaultPosition",
+   "environment",
+   "fileDialogConfirmationLabel",
+   "fileDialogDefaultDirectory",
+   "fileDialogMessage",
+   "fileExporter",
+   "fixedSize",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "onReceive",
+   "padding",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ColorPicker",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "hiddenTitleBar"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 10,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 2,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 32
+}

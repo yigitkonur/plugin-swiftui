@@ -1,0 +1,118 @@
+{
+ "repo": "doo/scanbot-sdk-example-ios",
+ "stars": 49,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6d44df2be774bd0a8a455b7d65d9a8d1739c21b8",
+ "platform": "other",
+ "author_authority": 40,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "sebastato",
+   "score": 80,
+   "contributions": 215
+  },
+  {
+   "login": "ranasohaib-dev",
+   "score": 82,
+   "contributions": 146
+  },
+  {
+   "login": "atacand1920",
+   "score": 80,
+   "contributions": 66
+  }
+ ],
+ "loc": 19797,
+ "custom_components": 58,
+ "imports": [
+  "CoreGraphics",
+  "CoreMedia",
+  "Foundation",
+  "PDFKit",
+  "PhotosUI",
+  "ScanbotSDK",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "navigationBarTitle",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "lineLimit",
+   "listStyle",
+   "navigationBarTitle",
+   "onAppear",
+   "onDisappear",
+   "padding",
+   "resizable",
+   "scaledToFit"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyHGrid",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "horizontal",
+   "inline",
+   "leading",
+   "none",
+   "primary",
+   "secondary",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 17,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 44
+}

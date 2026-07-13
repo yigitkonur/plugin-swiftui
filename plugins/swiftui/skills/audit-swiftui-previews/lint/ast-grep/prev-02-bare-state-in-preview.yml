@@ -1,0 +1,28 @@
+# prev-02 (structural): a `@State` / `@Binding` / `@Bindable` dynamic property declared INSIDE a `#Preview`
+# body WITHOUT a `@Previewable` tag — a compile error (the property can't live at the expanded body scope).
+# grep CANNOT express "@State is inside a #Preview AND no @Previewable in the same body" — a bare `@State`
+# anywhere in the file would false-positive on every real view. This anchors on the `#Preview` macro node
+# (`kind: macro_invocation`) and uses a `has` regex (the body parses with a tree-sitter ERROR node, so a
+# pattern on the property declaration is unreliable — the regex on the macro's source text is robust).
+# The engine only LOCATES; READ the body to confirm the bare `@State` is at #Preview scope, not inside a
+# nested previewed view.
+id: prev-02-bare-state-in-preview
+language: Swift
+severity: error
+message: >-
+  prev-02: a dynamic property (@State/@Binding/@Bindable) is declared inside a #Preview body with no
+  @Previewable tag — a compile error at the expanded body scope. Tag it `@Previewable @State var …`
+  (macOS 14.0+). READ to confirm the declaration is at #Preview body scope. fix_mode: flag-only.
+rule:
+  kind: macro_invocation
+  all:
+    - has:
+        stopBy: end
+        regex: '@State|@Binding|@Bindable'
+    - not:
+        has:
+          stopBy: end
+          regex: 'Previewable'
+    - has:
+        kind: simple_identifier
+        regex: '^Preview$'

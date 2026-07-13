@@ -1,0 +1,107 @@
+{
+ "repo": "arnavpodichetty/QRScanner",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dc174ac9f7114ef770d04c4684fbd00653352342",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "arnavpodichetty",
+   "score": 2,
+   "contributions": 18
+  }
+ ],
+ "loc": 399,
+ "custom_components": 8,
+ "imports": [
+  "Cocoa",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "Vision"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "cornerRadius",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onChange",
+   "onDrop",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "textFieldStyle",
+   "toggleStyle",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Form",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "NSHostingController",
+   "RoundedBorderTextFieldStyle",
+   "Section",
+   "Settings",
+   "Spacer",
+   "SwitchToggleStyle",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "grouped",
+   "leading",
+   "topTrailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 18,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

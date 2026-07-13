@@ -1,0 +1,134 @@
+{
+ "repo": "gety-ai/apple-on-device-openai",
+ "stars": 868,
+ "categories": [
+  "AI Tools"
+ ],
+ "sha": "31a2d9b9b543bd627b3273fac936f15189a8238f",
+ "platform": "other",
+ "author_authority": 1469,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "channing",
+   "score": 942,
+   "contributions": 16
+  },
+  {
+   "login": "keiko233",
+   "score": 14691,
+   "contributions": 2
+  },
+  {
+   "login": "RayKitajima",
+   "score": 902,
+   "contributions": 2
+  }
+ ],
+ "loc": 1454,
+ "custom_components": 10,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "FoundationModels",
+  "Network",
+  "SwiftUI",
+  "Vapor"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "controlSize",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "imageScale",
+   "lineLimit",
+   "multilineTextAlignment",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "tint"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Picker",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "borderless",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "red",
+   "secondary",
+   "tint",
+   "trailing",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 17,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 16,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 67
+}

@@ -1,0 +1,68 @@
+{
+ "repo": "michelf/sim-daltonism",
+ "stars": 311,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6e00e4219205dbeae96a791be27de7b2cb082096",
+ "platform": "macos",
+ "author_authority": 4175,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "michelf",
+   "score": 4175,
+   "contributions": 244
+  },
+  {
+   "login": "importRyan",
+   "score": 102,
+   "contributions": 37
+  },
+  {
+   "login": "jlmuir",
+   "score": 27465,
+   "contributions": 1
+  }
+ ],
+ "loc": 5651,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Cocoa",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreVideo",
+  "Dispatch",
+  "Foundation",
+  "MetalKit",
+  "OpenGL",
+  "QuartzCore",
+  "ScreenCaptureKit",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

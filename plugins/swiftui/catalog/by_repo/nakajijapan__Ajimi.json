@@ -1,0 +1,50 @@
+{
+ "repo": "nakajijapan/Ajimi",
+ "stars": 18,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f9928e84e46dd2a600584e26cd319175321a1958",
+ "platform": "other",
+ "author_authority": 844,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nakajijapan",
+   "score": 844,
+   "contributions": 4
+  }
+ ],
+ "loc": 1558,
+ "custom_components": 0,
+ "imports": [
+  "Ajimi",
+  "Foundation",
+  "ImageIO",
+  "MobileCoreServices",
+  "SystemConfiguration",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

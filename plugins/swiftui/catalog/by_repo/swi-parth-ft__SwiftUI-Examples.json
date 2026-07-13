@@ -1,0 +1,131 @@
+{
+ "repo": "swi-parth-ft/SwiftUI-Examples",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ee86d44035e6dce13b75a96274db989222772c3c",
+ "platform": "other",
+ "author_authority": 34,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "swi-parth-ft",
+   "score": 34,
+   "contributions": 18
+  }
+ ],
+ "loc": 554,
+ "custom_components": 26,
+ "imports": [
+  "AVKit",
+  "PhotosUI",
+  "SpriteKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "blur",
+   "containerRelativeFrame",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "hueRotation",
+   "id",
+   "ignoresSafeArea",
+   "inset",
+   "lineSubtraction",
+   "offset",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onGeometryChange",
+   "onReceive",
+   "onScrollGeometryChange",
+   "onScrollPhaseChange",
+   "opacity",
+   "padding",
+   "rotation3DEffect",
+   "rotationEffect",
+   "scaleEffect",
+   "scrollPosition",
+   "scrollTransition",
+   "stroke",
+   "trim",
+   "visualEffect"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "ColorPicker",
+   "ControlGroup",
+   "DatePicker",
+   "DisclosureTableRow",
+   "DragGesture",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "LinearGradient",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollPosition",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "TableRow",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "largeTitle",
+   "linear",
+   "smooth",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "animated",
+   "blue",
+   "bottom",
+   "bottomTrailing",
+   "fill",
+   "horizontal",
+   "orange",
+   "red",
+   "top",
+   "topLeading",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "calendar"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 25,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 77
+}

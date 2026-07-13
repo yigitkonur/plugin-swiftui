@@ -1,0 +1,90 @@
+{
+ "repo": "eotles/fnFlip",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "54299ca46f4c6e2501044645c9ea7aff32553fbb",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "eotles",
+   "score": 11,
+   "contributions": 5
+  }
+ ],
+ "loc": 1230,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "CoreFoundation",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "XCTest",
+  "fnFlip"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "fill",
+   "font",
+   "frame",
+   "onAppear",
+   "padding",
+   "preferredColorScheme",
+   "size",
+   "stroke"
+  ],
+  "types": [
+   "Color",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "RoundedRectangle",
+   "Settings",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "linear",
+   "regular",
+   "semibold"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "center",
+   "none",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 8,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 30
+}

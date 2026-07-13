@@ -1,0 +1,138 @@
+{
+ "repo": "tamirSida/shelf",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "684f40ad7e64a33818eae3e1c2682b6e24784a6d",
+ "platform": "macos",
+ "author_authority": 17,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tamirSida",
+   "score": 17,
+   "contributions": 5
+  }
+ ],
+ "loc": 1297,
+ "custom_components": 17,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "shelf"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contextMenu",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "offset",
+   "onAppear",
+   "onDrop",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scrollContentBackground",
+   "stroke",
+   "tag",
+   "truncationMode"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "clear",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "headline",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "clear",
+   "grouped",
+   "hidden",
+   "horizontal",
+   "inline",
+   "menu",
+   "plain",
+   "red",
+   "secondary",
+   "tertiary",
+   "topLeading",
+   "topTrailing",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 23,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 80
+}

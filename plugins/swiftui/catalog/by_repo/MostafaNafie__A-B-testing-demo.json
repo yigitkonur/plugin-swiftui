@@ -1,0 +1,110 @@
+{
+ "repo": "MostafaNafie/A-B-testing-demo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e140de224243f7be91e9ddcc134aab6ef7774515",
+ "platform": "other",
+ "author_authority": 112,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "MostafaNafie",
+   "score": 112,
+   "contributions": 12
+  }
+ ],
+ "loc": 749,
+ "custom_components": 10,
+ "imports": [
+  "Combine",
+  "FirebaseAnalytics",
+  "FirebaseCore",
+  "FirebaseRemoteConfig",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "opacity",
+   "overlay",
+   "padding",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "NavigationView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "center",
+   "green",
+   "horizontal",
+   "orange",
+   "pink",
+   "purple",
+   "red",
+   "secondary",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 14,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 52
+}

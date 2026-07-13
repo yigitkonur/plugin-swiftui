@@ -1,0 +1,172 @@
+{
+ "repo": "bunnysayzz/AppleAI",
+ "stars": 137,
+ "categories": [
+  "AI Tools"
+ ],
+ "sha": "4fe6c3b5d67947b6c783078cb11badb9a1d63228",
+ "platform": "macos",
+ "author_authority": 116020,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "bunnysayzz",
+   "score": 116020,
+   "contributions": 63
+  },
+  {
+   "login": "superman32432432",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 12380,
+ "custom_components": 119,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Carbon",
+  "CoreServices",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "WebKit"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "id",
+   "lineLimit",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "previewLayout",
+   "progressViewStyle",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "scaledToFit",
+   "shadow",
+   "sheet",
+   "stroke",
+   "tag",
+   "transition"
+  ],
+  "types": [
+   "Angle",
+   "Binding",
+   "BorderlessButtonStyle",
+   "Button",
+   "Circle",
+   "CircularProgressViewStyle",
+   "Color",
+   "EmptyView",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "MenuPickerStyle",
+   "NSHostingController",
+   "NSHostingView",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "State",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "center",
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "medium",
+   "regular",
+   "semibold",
+   "spring",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "purple",
+   "red",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openURL",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 28,
+  "valueBuilders": 15,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 105
+}

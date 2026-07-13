@@ -1,0 +1,36 @@
+# doc-08 (structural): a document type (FileDocument / ReferenceFileDocument) annotated @MainActor. Apple:
+# "Don't perform serialization on MainActor." A @MainActor-isolated document drags init(configuration:) and
+# fileWrapper(...) onto the main thread, blocking the UI on every read/write. grep can find `@MainActor` and
+# `FileDocument` separately but CANNOT prove the attribute is scoped to the document declaration — that is an
+# annotation-scope relational check.
+# NOTE: ReferenceFileDocument conformers are classes (class protocol via ObservableObject), so class_declaration
+# is correct there. FileDocument is a struct protocol — a developer can write @MainActor struct MyDoc: FileDocument,
+# which uses struct_declaration. Both arms are covered below via any:.
+# cross_ref concurrency-safety.
+id: doc-08-mainactor-document
+language: Swift
+severity: warning
+message: >-
+  doc-08: a FileDocument/ReferenceFileDocument type is annotated @MainActor — serialization
+  (init(configuration:)/fileWrapper) is forced onto the main actor and blocks the UI on save. Don't serialize
+  on MainActor; make the document type Sendable instead. READ to confirm. cross_ref concurrency-safety.
+rule:
+  any:
+    - all:
+        - kind: class_declaration
+        - has:
+            kind: inheritance_specifier
+            stopBy: end
+            regex: FileDocument
+        - has:
+            stopBy: end
+            regex: '@MainActor'
+    - all:
+        - kind: struct_declaration
+        - has:
+            kind: inheritance_specifier
+            stopBy: end
+            regex: FileDocument
+        - has:
+            stopBy: end
+            regex: '@MainActor'

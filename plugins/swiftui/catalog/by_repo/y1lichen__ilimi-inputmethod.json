@@ -1,0 +1,145 @@
+{
+ "repo": "y1lichen/ilimi-inputmethod",
+ "stars": 26,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "068092bae105c0520c7ba5218132a954f4be461d",
+ "platform": "macos",
+ "author_authority": 1896,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "y1lichen",
+   "score": 196,
+   "contributions": 255
+  },
+  {
+   "login": "ShikiSuen",
+   "score": 14298,
+   "contributions": 39
+  }
+ ],
+ "loc": 5120,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreData",
+  "Foundation",
+  "IMKCandidatesImpl",
+  "IMKUtils",
+  "IOKitCHeaders",
+  "InputMethodKit",
+  "PackageDescription",
+  "SwiftUI",
+  "UserNotifications",
+  "XCTest",
+  "ilimiMainAssembly"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "clipShape",
+   "commands",
+   "contextMenu",
+   "disabled",
+   "environment",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "horizontalRadioGroupLayout",
+   "italic",
+   "keyboardShortcut",
+   "lineLimit",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "shadow",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "width"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "EdgeInsets",
+   "ForEach",
+   "Gradient",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "NSHostingView",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "TableRow",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "custom",
+   "headline",
+   "heavy",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "leading",
+   "plain",
+   "top",
+   "topLeading",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "description",
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 26,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 78
+}

@@ -1,0 +1,98 @@
+{
+ "repo": "sqeezelemon/CV",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cf8737fd84a7f7d494ae5c70d61aaa7ff654a590",
+ "platform": "macos",
+ "author_authority": 18,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sqeezelemon",
+   "score": 18,
+   "contributions": 4
+  }
+ ],
+ "loc": 641,
+ "custom_components": 21,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "anchorPreference",
+   "background",
+   "clipShape",
+   "coordinateSpace",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "modifier",
+   "multilineTextAlignment",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "overlayPreferenceValue",
+   "padding",
+   "resizable",
+   "scrollClipDisabled",
+   "scrollIndicators",
+   "shadow",
+   "size",
+   "windowStyle"
+  ],
+  "types": [
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "ImageRenderer",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "bottom",
+   "center",
+   "firstTextBaseline",
+   "hiddenTitleBar",
+   "leading",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 11,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

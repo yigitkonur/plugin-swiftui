@@ -1,0 +1,143 @@
+{
+ "repo": "tinhnt-ae/pomodor",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e067abbd9a581c297a17b87f3fbabd40c0903bdc",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tinhnt-ae",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 1121,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "blur",
+   "buttonStyle",
+   "controlSize",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "ignoresSafeArea",
+   "inset",
+   "italic",
+   "keyboardShortcut",
+   "listStyle",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "tabItem",
+   "tag",
+   "textCase",
+   "tracking"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "RadialGradient",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "easeInOut",
+   "headline",
+   "largeTitle",
+   "light",
+   "system",
+   "title3",
+   "ultraLight"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "grouped",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "accessibilityReduceMotion",
+   "accessibilityReduceTransparency"
+  ]
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 24,
+  "valueBuilders": 10,
+  "macros": 0,
+  "styleValues": 20,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 87
+}

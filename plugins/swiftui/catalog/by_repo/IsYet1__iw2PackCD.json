@@ -1,0 +1,151 @@
+{
+ "repo": "IsYet1/iw2PackCD",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a316ee9815a7f2f69a06a3aeda04f72aa93c9b9c",
+ "platform": "other",
+ "author_authority": 6,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "IsYet1",
+   "score": 6,
+   "contributions": 43
+  }
+ ],
+ "loc": 2889,
+ "custom_components": 109,
+ "imports": [
+  "CloudKit",
+  "CoreData",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "listStyle",
+   "modifier",
+   "navigationDestination",
+   "navigationTitle",
+   "onAppear",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "refreshable",
+   "resizable",
+   "searchable",
+   "shadow",
+   "sheet",
+   "strikethrough",
+   "swipeActions",
+   "tabItem",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "tint",
+   "toggleStyle",
+   "toolbar",
+   "underline"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "NavigationView",
+   "Picker",
+   "PlainButtonStyle",
+   "PlainListStyle",
+   "Rectangle",
+   "Section",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "largeTitle",
+   "light",
+   "regular",
+   "title",
+   "title2",
+   "ultraLight"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "bordered",
+   "center",
+   "default",
+   "gray",
+   "horizontal",
+   "leading",
+   "menu",
+   "roundedBorder",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FetchRequest",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "isEnabled",
+   "managedObjectContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 28,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 6,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 93
+}

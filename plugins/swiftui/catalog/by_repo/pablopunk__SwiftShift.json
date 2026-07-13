@@ -1,0 +1,163 @@
+{
+ "repo": "pablopunk/SwiftShift",
+ "stars": 600,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "901243d1deb3fdeae85765f965bc733cc6ffaa27",
+ "platform": "macos",
+ "author_authority": 192475,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "pablopunk",
+   "score": 192475,
+   "contributions": 231
+  },
+  {
+   "login": "danini-the-panini",
+   "score": 6183,
+   "contributions": 3
+  },
+  {
+   "login": "gaorfg-bit",
+   "score": 2085,
+   "contributions": 1
+  }
+ ],
+ "loc": 2212,
+ "custom_components": 27,
+ "imports": [
+  "Accessibility",
+  "AppKit",
+  "CGEventSupervisor",
+  "Cocoa",
+  "Foundation",
+  "LaunchAtLogin",
+  "ShortcutRecorder",
+  "Sparkle",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityHidden",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "controlSize",
+   "defaultSize",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "padding",
+   "renderingMode",
+   "resizable",
+   "scaleEffect",
+   "scaledToFit",
+   "shadow",
+   "textCase",
+   "toggleStyle",
+   "transition",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "KeyboardShortcut",
+   "Label",
+   "Link",
+   "MenuBarExtra",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "State",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "easeInOut",
+   "medium",
+   "regular",
+   "semibold",
+   "snappy",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "center",
+   "cyan",
+   "default",
+   "firstTextBaseline",
+   "horizontal",
+   "indigo",
+   "leading",
+   "none",
+   "orange",
+   "plain",
+   "primary",
+   "quaternary",
+   "red",
+   "secondary",
+   "switch",
+   "teal",
+   "tertiary",
+   "tint",
+   "top",
+   "vertical",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 20,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 24,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 94
+}

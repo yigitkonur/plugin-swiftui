@@ -1,0 +1,107 @@
+{
+ "repo": "cuixbo/OnePanel",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91a2a4600a08be9416cf96dc7d12ca1350a7ac07",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 2744,
+ "custom_components": 12,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Combine",
+  "CoreServices",
+  "Foundation",
+  "OnePanel",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "clipShape",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "strokeBorder",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "custom",
+   "headline",
+   "medium",
+   "regular",
+   "semibold"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "clear",
+   "iconOnly",
+   "leading",
+   "menu",
+   "roundedBorder",
+   "secondary",
+   "topLeading",
+   "unifiedCompact",
+   "visible"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 18,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

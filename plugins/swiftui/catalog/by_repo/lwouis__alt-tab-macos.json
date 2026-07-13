@@ -1,0 +1,69 @@
+{
+ "repo": "lwouis/alt-tab-macos",
+ "stars": 15810,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "9fadf36bf8d75c08eb7644e3c31b0536666e9021",
+ "platform": "macos",
+ "author_authority": 38025,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "lwouis",
+   "score": 38025,
+   "contributions": 1222
+  },
+  {
+   "login": "semantic-release-bot",
+   "score": 0,
+   "contributions": 353
+  },
+  {
+   "login": "decodism",
+   "score": 0,
+   "contributions": 17
+  }
+ ],
+ "loc": 34693,
+ "custom_components": 0,
+ "imports": [
+  "AppCenter",
+  "AppCenterCrashes",
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "CoreText",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "ScreenCaptureKit",
+  "Security",
+  "ShortcutRecorder",
+  "Sparkle",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,112 @@
+{
+ "repo": "cembaykara/baklava-macos-client",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c1ac027562f55363f886cbc299980b04d99c9b4b",
+ "platform": "macos",
+ "author_authority": 12,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cembaykara",
+   "score": 12,
+   "contributions": 21
+  }
+ ],
+ "loc": 474,
+ "custom_components": 13,
+ "imports": [
+  "BaklavaAuth",
+  "BaklavaCore",
+  "BaklavaServices",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "font",
+   "frame",
+   "imageScale",
+   "lineLimit",
+   "listRowSeparator",
+   "listStyle",
+   "menuBarExtraStyle",
+   "minimumScaleFactor",
+   "onChange",
+   "onSubmit",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "scrollBounceBehavior",
+   "swipeActions",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "ProgressView",
+   "SecureField",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "subheadline",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "switch",
+   "top",
+   "trailing",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 16,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 57
+}

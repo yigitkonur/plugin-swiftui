@@ -1,0 +1,75 @@
+{
+ "repo": "realskyrin/capcap",
+ "stars": 491,
+ "categories": [
+  "Screenshot Tools"
+ ],
+ "sha": "b44ca90aa00e420f2c5f5dc02c71561a78395f03",
+ "platform": "macos",
+ "author_authority": 120161,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "realskyrin",
+   "score": 120161,
+   "contributions": 369
+  },
+  {
+   "login": "lolieatapple",
+   "score": 66257,
+   "contributions": 6
+  },
+  {
+   "login": "chablino",
+   "score": 67565,
+   "contributions": 5
+  }
+ ],
+ "loc": 42661,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreMedia",
+  "CoreVideo",
+  "CryptoKit",
+  "Darwin",
+  "Foundation",
+  "ImageIO",
+  "NaturalLanguage",
+  "PackageDescription",
+  "PermissionFlow",
+  "QuartzCore",
+  "ScreenCaptureKit",
+  "ServiceManagement",
+  "UniformTypeIdentifiers",
+  "Vision",
+  "VisionKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

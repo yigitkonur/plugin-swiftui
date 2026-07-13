@@ -117,7 +117,7 @@ permalink + Sosumi `doc:` in `## Source` (step 7 FIX).
    are invisible to grep. Build a per-file inventory: each text site + its composition shape + its sizing +
    its layout reservation.
 4. **DETECT.** Apply the index. Assign each candidate a **confidence**; report a finding **only at 100%
-   certainty** (an invented name, a literal `Text + Text`, a bare integer `lineLimit`). 
+   certainty** (an invented name, a literal `Text + Text`, a bare integer `lineLimit`).
 5. **VERIFY.** For anything ≤ ~70% confidence (a symbol you're unsure exists, a floor you can't place, a
    deprecation you can't date), run **both** evidence sources. (a) **Practice** —
    `bash ${CLAUDE_PLUGIN_ROOT}/scripts/swiftui-ctx lookup <api> --json` (and

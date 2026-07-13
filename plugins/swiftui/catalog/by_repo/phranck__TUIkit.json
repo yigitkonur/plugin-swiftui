@@ -1,0 +1,58 @@
+{
+ "repo": "phranck/TUIkit",
+ "stars": 22,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6b225313bf1088119175ea214534addad909f7cf",
+ "platform": "other",
+ "author_authority": 2419,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "phranck",
+   "score": 2419,
+   "contributions": 761
+  }
+ ],
+ "loc": 52185,
+ "custom_components": 0,
+ "imports": [
+  "CSTBImage",
+  "Darwin",
+  "Foundation",
+  "FoundationNetworking",
+  "Glibc",
+  "Musl",
+  "Observation",
+  "PackageDescription",
+  "TUIkit",
+  "TUIkitCore",
+  "TUIkitImage",
+  "TUIkitStyling",
+  "TUIkitView",
+  "Testing",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,60 @@
+{
+ "repo": "nthies/NorthLib",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7262118f946482db3c658e952a4d6ef2a433f986",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "nthies",
+   "score": 0,
+   "contributions": 230
+  },
+  {
+   "login": "bochos-bln",
+   "score": 0,
+   "contributions": 4
+  }
+ ],
+ "loc": 16449,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "CoreData",
+  "Foundation",
+  "MediaPlayer",
+  "NorthLib",
+  "PDFKit",
+  "QuartzCore",
+  "SafariServices",
+  "SystemConfiguration",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

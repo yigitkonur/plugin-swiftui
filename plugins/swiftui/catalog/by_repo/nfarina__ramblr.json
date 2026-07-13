@@ -1,0 +1,143 @@
+{
+ "repo": "nfarina/ramblr",
+ "stars": 33,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cddc984980b8a50a73212ef5b31d62c88ebb4069",
+ "platform": "macos",
+ "author_authority": 6267,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nfarina",
+   "score": 6267,
+   "contributions": 76
+  }
+ ],
+ "loc": 3817,
+ "custom_components": 21,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "Sparkle",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "renderingMode",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle",
+   "truncationMode",
+   "underline"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "SecureField",
+   "Spacer",
+   "State",
+   "StateObject",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "headline",
+   "medium",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "tint",
+   "top",
+   "vertical",
+   "white",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 22,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 82
+}

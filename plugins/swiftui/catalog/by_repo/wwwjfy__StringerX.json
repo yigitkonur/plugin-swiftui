@@ -1,0 +1,124 @@
+{
+ "repo": "wwwjfy/StringerX",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "378839951bc8fd5e597b2f7f86393d56dc0e61b7",
+ "platform": "macos",
+ "author_authority": 35159,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "wwwjfy",
+   "score": 35159,
+   "contributions": 135
+  }
+ ],
+ "loc": 1653,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "CryptoKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftSoup",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alternatingRowBackgrounds",
+   "background",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "environment",
+   "fill",
+   "focusable",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "onAppear",
+   "onChange",
+   "onKeyPress",
+   "opacity",
+   "padding",
+   "resizable",
+   "tag",
+   "textFieldStyle",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Form",
+   "HStack",
+   "Image",
+   "List",
+   "Rectangle",
+   "ScrollViewReader",
+   "Section",
+   "SecureField",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottomLeading",
+   "grouped",
+   "horizontal",
+   "inset",
+   "leading",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 20,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 66
+}

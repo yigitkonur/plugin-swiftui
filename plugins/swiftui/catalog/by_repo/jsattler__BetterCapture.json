@@ -1,0 +1,171 @@
+{
+ "repo": "jsattler/BetterCapture",
+ "stars": 1390,
+ "categories": [
+  "Screen Recording"
+ ],
+ "sha": "cf663fb5f72c90f9659eb1fe12d5d521288f77bb",
+ "platform": "macos",
+ "author_authority": 37266,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "jsattler",
+   "score": 37266,
+   "contributions": 164
+  },
+  {
+   "login": "samandeep-singh",
+   "score": 1392,
+   "contributions": 1
+  },
+  {
+   "login": "ignacio-sj",
+   "score": 1392,
+   "contributions": 1
+  }
+ ],
+ "loc": 7079,
+ "custom_components": 64,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "BetterCapture",
+  "CoreGraphics",
+  "CoreVideo",
+  "Foundation",
+  "KeyboardShortcuts",
+  "OSLog",
+  "ScreenCaptureKit",
+  "Sparkle",
+  "SwiftUI",
+  "Testing",
+  "UserNotifications",
+  "VideoToolbox",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "controlSize",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "size",
+   "tag",
+   "task",
+   "tint",
+   "toggleStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "Link",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "Spacer",
+   "State",
+   "Tab",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "degrees",
+   "easeInOut",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "bottom",
+   "clear",
+   "gray",
+   "green",
+   "grouped",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "plain",
+   "primary",
+   "quaternary",
+   "red",
+   "secondary",
+   "switch",
+   "tertiary",
+   "top",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 25,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 26,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 96
+}

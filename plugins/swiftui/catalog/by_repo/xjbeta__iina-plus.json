@@ -1,0 +1,156 @@
+{
+ "repo": "xjbeta/iina-plus",
+ "stars": 1359,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9be61b4d4712b9674d690d804c2a60b086581fab",
+ "platform": "macos",
+ "author_authority": 22351,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "xjbeta",
+   "score": 22351,
+   "contributions": 1409
+  },
+  {
+   "login": "doggy",
+   "score": 16,
+   "contributions": 4
+  },
+  {
+   "login": "uetcis",
+   "score": 53,
+   "contributions": 1
+  }
+ ],
+ "loc": 16483,
+ "custom_components": 20,
+ "imports": [
+  "Alamofire",
+  "AppKit",
+  "Cocoa",
+  "CommonCrypto",
+  "CoreData",
+  "CryptoSwift",
+  "DequeModule",
+  "Foundation",
+  "Gzip",
+  "JavaScriptCore",
+  "Marshal",
+  "NIO",
+  "NIOHTTP1",
+  "NIOWebSocket",
+  "SDWebImage",
+  "Settings",
+  "SocketRocket",
+  "Sparkle",
+  "SwiftProtobuf",
+  "SwiftSoup",
+  "SwiftUI",
+  "WebKit",
+  "_Concurrency"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "disableAutocorrection",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "disableAutocorrection",
+   "disabled",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "ColorPicker",
+   "Divider",
+   "EdgeInsets",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "Link",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "footnote",
+   "headline",
+   "medium",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "checkbox",
+   "firstTextBaseline",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "secondary",
+   "segmented",
+   "switch",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 21,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 71
+}

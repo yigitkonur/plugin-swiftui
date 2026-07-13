@@ -1,0 +1,99 @@
+{
+ "repo": "KylianVermeulen/Arboreal",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "17eea7fd4f525616f10bf4cb806c9619773cd496",
+ "platform": "other",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KylianVermeulen",
+   "score": 1,
+   "contributions": 54
+  }
+ ],
+ "loc": 3517,
+ "custom_components": 9,
+ "imports": [
+  "Arboreal",
+  "CoreFoundation",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "UIKit"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "contentShape",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "preferredColorScheme",
+   "rotationEffect",
+   "sizeThatFits",
+   "task",
+   "weight"
+  ],
+  "types": [
+   "AnyView",
+   "Color",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption2",
+   "degrees",
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "bottom",
+   "clear",
+   "default",
+   "horizontal",
+   "identity",
+   "leading",
+   "primary",
+   "secondary",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 10,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 43
+}

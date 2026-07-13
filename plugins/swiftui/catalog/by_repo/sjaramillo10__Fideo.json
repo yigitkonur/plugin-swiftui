@@ -1,0 +1,97 @@
+{
+ "repo": "sjaramillo10/Fideo",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1307b06645bf0e2ce96073ac09e3ce59ea1cd4a3",
+ "platform": "macos",
+ "author_authority": 14,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sjaramillo10",
+   "score": 14,
+   "contributions": 5
+  }
+ ],
+ "loc": 322,
+ "custom_components": 9,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "fixedSize",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "lineLimit",
+   "onAppear",
+   "onKeyPress",
+   "padding",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Rectangle",
+   "Settings",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "clear",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "tint",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 12,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 43
+}

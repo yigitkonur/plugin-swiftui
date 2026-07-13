@@ -1,0 +1,2125 @@
+{
+  "modern_stack_adoption_pct": {
+    "repos": 1857,
+    "Observable_macro": 23.4,
+    "StateObject": 50.2,
+    "ObservedObject": 48.6,
+    "NavigationStack_or_Split": 41.0,
+    "NavigationView(legacy)": 13.8,
+    "SwiftData(@Model)": 11.8,
+    "MenuBarExtra": 21.6,
+    "Settings_scene": 30.1,
+    "searchable": 14.9,
+    "AppKit_bridging": 70.4,
+    "Charts_imported": 11.3,
+    "uses_deprecated_api": 72.2
+  },
+  "deprecated_api_usage": [
+    {
+      "sym": "foregroundColor",
+      "renamed": "foregroundStyle",
+      "repos": 1119,
+      "top_repos": [
+        [
+          "doxuto/kavsoft-animation",
+          1742
+        ],
+        [
+          "cgcardona/Stori",
+          1555
+        ],
+        [
+          "cmillstein1/Drift",
+          1504
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          1023
+        ],
+        [
+          "TL0225/college-planner",
+          1010
+        ],
+        [
+          "malpern/KeyPath",
+          889
+        ],
+        [
+          "mediar-ai/fazm",
+          839
+        ],
+        [
+          "andychucs/ReNextNavi",
+          745
+        ]
+      ]
+    },
+    {
+      "sym": "tabItem",
+      "renamed": "Tab",
+      "repos": 465,
+      "top_repos": [
+        [
+          "Jyhwenchai/SwiftUIExample",
+          51
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          43
+        ],
+        [
+          "doxuto/kavsoft-animation",
+          39
+        ],
+        [
+          "loocor/codmate",
+          37
+        ],
+        [
+          "agisotadev/yolo-api",
+          36
+        ],
+        [
+          "mihaelamj/cupertino-packages",
+          31
+        ],
+        [
+          "codebasedlearning/ios_course",
+          29
+        ],
+        [
+          "yungfan/SwiftUI-learning",
+          29
+        ]
+      ]
+    },
+    {
+      "sym": "borderlessButton",
+      "renamed": "borderless",
+      "repos": 305,
+      "top_repos": [
+        [
+          "TL0225/college-planner",
+          35
+        ],
+        [
+          "max4c/bugbook",
+          34
+        ],
+        [
+          "rxtech-lab/rxcode",
+          26
+        ],
+        [
+          "mherrera53/GitMac",
+          22
+        ],
+        [
+          "TableProApp/TablePro",
+          19
+        ],
+        [
+          "susom/astra",
+          18
+        ],
+        [
+          "cgcardona/Stori",
+          16
+        ],
+        [
+          "Ludvig-Hedin/Todus",
+          15
+        ]
+      ]
+    },
+    {
+      "sym": "NavigationView",
+      "renamed": "NavigationStack",
+      "repos": 257,
+      "top_repos": [
+        [
+          "doxuto/kavsoft-animation",
+          77
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          74
+        ],
+        [
+          "andychucs/ReNextNavi",
+          73
+        ],
+        [
+          "yungfan/SwiftUI-learning",
+          66
+        ],
+        [
+          "AIDingDing449/WordPress-iOS",
+          53
+        ],
+        [
+          "thepian/record-thing",
+          51
+        ],
+        [
+          "Allan-Mo/Pulse",
+          48
+        ],
+        [
+          "PresearchOfficial/presearch-browser-ios",
+          48
+        ]
+      ]
+    },
+    {
+      "sym": "Alert",
+      "renamed": "alert",
+      "repos": 209,
+      "top_repos": [
+        [
+          "sail-tunnel/peakpass",
+          59
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          36
+        ],
+        [
+          "utmapp/UTM",
+          34
+        ],
+        [
+          "andychucs/ReNextNavi",
+          30
+        ],
+        [
+          "pixelspark/sushitrain",
+          25
+        ],
+        [
+          "yattee/yattee",
+          24
+        ],
+        [
+          "nalexn/ViewInspector",
+          23
+        ],
+        [
+          "instructure/canvas-ios",
+          22
+        ]
+      ]
+    },
+    {
+      "sym": "edgesIgnoringSafeArea",
+      "renamed": "ignoresSafeArea",
+      "repos": 195,
+      "top_repos": [
+        [
+          "jasudev/FabulaItemsProvider",
+          59
+        ],
+        [
+          "ACINQ/phoenix",
+          38
+        ],
+        [
+          "Nevvi/iOS",
+          17
+        ],
+        [
+          "andychucs/ReNextNavi",
+          17
+        ],
+        [
+          "huangboju/Moots",
+          17
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          16
+        ],
+        [
+          "munsangu/SwiftUI",
+          16
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          15
+        ]
+      ]
+    },
+    {
+      "sym": "presentationMode",
+      "renamed": "dismiss",
+      "repos": 139,
+      "top_repos": [
+        [
+          "andychucs/ReNextNavi",
+          42
+        ],
+        [
+          "ACINQ/phoenix",
+          34
+        ],
+        [
+          "PresearchOfficial/presearch-browser-ios",
+          28
+        ],
+        [
+          "utmapp/UTM",
+          20
+        ],
+        [
+          "ghfbsd/BTrain",
+          15
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          14
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          14
+        ],
+        [
+          "amikhaylin/pompaddo",
+          13
+        ]
+      ]
+    },
+    {
+      "sym": "accentColor",
+      "renamed": "tint",
+      "repos": 135,
+      "top_repos": [
+        [
+          "bitnpc/Smth",
+          42
+        ],
+        [
+          "justgus/CumberlandWriter",
+          39
+        ],
+        [
+          "LegalMarc/marcut",
+          30
+        ],
+        [
+          "cdillard/LogicSage",
+          18
+        ],
+        [
+          "nordicsemi/IOS-nRF-Edge-Impulse",
+          16
+        ],
+        [
+          "flngsquirrl/SPractice",
+          15
+        ],
+        [
+          "andychucs/ReNextNavi",
+          14
+        ],
+        [
+          "KDE/kdeconnect-ios",
+          13
+        ]
+      ]
+    },
+    {
+      "sym": "disableAutocorrection",
+      "renamed": "autocorrectionDisabled",
+      "repos": 120,
+      "top_repos": [
+        [
+          "beamlegacy/beam",
+          28
+        ],
+        [
+          "meshtastic/Meshtastic-Apple",
+          22
+        ],
+        [
+          "frida/luma",
+          21
+        ],
+        [
+          "rderaison/bromure",
+          16
+        ],
+        [
+          "Nevvi/iOS",
+          14
+        ],
+        [
+          "microsoft/fluentui-apple",
+          14
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          14
+        ],
+        [
+          "Planetable/Planet",
+          11
+        ]
+      ]
+    },
+    {
+      "sym": "MagnificationGesture",
+      "renamed": "MagnifyGesture",
+      "repos": 78,
+      "top_repos": [
+        [
+          "nalexn/ViewInspector",
+          15
+        ],
+        [
+          "DanTsai0903/InsGrids",
+          6
+        ],
+        [
+          "brianm998/starry_timelapse_airplane_remover",
+          5
+        ],
+        [
+          "doxuto/kavsoft-animation",
+          4
+        ],
+        [
+          "jasudev/FabulaItemsProvider",
+          4
+        ],
+        [
+          "pommdau/swiftui-practice",
+          4
+        ],
+        [
+          "Jyhwenchai/SwiftUIExample",
+          3
+        ],
+        [
+          "justgus/CumberlandWriter",
+          3
+        ]
+      ]
+    },
+    {
+      "sym": "navigationViewStyle",
+      "renamed": "",
+      "repos": 72,
+      "top_repos": [
+        [
+          "andychucs/ReNextNavi",
+          40
+        ],
+        [
+          "PresearchOfficial/presearch-browser-ios",
+          19
+        ],
+        [
+          "mihaelamj/cupertino-packages",
+          17
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          13
+        ],
+        [
+          "schatt/sixlayer",
+          13
+        ],
+        [
+          "siteline/swiftui-introspect",
+          13
+        ],
+        [
+          "Allan-Mo/Pulse",
+          7
+        ],
+        [
+          "Automattic/pocket-casts-ios",
+          7
+        ]
+      ]
+    },
+    {
+      "sym": "navigationBarTitle",
+      "renamed": "navigationTitle",
+      "repos": 71,
+      "top_repos": [
+        [
+          "huangboju/Moots",
+          49
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          34
+        ],
+        [
+          "unobrandon/DefiWallet",
+          34
+        ],
+        [
+          "algolia/instantsearch-ios",
+          26
+        ],
+        [
+          "Jyhwenchai/SwiftUIExample",
+          25
+        ],
+        [
+          "yungfan/SwiftUI-learning",
+          24
+        ],
+        [
+          "azooKey/azooKey",
+          20
+        ],
+        [
+          "mihaelamj/cupertino-packages",
+          15
+        ]
+      ]
+    },
+    {
+      "sym": "navigationBarHidden",
+      "renamed": "",
+      "repos": 70,
+      "top_repos": [
+        [
+          "doxuto/kavsoft-animation",
+          31
+        ],
+        [
+          "SL-CodeWorrier/Bodima_iOS_app",
+          15
+        ],
+        [
+          "alexezh/reminora",
+          10
+        ],
+        [
+          "arthurshes/stest3434335",
+          10
+        ],
+        [
+          "twofas/2fas-ios",
+          10
+        ],
+        [
+          "ACINQ/phoenix",
+          9
+        ],
+        [
+          "BoxPay-SDKs/checkout-ios-sdk",
+          9
+        ],
+        [
+          "anyproto/anytype-swift",
+          8
+        ]
+      ]
+    },
+    {
+      "sym": "controlActiveState",
+      "renamed": "",
+      "repos": 54,
+      "top_repos": [
+        [
+          "CodeEditApp/CodeEdit",
+          29
+        ],
+        [
+          "AuroraEditor/AuroraEditor",
+          20
+        ],
+        [
+          "mirham/KillSwitch",
+          10
+        ],
+        [
+          "mierau/hotline",
+          9
+        ],
+        [
+          "vivy-company/aizen",
+          8
+        ],
+        [
+          "TableProApp/TablePro",
+          7
+        ],
+        [
+          "Shopify/tophat",
+          6
+        ],
+        [
+          "smykla-skalski/harness",
+          5
+        ]
+      ]
+    },
+    {
+      "sym": "colorMultiply",
+      "renamed": "foregroundStyle",
+      "repos": 49,
+      "top_repos": [
+        [
+          "mihaelamj/cupertino-sample-code",
+          33
+        ],
+        [
+          "alin23/Lunar",
+          11
+        ],
+        [
+          "beamlegacy/beam",
+          10
+        ],
+        [
+          "huangboju/Moots",
+          9
+        ],
+        [
+          "DataDog/dd-sdk-ios",
+          4
+        ],
+        [
+          "PieroSierra/SoftBurn",
+          4
+        ],
+        [
+          "dowoonlee/ai-service-usage",
+          4
+        ],
+        [
+          "lihaoyun6/QuickRecorder",
+          4
+        ]
+      ]
+    },
+    {
+      "sym": "sizeCategory",
+      "renamed": "dynamicTypeSize",
+      "repos": 34,
+      "top_repos": [
+        [
+          "andychucs/ReNextNavi",
+          39
+        ],
+        [
+          "PresearchOfficial/presearch-browser-ios",
+          27
+        ],
+        [
+          "swiyu-admin-ch/eidch-ios-wallet",
+          24
+        ],
+        [
+          "Automattic/pocket-casts-ios",
+          11
+        ],
+        [
+          "rafaelclaycon/MedoDelirioiOSApp",
+          6
+        ],
+        [
+          "mihaelamj/cupertino-sample-code",
+          5
+        ],
+        [
+          "urbanairship/ios-library",
+          5
+        ],
+        [
+          "AIDingDing449/WordPress-iOS",
+          3
+        ]
+      ]
+    },
+    {
+      "sym": "MenuButton",
+      "renamed": "",
+      "repos": 19,
+      "top_repos": [
+        [
+          "doxuto/kavsoft-animation",
+          12
+        ],
+        [
+          "annaquainliu/Widgets",
+          9
+        ],
+        [
+          "SuchitG04/moov",
+          8
+        ],
+        [
+          "nalexn/ViewInspector",
+          7
+        ],
+        [
+          "will-lumley/DocuBot",
+          7
+        ],
+        [
+          "CeoatNorthstar/BrewCap",
+          6
+        ],
+        [
+          "mattt/iMCP",
+          5
+        ],
+        [
+          "frogody/Thynk",
+          4
+        ]
+      ]
+    },
+    {
+      "sym": "BorderlessButtonMenuStyle",
+      "renamed": "",
+      "repos": 17,
+      "top_repos": [
+        [
+          "SidhuK/WardenApp",
+          2
+        ],
+        [
+          "SwiftUIX/SwiftUIX",
+          2
+        ],
+        [
+          "cmushroom/redis-pro",
+          2
+        ],
+        [
+          "Beingpax/ZenFocus-App",
+          1
+        ],
+        [
+          "CodeBlog-ai/codeblog-mac",
+          1
+        ],
+        [
+          "DamascenoRafael/reminders-menubar",
+          1
+        ],
+        [
+          "JerryZLiu/Dayflow",
+          1
+        ],
+        [
+          "Oil3/PluginKits",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "ContextMenu",
+      "renamed": "",
+      "repos": 14,
+      "top_repos": [
+        [
+          "doorhinge-apps/Aura-Browser",
+          4
+        ],
+        [
+          "AIDingDing449/WordPress-iOS",
+          2
+        ],
+        [
+          "duckduckgo/apple-browsers",
+          2
+        ],
+        [
+          "strongbox-password-safe/Strongbox",
+          2
+        ],
+        [
+          "CodeEditApp/CodeEdit",
+          1
+        ],
+        [
+          "Galaxoid-Labs/Seer",
+          1
+        ],
+        [
+          "JustAman62/ovault",
+          1
+        ],
+        [
+          "Jyhwenchai/SwiftUIExample",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "RotationGesture",
+      "renamed": "RotateGesture",
+      "repos": 14,
+      "top_repos": [
+        [
+          "nalexn/ViewInspector",
+          18
+        ],
+        [
+          "DanTsai0903/InsGrids",
+          3
+        ],
+        [
+          "Jyhwenchai/SwiftUIExample",
+          3
+        ],
+        [
+          "KaneEast/SwiftKnowledgeBase",
+          3
+        ],
+        [
+          "jasudev/FabulaItemsProvider",
+          3
+        ],
+        [
+          "zitterbewegung/Pulto3",
+          3
+        ],
+        [
+          "Fibi66/cutti",
+          1
+        ],
+        [
+          "H-Ghadirian/What-I-Learned",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "borderedButton",
+      "renamed": "",
+      "repos": 12,
+      "top_repos": [
+        [
+          "musicalengineer/VideoScan",
+          3
+        ],
+        [
+          "alienator88/Pearcleaner",
+          2
+        ],
+        [
+          "yigitkonur/SWComp",
+          2
+        ],
+        [
+          "Kaydeewrld/sidekick-local-ai",
+          1
+        ],
+        [
+          "MonsoudZ/devreader",
+          1
+        ],
+        [
+          "esbenwiberg/autopod",
+          1
+        ],
+        [
+          "johnbean393/Sidekick",
+          1
+        ],
+        [
+          "kontesthq/Kontest",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "DoubleColumnNavigationViewStyle",
+      "renamed": "",
+      "repos": 6,
+      "top_repos": [
+        [
+          "mihaelamj/cupertino-packages",
+          6
+        ],
+        [
+          "siteline/swiftui-introspect",
+          6
+        ],
+        [
+          "schatt/sixlayer",
+          3
+        ],
+        [
+          "DataDog/dd-sdk-ios",
+          1
+        ],
+        [
+          "barbaramartina/swiftuicatalog",
+          1
+        ],
+        [
+          "getditto/DittoSwiftTools",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "menuButtonStyle",
+      "renamed": "",
+      "repos": 6,
+      "top_repos": [
+        [
+          "nalexn/ViewInspector",
+          3
+        ],
+        [
+          "funway/Countdown",
+          2
+        ],
+        [
+          "EmirhanCodes/Clop-Modified",
+          1
+        ],
+        [
+          "FuzzyIdeas/Clop",
+          1
+        ],
+        [
+          "ZibenStudio/Clop",
+          1
+        ],
+        [
+          "jasudev/FabulaItemsProvider",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "BorderlessButtonMenuButtonStyle",
+      "renamed": "",
+      "repos": 5,
+      "top_repos": [
+        [
+          "funway/Countdown",
+          2
+        ],
+        [
+          "EmirhanCodes/Clop-Modified",
+          1
+        ],
+        [
+          "FuzzyIdeas/Clop",
+          1
+        ],
+        [
+          "ZibenStudio/Clop",
+          1
+        ],
+        [
+          "jasudev/FabulaItemsProvider",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "PopUpButtonPickerStyle",
+      "renamed": "",
+      "repos": 3,
+      "top_repos": [
+        [
+          "daniyalmaster693/SuperCorners",
+          2
+        ],
+        [
+          "alienator88/Sentinel",
+          1
+        ],
+        [
+          "funway/Countdown",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "DefaultNavigationViewStyle",
+      "renamed": "",
+      "repos": 3,
+      "top_repos": [
+        [
+          "nalexn/ViewInspector",
+          2
+        ],
+        [
+          "huangboju/Moots",
+          1
+        ],
+        [
+          "waylybaye/XcodeCleaner-SwiftUI",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "accessibilityShowButtonShapes",
+      "renamed": "accessibilityShowBorders",
+      "repos": 2,
+      "top_repos": [
+        [
+          "Automattic/pocket-casts-ios",
+          1
+        ],
+        [
+          "swiyu-admin-ch/eidch-ios-wallet",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "MenuButtonStyle",
+      "renamed": "",
+      "repos": 2,
+      "top_repos": [
+        [
+          "inseven/builds",
+          1
+        ],
+        [
+          "itoolio/ishare",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "ContentSizeCategory",
+      "renamed": "DynamicTypeSize",
+      "repos": 2,
+      "top_repos": [
+        [
+          "linhdk0712/ELAForKids",
+          2
+        ],
+        [
+          "mastodon/mastodon-ios",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "DefaultMenuButtonStyle",
+      "renamed": "",
+      "repos": 2,
+      "top_repos": [
+        [
+          "liveview-native/liveview-client-swiftui",
+          1
+        ],
+        [
+          "nalexn/ViewInspector",
+          1
+        ]
+      ]
+    },
+    {
+      "sym": "PullDownMenuButtonStyle",
+      "renamed": "",
+      "repos": 1,
+      "top_repos": [
+        [
+          "nalexn/ViewInspector",
+          1
+        ]
+      ]
+    }
+  ],
+  "discovered_external_api": {
+    "modifier": [
+      {
+        "sym": "contains",
+        "uses": 49348,
+        "repos": 1320
+      },
+      {
+        "sym": "append",
+        "uses": 37145,
+        "repos": 1229
+      },
+      {
+        "sym": "map",
+        "uses": 31060,
+        "repos": 1216
+      },
+      {
+        "sym": "trimmingCharacters",
+        "uses": 20438,
+        "repos": 924
+      },
+      {
+        "sym": "filter",
+        "uses": 20320,
+        "repos": 1157
+      },
+      {
+        "sym": "first",
+        "uses": 14819,
+        "repos": 1066
+      },
+      {
+        "sym": "async",
+        "uses": 11847,
+        "repos": 1013
+      },
+      {
+        "sym": "run",
+        "uses": 11413,
+        "repos": 761
+      },
+      {
+        "sym": "string",
+        "uses": 11228,
+        "repos": 956
+      },
+      {
+        "sym": "lowercased",
+        "uses": 11121,
+        "repos": 761
+      },
+      {
+        "sym": "toggle",
+        "uses": 9948,
+        "repos": 1089
+      },
+      {
+        "sym": "cancel",
+        "uses": 9848,
+        "repos": 811
+      },
+      {
+        "sym": "constraint",
+        "uses": 9343,
+        "repos": 346
+      },
+      {
+        "sym": "prefix",
+        "uses": 9338,
+        "repos": 826
+      },
+      {
+        "sym": "insert",
+        "uses": 9229,
+        "repos": 914
+      },
+      {
+        "sym": "set",
+        "uses": 9173,
+        "repos": 782
+      },
+      {
+        "sym": "joined",
+        "uses": 8548,
+        "repos": 797
+      },
+      {
+        "sym": "removeAll",
+        "uses": 8282,
+        "repos": 923
+      },
+      {
+        "sym": "firstIndex",
+        "uses": 8011,
+        "repos": 882
+      },
+      {
+        "sym": "error",
+        "uses": 7769,
+        "repos": 528
+      },
+      {
+        "sym": "sorted",
+        "uses": 7516,
+        "repos": 882
+      },
+      {
+        "sym": "appendingPathComponent",
+        "uses": 7431,
+        "repos": 612
+      },
+      {
+        "sym": "compactMap",
+        "uses": 7242,
+        "repos": 776
+      },
+      {
+        "sym": "enumerated",
+        "uses": 6981,
+        "repos": 896
+      },
+      {
+        "sym": "hasPrefix",
+        "uses": 6931,
+        "repos": 625
+      },
+      {
+        "sym": "now",
+        "uses": 6904,
+        "repos": 850
+      },
+      {
+        "sym": "asyncAfter",
+        "uses": 6628,
+        "repos": 833
+      },
+      {
+        "sym": "send",
+        "uses": 6562,
+        "repos": 424
+      },
+      {
+        "sym": "move",
+        "uses": 6493,
+        "repos": 833
+      },
+      {
+        "sym": "info",
+        "uses": 6459,
+        "repos": 299
+      },
+      {
+        "sym": "constant",
+        "uses": 6127,
+        "repos": 668
+      },
+      {
+        "sym": "sleep",
+        "uses": 6124,
+        "repos": 698
+      },
+      {
+        "sym": "localized",
+        "uses": 5869,
+        "repos": 43
+      },
+      {
+        "sym": "remove",
+        "uses": 5822,
+        "repos": 844
+      },
+      {
+        "sym": "addLine",
+        "uses": 5821,
+        "repos": 431
+      },
+      {
+        "sym": "post",
+        "uses": 5464,
+        "repos": 535
+      },
+      {
+        "sym": "debug",
+        "uses": 5182,
+        "repos": 215
+      },
+      {
+        "sym": "replacingOccurrences",
+        "uses": 5108,
+        "repos": 652
+      },
+      {
+        "sym": "addSubview",
+        "uses": 4853,
+        "repos": 435
+      },
+      {
+        "sym": "value",
+        "uses": 4615,
+        "repos": 320
+      }
+    ],
+    "attribute": [
+      {
+        "sym": "ViewBuilder",
+        "uses": 30889,
+        "repos": 1104
+      },
+      {
+        "sym": "MainActor",
+        "uses": 26381,
+        "repos": 997
+      },
+      {
+        "sym": "Published",
+        "uses": 24937,
+        "repos": 932
+      },
+      {
+        "sym": "Test",
+        "uses": 12042,
+        "repos": 98
+      },
+      {
+        "sym": "objc",
+        "uses": 7656,
+        "repos": 718
+      },
+      {
+        "sym": "available",
+        "uses": 7551,
+        "repos": 340
+      },
+      {
+        "sym": "main",
+        "uses": 4041,
+        "repos": 1554
+      },
+      {
+        "sym": "Default",
+        "uses": 3130,
+        "repos": 45
+      },
+      {
+        "sym": "ObservationIgnored",
+        "uses": 2800,
+        "repos": 150
+      },
+      {
+        "sym": "discardableResult",
+        "uses": 2626,
+        "repos": 346
+      },
+      {
+        "sym": "Previewable",
+        "uses": 1633,
+        "repos": 140
+      },
+      {
+        "sym": "Suite",
+        "uses": 1341,
+        "repos": 64
+      },
+      {
+        "sym": "inlinable",
+        "uses": 912,
+        "repos": 45
+      },
+      {
+        "sym": "IBOutlet",
+        "uses": 786,
+        "repos": 34
+      },
+      {
+        "sym": "Injected",
+        "uses": 691,
+        "repos": 11
+      },
+      {
+        "sym": "IBAction",
+        "uses": 659,
+        "repos": 49
+      },
+      {
+        "sym": "Dependency",
+        "uses": 608,
+        "repos": 32
+      },
+      {
+        "sym": "Entry",
+        "uses": 424,
+        "repos": 90
+      },
+      {
+        "sym": "Reducer",
+        "uses": 399,
+        "repos": 18
+      },
+      {
+        "sym": "Shared",
+        "uses": 379,
+        "repos": 14
+      },
+      {
+        "sym": "ToolbarContentBuilder",
+        "uses": 378,
+        "repos": 125
+      },
+      {
+        "sym": "usableFromInline",
+        "uses": 341,
+        "repos": 12
+      },
+      {
+        "sym": "frozen",
+        "uses": 265,
+        "repos": 15
+      },
+      {
+        "sym": "ObservableState",
+        "uses": 241,
+        "repos": 16
+      },
+      {
+        "sym": "inline",
+        "uses": 231,
+        "repos": 39
+      },
+      {
+        "sym": "preconcurrency",
+        "uses": 227,
+        "repos": 23
+      },
+      {
+        "sym": "propertyWrapper",
+        "uses": 181,
+        "repos": 69
+      },
+      {
+        "sym": "ObserveInjection",
+        "uses": 169,
+        "repos": 7
+      },
+      {
+        "sym": "CasePathable",
+        "uses": 132,
+        "repos": 8
+      },
+      {
+        "sym": "Parameter",
+        "uses": 123,
+        "repos": 32
+      },
+      {
+        "sym": "Presents",
+        "uses": 123,
+        "repos": 8
+      },
+      {
+        "sym": "UserDefault",
+        "uses": 102,
+        "repos": 6
+      },
+      {
+        "sym": "NSManaged",
+        "uses": 87,
+        "repos": 6
+      },
+      {
+        "sym": "ChartContentBuilder",
+        "uses": 75,
+        "repos": 15
+      },
+      {
+        "sym": "resultBuilder",
+        "uses": 63,
+        "repos": 38
+      },
+      {
+        "sym": "dynamicMemberLookup",
+        "uses": 62,
+        "repos": 19
+      }
+    ],
+    "type": [
+      {
+        "sym": "String",
+        "uses": 63205,
+        "repos": 1304
+      },
+      {
+        "sym": "Task",
+        "uses": 36523,
+        "repos": 1156
+      },
+      {
+        "sym": "CGPoint",
+        "uses": 28421,
+        "repos": 694
+      },
+      {
+        "sym": "URL",
+        "uses": 17147,
+        "repos": 1235
+      },
+      {
+        "sym": "Date",
+        "uses": 16992,
+        "repos": 970
+      },
+      {
+        "sym": "Int",
+        "uses": 16904,
+        "repos": 1145
+      },
+      {
+        "sym": "Double",
+        "uses": 16368,
+        "repos": 1037
+      },
+      {
+        "sym": "XCTAssertEqual",
+        "uses": 15864,
+        "repos": 99
+      },
+      {
+        "sym": "NSLocalizedString",
+        "uses": 14512,
+        "repos": 157
+      },
+      {
+        "sym": "CGFloat",
+        "uses": 12283,
+        "repos": 877
+      },
+      {
+        "sym": "UUID",
+        "uses": 11983,
+        "repos": 938
+      },
+      {
+        "sym": "Array",
+        "uses": 10804,
+        "repos": 1040
+      },
+      {
+        "sym": "CGSize",
+        "uses": 8907,
+        "repos": 719
+      },
+      {
+        "sym": "Set",
+        "uses": 8291,
+        "repos": 889
+      },
+      {
+        "sym": "XCTAssertTrue",
+        "uses": 6402,
+        "repos": 87
+      },
+      {
+        "sym": "CGRect",
+        "uses": 5944,
+        "repos": 598
+      },
+      {
+        "sym": "NSRect",
+        "uses": 5908,
+        "repos": 645
+      },
+      {
+        "sym": "ContentView",
+        "uses": 5899,
+        "repos": 889
+      },
+      {
+        "sym": "NSImage",
+        "uses": 4127,
+        "repos": 729
+      },
+      {
+        "sym": "NSColor",
+        "uses": 4064,
+        "repos": 432
+      },
+      {
+        "sym": "Data",
+        "uses": 4041,
+        "repos": 596
+      },
+      {
+        "sym": "UIColor",
+        "uses": 3860,
+        "repos": 221
+      },
+      {
+        "sym": "XCTAssertFalse",
+        "uses": 3620,
+        "repos": 76
+      },
+      {
+        "sym": "NSSize",
+        "uses": 3451,
+        "repos": 607
+      },
+      {
+        "sym": "L",
+        "uses": 3108,
+        "repos": 10
+      },
+      {
+        "sym": "NSRange",
+        "uses": 3095,
+        "repos": 351
+      },
+      {
+        "sym": "NSMenuItem",
+        "uses": 2863,
+        "repos": 271
+      },
+      {
+        "sym": "XCTFail",
+        "uses": 2767,
+        "repos": 46
+      },
+      {
+        "sym": "UIImage",
+        "uses": 2700,
+        "repos": 283
+      },
+      {
+        "sym": "DateFormatter",
+        "uses": 2544,
+        "repos": 580
+      },
+      {
+        "sym": "Float",
+        "uses": 2279,
+        "repos": 277
+      },
+      {
+        "sym": "AttributedString",
+        "uses": 2276,
+        "repos": 306
+      },
+      {
+        "sym": "JSONDecoder",
+        "uses": 2186,
+        "repos": 545
+      },
+      {
+        "sym": "NSPoint",
+        "uses": 1967,
+        "repos": 354
+      },
+      {
+        "sym": "Coordinator",
+        "uses": 1840,
+        "repos": 602
+      },
+      {
+        "sym": "Bool",
+        "uses": 1790,
+        "repos": 31
+      },
+      {
+        "sym": "NSView",
+        "uses": 1731,
+        "repos": 397
+      },
+      {
+        "sym": "Self",
+        "uses": 1694,
+        "repos": 161
+      }
+    ],
+    "member": [
+      {
+        "sym": "isEmpty",
+        "uses": 98710,
+        "repos": 1474
+      },
+      {
+        "sym": "id",
+        "uses": 97269,
+        "repos": 1219
+      },
+      {
+        "sym": "shared",
+        "uses": 68728,
+        "repos": 1408
+      },
+      {
+        "sym": "count",
+        "uses": 64588,
+        "repos": 1438
+      },
+      {
+        "sym": "infinity",
+        "uses": 57591,
+        "repos": 1474
+      },
+      {
+        "sym": "width",
+        "uses": 39042,
+        "repos": 1224
+      },
+      {
+        "sym": "name",
+        "uses": 37969,
+        "repos": 1134
+      },
+      {
+        "sym": "height",
+        "uses": 34467,
+        "repos": 1152
+      },
+      {
+        "sym": "main",
+        "uses": 31268,
+        "repos": 1427
+      },
+      {
+        "sym": "title",
+        "uses": 30198,
+        "repos": 1243
+      },
+      {
+        "sym": "size",
+        "uses": 25896,
+        "repos": 1171
+      },
+      {
+        "sym": "rawValue",
+        "uses": 24632,
+        "repos": 1149
+      },
+      {
+        "sym": "default",
+        "uses": 24105,
+        "repos": 1140
+      },
+      {
+        "sym": "Spacing",
+        "uses": 21128,
+        "repos": 56
+      },
+      {
+        "sym": "continuous",
+        "uses": 20913,
+        "repos": 656
+      },
+      {
+        "sym": "Colors",
+        "uses": 19683,
+        "repos": 49
+      },
+      {
+        "sym": "first",
+        "uses": 19075,
+        "repos": 1239
+      },
+      {
+        "sym": "path",
+        "uses": 17279,
+        "repos": 854
+      },
+      {
+        "sym": "whitespacesAndNewlines",
+        "uses": 16307,
+        "repos": 748
+      },
+      {
+        "sym": "x",
+        "uses": 15052,
+        "repos": 790
+      },
+      {
+        "sym": "y",
+        "uses": 15023,
+        "repos": 779
+      },
+      {
+        "sym": "bold",
+        "uses": 14943,
+        "repos": 1055
+      },
+      {
+        "sym": "white",
+        "uses": 14451,
+        "repos": 875
+      },
+      {
+        "sym": "localizedDescription",
+        "uses": 14416,
+        "repos": 1023
+      },
+      {
+        "sym": "standard",
+        "uses": 13722,
+        "repos": 849
+      },
+      {
+        "sym": "accentColor",
+        "uses": 13405,
+        "repos": 885
+      },
+      {
+        "sym": "small",
+        "uses": 13149,
+        "repos": 825
+      },
+      {
+        "sym": "value",
+        "uses": 12943,
+        "repos": 820
+      },
+      {
+        "sym": "text",
+        "uses": 12895,
+        "repos": 813
+      },
+      {
+        "sym": "clear",
+        "uses": 12813,
+        "repos": 1116
+      },
+      {
+        "sym": "state",
+        "uses": 11776,
+        "repos": 763
+      },
+      {
+        "sym": "url",
+        "uses": 11582,
+        "repos": 843
+      },
+      {
+        "sym": "displayName",
+        "uses": 11317,
+        "repos": 670
+      },
+      {
+        "sym": "allCases",
+        "uses": 11059,
+        "repos": 1040
+      },
+      {
+        "sym": "label",
+        "uses": 11041,
+        "repos": 901
+      },
+      {
+        "sym": "frame",
+        "uses": 10931,
+        "repos": 778
+      },
+      {
+        "sym": "error",
+        "uses": 10377,
+        "repos": 630
+      },
+      {
+        "sym": "monospaced",
+        "uses": 10084,
+        "repos": 797
+      },
+      {
+        "sym": "status",
+        "uses": 10002,
+        "repos": 597
+      },
+      {
+        "sym": "sm",
+        "uses": 9799,
+        "repos": 76
+      }
+    ]
+  },
+  "co_occurrence": [
+    {
+      "anchor": "MenuBarExtra",
+      "anchor_repos": 401,
+      "co_modifiers": [
+        {
+          "sym": "frame",
+          "repos": 395
+        },
+        {
+          "sym": "padding",
+          "repos": 392
+        },
+        {
+          "sym": "font",
+          "repos": 382
+        },
+        {
+          "sym": "buttonStyle",
+          "repos": 355
+        },
+        {
+          "sym": "background",
+          "repos": 345
+        },
+        {
+          "sym": "opacity",
+          "repos": 340
+        },
+        {
+          "sym": "onAppear",
+          "repos": 338
+        },
+        {
+          "sym": "foregroundStyle",
+          "repos": 323
+        },
+        {
+          "sym": "disabled",
+          "repos": 312
+        },
+        {
+          "sym": "fill",
+          "repos": 304
+        },
+        {
+          "sym": "onChange",
+          "repos": 298
+        },
+        {
+          "sym": "lineLimit",
+          "repos": 284
+        }
+      ]
+    },
+    {
+      "anchor": "searchable",
+      "anchor_repos": 276,
+      "co_modifiers": [
+        {
+          "sym": "searchable",
+          "repos": 276
+        },
+        {
+          "sym": "frame",
+          "repos": 275
+        },
+        {
+          "sym": "font",
+          "repos": 275
+        },
+        {
+          "sym": "padding",
+          "repos": 275
+        },
+        {
+          "sym": "background",
+          "repos": 272
+        },
+        {
+          "sym": "opacity",
+          "repos": 270
+        },
+        {
+          "sym": "onChange",
+          "repos": 268
+        },
+        {
+          "sym": "disabled",
+          "repos": 268
+        },
+        {
+          "sym": "buttonStyle",
+          "repos": 266
+        },
+        {
+          "sym": "tag",
+          "repos": 263
+        },
+        {
+          "sym": "onAppear",
+          "repos": 261
+        },
+        {
+          "sym": "toolbar",
+          "repos": 260
+        }
+      ]
+    },
+    {
+      "anchor": "NavigationSplitView",
+      "anchor_repos": 487,
+      "co_modifiers": [
+        {
+          "sym": "padding",
+          "repos": 486
+        },
+        {
+          "sym": "font",
+          "repos": 484
+        },
+        {
+          "sym": "frame",
+          "repos": 484
+        },
+        {
+          "sym": "background",
+          "repos": 471
+        },
+        {
+          "sym": "opacity",
+          "repos": 467
+        },
+        {
+          "sym": "buttonStyle",
+          "repos": 466
+        },
+        {
+          "sym": "disabled",
+          "repos": 458
+        },
+        {
+          "sym": "onAppear",
+          "repos": 457
+        },
+        {
+          "sym": "tag",
+          "repos": 446
+        },
+        {
+          "sym": "foregroundStyle",
+          "repos": 444
+        },
+        {
+          "sym": "onChange",
+          "repos": 443
+        },
+        {
+          "sym": "lineLimit",
+          "repos": 433
+        }
+      ]
+    }
+  ],
+  "custom_components_by_kind": {
+    "app": 3844,
+    "bridge": 4698,
+    "commands": 335,
+    "layout": 346,
+    "preview": 7814,
+    "scene": 125,
+    "shape": 942,
+    "style": 2350,
+    "toolbarcontent": 144,
+    "transferable": 140,
+    "view": 91254,
+    "viewbuilder": 204382,
+    "viewmodifier": 4438
+  },
+  "category_fingerprint": {
+    "Databases": {
+      "repos": 2,
+      "avg_unique_modifiers": 106.5
+    },
+    "Browsers": {
+      "repos": 2,
+      "avg_unique_modifiers": 93.0
+    },
+    "Package Managers": {
+      "repos": 2,
+      "avg_unique_modifiers": 86.0
+    },
+    "File Organization Tools": {
+      "repos": 2,
+      "avg_unique_modifiers": 81.5
+    },
+    "Note-taking": {
+      "repos": 3,
+      "avg_unique_modifiers": 74.3
+    },
+    "Text Editors": {
+      "repos": 6,
+      "avg_unique_modifiers": 72.7
+    },
+    "Quality of Life Improvements": {
+      "repos": 2,
+      "avg_unique_modifiers": 71.0
+    },
+    "Virtualization": {
+      "repos": 4,
+      "avg_unique_modifiers": 68.5
+    },
+    "Translation Tools": {
+      "repos": 3,
+      "avg_unique_modifiers": 67.0
+    },
+    "Screen Recording": {
+      "repos": 5,
+      "avg_unique_modifiers": 66.2
+    },
+    "Developer Utilities": {
+      "repos": 14,
+      "avg_unique_modifiers": 63.6
+    },
+    "Voice-to-Text": {
+      "repos": 7,
+      "avg_unique_modifiers": 63.0
+    },
+    "Audio and Video Tools": {
+      "repos": 15,
+      "avg_unique_modifiers": 59.1
+    },
+    "AI Tools": {
+      "repos": 14,
+      "avg_unique_modifiers": 57.1
+    },
+    "Cleanup and Uninstall": {
+      "repos": 7,
+      "avg_unique_modifiers": 56.6
+    },
+    "(discovered)": {
+      "repos": 1650,
+      "avg_unique_modifiers": 50.6
+    },
+    "Gaming Software": {
+      "repos": 3,
+      "avg_unique_modifiers": 48.3
+    },
+    "Clipboard Tools": {
+      "repos": 8,
+      "avg_unique_modifiers": 46.5
+    },
+    "Productivity": {
+      "repos": 9,
+      "avg_unique_modifiers": 46.3
+    },
+    "Menu Bar Tools": {
+      "repos": 28,
+      "avg_unique_modifiers": 46.2
+    },
+    "Proxy and VPN Tools": {
+      "repos": 3,
+      "avg_unique_modifiers": 45.3
+    },
+    "Security Tools": {
+      "repos": 7,
+      "avg_unique_modifiers": 45.3
+    },
+    "Input Methods": {
+      "repos": 2,
+      "avg_unique_modifiers": 42.0
+    },
+    "General Tools": {
+      "repos": 5,
+      "avg_unique_modifiers": 41.2
+    },
+    "Window Management": {
+      "repos": 15,
+      "avg_unique_modifiers": 37.8
+    },
+    "System Related Tools": {
+      "repos": 12,
+      "avg_unique_modifiers": 35.1
+    },
+    "Finder Tools": {
+      "repos": 3,
+      "avg_unique_modifiers": 30.7
+    },
+    "Other Tools": {
+      "repos": 2,
+      "avg_unique_modifiers": 27.0
+    },
+    "Frameworks For Hybrid Applications": {
+      "repos": 2,
+      "avg_unique_modifiers": 19.0
+    },
+    "QuickLook Plugins": {
+      "repos": 4,
+      "avg_unique_modifiers": 16.2
+    },
+    "Terminal Apps": {
+      "repos": 2,
+      "avg_unique_modifiers": 7.0
+    },
+    "Screenshot Tools": {
+      "repos": 2,
+      "avg_unique_modifiers": 1.5
+    }
+  }
+}

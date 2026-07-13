@@ -1,0 +1,147 @@
+{
+ "repo": "minhuw/ghostsay",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5fa4714cd9894e3f953ad22f6ab57da41e70e5f2",
+ "platform": "macos",
+ "author_authority": 56,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "minhuw",
+   "score": 56,
+   "contributions": 10
+  }
+ ],
+ "loc": 1573,
+ "custom_components": 13,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "GhostSay",
+  "Hummingbird",
+  "HummingbirdFoundation",
+  "Logging",
+  "NIOCore",
+  "Network",
+  "PackageDescription",
+  "Security",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "MenuButton",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "defaultPosition",
+   "disabled",
+   "environment",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "lineSpacing",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "MenuButton",
+   "MenuPickerStyle",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "SecureField",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "easeInOut",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "defaultMinListHeaderHeight",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 25,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 4,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 83
+}

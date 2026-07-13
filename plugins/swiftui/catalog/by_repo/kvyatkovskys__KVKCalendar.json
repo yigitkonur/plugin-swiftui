@@ -1,0 +1,103 @@
+{
+ "repo": "kvyatkovskys/KVKCalendar",
+ "stars": 795,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "330086ba06c747c8ad15d332ef1094e91398af10",
+ "platform": "other",
+ "author_authority": 806,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "kvyatkovskys",
+   "score": 806,
+   "contributions": 788
+  },
+  {
+   "login": "rakuyoMo",
+   "score": 2697,
+   "contributions": 33
+  },
+  {
+   "login": "phuanggh",
+   "score": 205,
+   "contributions": 14
+  }
+ ],
+ "loc": 12819,
+ "custom_components": 14,
+ "imports": [
+  "EventKit",
+  "Foundation",
+  "KVKCalendar",
+  "KVKCalendarTests",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "navigationBarTitle",
+  "navigationViewStyle"
+ ],
+ "unique": {
+  "modifiers": [
+   "edgesIgnoringSafeArea",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "navigationBarTitle",
+   "navigationTitle",
+   "navigationViewStyle",
+   "onAppear",
+   "onReceive",
+   "padding",
+   "resizable"
+  ],
+  "types": [
+   "Button",
+   "EdgeInsets",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "NavigationStack",
+   "NavigationView",
+   "State",
+   "Text"
+  ],
+  "valueBuilders": [
+   "headline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "inline",
+   "red"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 11,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 30
+}

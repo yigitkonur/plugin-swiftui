@@ -1,0 +1,96 @@
+{
+ "repo": "sleetdrop/tetris",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "db379e1ed50ab35644a18a9c01ed62e8e3dbb175",
+ "platform": "macos",
+ "author_authority": 37,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "sleetdrop",
+   "score": 37,
+   "contributions": 2
+  }
+ ],
+ "loc": 837,
+ "custom_components": 23,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "border",
+   "buttonStyle",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "onAppear",
+   "opacity",
+   "padding",
+   "position",
+   "scaleEffect",
+   "stroke",
+   "weight",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Path",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "largeTitle",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 12,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 42
+}

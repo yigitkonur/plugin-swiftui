@@ -1,0 +1,126 @@
+{
+ "repo": "nunomen/maze-ball",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "dc73ec46a1312da3295bdbadeeed441ae93481cd",
+ "platform": "macos",
+ "author_authority": 21,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nunomen",
+   "score": 21,
+   "contributions": 3
+  }
+ ],
+ "loc": 2075,
+ "custom_components": 17,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "IOKit",
+  "PackageDescription",
+  "SpriteKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentTransition",
+   "environment",
+   "fill",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onDisappear",
+   "onKeyPress",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "easeOut",
+   "light",
+   "medium",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "bottomLeading",
+   "bottomTrailing",
+   "center",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "top",
+   "topLeading",
+   "topTrailing",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 15,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 69
+}

@@ -1,0 +1,176 @@
+{
+ "repo": "bryceco/GoMap",
+ "stars": 396,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fb5455aeae0c5911185d7ba1e0bbdcb248d5919d",
+ "platform": "other",
+ "author_authority": 645,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "bryceco",
+   "score": 645,
+   "contributions": 2788
+  },
+  {
+   "login": "wtimme",
+   "score": 95,
+   "contributions": 466
+  },
+  {
+   "login": "weblate",
+   "score": 0,
+   "contributions": 145
+  }
+ ],
+ "loc": 52996,
+ "custom_components": 13,
+ "imports": [
+  "AVFoundation",
+  "ActivityKit",
+  "AppIntents",
+  "Compression",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreLocation",
+  "CoreMotion",
+  "CoreText",
+  "Foundation",
+  "Go_Map__",
+  "HealthKit",
+  "ImageIO",
+  "KissXML",
+  "MapKit",
+  "MapLibre",
+  "MessageUI",
+  "Photos",
+  "QuartzCore",
+  "SQLite3",
+  "SafariServices",
+  "Security",
+  "Swift",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "Vision",
+  "VisionKit",
+  "WebKit",
+  "WidgetKit",
+  "XCTest",
+  "zlib"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "accentColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "aspectRatio",
+   "autocorrectionDisabled",
+   "background",
+   "bold",
+   "clipShape",
+   "contentTransition",
+   "disabled",
+   "dynamicTypeSize",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelStyle",
+   "lineLimit",
+   "listRowSeparator",
+   "minimumScaleFactor",
+   "multilineTextAlignment",
+   "navigationBarBackButtonHidden",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "truncationMode"
+  ],
+  "types": [
+   "BorderedButtonStyle",
+   "BorderedProminentButtonStyle",
+   "Button",
+   "Capsule",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "Picker",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "Spacer",
+   "State",
+   "StateObject",
+   "Text",
+   "TextField",
+   "TitleOnlyLabelStyle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "footnote",
+   "largeTitle",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "center",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "menu",
+   "none",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 22,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 80
+}

@@ -1,0 +1,54 @@
+{
+ "repo": "madejm/NKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4d123d0a66e19e6a4808d5919d015f64f33ac61e",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "madejm",
+   "score": 3,
+   "contributions": 5
+  }
+ ],
+ "loc": 3101,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "NKit",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "horizontal",
+   "vertical"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

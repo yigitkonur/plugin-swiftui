@@ -1,0 +1,143 @@
+{
+ "repo": "aidenybai/ghast",
+ "stars": 64,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f0a2809eb3676ccb27857179492a7fefef4f34f4",
+ "platform": "macos",
+ "author_authority": 95718,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "MarvinSchwaibold",
+   "score": 73,
+   "contributions": 8
+  },
+  {
+   "login": "aidenybai",
+   "score": 95718,
+   "contributions": 5
+  },
+  {
+   "login": "EstePrime",
+   "score": 38256,
+   "contributions": 1
+  }
+ ],
+ "loc": 2917,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipped",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "lineLimit",
+   "offset",
+   "onAppear",
+   "onChanged",
+   "onDisappear",
+   "onDrag",
+   "onDrop",
+   "onEnded",
+   "onExitCommand",
+   "onHover",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "scaleEffect",
+   "shadow",
+   "textFieldStyle",
+   "transition",
+   "truncationMode",
+   "zIndex"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "DragGesture",
+   "DropProposal",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "push",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 21,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 77
+}

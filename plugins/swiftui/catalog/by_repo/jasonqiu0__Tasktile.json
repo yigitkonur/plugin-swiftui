@@ -1,0 +1,146 @@
+{
+ "repo": "jasonqiu0/Tasktile",
+ "stars": 21,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "59bbd7c4ce21c3e8136004dbe4582a0678a46d16",
+ "platform": "macos",
+ "author_authority": 23,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jasonqiu0",
+   "score": 23,
+   "contributions": 45
+  }
+ ],
+ "loc": 1206,
+ "custom_components": 14,
+ "imports": [
+  "AppKit",
+  "CoreData",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "commands",
+   "datePickerStyle",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelsHidden",
+   "listRowSeparator",
+   "listStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "tint",
+   "toggleStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Binding",
+   "BorderedButtonStyle",
+   "Button",
+   "CheckboxToggleStyle",
+   "Circle",
+   "Color",
+   "ColorPicker",
+   "CommandGroup",
+   "DatePicker",
+   "DisclosureGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "GridItem",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "List",
+   "MenuPickerStyle",
+   "NSHostingController",
+   "NSHostingView",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "footnote",
+   "headline",
+   "medium"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "center",
+   "compact",
+   "default",
+   "gray",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "red",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "FetchRequest",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 35,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 89
+}

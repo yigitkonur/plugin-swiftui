@@ -1,0 +1,104 @@
+{
+ "repo": "zitterbewegung/Pulto3",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "034a8622b5306d5f51f9bc460e4d0b1df45d55b8",
+ "platform": "macos",
+ "author_authority": 995,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zitterbewegung",
+   "score": 995,
+   "contributions": 5
+  }
+ ],
+ "loc": 704,
+ "custom_components": 21,
+ "imports": [
+  "Charts",
+  "RealityKit",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "RotationGesture",
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "defaultSize",
+   "edgesIgnoringSafeArea",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "offset",
+   "onChanged",
+   "onEnded",
+   "opacity",
+   "padding",
+   "rotationEffect",
+   "simultaneousGesture",
+   "windowStyle",
+   "zIndex"
+  ],
+  "types": [
+   "BarMark",
+   "Button",
+   "Chart",
+   "DragGesture",
+   "ForEach",
+   "RotationGesture",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "headline",
+   "largeTitle"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "horizontal",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 11,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 46
+}

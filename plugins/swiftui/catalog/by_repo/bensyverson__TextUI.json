@@ -1,0 +1,49 @@
+{
+ "repo": "bensyverson/TextUI",
+ "stars": 14,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "53b3358ae6f6c87c7c9808a8173ee369a7cf03c2",
+ "platform": "other",
+ "author_authority": 81,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bensyverson",
+   "score": 81,
+   "contributions": 53
+  }
+ ],
+ "loc": 24459,
+ "custom_components": 0,
+ "imports": [
+  "Darwin",
+  "Foundation",
+  "Glibc",
+  "PackageDescription",
+  "Testing",
+  "TextUI"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

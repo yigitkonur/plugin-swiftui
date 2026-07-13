@@ -1,0 +1,58 @@
+{
+ "repo": "Bayer-Group/GeospatialSwift",
+ "stars": 9,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b943e765bed24bae83a63f1a1752b39ac1fe1713",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "schlingding",
+   "score": 0,
+   "contributions": 10
+  },
+  {
+   "login": "NickolaAndriiev",
+   "score": 0,
+   "contributions": 2
+  },
+  {
+   "login": "ahdpeeb",
+   "score": 1,
+   "contributions": 2
+  }
+ ],
+ "loc": 8302,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "GeospatialSwift",
+  "PackageDescription",
+  "XCTest",
+  "geos"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

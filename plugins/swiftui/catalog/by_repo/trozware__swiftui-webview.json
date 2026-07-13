@@ -1,0 +1,103 @@
+{
+ "repo": "trozware/swiftui-webview",
+ "stars": 26,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4c522160de201bc0a7e510449a7fee76c32fce6e",
+ "platform": "other",
+ "author_authority": 611,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "trozware",
+   "score": 611,
+   "contributions": 1
+  }
+ ],
+ "loc": 709,
+ "custom_components": 17,
+ "imports": [
+  "OSLog",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "autocorrectionDisabled",
+   "background",
+   "disabled",
+   "findNavigator",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "id",
+   "multilineTextAlignment",
+   "navigationSubtitle",
+   "navigationTitle",
+   "onAppear",
+   "onModifierKeysChanged",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "replaceDisabled",
+   "scrollBounceBehavior",
+   "tabViewStyle",
+   "task",
+   "textFieldStyle",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Label",
+   "Menu",
+   "Observations",
+   "ProgressView",
+   "ScrollPosition",
+   "ScrollView",
+   "Tab",
+   "TabView",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "ToolbarSpacer",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "horizontal",
+   "leading",
+   "purple",
+   "roundedBorder",
+   "sidebarAdaptable",
+   "topLeading",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 18,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 51
+}

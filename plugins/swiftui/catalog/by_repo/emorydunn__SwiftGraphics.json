@@ -1,0 +1,56 @@
+{
+ "repo": "emorydunn/SwiftGraphics",
+ "stars": 74,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4b6e89d02ae7cd5dec90aea754631d38245b20ef",
+ "platform": "macos",
+ "author_authority": 336,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "emorydunn",
+   "score": 336,
+   "contributions": 236
+  },
+  {
+   "login": "l-rettberg",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 6362,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CommonCrypto",
+  "CoreGraphics",
+  "Foundation",
+  "PackageDescription",
+  "SwiftGraphics",
+  "SwiftGraphicsTests",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

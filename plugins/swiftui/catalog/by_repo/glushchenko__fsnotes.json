@@ -1,0 +1,86 @@
+{
+ "repo": "glushchenko/fsnotes",
+ "stars": 7391,
+ "categories": [
+  "Note-taking"
+ ],
+ "sha": "9dfc4a10a2327aff8d5b80cc71d6f55cfddc290e",
+ "platform": "macos",
+ "author_authority": 7488,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "glushchenko",
+   "score": 7488,
+   "contributions": 2627
+  },
+  {
+   "login": "buddax2",
+   "score": 1262,
+   "contributions": 42
+  },
+  {
+   "login": "jeff-h",
+   "score": 20,
+   "contributions": 32
+  }
+ ],
+ "loc": 58183,
+ "custom_components": 0,
+ "imports": [
+  "AVKit",
+  "AppKit",
+  "AudioToolbox",
+  "Carbon",
+  "Cgit2",
+  "Cocoa",
+  "CommonCrypto",
+  "Compression",
+  "CoreData",
+  "CoreServices",
+  "CoreSpotlight",
+  "CropViewController",
+  "DropDown",
+  "Foundation",
+  "Git",
+  "LocalAuthentication",
+  "MASShortcut",
+  "MobileCoreServices",
+  "Photos",
+  "PhotosUI",
+  "Punycode",
+  "QuickLook",
+  "RNCryptor",
+  "SSZipArchive",
+  "Shout",
+  "Social",
+  "StoreKit",
+  "SwipeCellKit",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "libcmark_gfm"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

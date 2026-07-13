@@ -1,0 +1,51 @@
+{
+ "repo": "arietan/lite-edit",
+ "stars": 149,
+ "categories": [
+  "Text Editors"
+ ],
+ "sha": "0787bd0eaff0939b6a5513017f42068938275ab6",
+ "platform": "macos",
+ "author_authority": 176519,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "arietan",
+   "score": 176519,
+   "contributions": 29
+  },
+  {
+   "login": "jeanchristophe13v",
+   "score": 1418,
+   "contributions": 1
+  }
+ ],
+ "loc": 3310,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

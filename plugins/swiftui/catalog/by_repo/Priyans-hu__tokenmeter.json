@@ -1,0 +1,135 @@
+{
+ "repo": "Priyans-hu/tokenmeter",
+ "stars": 1,
+ "categories": [
+  "AI Tools"
+ ],
+ "sha": "e0883a30c68b3725f8b679c59253a88ba7196996",
+ "platform": "macos",
+ "author_authority": 297064,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Priyans-hu",
+   "score": 297064,
+   "contributions": 63
+  }
+ ],
+ "loc": 2026,
+ "custom_components": 26,
+ "imports": [
+  "Charts",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "Security",
+  "SwiftUI",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "chartXAxis",
+   "chartYAxis",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "onHover",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "transition"
+  ],
+  "types": [
+   "AxisGridLine",
+   "AxisMarks",
+   "AxisValueLabel",
+   "BarMark",
+   "Button",
+   "Chart",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "MenuBarExtra",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "SectorMark",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "caption2",
+   "easeInOut",
+   "headline",
+   "medium",
+   "semibold",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "center",
+   "gray",
+   "green",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "radioGroup",
+   "red",
+   "secondary",
+   "segmented",
+   "top",
+   "ultraThinMaterial",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 26,
+  "valueBuilders": 9,
+  "macros": 0,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 77
+}

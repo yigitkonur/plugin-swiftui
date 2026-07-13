@@ -1,0 +1,84 @@
+{
+ "repo": "hapticasensorics/1context",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a94b32019c0e174ccacf3705ee26477e91a36466",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "pauljunsukhan",
+   "score": 2,
+   "contributions": 12
+  },
+  {
+   "login": "jackieoliver",
+   "score": 2,
+   "contributions": 1
+  },
+  {
+   "login": "pizzacorruption",
+   "score": 2,
+   "contributions": 1
+  }
+ ],
+ "loc": 37993,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "ApplicationServices",
+  "CoreGraphics",
+  "CoreMedia",
+  "CoreServices",
+  "CryptoKit",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "OSLog",
+  "OneContextAgentRuntime",
+  "OneContextCapture",
+  "OneContextCore",
+  "OneContextInstall",
+  "OneContextLocalWeb",
+  "OneContextMemoryRuntime",
+  "OneContextPlatform",
+  "OneContextProtocol",
+  "OneContextSetup",
+  "OneContextSparkleUpdate",
+  "OneContextSupervisor",
+  "OneContextUpdate",
+  "OneContextWikiRuntime",
+  "PackageDescription",
+  "ScreenCaptureKit",
+  "Security",
+  "ServiceManagement",
+  "Sparkle",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

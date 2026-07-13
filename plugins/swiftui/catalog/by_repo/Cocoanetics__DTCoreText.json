@@ -1,0 +1,66 @@
+{
+ "repo": "Cocoanetics/DTCoreText",
+ "stars": 6393,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "092d2877951da356b03ca085bff622c57990285e",
+ "platform": "macos",
+ "author_authority": 379802,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "odrobnik",
+   "score": 389769,
+   "contributions": 2439
+  },
+  {
+   "login": "amro",
+   "score": 1159,
+   "contributions": 35
+  },
+  {
+   "login": "xuzhe",
+   "score": 67,
+   "contributions": 29
+  }
+ ],
+ "loc": 20420,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "CoreText",
+  "DTCoreText",
+  "Foundation",
+  "HTMLParser",
+  "ImageIO",
+  "PackageDescription",
+  "QuartzCore",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,137 @@
+{
+ "repo": "RobertoMachorro/Moped",
+ "stars": 110,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5b109e33c83d38456a787115ec49fc28ced2bebe",
+ "platform": "macos",
+ "author_authority": 48382,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "RobertoMachorro",
+   "score": 48382,
+   "contributions": 411
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 15
+  },
+  {
+   "login": "fossabot",
+   "score": 91680,
+   "contributions": 1
+  }
+ ],
+ "loc": 4119,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CoreText",
+  "Foundation",
+  "Highlightr",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "clipped",
+   "commands",
+   "disabled",
+   "focusedValue",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "listRowInsets",
+   "listStyle",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "resizable",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "DocumentGroup",
+   "EdgeInsets",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "NSHostingController",
+   "ObservedObject",
+   "Picker",
+   "ProgressView",
+   "Settings",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "automatic",
+   "borderless",
+   "bottom",
+   "center",
+   "horizontal",
+   "inset",
+   "leading",
+   "primary",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusedValue",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 23,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 71
+}

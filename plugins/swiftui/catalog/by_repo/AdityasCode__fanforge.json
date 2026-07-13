@@ -1,0 +1,148 @@
+{
+ "repo": "AdityasCode/fanforge",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4cf66d4d3ca8dbb3255aa03bfad7ef636a2c5b88",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "AdityasCode",
+   "score": 3,
+   "contributions": 2
+  }
+ ],
+ "loc": 2053,
+ "custom_components": 25,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "IOKit",
+  "Security",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentTransition",
+   "controlSize",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "redacted",
+   "sheet",
+   "strokeBorder",
+   "tag",
+   "task",
+   "toggleStyle",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "NavigationStack",
+   "Picker",
+   "ProgressView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Slider",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "caption2",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "borderless",
+   "center",
+   "firstTextBaseline",
+   "horizontal",
+   "leading",
+   "placeholder",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "switch",
+   "top",
+   "vertical",
+   "white",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 25,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 91
+}

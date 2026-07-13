@@ -1,0 +1,59 @@
+{
+ "repo": "21-DOT-DEV/websites",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e4a3919aec6cd97c455442bca0d532ee1f780f72",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "csjones",
+   "score": 0,
+   "contributions": 73
+  }
+ ],
+ "loc": 30776,
+ "custom_components": 0,
+ "imports": [
+  "ArgumentParser",
+  "DesignSystem",
+  "Foundation",
+  "FoundationNetworking",
+  "JavaScriptCore",
+  "Markdown",
+  "PackageDescription",
+  "SchemaLib",
+  "SiteIdentity",
+  "Slipstream",
+  "Subprocess",
+  "SwiftSoup",
+  "System",
+  "TestUtils",
+  "Testing",
+  "UtilLib"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

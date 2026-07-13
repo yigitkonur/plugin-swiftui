@@ -1,0 +1,6 @@
+interface:
+  display_name: "SwiftUI Review"
+  short_description: "Review SwiftUI changes against production usage"
+  default_prompt: "Use $swiftui-review to review my changed SwiftUI files."
+policy:
+  allow_implicit_invocation: false
