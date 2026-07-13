@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build:plugins": "node scripts/build-plugin-packages.mjs",
-    "pack:plugins": "npm run build:plugins && mkdir -p artifacts && npm pack ./dist/claude-swiftui-plugin --pack-destination artifacts && npm pack ./dist/codex-swiftui-plugin --pack-destination artifacts"
+    "pack:plugins": "npm run build:plugins && mkdir -p artifacts && npm pack ./dist/claude-swiftui-plugin --pack-destination artifacts && npm pack ./dist/codex-swiftui-plugin --pack-destination artifacts",
+    "test:plugins": "npm run build:plugins && node --test tests/plugin-packages.test.mjs tests/hook-deprecation-guard.test.mjs tests/launcher-concurrency.test.mjs tests/mcp-server.test.mjs"
   },
   "engines": {
     "node": ">=18"

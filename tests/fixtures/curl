@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+out=""
+while [ "$#" -gt 0 ]; do
+  if [ "$1" = "-o" ]; then
+    out="$2"
+    shift 2
+  else
+    shift
+  fi
+done
+[ -n "$out" ]
+sleep 0.2
+# Keep the .mjs target extension visible to Node after the launcher renames the
+# downloaded asset to its extensionless cache path.
+ln -s "$FAKE_SWIFTUI_BINARY" "$out"
+printf 'x' >> "$FAKE_CURL_COUNT"
