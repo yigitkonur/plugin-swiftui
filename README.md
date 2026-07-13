@@ -44,12 +44,33 @@ npm is required for marketplace installation. runtime catalog queries use the bu
 
 ### Codex CLI, app, and IDE
 
+After the `v1.4.0` packages are published, install from the Git marketplace:
+
 ```sh
 codex plugin marketplace add yigitkonur/claude-swiftui-plugin
 codex plugin add swiftui@swiftui-plugins
+codex plugin list --json
+codex mcp list --json
 ```
 
-start a new Codex thread after installation. review and trust the optional deprecation hook with `/hooks`; the hook remains advisory and never blocks an edit.
+Start a new Codex thread, then verify the explicit lookup workflow:
+
+```text
+$swiftui NavigationSplitView
+```
+
+Review and trust the optional deprecation hook with `/hooks`; the hook remains advisory and never blocks an edit.
+
+To test the Codex plugin directly from a source checkout before the npm release:
+
+```sh
+git clone https://github.com/yigitkonur/claude-swiftui-plugin
+cd claude-swiftui-plugin
+npm ci
+npm run build:codex-dev
+codex plugin marketplace add "$PWD/dist/codex-dev-marketplace"
+codex plugin add swiftui@swiftui-local
+```
 
 the cli (`swiftui-ctx`) auto-installs on first use — downloads a prebuilt universal binary, or builds from source if xcode is available. no manual paths or env setup needed.
 
