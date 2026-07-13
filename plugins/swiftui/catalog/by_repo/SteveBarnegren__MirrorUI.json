@@ -1,0 +1,100 @@
+{
+ "repo": "SteveBarnegren/MirrorUI",
+ "stars": 13,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5ca334db0c93b5fefc3c8dcaf753d397102109e8",
+ "platform": "other",
+ "author_authority": 1847,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "SteveBarnegren",
+   "score": 1847,
+   "contributions": 67
+  }
+ ],
+ "loc": 1909,
+ "custom_components": 10,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "MirrorUI",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "navigationBarHidden"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "fixedSize",
+   "focusSection",
+   "foregroundColor",
+   "frame",
+   "italic",
+   "navigationBarHidden",
+   "navigationTitle",
+   "padding",
+   "pickerStyle",
+   "tag"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "ColorPicker",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "MenuPickerStyle",
+   "NSHostingView",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "clear"
+  ],
+  "macros": [],
+  "styleValues": [
+   "gray",
+   "leading",
+   "none",
+   "primary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 11,
+  "types": 20,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 39
+}

@@ -1,0 +1,136 @@
+{
+ "repo": "elf0-fr/QuickLookAdventure",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "64d1a743e17091795feadfc8e32be16be3e23c4e",
+ "platform": "macos",
+ "author_authority": 4,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "elf0-fr",
+   "score": 4,
+   "contributions": 23
+  }
+ ],
+ "loc": 1717,
+ "custom_components": 38,
+ "imports": [
+  "CoreTransferable",
+  "Foundation",
+  "OSLog",
+  "QuickLook",
+  "QuickLookAdventure_iOS",
+  "QuickLookAdventure_macOS",
+  "QuickLookThumbnailing",
+  "QuickLookUI",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "border",
+   "clipShape",
+   "contextMenu",
+   "draggable",
+   "dropDestination",
+   "environment",
+   "fixedSize",
+   "focusEffectDisabled",
+   "focusable",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelStyle",
+   "lineLimit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onKeyPress",
+   "onLongPressGesture",
+   "onModifierKeysChanged",
+   "onTapGesture",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "NavigationStack",
+   "Path",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeInOut",
+   "linear",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "horizontal",
+   "tertiary",
+   "titleAndIcon",
+   "top",
+   "topTrailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 21,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 75
+}

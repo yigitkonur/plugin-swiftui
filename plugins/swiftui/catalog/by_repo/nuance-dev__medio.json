@@ -1,0 +1,119 @@
+{
+ "repo": "nuance-dev/medio",
+ "stars": 225,
+ "categories": [
+  "Developer Utilities"
+ ],
+ "sha": "7de49a508e33162f2c562870bf287b84def188ec",
+ "platform": "macos",
+ "author_authority": 77253,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nuance-dev",
+   "score": 77253,
+   "contributions": 66
+  }
+ ],
+ "loc": 1808,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Differ",
+  "Foundation",
+  "Medio",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "commands",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "onAppear",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "scaleEffect",
+   "sheet",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "NSHostingView",
+   "PlainButtonStyle",
+   "ProgressView",
+   "ScrollView",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "light",
+   "regular",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "clear",
+   "green",
+   "horizontal",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 16,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 62
+}

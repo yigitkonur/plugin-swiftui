@@ -1,0 +1,133 @@
+{
+ "repo": "marwanhawari/LeetBar",
+ "stars": 62,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a9414a71704581001b3f074165a1c8890d46732d",
+ "platform": "macos",
+ "author_authority": 546,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "marwanhawari",
+   "score": 546,
+   "contributions": 17
+  },
+  {
+   "login": "juanj",
+   "score": 67,
+   "contributions": 1
+  }
+ ],
+ "loc": 1390,
+ "custom_components": 34,
+ "imports": [
+  "Foundation",
+  "LeetBar",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "minimumScaleFactor",
+   "offset",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "redacted",
+   "strokeBorder",
+   "task",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "Group",
+   "HStack",
+   "Label",
+   "NSHostingController",
+   "NSHostingView",
+   "Observable",
+   "Path",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Settings",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "degrees",
+   "headline",
+   "largeTitle",
+   "light",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "borderedProminent",
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "placeholder",
+   "primary",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 22,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 70
+}

@@ -1,0 +1,59 @@
+{
+ "repo": "cii0000/Shikisen",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "41ea6ed1080c0e72101ffc07615bd2a067231a77",
+ "platform": "other",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "cii0000",
+   "score": 1,
+   "contributions": 307
+  }
+ ],
+ "loc": 86486,
+ "custom_components": 0,
+ "imports": [
+  "AVFAudio",
+  "AVFoundation",
+  "Accelerate",
+  "Carbon",
+  "ComplexModule",
+  "CoreFoundation",
+  "CoreImage",
+  "CoreText",
+  "Dispatch",
+  "Foundation",
+  "MetalKit",
+  "MetalPerformanceShaders",
+  "RealModule",
+  "SwiftProtobuf",
+  "UniformTypeIdentifiers",
+  "VideoToolbox"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

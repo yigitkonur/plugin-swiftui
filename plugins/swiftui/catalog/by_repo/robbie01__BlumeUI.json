@@ -1,0 +1,106 @@
+{
+ "repo": "robbie01/BlumeUI",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "515e16e640739a68621ea9b2e13d6180a184f796",
+ "platform": "other",
+ "author_authority": 10934,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "robbie01",
+   "score": 10934,
+   "contributions": 1
+  }
+ ],
+ "loc": 438,
+ "custom_components": 10,
+ "imports": [
+  "BlumeUI",
+  "GRDB",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "border",
+   "buttonStyle",
+   "commands",
+   "defaultLaunchBehavior",
+   "environment",
+   "fileImporter",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Picker",
+   "ScrollView",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextEditor",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "headline",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "leading",
+   "secondary",
+   "topLeading"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 17,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 49
+}

@@ -1,0 +1,55 @@
+{
+ "repo": "adamwulf/hunch",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cc41ce731b86fbb67bb7633c39d104903e9fcef3",
+ "platform": "other",
+ "author_authority": 8429,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adamwulf",
+   "score": 8429,
+   "contributions": 316
+  }
+ ],
+ "loc": 11832,
+ "custom_components": 0,
+ "imports": [
+  "ArgumentParser",
+  "CryptoKit",
+  "Foundation",
+  "HunchKit",
+  "Logfmt",
+  "OSLog",
+  "PackageDescription",
+  "SwiftToolbox",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "YouTubeTranscriptKit",
+  "hunch"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

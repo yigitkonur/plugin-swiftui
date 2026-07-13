@@ -1,0 +1,105 @@
+{
+ "repo": "TopScrech/Ram-Usage",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8b300862dab9cc5a393449970ce27f58012a97a2",
+ "platform": "other",
+ "author_authority": 9012,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "TopScrech",
+   "score": 9012,
+   "contributions": 131
+  }
+ ],
+ "loc": 1191,
+ "custom_components": 20,
+ "imports": [
+  "AppIntents",
+  "Foundation",
+  "LaunchAtLogin",
+  "OSLog",
+  "SafariCover",
+  "ScrechKit",
+  "SwiftUI",
+  "SystemKit",
+  "Testing",
+  "WidgetKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "containerBackground",
+   "environment",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "listStyle",
+   "monospacedDigit",
+   "navigationSubtitle",
+   "navigationTitle",
+   "offset",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "scrollIndicators",
+   "task"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationStack",
+   "ProgressView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption2",
+   "footnote",
+   "largeTitle",
+   "secondary",
+   "semibold",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "fill",
+   "grouped",
+   "leading",
+   "plain",
+   "top",
+   "ultraThickMaterial",
+   "ultraThinMaterial"
+  ],
+  "propertyWrappers": [
+   "Environment"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 11,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 46
+}

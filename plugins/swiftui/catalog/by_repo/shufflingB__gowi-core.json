@@ -1,0 +1,151 @@
+{
+ "repo": "shufflingB/gowi-core",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ed77412642ae4f4fed679cf86da262c088e26539",
+ "platform": "macos",
+ "author_authority": 119,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shufflingB",
+   "score": 119,
+   "contributions": 139
+  }
+ ],
+ "loc": 9937,
+ "custom_components": 42,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CoreData",
+  "Darwin",
+  "Foundation",
+  "Gowi",
+  "GowiAppModel",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "background",
+   "border",
+   "commands",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fixedSize",
+   "focused",
+   "focusedValue",
+   "font",
+   "foregroundColor",
+   "frame",
+   "handlesExternalEvents",
+   "help",
+   "keyboardShortcut",
+   "navigationSubtitle",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onOpenURL",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "searchable",
+   "shadow",
+   "stroke",
+   "toolbar",
+   "zIndex"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "CommandMenu",
+   "DatePicker",
+   "FetchRequest",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "KeyboardShortcut",
+   "Label",
+   "Layout",
+   "List",
+   "RoundedRectangle",
+   "Section",
+   "SidebarCommands",
+   "Spacer",
+   "State",
+   "Text",
+   "TextEditingCommands",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "ToolbarCommands",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "background",
+   "bottom",
+   "default",
+   "horizontal",
+   "leading"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FetchRequest",
+   "FocusState",
+   "FocusedValue",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "SceneStorage",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "managedObjectContext",
+   "openWindow",
+   "undoManager"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 29,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 11,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 88
+}

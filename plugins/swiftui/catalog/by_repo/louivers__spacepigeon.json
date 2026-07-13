@@ -1,0 +1,126 @@
+{
+ "repo": "louivers/spacepigeon",
+ "stars": 85,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1e6011148279b6d04eb224367042691142bf7647",
+ "platform": "macos",
+ "author_authority": 85,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "louivers",
+   "score": 85,
+   "contributions": 25
+  }
+ ],
+ "loc": 1208,
+ "custom_components": 14,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelsHidden",
+   "multilineTextAlignment",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "stroke",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HSplitView",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Stepper",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "medium",
+   "subheadline",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "bottom",
+   "center",
+   "checkbox",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 21,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 70
+}

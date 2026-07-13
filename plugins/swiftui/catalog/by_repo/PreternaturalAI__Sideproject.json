@@ -1,0 +1,108 @@
+{
+ "repo": "PreternaturalAI/Sideproject",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4dd5fce580d7d30fad3c892fc3103684480b4c41",
+ "platform": "other",
+ "author_authority": 5618,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "vmanot",
+   "score": 8871,
+   "contributions": 38
+  },
+  {
+   "login": "NatashaTheRobot",
+   "score": 2842,
+   "contributions": 16
+  },
+  {
+   "login": "Archetapp",
+   "score": 566,
+   "contributions": 6
+  }
+ ],
+ "loc": 6026,
+ "custom_components": 8,
+ "imports": [
+  "AI",
+  "Accelerate",
+  "Anthropic",
+  "Cataphyl",
+  "ChatKit",
+  "CompilerPluginSupport",
+  "CoreMI",
+  "CorePersistence",
+  "Diagnostics",
+  "Foundation",
+  "FoundationX",
+  "HuggingFace",
+  "LargeLanguageModels",
+  "Merge",
+  "Mistral",
+  "Ollama",
+  "OpenAI",
+  "PDFKit",
+  "PackageDescription",
+  "Runtime",
+  "Sideproject",
+  "SideprojectCore",
+  "Swallow",
+  "SwallowMacrosClient",
+  "Swift",
+  "SwiftCompilerPlugin",
+  "SwiftSyntaxMacros",
+  "SwiftUI",
+  "SwiftUIX",
+  "SwiftUIZ",
+  "UniformTypeIdentifiers",
+  "XCTest",
+  "_USearchObjective"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "contentShape",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "opacity",
+   "padding"
+  ],
+  "types": [
+   "Image",
+   "List",
+   "NavigationSplitView",
+   "Text",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "horizontal",
+   "white"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 5,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 17
+}

@@ -1,0 +1,76 @@
+{
+ "repo": "RaphyTwin/Sharecord",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "432c753e72087ca4dd32d6039fe9575a3b525254",
+ "platform": "macos",
+ "author_authority": 25,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "RaphyTwin",
+   "score": 25,
+   "contributions": 178
+  }
+ ],
+ "loc": 308,
+ "custom_components": 12,
+ "imports": [
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "SettingsAccess",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "frame",
+   "keyboardShortcut",
+   "padding",
+   "tabItem",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "Group",
+   "Label",
+   "MenuBarExtra",
+   "Settings",
+   "SettingsLink",
+   "TabView",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "leading"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 11,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 1,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 20
+}

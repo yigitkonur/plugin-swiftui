@@ -1,0 +1,21 @@
+# pg-12 (structural): an `if #available(iOS …)` block whose body uses a pointer modifier, inside a macOS
+# target = wrong availability arm (hard-fail). The grep tier catches the bare `#available(iOS` string only
+# under pg-07's floor check; this structural form proves the GATE SCOPE actually wraps a pointer modifier
+# (not just that the string appears). Gate on #available(macOS NN, *). fix_mode: auto.
+id: pg-12-ios-arm-gates-pointer
+language: Swift
+severity: error
+message: >-
+  pg-12: an `if #available(iOS …)` block guards a pointer modifier (pointerStyle / onContinuousHover) in a
+  macOS target (wrong availability arm). Gate on #available(macOS 15, *) / #available(macOS 14, *).
+  fix_mode: auto. READ to confirm the body uses the pointer modifier.
+rule:
+  kind: if_statement
+  all:
+    - has:
+        field: condition
+        kind: availability_condition
+        regex: 'iOS'
+    - has:
+        stopBy: end
+        regex: 'pointerStyle|onContinuousHover'

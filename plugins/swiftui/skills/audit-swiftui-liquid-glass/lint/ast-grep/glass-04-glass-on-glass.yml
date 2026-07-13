@@ -1,0 +1,11 @@
+# glass-04 (structural): glass-on-glass — a .glassEffect() applied to a receiver that already carries a
+# .glassEffect(). Glass cannot sample glass. grep counts occurrences per file but cannot see the nesting;
+# this catches the directly-chained / nested form structurally.
+id: glass-04-glass-on-glass
+language: Swift
+severity: warning
+message: >-
+  glass-04: a .glassEffect() is chained onto a receiver that already has .glassEffect() (glass-on-glass).
+  Glass can't sample glass — collapse to ONE glass layer over plain content. READ to confirm.
+rule:
+  pattern: $INNER.glassEffect($$$A).glassEffect($$$B)

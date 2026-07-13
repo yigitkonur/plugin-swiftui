@@ -1,0 +1,96 @@
+{
+ "repo": "AppHouseKitchen/AlDente-Battery_Care_and_Monitoring",
+ "stars": 9058,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "9136e85d111d73d7c8680d379a91780dabb906e2",
+ "platform": "macos",
+ "author_authority": 8497,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "MatthiasKerbl",
+   "score": 9059,
+   "contributions": 106
+  },
+  {
+   "login": "davidwernhart",
+   "score": 6,
+   "contributions": 6
+  },
+  {
+   "login": "alfonsocartes",
+   "score": 32,
+   "contributions": 1
+  }
+ ],
+ "loc": 1715,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "IOKit",
+  "LaunchAtLogin",
+  "ServiceManagement",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "frame",
+   "multilineTextAlignment",
+   "padding",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "HStack",
+   "NSHostingController",
+   "PlainButtonStyle",
+   "RoundedBorderTextFieldStyle",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "horizontal",
+   "leading",
+   "top"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 29
+}

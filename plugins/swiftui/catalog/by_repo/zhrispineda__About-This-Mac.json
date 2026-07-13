@@ -1,0 +1,106 @@
+{
+ "repo": "zhrispineda/About-This-Mac",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bd4b0bd793eb4ed395d4cba3f34fb50953bc65e5",
+ "platform": "macos",
+ "author_authority": 23063,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zhrispineda",
+   "score": 23063,
+   "contributions": 10
+  }
+ ],
+ "loc": 424,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "containerBackground",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "handlesExternalEvents",
+   "help",
+   "monospaced",
+   "multilineTextAlignment",
+   "offset",
+   "onOpenURL",
+   "onReceive",
+   "opacity",
+   "resizable",
+   "scaledToFit",
+   "textSelection",
+   "tint",
+   "toolbar",
+   "toolbarBackground",
+   "underline",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Group",
+   "HStack",
+   "Image",
+   "Link",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "center",
+   "hidden",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "ultraThinMaterial",
+   "window"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 11,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

@@ -1,0 +1,100 @@
+{
+ "repo": "seiyab/tobi",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "03a1481ec264f3bc4bb7d8aad99dbdae39ded1e1",
+ "platform": "macos",
+ "author_authority": 206352,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "seiyab",
+   "score": 206352,
+   "contributions": 2
+  }
+ ],
+ "loc": 402,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "KeyboardShortcuts",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "tobi"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "aspectRatio",
+   "background",
+   "clipShape",
+   "cornerRadius",
+   "environmentObject",
+   "focused",
+   "frame",
+   "lineLimit",
+   "onAppear",
+   "onReceive",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "resizable",
+   "textFieldStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "MenuBarExtra",
+   "NSHostingView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "clear",
+   "hidden",
+   "leading",
+   "roundedBorder",
+   "ultraThinMaterial"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 14,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 44
+}

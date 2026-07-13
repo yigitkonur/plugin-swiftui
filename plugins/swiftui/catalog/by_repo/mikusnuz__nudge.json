@@ -1,0 +1,52 @@
+{
+ "repo": "mikusnuz/nudge",
+ "stars": 14,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "1da2890965b73299a2b0344231c4945ac74f6d0f",
+ "platform": "other",
+ "author_authority": 295710,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mikusnuz",
+   "score": 295710,
+   "contributions": 68
+  }
+ ],
+ "loc": 2298,
+ "custom_components": 0,
+ "imports": [
+  "ApplicationServices",
+  "Carbon",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "Nudge",
+  "ServiceManagement",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

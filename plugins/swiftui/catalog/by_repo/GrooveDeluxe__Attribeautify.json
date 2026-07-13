@@ -1,0 +1,46 @@
+{
+ "repo": "GrooveDeluxe/Attribeautify",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a22e055ba74dea95a6a15b131353736f16a3185e",
+ "platform": "other",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "GrooveDeluxe",
+   "score": 11,
+   "contributions": 10
+  }
+ ],
+ "loc": 1320,
+ "custom_components": 0,
+ "imports": [
+  "Attribeautify",
+  "PackageDescription",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

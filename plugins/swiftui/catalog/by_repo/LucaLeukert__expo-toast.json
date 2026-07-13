@@ -1,0 +1,103 @@
+{
+ "repo": "LucaLeukert/expo-toast",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "efeebb820cfc5fc7334a948a40bc69dc28286e35",
+ "platform": "other",
+ "author_authority": 63914,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LucaLeukert",
+   "score": 63914,
+   "contributions": 24
+  }
+ ],
+ "loc": 1778,
+ "custom_components": 7,
+ "imports": [
+  "Expo",
+  "ExpoModulesCore",
+  "Foundation",
+  "React",
+  "ReactAppDependencyProvider",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "animation",
+   "background",
+   "buttonStyle",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "layoutPriority",
+   "lineLimit",
+   "onAppear",
+   "opacity",
+   "padding",
+   "scaleEffect",
+   "tint",
+   "truncationMode",
+   "weight"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "Capsule",
+   "Circle",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "medium",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "clear",
+   "horizontal",
+   "identity",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "soft",
+   "ultraThinMaterial",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 9,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

@@ -1,0 +1,79 @@
+{
+ "repo": "mssun/passforios",
+ "stars": 1630,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "53ae6426bd0a1a8694f052edcdd9795fcfc005ad",
+ "platform": "other",
+ "author_authority": 21829,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mssun",
+   "score": 1947,
+   "contributions": 865
+  },
+  {
+   "login": "SimplyDanny",
+   "score": 100278,
+   "contributions": 320
+  },
+  {
+   "login": "yishilin14",
+   "score": 132,
+   "contributions": 285
+  }
+ ],
+ "loc": 12789,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AuthenticationServices",
+  "Base32",
+  "CoreData",
+  "CryptoTokenKit",
+  "FavIcon",
+  "Foundation",
+  "Gopenpgp",
+  "Intents",
+  "KeychainAccess",
+  "LocalAuthentication",
+  "MessageUI",
+  "MobileCoreServices",
+  "ObjectiveGit",
+  "ObjectivePGP",
+  "OneTimePassword",
+  "Pass",
+  "SVProgressHUD",
+  "SafariServices",
+  "SwiftyUserDefaults",
+  "UIKit",
+  "UserNotifications",
+  "XCTest",
+  "YubiKit",
+  "passAutoFillExtension",
+  "passKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

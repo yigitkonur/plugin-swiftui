@@ -1,0 +1,135 @@
+{
+ "repo": "Lucas-P0ntes/GuaraSDUI",
+ "stars": 8,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9a32d6a1685e2a204ce2aefb28976c81670b7998",
+ "platform": "other",
+ "author_authority": 15,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Lucas-P0ntes",
+   "score": 15,
+   "contributions": 7
+  }
+ ],
+ "loc": 4532,
+ "custom_components": 52,
+ "imports": [
+  "Foundation",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "accessibilityValue",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipped",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "navigationTitle",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "simultaneousGesture",
+   "stroke",
+   "textContentType"
+  ],
+  "types": [
+   "AnyView",
+   "AsyncImage",
+   "Binding",
+   "Button",
+   "CircularProgressViewStyle",
+   "Color",
+   "DragGesture",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "Group",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "NavigationStack",
+   "PlainButtonStyle",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "SecureField",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "medium",
+   "regular",
+   "semibold",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "clear",
+   "default",
+   "fill",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 28,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 81
+}

@@ -1,0 +1,43 @@
+{
+  "name": "swiftui",
+  "version": "1.4.0",
+  "description": "Production-grounded SwiftUI lookup, review, modernization, and macOS audit workflows backed by a corpus of 1,857 shipping apps.",
+  "author": {
+    "name": "yigitkonur",
+    "url": "https://github.com/yigitkonur"
+  },
+  "homepage": "https://github.com/yigitkonur/claude-swiftui-plugin",
+  "repository": "https://github.com/yigitkonur/claude-swiftui-plugin",
+  "license": "MIT",
+  "keywords": [
+    "swiftui",
+    "macos",
+    "swift",
+    "code-examples",
+    "audit",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SwiftUI Production Intelligence",
+    "shortDescription": "Production SwiftUI patterns and audits for macOS",
+    "longDescription": "Look up real SwiftUI usage, review and modernize code, and run evidence-backed macOS audits using a catalog built from 1,857 shipping applications.",
+    "developerName": "yigitkonur",
+    "category": "Developer Tools",
+    "capabilities": [
+      "SwiftUI lookup",
+      "Code review",
+      "macOS audits",
+      "Deprecation guard",
+      "MCP tools"
+    ],
+    "websiteURL": "https://github.com/yigitkonur/claude-swiftui-plugin",
+    "defaultPrompt": [
+      "Use $swiftui to show how production apps use NavigationSplitView.",
+      "Use $swiftui-review to review my changed SwiftUI files.",
+      "Use $swiftui-audit to audit this macOS app."
+    ],
+    "brandColor": "#F05138"
+  }
+}

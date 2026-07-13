@@ -1,0 +1,20 @@
+# cf-02 (structural): a custom View struct (parsed as a class_declaration in tree-sitter-swift) that uses a
+# focus-taking control (TextField/SecureField/TextEditor, or a half-wired focusable/FocusState/focused) but
+# has NONE of .focusable()/@FocusState/.focused — so it is skipped by Tab and shows no focus ring on macOS.
+# grep can confirm the wiring exists somewhere in a file but cannot prove the absence is INSIDE the SAME
+# View that takes focus; this anchors on the class_declaration node, requires it conforms to View and uses a
+# focus-taking control, and asserts the View's subtree carries none of the focus wiring. READ to confirm the
+# control should genuinely take keyboard focus (a read-only/disabled field may not) — the engine only LOCATES.
+id: cf-02-custom-view-not-focusable
+language: Swift
+severity: warning
+message: >-
+  cf-02: a custom View uses a focus-taking control but has no .focusable()/@FocusState/.focused — it is
+  skipped by Tab and shows no focus ring on macOS. Wire .focusable() + @FocusState + .focused($_) (all macOS
+  12.0+). READ to confirm the control should take keyboard focus; cross_ref accessibility for VoiceOver focus.
+rule:
+  kind: class_declaration
+  all:
+    - has: { kind: inheritance_specifier, stopBy: end, regex: 'View' }
+    - has: { stopBy: end, regex: 'TextField|SecureField|TextEditor' }
+    - not: { has: { stopBy: end, regex: 'focusable|FocusState|focused' } }

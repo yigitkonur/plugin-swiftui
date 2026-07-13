@@ -1,0 +1,27 @@
+# sw-06 (structural): an openWindow(...) / openSettings(...) call that is INSIDE a MenuBarExtra { ... }
+# closure. From a menu-bar app with no front window (typically .accessory / LSUIElement), the window
+# opens behind everything or the app never activates — a SILENT runtime failure the diff hides. The
+# fix needs explicit activation, and even NSApp.activate()+openSettings() FAILS for .accessory apps on
+# macOS 26 (the hidden-Window + .regular-policy workaround is required, still a hack). grep CANNOT
+# express "X inside a MenuBarExtra closure" — this is the canonical tier-2 containment rule, kind-anchored
+# on call_expression so ast-grep's validator accepts it. READ the file: confirm the call is in the closure
+# and check the activation policy (sw-06 is worst for an .accessory menu-bar-only app). fix_mode: flag-only.
+id: sw-06-activation-trap-in-menubarextra
+language: Swift
+severity: error
+message: >-
+  sw-06: an openWindow()/openSettings() call is INSIDE a MenuBarExtra closure. Without explicit
+  NSApp.activate() the window opens behind / nothing appears; and even with it, an .accessory app on
+  macOS 26 needs the hidden-Window + .regular-policy workaround. READ the file + the activation policy.
+  Report it as an OPEN platform gap (verify against Xcode 26 SDK), never as a closed bug. fix_mode: flag-only.
+rule:
+  any:
+    - pattern: openSettings($$$ARGS)
+    - pattern: openWindow($$$ARGS)
+  inside:
+    kind: call_expression
+    stopBy: end
+    has:
+      kind: simple_identifier
+      regex: '^MenuBarExtra$'
+      stopBy: end

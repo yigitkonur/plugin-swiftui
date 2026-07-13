@@ -1,0 +1,108 @@
+{
+ "repo": "Aayush9029/Crisp",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5ad57a78f40d1c5582bb0aaa26f9157d5eae217b",
+ "platform": "macos",
+ "author_authority": 13633,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Aayush9029",
+   "score": 13633,
+   "contributions": 2
+  }
+ ],
+ "loc": 639,
+ "custom_components": 17,
+ "imports": [
+  "AppKit",
+  "CoreAudio",
+  "Observation",
+  "ServiceManagement",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onTapGesture",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "underline"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "center",
+   "regular",
+   "subheadline",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "clear",
+   "green",
+   "hidden",
+   "horizontal",
+   "menu",
+   "orange",
+   "plain",
+   "secondary",
+   "tertiary",
+   "trailing",
+   "ultraThinMaterial"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 15,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 53
+}

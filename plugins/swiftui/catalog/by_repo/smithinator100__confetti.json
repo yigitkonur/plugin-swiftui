@@ -1,0 +1,121 @@
+{
+ "repo": "smithinator100/confetti",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "78bea2dc7cb8ffa9dafaee9e2f60fd693ec1e684",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "smithinator100",
+   "score": 0,
+   "contributions": 7
+  }
+ ],
+ "loc": 2720,
+ "custom_components": 21,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "ConfettiPrototype",
+  "CoreGraphics",
+  "Foundation",
+  "QuartzCore",
+  "SwiftUI",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityElement",
+   "accessibilityIdentifier",
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "defaultSize",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "kerning",
+   "offset",
+   "opacity",
+   "overlay",
+   "padding",
+   "scaleEffect",
+   "stroke",
+   "tint",
+   "toggleStyle",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CheckboxToggleStyle",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeOut",
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "firstTextBaseline",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "linear",
+   "plain",
+   "top",
+   "topLeading",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 18,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 61
+}

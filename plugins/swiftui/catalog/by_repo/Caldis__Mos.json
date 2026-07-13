@@ -1,0 +1,67 @@
+{
+ "repo": "Caldis/Mos",
+ "stars": 20436,
+ "categories": [
+  "Productivity"
+ ],
+ "sha": "31d591cf93b86939e517928d4bd5db288ca63f5d",
+ "platform": "macos",
+ "author_authority": 48024,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Caldis",
+   "score": 48024,
+   "contributions": 679
+  },
+  {
+   "login": "mclvren",
+   "score": 4,
+   "contributions": 13
+  },
+  {
+   "login": "lima0",
+   "score": 2,
+   "contributions": 5
+  }
+ ],
+ "loc": 32306,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Charts",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "IOKit",
+  "LoginServiceKit",
+  "Mos_Debug",
+  "ServiceManagement",
+  "Sparkle",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [
+   "clear"
+  ],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 1
+}

@@ -1,0 +1,80 @@
+{
+ "repo": "devbuddymtl/EWTY",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a629efc4e07d45642e27db773db69a0b9e646194",
+ "platform": "macos",
+ "author_authority": 62224,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "chrisgoddard",
+   "score": 62224,
+   "contributions": 1
+  }
+ ],
+ "loc": 169,
+ "custom_components": 4,
+ "imports": [
+  "CoreGraphics",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "padding",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading",
+   "secondary",
+   "switch",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 10,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 29
+}

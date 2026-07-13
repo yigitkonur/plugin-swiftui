@@ -1,0 +1,153 @@
+{
+ "repo": "DeveloperMaris/ToolReleases",
+ "stars": 291,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91b404c66953a1fc0d5dc23db454b68af4f93bb7",
+ "platform": "macos",
+ "author_authority": 296,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "DeveloperMaris",
+   "score": 296,
+   "contributions": 155
+  },
+  {
+   "login": "maris-lagzdins-testdevlab",
+   "score": 0,
+   "contributions": 7
+  },
+  {
+   "login": "kaidonato",
+   "score": 1,
+   "contributions": 1
+  }
+ ],
+ "loc": 3567,
+ "custom_components": 41,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "FeedKit",
+  "Foundation",
+  "Sparkle",
+  "SwiftUI",
+  "ToolReleases",
+  "ToolReleasesCore",
+  "UserNotifications",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "borderlessButton",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "imageScale",
+   "italic",
+   "labelStyle",
+   "labelsHidden",
+   "lineLimit",
+   "menuIndicator",
+   "menuStyle",
+   "onAppear",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "textFieldStyle",
+   "toggleStyle",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "List",
+   "Menu",
+   "NSHostingController",
+   "NSHostingView",
+   "ObservedObject",
+   "Picker",
+   "ProgressView",
+   "Section",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "footnote",
+   "headline",
+   "light",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "borderlessButton",
+   "circular",
+   "default",
+   "hidden",
+   "horizontal",
+   "iconOnly",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "switch",
+   "topTrailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 26,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 81
+}

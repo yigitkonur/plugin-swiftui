@@ -1,0 +1,29 @@
+# vperf-01 (structural): a heavyweight constructor (DateFormatter/NumberFormatter/JSONDecoder/
+# JSONEncoder/ISO8601DateFormatter) called INSIDE a computed `some View` property (`body` or any
+# computed view prop). `body` runs on every dependency change, so allocating a formatter there is paid
+# on every render. WHY tier-2: grep sees `DateFormatter(` but CANNOT tell a constructor lexically
+# inside `body { … }` from a correctly-hoisted `private static let df = DateFormatter()` at type scope —
+# the former is the defect, the latter is the FIX. This rule anchors on `property_declaration` with an
+# `opaque_type` of `View` + a `computed_property` value that CONTAINS the formatter call. READ to confirm
+# it's truly re-run per render (hoist to `static let`, or use `Text(_:format:)`). The engine only LOCATES.
+id: vperf-01-formatter-in-body
+language: Swift
+severity: warning
+message: >-
+  vperf-01: a DateFormatter/NumberFormatter/JSONDecoder is constructed INSIDE a computed `some View`
+  property (body). body re-runs on every render → a fresh formatter each time. Hoist to a `static let`,
+  or use Text(_:format:) (macOS 12.0+ for FormatOutput == String / macOS 15.0+ for AttributedString).
+  READ to confirm it is re-run per render.
+rule:
+  kind: property_declaration
+  all:
+    - has:
+        kind: type_annotation
+        has: { kind: opaque_type, regex: 'View' }
+    - has:
+        field: computed_value
+        kind: computed_property
+        has:
+          stopBy: end
+          kind: call_expression
+          regex: 'DateFormatter\(|NumberFormatter\(|JSONDecoder\(|JSONEncoder\(|ISO8601DateFormatter\(|RelativeDateTimeFormatter\('

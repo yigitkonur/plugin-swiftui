@@ -1,0 +1,49 @@
+{
+ "repo": "pujiaxin33/OnePiece",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "47d9a55ecd471377c96017e9e99c6ecf2789a30d",
+ "platform": "other",
+ "author_authority": 14768,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "pujiaxin33",
+   "score": 14768,
+   "contributions": 26
+  }
+ ],
+ "loc": 3024,
+ "custom_components": 0,
+ "imports": [
+  "CommonCrypto",
+  "Foundation",
+  "OnePiece",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

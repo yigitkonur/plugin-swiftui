@@ -1,0 +1,131 @@
+{
+ "repo": "shotastage/LogicBasics",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "97174489083c4382dc3cda1754788a2e4a1850a2",
+ "platform": "macos",
+ "author_authority": 18,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shotastage",
+   "score": 18,
+   "contributions": 34
+  }
+ ],
+ "loc": 876,
+ "custom_components": 33,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "DataLogic",
+  "Engine",
+  "Foundation",
+  "LogicBasics",
+  "PackageDescription",
+  "SwiftData",
+  "SwiftUI",
+  "TensorlEngine",
+  "Testing",
+  "WindowManagement",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "environment",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "stroke",
+   "task",
+   "toolbar",
+   "transition",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "CommandGroup",
+   "ForEach",
+   "GridItem",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "LazyVGrid",
+   "PlainButtonStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "black",
+   "blue",
+   "center",
+   "default",
+   "hiddenTitleBar",
+   "horizontal",
+   "red",
+   "regularMaterial",
+   "top",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "controlSize"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 21,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 64
+}

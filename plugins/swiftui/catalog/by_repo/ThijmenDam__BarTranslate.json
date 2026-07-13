@@ -1,0 +1,116 @@
+{
+ "repo": "ThijmenDam/BarTranslate",
+ "stars": 230,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c4a5d345d6a3f1c5fa280933d0154421ca0151a3",
+ "platform": "macos",
+ "author_authority": 49194,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ThijmenDam",
+   "score": 49194,
+   "contributions": 241
+  },
+  {
+   "login": "BepsiKohler",
+   "score": 0,
+   "contributions": 4
+  }
+ ],
+ "loc": 889,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "HotKey",
+  "SwiftUI",
+  "WebKit"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFit",
+   "tag",
+   "zIndex"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Link",
+   "NSHostingController",
+   "Path",
+   "Picker",
+   "Settings",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "bottom",
+   "clear",
+   "menu",
+   "plain",
+   "segmented",
+   "top",
+   "topLeading",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 19,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 55
+}

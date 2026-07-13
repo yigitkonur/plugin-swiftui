@@ -1,0 +1,107 @@
+{
+ "repo": "ofiron/SwiftUICoreKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3d219276e1b4f92a4328fef16146b35858645365",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ofiron",
+   "score": 0,
+   "contributions": 13
+  },
+  {
+   "login": "minivini",
+   "score": 0,
+   "contributions": 6
+  }
+ ],
+ "loc": 1259,
+ "custom_components": 23,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "FoundationCoreKit",
+  "PackageDescription",
+  "SwiftUI",
+  "SwiftUICoreKit",
+  "SwiftUICoreKitDemo",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13.03",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "edgesIgnoringSafeArea",
+   "fileImporter",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "modifier",
+   "onAppear",
+   "opacity",
+   "padding",
+   "presentationBackground",
+   "previewDevice",
+   "progressViewStyle",
+   "scaleEffect",
+   "sheet"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "PreviewDevice",
+   "ProgressView",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "default",
+   "tint",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 13,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 38
+}

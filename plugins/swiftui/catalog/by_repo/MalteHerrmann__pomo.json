@@ -1,0 +1,85 @@
+{
+ "repo": "MalteHerrmann/pomo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "46dbc282a6c14ee0d3d95ab029b1b1aec31c68b4",
+ "platform": "macos",
+ "author_authority": 7188,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "MalteHerrmann",
+   "score": 7188,
+   "contributions": 2
+  }
+ ],
+ "loc": 244,
+ "custom_components": 6,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "font",
+   "foregroundColor",
+   "frame",
+   "padding",
+   "resizable",
+   "sheet"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "Form",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "Section",
+   "Settings",
+   "Slider",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "green",
+   "red",
+   "top"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 6,
+  "types": 11,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 30
+}

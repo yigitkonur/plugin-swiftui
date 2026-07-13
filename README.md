@@ -33,7 +33,7 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 
 ## install
 
-npm is required for marketplace installation. runtime catalog queries use the bundled package and native cli; they do not install npm dependencies.
+marketplace installation is self-contained in the Git repository. runtime catalog queries use the bundled plugin and native cli; they do not install npm dependencies.
 
 ### Claude Code
 
@@ -44,13 +44,20 @@ npm is required for marketplace installation. runtime catalog queries use the bu
 
 ### Codex CLI, app, and IDE
 
-After the `v1.4.0` packages are published, install from the Git marketplace:
+Install from the Git marketplace:
 
 ```sh
 codex plugin marketplace add yigitkonur/claude-swiftui-plugin
 codex plugin add swiftui@swiftui-plugins
 codex plugin list --json
 codex mcp list --json
+```
+
+If you added this marketplace before the Codex plugin became self-contained, refresh its cached Git snapshot first:
+
+```sh
+codex plugin marketplace upgrade swiftui-plugins
+codex plugin add swiftui@swiftui-plugins
 ```
 
 Start a new Codex thread, then verify the explicit lookup workflow:
@@ -61,7 +68,7 @@ $swiftui NavigationSplitView
 
 Review and trust the optional deprecation hook with `/hooks`; the hook remains advisory and never blocks an edit.
 
-To test the Codex plugin directly from a source checkout before the npm release:
+To test the Codex plugin directly from a source checkout:
 
 ```sh
 git clone https://github.com/yigitkonur/claude-swiftui-plugin

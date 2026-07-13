@@ -1,0 +1,144 @@
+{
+ "repo": "dagronf/DSFSparkline",
+ "stars": 163,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "37caab4b80f793d6fd402419a883380d45950eee",
+ "platform": "macos",
+ "author_authority": 2463,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "dagronf",
+   "score": 2463,
+   "contributions": 265
+  },
+  {
+   "login": "tciuro",
+   "score": 1329,
+   "contributions": 1
+  }
+ ],
+ "loc": 22599,
+ "custom_components": 207,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CoreGraphics",
+  "DSFSparkline",
+  "Foundation",
+  "PackageDescription",
+  "QuartzCore",
+  "SwiftImageReadWrite",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "NavigationView"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "border",
+   "clipShape",
+   "disabled",
+   "fill",
+   "font",
+   "frame",
+   "inset",
+   "onAppear",
+   "onDisappear",
+   "onReceive",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "shadow",
+   "sizeThatFits",
+   "stroke",
+   "tag",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "ColorPicker",
+   "Divider",
+   "EdgeInsets",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "GridItem",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "LazyHGrid",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Table",
+   "TableColumn",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "custom",
+   "footnote",
+   "headline",
+   "perceptual",
+   "push",
+   "subheadline",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "center",
+   "cyan",
+   "green",
+   "horizontal",
+   "leading",
+   "linear",
+   "red",
+   "trailing",
+   "vertical",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 30,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 77
+}

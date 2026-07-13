@@ -1,0 +1,94 @@
+{
+ "repo": "swiftlang/swift-testing",
+ "stars": 2139,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "483bb150c4549e0554bef598203c13ee4a750c66",
+ "platform": "macos",
+ "author_authority": 81859,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "grynspan",
+   "score": 103503,
+   "contributions": 851
+  },
+  {
+   "login": "stmontgomery",
+   "score": 111380,
+   "contributions": 203
+  },
+  {
+   "login": "kateinoigakukun",
+   "score": 0,
+   "contributions": 22
+  }
+ ],
+ "loc": 59545,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CompilerPluginSupport",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreTransferable",
+  "CrashReporterSupport",
+  "CryptoKit",
+  "Foundation",
+  "FoundationXML",
+  "ImageIO",
+  "ObjectiveC",
+  "PackageDescription",
+  "RegexBuilder",
+  "SwiftBasicFormat",
+  "SwiftCompilerPlugin",
+  "SwiftDiagnostics",
+  "SwiftIfConfig",
+  "SwiftOperators",
+  "SwiftParser",
+  "SwiftShims",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacroExpansion",
+  "SwiftSyntaxMacros",
+  "Synchronization",
+  "Testing",
+  "TestingMacros",
+  "UIKit",
+  "UIKitCore_Private",
+  "UniformTypeIdentifiers",
+  "WinSDK",
+  "XCTest",
+  "_TestDiscovery",
+  "_TestingInternals",
+  "_Testing_AppKit",
+  "_Testing_CoreGraphics",
+  "_Testing_CoreImage",
+  "_Testing_CoreTransferable",
+  "_Testing_Foundation",
+  "_Testing_UIKit",
+  "_Testing_WinSDK"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -7,9 +7,8 @@
     {
       "name": "swiftui",
       "source": {
-        "source": "npm",
-        "package": "@yigitkonur/codex-swiftui-plugin",
-        "version": "1.4.0"
+        "source": "local",
+        "path": "./plugins/swiftui"
       },
       "policy": {
         "installation": "AVAILABLE",

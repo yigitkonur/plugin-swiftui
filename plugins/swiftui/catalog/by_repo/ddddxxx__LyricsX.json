@@ -1,0 +1,79 @@
+{
+ "repo": "ddddxxx/LyricsX",
+ "stars": 5166,
+ "categories": [
+  "Audio and Video Tools"
+ ],
+ "sha": "c16b6a413dda7bc0b793b897522e0c4ee0ffc716",
+ "platform": "macos",
+ "author_authority": 5906,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "ddddxxx",
+   "score": 5906,
+   "contributions": 1508
+  },
+  {
+   "login": "chyiz",
+   "score": 1,
+   "contributions": 2
+  },
+  {
+   "login": "fharper",
+   "score": 1207,
+   "contributions": 1
+  }
+ ],
+ "loc": 4204,
+ "custom_components": 0,
+ "imports": [
+  "AccessibilityExt",
+  "AppCenter",
+  "AppCenterAnalytics",
+  "AppCenterCrashes",
+  "AppKit",
+  "CXExtensions",
+  "CXShim",
+  "Cocoa",
+  "CoreGraphics",
+  "CoreGraphicsExt",
+  "CoreTextExt",
+  "Foundation",
+  "GenericID",
+  "LyricsCore",
+  "LyricsService",
+  "MASShortcut",
+  "MusicPlayer",
+  "OpenCC",
+  "Regex",
+  "ScriptingBridge",
+  "Semver",
+  "ServiceManagement",
+  "SnapKit",
+  "Sparkle",
+  "SwiftCF",
+  "TouchBarHelper"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

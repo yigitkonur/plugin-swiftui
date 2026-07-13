@@ -1,0 +1,139 @@
+{
+ "repo": "landonwest815/Peek",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2a35885681ad241b4a2015ea67d544d0726e966a",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "landonwest815",
+   "score": 5,
+   "contributions": 32
+  }
+ ],
+ "loc": 951,
+ "custom_components": 18,
+ "imports": [
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonBorderShape",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "draggable",
+   "dropDestination",
+   "fill",
+   "focused",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "offset",
+   "onAppear",
+   "onHover",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "strikethrough",
+   "stroke",
+   "textFieldStyle",
+   "transition",
+   "weight"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "ModelConfiguration",
+   "ModelContainer",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "headline",
+   "light",
+   "semibold",
+   "spring",
+   "subheadline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "circular",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "purple",
+   "red",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Attribute",
+   "Environment",
+   "FocusState",
+   "Model",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 16,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 83
+}

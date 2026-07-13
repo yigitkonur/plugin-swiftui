@@ -1,0 +1,121 @@
+{
+ "repo": "elegantchaos/Panes",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8044fa8f9200204a2c4f44be7b8ab5db7b1a5f0b",
+ "platform": "other",
+ "author_authority": 262,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "samdeane",
+   "score": 262,
+   "contributions": 30
+  }
+ ],
+ "loc": 1026,
+ "custom_components": 17,
+ "imports": [
+  "Foundation",
+  "Logger",
+  "LoggerUI",
+  "PackageDescription",
+  "Panes",
+  "PanesCore",
+  "SplitView",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "disableAutocorrection"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "backgroundStyle",
+   "bold",
+   "commands",
+   "cornerRadius",
+   "disableAutocorrection",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "frame",
+   "keyboardShortcut",
+   "modelContainer",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onModifierKeysChanged",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "sheet",
+   "stroke",
+   "textContentType",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "CommandMenu",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "KeyEquivalent",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottomTrailing",
+   "clear",
+   "horizontal",
+   "topLeading",
+   "topTrailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "ObservedObject",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 13,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 57
+}

@@ -1,0 +1,82 @@
+{
+ "repo": "dan1eln1el5en/Ordbygger",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "57ccb3972fcc20288c75cb934304a45104f16012",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dan1eln1el5en",
+   "score": 0,
+   "contributions": 9
+  }
+ ],
+ "loc": 389,
+ "custom_components": 6,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "contentTransition",
+   "font",
+   "fontDesign",
+   "foregroundColor",
+   "frame",
+   "onAppear",
+   "padding",
+   "transition",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "push"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "top",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 7,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 29
+}

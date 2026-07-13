@@ -1,0 +1,91 @@
+{
+ "repo": "koldex/WeatherForecast.swift",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5da98f969aed6a3d6ab223f335954af4be953c37",
+ "platform": "macos",
+ "author_authority": 125,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "koldex",
+   "score": 125,
+   "contributions": 19
+  }
+ ],
+ "loc": 1419,
+ "custom_components": 4,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "onAppear",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Label",
+   "ProgressView",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "headline",
+   "light",
+   "medium",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "red",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 11,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 39
+}

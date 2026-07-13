@@ -1,0 +1,6 @@
+interface:
+  display_name: "SwiftUI Settings"
+  short_description: "Configure the SwiftUI plugin for this project"
+  default_prompt: "Use $swiftui-settings to configure this project's SwiftUI plugin settings."
+policy:
+  allow_implicit_invocation: false

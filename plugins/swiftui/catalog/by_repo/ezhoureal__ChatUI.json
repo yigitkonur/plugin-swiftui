@@ -1,0 +1,114 @@
+{
+ "repo": "ezhoureal/ChatUI",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f3c1a7ed1c4ae7108b27d508057fd77e26985278",
+ "platform": "other",
+ "author_authority": 21063,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ezhoureal",
+   "score": 21063,
+   "contributions": 22
+  }
+ ],
+ "loc": 442,
+ "custom_components": 11,
+ "imports": [
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "playground"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contextMenu",
+   "cornerRadius",
+   "defaultScrollAnchor",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "modelContainer",
+   "navigationTitle",
+   "onAppear",
+   "onKeyPress",
+   "onModifierKeysChanged",
+   "opacity",
+   "padding",
+   "toolbar",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "LazyVStack",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "ToolbarItem",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "bouncy",
+   "push",
+   "spring",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "leading",
+   "navigation",
+   "plain",
+   "top",
+   "topLeading",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Binding",
+   "Environment",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 15,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 56
+}

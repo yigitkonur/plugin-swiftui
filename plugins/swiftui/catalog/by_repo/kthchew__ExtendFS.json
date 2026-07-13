@@ -1,0 +1,115 @@
+{
+ "repo": "kthchew/ExtendFS",
+ "stars": 42,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "25525c9206faf5ec073cb1a4237682f07506db5e",
+ "platform": "macos",
+ "author_authority": 129565,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kthchew",
+   "score": 129565,
+   "contributions": 173
+  }
+ ],
+ "loc": 5703,
+ "custom_components": 12,
+ "imports": [
+  "Algorithms",
+  "AppKit",
+  "Combine",
+  "DiskArbitration",
+  "FSKit",
+  "Foundation",
+  "GoogleCRC32C",
+  "ServiceManagement",
+  "StoreKit",
+  "SwiftUI",
+  "Synchronization",
+  "UserNotifications",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityAddTraits",
+   "accessibilityLabel",
+   "aspectRatio",
+   "commands",
+   "commandsRemoved",
+   "defaultLaunchBehavior",
+   "focusable",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "handlesExternalEvents",
+   "onAppear",
+   "onOpenURL",
+   "onReceive",
+   "overlay",
+   "padding",
+   "resizable",
+   "stroke",
+   "task",
+   "windowLevel",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "Grid",
+   "GridRow",
+   "Image",
+   "Link",
+   "ScrollView",
+   "Section",
+   "Text",
+   "UtilityWindow",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "appearsActive",
+   "dismiss",
+   "dismissWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 15,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 5,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 52
+}

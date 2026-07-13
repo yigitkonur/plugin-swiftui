@@ -1,0 +1,143 @@
+{
+ "repo": "SalValichu/keystroke-visualizer",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "061a969211fab1c8ffde5b1d3289c98b040bb9aa",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "wisteriaseason",
+   "score": 0,
+   "contributions": 4
+  }
+ ],
+ "loc": 2372,
+ "custom_components": 29,
+ "imports": [
+  "ApplicationServices",
+  "Cocoa",
+  "Combine",
+  "CoreVideo",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "contextMenu",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "help",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "shadow",
+   "stroke",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "DragGesture",
+   "ForEach",
+   "GeometryReader",
+   "GridItem",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "NSHostingController",
+   "Path",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeOut",
+   "headline",
+   "medium",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bar",
+   "black",
+   "blue",
+   "bordered",
+   "borderless",
+   "bottom",
+   "bottomLeading",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "top",
+   "topLeading",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 23,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 19,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 86
+}

@@ -1,0 +1,109 @@
+{
+ "repo": "kittizz/OpenRouterCreditMenuBar",
+ "stars": 20,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d865235456380d6d365f03a84c1ba6668f11d229",
+ "platform": "macos",
+ "author_authority": 102,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kittizz",
+   "score": 102,
+   "contributions": 5
+  }
+ ],
+ "loc": 532,
+ "custom_components": 8,
+ "imports": [
+  "Foundation",
+  "OpenRouterCreditMenuBar",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "controlSize",
+   "disabled",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "padding",
+   "pickerStyle",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingController",
+   "Picker",
+   "ProgressView",
+   "Section",
+   "SecureField",
+   "Settings",
+   "SettingsLink",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "semibold",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "center",
+   "grouped",
+   "leading",
+   "menu",
+   "orange",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 16,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 52
+}

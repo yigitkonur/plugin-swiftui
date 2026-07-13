@@ -1,0 +1,86 @@
+{
+ "repo": "xueqooy/XUI",
+ "stars": 7,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6a715e5267b298eaf031ca41645f1a38ccbd7e7e",
+ "platform": "other",
+ "author_authority": 70,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "xue-nd",
+   "score": 0,
+   "contributions": 59
+  },
+  {
+   "login": "xueqooy",
+   "score": 70,
+   "contributions": 11
+  },
+  {
+   "login": "dongmeizeng",
+   "score": 0,
+   "contributions": 5
+  }
+ ],
+ "loc": 50673,
+ "custom_components": 0,
+ "imports": [
+  "Accelerate",
+  "AudioToolbox",
+  "Combine",
+  "CombineCocoa",
+  "CompilerPluginSupport",
+  "CoreMedia",
+  "CoreServices",
+  "CoreText",
+  "DemoMacro",
+  "DemoMacroMacros",
+  "Foundation",
+  "IGListDiffKit",
+  "IGListKit",
+  "IGListSwiftKit",
+  "MessageUI",
+  "ObjectiveC",
+  "PDFKit",
+  "PackageDescription",
+  "QuartzCore",
+  "QuickLook",
+  "SnapKit",
+  "SwiftCompilerPlugin",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacros",
+  "SwiftSyntaxMacrosTestSupport",
+  "UIKit",
+  "WatchKit",
+  "XCTest",
+  "XKit",
+  "XList",
+  "XUI",
+  "_XUILoader"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

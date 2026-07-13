@@ -1,0 +1,25 @@
+# sd-01 (structural): a `let` property that ALSO carries a @Relationship attribute. SwiftData writes a
+# relationship through a ReferenceWritableKeyPath; a `let` can't be written outside init → an opaque
+# KeyPath→ReferenceWritableKeyPath cast CRASH at runtime, never at compile. The @Relationship attribute
+# and the `let` keyword sit on SEPARATE lines, so grep alone cannot bind them — this is the canonical
+# tier-2 rule. The grep tell (sd-01) is only a flat `let [`-collection net; this proves the @Relationship.
+# Relationships are always `var`, defaulted. READ the file to confirm bidirectionality.
+id: sd-01-let-on-relationship
+language: Swift
+severity: error
+message: >-
+  sd-01: a `let` property carries a @Relationship — a relationship written through a
+  ReferenceWritableKeyPath cannot be a `let` → runtime cast crash (never at compile). Make it `var`,
+  defaulted (e.g. `var floors: [Floor] = []`). READ to confirm it is a bidirectional relationship.
+rule:
+  kind: property_declaration
+  all:
+    - has:
+        kind: value_binding_pattern
+        regex: '^let'
+    - has:
+        kind: modifiers
+        stopBy: end
+        has:
+          kind: attribute
+          regex: 'Relationship'

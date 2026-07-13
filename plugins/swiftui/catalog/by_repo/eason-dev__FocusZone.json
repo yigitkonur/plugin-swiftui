@@ -1,0 +1,148 @@
+{
+ "repo": "eason-dev/FocusZone",
+ "stars": 4,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bce29fbc2a5875016db371cc16f6e0b8a3f63eae",
+ "platform": "macos",
+ "author_authority": 1099,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "eason-dev",
+   "score": 1099,
+   "contributions": 55
+  }
+ ],
+ "loc": 1991,
+ "custom_components": 27,
+ "imports": [
+  "ARKit",
+  "AVFoundation",
+  "Combine",
+  "FocusZone",
+  "Foundation",
+  "PackageDescription",
+  "QuartzCore",
+  "RealityKit",
+  "RealityKitContent",
+  "SplineRuntime",
+  "Studio",
+  "SwiftData",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "os"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "colorMultiply"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "backgroundStyle",
+   "buttonBorderShape",
+   "buttonStyle",
+   "clipShape",
+   "colorMultiply",
+   "defaultSize",
+   "disabled",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "immersionStyle",
+   "modifier",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onEnded",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFill",
+   "shadow",
+   "sheet",
+   "task",
+   "transition",
+   "updating",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "EdgeInsets",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LongPressGesture",
+   "Picker",
+   "RoundedRectangle",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "clear",
+   "light",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "primary",
+   "progressive",
+   "secondary",
+   "segmented",
+   "vertical",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "GestureState",
+   "Observable",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismissImmersiveSpace",
+   "dismissWindow",
+   "openImmersiveSpace",
+   "openWindow",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 21,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 6,
+  "environmentKeys": 5
+ },
+ "total_unique_apis": 80
+}

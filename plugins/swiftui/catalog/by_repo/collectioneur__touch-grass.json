@@ -1,0 +1,118 @@
+{
+ "repo": "collectioneur/touch-grass",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d64180bd8c45bf8e37bec145fa21cf557916389f",
+ "platform": "macos",
+ "author_authority": 8703,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "collectioneur",
+   "score": 8703,
+   "contributions": 3
+  }
+ ],
+ "loc": 916,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "buttonStyle",
+   "controlSize",
+   "defaultSize",
+   "disabled",
+   "fill",
+   "font",
+   "frame",
+   "help",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "listStyle",
+   "onAppear",
+   "onSubmit",
+   "opacity",
+   "overlay",
+   "padding",
+   "scrollContentBackground",
+   "textFieldStyle",
+   "textSelection",
+   "toolbarBackground",
+   "toolbarBackgroundVisibility",
+   "toolbarColorScheme",
+   "windowResizability",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "ContentUnavailableView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "Rectangle",
+   "RoundedRectangle",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "regular",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "clear",
+   "default",
+   "glass",
+   "glassProminent",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "quaternary",
+   "roundedBorder",
+   "thinMaterial",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 14,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 65
+}

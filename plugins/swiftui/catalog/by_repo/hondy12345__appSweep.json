@@ -1,0 +1,135 @@
+{
+ "repo": "hondy12345/appSweep",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c6233d52570a23326ca9e632aa32a95ab0c29d05",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "hondy12345",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1890,
+ "custom_components": 44,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "cornerRadius",
+   "defaultSize",
+   "disabled",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "listStyle",
+   "monospacedDigit",
+   "navigationSplitViewColumnWidth",
+   "onAppear",
+   "onDrop",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle",
+   "textSelection",
+   "tint",
+   "truncationMode",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationSplitView",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "largeTitle",
+   "medium",
+   "semibold",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "sidebar",
+   "tertiary",
+   "titleBar",
+   "top",
+   "trailing",
+   "ultraThinMaterial",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 20,
+  "valueBuilders": 10,
+  "macros": 0,
+  "styleValues": 16,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 81
+}

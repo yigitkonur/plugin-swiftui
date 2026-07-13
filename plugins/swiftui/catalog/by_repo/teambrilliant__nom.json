@@ -1,0 +1,107 @@
+{
+ "repo": "teambrilliant/nom",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91862beb613fec25247d0664363c34aa51052f60",
+ "platform": "macos",
+ "author_authority": 169,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "akurkin",
+   "score": 169,
+   "contributions": 2
+  }
+ ],
+ "loc": 880,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "NomCore",
+  "Observation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "fill",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onExitCommand",
+   "onHover",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "regular",
+   "system",
+   "thin"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "quaternary",
+   "secondary",
+   "tertiary",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 16,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

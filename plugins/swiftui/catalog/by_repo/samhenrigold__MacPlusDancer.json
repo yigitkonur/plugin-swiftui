@@ -1,0 +1,111 @@
+{
+ "repo": "samhenrigold/MacPlusDancer",
+ "stars": 51,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "74a3ccda421ade024ecc62f0cca9bd92d3daaa0d",
+ "platform": "macos",
+ "author_authority": 5098,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "samhenrigold",
+   "score": 5098,
+   "contributions": 19
+  }
+ ],
+ "loc": 610,
+ "custom_components": 13,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "CoreImage",
+  "Foundation",
+  "Observation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "containerBackground",
+   "defaultPosition",
+   "disabled",
+   "environment",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "onChange",
+   "padding",
+   "restorationBehavior",
+   "symbolVariant",
+   "tag",
+   "task",
+   "windowBackgroundDragBehavior",
+   "windowFullScreenBehavior",
+   "windowLevel",
+   "windowMinimizeBehavior",
+   "windowResizability",
+   "windowResizeBehavior",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Group",
+   "Image",
+   "MenuBarExtra",
+   "Picker",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottomTrailing",
+   "center",
+   "fill",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "secondary",
+   "thickMaterial",
+   "top",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 3,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 55
+}

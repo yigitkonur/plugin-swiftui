@@ -1,0 +1,121 @@
+{
+ "repo": "rizaust/ios-raw2hdr",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "2930655cc3b2a7269a89539d5200cee60f8c61a6",
+ "platform": "macos",
+ "author_authority": 6,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rizaust",
+   "score": 6,
+   "contributions": 1
+  }
+ ],
+ "loc": 1049,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "CoreImage",
+  "Foundation",
+  "Photos",
+  "PhotosUI",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "clipped",
+   "controlSize",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "navigationDestination",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "padding",
+   "tint",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationStack",
+   "ProgressView",
+   "RoundedRectangle",
+   "Slider",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "footnote",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "green",
+   "horizontal",
+   "inline",
+   "leading",
+   "plain",
+   "red",
+   "secondary",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 17,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 64
+}

@@ -1,0 +1,23 @@
+# state-06 (structural): a binding projection `$obj.member` anchored on the navigation_expression kind,
+# where the projected base is a `$`-prefixed identifier (NOT the `$0`/`$1` closure-shorthand a flat grep
+# also catches). A non-owned @Observable property has NO projected value, so `$obj.prop` only compiles
+# when a `@Bindable var obj = obj` re-wrap exists in the SAME body (or obj is @State/@Binding/@Bindable).
+# WHY tier-2: the grep tell `\$\w+\.\w` also fires on `$0.id`/`$1.name` shorthand and string interpolation;
+# anchoring on `navigation_expression > target: simple_identifier ^\$[A-Za-z_]` excludes those. The final
+# call — is there a `@Bindable` re-wrap of THIS identifier in scope, or is obj a legal @State/@Binding? —
+# is a cross-scope co-occurrence ast-grep cannot express reliably; the agent READS the body (SKILL.md
+# step 3) to confirm the missing re-wrap before reporting. The engine only LOCATES.
+id: state-06-binding-no-bindable
+language: Swift
+severity: warning
+message: >-
+  state-06: a `$obj.member` binding projection. If `obj` is a NON-owned @Observable property (passed in,
+  or @Environment(Type.self)) with NO `@Bindable var obj = obj` re-wrap in the same body, `$obj` does not
+  exist (Cannot find '$obj' in scope) → add @Bindable. READ the body to confirm no re-wrap and that obj
+  is not already @State/@Binding/@Bindable. flag-only.
+rule:
+  kind: navigation_expression
+  has:
+    field: target
+    kind: simple_identifier
+    regex: '^\$[A-Za-z_]'

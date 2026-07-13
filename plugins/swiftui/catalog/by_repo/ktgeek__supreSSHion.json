@@ -1,0 +1,94 @@
+{
+ "repo": "ktgeek/supreSSHion",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c8e6577eaad370d220ba022394060d5c7e5974e2",
+ "platform": "macos",
+ "author_authority": 6738,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ktgeek",
+   "score": 6738,
+   "contributions": 55
+  }
+ ],
+ "loc": 759,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CryptoKit",
+  "Darwin",
+  "Foundation",
+  "Observation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "padding",
+   "resizable",
+   "toggleStyle",
+   "width"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "Link",
+   "NSHostingController",
+   "Settings",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "checkbox",
+   "firstTextBaseline",
+   "hidden",
+   "horizontal",
+   "leading",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 9,
+  "types": 15,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 39
+}

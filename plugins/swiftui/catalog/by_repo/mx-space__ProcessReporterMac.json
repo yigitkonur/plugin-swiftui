@@ -1,0 +1,126 @@
+{
+ "repo": "mx-space/ProcessReporterMac",
+ "stars": 54,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "75de33ce23340233500daa8d081aaddbfc6f9d95",
+ "platform": "macos",
+ "author_authority": 130705,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "Innei",
+   "score": 137408,
+   "contributions": 39
+  },
+  {
+   "login": "wibus-wee",
+   "score": 1981,
+   "contributions": 2
+  }
+ ],
+ "loc": 1593,
+ "custom_components": 39,
+ "imports": [
+  "Accessibility",
+  "AppKit",
+  "ApplicationServices",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "LaunchAtLogin",
+  "Network",
+  "SwiftJotai",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "onDisappear",
+   "onReceive",
+   "onTapGesture",
+   "padding",
+   "resizable",
+   "tabItem",
+   "tag"
+  ],
+  "types": [
+   "Binding",
+   "BorderlessButtonStyle",
+   "Button",
+   "Divider",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "Rectangle",
+   "ScrollView",
+   "Section",
+   "SecureField",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body"
+  ],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "blue",
+   "clear",
+   "full",
+   "primary",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 23,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

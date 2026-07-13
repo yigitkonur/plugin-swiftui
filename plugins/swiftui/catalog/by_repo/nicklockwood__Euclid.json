@@ -1,0 +1,80 @@
+{
+ "repo": "nicklockwood/Euclid",
+ "stars": 694,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0409eab36ce4e726e5c66f8885500fb97b030994",
+ "platform": "macos",
+ "author_authority": 71255,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nicklockwood",
+   "score": 71255,
+   "contributions": 863
+  },
+  {
+   "login": "andygeers",
+   "score": 186,
+   "contributions": 15
+  },
+  {
+   "login": "zilmarinen",
+   "score": 709,
+   "contributions": 5
+  }
+ ],
+ "loc": 27210,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CoreGraphics",
+  "CoreText",
+  "Dispatch",
+  "Euclid",
+  "Foundation",
+  "Metal",
+  "PackageDescription",
+  "RealityKit",
+  "SceneKit",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "gesture",
+   "onChanged",
+   "onEnded",
+   "scaled"
+  ],
+  "types": [
+   "DragGesture"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "hidden",
+   "identity"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 4,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 8
+}

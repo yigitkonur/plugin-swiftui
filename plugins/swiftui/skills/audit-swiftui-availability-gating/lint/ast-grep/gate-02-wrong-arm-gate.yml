@@ -1,0 +1,21 @@
+# gate-02 (structural): an `if #available(iOS …)` block whose body uses a macOS-floored API, inside a
+# macOS target = wrong availability arm (hard-fail). The grep tell catches the bare `#available(iOS NN`
+# string; this structural form proves the GATE SCOPE actually wraps a floored symbol (not just that the
+# string appears somewhere). The `*` wildcard already covers macOS, so the macOS floor is never enforced.
+# Gate on #available(macOS NN, *). fix_mode: auto (arm swap only). READ to confirm the body symbol.
+id: gate-02-ios-arm-gates-macos-api
+language: Swift
+severity: error
+message: >-
+  gate-02: an `if #available(iOS …)` block guards a macOS-floored API in a macOS target (wrong arm;
+  the * wildcard always fires). Gate on #available(macOS NN, *). fix_mode: auto.
+rule:
+  kind: if_statement
+  all:
+    - has:
+        field: condition
+        kind: availability_condition
+        regex: 'iOS'
+    - has:
+        stopBy: end
+        regex: 'glassEffect|GlassEffectContainer|buttonStyle\(\.glass|scrollEdgeEffect|backgroundExtensionEffect|symbolEffect|MeshGradient|TextRenderer|Observable'

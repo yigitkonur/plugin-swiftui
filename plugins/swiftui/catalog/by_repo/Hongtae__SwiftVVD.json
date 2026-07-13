@@ -1,0 +1,65 @@
+{
+ "repo": "Hongtae/SwiftVVD",
+ "stars": 155,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "616aa2c4cd3dacc29bc9ebeecb3c644be32a3bd0",
+ "platform": "macos",
+ "author_authority": 5622,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Hongtae",
+   "score": 5622,
+   "contributions": 862
+  }
+ ],
+ "loc": 61065,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "Foundation",
+  "FreeType",
+  "Glibc",
+  "Metal",
+  "Observation",
+  "OpenAL",
+  "PackageDescription",
+  "QuartzCore",
+  "SPIRV_Cross",
+  "SwiftShims",
+  "Synchronization",
+  "TinyGLTF",
+  "UIKit",
+  "VUI",
+  "VVD",
+  "VVDHelper",
+  "Vulkan",
+  "Wayland",
+  "WinSDK",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

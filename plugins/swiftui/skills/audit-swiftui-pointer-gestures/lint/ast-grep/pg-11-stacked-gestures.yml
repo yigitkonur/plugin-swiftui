@@ -1,0 +1,15 @@
+# pg-11 (structural): two .gesture(...) modifiers chained onto the SAME receiver. Two plain gestures
+# stacked this way conflict — the later one wins and the earlier is swallowed; the fix is
+# .simultaneousGesture / .highPriorityGesture (or a composed SimultaneousGesture/ExclusiveGesture).
+# grep counts .gesture occurrences per file but cannot see the CHAINING onto one receiver; this catches
+# the directly-chained form structurally (mirrors the glass-on-glass chaining shape). READ to confirm the
+# two gestures actually conflict (e.g. two DragGestures) before reporting.
+id: pg-11-stacked-gestures
+language: Swift
+severity: warning
+message: >-
+  pg-11: two .gesture() modifiers are chained onto one receiver — the later swallows the earlier. Use
+  .simultaneousGesture / .highPriorityGesture, or compose with SimultaneousGesture/ExclusiveGesture.
+  READ to confirm the gestures conflict. Verify the control's built-in gesture against the Xcode 26 SDK.
+rule:
+  pattern: $RECEIVER.gesture($$$A).gesture($$$B)

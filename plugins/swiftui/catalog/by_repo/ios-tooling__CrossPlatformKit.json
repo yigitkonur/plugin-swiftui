@@ -1,0 +1,60 @@
+{
+ "repo": "ios-tooling/CrossPlatformKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c5700b083674d8940315c80c50ac18b729cc84d1",
+ "platform": "macos",
+ "author_authority": 916,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bengottlieb",
+   "score": 916,
+   "contributions": 57
+  }
+ ],
+ "loc": 1283,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "CrossPlatformKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fill",
+   "frame"
+  ],
+  "types": [
+   "Color",
+   "Image",
+   "ImageRenderer"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "red",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 3,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 7
+}

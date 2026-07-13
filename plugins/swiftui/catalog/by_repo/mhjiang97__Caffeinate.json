@@ -1,0 +1,113 @@
+{
+ "repo": "mhjiang97/Caffeinate",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "72e04165ee1e6d7dd462e9524333793d9d635e56",
+ "platform": "macos",
+ "author_authority": 42,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mhjiang97",
+   "score": 42,
+   "contributions": 4
+  }
+ ],
+ "loc": 493,
+ "custom_components": 14,
+ "imports": [
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "buttonStyle",
+   "contentTransition",
+   "controlSize",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "glassEffect",
+   "help",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "rotationEffect",
+   "scaleEffect",
+   "stroke",
+   "symbolEffect",
+   "symbolRenderingMode",
+   "tint",
+   "transition",
+   "trim"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "EmptyView",
+   "ForEach",
+   "GlassEffectContainer",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Slider",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "linear",
+   "medium",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "brown",
+   "clear",
+   "glass",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "red",
+   "secondary",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 13,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 63
+}

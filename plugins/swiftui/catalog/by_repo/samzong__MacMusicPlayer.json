@@ -1,0 +1,62 @@
+{
+ "repo": "samzong/MacMusicPlayer",
+ "stars": 82,
+ "categories": [
+  "Audio and Video Tools"
+ ],
+ "sha": "7b8e9b3592da7d207a51543ecde7861ec91472cb",
+ "platform": "macos",
+ "author_authority": 820851,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "samzong",
+   "score": 820851,
+   "contributions": 165
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 5485,
+ "custom_components": 2,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "IOKit",
+  "MediaPlayer",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "EmptyView",
+   "Settings"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

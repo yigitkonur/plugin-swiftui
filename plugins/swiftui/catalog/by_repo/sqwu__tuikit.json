@@ -1,0 +1,50 @@
+{
+ "repo": "sqwu/tuikit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ee3be7c08068d33a47a7827aef07cc73d9efcd74",
+ "platform": "other",
+ "author_authority": 2419,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "phranck",
+   "score": 2419,
+   "contributions": 391
+  }
+ ],
+ "loc": 23845,
+ "custom_components": 0,
+ "imports": [
+  "Darwin",
+  "Foundation",
+  "Glibc",
+  "Musl",
+  "PackageDescription",
+  "TUIkit",
+  "Testing"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

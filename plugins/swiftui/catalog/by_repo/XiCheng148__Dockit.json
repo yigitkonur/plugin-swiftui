@@ -1,0 +1,154 @@
+{
+ "repo": "XiCheng148/Dockit",
+ "stars": 276,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "98c8d15190a8fd856c5192930b525b7ac344295f",
+ "platform": "macos",
+ "author_authority": 57014,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "XiCheng148",
+   "score": 57014,
+   "contributions": 12
+  },
+  {
+   "login": "yhan219",
+   "score": 2741,
+   "contributions": 1
+  }
+ ],
+ "loc": 4270,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Cocoa",
+  "Defaults",
+  "DynamicNotchKit",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "PackageDescription",
+  "ProjectDescription",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "mask",
+   "menuBarExtraStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "popover",
+   "strokeBorder",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "Circle",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "custom",
+   "headline",
+   "push",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "borderedProminent",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "grouped",
+   "leading",
+   "menu",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "switch",
+   "top",
+   "trailing",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 23,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 19,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 86
+}

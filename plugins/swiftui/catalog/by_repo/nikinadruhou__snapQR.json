@@ -1,0 +1,77 @@
+{
+ "repo": "nikinadruhou/snapQR",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3dad563c419beff8f0bc037b4037fbe9a4bc8120",
+ "platform": "macos",
+ "author_authority": 7539,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nikinadruhou",
+   "score": 7539,
+   "contributions": 4
+  }
+ ],
+ "loc": 395,
+ "custom_components": 6,
+ "imports": [
+  "AVFoundation",
+  "Cocoa",
+  "CoreImage",
+  "HotKey",
+  "SnapQR",
+  "SwiftUI",
+  "Testing",
+  "Vision",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "environment",
+   "font",
+   "frame",
+   "onSubmit",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "NSHostingView",
+   "Settings",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "largeTitle"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading",
+   "top",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 7,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 3,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 20
+}

@@ -1,0 +1,94 @@
+{
+ "repo": "Matejkob/macos-dark-mode-switch",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ac38349605d3b7e795e82d204937ba9971fa0fb8",
+ "platform": "macos",
+ "author_authority": 15618,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Matejkob",
+   "score": 15618,
+   "contributions": 96
+  }
+ ],
+ "loc": 3167,
+ "custom_components": 8,
+ "imports": [
+  "App",
+  "AppKit",
+  "AppearanceSwitcher",
+  "Cocoa",
+  "Foundation",
+  "OSLog",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "Utilities"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "defaultSize",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onReceive",
+   "task",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "DatePicker",
+   "Form",
+   "HStack",
+   "Label",
+   "MenuBarExtra",
+   "Section",
+   "Settings",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "light"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "grouped",
+   "hiddenTitleBar",
+   "menu"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 11,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 34
+}

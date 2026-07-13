@@ -1,0 +1,59 @@
+{
+ "repo": "gstory0404/flutter_unionad",
+ "stars": 360,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "cb314bfa90e9c623b51c8cc7c9651181b67040a3",
+ "platform": "other",
+ "author_authority": 3485,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "gstory0404",
+   "score": 3485,
+   "contributions": 319
+  },
+  {
+   "login": "zhangruiyu",
+   "score": 1116,
+   "contributions": 21
+  },
+  {
+   "login": "badboy-tian",
+   "score": 1751,
+   "contributions": 14
+  }
+ ],
+ "loc": 1568,
+ "custom_components": 0,
+ "imports": [
+  "AdSupport",
+  "AppTrackingTransparency",
+  "BUAdSDK",
+  "Flutter",
+  "Foundation",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

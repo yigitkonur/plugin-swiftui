@@ -1,0 +1,112 @@
+{
+ "repo": "kmitv/just-pour",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a34222d8afa4a0ed88988fc5ab738e24cb973a77",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kmitv",
+   "score": 0,
+   "contributions": 36
+  }
+ ],
+ "loc": 560,
+ "custom_components": 14,
+ "imports": [
+  "Cocoa",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "environment",
+   "font",
+   "foregroundColor",
+   "frame",
+   "listStyle",
+   "multilineTextAlignment",
+   "onAppear",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "sheet",
+   "stroke",
+   "tag",
+   "trim"
+  ],
+  "types": [
+   "Angle",
+   "Button",
+   "Circle",
+   "EmptyView",
+   "ForEach",
+   "Image",
+   "List",
+   "NSHostingView",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "ProgressView",
+   "RadioGroupPickerStyle",
+   "Section",
+   "SidebarListStyle",
+   "Stepper",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "easeInOut",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "hidden",
+   "horizontal",
+   "leading",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "managedObjectContext",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 19,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 2,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 56
+}

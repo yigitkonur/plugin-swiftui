@@ -1,0 +1,107 @@
+{
+ "repo": "shiyukk/DualSpine",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c07c8bdf2cd4ecde396b119c79983e9c04f64975",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 7249,
+ "custom_components": 18,
+ "imports": [
+  "Accelerate",
+  "DualSpineCore",
+  "DualSpineRender",
+  "DualSpineSemantic",
+  "Foundation",
+  "PackageDescription",
+  "SwiftSoup",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "WebKit",
+  "ZIPFoundation"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "imageScale",
+   "lineLimit",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onChange",
+   "onSubmit",
+   "padding",
+   "pickerStyle",
+   "presentationDetents",
+   "searchable",
+   "sheet",
+   "tag",
+   "task",
+   "toolbar",
+   "transition"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationStack",
+   "Picker",
+   "ProgressView",
+   "Section",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "largeTitle",
+   "medium",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "clear",
+   "inline",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "segmented",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 18,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 53
+}

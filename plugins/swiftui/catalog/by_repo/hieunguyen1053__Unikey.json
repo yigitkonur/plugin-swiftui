@@ -1,0 +1,129 @@
+{
+ "repo": "hieunguyen1053/Unikey",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "24201b7c449e1acba4e7631a39aa5bb50b191b58",
+ "platform": "other",
+ "author_authority": 482,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "hieunguyen1053",
+   "score": 482,
+   "contributions": 23
+  }
+ ],
+ "loc": 8743,
+ "custom_components": 14,
+ "imports": [
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "InputMethodKit",
+  "ServiceManagement",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "Unikey",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "horizontalRadioGroupLayout",
+   "id",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "sheet",
+   "tag",
+   "textFieldStyle",
+   "width"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "Form",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingView",
+   "Picker",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "semibold",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderedProminent",
+   "horizontal",
+   "leading",
+   "plain",
+   "radioGroup",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 18,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 67
+}

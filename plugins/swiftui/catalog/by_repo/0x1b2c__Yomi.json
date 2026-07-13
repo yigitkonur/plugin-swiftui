@@ -1,0 +1,151 @@
+{
+ "repo": "0x1b2c/Yomi",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa",
+ "platform": "macos",
+ "author_authority": 66328,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "0x1b2c",
+   "score": 66328,
+   "contributions": 57
+  }
+ ],
+ "loc": 1654,
+ "custom_components": 20,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "CoreText",
+  "KeyboardShortcuts",
+  "SwiftUI",
+  "Testing",
+  "Translation",
+  "VisionKit",
+  "XCTest",
+  "Yomi"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "defaultSize",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gridCellColumns",
+   "gridCellUnsizedAxes",
+   "gridColumnAlignment",
+   "help",
+   "ignoresSafeArea",
+   "italic",
+   "keyboardShortcut",
+   "lineSpacing",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "offset",
+   "onAppear",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "shadow",
+   "stroke",
+   "tabItem",
+   "tag",
+   "task",
+   "tracking"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "MenuBarExtra",
+   "Path",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "medium",
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "clear",
+   "gray",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 30,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 88
+}

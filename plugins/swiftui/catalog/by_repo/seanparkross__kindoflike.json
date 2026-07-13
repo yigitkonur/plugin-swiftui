@@ -1,0 +1,95 @@
+{
+ "repo": "seanparkross/kindoflike",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3c0588d09234b1e3221e0599f84798e7f8d65c7c",
+ "platform": "macos",
+ "author_authority": 3317,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "seanparkross",
+   "score": 3317,
+   "contributions": 6
+  },
+  {
+   "login": "ikap-commits",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 479,
+ "custom_components": 4,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "PackageDescription",
+  "Speech",
+  "SwiftUI",
+  "XCTest",
+  "kindoflike"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "padding",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "leading",
+   "red",
+   "secondary",
+   "switch",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 10,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 33
+}

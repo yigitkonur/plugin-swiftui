@@ -1,0 +1,64 @@
+{
+ "repo": "OAK-WJR/Swift_Vision_OCR",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "65c03d78adef30cc4758471c5b1b7c88e1b1f3eb",
+ "platform": "other",
+ "author_authority": 15,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "OAK-WJR",
+   "score": 15,
+   "contributions": 6
+  }
+ ],
+ "loc": 764,
+ "custom_components": 4,
+ "imports": [
+  "NaturalLanguage",
+  "SQLite3",
+  "SwiftData",
+  "SwiftUI",
+  "Vision"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "overlay",
+   "resizable",
+   "stroke"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Image",
+   "Path",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "red"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 4,
+  "types": 6,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 12
+}

@@ -1,0 +1,47 @@
+{
+ "repo": "mattt/WebVTT",
+ "stars": 17,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d53ca67836451e1ec0c3f185151df964a31e3cd8",
+ "platform": "other",
+ "author_authority": 194218,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mattt",
+   "score": 194218,
+   "contributions": 2
+  }
+ ],
+ "loc": 2707,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "Testing",
+  "WebVTT"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

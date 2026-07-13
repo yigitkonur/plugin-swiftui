@@ -1,0 +1,134 @@
+{
+ "repo": "almonk/ports",
+ "stars": 33,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "73936c1b3b67323b0c33ba185e4dd7c7f022dbb3",
+ "platform": "macos",
+ "author_authority": 176798,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "almonk",
+   "score": 176798,
+   "contributions": 13
+  }
+ ],
+ "loc": 1350,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "contextMenu",
+   "controlSize",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "id",
+   "modifiers",
+   "onAppear",
+   "onChange",
+   "onEnded",
+   "onKeyPress",
+   "onLongPressGesture",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "scale",
+   "scaleEffect",
+   "simultaneousGesture",
+   "textFieldStyle",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "NSHostingController",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "TapGesture",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "asymmetric",
+   "body",
+   "easeInOut",
+   "medium",
+   "regular",
+   "spring",
+   "subheadline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "link",
+   "plain",
+   "primary",
+   "quaternary",
+   "regularMaterial",
+   "secondary",
+   "separator",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 20,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 79
+}

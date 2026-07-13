@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "swiftui": {
+      "command": "node",
+      "args": [
+        "./mcp/server.mjs"
+      ],
+      "cwd": "."
+    }
+  }
+}

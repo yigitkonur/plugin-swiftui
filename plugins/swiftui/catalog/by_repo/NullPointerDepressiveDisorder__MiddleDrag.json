@@ -1,0 +1,72 @@
+{
+ "repo": "NullPointerDepressiveDisorder/MiddleDrag",
+ "stars": 208,
+ "categories": [
+  "System Related Tools"
+ ],
+ "sha": "3cb680cbb9b2d43666150c8f78a8a2ef60b37f62",
+ "platform": "macos",
+ "author_authority": 228533,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "NullPointerDepressiveDisorder",
+   "score": 228533,
+   "contributions": 321
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 5
+  },
+  {
+   "login": "william-laverty",
+   "score": 331393,
+   "contributions": 2
+  }
+ ],
+ "loc": 17494,
+ "custom_components": 2,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "CoreFoundation",
+  "CoreGraphics",
+  "Foundation",
+  "MiddleDragCore",
+  "PackageDescription",
+  "Sentry",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "EmptyView",
+   "Settings"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

@@ -1,0 +1,151 @@
+{
+ "repo": "dleegan/Opply",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9e71cd6ee1915f3e0f983b6b9a37f1a7e240a2b7",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "dleegan",
+   "score": 0,
+   "contributions": 6
+  }
+ ],
+ "loc": 1161,
+ "custom_components": 29,
+ "imports": [
+  "CoreData",
+  "Foundation",
+  "MapKit",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "containerBackground",
+   "defaultPosition",
+   "defaultSize",
+   "environment",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "inspector",
+   "listStyle",
+   "menuBarExtraStyle",
+   "navigationTitle",
+   "opacity",
+   "padding",
+   "resizable",
+   "safeAreaInset",
+   "scaledToFit",
+   "scrollIndicators",
+   "sheet",
+   "tabItem",
+   "tag",
+   "task",
+   "textEditorStyle",
+   "textFieldStyle",
+   "toolbar",
+   "toolbarItemHidden",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "ContentUnavailableView",
+   "DatePicker",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "MenuBarExtra",
+   "NavigationLink",
+   "NavigationSplitView",
+   "NavigationView",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Section",
+   "Settings",
+   "Spacer",
+   "TabView",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption2",
+   "largeTitle",
+   "medium",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "bottom",
+   "center",
+   "default",
+   "gray",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "roundedBorder",
+   "sidebar",
+   "thinMaterial",
+   "topLeading",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FetchRequest",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 30,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 92
+}

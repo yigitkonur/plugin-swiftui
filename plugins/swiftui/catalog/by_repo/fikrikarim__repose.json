@@ -1,0 +1,116 @@
+{
+ "repo": "fikrikarim/repose",
+ "stars": 16,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "32dadd502cf59dff1e890650f11dd5ec325fbd74",
+ "platform": "macos",
+ "author_authority": 169464,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "fikrikarim",
+   "score": 169464,
+   "contributions": 57
+  }
+ ],
+ "loc": 1223,
+ "custom_components": 5,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "CoreAudio",
+  "CoreGraphics",
+  "CoreMediaIO",
+  "Foundation",
+  "IOKit",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "blur",
+   "buttonStyle",
+   "contentTransition",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "scaleEffect",
+   "stroke",
+   "trim"
+  ],
+  "types": [
+   "AngularGradient",
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "EmptyView",
+   "HStack",
+   "NSHostingView",
+   "RadialGradient",
+   "Settings",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "light",
+   "linear",
+   "medium",
+   "push",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "center",
+   "clear",
+   "horizontal",
+   "link",
+   "plain",
+   "ultraThinMaterial",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 15,
+  "valueBuilders": 10,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 58
+}

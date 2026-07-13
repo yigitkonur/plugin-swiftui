@@ -1,0 +1,93 @@
+{
+ "repo": "shaysugg/QuestionAnswerer",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e674c9d7a1979a3c12463447fe141e9f49e9f15a",
+ "platform": "other",
+ "author_authority": 63,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "shaysugg",
+   "score": 63,
+   "contributions": 8
+  }
+ ],
+ "loc": 919,
+ "custom_components": 18,
+ "imports": [
+  "Cocoa",
+  "Foundation",
+  "PackageDescription",
+  "QuestionKit",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "onAppear",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "sheet",
+   "tag",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "HStack",
+   "Image",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "title",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "green",
+   "leading",
+   "red"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 13,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 36
+}

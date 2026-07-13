@@ -1,0 +1,76 @@
+{
+ "repo": "nawazbytecraft/lottie-android",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a289cda6df3ac7d57ee61ffb129b84ee6f6bc7fd",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "nawazbytecraft",
+   "score": 0,
+   "contributions": 2489
+  }
+ ],
+ "loc": 33694,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "Alamofire",
+  "AmplitudeSwift",
+  "AuthenticationServices",
+  "CoreLocation",
+  "ExpandableCell",
+  "FSCalendar",
+  "Firebase",
+  "FirebaseMessaging",
+  "Foundation",
+  "KakaoSDKAuth",
+  "KakaoSDKCommon",
+  "KakaoSDKUser",
+  "Kingfisher",
+  "LinkPresentation",
+  "LocalAuthentication",
+  "Lottie",
+  "Moya",
+  "NMapsMap",
+  "Network",
+  "Offroad_iOS",
+  "Photos",
+  "RxCocoa",
+  "RxRelay",
+  "RxSwift",
+  "SVGKit",
+  "SafariServices",
+  "Security",
+  "SnapKit",
+  "Then",
+  "UIKit",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

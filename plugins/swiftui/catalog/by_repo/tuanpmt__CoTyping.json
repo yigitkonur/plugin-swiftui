@@ -1,0 +1,105 @@
+{
+ "repo": "tuanpmt/CoTyping",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f925360aaa6f7868a76acda0e680ccfd70aaaa27",
+ "platform": "macos",
+ "author_authority": 3261,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tuanpmt",
+   "score": 3261,
+   "contributions": 27
+  }
+ ],
+ "loc": 2493,
+ "custom_components": 14,
+ "imports": [
+  "CoTyping",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "menuBarExtraStyle",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "stroke",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Picker",
+   "RoundedRectangle",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "regular",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "green",
+   "leading",
+   "red",
+   "secondary",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 14,
+  "types": 14,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 45
+}

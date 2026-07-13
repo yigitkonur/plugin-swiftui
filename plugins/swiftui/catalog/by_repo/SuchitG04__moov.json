@@ -1,0 +1,156 @@
+{
+ "repo": "SuchitG04/moov",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7dafea96ffeb300dc934a0ca34dda3c94439db40",
+ "platform": "macos",
+ "author_authority": 25,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "SuchitG04",
+   "score": 25,
+   "contributions": 9
+  }
+ ],
+ "loc": 1637,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "MenuButton",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "modelContainer",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "scale",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle",
+   "transition"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "DatePicker",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuButton",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NSHostingController",
+   "NSHostingView",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Schema",
+   "ScrollView",
+   "Section",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "green",
+   "grouped",
+   "horizontal",
+   "leading",
+   "menu",
+   "orange",
+   "plain",
+   "primary",
+   "purple",
+   "roundedBorder",
+   "secondary",
+   "switch",
+   "top",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 30,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 21,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 99
+}

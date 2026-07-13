@@ -1,0 +1,173 @@
+{
+ "repo": "samuelbv9/SteadyFit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ac02a90defbd755c3aa215fa1aa1843b0a4320f2",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "yazzy-x",
+   "score": 0,
+   "contributions": 99
+  },
+  {
+   "login": "saurbre",
+   "score": 0,
+   "contributions": 64
+  },
+  {
+   "login": "nilishabaid",
+   "score": 0,
+   "contributions": 52
+  }
+ ],
+ "loc": 3910,
+ "custom_components": 61,
+ "imports": [
+  "Charts",
+  "Combine",
+  "CoreLocation",
+  "Firebase",
+  "FirebaseAuth",
+  "Foundation",
+  "HealthKit",
+  "SwiftUI",
+  "SwiftUICore"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "autocorrectionDisabled",
+   "background",
+   "bold",
+   "chartLegend",
+   "clipShape",
+   "contentShape",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "hidden",
+   "ignoresSafeArea",
+   "kerning",
+   "navigationBarBackButtonHidden",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "refreshable",
+   "resizable",
+   "rotationEffect",
+   "shadow",
+   "stroke",
+   "textFieldStyle",
+   "toggleStyle",
+   "tracking",
+   "trim"
+  ],
+  "types": [
+   "Button",
+   "Chart",
+   "CheckboxToggleStyle",
+   "Circle",
+   "Color",
+   "EmptyView",
+   "ForEach",
+   "Gradient",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "List",
+   "MenuPickerStyle",
+   "NavigationLink",
+   "NavigationStack",
+   "NavigationView",
+   "Path",
+   "Picker",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "RoundedRectangle",
+   "ScrollView",
+   "SectorMark",
+   "SecureField",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "custom",
+   "degrees",
+   "headline",
+   "heavy",
+   "largeTitle",
+   "linear",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "black",
+   "blue",
+   "bottom",
+   "center",
+   "default",
+   "gray",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "red",
+   "top",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 35,
+  "types": 31,
+  "valueBuilders": 11,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 99
+}

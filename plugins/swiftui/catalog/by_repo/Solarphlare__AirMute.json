@@ -1,0 +1,130 @@
+{
+ "repo": "Solarphlare/AirMute",
+ "stars": 34,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "86ee654012027210b8d8fe3feb9f0d074f84bd29",
+ "platform": "macos",
+ "author_authority": 292,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "Solarphlare",
+   "score": 292,
+   "contributions": 78
+  },
+  {
+   "login": "ferrarilucas",
+   "score": 36,
+   "contributions": 1
+  }
+ ],
+ "loc": 3713,
+ "custom_components": 20,
+ "imports": [
+  "AVFAudio",
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "NotificationCenter",
+  "ServiceManagement",
+  "Socket",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "autocorrectionDisabled",
+   "background",
+   "clipShape",
+   "disabled",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onEnded",
+   "opacity",
+   "padding",
+   "pointerStyle",
+   "resizable",
+   "simultaneousGesture",
+   "speechSpellsOutCharacters",
+   "tag",
+   "task",
+   "toolbar"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "Section",
+   "Spacer",
+   "State",
+   "TapGesture",
+   "Text",
+   "TextField",
+   "Toggle",
+   "Transaction",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "semibold",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "center",
+   "grouped",
+   "horizontal",
+   "leading",
+   "link",
+   "navigation",
+   "secondary",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 19,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 65
+}

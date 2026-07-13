@@ -1,0 +1,72 @@
+{
+ "repo": "nickustinov/itsyhome-macos",
+ "stars": 909,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "fb0cc49158c1061d1311d78c20588c871c530c0d",
+ "platform": "macos",
+ "author_authority": 202810,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "nickustinov",
+   "score": 202810,
+   "contributions": 341
+  },
+  {
+   "login": "loganprit",
+   "score": 378306,
+   "contributions": 1
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 50279,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "AppKit",
+  "Carbon",
+  "Combine",
+  "CoreLocation",
+  "CoreWLAN",
+  "Foundation",
+  "HomeKit",
+  "LiveKitWebRTC",
+  "Network",
+  "QuartzCore",
+  "Security",
+  "ServiceManagement",
+  "StoreKit",
+  "UIKit",
+  "XCTest",
+  "macOSBridge",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

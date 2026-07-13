@@ -1,0 +1,107 @@
+{
+ "repo": "markuryy/slurp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e47c8ebbfe2a3c3f5db3e28e8e1249db505fd4b7",
+ "platform": "macos",
+ "author_authority": 116120,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "markuryy",
+   "score": 116120,
+   "contributions": 8
+  }
+ ],
+ "loc": 557,
+ "custom_components": 9,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton"
+ ],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "controlSize",
+   "defaultSize",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "menuStyle",
+   "opacity",
+   "padding",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "RoundedRectangle",
+   "Section",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "borderless",
+   "borderlessButton",
+   "bottom",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "secondary",
+   "ultraThinMaterial",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 54
+}

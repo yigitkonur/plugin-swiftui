@@ -1,0 +1,26 @@
+# curr-06 (structural): an inline-destination NavigationLink — `NavigationLink(…, destination: …)` —
+# located INSIDE a `List { … }` or `ForEach(…) { … }`. There it eagerly builds every destination up
+# front and breaks value-based navigation; the current idiom is `NavigationLink(value:)` +
+# `.navigationDestination(for:)`. grep can see the `destination:` label but CANNOT prove the containment;
+# this anchors on the call_expression and requires the enclosing List/ForEach. READ to confirm.
+id: curr-06-inline-navlink-in-list
+language: Swift
+severity: warning
+message: >-
+  curr-06: an inline-destination `NavigationLink(destination:)` inside a `List`/`ForEach` (eager build,
+  breaks value-based nav). Move to `NavigationLink(value:)` + `.navigationDestination(for:)`. READ to confirm.
+rule:
+  kind: call_expression
+  all:
+    - has:
+        stopBy: end
+        regex: 'NavigationLink'
+    - has:
+        stopBy: end
+        regex: 'destination:'
+    - inside:
+        stopBy: end
+        any:
+          - pattern: List { $$$LBODY }
+          - pattern: List($$$LARGS) { $$$LBODY2 }
+          - pattern: ForEach($$$FARGS) { $$$FBODY }

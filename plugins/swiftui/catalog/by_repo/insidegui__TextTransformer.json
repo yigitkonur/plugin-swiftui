@@ -1,0 +1,103 @@
+{
+ "repo": "insidegui/TextTransformer",
+ "stars": 104,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "985efd0eb48650b996b1b28c3d3ced0c186929fd",
+ "platform": "other",
+ "author_authority": 42485,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "insidegui",
+   "score": 42485,
+   "contributions": 10
+  },
+  {
+   "login": "pvieito",
+   "score": 2438,
+   "contributions": 1
+  }
+ ],
+ "loc": 703,
+ "custom_components": 22,
+ "imports": [
+  "Cocoa",
+  "ExtensionFoundation",
+  "ExtensionKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "TextTransformerSDK"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "foregroundColor",
+   "formStyle",
+   "frame",
+   "help",
+   "imageScale",
+   "keyboardShortcut",
+   "labelsHidden",
+   "onAppear",
+   "padding",
+   "popover",
+   "progressViewStyle",
+   "redacted",
+   "tag",
+   "task"
+  ],
+  "types": [
+   "Button",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "NSHostingView",
+   "Picker",
+   "ProgressView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "center"
+  ],
+  "macros": [],
+  "styleValues": [
+   "circular",
+   "grouped",
+   "placeholder",
+   "plain"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 40
+}

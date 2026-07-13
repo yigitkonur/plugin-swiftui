@@ -1,0 +1,123 @@
+{
+ "repo": "teamniteo/work-hours-mac",
+ "stars": 72,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "46989f26a5e3a5a04c2fdf11b7d3a957d34051ef",
+ "platform": "macos",
+ "author_authority": 82807,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "dz0ny",
+   "score": 90335,
+   "contributions": 22
+  },
+  {
+   "login": "dmurko",
+   "score": 123,
+   "contributions": 1
+  },
+  {
+   "login": "majarovtar",
+   "score": 760,
+   "contributions": 1
+  }
+ ],
+ "loc": 1043,
+ "custom_components": 20,
+ "imports": [
+  "AppKit",
+  "AppUpdater",
+  "Cocoa",
+  "Defaults",
+  "Foundation",
+  "LaunchAtLogin",
+  "SwiftCSV",
+  "SwiftUI",
+  "Work_Hours",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "frame",
+   "multilineTextAlignment",
+   "onAppear",
+   "opacity",
+   "padding",
+   "preferredColorScheme",
+   "resizable",
+   "scaleEffect",
+   "tabItem",
+   "tag",
+   "transition"
+  ],
+  "types": [
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "NSHostingView",
+   "Picker",
+   "ProgressView",
+   "Section",
+   "Settings",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "slide",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 17,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 50
+}

@@ -1,0 +1,106 @@
+{
+ "repo": "guppy57/gitbar-mac",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c530219ef7c3f0b132f3061aec946b586b2798ad",
+ "platform": "macos",
+ "author_authority": 5,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "guppy57",
+   "score": 5,
+   "contributions": 22
+  }
+ ],
+ "loc": 991,
+ "custom_components": 15,
+ "imports": [
+  "Combine",
+  "Defaults",
+  "Foundation",
+  "GitBar",
+  "LaunchAtLogin",
+  "Luminare",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "font",
+   "frame",
+   "keyboardShortcut",
+   "menuStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onHover",
+   "padding",
+   "renderingMode",
+   "resizable",
+   "transition"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LocalizedStringKey",
+   "Menu",
+   "MenuBarExtra",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "easeInOut",
+   "headline",
+   "push",
+   "regular",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "balanced",
+   "borderlessButton",
+   "bottom",
+   "leading"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 13,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 6,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 46
+}

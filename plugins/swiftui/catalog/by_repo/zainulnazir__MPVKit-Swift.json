@@ -1,0 +1,52 @@
+{
+ "repo": "zainulnazir/MPVKit-Swift",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4340486f0454d4ab4ddad7a717f53ef6d867e229",
+ "platform": "macos",
+ "author_authority": 27,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zainulnazir",
+   "score": 27,
+   "contributions": 3
+  }
+ ],
+ "loc": 507,
+ "custom_components": 1,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "MPVKit",
+  "OpenGL",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 1
+}

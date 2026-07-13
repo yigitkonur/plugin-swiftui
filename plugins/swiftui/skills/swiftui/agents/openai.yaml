@@ -1,0 +1,6 @@
+interface:
+  display_name: "SwiftUI Lookup"
+  short_description: "Find real production usage for a SwiftUI API"
+  default_prompt: "Use $swiftui to look up production usage for this SwiftUI API or intent."
+policy:
+  allow_implicit_invocation: false

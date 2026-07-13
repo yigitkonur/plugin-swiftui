@@ -1,0 +1,129 @@
+{
+ "repo": "djchittoor/Purrl",
+ "stars": 9,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0170a9ed84c2c17f5a3125e5843a4191647fb455",
+ "platform": "macos",
+ "author_authority": 34,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "djchittoor",
+   "score": 34,
+   "contributions": 34
+  },
+  {
+   "login": "sourajitk",
+   "score": 155,
+   "contributions": 1
+  }
+ ],
+ "loc": 1661,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "Purrl",
+  "ServiceManagement",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onSubmit",
+   "padding",
+   "pickerStyle",
+   "sizeThatFits",
+   "tag",
+   "textFieldStyle",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "caption2",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "green",
+   "grouped",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "quaternary",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 21,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 66
+}

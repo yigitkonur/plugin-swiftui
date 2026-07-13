@@ -1,0 +1,91 @@
+{
+ "repo": "KisooKim/Leo",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "355776ac2da9931e77e1d2640cae1dfed3d18973",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KisooKim",
+   "score": 1,
+   "contributions": 24
+  }
+ ],
+ "loc": 2053,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "HotKey",
+  "Leo",
+  "ServiceManagement",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "HStack",
+   "NSHostingController",
+   "Picker",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "center",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "leading",
+   "menu",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "topLeading",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 10,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 36
+}

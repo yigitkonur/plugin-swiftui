@@ -1,0 +1,100 @@
+{
+ "repo": "jbgosselin/audio-device-blocker",
+ "stars": 22,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "369693bf6cd69671a0648acb2a52fc645ac7f8fe",
+ "platform": "macos",
+ "author_authority": 49,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jbgosselin",
+   "score": 49,
+   "contributions": 58
+  }
+ ],
+ "loc": 1034,
+ "custom_components": 12,
+ "imports": [
+  "CoreAudio",
+  "CoreData",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "disabled",
+   "environment",
+   "fixedSize",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "onChange",
+   "padding",
+   "tabItem",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Label",
+   "List",
+   "Menu",
+   "MenuBarExtra",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "thin",
+   "ultraLight"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "secondary",
+   "switch"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "FetchRequest",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 16,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 2,
+  "propertyWrappers": 7,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 41
+}

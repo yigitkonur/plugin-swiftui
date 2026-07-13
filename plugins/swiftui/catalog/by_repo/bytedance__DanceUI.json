@@ -1,0 +1,86 @@
+{
+ "repo": "bytedance/DanceUI",
+ "stars": 368,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d3fae2b898ccadbd8afbfb4d48eb98301c7aa59a",
+ "platform": "macos",
+ "author_authority": 22143,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "oss-bd",
+   "score": 44286,
+   "contributions": 1
+  },
+  {
+   "login": "wanshengBytedance",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 194884,
+ "custom_components": 0,
+ "imports": [
+  "Accelerate",
+  "AppKit",
+  "CompilerPluginSupport",
+  "CoreFoundation",
+  "CoreGraphics",
+  "CoreText",
+  "DanceUI",
+  "DanceUIGraph",
+  "DanceUIObservation",
+  "DanceUIObservationMacroImpl",
+  "DanceUIRuntime",
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "Glibc",
+  "MSVCRT",
+  "MachO",
+  "MyShims",
+  "OSLog",
+  "ObjectiveC",
+  "OpenCombine",
+  "OpenCombineDispatch",
+  "OpenCombineFoundation",
+  "PackageDescription",
+  "QuartzCore",
+  "Resolver",
+  "SwiftCompilerPlugin",
+  "SwiftDiagnostics",
+  "SwiftOperators",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacros",
+  "SwiftSyntaxMacrosTestSupport",
+  "UIKit",
+  "WinSDK",
+  "XCTest",
+  "_SwiftOSOverlayShims",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

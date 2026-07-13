@@ -1,0 +1,79 @@
+{
+ "repo": "wdkk/LilySwift",
+ "stars": 12,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "39f63529bd0606cd410801ef1afa1eaf53f48fe4",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "wdkk-kengo",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 39724,
+ "custom_components": 4,
+ "imports": [
+  "AVFoundation",
+  "Accelerate",
+  "AppKit",
+  "CompositorServices",
+  "Compression",
+  "CoreGraphics",
+  "CoreVideo",
+  "Darwin",
+  "Foundation",
+  "LilySwift",
+  "Metal",
+  "MetalKit",
+  "PackageDescription",
+  "QuartzCore",
+  "Spatial",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "simd",
+  "zlib"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "frame",
+   "onAppear",
+   "onChange",
+   "onDisappear"
+  ],
+  "types": [
+   "GeometryReader"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "background",
+   "clear"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 11
+}

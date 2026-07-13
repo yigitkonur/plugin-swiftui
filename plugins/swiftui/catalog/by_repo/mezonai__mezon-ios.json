@@ -1,0 +1,94 @@
+{
+ "repo": "mezonai/mezon-ios",
+ "stars": 313,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "eaf4870191663beaae915f6ad39d8b8b7e06fa3f",
+ "platform": "other",
+ "author_authority": 1505,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "phuocnguyenncc",
+   "score": 2121,
+   "contributions": 318
+  },
+  {
+   "login": "thanhlichncc",
+   "score": 2107,
+   "contributions": 110
+  },
+  {
+   "login": "hoangtranlehuy",
+   "score": 1795,
+   "contributions": 20
+  }
+ ],
+ "loc": 184767,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Accelerate",
+  "AsyncDisplayKit",
+  "AudioToolbox",
+  "CallKit",
+  "Combine",
+  "CoreGraphics",
+  "CoreHaptics",
+  "CoreImage",
+  "CoreLocation",
+  "CoreMedia",
+  "CoreText",
+  "CryptoKit",
+  "Darwin",
+  "FirebaseCore",
+  "FirebaseMessaging",
+  "Foundation",
+  "ImageIO",
+  "LiveKit",
+  "LiveKitWebRTC",
+  "MapKit",
+  "MediaPlayer",
+  "MetalKit",
+  "MobileCoreServices",
+  "MobileVLCKit",
+  "Network",
+  "ObjectiveC",
+  "Photos",
+  "PhotosUI",
+  "PushKit",
+  "QuartzCore",
+  "Security",
+  "Sentry",
+  "SwiftProtobuf",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "os",
+  "zlib"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

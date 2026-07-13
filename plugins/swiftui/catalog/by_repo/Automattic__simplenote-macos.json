@@ -1,0 +1,124 @@
+{
+ "repo": "Automattic/simplenote-macos",
+ "stars": 1548,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b44bf0610f10b7770d980891dd3f5dabc5103d80",
+ "platform": "macos",
+ "author_authority": 28200,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "charliescheer",
+   "score": 1,
+   "contributions": 510
+  },
+  {
+   "login": "mokagio",
+   "score": 82209,
+   "contributions": 389
+  },
+  {
+   "login": "roundhill",
+   "score": 21,
+   "contributions": 235
+  }
+ ],
+ "loc": 21322,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "AutomatticTracks",
+  "Cocoa",
+  "CoreData",
+  "CoreSpotlight",
+  "Foundation",
+  "Intents",
+  "PackageDescription",
+  "Simperium",
+  "Simplenote",
+  "SimplenoteEndpoints",
+  "SimplenoteFoundation",
+  "SimplenoteInterlinks",
+  "SimplenoteSearch",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "controlSize",
+   "environment",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onHover",
+   "onReceive",
+   "padding",
+   "progressViewStyle",
+   "renderingMode",
+   "scaleEffect",
+   "transition"
+  ],
+  "types": [
+   "CircularProgressViewStyle",
+   "Color",
+   "Image",
+   "NSHostingController",
+   "PlainButtonStyle",
+   "ProgressView",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "light",
+   "spring",
+   "system",
+   "title",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "center",
+   "gray",
+   "hidden",
+   "top",
+   "white"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 8,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 1,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 43
+}

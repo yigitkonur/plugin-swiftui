@@ -1,0 +1,27 @@
+# doc-03 (structural): a type conforming to ReferenceFileDocument that has NO snapshot(contentType:)
+# method. ReferenceFileDocument requires `func snapshot(contentType:) throws -> Snapshot` — without it the
+# type does not compile (or, if the conformance is via an extension elsewhere, the write is incomplete).
+# grep can locate the `ReferenceFileDocument` string but CANNOT prove the snapshot method is absent from the
+# declaration — that is a containment/relational check. Anchor on the class declaration. READ to confirm the
+# snapshot is not satisfied by an extension before reporting.
+id: doc-03-reference-missing-snapshot
+language: Swift
+severity: error
+message: >-
+  doc-03: a ReferenceFileDocument type has no `func snapshot(contentType:)` in its declaration. The protocol
+  requires snapshot(contentType:) (+ fileWrapper(snapshot:configuration:)) or the document cannot be written.
+  READ to confirm it is not provided in an extension, then add it. fix_mode: flag-only.
+rule:
+  kind: class_declaration
+  all:
+    - has:
+        kind: inheritance_specifier
+        stopBy: end
+        regex: ReferenceFileDocument
+    - not:
+        has:
+          kind: function_declaration
+          stopBy: end
+          has:
+            kind: simple_identifier
+            regex: ^snapshot$

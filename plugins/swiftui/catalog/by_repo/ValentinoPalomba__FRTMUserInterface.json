@@ -1,0 +1,76 @@
+{
+ "repo": "ValentinoPalomba/FRTMUserInterface",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fc43a9487ccbed021b5f52d952d8153096dd1d59",
+ "platform": "macos",
+ "author_authority": 84,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ValentinoPalomba",
+   "score": 84,
+   "contributions": 4
+  },
+  {
+   "login": "Valentino-Palomba-00",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 499,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "FRTMUserInterface",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "Testing",
+  "UIKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "environment",
+   "environmentObject",
+   "navigationDestination",
+   "navigationTitle",
+   "sheet"
+  ],
+  "types": [
+   "Button",
+   "NavigationPath",
+   "NavigationStack",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "push"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "Observable",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 5,
+  "types": 5,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 0,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 16
+}

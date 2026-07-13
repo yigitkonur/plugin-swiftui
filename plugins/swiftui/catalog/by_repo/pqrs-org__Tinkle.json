@@ -1,0 +1,129 @@
+{
+ "repo": "pqrs-org/Tinkle",
+ "stars": 99,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91c8ddce82723132302543756a71880da0ed881a",
+ "platform": "macos",
+ "author_authority": 25217,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "tekezo",
+   "score": 25217,
+   "contributions": 413
+  }
+ ],
+ "loc": 2152,
+ "custom_components": 33,
+ "imports": [
+  "AXSwift",
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "MetalKit",
+  "OSLog",
+  "PackageDescription",
+  "ServiceManagement",
+  "SettingsAccess",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "border",
+   "controlSize",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelStyle",
+   "modifier",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scenePadding",
+   "stroke",
+   "tabItem",
+   "tag",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingView",
+   "Picker",
+   "RoundedRectangle",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "StateObject",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "borderless",
+   "center",
+   "clear",
+   "gray",
+   "leading",
+   "menu",
+   "switch",
+   "titleAndIcon",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "displayScale"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 20,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 8,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 66
+}

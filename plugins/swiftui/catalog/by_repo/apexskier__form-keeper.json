@@ -1,0 +1,115 @@
+{
+ "repo": "apexskier/form-keeper",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ecc282af4c8fe722f7e2c9de68ed2a764b511174",
+ "platform": "macos",
+ "author_authority": 65929,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "apexskier",
+   "score": 65929,
+   "contributions": 74
+  }
+ ],
+ "loc": 618,
+ "custom_components": 30,
+ "imports": [
+  "MarkdownUI",
+  "SafariServices",
+  "SwiftUI",
+  "UIKit",
+  "os"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "aspectRatio",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "defaultPosition",
+   "fill",
+   "fixedSize",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "modifier",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "resizable",
+   "shadow",
+   "sheet",
+   "tabItem",
+   "windowResizability"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Tab",
+   "TabView",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "bordered",
+   "center",
+   "circular",
+   "firstTextBaseline",
+   "gray",
+   "leading",
+   "plain",
+   "primary"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ScaledMetric",
+   "State"
+  ],
+  "environmentKeys": [
+   "appearsActive"
+  ]
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 20,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

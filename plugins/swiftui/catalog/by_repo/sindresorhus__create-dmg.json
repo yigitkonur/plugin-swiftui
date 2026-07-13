@@ -1,0 +1,59 @@
+{
+ "repo": "sindresorhus/create-dmg",
+ "stars": 5306,
+ "categories": [
+  "Frameworks For Hybrid Applications"
+ ],
+ "sha": "0da89d104885daf019498a17da6e1c0203c2a9ed",
+ "platform": "other",
+ "author_authority": 1013769,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "sindresorhus",
+   "score": 1013769,
+   "contributions": 74
+  },
+  {
+   "login": "Cykelero",
+   "score": 119761,
+   "contributions": 4
+  },
+  {
+   "login": "gsabran",
+   "score": 275590,
+   "contributions": 2
+  }
+ ],
+ "loc": 206,
+ "custom_components": 0,
+ "imports": [
+  "CoreGraphics",
+  "CoreImage",
+  "Foundation",
+  "ImageIO",
+  "PackageDescription",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

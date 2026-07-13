@@ -1,0 +1,128 @@
+{
+ "repo": "Pallepadehat/Ida",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "58d31f157ad0e1cb465f04dad30f5820174ce411",
+ "platform": "macos",
+ "author_authority": 169,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Pallepadehat",
+   "score": 169,
+   "contributions": 4
+  }
+ ],
+ "loc": 1727,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "AudioToolbox",
+  "Combine",
+  "CoreAudio",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "labelsHidden",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scrollContentBackground",
+   "scrollIndicators",
+   "tag",
+   "task"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "MenuBarExtra",
+   "Picker",
+   "ProgressView",
+   "Rectangle",
+   "ScrollView",
+   "Section",
+   "Slider",
+   "Spacer",
+   "State",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "grouped",
+   "hidden",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "primary",
+   "red",
+   "regularMaterial",
+   "secondary",
+   "trailing",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 23,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 72
+}

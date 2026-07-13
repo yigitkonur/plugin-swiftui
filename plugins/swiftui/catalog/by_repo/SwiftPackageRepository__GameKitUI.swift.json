@@ -1,0 +1,131 @@
+{
+ "repo": "SwiftPackageRepository/GameKitUI.swift",
+ "stars": 52,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c45b93d6b20642e63c5ff2ec5ee19e3d28bc27e1",
+ "platform": "other",
+ "author_authority": 66,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "smuellner",
+   "score": 72,
+   "contributions": 64
+  },
+  {
+   "login": "javawag",
+   "score": 70,
+   "contributions": 3
+  },
+  {
+   "login": "pawello2222",
+   "score": 1215,
+   "contributions": 2
+  }
+ ],
+ "loc": 3856,
+ "custom_components": 59,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "GameKit",
+  "GameKitUI",
+  "GameKitUITests",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "Alert",
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "imageScale",
+   "navigationTitle",
+   "onAppear",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "resizable",
+   "shadow",
+   "sheet",
+   "toolbar"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "NavigationLink",
+   "NavigationView",
+   "Rectangle",
+   "ScrollView",
+   "Text",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "custom",
+   "footnote",
+   "headline",
+   "medium",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "center",
+   "default",
+   "leading",
+   "primary",
+   "secondary",
+   "top"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 17,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 56
+}

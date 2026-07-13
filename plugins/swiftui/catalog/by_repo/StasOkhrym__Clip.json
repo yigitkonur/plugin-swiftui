@@ -1,0 +1,91 @@
+{
+ "repo": "StasOkhrym/Clip",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4c6e1b66ca7fb6364522b5266c50b5ec17fdef50",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "StasOkhrym",
+   "score": 2,
+   "contributions": 40
+  }
+ ],
+ "loc": 800,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Clip",
+  "Cocoa",
+  "Combine",
+  "HotKey",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "cornerRadius",
+   "environmentObject",
+   "font",
+   "frame",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "resizable"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "Group",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "headline",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "top",
+   "topLeading",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 10,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 6,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 36
+}

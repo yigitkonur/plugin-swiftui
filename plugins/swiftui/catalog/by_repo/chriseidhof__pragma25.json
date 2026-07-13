@@ -1,0 +1,92 @@
+{
+ "repo": "chriseidhof/pragma25",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a1849afad9d124213787e35154c9f3f26ea1dc95",
+ "platform": "other",
+ "author_authority": 380083,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "chriseidhof",
+   "score": 380083,
+   "contributions": 9
+  }
+ ],
+ "loc": 2855,
+ "custom_components": 4,
+ "imports": [
+  "Cocoa",
+  "Darwin",
+  "Diagrams",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI",
+  "Terminal",
+  "Testing"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "contentShape",
+   "copyable",
+   "foregroundColor",
+   "foregroundStyle",
+   "id",
+   "monospaced",
+   "onTapGesture",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Color",
+   "Edge",
+   "EnvironmentValues",
+   "ForEach",
+   "HStack",
+   "LabeledContent",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "light"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "cyan",
+   "gray",
+   "green",
+   "leading",
+   "pink",
+   "primary",
+   "roundedBorder",
+   "top",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 10,
+  "types": 11,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 34
+}

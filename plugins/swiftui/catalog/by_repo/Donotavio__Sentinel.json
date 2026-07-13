@@ -1,0 +1,118 @@
+{
+ "repo": "Donotavio/Sentinel",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0ce92f6d6c803313449638ac63471287d9d1a052",
+ "platform": "macos",
+ "author_authority": 59639,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Donotavio",
+   "score": 59639,
+   "contributions": 11
+  }
+ ],
+ "loc": 1692,
+ "custom_components": 23,
+ "imports": [
+  "Darwin",
+  "Dispatch",
+  "Foundation",
+  "Glibc",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "edgesIgnoringSafeArea",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "mask",
+   "onAppear",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "position",
+   "preferredColorScheme",
+   "previewLayout",
+   "rotationEffect",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "trim",
+   "windowStyle"
+  ],
+  "types": [
+   "Circle",
+   "Color",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "GridItem",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "LazyVGrid",
+   "LinearGradient",
+   "Path",
+   "RoundedRectangle",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "degrees",
+   "headline",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "bottom",
+   "bottomTrailing",
+   "cyan",
+   "gray",
+   "horizontal",
+   "leading",
+   "purple",
+   "top",
+   "topLeading",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 19,
+  "valueBuilders": 7,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 61
+}

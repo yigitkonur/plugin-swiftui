@@ -1,0 +1,143 @@
+{
+ "repo": "1989v/muxbar",
+ "stars": 13,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "17ff17c6387d8b9be239237f1955b6a2091d52c6",
+ "platform": "macos",
+ "author_authority": 134041,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "1989v",
+   "score": 134041,
+   "contributions": 141
+  }
+ ],
+ "loc": 5062,
+ "custom_components": 23,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Core",
+  "Darwin",
+  "Features",
+  "Foundation",
+  "HotKey",
+  "IOKit",
+  "Logging",
+  "MuxLogging",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftTerm",
+  "SwiftUI",
+  "TerminalLauncher",
+  "TmuxKit",
+  "UserNotifications",
+  "XCTest",
+  "Yams",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "menuStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onReceive",
+   "onTapGesture",
+   "padding",
+   "popover",
+   "scaleEffect",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "Picker",
+   "ProgressView",
+   "Rectangle",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "caption2",
+   "headline",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderlessButton",
+   "checkbox",
+   "green",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "plain",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "vertical",
+   "window",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 21,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 73
+}

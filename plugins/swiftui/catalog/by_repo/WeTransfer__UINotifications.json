@@ -1,0 +1,61 @@
+{
+ "repo": "WeTransfer/UINotifications",
+ "stars": 399,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d90af7af3035e3d20eb79230aaf6879b5eab7afd",
+ "platform": "other",
+ "author_authority": 29383,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "AvdLee",
+   "score": 34676,
+   "contributions": 161
+  },
+  {
+   "login": "samuelbeek",
+   "score": 222,
+   "contributions": 18
+  },
+  {
+   "login": "raphkoebraam",
+   "score": 771,
+   "contributions": 11
+  }
+ ],
+ "loc": 1894,
+ "custom_components": 0,
+ "imports": [
+  "ConcurrencyExtras",
+  "Danger",
+  "Foundation",
+  "PackageDescription",
+  "UIKit",
+  "UINotifications",
+  "WeTransferPRLinter",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

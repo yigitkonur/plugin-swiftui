@@ -1,0 +1,56 @@
+{
+ "repo": "makoni/swift-adwaita",
+ "stars": 7,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fccac15277fdf38aaf68d2e088caeb01f64f8945",
+ "platform": "other",
+ "author_authority": 7282,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "makoni",
+   "score": 7282,
+   "contributions": 208
+  }
+ ],
+ "loc": 63216,
+ "custom_components": 0,
+ "imports": [
+  "Adwaita",
+  "CAdwaita",
+  "CGtkSource",
+  "CWebKit",
+  "Darwin",
+  "DemoAppLib",
+  "Foundation",
+  "FoundationXML",
+  "GObjectSupport",
+  "Glibc",
+  "PackageDescription",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

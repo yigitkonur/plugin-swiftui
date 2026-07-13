@@ -1,0 +1,97 @@
+{
+ "repo": "oblador/hush",
+ "stars": 3644,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7c1eba784bff0f94c1121fa179cf57a58966d4aa",
+ "platform": "macos",
+ "author_authority": 224064,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "oblador",
+   "score": 224064,
+   "contributions": 85
+  },
+  {
+   "login": "daniel-lundin",
+   "score": 6232,
+   "contributions": 1
+  },
+  {
+   "login": "dbarrosop",
+   "score": 19295,
+   "contributions": 1
+  }
+ ],
+ "loc": 398,
+ "custom_components": 16,
+ "imports": [
+  "Foundation",
+  "SafariServices",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "background",
+   "bold",
+   "commands",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onReceive",
+   "padding",
+   "renderingMode",
+   "resizable",
+   "underline",
+   "windowStyle"
+  ],
+  "types": [
+   "AnyView",
+   "CommandGroup",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Link",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "leading",
+   "primary"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 11,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 3,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 33
+}

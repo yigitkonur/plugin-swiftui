@@ -1,0 +1,98 @@
+{
+ "repo": "oliver-cameron/Collinear",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "54d6fdd2bcb4b54ed741348f6a62b7bfa6e21a36",
+ "platform": "other",
+ "author_authority": 9,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "oliver-cameron",
+   "score": 9,
+   "contributions": 2
+  }
+ ],
+ "loc": 654,
+ "custom_components": 12,
+ "imports": [
+  "AVKit",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "blendMode",
+   "compositingGroup",
+   "fill",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "ignoresSafeArea",
+   "modifier",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onChanged",
+   "onDisappear",
+   "opacity",
+   "padding",
+   "position",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "zIndex"
+  ],
+  "types": [
+   "Circle",
+   "Color",
+   "DragGesture",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Path",
+   "Rectangle",
+   "StrokeShapeView",
+   "StrokeStyle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Model",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 13,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 43
+}

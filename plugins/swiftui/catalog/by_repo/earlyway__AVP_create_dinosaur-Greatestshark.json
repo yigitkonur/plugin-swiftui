@@ -1,0 +1,76 @@
+{
+ "repo": "earlyway/AVP_create_dinosaur-Greatestshark",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c9accc00101582de4e621ed56b049fe896a7e010",
+ "platform": "macos",
+ "author_authority": 7,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "earlyway",
+   "score": 7,
+   "contributions": 3
+  }
+ ],
+ "loc": 311,
+ "custom_components": 8,
+ "imports": [
+  "Foundation",
+  "PackageDescription",
+  "RealityKit",
+  "RealityKitContent",
+  "SwiftUI",
+  "XCTest",
+  "_d3d"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "foregroundStyle",
+   "frame",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Image",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "plain",
+   "teal"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissImmersiveSpace",
+   "openImmersiveSpace"
+  ]
+ },
+ "counts": {
+  "modifiers": 6,
+  "types": 6,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 2,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 20
+}

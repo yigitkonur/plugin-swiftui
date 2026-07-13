@@ -1,0 +1,156 @@
+{
+ "repo": "SDWebImage/SDWebImageSwiftUI",
+ "stars": 2544,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d1f7b2b48ef9dfbcea42c27dccff55f3eac5a28f",
+ "platform": "other",
+ "author_authority": 28633,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "dreampiggy",
+   "score": 28936,
+   "contributions": 567
+  },
+  {
+   "login": "master-nevi",
+   "score": 515,
+   "contributions": 3
+  },
+  {
+   "login": "cci-rmirza",
+   "score": 0,
+   "contributions": 3
+  }
+ ],
+ "loc": 3448,
+ "custom_components": 40,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SDWebImage",
+  "SDWebImageAVIFCoder",
+  "SDWebImagePDFCoder",
+  "SDWebImageSVGCoder",
+  "SDWebImageSwiftUI",
+  "SDWebImageWebPCoder",
+  "SwiftUI",
+  "UIKit",
+  "ViewInspector",
+  "WatchKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "MagnificationGesture",
+  "NavigationView",
+  "navigationBarTitle"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "antialiased",
+   "aspectRatio",
+   "buttonStyle",
+   "clipShape",
+   "contextMenu",
+   "environment",
+   "environmentObject",
+   "focusable",
+   "frame",
+   "gesture",
+   "id",
+   "interpolation",
+   "listStyle",
+   "modifier",
+   "navigationBarTitle",
+   "navigationTitle",
+   "onAppear",
+   "onChanged",
+   "onDisappear",
+   "onEnded",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "progressViewStyle",
+   "renderingMode",
+   "resizable",
+   "scaleEffect",
+   "scaledToFit",
+   "toolbar",
+   "transition"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "Circle",
+   "EdgeInsets",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "List",
+   "MagnificationGesture",
+   "NSHostingView",
+   "NavigationLink",
+   "NavigationView",
+   "ObservedObject",
+   "PlainButtonStyle",
+   "ProgressView",
+   "RoundedRectangle",
+   "SidebarListStyle",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "Transaction",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "asymmetric",
+   "center",
+   "easeInOut",
+   "medium"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "circular",
+   "default",
+   "fill",
+   "leading",
+   "none",
+   "top",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State",
+   "StateObject",
+   "UIApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 27,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 79
+}

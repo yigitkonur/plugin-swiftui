@@ -1,0 +1,83 @@
+{
+ "repo": "velocityzen/Wool",
+ "stars": 10,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "25d3e5fef3081a473aefb6d3d804b918544a6e8e",
+ "platform": "macos",
+ "author_authority": 198,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "velocityzen",
+   "score": 198,
+   "contributions": 53
+  }
+ ],
+ "loc": 548,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "SwiftUI",
+  "Testing",
+  "Wool",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "disabled",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "labelStyle",
+   "padding"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "footnote"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "bottom",
+   "titleAndIcon",
+   "top"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 9,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 4,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 27
+}

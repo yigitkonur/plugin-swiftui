@@ -1,0 +1,97 @@
+{
+ "repo": "alcortazzo/Krapka",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d2a12ca6e00aef7d95d80226b1098434f7c2e5ba",
+ "platform": "macos",
+ "author_authority": 10646,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "alcortazzo",
+   "score": 10646,
+   "contributions": 20
+  }
+ ],
+ "loc": 338,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Charts",
+  "Combine",
+  "Foundation",
+  "Network",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "chartXAxis",
+   "chartYAxis",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "monospaced",
+   "padding"
+  ],
+  "types": [
+   "AxisGridLine",
+   "AxisMarks",
+   "AxisTick",
+   "AxisValueLabel",
+   "Button",
+   "Chart",
+   "Divider",
+   "ForEach",
+   "Gradient",
+   "HStack",
+   "LineMark",
+   "LinearGradient",
+   "Menu",
+   "NSHostingController",
+   "RuleMark",
+   "Settings",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption"
+  ],
+  "macros": [],
+  "styleValues": [
+   "automatic",
+   "background",
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "leading",
+   "purple",
+   "red",
+   "top",
+   "trailing",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 20,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 13,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 43
+}

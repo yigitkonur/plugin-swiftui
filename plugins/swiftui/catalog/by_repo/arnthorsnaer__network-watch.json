@@ -1,0 +1,111 @@
+{
+ "repo": "arnthorsnaer/network-watch",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8107cd7928102ba43aefcbd0f366f7da4a353863",
+ "platform": "macos",
+ "author_authority": 81,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "arnthorsnaer",
+   "score": 81,
+   "contributions": 11
+  }
+ ],
+ "loc": 778,
+ "custom_components": 9,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "commands",
+   "controlSize",
+   "disabled",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "offset",
+   "onAppear",
+   "onReceive",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tag",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "CommandGroup",
+   "DataStore",
+   "Divider",
+   "ForEach",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Label",
+   "Picker",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "green",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "segmented",
+   "titleBar",
+   "top",
+   "topLeading",
+   "unified",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 18,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

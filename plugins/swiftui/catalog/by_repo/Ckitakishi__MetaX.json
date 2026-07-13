@@ -1,0 +1,57 @@
+{
+ "repo": "Ckitakishi/MetaX",
+ "stars": 219,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a44093e58b86e5af63d72ac52e2fb6610e57af72",
+ "platform": "other",
+ "author_authority": 257,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Ckitakishi",
+   "score": 257,
+   "contributions": 64
+  }
+ ],
+ "loc": 15366,
+ "custom_components": 0,
+ "imports": [
+  "CoreImage",
+  "CoreLocation",
+  "Foundation",
+  "ImageIO",
+  "MapKit",
+  "MetaX",
+  "Observation",
+  "Photos",
+  "PhotosUI",
+  "StoreKit",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

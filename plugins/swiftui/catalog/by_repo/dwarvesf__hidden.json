@@ -1,0 +1,59 @@
+{
+ "repo": "dwarvesf/hidden",
+ "stars": 14116,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "a971149e7a662c5a37e3ef7b8c9864c52bb2cc20",
+ "platform": "macos",
+ "author_authority": 6670,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "phucledien",
+   "score": 14174,
+   "contributions": 32
+  },
+  {
+   "login": "siliconprime-thanhduc",
+   "score": 0,
+   "contributions": 20
+  },
+  {
+   "login": "viettrungphan",
+   "score": 57,
+   "contributions": 16
+  }
+ ],
+ "loc": 1410,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Foundation",
+  "HotKey",
+  "ServiceManagement"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

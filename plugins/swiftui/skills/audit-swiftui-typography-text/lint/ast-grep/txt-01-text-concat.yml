@@ -1,0 +1,20 @@
+# txt-01 (structural): a `Text(...) + Text(...)` concatenation, including the MULTI-LINE form a flat grep
+# cannot anchor (the `+` and the second `Text(` land on different lines). The `Text` `+` operator is
+# DEPRECATED at macOS 26.0 → build one `Text` from an `AttributedString` (AttributeContainer) or string
+# interpolation. The tier-1 grep tell catches the single-line case; this catches the rest. READ the file
+# to confirm both operands are `Text` (not a numeric `+`) — the engine only LOCATES. cross_ref api-currency.
+id: txt-01-text-concat
+language: Swift
+severity: warning
+message: >-
+  txt-01: Text + Text concatenation is deprecated at macOS 26.0. Compose one Text from an AttributedString
+  (AttributeContainer) or string interpolation instead. READ the file to confirm both sides are Text.
+# Anchored on `additive_expression`: a `+` whose subtree contains a `Text(...)` call. `Text` never takes
+# part in arithmetic, so a `Text` under a `+` is a concatenation (the multi-line / `.bold()`-modified forms
+# the tier-1 grep can't anchor). The Swift tree-sitter grammar does not name the left/right fields, so we
+# anchor on the kind + a `Text(...)` descendant and let the agent READ to confirm both operands are Text.
+rule:
+  kind: additive_expression
+  has:
+    pattern: Text($$$ARGS)
+    stopBy: end

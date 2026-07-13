@@ -1,0 +1,97 @@
+{
+ "repo": "KC-2001MS/SwiftStorage",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fffc927eb862bda57eed0f2ee2f7eab88eebded6",
+ "platform": "macos",
+ "author_authority": 56,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KC-2001MS",
+   "score": 56,
+   "contributions": 26
+  }
+ ],
+ "loc": 4793,
+ "custom_components": 4,
+ "imports": [
+  "CompilerPluginSupport",
+  "Foundation",
+  "Hashify",
+  "MacroTesting",
+  "Observation",
+  "PackageDescription",
+  "SwiftCompilerPlugin",
+  "SwiftDiagnostics",
+  "SwiftOperators",
+  "SwiftStorage",
+  "SwiftStorageMacros",
+  "SwiftSyntax",
+  "SwiftSyntaxBuilder",
+  "SwiftSyntaxMacros",
+  "SwiftUI",
+  "Testing"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "containerBackground",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "navigationTitle",
+   "padding",
+   "toolbar",
+   "toolbarBackgroundVisibility",
+   "windowFullScreenBehavior",
+   "windowMinimizeBehavior",
+   "windowResizability"
+  ],
+  "types": [
+   "DatePicker",
+   "Form",
+   "NavigationStack",
+   "Section",
+   "Slider",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "headline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "grouped",
+   "hidden",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 12,
+  "types": 11,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 4,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 32
+}

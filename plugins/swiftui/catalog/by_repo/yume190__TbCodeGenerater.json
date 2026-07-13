@@ -1,0 +1,49 @@
+{
+ "repo": "yume190/TbCodeGenerater",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b7071d5e67189f48d5d71e06225dd1cb02470995",
+ "platform": "other",
+ "author_authority": 8334,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "yume190",
+   "score": 8334,
+   "contributions": 5
+  }
+ ],
+ "loc": 5728,
+ "custom_components": 0,
+ "imports": [
+  "ArgumentParser",
+  "Foundation",
+  "PackageDescription",
+  "PackagePlugin",
+  "TbParser",
+  "Testing"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

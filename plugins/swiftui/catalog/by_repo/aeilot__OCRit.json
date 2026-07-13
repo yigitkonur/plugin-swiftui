@@ -1,0 +1,121 @@
+{
+ "repo": "aeilot/OCRit",
+ "stars": 10,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "7e72b6ffbc786262b6590c5d53ee13be26306064",
+ "platform": "macos",
+ "author_authority": 202,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "aeilot",
+   "score": 202,
+   "contributions": 21
+  },
+  {
+   "login": "Copilot",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 526,
+ "custom_components": 10,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "MarkdownUI",
+  "OpenAI",
+  "ServiceManagement",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "buttonStyle",
+   "cornerRadius",
+   "defaultSize",
+   "font",
+   "fontDesign",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "onHover",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "sheet",
+   "strokeBorder",
+   "textContentType",
+   "textFieldStyle",
+   "textSelection",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Label",
+   "List",
+   "ProgressView",
+   "Rectangle",
+   "ScrollView",
+   "Section",
+   "SecureField",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "footnote",
+   "largeTitle",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "hiddenTitleBar",
+   "leading",
+   "roundedBorder",
+   "secondary"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 17,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 5,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 58
+}

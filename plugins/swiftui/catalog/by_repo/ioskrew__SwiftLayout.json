@@ -1,0 +1,61 @@
+{
+ "repo": "ioskrew/SwiftLayout",
+ "stars": 132,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6f16572b0c4b69beee8eeb264f108a2839f43c63",
+ "platform": "macos",
+ "author_authority": 245,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "oozoofrog",
+   "score": 323,
+   "contributions": 621
+  },
+  {
+   "login": "gmlwhdtjd",
+   "score": 133,
+   "contributions": 191
+  },
+  {
+   "login": "bbdyno",
+   "score": 84,
+   "contributions": 6
+  }
+ ],
+ "loc": 9713,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "PackageDescription",
+  "SwiftLayout",
+  "SwiftLayoutPlatform",
+  "SwiftUI",
+  "Testing",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

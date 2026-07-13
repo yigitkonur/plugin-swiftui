@@ -1,0 +1,109 @@
+{
+ "repo": "aaronzr1/ThoughtDump",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0b9788b4ce2d9f19989b5e11735698f9723643a8",
+ "platform": "macos",
+ "author_authority": 787,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "aaronzr1",
+   "score": 787,
+   "contributions": 2
+  }
+ ],
+ "loc": 358,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "disabled",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "modelContainer",
+   "onChange",
+   "onExitCommand",
+   "onReceive",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NSHostingView",
+   "RoundedRectangle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "headline",
+   "title2"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "plain",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 18,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 55
+}

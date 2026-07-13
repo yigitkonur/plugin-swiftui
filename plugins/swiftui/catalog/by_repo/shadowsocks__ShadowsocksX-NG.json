@@ -1,0 +1,61 @@
+{
+ "repo": "shadowsocks/ShadowsocksX-NG",
+ "stars": 32887,
+ "categories": [
+  "Proxy and VPN Tools"
+ ],
+ "sha": "719203afc60e1dbab00e459ebcfecc468e7700bd",
+ "platform": "other",
+ "author_authority": 3924,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "qiuyuzhou",
+   "score": 58,
+   "contributions": 468
+  },
+  {
+   "login": "qinyuhang",
+   "score": 86417,
+   "contributions": 23
+  },
+  {
+   "login": "timothyqiu",
+   "score": 117268,
+   "contributions": 17
+  }
+ ],
+ "loc": 3177,
+ "custom_components": 0,
+ "imports": [
+  "Alamofire",
+  "Carbon",
+  "Cocoa",
+  "Foundation",
+  "RxCocoa",
+  "RxSwift",
+  "ShadowsocksX_NG",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,54 @@
+{
+ "repo": "lixiang1994/AttributedString",
+ "stars": 903,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d8a72a7e29e8699979b052b59659720087bc2ea0",
+ "platform": "macos",
+ "author_authority": 4115,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lixiang1994",
+   "score": 4115,
+   "contributions": 207
+  }
+ ],
+ "loc": 8916,
+ "custom_components": 0,
+ "imports": [
+  "AVKit",
+  "AppKit",
+  "AttributedString",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "PackageDescription",
+  "TVUIKit",
+  "UIKit",
+  "WatchKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,81 @@
+{
+ "repo": "simonbs/Runestone",
+ "stars": 3151,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "592434a103a4d1ab83e14f87ac6eef569dd7a99d",
+ "platform": "other",
+ "author_authority": 8339,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "simonbs",
+   "score": 8339,
+   "contributions": 1133
+  },
+  {
+   "login": "eliperkins",
+   "score": 201,
+   "contributions": 5
+  },
+  {
+   "login": "nighthawk",
+   "score": 124675,
+   "contributions": 4
+  }
+ ],
+ "loc": 18118,
+ "custom_components": 1,
+ "imports": [
+  "Combine",
+  "CoreGraphics",
+  "CoreText",
+  "Foundation",
+  "PackageDescription",
+  "Runestone",
+  "RunestoneJavaScriptLanguage",
+  "RunestoneOneDarkTheme",
+  "RunestonePlainTextTheme",
+  "RunestoneThemeCommon",
+  "RunestoneTomorrowNightTheme",
+  "RunestoneTomorrowTheme",
+  "SwiftUI",
+  "TestTreeSitterLanguages",
+  "TreeSitter",
+  "TreeSitterJavaScript",
+  "TreeSitterJavaScriptRunestone",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "padding"
+  ],
+  "types": [
+   "HStack"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "bottomTrailing",
+   "default",
+   "topTrailing",
+   "trailing"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 4,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 6
+}

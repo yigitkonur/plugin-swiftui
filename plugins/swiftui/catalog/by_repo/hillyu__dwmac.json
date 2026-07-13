@@ -1,0 +1,151 @@
+{
+ "repo": "hillyu/dwmac",
+ "stars": 18,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "55c549dbcbfc4396c894bfbbabdf839969a1dd6f",
+ "platform": "macos",
+ "author_authority": 30,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "ever-stream",
+   "score": 0,
+   "contributions": 17
+  },
+  {
+   "login": "hillyu",
+   "score": 30,
+   "contributions": 3
+  }
+ ],
+ "loc": 17129,
+ "custom_components": 26,
+ "imports": [
+  "Antlr4",
+  "AppBundle",
+  "AppKit",
+  "ApplicationServices",
+  "Carbon",
+  "Common",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "HotKey",
+  "ISSoundAdditions",
+  "Network",
+  "OrderedCollections",
+  "PackageDescription",
+  "PrivateApi",
+  "ServiceManagement",
+  "ShellParserGenerated",
+  "SwiftUI",
+  "TOMLKit",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "blendMode",
+   "bold",
+   "clipShape",
+   "compositingGroup",
+   "environmentObject",
+   "fill",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "monospaced",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "strokeBorder",
+   "symbolRenderingMode",
+   "textSelection",
+   "windowResizability"
+  ],
+  "types": [
+   "AnyView",
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "Menu",
+   "MenuBarExtra",
+   "NSHostingView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "TextEditor",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "largeTitle",
+   "light",
+   "system",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "circular",
+   "default",
+   "horizontal",
+   "leading",
+   "trailing",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "dismiss",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 25,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 5,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 74
+}

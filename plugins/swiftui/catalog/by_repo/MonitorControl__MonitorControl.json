@@ -1,0 +1,67 @@
+{
+ "repo": "MonitorControl/MonitorControl",
+ "stars": 33363,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "3cfc40598abbe3d36f5235b9535234a2ab525459",
+ "platform": "macos",
+ "author_authority": 413,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "waydabber",
+   "score": 0,
+   "contributions": 70
+  },
+  {
+   "login": "JoniVR",
+   "score": 1617,
+   "contributions": 34
+  },
+  {
+   "login": "the0neyouseek",
+   "score": 0,
+   "contributions": 29
+  }
+ ],
+ "loc": 5645,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "AudioToolbox",
+  "Cocoa",
+  "CoreGraphics",
+  "Foundation",
+  "IOKit",
+  "KeyboardShortcuts",
+  "MediaKeyTap",
+  "ServiceManagement",
+  "Settings",
+  "SimplyCoreAudio",
+  "Sparkle",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

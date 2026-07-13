@@ -1,0 +1,106 @@
+{
+ "repo": "KC-2001MS/AboutUI",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bff0ff9b5c2430419991185c32198166e8cc3d4c",
+ "platform": "macos",
+ "author_authority": 56,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KC-2001MS",
+   "score": 56,
+   "contributions": 19
+  }
+ ],
+ "loc": 981,
+ "custom_components": 38,
+ "imports": [
+  "AboutUI",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alignmentGuide",
+   "commands",
+   "containerBackground",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "imageScale",
+   "lineLimit",
+   "navigationTitle",
+   "offset",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "textSelection",
+   "toolbar",
+   "toolbarBackground",
+   "windowMinimizeBehavior",
+   "windowResizability",
+   "windowResizeBehavior"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "CommandGroup",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "Label",
+   "Text",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "footnote",
+   "headline",
+   "largeTitle",
+   "light",
+   "regular",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "default",
+   "hidden",
+   "horizontal",
+   "leading",
+   "tint",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 11,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 1,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 53
+}

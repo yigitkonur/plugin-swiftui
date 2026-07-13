@@ -1,0 +1,150 @@
+{
+ "repo": "THL-Leo/unzipper",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "af0f24f72675fcab67e66dbafdb56042df0d69f2",
+ "platform": "macos",
+ "author_authority": 8,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "THL-Leo",
+   "score": 8,
+   "contributions": 3
+  }
+ ],
+ "loc": 2283,
+ "custom_components": 22,
+ "imports": [
+  "Foundation",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contentShape",
+   "controlSize",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fileImporter",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "symbolRenderingMode",
+   "tint",
+   "transition",
+   "windowResizability",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "CommandGroup",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "LinearProgressViewStyle",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "center",
+   "easeInOut",
+   "headline",
+   "medium",
+   "semibold",
+   "slide",
+   "spring",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "black",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "primary",
+   "red",
+   "regularMaterial",
+   "secondary",
+   "separator",
+   "tertiary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 37,
+  "types": 18,
+  "valueBuilders": 13,
+  "macros": 1,
+  "styleValues": 21,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 94
+}

@@ -1,0 +1,111 @@
+{
+ "repo": "YONN2222/cmdX",
+ "stars": 67,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d5e9c344a8449e66cf748241d956e89d6c1ae472",
+ "platform": "macos",
+ "author_authority": 23323,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "YONN2222",
+   "score": 23323,
+   "contributions": 57
+  }
+ ],
+ "loc": 818,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Cocoa",
+  "Combine",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityHidden",
+   "accessibilityLabel",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environmentObject",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "menuBarExtraStyle",
+   "onAppear",
+   "onChange",
+   "padding",
+   "resizable",
+   "toggleStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "HStack",
+   "Image",
+   "MenuBarExtra",
+   "NSHostingController",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "medium",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "center",
+   "checkbox",
+   "default",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "window",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 11,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 6,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 54
+}

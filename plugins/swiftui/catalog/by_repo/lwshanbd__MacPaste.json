@@ -1,0 +1,130 @@
+{
+ "repo": "lwshanbd/MacPaste",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e377e080c821227650e2111e5c3ea275f3211a87",
+ "platform": "macos",
+ "author_authority": 282,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lwshanbd",
+   "score": 282,
+   "contributions": 2
+  }
+ ],
+ "loc": 1233,
+ "custom_components": 9,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "HotKey",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "clipped",
+   "contextMenu",
+   "cornerRadius",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "textFieldStyle",
+   "underline"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "Capsule",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "LazyHStack",
+   "NSHostingView",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "largeTitle",
+   "medium",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "borderless",
+   "bottom",
+   "center",
+   "clear",
+   "gray",
+   "green",
+   "hidden",
+   "horizontal",
+   "leading",
+   "none",
+   "orange",
+   "pink",
+   "plain",
+   "primary",
+   "purple",
+   "secondary",
+   "top",
+   "topLeading",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 14,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 22,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 74
+}

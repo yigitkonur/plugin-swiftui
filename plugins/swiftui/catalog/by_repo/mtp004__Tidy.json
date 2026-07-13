@@ -1,0 +1,151 @@
+{
+ "repo": "mtp004/Tidy",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "92034199a2fd132fb42cb6aaa5ead76574ac6638",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mtp004",
+   "score": 0,
+   "contributions": 32
+  }
+ ],
+ "loc": 1441,
+ "custom_components": 25,
+ "imports": [
+  "Cocoa",
+  "CoreData",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "clipped",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "imageScale",
+   "labelsHidden",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "onChanged",
+   "onDisappear",
+   "onEnded",
+   "onLongPressGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "resizable",
+   "scaleEffect",
+   "scaledToFit",
+   "stroke",
+   "textFieldStyle",
+   "transition",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "DragGesture",
+   "EmptyView",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "HStack",
+   "Image",
+   "LazyVStack",
+   "LinearGradient",
+   "PlainButtonStyle",
+   "PlainTextFieldStyle",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "easeInOut",
+   "easeOut",
+   "headline",
+   "linear",
+   "medium",
+   "semibold",
+   "system",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "background",
+   "blue",
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "topLeading",
+   "topTrailing",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 26,
+  "valueBuilders": 11,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 95
+}

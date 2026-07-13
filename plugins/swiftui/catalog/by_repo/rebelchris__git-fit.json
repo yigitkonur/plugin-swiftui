@@ -1,0 +1,139 @@
+{
+ "repo": "rebelchris/git-fit",
+ "stars": 39,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9c4a56d9ecd2a25ed820818f2b8a79f958af3d0e",
+ "platform": "macos",
+ "author_authority": 24553,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rebelchris",
+   "score": 24553,
+   "contributions": 7
+  }
+ ],
+ "loc": 2475,
+ "custom_components": 28,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "blur",
+   "buttonStyle",
+   "clipShape",
+   "fill",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "lineLimit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "overlay",
+   "padding",
+   "rotationEffect",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "transition",
+   "trim"
+  ],
+  "types": [
+   "Button",
+   "Canvas",
+   "Capsule",
+   "Circle",
+   "Color",
+   "ForEach",
+   "Form",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "NSHostingView",
+   "Path",
+   "RadialGradient",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "degrees",
+   "easeIn",
+   "easeInOut",
+   "easeOut",
+   "light",
+   "linear",
+   "medium",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "borderless",
+   "bottom",
+   "bottomTrailing",
+   "center",
+   "clear",
+   "default",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "secondary",
+   "top",
+   "topLeading",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 24,
+  "valueBuilders": 10,
+  "macros": 1,
+  "styleValues": 18,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 83
+}

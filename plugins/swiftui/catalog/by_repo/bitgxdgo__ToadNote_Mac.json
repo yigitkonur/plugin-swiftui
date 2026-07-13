@@ -1,0 +1,135 @@
+{
+ "repo": "bitgxdgo/ToadNote_Mac",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "50742bcb2a841305113416396d453ea397d3d65b",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bitgxdgo",
+   "score": 11,
+   "contributions": 7
+  }
+ ],
+ "loc": 1607,
+ "custom_components": 16,
+ "imports": [
+  "Combine",
+  "CoreData",
+  "Foundation",
+  "SQLite",
+  "SwiftUI",
+  "Testing",
+  "ToadNote",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "contextMenu",
+   "cornerRadius",
+   "environment",
+   "environmentObject",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "searchable",
+   "shadow",
+   "sheet",
+   "textFieldStyle",
+   "toolbar",
+   "transition"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationSplitView",
+   "PlainTextFieldStyle",
+   "RoundedRectangle",
+   "Section",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "ToolbarItem",
+   "ToolbarItemGroup",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "headline",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "plain",
+   "primaryAction",
+   "roundedBorder",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "managedObjectContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 25,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 9,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 75
+}

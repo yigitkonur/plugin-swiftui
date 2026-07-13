@@ -1,0 +1,106 @@
+{
+ "repo": "PrintNow/NetMeter",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9600afde193741373dff747000b2a417ad37e6cc",
+ "platform": "macos",
+ "author_authority": 81654,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "PrintNow",
+   "score": 81654,
+   "contributions": 34
+  }
+ ],
+ "loc": 1361,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Darwin",
+  "Foundation",
+  "NetMeter",
+  "Network",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "defaultLaunchBehavior",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "interpolation",
+   "monospacedDigit",
+   "opacity",
+   "padding",
+   "resizable",
+   "textSelection",
+   "weight"
+  ],
+  "types": [
+   "EmptyView",
+   "HStack",
+   "Image",
+   "Link",
+   "NSHostingController",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "center",
+   "subheadline",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "clear",
+   "fill",
+   "horizontal",
+   "leading",
+   "quaternary",
+   "red",
+   "secondary",
+   "tertiary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 10,
+  "valueBuilders": 8,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 49
+}

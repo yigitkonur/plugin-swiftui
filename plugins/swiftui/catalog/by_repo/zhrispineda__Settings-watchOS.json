@@ -1,0 +1,136 @@
+{
+ "repo": "zhrispineda/Settings-watchOS",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b404c021569a2b980e18e505f4ce32ccbffc6109",
+ "platform": "other",
+ "author_authority": 23063,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "zhrispineda",
+   "score": 23063,
+   "contributions": 120
+  }
+ ],
+ "loc": 4987,
+ "custom_components": 174,
+ "imports": [
+  "Foundation",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "bold",
+   "clipShape",
+   "cornerRadius",
+   "disabled",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "labelStyle",
+   "labelsHidden",
+   "listRowBackground",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaledToFit",
+   "sheet",
+   "task",
+   "tint",
+   "toolbar"
+  ],
+  "types": [
+   "Alert",
+   "AnyView",
+   "Button",
+   "Circle",
+   "Color",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "List",
+   "NavigationLink",
+   "NavigationStack",
+   "Picker",
+   "Section",
+   "SettingsLink",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "light",
+   "subheadline",
+   "title",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "center",
+   "default",
+   "gray",
+   "green",
+   "horizontal",
+   "indigo",
+   "inline",
+   "leading",
+   "none",
+   "orange",
+   "pink",
+   "primary",
+   "red",
+   "secondary",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 26,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 17,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 81
+}

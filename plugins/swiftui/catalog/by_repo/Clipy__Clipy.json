@@ -1,0 +1,81 @@
+{
+ "repo": "Clipy/Clipy",
+ "stars": 8601,
+ "categories": [
+  "Clipboard Tools"
+ ],
+ "sha": "2aa2fe3c0cd4296a57137d5e62cb78028921bb6d",
+ "platform": "macos",
+ "author_authority": 6626,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Econa77",
+   "score": 10064,
+   "contributions": 320
+  },
+  {
+   "login": "econa",
+   "score": 0,
+   "contributions": 165
+  },
+  {
+   "login": "andrew-codechimp",
+   "score": 109748,
+   "contributions": 1
+  }
+ ],
+ "loc": 6461,
+ "custom_components": 0,
+ "imports": [
+  "AEXML",
+  "AppKit",
+  "Carbon",
+  "Clipy",
+  "Cocoa",
+  "Collections",
+  "Combine",
+  "CryptoKit",
+  "Dependencies",
+  "DependenciesTestSupport",
+  "Firebase",
+  "Foundation",
+  "IOKit",
+  "KeyHolder",
+  "LoginServiceKit",
+  "Magnet",
+  "PINCache",
+  "RealmSwift",
+  "RxCocoa",
+  "RxSwift",
+  "SQLiteData",
+  "Sauce",
+  "Screeen",
+  "Sparkle",
+  "SwiftData",
+  "SwiftHEXColors",
+  "Tagged",
+  "Testing"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

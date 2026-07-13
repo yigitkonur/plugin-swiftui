@@ -1,0 +1,142 @@
+{
+ "repo": "skiptools/skip-ui",
+ "stars": 314,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ce329a6e8e3e282d7023c1a15c3fc0bc8855b52d",
+ "platform": "other",
+ "author_authority": 73971,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "aabewhite",
+   "score": 3677,
+   "contributions": 690
+  },
+  {
+   "login": "marcprux",
+   "score": 228752,
+   "contributions": 357
+  },
+  {
+   "login": "dfabulich",
+   "score": 0,
+   "contributions": 57
+  }
+ ],
+ "loc": 68022,
+ "custom_components": 25,
+ "imports": [
+  "Accessibility",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "OSLog",
+  "Observation",
+  "PackageDescription",
+  "SkipModel",
+  "SkipTest",
+  "SwiftUI",
+  "UIKit",
+  "XCTest",
+  "android",
+  "androidx",
+  "coil3",
+  "java",
+  "kotlin",
+  "kotlinx",
+  "okio",
+  "org",
+  "skip"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityIdentifier",
+   "aspectRatio",
+   "background",
+   "border",
+   "buttonStyle",
+   "environment",
+   "environmentObject",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "interactiveDismissDisabled",
+   "onLongPressGesture",
+   "opacity",
+   "resizable",
+   "rotationEffect",
+   "sheet",
+   "size",
+   "tint"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "List",
+   "Menu",
+   "Slider",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ViewThatFits",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "callout",
+   "caption",
+   "caption2",
+   "custom",
+   "degrees",
+   "footnote",
+   "headline",
+   "largeTitle",
+   "light",
+   "subheadline",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "bottom",
+   "bottomTrailing",
+   "top",
+   "topLeading",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "EnvironmentObject",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "displayScale",
+   "locale"
+  ]
+ },
+ "counts": {
+  "modifiers": 19,
+  "types": 13,
+  "valueBuilders": 14,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 60
+}

@@ -1,0 +1,130 @@
+{
+ "repo": "bsnkhua/mole-widget",
+ "stars": 26,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "0cb6e7e49b1ea6a3a75076ed4e4ff75dfcf05439",
+ "platform": "macos",
+ "author_authority": 154332,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bsnkhua",
+   "score": 154332,
+   "contributions": 38
+  }
+ ],
+ "loc": 3521,
+ "custom_components": 45,
+ "imports": [
+  "AppKit",
+  "CoreGraphics",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "MoleWidgetCore",
+  "Observation",
+  "PackageDescription",
+  "ServiceManagement",
+  "SwiftUI",
+  "SystemConfiguration",
+  "Testing"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "contentShape",
+   "equatable",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "glassEffect",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "modifier",
+   "onChanged",
+   "onEnded",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "stroke",
+   "tag",
+   "truncationMode",
+   "weight"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "DragGesture",
+   "ForEach",
+   "GeometryReader",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "Path",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "StrokeStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "center",
+   "medium",
+   "push",
+   "regular",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderless",
+   "center",
+   "clear",
+   "leading",
+   "plain",
+   "sidebar",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "visible"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 24,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 10,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 70
+}

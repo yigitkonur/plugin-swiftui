@@ -1,0 +1,85 @@
+{
+ "repo": "flocked/FZSwiftUtils",
+ "stars": 5,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5fc932f3997a5da6db78fab48a27d87257d4a862",
+ "platform": "macos",
+ "author_authority": 459,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "flocked",
+   "score": 459,
+   "contributions": 1848
+  }
+ ],
+ "loc": 89588,
+ "custom_components": 0,
+ "imports": [
+  "AVKit",
+  "Accelerate",
+  "Accessibility",
+  "AppKit",
+  "ApplicationServices",
+  "ColorSync",
+  "Combine",
+  "CoreGraphics",
+  "CoreLocation",
+  "CoreMedia",
+  "CoreSpotlight",
+  "CoreText",
+  "CoreVideo",
+  "CryptoKit",
+  "Foundation",
+  "IOKit",
+  "ImageIO",
+  "MobileCoreServices",
+  "NaturalLanguage",
+  "ObjectiveC",
+  "PackageDescription",
+  "QuartzCore",
+  "SwiftUI",
+  "SystemConfiguration",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "_FZSwiftUtilsObjC",
+  "_Libffi",
+  "os",
+  "simd"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "scale",
+   "scaled"
+  ],
+  "types": [
+   "EdgeInsets"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "leading",
+   "top",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 2,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 5,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 8
+}

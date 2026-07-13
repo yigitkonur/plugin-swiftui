@@ -1,0 +1,135 @@
+{
+ "repo": "alptugan/icns-creator",
+ "stars": 278,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "247433486f8d8de65ab22eee18152a827b6ec591",
+ "platform": "macos",
+ "author_authority": 491,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "alptugan",
+   "score": 491,
+   "contributions": 94
+  },
+  {
+   "login": "peterwooley",
+   "score": 73,
+   "contributions": 2
+  },
+  {
+   "login": "ImgBotApp",
+   "score": 9744,
+   "contributions": 1
+  }
+ ],
+ "loc": 991,
+ "custom_components": 13,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "accentColor",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "animation",
+   "background",
+   "bold",
+   "clipShape",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "labelsHidden",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onDrop",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "position",
+   "resizable",
+   "scaleEffect",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "tag",
+   "toggleStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Circle",
+   "Color",
+   "ColorPicker",
+   "EmptyView",
+   "GeometryReader",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Picker",
+   "RoundedRectangle",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "StrokeStyle",
+   "SwitchToggleStyle",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "footnote",
+   "headline",
+   "subheadline"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "gray",
+   "leading",
+   "top",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 34,
+  "types": 22,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 70
+}

@@ -1,0 +1,77 @@
+{
+ "repo": "kamkejj/Odin-Pomodoro",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5f76a894e2b03ff2d3ec992f298dc7c6ce577306",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kamkejj",
+   "score": 0,
+   "contributions": 8
+  }
+ ],
+ "loc": 115,
+ "custom_components": 4,
+ "imports": [
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "commands",
+   "cornerRadius",
+   "font",
+   "fontWeight",
+   "frame",
+   "keyboardShortcut",
+   "onAppear",
+   "padding",
+   "textFieldStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "RoundedBorderTextFieldStyle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "regular"
+  ],
+  "macros": [],
+  "styleValues": [
+   "leading"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 11,
+  "types": 11,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 27
+}

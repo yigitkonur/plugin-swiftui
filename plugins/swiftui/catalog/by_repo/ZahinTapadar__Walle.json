@@ -1,0 +1,106 @@
+{
+ "repo": "ZahinTapadar/Walle",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "44da32019be48200b22d8f96524cf12bde4e4c95",
+ "platform": "macos",
+ "author_authority": 19332,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ZahinTapadar",
+   "score": 19332,
+   "contributions": 7
+  }
+ ],
+ "loc": 2687,
+ "custom_components": 10,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "SwiftData",
+  "SwiftSoup",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "Walle",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "commands",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "modelContainer",
+   "onAppear",
+   "padding",
+   "sheet",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "CommandMenu",
+   "ForEach",
+   "Form",
+   "HStack",
+   "List",
+   "NSHostingController",
+   "Picker",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "fill",
+   "horizontal",
+   "leading",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 13,
+  "types": 16,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 45
+}

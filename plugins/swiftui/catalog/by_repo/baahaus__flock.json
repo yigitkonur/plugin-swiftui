@@ -1,0 +1,50 @@
+{
+ "repo": "baahaus/flock",
+ "stars": 13,
+ "categories": [
+  "AI Tools"
+ ],
+ "sha": "39017692de327883d6bccf6127f80b92feda06e3",
+ "platform": "macos",
+ "author_authority": 226681,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "baahaus",
+   "score": 226681,
+   "contributions": 1
+  }
+ ],
+ "loc": 8833,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Darwin",
+  "Foundation",
+  "PackageDescription",
+  "SwiftTerm",
+  "UniformTypeIdentifiers",
+  "UserNotifications"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

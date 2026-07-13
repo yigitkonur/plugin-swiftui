@@ -1,0 +1,18 @@
+# curr-04 (structural): a 1-parameter onChange closure — `.onChange(of: X) { newValue in … }`. The
+# single-parameter (and the older zero-via-perform) form was introduced at macOS 11.0, deprecated at macOS 14.0; the current shape
+# takes TWO params `(oldValue, newValue)` (or zero). grep sees `.onChange(of:` but CANNOT count the
+# closure parameters; this anchors on the call_expression and matches ONLY the one-binding closure, so
+# the modern two-param form does not fire. READ to confirm and convert.
+id: curr-04-onchange-one-param
+language: Swift
+severity: warning
+message: >-
+  curr-04: a single-parameter `.onChange(of:) { newValue in … }` closure (introduced macOS 11, deprecated macOS 14). Use the
+  two-parameter `(oldValue, newValue)` form or the zero-parameter form. READ to confirm the arity.
+rule:
+  kind: call_expression
+  all:
+    - has:
+        stopBy: end
+        regex: 'onChange'
+    - pattern: $RECV.onChange(of: $VALUE) { $PARAM in $$$BODY }

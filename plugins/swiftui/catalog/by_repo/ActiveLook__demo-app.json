@@ -1,0 +1,56 @@
+{
+ "repo": "ActiveLook/demo-app",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "da0ddda380add83d8401e01faec2619163fe8087",
+ "platform": "other",
+ "author_authority": 10,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "SylvainRomillon",
+   "score": 15,
+   "contributions": 44
+  },
+  {
+   "login": "Activelook-dev",
+   "score": 0,
+   "contributions": 21
+  },
+  {
+   "login": "thomaschapelle",
+   "score": 40,
+   "contributions": 1
+  }
+ ],
+ "loc": 2243,
+ "custom_components": 0,
+ "imports": [
+  "ActiveLookSDK",
+  "Foundation",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

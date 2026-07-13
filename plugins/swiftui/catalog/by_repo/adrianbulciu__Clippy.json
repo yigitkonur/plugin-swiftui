@@ -1,0 +1,134 @@
+{
+ "repo": "adrianbulciu/Clippy",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "51287fc21a5298d52cc3b9ba062c3623e1e6fe8b",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adrianbulciu",
+   "score": 2,
+   "contributions": 6
+  }
+ ],
+ "loc": 998,
+ "custom_components": 11,
+ "imports": [
+  "Cocoa",
+  "Combine",
+  "KeyboardShortcuts",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "alignmentGuide",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "environmentObject",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "listRowSeparator",
+   "listStyle",
+   "menuBarExtraStyle",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onKeyPress",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "windowLevel",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "LabeledContent",
+   "Link",
+   "List",
+   "MenuBarExtra",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollViewReader",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "Window"
+  ],
+  "valueBuilders": [
+   "caption",
+   "linear",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "borderless",
+   "bottom",
+   "clear",
+   "grouped",
+   "hidden",
+   "leading",
+   "menu",
+   "plain",
+   "roundedBorder",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "Observable",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow",
+   "scenePhase"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 19,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 7,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 79
+}

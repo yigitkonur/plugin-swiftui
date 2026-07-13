@@ -1,0 +1,132 @@
+{
+ "repo": "Hana2538/SchoolApp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "ce5f25a15d181f1cc067c4053fb1f07750e103d6",
+ "platform": "other",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Hana2538",
+   "score": 1,
+   "contributions": 115
+  }
+ ],
+ "loc": 1617,
+ "custom_components": 40,
+ "imports": [
+  "Firebase",
+  "FirebaseAuth",
+  "FirebaseFirestore",
+  "FirebaseStorage",
+  "Foundation",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "accentColor",
+  "foregroundColor",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "accentColor",
+   "background",
+   "clipShape",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "modifier",
+   "multilineTextAlignment",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "rotationEffect",
+   "scaleEffect",
+   "scaledToFill",
+   "scaledToFit",
+   "shadow",
+   "sheet",
+   "stroke",
+   "tabItem",
+   "toggleStyle",
+   "trim"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "SecureField",
+   "Spacer",
+   "StrokeStyle",
+   "TabView",
+   "Text",
+   "TextEditor",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "degrees",
+   "linear",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "center",
+   "horizontal",
+   "leading",
+   "orange",
+   "red",
+   "top",
+   "trailing",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 22,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 71
+}

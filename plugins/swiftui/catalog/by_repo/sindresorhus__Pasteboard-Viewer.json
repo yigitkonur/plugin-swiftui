@@ -1,0 +1,163 @@
+{
+ "repo": "sindresorhus/Pasteboard-Viewer",
+ "stars": 835,
+ "categories": [
+  "Developer Utilities"
+ ],
+ "sha": "faf656482dcfe539caf9a9d965f58cb022a6351f",
+ "platform": "other",
+ "author_authority": 1013769,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "sindresorhus",
+   "score": 1013769,
+   "contributions": 81
+  },
+  {
+   "login": "Aaron-Rumpler",
+   "score": 22066,
+   "contributions": 3
+  },
+  {
+   "login": "davedelong",
+   "score": 14594,
+   "contributions": 1
+  }
+ ],
+ "loc": 3656,
+ "custom_components": 76,
+ "imports": [
+  "AppIntents",
+  "Cocoa",
+  "Collections",
+  "Combine",
+  "Defaults",
+  "HexFiend",
+  "Quartz",
+  "QuickLook",
+  "StoreKit",
+  "SwiftUI",
+  "SwiftUIIntrospect",
+  "TipKit",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityHidden",
+   "alert",
+   "commands",
+   "contentMargins",
+   "contextMenu",
+   "disabled",
+   "draggable",
+   "environment",
+   "focusedValue",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "id",
+   "keyboardShortcut",
+   "labelsHidden",
+   "lineLimit",
+   "menuIndicator",
+   "navigationSplitViewStyle",
+   "navigationTitle",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "renderingMode",
+   "resizable",
+   "safeAreaInset",
+   "scaledToFit",
+   "tag",
+   "task",
+   "toolbar",
+   "toolbarTitleDisplayMode",
+   "windowLevel"
+  ],
+  "types": [
+   "AnyView",
+   "Button",
+   "CommandGroup",
+   "CommandMenu",
+   "ContentUnavailableView",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "List",
+   "Menu",
+   "NavigationLink",
+   "NavigationSplitView",
+   "Picker",
+   "ScrollView",
+   "Section",
+   "ShareLink",
+   "Text",
+   "ToolbarItem",
+   "ToolbarSpacer",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "clear",
+   "semibold",
+   "subheadline",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "balanced",
+   "bottom",
+   "center",
+   "compact",
+   "hidden",
+   "horizontal",
+   "inline",
+   "leading",
+   "primaryAction",
+   "secondary",
+   "segmented",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "FocusedBinding",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "appearsActive",
+   "horizontalSizeClass"
+  ]
+ },
+ "counts": {
+  "modifiers": 36,
+  "types": 25,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 90
+}

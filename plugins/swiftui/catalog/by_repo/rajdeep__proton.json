@@ -1,0 +1,65 @@
+{
+ "repo": "rajdeep/proton",
+ "stars": 1372,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "30c0f87c48ccba6f89935d16096b6c01c204a82d",
+ "platform": "other",
+ "author_authority": 1372,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "rajdeep",
+   "score": 1372,
+   "contributions": 445
+  },
+  {
+   "login": "rjchatfield",
+   "score": 16,
+   "contributions": 19
+  },
+  {
+   "login": "vox-humana",
+   "score": 9,
+   "contributions": 9
+  }
+ ],
+ "loc": 33588,
+ "custom_components": 0,
+ "imports": [
+  "CoreGraphics",
+  "CoreServices",
+  "ExampleApp",
+  "Foundation",
+  "OSLog",
+  "PackageDescription",
+  "Proton",
+  "ProtonCore",
+  "SnapshotTesting",
+  "TestBuildPackage",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

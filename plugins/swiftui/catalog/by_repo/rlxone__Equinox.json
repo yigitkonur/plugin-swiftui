@@ -1,0 +1,69 @@
+{
+ "repo": "rlxone/Equinox",
+ "stars": 1972,
+ "categories": [
+  "General Tools"
+ ],
+ "sha": "d776eb22bedf4951cac824251a41868035359c13",
+ "platform": "macos",
+ "author_authority": 51428,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "rlxone",
+   "score": 51428,
+   "contributions": 42
+  },
+  {
+   "login": "kyleerhabor",
+   "score": 4742,
+   "contributions": 1
+  },
+  {
+   "login": "niklaskroe",
+   "score": 1975,
+   "contributions": 1
+  }
+ ],
+ "loc": 28597,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Cocoa",
+  "CoreLocation",
+  "EquinoxAssets",
+  "EquinoxCore",
+  "EquinoxUI",
+  "Foundation",
+  "ImageIO",
+  "MapKit",
+  "QuartzCore",
+  "SolarNOAA",
+  "SpriteKit",
+  "StoreKit",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

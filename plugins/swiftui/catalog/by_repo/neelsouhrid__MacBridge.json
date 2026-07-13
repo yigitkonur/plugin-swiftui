@@ -1,0 +1,118 @@
+{
+ "repo": "neelsouhrid/MacBridge",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3ced8d0e990a686015a1d23ebf4f8c23777a5127",
+ "platform": "macos",
+ "author_authority": 2,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "neelsouhrid",
+   "score": 2,
+   "contributions": 6
+  }
+ ],
+ "loc": 1053,
+ "custom_components": 11,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "ServiceManagement",
+  "SwiftUI",
+  "Swifter"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "controlSize",
+   "cornerRadius",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "minimumScaleFactor",
+   "onAppear",
+   "onChange",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "shadow",
+   "textFieldStyle",
+   "textSelection",
+   "toggleStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LinearGradient",
+   "MenuBarExtra",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bordered",
+   "bottomTrailing",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "red",
+   "secondary",
+   "switch",
+   "topLeading",
+   "ultraThinMaterial",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 60
+}

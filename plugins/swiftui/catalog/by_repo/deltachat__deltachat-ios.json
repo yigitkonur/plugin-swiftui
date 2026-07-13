@@ -1,0 +1,147 @@
+{
+ "repo": "deltachat/deltachat-ios",
+ "stars": 442,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "a24d570446aa80f6f3b6da4fb7d5fc1d67b74d11",
+ "platform": "other",
+ "author_authority": 2657,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "r10s",
+   "score": 4770,
+   "contributions": 3271
+  },
+  {
+   "login": "cyBerta",
+   "score": 416,
+   "contributions": 1908
+  },
+  {
+   "login": "nayooti",
+   "score": 0,
+   "contributions": 693
+  }
+ ],
+ "loc": 36513,
+ "custom_components": 9,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "AudioToolbox",
+  "CallKit",
+  "Combine",
+  "CommonCrypto",
+  "Contacts",
+  "CoreGraphics",
+  "CoreLocation",
+  "DcCore",
+  "Foundation",
+  "Intents",
+  "LinkPresentation",
+  "LocalAuthentication",
+  "MCEmojiPicker",
+  "MapKit",
+  "MobileCoreServices",
+  "Network",
+  "OSLog",
+  "Photos",
+  "PhotosUI",
+  "PushKit",
+  "QuickLook",
+  "Reachability",
+  "SCSiriWaveformView",
+  "SDWebImage",
+  "SDWebImageSVGKitPlugin",
+  "SDWebImageWebPCoder",
+  "SafariServices",
+  "Security",
+  "Social",
+  "SwiftUI",
+  "Testing",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "WebRTC",
+  "WidgetKit",
+  "XCTest",
+  "deltachat_ios",
+  "notify"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "clipShape",
+   "containerBackground",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "multilineTextAlignment",
+   "onContinueUserActivity",
+   "onReceive",
+   "padding",
+   "resizable",
+   "shadow"
+  ],
+  "types": [
+   "Button",
+   "Circle",
+   "Color",
+   "ForEach",
+   "GridItem",
+   "Image",
+   "Label",
+   "LazyHGrid",
+   "Link",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "largeTitle",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "center",
+   "fill",
+   "green",
+   "horizontal",
+   "red",
+   "secondary",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 15,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 2,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 44
+}

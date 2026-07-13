@@ -1,0 +1,144 @@
+{
+ "repo": "hrpatel/ripple",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5b1bfc3a7aa8c8f1cd534f66fc7e9aa7ab28ad86",
+ "platform": "macos",
+ "author_authority": 11,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "hrpatel",
+   "score": 11,
+   "contributions": 100
+  }
+ ],
+ "loc": 1987,
+ "custom_components": 23,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "Ripple",
+  "ServiceManagement",
+  "SwiftUI",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "disabled",
+   "environment",
+   "fill",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "labelsHidden",
+   "navigationDestination",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "stroke",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Capsule",
+   "Circle",
+   "DatePicker",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "NSHostingController",
+   "NavigationLink",
+   "NavigationPath",
+   "NavigationStack",
+   "Picker",
+   "Rectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "State",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "caption2",
+   "easeInOut",
+   "headline",
+   "medium",
+   "subheadline",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "blue",
+   "borderedProminent",
+   "bottom",
+   "green",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "segmented",
+   "switch",
+   "teal",
+   "top",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 27,
+  "types": 26,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 20,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 86
+}

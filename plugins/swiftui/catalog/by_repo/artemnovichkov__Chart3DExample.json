@@ -1,0 +1,72 @@
+{
+ "repo": "artemnovichkov/Chart3DExample",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "23b94c37d331aec8b8ca704a3980f53a56873691",
+ "platform": "other",
+ "author_authority": 7405,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "artemnovichkov",
+   "score": 7405,
+   "contributions": 8
+  }
+ ],
+ "loc": 116,
+ "custom_components": 4,
+ "imports": [
+  "Charts",
+  "Combine",
+  "Foundation",
+  "Spatial",
+  "SwiftUI",
+  "TabularData"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "chart3DCameraProjection",
+   "chart3DPose",
+   "chartXAxisLabel",
+   "chartXScale",
+   "chartYAxisLabel",
+   "chartYScale",
+   "chartZAxisLabel",
+   "chartZScale",
+   "foregroundStyle",
+   "onAppear",
+   "onReceive"
+  ],
+  "types": [
+   "Chart3D",
+   "Chart3DPose",
+   "PointMark",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "degrees"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 11,
+  "types": 4,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 18
+}

@@ -1,0 +1,63 @@
+{
+ "repo": "netdcy/FlowVision",
+ "stars": 1255,
+ "categories": [
+  "Finder Tools"
+ ],
+ "sha": "55a40eecb18d95c32cd6e3843b0b01bff99fa547",
+ "platform": "other",
+ "author_authority": 23320,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "netdcy",
+   "score": 23320,
+   "contributions": 497
+  },
+  {
+   "login": "agriggio",
+   "score": 499,
+   "contributions": 1
+  },
+  {
+   "login": "jegork",
+   "score": 198096,
+   "contributions": 1
+  }
+ ],
+ "loc": 32887,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "BTree",
+  "Cocoa",
+  "DiskArbitration",
+  "Foundation",
+  "SDWebImageWebPCoder",
+  "Settings",
+  "Vision",
+  "VisionKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

@@ -1,0 +1,85 @@
+{
+ "repo": "livechat/chat-window-ios",
+ "stars": 28,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "8b14cba98b06f71919c93d446b7275f01411e196",
+ "platform": "other",
+ "author_authority": 4532,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Jercik",
+   "score": 8906,
+   "contributions": 57
+  },
+  {
+   "login": "kamil-szostakowski",
+   "score": 26,
+   "contributions": 50
+  },
+  {
+   "login": "krzysztof-gorski",
+   "score": 0,
+   "contributions": 5
+  }
+ ],
+ "loc": 2385,
+ "custom_components": 7,
+ "imports": [
+  "Foundation",
+  "LiveChat",
+  "MapKit",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "WebKit"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "Alert"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "buttonStyle",
+   "frame",
+   "onAppear",
+   "padding",
+   "sheet"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Spacer",
+   "Text",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "horizontal"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 6,
+  "types": 7,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 3,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 18
+}

@@ -1,0 +1,64 @@
+{
+ "repo": "M-Quadra/MQKit",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4fe816009cec253fbe92c4f286e207be0b5aff82",
+ "platform": "other",
+ "author_authority": 5289,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "M-Quadra",
+   "score": 5289,
+   "contributions": 265
+  }
+ ],
+ "loc": 7316,
+ "custom_components": 0,
+ "imports": [
+  "AVFAudio",
+  "CommonCrypto",
+  "CoreGraphics",
+  "CoreTelephony",
+  "CryptoKit",
+  "Foundation",
+  "GameplayKit",
+  "MQKit",
+  "PackageDescription",
+  "Security",
+  "SnapKit",
+  "SwiftUI",
+  "SystemConfiguration",
+  "Testing",
+  "UIKit",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "Color"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "clear"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 1,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 2
+}

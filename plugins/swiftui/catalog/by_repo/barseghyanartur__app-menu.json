@@ -1,0 +1,119 @@
+{
+ "repo": "barseghyanartur/app-menu",
+ "stars": 75,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "fa017eaf677c90749105e2327d4e4f56de689e8c",
+ "platform": "macos",
+ "author_authority": 56815,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "barseghyanartur",
+   "score": 56815,
+   "contributions": 28
+  }
+ ],
+ "loc": 1939,
+ "custom_components": 28,
+ "imports": [
+  "AppKit",
+  "ApplicationMenu",
+  "Cocoa",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "lineLimit",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "NSHostingController",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "Rectangle",
+   "ScrollView",
+   "Settings",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "horizontal",
+   "leading",
+   "plain",
+   "roundedBorder",
+   "secondary",
+   "tint",
+   "top",
+   "topLeading",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 17,
+  "types": 22,
+  "valueBuilders": 1,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 6,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

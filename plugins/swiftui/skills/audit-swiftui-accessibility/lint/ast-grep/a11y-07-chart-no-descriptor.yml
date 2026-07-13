@@ -1,0 +1,19 @@
+# a11y-07 (structural): a Chart { … } whose contents carry NO accessibility representation — no
+# .accessibilityChartDescriptor, .accessibilityRepresentation, or per-mark .accessibilityLabel/.accessibilityValue.
+# An undescribed chart is opaque to VoiceOver. grep finds the `Chart {` opener but cannot prove the ABSENCE of
+# a descriptor across the whole expression; this containment-absence is the tier-2 rule. READ to confirm and
+# cross_ref the charts skill (chart descriptor) — intentional double-detection per cross-ref-graph.
+id: a11y-07-chart-no-descriptor
+language: Swift
+severity: warning
+message: >-
+  a11y-07: a Chart has no accessibility representation (.accessibilityChartDescriptor /
+  .accessibilityRepresentation / per-mark .accessibilityLabel+.accessibilityValue). VoiceOver cannot read it.
+  fix_mode: flag-only. cross_ref charts. READ to confirm no descriptor anywhere in the chart.
+rule:
+  kind: call_expression
+  pattern: Chart($$$A) { $$$BODY }
+  not:
+    has:
+      stopBy: end
+      regex: 'accessibilityChartDescriptor|accessibilityRepresentation|accessibilityLabel|accessibilityValue'

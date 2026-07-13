@@ -1,0 +1,64 @@
+{
+ "repo": "mangerlahn/Latest",
+ "stars": 4646,
+ "categories": [
+  "General Tools"
+ ],
+ "sha": "e67535bb4f89e75dc43e507a2aaf5956905f8ac3",
+ "platform": "macos",
+ "author_authority": 4663,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mangerlahn",
+   "score": 4663,
+   "contributions": 840
+  },
+  {
+   "login": "weblate",
+   "score": 0,
+   "contributions": 149
+  },
+  {
+   "login": "milotype",
+   "score": 292545,
+   "contributions": 12
+  }
+ ],
+ "loc": 7994,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "CommerceKit",
+  "Foundation",
+  "Latest",
+  "QuartzCore",
+  "Sparkle",
+  "StoreFoundation",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

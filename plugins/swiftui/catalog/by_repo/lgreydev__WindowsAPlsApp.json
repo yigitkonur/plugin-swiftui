@@ -1,0 +1,103 @@
+{
+ "repo": "lgreydev/WindowsAPlsApp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "eac2c2abcfbd12c0299df98a7dfd4ca1ee5d3a20",
+ "platform": "macos",
+ "author_authority": 201,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lgreydev",
+   "score": 201,
+   "contributions": 9
+  }
+ ],
+ "loc": 145,
+ "custom_components": 8,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "animation",
+   "aspectRatio",
+   "buttonStyle",
+   "clipShape",
+   "containerBackground",
+   "defaultWindowPlacement",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "onAppear",
+   "onHover",
+   "opacity",
+   "overlay",
+   "resizable",
+   "restorationBehavior",
+   "simultaneousGesture",
+   "sizeThatFits",
+   "toolbarVisibility",
+   "windowBackgroundDragBehavior",
+   "windowLevel",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Image",
+   "Rectangle",
+   "RoundedRectangle",
+   "Text",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeInOut",
+   "largeTitle",
+   "semibold",
+   "snappy",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "clear",
+   "fill",
+   "gray",
+   "hidden",
+   "plain",
+   "primary",
+   "ultraThinMaterial",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 25,
+  "types": 9,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 2,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 52
+}

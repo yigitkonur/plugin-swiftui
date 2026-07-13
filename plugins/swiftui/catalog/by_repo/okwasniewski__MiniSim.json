@@ -1,0 +1,170 @@
+{
+ "repo": "okwasniewski/MiniSim",
+ "stars": 2851,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "bb9deb199adf9d88350f4dbc6349c4ff39fdd1a4",
+ "platform": "macos",
+ "author_authority": 174699,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "okwasniewski",
+   "score": 174699,
+   "contributions": 109
+  },
+  {
+   "login": "Garfeild",
+   "score": 12,
+   "contributions": 3
+  },
+  {
+   "login": "gokul1099",
+   "score": 32,
+   "contributions": 3
+  }
+ ],
+ "loc": 7334,
+ "custom_components": 66,
+ "imports": [
+  "AcknowList",
+  "AppKit",
+  "Cocoa",
+  "CodeEditor",
+  "Foundation",
+  "KeyboardShortcuts",
+  "LaunchAtLogin",
+  "MiniSim",
+  "OSLog",
+  "Settings",
+  "ShellOut",
+  "Sparkle",
+  "SwiftUI",
+  "SymbolPicker",
+  "UserNotifications",
+  "XCTest"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "controlActiveState",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "fixedSize",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "labelsHidden",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "position",
+   "redacted",
+   "resizable",
+   "scaledToFit",
+   "sheet",
+   "tag",
+   "toggleStyle",
+   "toolbar",
+   "weight",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Form",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "Link",
+   "NSHostingController",
+   "NSHostingView",
+   "NavigationView",
+   "Picker",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "center",
+   "headline",
+   "largeTitle",
+   "light",
+   "regular",
+   "semibold",
+   "subheadline",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "automatic",
+   "black",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "green",
+   "horizontal",
+   "leading",
+   "link",
+   "placeholder",
+   "plain",
+   "red",
+   "regularMaterial",
+   "sidebar",
+   "switch",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "controlActiveState",
+   "dismiss",
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 29,
+  "types": 23,
+  "valueBuilders": 11,
+  "macros": 0,
+  "styleValues": 20,
+  "propertyWrappers": 4,
+  "environmentKeys": 4
+ },
+ "total_unique_apis": 91
+}

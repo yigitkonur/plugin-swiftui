@@ -1,0 +1,135 @@
+{
+ "repo": "smittytone/ASCII",
+ "stars": 6,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "eccff4b0e43e4b3852baf614bc67f76bc6356294",
+ "platform": "macos",
+ "author_authority": 778,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "smittytone",
+   "score": 778,
+   "contributions": 83
+  },
+  {
+   "login": "ElectricImpSampleCode",
+   "score": 0,
+   "contributions": 22
+  }
+ ],
+ "loc": 1898,
+ "custom_components": 18,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "Alert"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "border",
+   "commands",
+   "defaultSize",
+   "defaultWindowPlacement",
+   "disabled",
+   "environment",
+   "fill",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "horizontalRadioGroupLayout",
+   "keyboardShortcut",
+   "multilineTextAlignment",
+   "onChange",
+   "onChanged",
+   "onEnded",
+   "onModifierKeysChanged",
+   "onReceive",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "renderingMode",
+   "resizable",
+   "restorationBehavior",
+   "sizeThatFits",
+   "tag",
+   "toggleStyle",
+   "windowResizability",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "CommandMenu",
+   "Divider",
+   "DragGesture",
+   "EdgeInsets",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "Picker",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowPlacement",
+   "ZStack"
+  ],
+  "valueBuilders": [],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "clear",
+   "green",
+   "leading",
+   "orange",
+   "primary",
+   "radioGroup",
+   "red",
+   "secondary",
+   "switch",
+   "top",
+   "trailing",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Bindable",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 22,
+  "valueBuilders": 0,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 75
+}

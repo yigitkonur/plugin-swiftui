@@ -1,0 +1,127 @@
+{
+ "repo": "kylekaturn/RetroManager",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e0f9e0a6a77c0cf893eef4bf0ccbe58c26f3933c",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kylekaturn",
+   "score": 0,
+   "contributions": 74
+  }
+ ],
+ "loc": 1385,
+ "custom_components": 24,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "commands",
+   "contextMenu",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "fileImporter",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "id",
+   "keyboardShortcut",
+   "lineLimit",
+   "listStyle",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onExitCommand",
+   "onKeyPress",
+   "onSubmit",
+   "opacity",
+   "padding",
+   "resizable",
+   "searchable",
+   "sheet",
+   "toolbar",
+   "truncationMode"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "Form",
+   "Grid",
+   "GridRow",
+   "HStack",
+   "Image",
+   "LabeledContent",
+   "List",
+   "NavigationSplitView",
+   "ScrollViewReader",
+   "Section",
+   "Settings",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "headline",
+   "system",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "center",
+   "grouped",
+   "leading",
+   "secondary",
+   "sidebar",
+   "topLeading",
+   "trailing",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 22,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 7,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 74
+}

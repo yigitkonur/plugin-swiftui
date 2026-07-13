@@ -1,0 +1,117 @@
+{
+ "repo": "Lakr233/Fix-GPS",
+ "stars": 35,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "3d597f6fd0fdf8f6d6a2b8af5941a813a9b371cc",
+ "platform": "macos",
+ "author_authority": 216383,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Lakr233",
+   "score": 216383,
+   "contributions": 15
+  }
+ ],
+ "loc": 1236,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "CoreLocation",
+  "Fix_GPS",
+  "Foundation",
+  "ImageIO",
+  "Photos",
+  "PhotosUI",
+  "SwiftCSV",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "background",
+   "bold",
+   "buttonStyle",
+   "commandsReplaced",
+   "controlSize",
+   "disabled",
+   "fileImporter",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "id",
+   "interactiveDismissDisabled",
+   "onChange",
+   "padding",
+   "sheet",
+   "task",
+   "textFieldStyle",
+   "toggleStyle",
+   "underline",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "ProgressView",
+   "ScrollView",
+   "ScrollViewReader",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderedProminent",
+   "bottom",
+   "checkbox",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "roundedBorder",
+   "secondary"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 16,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 11,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 57
+}

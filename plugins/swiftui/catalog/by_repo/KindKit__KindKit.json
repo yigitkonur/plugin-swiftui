@@ -1,0 +1,81 @@
+{
+ "repo": "KindKit/KindKit",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "0afa46f33612a999731adf0971b9493f33da6e28",
+ "platform": "macos",
+ "author_authority": 10,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "fgengine",
+   "score": 11,
+   "contributions": 231
+  },
+  {
+   "login": "nastenkomisha",
+   "score": 1,
+   "contributions": 9
+  }
+ ],
+ "loc": 115620,
+ "custom_components": 4,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "AppTrackingTransparency",
+  "Carbon",
+  "CommonCrypto",
+  "CoreGraphics",
+  "CoreImage",
+  "CoreLocation",
+  "CoreMedia",
+  "CoreMotion",
+  "CoreServices",
+  "Dispatch",
+  "Foundation",
+  "ImageIO",
+  "KindKit",
+  "MessageUI",
+  "MobileCoreServices",
+  "PackageDescription",
+  "PhotosUI",
+  "QuartzCore",
+  "SQLite3",
+  "Security",
+  "SwiftUI",
+  "UIKit",
+  "UniformTypeIdentifiers",
+  "UserNotifications",
+  "WebKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "sizeThatFits"
+  ],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "clear",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 2,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 3
+}

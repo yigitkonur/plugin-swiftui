@@ -1,0 +1,63 @@
+{
+ "repo": "KirillSharafutdinov/revilio-ios",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "5b14815f3efb9812f7f4ffb4ebf05e1c4ac5ca4d",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "KirillSharafutdinov",
+   "score": 0,
+   "contributions": 30
+  }
+ ],
+ "loc": 18552,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AppIntents",
+  "Combine",
+  "CoreGraphics",
+  "CoreHaptics",
+  "CoreML",
+  "CoreMedia",
+  "CoreVideo",
+  "Foundation",
+  "MessageUI",
+  "Metal",
+  "MetalKit",
+  "MetalPerformanceShaders",
+  "ObjectiveC",
+  "QuartzCore",
+  "SafariServices",
+  "Speech",
+  "UIKit",
+  "Vision",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

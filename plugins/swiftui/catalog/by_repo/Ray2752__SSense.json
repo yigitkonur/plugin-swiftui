@@ -1,0 +1,118 @@
+{
+ "repo": "Ray2752/SSense",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "df91c635c96dc039fcec86962ecf2052a164e829",
+ "platform": "macos",
+ "author_authority": 7,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Ray2752",
+   "score": 7,
+   "contributions": 5
+  }
+ ],
+ "loc": 619,
+ "custom_components": 4,
+ "imports": [
+  "Combine",
+  "CoreFoundation",
+  "Darwin",
+  "Foundation",
+  "SwiftUI",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "labelsHidden",
+   "menuBarExtraStyle",
+   "monospacedDigit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "opacity",
+   "overlay",
+   "padding",
+   "pickerStyle",
+   "preferredColorScheme",
+   "stroke",
+   "symbolRenderingMode",
+   "tag"
+  ],
+  "types": [
+   "Button",
+   "Capsule",
+   "Circle",
+   "Color",
+   "Divider",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "MenuBarExtra",
+   "Picker",
+   "Rectangle",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "medium",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "bottomTrailing",
+   "green",
+   "horizontal",
+   "leading",
+   "mint",
+   "orange",
+   "plain",
+   "red",
+   "secondary",
+   "segmented",
+   "tertiary",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 23,
+  "types": 17,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 18,
+  "propertyWrappers": 3,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 64
+}

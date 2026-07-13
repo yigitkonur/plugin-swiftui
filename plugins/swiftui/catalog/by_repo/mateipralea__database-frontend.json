@@ -1,0 +1,101 @@
+{
+ "repo": "mateipralea/database-frontend",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "573f8c628d048458071c2780ef88de4b6d2be3e5",
+ "platform": "macos",
+ "author_authority": 891,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "mateipralea",
+   "score": 891,
+   "contributions": 2
+  }
+ ],
+ "loc": 1425,
+ "custom_components": 11,
+ "imports": [
+  "CryptoKit",
+  "Foundation",
+  "SQLite",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "bold",
+   "buttonStyle",
+   "controlSize",
+   "disabled",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "italic",
+   "lineLimit",
+   "navigationTitle",
+   "onChange",
+   "padding",
+   "presentedWindowStyle",
+   "textContentType",
+   "textFieldStyle",
+   "width",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "EmptyView",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "NavigationLink",
+   "NavigationStack",
+   "SecureField",
+   "Spacer",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "regular",
+   "system",
+   "title",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "green",
+   "keyboard",
+   "leading",
+   "red",
+   "roundedBorder"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 18,
+  "types": 16,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 6,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

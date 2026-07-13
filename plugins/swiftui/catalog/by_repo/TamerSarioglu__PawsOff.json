@@ -1,0 +1,97 @@
+{
+ "repo": "TamerSarioglu/PawsOff",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "417e52675bff4fc5e7645c1f92c695f6e23a5ec3",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 0,
+ "top_contributors": [],
+ "loc": 257,
+ "custom_components": 4,
+ "imports": [
+  "AppKit",
+  "ApplicationServices",
+  "Combine",
+  "CoreGraphics",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "multilineTextAlignment",
+   "onAppear",
+   "opacity",
+   "padding",
+   "shadow",
+   "stroke",
+   "symbolEffect",
+   "touchBar",
+   "touchBarItemPresence",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "HStack",
+   "Image",
+   "Label",
+   "RoundedRectangle",
+   "Text",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "medium",
+   "semibold",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "center",
+   "green",
+   "hiddenTitleBar",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "EnvironmentObject",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 21,
+  "types": 8,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 11,
+  "propertyWrappers": 2,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 48
+}

@@ -1,0 +1,51 @@
+{
+ "repo": "gkpln3/CapsLockNoDelay",
+ "stars": 1003,
+ "categories": [
+  "General Tools"
+ ],
+ "sha": "4a5862f42a5cc46094cf235c5fbaace4354d6654",
+ "platform": "other",
+ "author_authority": 65325,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "gkpln3",
+   "score": 65325,
+   "contributions": 41
+  },
+  {
+   "login": "scila1996",
+   "score": 175,
+   "contributions": 1
+  }
+ ],
+ "loc": 262,
+ "custom_components": 0,
+ "imports": [
+  "Carbon",
+  "Cocoa",
+  "Foundation"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

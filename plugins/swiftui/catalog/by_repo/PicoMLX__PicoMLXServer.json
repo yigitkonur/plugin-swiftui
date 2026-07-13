@@ -1,0 +1,150 @@
+{
+ "repo": "PicoMLX/PicoMLXServer",
+ "stars": 327,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "92e05e4a2b0f72b089391e72ceb16dc14486a73a",
+ "platform": "macos",
+ "author_authority": 175749,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "ronaldmannak",
+   "score": 175749,
+   "contributions": 10
+  }
+ ],
+ "loc": 1673,
+ "custom_components": 26,
+ "imports": [
+  "AppKit",
+  "Cocoa",
+  "Foundation",
+  "FullDiskAccess",
+  "OSLog",
+  "PicoMLXServer",
+  "SplitView",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "borderlessButton",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "buttonStyle",
+   "confirmationDialog",
+   "controlSize",
+   "disabled",
+   "environment",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gridColumnAlignment",
+   "handlesExternalEvents",
+   "id",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "menuStyle",
+   "monospaced",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "onOpenURL",
+   "opacity",
+   "padding",
+   "tableStyle",
+   "textSelection",
+   "truncationMode",
+   "width"
+  ],
+  "types": [
+   "Button",
+   "ContentUnavailableView",
+   "Divider",
+   "EmptyView",
+   "ForEach",
+   "Form",
+   "Grid",
+   "GridItem",
+   "GridRow",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "Menu",
+   "MenuBarExtra",
+   "ScrollView",
+   "ScrollViewReader",
+   "Section",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "State",
+   "Table",
+   "TableColumn",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "Window",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "body",
+   "footnote"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bordered",
+   "borderlessButton",
+   "bottom",
+   "gray",
+   "horizontal",
+   "leading",
+   "menu",
+   "plain",
+   "primary",
+   "secondary",
+   "top",
+   "topLeading",
+   "trailing",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "openURL",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 30,
+  "valueBuilders": 2,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 7,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 88
+}

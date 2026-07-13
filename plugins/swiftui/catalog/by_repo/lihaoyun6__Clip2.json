@@ -1,0 +1,123 @@
+{
+ "repo": "lihaoyun6/Clip2",
+ "stars": 24,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9223a5c70f1756769128aab66affe9aed7052b88",
+ "platform": "macos",
+ "author_authority": 18671,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lihaoyun6",
+   "score": 18671,
+   "contributions": 7
+  }
+ ],
+ "loc": 840,
+ "custom_components": 37,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "KeyboardShortcuts",
+  "ServiceManagement",
+  "Sparkle",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "commands",
+   "disabled",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "listStyle",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "scaleEffect",
+   "sheet",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Stepper",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "light",
+   "regular",
+   "subheadline",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "blue",
+   "borderless",
+   "bottom",
+   "leading",
+   "menu",
+   "none",
+   "plain",
+   "primary",
+   "roundedBorder",
+   "secondary",
+   "sidebar",
+   "switch",
+   "top",
+   "trailing"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 22,
+  "types": 20,
+  "valueBuilders": 5,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 66
+}

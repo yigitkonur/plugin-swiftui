@@ -1,0 +1,23 @@
+# draw-05 (structural): a MeshGradient(...) call that is NOT inside an `if #available(...)` availability
+# gate. MeshGradient is macOS 15.0+; under a deployment target < macOS 15 it must be gated. grep CANNOT
+# prove the ABSENCE of an enclosing gate — it only sees the `MeshGradient(` line; this anchors on the
+# call_expression and asserts no enclosing if_statement carries an availability_condition. READ the
+# deployment floor in ORIENT: floor >= 15 → fine; floor < 15 with this firing → hard-fail (draw-05).
+id: draw-05-meshgradient-not-gated
+language: Swift
+severity: warning
+message: >-
+  draw-05: a MeshGradient(...) call is NOT inside an if #available(...) availability gate. MeshGradient is
+  macOS 15.0+; under a deployment target < macOS 15 it must be gated on #available(macOS 15, *). READ the
+  deployment floor (ORIENT) — if the floor is >= 15 this is fine; below 15 it is a hard-fail.
+rule:
+  kind: call_expression
+  all:
+    - pattern: MeshGradient($$$ARGS)
+    - not:
+        inside:
+          kind: if_statement
+          stopBy: end
+          has:
+            field: condition
+            kind: availability_condition

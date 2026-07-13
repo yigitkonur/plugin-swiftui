@@ -1,0 +1,117 @@
+{
+ "repo": "madrzak/GitStreakMenuApp",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "15d0db431ae87d5b84ac72d058fb013ba6986a14",
+ "platform": "macos",
+ "author_authority": 182,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "madrzak",
+   "score": 182,
+   "contributions": 13
+  }
+ ],
+ "loc": 1198,
+ "custom_components": 8,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "GitStreakMenuApp",
+  "SwiftUI",
+  "Testing",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "cornerRadius",
+   "fixedSize",
+   "font",
+   "foregroundColor",
+   "frame",
+   "keyboardShortcut",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "tabItem",
+   "tag",
+   "textFieldStyle"
+  ],
+  "types": [
+   "Button",
+   "Divider",
+   "ForEach",
+   "Grid",
+   "GridRow",
+   "Group",
+   "GroupBox",
+   "HStack",
+   "Label",
+   "Link",
+   "NSHostingController",
+   "Picker",
+   "RadioGroupPickerStyle",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "SecureField",
+   "Settings",
+   "Spacer",
+   "State",
+   "TabView",
+   "Text",
+   "TextField",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "custom",
+   "headline",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "bottom",
+   "horizontal",
+   "leading",
+   "none",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 15,
+  "types": 23,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 7,
+  "propertyWrappers": 4,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 57
+}

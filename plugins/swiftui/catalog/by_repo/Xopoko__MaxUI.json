@@ -1,0 +1,81 @@
+{
+ "repo": "Xopoko/MaxUI",
+ "stars": 16,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6d7872b64939129c97d370652e53dd18d8476a7f",
+ "platform": "other",
+ "author_authority": 116134,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Xopoko",
+   "score": 116134,
+   "contributions": 11
+  }
+ ],
+ "loc": 8439,
+ "custom_components": 18,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "MaxUI",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundColor",
+   "previewDevice",
+   "previewDisplayName",
+   "shadow"
+  ],
+  "types": [
+   "Color",
+   "ForEach",
+   "PreviewDevice"
+  ],
+  "valueBuilders": [
+   "center",
+   "light",
+   "semibold"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "blue",
+   "center",
+   "fill",
+   "gray",
+   "red",
+   "top",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": [
+   "isEnabled"
+  ]
+ },
+ "counts": {
+  "modifiers": 8,
+  "types": 3,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 0,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 24
+}

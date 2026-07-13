@@ -1,0 +1,113 @@
+{
+ "repo": "lakshya018/ClipView",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "f339cbb43c2a63ec9ea6957e320377b8f3ddbb3c",
+ "platform": "macos",
+ "author_authority": 1,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "lakshya018",
+   "score": 1,
+   "contributions": 1
+  }
+ ],
+ "loc": 366,
+ "custom_components": 6,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundColor",
+   "frame",
+   "labelStyle",
+   "menuBarExtraStyle",
+   "modelContainer",
+   "modelContext",
+   "onAppear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "resizable",
+   "scaledToFit",
+   "shadow",
+   "stroke",
+   "transition"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "MenuBarExtra",
+   "ModelConfiguration",
+   "ModelContainer",
+   "Rectangle",
+   "RoundedRectangle",
+   "Schema",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "caption",
+   "easeInOut"
+  ],
+  "macros": [],
+  "styleValues": [
+   "black",
+   "bottom",
+   "horizontal",
+   "leading",
+   "plain",
+   "titleAndIcon",
+   "top",
+   "white",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Environment",
+   "Query",
+   "State"
+  ],
+  "environmentKeys": [
+   "modelContext"
+  ]
+ },
+ "counts": {
+  "modifiers": 24,
+  "types": 18,
+  "valueBuilders": 3,
+  "macros": 0,
+  "styleValues": 9,
+  "propertyWrappers": 3,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 58
+}

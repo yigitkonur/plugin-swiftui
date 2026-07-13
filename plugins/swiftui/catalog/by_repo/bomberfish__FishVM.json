@@ -1,0 +1,148 @@
+{
+ "repo": "bomberfish/FishVM",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "01bf3f215fc38024c84baf2b94c0a1a4cd9948aa",
+ "platform": "macos",
+ "author_authority": 44186,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "bomberfish",
+   "score": 44186,
+   "contributions": 4
+  }
+ ],
+ "loc": 1212,
+ "custom_components": 20,
+ "imports": [
+  "AVFoundation",
+  "AssetCatalogWrapper",
+  "DefaultCodable",
+  "FishVM",
+  "Foundation",
+  "OSLog",
+  "SwiftUI",
+  "SwiftUICore",
+  "Testing",
+  "Virtualization",
+  "XCTest"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityLabel",
+   "animation",
+   "background",
+   "backgroundStyle",
+   "contextMenu",
+   "cornerRadius",
+   "defaultLaunchBehavior",
+   "focusable",
+   "focused",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "inset",
+   "keyboardShortcut",
+   "lineLimit",
+   "navigationTitle",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "popover",
+   "resizable",
+   "restorationBehavior",
+   "scenePadding",
+   "sheet",
+   "stroke",
+   "tabViewStyle",
+   "tag",
+   "toggleStyle",
+   "toolbar",
+   "toolbarTitleDisplayMode",
+   "weight",
+   "windowFullScreenBehavior",
+   "windowToolbarFullScreenVisibility",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "ContentUnavailableView",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVGrid",
+   "LazyVStack",
+   "List",
+   "Rectangle",
+   "RoundedRectangle",
+   "ScrollView",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Tab",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle",
+   "snappy",
+   "system"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "checkbox",
+   "leading",
+   "primaryAction",
+   "secondary",
+   "tabBarOnly",
+   "tertiary",
+   "thinMaterial",
+   "unifiedCompact",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "FocusState",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "dismiss",
+   "dismissWindow",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 37,
+  "types": 27,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 10,
+  "propertyWrappers": 6,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 87
+}

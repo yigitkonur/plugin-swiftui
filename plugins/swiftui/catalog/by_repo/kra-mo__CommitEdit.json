@@ -1,0 +1,134 @@
+{
+ "repo": "kra-mo/CommitEdit",
+ "stars": 36,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "720ae91a02395c1935dd1af8864ab52ed0a2367a",
+ "platform": "macos",
+ "author_authority": 68629,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "kra-mo",
+   "score": 68629,
+   "contributions": 42
+  }
+ ],
+ "loc": 414,
+ "custom_components": 8,
+ "imports": [
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "background",
+   "buttonStyle",
+   "commands",
+   "containerBackground",
+   "controlSize",
+   "cornerRadius",
+   "defaultScrollAnchor",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "gesture",
+   "ignoresSafeArea",
+   "keyboardShortcut",
+   "labelStyle",
+   "lineSpacing",
+   "offset",
+   "onAppear",
+   "onChange",
+   "onHover",
+   "onOpenURL",
+   "opacity",
+   "padding",
+   "popover",
+   "position",
+   "resizable",
+   "restorationBehavior",
+   "scaleEffect",
+   "scrollContentBackground",
+   "shadow",
+   "size",
+   "toolbar",
+   "windowLevel",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "Label",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextEditor",
+   "ToolbarItem",
+   "ToolbarSpacer",
+   "VStack",
+   "WindowDragGesture",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "easeOut",
+   "headline",
+   "largeTitle",
+   "regular",
+   "system",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "borderedProminent",
+   "borderless",
+   "center",
+   "foreground",
+   "hidden",
+   "horizontal",
+   "iconOnly",
+   "leading",
+   "titleAndIcon",
+   "ultraThickMaterial",
+   "window"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openURL"
+  ]
+ },
+ "counts": {
+  "modifiers": 38,
+  "types": 17,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 12,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 80
+}

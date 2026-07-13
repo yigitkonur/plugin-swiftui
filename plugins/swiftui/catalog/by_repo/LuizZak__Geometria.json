@@ -1,0 +1,57 @@
+{
+ "repo": "LuizZak/Geometria",
+ "stars": 11,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c990252d603e1af1004730e10be8f1b69152fc40",
+ "platform": "other",
+ "author_authority": 725,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "LuizZak",
+   "score": 725,
+   "contributions": 612
+  }
+ ],
+ "loc": 58458,
+ "custom_components": 0,
+ "imports": [
+  "Foundation",
+  "Geometria",
+  "GeometriaAlgorithms",
+  "GeometriaClipping",
+  "MiniDigraph",
+  "MiniGraphviz",
+  "MiniP5Printer",
+  "Numerics",
+  "OrderedCollections",
+  "PackageDescription",
+  "RealModule",
+  "TestCommons",
+  "XCTest",
+  "simd"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

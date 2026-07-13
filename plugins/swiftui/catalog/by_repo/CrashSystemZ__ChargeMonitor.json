@@ -1,0 +1,113 @@
+{
+ "repo": "CrashSystemZ/ChargeMonitor",
+ "stars": 8,
+ "categories": [
+  "Menu Bar Tools"
+ ],
+ "sha": "12f66f2ab9028c08ef3a2e9751c1d30bb319af63",
+ "platform": "macos",
+ "author_authority": 0,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "CrashSystemZ",
+   "score": 0,
+   "contributions": 11
+  }
+ ],
+ "loc": 1595,
+ "custom_components": 15,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Darwin",
+  "Foundation",
+  "IOKit",
+  "ServiceManagement",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "borderlessButton"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "contentShape",
+   "controlSize",
+   "cornerRadius",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "keyboardShortcut",
+   "lineLimit",
+   "menuBarExtraStyle",
+   "menuIndicator",
+   "menuStyle",
+   "onAppear",
+   "onDisappear",
+   "onHover",
+   "padding",
+   "resizable",
+   "scaledToFit"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Color",
+   "Divider",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Menu",
+   "MenuBarExtra",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "StateObject",
+   "Text",
+   "Toggle",
+   "VStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "regular",
+   "semibold",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "borderlessButton",
+   "bottom",
+   "clear",
+   "hidden",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "secondary",
+   "top",
+   "vertical",
+   "window"
+  ],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 16,
+  "valueBuilders": 4,
+  "macros": 0,
+  "styleValues": 12,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 56
+}

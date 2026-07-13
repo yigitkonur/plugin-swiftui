@@ -1,0 +1,128 @@
+{
+ "repo": "Shieldudaram/ToDo-V1.4",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4d8675ba827bbe4dc02b4eefee5db6f688ac9df0",
+ "platform": "other",
+ "author_authority": 76,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "Shieldudaram",
+   "score": 76,
+   "contributions": 26
+  },
+  {
+   "login": "jinc0930",
+   "score": 8,
+   "contributions": 1
+  }
+ ],
+ "loc": 746,
+ "custom_components": 19,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftData",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "buttonStyle",
+   "cornerRadius",
+   "disabled",
+   "edgesIgnoringSafeArea",
+   "font",
+   "foregroundColor",
+   "frame",
+   "imageScale",
+   "modelContainer",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "sheet",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "BorderlessButtonStyle",
+   "Button",
+   "CheckboxToggleStyle",
+   "ForEach",
+   "Form",
+   "GridItem",
+   "HStack",
+   "Image",
+   "LazyVGrid",
+   "ModelConfiguration",
+   "ModelContainer",
+   "NavigationView",
+   "PlainButtonStyle",
+   "RoundedBorderTextFieldStyle",
+   "Schema",
+   "ScrollView",
+   "Section",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "headline",
+   "largeTitle",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "all",
+   "black",
+   "bottom",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "orange",
+   "red",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "yellow"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "dismiss"
+  ]
+ },
+ "counts": {
+  "modifiers": 16,
+  "types": 24,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 14,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 64
+}

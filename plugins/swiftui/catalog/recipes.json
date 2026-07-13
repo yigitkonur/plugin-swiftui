@@ -1,0 +1,942 @@
+{
+ "count": 12,
+ "recipes": [
+  {
+   "name": "menubar-app",
+   "kind": "pattern",
+   "apis": [
+    "MenuBarExtra",
+    "menuBarExtraStyle",
+    "Settings"
+   ],
+   "description": "A menu-bar (status item) macOS app with a Settings window.",
+   "template": "@main struct MyApp: App {\n  var body: some Scene {\n    MenuBarExtra(\"Title\", systemImage: \"star\") {\n      ContentView()\n    }.menuBarExtraStyle(.window)\n    Settings { SettingsView() }\n  }\n}",
+   "repos": 401,
+   "examples": [
+    {
+     "id": "ex_259054c919",
+     "repo": "kageroumado/phosphene",
+     "permalink": "https://github.com/kageroumado/phosphene/blob/757cae705aaf36ac13ba973919a181ea89fb2e3c/Phosphene/PhospheneApp.swift#L11",
+     "src": "MenuBarExtra { \u2026 }",
+     "provenance": {
+      "stars": 737,
+      "author_authority": 197058,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.7559
+     }
+    },
+    {
+     "id": "ex_83242bae32",
+     "repo": "us/mocker",
+     "permalink": "https://github.com/us/mocker/blob/b2d305c6273df7ab1ce88a20eb73815948ebd2b1/Sources/MockerApp/MockerApp.swift#L9",
+     "src": "MenuBarExtra(\"Mocker\", systemImage: \"shippingbox.fill\")",
+     "provenance": {
+      "stars": 209,
+      "author_authority": 1857050,
+      "min_macos": "13",
+      "platform": "macos",
+      "score": 0.6415
+     }
+    },
+    {
+     "id": "ex_0b5b6b3061",
+     "repo": "pablopunk/SwiftShift",
+     "permalink": "https://github.com/pablopunk/SwiftShift/blob/901243d1deb3fdeae85765f965bc733cc6ffaa27/Swift Shift/src/App.swift#L11",
+     "src": "MenuBarExtra(isInserted: $showMenuBarIcon)",
+     "provenance": {
+      "stars": 600,
+      "author_authority": 192475,
+      "min_macos": "13",
+      "platform": "macos",
+      "score": 0.6332
+     }
+    },
+    {
+     "id": "ex_e4f6c57a69",
+     "repo": "mrkai77/Loop",
+     "permalink": "https://github.com/mrkai77/Loop/blob/d7f9a1a7dff958e16c5421dd8c30164039192367/Loop/App/LoopApp.swift#L18",
+     "src": "MenuBarExtra(Bundle.main.appName, image: \"menubarIcon\", isInserted: Binding.constant(!hideMenuBarIcon))",
+     "provenance": {
+      "stars": 10899,
+      "author_authority": 11645,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4696
+     }
+    },
+    {
+     "id": "ex_c8fdec25fc",
+     "repo": "pixelspark/sushitrain",
+     "permalink": "https://github.com/pixelspark/sushitrain/blob/cd4ea2272279229dd7ca0575d96cb271edbc0c95/Sushitrain/App.swift#L306",
+     "src": "MenuBarExtra(\"Synctrain\", systemImage: self.menuIcon, isInserted: $hideInDock)",
+     "provenance": {
+      "stars": 1850,
+      "author_authority": 89315,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4677
+     }
+    }
+   ]
+  },
+  {
+   "name": "master-detail",
+   "kind": "pattern",
+   "apis": [
+    "NavigationSplitView",
+    "List",
+    "navigationDestination"
+   ],
+   "description": "Sidebar + detail navigation (the macOS standard).",
+   "template": "NavigationSplitView {\n  List(items, selection: $selection) { item in\n    NavigationLink(item.name, value: item)\n  }\n} detail: {\n  DetailView(selection)\n}",
+   "repos": 487,
+   "examples": [
+    {
+     "id": "ex_2fac4184ae",
+     "repo": "jordanbaird/Ice",
+     "permalink": "https://github.com/jordanbaird/Ice/blob/11edd39115f3f43a83ae114b5348df6a0e1741cf/Ice/Settings/SettingsView.swift#L40",
+     "src": "NavigationSplitView { \u2026 }",
+     "provenance": {
+      "stars": 28314,
+      "author_authority": 28561,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.764
+     }
+    },
+    {
+     "id": "ex_02183f2525",
+     "repo": "sindresorhus/Pasteboard-Viewer",
+     "permalink": "https://github.com/sindresorhus/Pasteboard-Viewer/blob/faf656482dcfe539caf9a9d965f58cb022a6351f/Pasteboard Viewer/MainScreen.swift#L20",
+     "src": "NavigationSplitView(columnVisibility: $columnVisibility)",
+     "provenance": {
+      "stars": 835,
+      "author_authority": 1013769,
+      "min_macos": "26",
+      "platform": "other",
+      "score": 0.5494
+     }
+    },
+    {
+     "id": "ex_fe73ed9266",
+     "repo": "lbrndnr/nuage-macos",
+     "permalink": "https://github.com/lbrndnr/nuage-macos/blob/8ebfe18864580f532ca283ab287aaacaf38db765/Nuage/Views/MainView.swift#L33",
+     "src": "NavigationSplitView(sidebar: sidebar)",
+     "provenance": {
+      "stars": 462,
+      "author_authority": 4634,
+      "min_macos": "13",
+      "platform": "macos",
+      "score": 0.2454
+     }
+    },
+    {
+     "id": "ex_13201b5ffc",
+     "repo": "raindropio/ios",
+     "permalink": "https://github.com/raindropio/ios/blob/08bd9ed714b7f11eaae55102fb286dd3949cbe86/App/SplitView.swift#L21",
+     "src": "NavigationSplitView(columnVisibility: $columnVisibility, preferredCompactColumn: .constant(path.preferredCompactColumn))",
+     "provenance": {
+      "stars": 37,
+      "author_authority": 3181,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.244
+     }
+    },
+    {
+     "id": "ex_c797beca4f",
+     "repo": "adamrdrew/TakeNote",
+     "permalink": "https://github.com/adamrdrew/TakeNote/blob/fd7847e4aa6cbd573dcf0c41001a3c0acdda0a24/TakeNote/Views/MainWindow/MainWindow.swift#L148",
+     "src": "NavigationSplitView(preferredCompactColumn: $preferredColumn)",
+     "provenance": {
+      "stars": 17,
+      "author_authority": 453,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.1471
+     }
+    }
+   ]
+  },
+  {
+   "name": "searchable-list",
+   "kind": "pattern",
+   "apis": [
+    "searchable",
+    "searchScopes"
+   ],
+   "description": "A list with a search field (and optional scopes).",
+   "template": "List(results) { Text($0.title) }\n  .searchable(text: $query)\n  // bind @State private var query = \"\"",
+   "repos": 276,
+   "examples": [
+    {
+     "id": "ex_4bdd3cf4d9",
+     "repo": "prime-radiant-inc/clearance",
+     "permalink": "https://github.com/prime-radiant-inc/clearance/blob/6d7dc0be57b06ed54c0ec6f3fb09211f44ca979a/apps/macos/Clearance/Views/WorkspaceView.swift#L222",
+     "src": ".searchable(text: $renderedFindQuery, isPresented: $isRenderedSearchPresented, placement: .toolbar, prompt: \"Find in Document\")",
+     "provenance": {
+      "stars": 185,
+      "author_authority": 277251,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.6199
+     }
+    },
+    {
+     "id": "ex_831dd41828",
+     "repo": "TableProApp/TablePro",
+     "permalink": "https://github.com/TableProApp/TablePro/blob/e3afc6457cd819eca5226c3874a9b4d7ad318a67/TableProMobile/TableProMobile/Views/TableListView.swift#L100",
+     "src": ".searchable(text: $searchText, prompt: \"Search tables\")",
+     "provenance": {
+      "stars": 4324,
+      "author_authority": 379178,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5212
+     }
+    },
+    {
+     "id": "ex_892cc64bcc",
+     "repo": "tw93/MiaoYan",
+     "permalink": "https://github.com/tw93/MiaoYan/blob/dc789e4b99623cfb22c977a8fdcb2c7f28cfb200/MiaoYanMobile/Views/SearchView.swift#L27",
+     "src": ".searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: \"Search notes\")",
+     "provenance": {
+      "stars": 8326,
+      "author_authority": 172220,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5211
+     }
+    },
+    {
+     "id": "ex_548f5fc821",
+     "repo": "PlayCover/PlayCover",
+     "permalink": "https://github.com/PlayCover/PlayCover/blob/b4ee82f6e53dee4989002bf9df7794bd474db216/PlayCover/Views/Sidebar Views/AppLibraryView.swift#L96",
+     "src": ".searchable(text: $searchString, placement: .toolbar)",
+     "provenance": {
+      "stars": 11363,
+      "author_authority": 77087,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5118
+     }
+    },
+    {
+     "id": "ex_950335dae4",
+     "repo": "inline-chat/inline",
+     "permalink": "https://github.com/inline-chat/inline/blob/4c891b3e4d3831e3bf23c933de8dcbc153ef317f/apple/InlineUI/Sources/InlineUI/ForwardMessagesSheet.swift#L453",
+     "src": ".searchable(text: $model.searchText)",
+     "provenance": {
+      "stars": 669,
+      "author_authority": 244817,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4631
+     }
+    }
+   ]
+  },
+  {
+   "name": "settings-form",
+   "kind": "pattern",
+   "apis": [
+    "Form",
+    "Section",
+    "Toggle",
+    "Picker",
+    "LabeledContent"
+   ],
+   "description": "A grouped settings/preferences Form (Toggle/Picker/LabeledContent).",
+   "template": "Form {\n  Section(\"General\") {\n    Toggle(\"Enable\", isOn: $on)\n    Picker(\"Theme\", selection: $theme) { /* \u2026 */ }\n    LabeledContent(\"Version\", value: appVersion)\n  }\n}.formStyle(.grouped)",
+   "repos": 746,
+   "examples": [
+    {
+     "id": "ex_ef28d5c661",
+     "repo": "kageroumado/phosphene",
+     "permalink": "https://github.com/kageroumado/phosphene/blob/757cae705aaf36ac13ba973919a181ea89fb2e3c/Phosphene/VideoInspectorView.swift#L24",
+     "src": "Form { \u2026 }",
+     "provenance": {
+      "stars": 737,
+      "author_authority": 197058,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.7559
+     }
+    },
+    {
+     "id": "ex_f42fee2d98",
+     "repo": "TheAcharya/MarkerData",
+     "permalink": "https://github.com/TheAcharya/MarkerData/blob/32ba4c1ce07751bf337cb04cb4f4a65c0271473b/Source/Marker Data/Marker Data/Views/Detail Views/Label/GeneralLabelSettingsView.swift#L16",
+     "src": "Form { \u2026 }",
+     "provenance": {
+      "stars": 64,
+      "author_authority": 19379,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.6472
+     }
+    },
+    {
+     "id": "ex_88add7d8cf",
+     "repo": "nickustinov/itsypad-macos",
+     "permalink": "https://github.com/nickustinov/itsypad-macos/blob/d6ffd18f75d47a84fc4e3d86ad9665abb048edb6/Sources/Settings/SettingsView.swift#L89",
+     "src": "Form { \u2026 }",
+     "provenance": {
+      "stars": 375,
+      "author_authority": 202810,
+      "min_macos": "15",
+      "platform": "macos",
+      "score": 0.6358
+     }
+    },
+    {
+     "id": "ex_2be34e399a",
+     "repo": "Gremble-io/Detto",
+     "permalink": "https://github.com/Gremble-io/Detto/blob/ed96effda1699a8ef4aa2868f7f7a244f4f45fcf/Detto/Sources/Detto/Views/SettingsView.swift#L12",
+     "src": "Form { \u2026 }",
+     "provenance": {
+      "stars": 494,
+      "author_authority": 165155,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.6292
+     }
+    },
+    {
+     "id": "ex_7508a4bff7",
+     "repo": "prime-radiant-inc/clearance",
+     "permalink": "https://github.com/prime-radiant-inc/clearance/blob/6d7dc0be57b06ed54c0ec6f3fb09211f44ca979a/apps/macos/Clearance/Views/SettingsView.swift#L10",
+     "src": "Form { \u2026 }",
+     "provenance": {
+      "stars": 185,
+      "author_authority": 277251,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.6199
+     }
+    }
+   ]
+  },
+  {
+   "name": "observable-model",
+   "kind": "pattern",
+   "apis": [
+    "Observable",
+    "State",
+    "Bindable"
+   ],
+   "description": "Modern Observation state: an @Observable model owned by a view.",
+   "template": "@Observable final class Model { var count = 0 }\n\nstruct V: View {\n  @State private var model = Model()\n  var body: some View { Stepper(\"\\(model.count)\", value: $model.count) }\n}",
+   "repos": 434,
+   "examples": [
+    {
+     "id": "ex_44cfa1bff8",
+     "repo": "Gremble-io/Detto",
+     "permalink": "https://github.com/Gremble-io/Detto/blob/ed96effda1699a8ef4aa2868f7f7a244f4f45fcf/Detto/Sources/Detto/App/MenuBarIcon.swift#L3",
+     "src": "@Observable @MainActor",
+     "provenance": {
+      "stars": 494,
+      "author_authority": 165155,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.6292
+     }
+    },
+    {
+     "id": "ex_482f89aaa9",
+     "repo": "iSoldLeo/Mio",
+     "permalink": "https://github.com/iSoldLeo/Mio/blob/fa0df28da3243ff2b7e8661ceec834319d5c4e64/Mio/Editor/EditorState.swift#L128",
+     "src": "@Observable @MainActor",
+     "provenance": {
+      "stars": 51,
+      "author_authority": 944,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5708
+     }
+    },
+    {
+     "id": "ex_ea5e1ec971",
+     "repo": "TableProApp/TablePro",
+     "permalink": "https://github.com/TableProApp/TablePro/blob/e3afc6457cd819eca5226c3874a9b4d7ad318a67/TableProMobile/TableProMobile/Coordinators/ConnectionCoordinator.swift#L8",
+     "src": "@MainActor @Observable",
+     "provenance": {
+      "stars": 4324,
+      "author_authority": 379178,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5212
+     }
+    },
+    {
+     "id": "ex_1e0b861567",
+     "repo": "BarutSRB/Hiro",
+     "permalink": "https://github.com/BarutSRB/Hiro/blob/ee9b4f0707668d43f73e4af8c9a4f3581b8c11ce/Sources/OmniWM/UI/WorkspaceBar/WorkspaceBarView.swift#L79",
+     "src": "@MainActor @Observable",
+     "provenance": {
+      "stars": 1916,
+      "author_authority": 224446,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4886
+     }
+    },
+    {
+     "id": "ex_3a6b10ed41",
+     "repo": "partout-io/passepartout",
+     "permalink": "https://github.com/partout-io/passepartout/blob/0ef0b3798a337cfbd21d525d63a8536161fda9bd/app-apple/Sources/AppLibrary/Observables/UserPreferencesObservable.swift#L9",
+     "src": "@MainActor @Observable",
+     "provenance": {
+      "stars": 1299,
+      "author_authority": 43795,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.443
+     }
+    }
+   ]
+  },
+  {
+   "name": "window-scene",
+   "kind": "pattern",
+   "apis": [
+    "WindowGroup",
+    "windowStyle",
+    "windowResizability",
+    "defaultSize"
+   ],
+   "description": "Custom window configuration (style/resizability/size).",
+   "template": "WindowGroup { ContentView() }\n  .windowStyle(.hiddenTitleBar)\n  .windowResizability(.contentSize)\n  .defaultSize(width: 600, height: 400)",
+   "repos": 472,
+   "examples": [
+    {
+     "id": "ex_48d015c56f",
+     "repo": "jordanbaird/Ice",
+     "permalink": "https://github.com/jordanbaird/Ice/blob/11edd39115f3f43a83ae114b5348df6a0e1741cf/Ice/Permissions/PermissionsWindow.swift#L22",
+     "src": ".windowStyle(.hiddenTitleBar)",
+     "provenance": {
+      "stars": 28314,
+      "author_authority": 28561,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.764
+     }
+    },
+    {
+     "id": "ex_5f87b998a4",
+     "repo": "malpern/KeyPath",
+     "permalink": "https://github.com/malpern/KeyPath/blob/58e01d82d636c8aedeb02f7c14a2a0c54c630ce8/Sources/KeyPathAppKit/UI/Overlay/LiveKeyboardOverlayController.swift#L665",
+     "src": ".windowStyle(useAccessibilityTestMode: useAccessibilityTestMode)",
+     "provenance": {
+      "stars": 11,
+      "author_authority": 7962,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.1571
+     }
+    },
+    {
+     "id": "ex_aab65a5f1a",
+     "repo": "leetcode-mafia/cheetah",
+     "permalink": "https://github.com/leetcode-mafia/cheetah/blob/e66db5be59951484d4d88dee0f170834ea63584f/Cheetah/CheetahApp.swift#L122",
+     "src": ".windowStyle(.hiddenTitleBar)",
+     "provenance": {
+      "stars": 4261,
+      "author_authority": 4261,
+      "min_macos": "13",
+      "platform": "macos",
+      "score": 0.5394
+     }
+    },
+    {
+     "id": "ex_bb407e49d1",
+     "repo": "openclaw/Peekaboo",
+     "permalink": "https://github.com/openclaw/Peekaboo/blob/8c51fefb668764fb3227d981a2211e1813d9a6f9/Apps/CLI/TestHost/TestHostApp.swift#L15",
+     "src": ".windowStyle(.titleBar)",
+     "provenance": {
+      "stars": 4650,
+      "author_authority": 784022,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5389
+     }
+    },
+    {
+     "id": "ex_0568bbbb6b",
+     "repo": "utmapp/UTM",
+     "permalink": "https://github.com/utmapp/UTM/blob/e4a4c34b671284263fc69f81b607de494d7e9b65/Platform/visionOS/UTMApp.swift#L83",
+     "src": ".windowStyle(.plain)",
+     "provenance": {
+      "stars": 34295,
+      "author_authority": 52984,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5324
+     }
+    }
+   ]
+  },
+  {
+   "name": "charts-bar",
+   "kind": "pattern",
+   "apis": [
+    "Chart",
+    "BarMark",
+    "chartXAxis"
+   ],
+   "description": "A Swift Charts bar chart with axis configuration.",
+   "template": "Chart(data) { row in\n  BarMark(x: .value(\"Day\", row.day), y: .value(\"Total\", row.total))\n}\n.chartXAxis { AxisMarks() }",
+   "repos": 127,
+   "examples": [
+    {
+     "id": "ex_238fdb0577",
+     "repo": "loocor/codmate",
+     "permalink": "https://github.com/loocor/codmate/blob/2091c39609db97f6779030d014d0c60b5e4ee571/views/OverviewActivityChart.swift#L315",
+     "src": "BarMark(x: .value(\"Date\", point.date), y: .value(\"Value\", value(for: point)), width: .fixed(barWidth * 0.8))",
+     "provenance": {
+      "stars": 669,
+      "author_authority": 416273,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4746
+     }
+    },
+    {
+     "id": "ex_51b0b6e43a",
+     "repo": "pixelspark/sushitrain",
+     "permalink": "https://github.com/pixelspark/sushitrain/blob/cd4ea2272279229dd7ca0575d96cb271edbc0c95/Sushitrain/FolderStatisticsView.swift#L76",
+     "src": "BarMark(xStart: .value(\"Percentage\", 0), \t\t\t\t\txEnd: .value(\"Percentage\", -otherPercentage * 100.0),)",
+     "provenance": {
+      "stars": 1850,
+      "author_authority": 89315,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4677
+     }
+    },
+    {
+     "id": "ex_22279ffae5",
+     "repo": "steipete/CodexBar",
+     "permalink": "https://github.com/steipete/CodexBar/blob/db184430bc4bc7869f597ff7a46236db54126d52/Sources/CodexBar/CostHistoryChartMenuView.swift#L76",
+     "src": "BarMark(x: .value(L(\"Day\"), point.date, unit: .day), y: .value(L(\"Cost\"), point.costUSD))",
+     "provenance": {
+      "stars": 14338,
+      "author_authority": 790570,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.4559
+     }
+    },
+    {
+     "id": "ex_ce0143b5de",
+     "repo": "buresdv/Cork",
+     "permalink": "https://github.com/buresdv/Cork/blob/c7ec6d35b3dff4e19cbc4e29cb1afc42eaa6f1e8/Cork/Views/Start Page/Sub-Views/Cached Downloads Folder Info Box.swift#L67",
+     "src": "BarMark(x: .value(\"start-page.cached-downloads.graph.size\", cachedPackage.sizeInBytes))",
+     "provenance": {
+      "stars": 4471,
+      "author_authority": 4588,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4262
+     }
+    },
+    {
+     "id": "ex_af1a69c7e9",
+     "repo": "justgus/CumberlandWriter",
+     "permalink": "https://github.com/justgus/CumberlandWriter/blob/37dcf9f7ade2ddbd787ca3f587ee060abae3d223/Cumberland/Timeline/TimelineChartView.swift#L938",
+     "src": "BarMark(xStart: .value(\"Start\", item.start), xEnd: .value(\"End\", item.end), y: .value(\"Lane\", allKey))",
+     "provenance": {
+      "stars": 0,
+      "author_authority": 0,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.012
+     }
+    }
+   ]
+  },
+  {
+   "name": "command-palette",
+   "kind": "pattern",
+   "apis": [
+    "searchable",
+    "keyboardShortcut",
+    "onKeyPress",
+    "focused"
+   ],
+   "description": "A \u2318K-style command palette / quick-open overlay: a presented panel with a search field + filtered list, opened by a keyboard shortcut and dismissed on escape.",
+   "template": ".sheet(isPresented: $showPalette) {\n  VStack {\n    TextField(\"Search\u2026\", text: $query).focused($focused)\n    List(results) { Button($0.title) { run($0) } }\n  }.onKeyPress(.escape) { showPalette = false; return .handled }\n}\n.keyboardShortcut(\"k\", modifiers: .command)",
+   "repos": 276,
+   "examples": [
+    {
+     "id": "ex_4bdd3cf4d9",
+     "repo": "prime-radiant-inc/clearance",
+     "permalink": "https://github.com/prime-radiant-inc/clearance/blob/6d7dc0be57b06ed54c0ec6f3fb09211f44ca979a/apps/macos/Clearance/Views/WorkspaceView.swift#L222",
+     "src": ".searchable(text: $renderedFindQuery, isPresented: $isRenderedSearchPresented, placement: .toolbar, prompt: \"Find in Document\")",
+     "provenance": {
+      "stars": 185,
+      "author_authority": 277251,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.6199
+     }
+    },
+    {
+     "id": "ex_831dd41828",
+     "repo": "TableProApp/TablePro",
+     "permalink": "https://github.com/TableProApp/TablePro/blob/e3afc6457cd819eca5226c3874a9b4d7ad318a67/TableProMobile/TableProMobile/Views/TableListView.swift#L100",
+     "src": ".searchable(text: $searchText, prompt: \"Search tables\")",
+     "provenance": {
+      "stars": 4324,
+      "author_authority": 379178,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5212
+     }
+    },
+    {
+     "id": "ex_892cc64bcc",
+     "repo": "tw93/MiaoYan",
+     "permalink": "https://github.com/tw93/MiaoYan/blob/dc789e4b99623cfb22c977a8fdcb2c7f28cfb200/MiaoYanMobile/Views/SearchView.swift#L27",
+     "src": ".searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: \"Search notes\")",
+     "provenance": {
+      "stars": 8326,
+      "author_authority": 172220,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5211
+     }
+    },
+    {
+     "id": "ex_548f5fc821",
+     "repo": "PlayCover/PlayCover",
+     "permalink": "https://github.com/PlayCover/PlayCover/blob/b4ee82f6e53dee4989002bf9df7794bd474db216/PlayCover/Views/Sidebar Views/AppLibraryView.swift#L96",
+     "src": ".searchable(text: $searchString, placement: .toolbar)",
+     "provenance": {
+      "stars": 11363,
+      "author_authority": 77087,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.5118
+     }
+    },
+    {
+     "id": "ex_950335dae4",
+     "repo": "inline-chat/inline",
+     "permalink": "https://github.com/inline-chat/inline/blob/4c891b3e4d3831e3bf23c933de8dcbc153ef317f/apple/InlineUI/Sources/InlineUI/ForwardMessagesSheet.swift#L453",
+     "src": ".searchable(text: $model.searchText)",
+     "provenance": {
+      "stars": 669,
+      "author_authority": 244817,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4631
+     }
+    }
+   ]
+  },
+  {
+   "name": "draggable-reorder",
+   "kind": "pattern",
+   "apis": [
+    "onMove",
+    "draggable",
+    "dropDestination",
+    "Transferable"
+   ],
+   "description": "Reorderable list rows. Classic: List + .onMove. Custom: .draggable/.dropDestination with a Transferable type.",
+   "template": "List {\n  ForEach(items) { Text($0.name) }\n    .onMove { from, to in items.move(fromOffsets: from, toOffset: to) }\n}",
+   "repos": 0,
+   "examples": []
+  },
+  {
+   "name": "cached-async-image",
+   "kind": "pattern",
+   "apis": [
+    "AsyncImage"
+   ],
+   "description": "Remote image with placeholder. AsyncImage is built-in (no cache); for lists/grids real apps add a cache (custom @Observable loader or a library).",
+   "template": "AsyncImage(url: url) { phase in\n  switch phase {\n  case .success(let img): img.resizable().scaledToFit()\n  case .failure: Image(systemName: \"photo\")\n  case .empty: ProgressView()\n  @unknown default: EmptyView()\n  }\n}",
+   "repos": 205,
+   "examples": [
+    {
+     "id": "ex_a46c351241",
+     "repo": "fayazara/bucketdrop",
+     "permalink": "https://github.com/fayazara/bucketdrop/blob/92816bedcd2267022ede0c797d12e593f0997e4b/BucketDrop/SettingsView.swift#L85",
+     "src": "AsyncImage(url: URL(string: \"https://github.com/fayazara.png\"))",
+     "provenance": {
+      "stars": 218,
+      "author_authority": 9558,
+      "min_macos": "14",
+      "platform": "macos",
+      "score": 0.539
+     }
+    },
+    {
+     "id": "ex_38df066cba",
+     "repo": "nalexn/ViewInspector",
+     "permalink": "https://github.com/nalexn/ViewInspector/blob/4785ee635cc39196fecc7787015e74d523f0d334/Tests/ViewInspectorTests/SwiftUI/AsyncImageTests.swift#L14",
+     "src": "AsyncImage(url: testURL, content: { phase in switch phase { case .success(let image): AnyView(image) case .failure(let error): Text(error.localizedDescription) case .empty: ProgressView() @unknown default: EmptyView() } })",
+     "provenance": {
+      "stars": 2608,
+      "author_authority": 9833,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.4287
+     }
+    },
+    {
+     "id": "ex_6a838db6dd",
+     "repo": "anyproto/anytype-swift",
+     "permalink": "https://github.com/anyproto/anytype-swift/blob/cf77b42148e9d33f47dfbe31f3ad2a141e4449b0/Anytype/Sources/PresentationLayer/Modules/GalleryInstallationPreview/Subviews/GalleryInstallationPreviewManifestView.swift#L17",
+     "src": "AsyncImage(url: url, content: { image in image.resizable() .aspectRatio(contentMode: .fit) .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous)) }, placeholder: { Image(asset: .X32.plus) // Any image for make placeholder .resiza",
+     "provenance": {
+      "stars": 490,
+      "author_authority": 2154,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.3522
+     }
+    },
+    {
+     "id": "ex_4a9d97bf6b",
+     "repo": "yungfan/SwiftUI-learning",
+     "permalink": "https://github.com/yungfan/SwiftUI-learning/blob/452cecd650043eafa17e034a73bc9c08489cfc9a/SwiftUI 3.0/View01-AsyncImage/View01-AsyncImage/ContentView.swift#L16",
+     "src": "AsyncImage(url: url, transaction: transaction)",
+     "provenance": {
+      "stars": 103,
+      "author_authority": 297,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.2068
+     }
+    },
+    {
+     "id": "ex_c5b27d97ba",
+     "repo": "Khizanag/SwiftUIShowroom",
+     "permalink": "https://github.com/Khizanag/SwiftUIShowroom/blob/d303614f1bf61c012db8cf70d8d2c7f9f1d5cf32/SwiftUIShowroom/Components/Media/AsyncImageShowcase.swift#L78",
+     "src": "AsyncImage(url: url, scale: scale, transaction: Transaction(animation: animateTransition ? .easeInOut : nil),)",
+     "provenance": {
+      "stars": 0,
+      "author_authority": 20,
+      "min_macos": "26",
+      "platform": "macos",
+      "score": 0.0231
+     }
+    }
+   ]
+  },
+  {
+   "name": "nsview-bridge",
+   "kind": "bridge",
+   "apis": [
+    "NSViewRepresentable"
+   ],
+   "description": "Wrap an AppKit NSView in SwiftUI (4698 real bridges across 957 repos).",
+   "template": "struct MyView: NSViewRepresentable {\n  func makeNSView(context: Context) -> NSScrollView { \u2026 }\n  func updateNSView(_ v: NSScrollView, context: Context) { \u2026 }\n}",
+   "repos": 957,
+   "examples": [
+    {
+     "repo": "0boluan0/Chronicle",
+     "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/Views/MarkerTimelineView.swift#L666",
+     "name": "MouseXTrackingView"
+    },
+    {
+     "repo": "0boluan0/Chronicle",
+     "permalink": "https://github.com/0boluan0/Chronicle/blob/9e53c65a0ecb74ee6d2006a62f03c8b300786606/Chronicle/App/AppWindowScenes.swift#L43",
+     "name": "WindowConfigurationBridge"
+    },
+    {
+     "repo": "0x1b2c/Yomi",
+     "permalink": "https://github.com/0x1b2c/Yomi/blob/1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa/Yomi/FuriganaTextView.swift#L24",
+     "name": "FuriganaTextView"
+    },
+    {
+     "repo": "0x1b2c/Yomi",
+     "permalink": "https://github.com/0x1b2c/Yomi/blob/1b1ca4776a4f8bbaeddf646558d4cd29b0cc04aa/Yomi/WindowManager.swift#L59",
+     "name": "WindowAccessor"
+    },
+    {
+     "repo": "0xAdiyat/Oto",
+     "permalink": "https://github.com/0xAdiyat/Oto/blob/d6918c98b2a493b1a7049eb1fd55e3f00a8372c4/Oto/UI/OtoTheme.swift#L295",
+     "name": "FocusRingSuppressor"
+    },
+    {
+     "repo": "0xAdiyat/Oto",
+     "permalink": "https://github.com/0xAdiyat/Oto/blob/d6918c98b2a493b1a7049eb1fd55e3f00a8372c4/Oto/UI/Settings/SettingsScene.swift#L906",
+     "name": "SettingsWindowConfigurator"
+    },
+    {
+     "repo": "0xCUB3/wBlock",
+     "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/CodeMirrorTextEditor.swift#L133",
+     "name": "CodeMirrorTextEditor"
+    },
+    {
+     "repo": "0xCUB3/wBlock",
+     "permalink": "https://github.com/0xCUB3/wBlock/blob/09c47b353ded919dca8bb535c7d77f38fc4335de/wBlock/CodeMirrorTextEditor.swift#L151",
+     "name": "CodeMirrorTextEditor"
+    }
+   ]
+  },
+  {
+   "name": "settings-screen",
+   "kind": "screen",
+   "apis": [
+    "Form",
+    "TabView",
+    "Section"
+   ],
+   "description": "Full settings/preferences screens (8579 across 1157 repos). Common vocab: Spacer(2991), Toggle(2207), Section(1998), Form(1681), Picker(1678), Divider(1249), TextField(1111), List(660)",
+   "template": "struct SettingsView: View {\n  var body: some View {\n    TabView {\n      GeneralTab().tabItem { Label(\"General\", systemImage: \"gear\") }\n    }.frame(width: 480, height: 320)\n  }\n}",
+   "repos": 1157,
+   "examples": [
+    {
+     "repo": "AlexW00/Zettel",
+     "permalink": "https://github.com/AlexW00/Zettel/blob/9f7f2540d3717a45d9adc431f4776b408f3be0da/ZettelMac/Views/MacSettingsView.swift#L14",
+     "name": "MacSettingsView",
+     "form_vocab": [
+      "DisclosureGroup",
+      "Divider",
+      "Form",
+      "Grid",
+      "LabeledContent",
+      "Picker",
+      "Section",
+      "Slider",
+      "Spacer",
+      "TabView",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "AndrewXie-Rich/x-hub-system",
+     "permalink": "https://github.com/AndrewXie-Rich/x-hub-system/blob/8b4aabe1633a04c6e79b0c95422703f25910a13e/x-hub/macos/RELFlowHub/Sources/RELFlowHub/SettingsSheetView.swift#L443",
+     "name": "SettingsSheetView",
+     "form_vocab": [
+      "DatePicker",
+      "DisclosureGroup",
+      "Divider",
+      "Grid",
+      "LabeledContent",
+      "Picker",
+      "Section",
+      "SecureField",
+      "Spacer",
+      "Stepper",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "Eric-Terminal/ETOS-LLM-Studio",
+     "permalink": "https://github.com/Eric-Terminal/ETOS-LLM-Studio/blob/acea7906ffeea9572a94a84e1a118c58c2f22408/ETOS LLM Studio/ETOS LLM Studio Watch App/Views/ModelAdvancedSettingsView.swift#L16",
+     "name": "ModelAdvancedSettingsView",
+     "form_vocab": [
+      "Form",
+      "LabeledContent",
+      "List",
+      "Picker",
+      "Section",
+      "Slider",
+      "Spacer",
+      "Stepper",
+      "TabView",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "Eric-Terminal/ETOS-LLM-Studio",
+     "permalink": "https://github.com/Eric-Terminal/ETOS-LLM-Studio/blob/acea7906ffeea9572a94a84e1a118c58c2f22408/ETOS LLM Studio/ETOS LLM Studio iOS App/Views/ModelAdvancedSettingsView.swift#L19",
+     "name": "ModelAdvancedSettingsView",
+     "form_vocab": [
+      "Form",
+      "LabeledContent",
+      "List",
+      "Picker",
+      "Section",
+      "Slider",
+      "Spacer",
+      "Stepper",
+      "TabView",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "Mirxa27/mllama",
+     "permalink": "https://github.com/Mirxa27/mllama/blob/5cb6012e22be24574c319b364f99a19b11e6e0e9/src/Views/SettingsView.swift#L6",
+     "name": "SettingsView",
+     "form_vocab": [
+      "DisclosureGroup",
+      "Form",
+      "LabeledContent",
+      "Picker",
+      "Section",
+      "SecureField",
+      "Slider",
+      "Spacer",
+      "TabView",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "RoversX/LaunchNext",
+     "permalink": "https://github.com/RoversX/LaunchNext/blob/6e474bd9044ff0e9172c04db782565f1a1a6eaa6/LaunchNext/SettingsView.swift#L8",
+     "name": "SettingsView",
+     "form_vocab": [
+      "ColorPicker",
+      "DisclosureGroup",
+      "Divider",
+      "List",
+      "NavigationSplitView",
+      "Picker",
+      "Slider",
+      "Spacer",
+      "Stepper",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "ronicayu/murmur",
+     "permalink": "https://github.com/ronicayu/murmur/blob/7c29ae6becf643cb485b370759e9a85d416a3371/Murmur/Views/SettingsView.swift#L6",
+     "name": "SettingsView",
+     "form_vocab": [
+      "Divider",
+      "Form",
+      "LabeledContent",
+      "Picker",
+      "Section",
+      "SecureField",
+      "Slider",
+      "Spacer",
+      "TabView",
+      "TextField",
+      "Toggle"
+     ]
+    },
+    {
+     "repo": "Eric-Terminal/ETOS-LLM-Studio",
+     "permalink": "https://github.com/Eric-Terminal/ETOS-LLM-Studio/blob/acea7906ffeea9572a94a84e1a118c58c2f22408/ETOS LLM Studio/ETOS LLM Studio Watch App/Views/TTSSettingsView.swift#L5",
+     "name": "TTSSettingsView",
+     "form_vocab": [
+      "DisclosureGroup",
+      "Form",
+      "List",
+      "Picker",
+      "Section",
+      "Slider",
+      "Spacer",
+      "Stepper",
+      "TextField",
+      "Toggle"
+     ]
+    }
+   ]
+  }
+ ]
+}

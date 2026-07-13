@@ -1,0 +1,63 @@
+{
+ "repo": "Choominator/Vosh",
+ "stars": 32,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "b5d7e66cae0c0aa6679d6519c4ec022b960b1d8d",
+ "platform": "macos",
+ "author_authority": 49,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Choominator",
+   "score": 49,
+   "contributions": 7
+  }
+ ],
+ "loc": 3104,
+ "custom_components": 2,
+ "imports": [
+  "AVFAudio",
+  "Access",
+  "AppKit",
+  "ApplicationServices",
+  "CoreFoundation",
+  "CoreGraphics",
+  "Element",
+  "Foundation",
+  "IOKit",
+  "Input",
+  "OSLog",
+  "Output",
+  "PackageDescription",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [
+   "Button",
+   "MenuBarExtra",
+   "Text"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [
+   "NSApplicationDelegateAdaptor"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 3,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 4
+}

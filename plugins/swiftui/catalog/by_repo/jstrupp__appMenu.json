@@ -1,0 +1,138 @@
+{
+ "repo": "jstrupp/appMenu",
+ "stars": 3,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "4a5e46a9d8a223fe026a719455abdc4964430e94",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "jstrupp",
+   "score": 3,
+   "contributions": 5
+  }
+ ],
+ "loc": 1662,
+ "custom_components": 22,
+ "imports": [
+  "AppKit",
+  "Combine",
+  "Foundation",
+  "SwiftUI",
+  "UniformTypeIdentifiers",
+  "WebKit"
+ ],
+ "min_macos_inferred": "14",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "navigationViewStyle"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "contentShape",
+   "contextMenu",
+   "controlSize",
+   "disabled",
+   "environment",
+   "environmentObject",
+   "fill",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "imageScale",
+   "keyboardShortcut",
+   "listStyle",
+   "multilineTextAlignment",
+   "navigationViewStyle",
+   "onAppear",
+   "onDrag",
+   "onDrop",
+   "opacity",
+   "padding",
+   "resizable",
+   "sheet",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "DisclosureGroup",
+   "Divider",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "Menu",
+   "NSHostingController",
+   "NavigationView",
+   "ProgressView",
+   "Rectangle",
+   "RoundedRectangle",
+   "Settings",
+   "SettingsLink",
+   "Spacer",
+   "StateObject",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "caption",
+   "center",
+   "headline",
+   "title2",
+   "title3"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "automatic",
+   "bottom",
+   "center",
+   "checkbox",
+   "inset",
+   "leading",
+   "red",
+   "roundedBorder",
+   "secondary",
+   "tint",
+   "top",
+   "vertical",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "defaultMinListRowHeight",
+   "dismiss",
+   "openSettings"
+  ]
+ },
+ "counts": {
+  "modifiers": 26,
+  "types": 25,
+  "valueBuilders": 5,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 6,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 79
+}

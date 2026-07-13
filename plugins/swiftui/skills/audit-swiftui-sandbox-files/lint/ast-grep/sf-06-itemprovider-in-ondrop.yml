@@ -1,0 +1,26 @@
+# sf-06 (structural): a manual NSItemProvider load callback (loadObject / loadDataRepresentation) used
+# INSIDE an .onDrop(of:) closure — the legacy, thread-hopping, Swift-6-hostile drag-drop path. The modern
+# idiom is Transferable + .draggable / .dropDestination(for:) with a Sendable transferred type. grep finds
+# `loadObject` and `onDrop` separately but CANNOT prove the load callback is *inside* the onDrop closure
+# (it could be unrelated provider code); this co-occurrence/containment is the tier-2 rule. READ to confirm.
+# Anchored on `kind: call_expression`. fix_mode: flag-only (the Transferable rewrite is non-mechanical).
+id: sf-06-itemprovider-in-ondrop
+language: Swift
+severity: warning
+message: >-
+  sf-06: a manual NSItemProvider load callback (loadObject/loadDataRepresentation) is inside an .onDrop
+  closure. Prefer Transferable + .draggable/.dropDestination(for:) with a Sendable transferred type.
+  READ the closure to confirm and supply the consensus ✅ via swiftui-ctx lookup dropDestination.
+rule:
+  kind: call_expression
+  has:
+    kind: simple_identifier
+    regex: '^(loadObject|loadDataRepresentation)$'
+    stopBy: end
+  inside:
+    kind: call_expression
+    has:
+      kind: simple_identifier
+      regex: '^onDrop$'
+      stopBy: end
+    stopBy: end

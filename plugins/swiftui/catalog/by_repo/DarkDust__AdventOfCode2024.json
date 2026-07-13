@@ -1,0 +1,51 @@
+{
+ "repo": "DarkDust/AdventOfCode2024",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "de7c4feb190f4bf5135fb37d64238a15b259570a",
+ "platform": "other",
+ "author_authority": 5598,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "DarkDust",
+   "score": 5598,
+   "contributions": 96
+  }
+ ],
+ "loc": 7210,
+ "custom_components": 0,
+ "imports": [
+  "AOCTools",
+  "Algorithms",
+  "Collections",
+  "Combine",
+  "Foundation",
+  "RegexBuilder",
+  "Testing",
+  "_math"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

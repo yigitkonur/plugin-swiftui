@@ -1,0 +1,119 @@
+{
+ "repo": "r0ml/manML",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c36b1b4195eaeb521f7ac970fa7ddbbfec06d4d6",
+ "platform": "macos",
+ "author_authority": 2354,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "r0ml",
+   "score": 2354,
+   "contributions": 153
+  }
+ ],
+ "loc": 5538,
+ "custom_components": 13,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "Observation",
+  "SwiftUI",
+  "Synchronization",
+  "UniformTypeIdentifiers",
+  "WebKit"
+ ],
+ "min_macos_inferred": "26",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "background",
+   "commands",
+   "contentShape",
+   "defaultPosition",
+   "defaultSize",
+   "disabled",
+   "dropDestination",
+   "environment",
+   "fileExporter",
+   "fill",
+   "findNavigator",
+   "font",
+   "foregroundStyle",
+   "frame",
+   "help",
+   "hidden",
+   "keyboardShortcut",
+   "navigationTitle",
+   "onChange",
+   "onOpenURL",
+   "onSubmit",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "task",
+   "toggleStyle",
+   "toolbar",
+   "toolbarItemHidden",
+   "windowResizability"
+  ],
+  "types": [
+   "Button",
+   "CommandGroup",
+   "Divider",
+   "EmptyView",
+   "GeometryReader",
+   "GroupBox",
+   "HStack",
+   "KeyEquivalent",
+   "List",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "largeTitle"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "leading",
+   "red",
+   "status",
+   "switch",
+   "top"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Bindable",
+   "Environment",
+   "Observable",
+   "State"
+  ],
+  "environmentKeys": [
+   "findContext",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 18,
+  "valueBuilders": 1,
+  "macros": 0,
+  "styleValues": 7,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 63
+}

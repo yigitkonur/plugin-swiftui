@@ -1,0 +1,102 @@
+{
+ "repo": "Vitorsilveira31/Tokamak",
+ "stars": 1,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "e0d8e9db462938610337327ade58161aa3b698ac",
+ "platform": "macos",
+ "author_authority": 171138,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "MaxDesiatov",
+   "score": 203248,
+   "contributions": 517
+  },
+  {
+   "login": "carson-katri",
+   "score": 81724,
+   "contributions": 57
+  },
+  {
+   "login": "hodovani",
+   "score": 82,
+   "contributions": 40
+  }
+ ],
+ "loc": 39046,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "Benchmark",
+  "CGDK",
+  "CGTK",
+  "CRuntime",
+  "Cocoa",
+  "CoreFoundation",
+  "CoreGraphics",
+  "Dispatch",
+  "Foundation",
+  "JavaScriptEventLoop",
+  "JavaScriptKit",
+  "OpenCombineJS",
+  "OpenCombineShim",
+  "PackageDescription",
+  "SnapshotTesting",
+  "SwiftUI",
+  "TokamakCore",
+  "TokamakDOM",
+  "TokamakGTK",
+  "TokamakGTKCHelpers",
+  "TokamakShim",
+  "TokamakStaticHTML",
+  "TokamakTestRenderer",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "aspectRatio",
+   "background",
+   "fill",
+   "frame",
+   "layoutPriority",
+   "overlay",
+   "preferredColorScheme"
+  ],
+  "types": [
+   "Color",
+   "NSHostingView"
+  ],
+  "valueBuilders": [
+   "center",
+   "light"
+  ],
+  "macros": [],
+  "styleValues": [
+   "bottom",
+   "center",
+   "fill",
+   "leading",
+   "top",
+   "trailing",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 7,
+  "types": 2,
+  "valueBuilders": 2,
+  "macros": 0,
+  "styleValues": 8,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 19
+}

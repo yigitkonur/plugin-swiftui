@@ -1,0 +1,146 @@
+{
+ "repo": "rselbach/MacUML",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "10b826ef3bfc650e36c22f75e24feba79b767d02",
+ "platform": "macos",
+ "author_authority": 385,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "rselbach",
+   "score": 385,
+   "contributions": 112
+  }
+ ],
+ "loc": 3905,
+ "custom_components": 23,
+ "imports": [
+  "AppKit",
+  "Carbon",
+  "Foundation",
+  "MacUML",
+  "PackageDescription",
+  "Sparkle",
+  "SwiftUI",
+  "Testing",
+  "UniformTypeIdentifiers",
+  "WebKit",
+  "os"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "accessibilityElement",
+   "accessibilityLabel",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "commands",
+   "defaultPosition",
+   "defaultSize",
+   "disabled",
+   "environmentObject",
+   "fixedSize",
+   "focusedValue",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "formStyle",
+   "frame",
+   "help",
+   "keyboardShortcut",
+   "lineLimit",
+   "monospacedDigit",
+   "multilineTextAlignment",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "tag",
+   "toggleStyle",
+   "truncationMode",
+   "windowResizability",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "CommandGroup",
+   "Divider",
+   "DocumentGroup",
+   "ForEach",
+   "Form",
+   "HSplitView",
+   "HStack",
+   "Image",
+   "Picker",
+   "RoundedRectangle",
+   "Section",
+   "Settings",
+   "Slider",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "Window",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "callout",
+   "caption",
+   "custom",
+   "medium",
+   "regular",
+   "semibold",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "borderless",
+   "center",
+   "checkbox",
+   "grouped",
+   "hiddenTitleBar",
+   "horizontal",
+   "menu",
+   "secondary",
+   "tertiary",
+   "topLeading",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusedValue",
+   "NSApplicationDelegateAdaptor",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 21,
+  "valueBuilders": 7,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 9,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 85
+}

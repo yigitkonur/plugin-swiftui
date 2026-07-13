@@ -1,0 +1,132 @@
+{
+ "repo": "acidghost/gabber",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "9d86aab38f19a684335971ee4130bdc80c65df52",
+ "platform": "macos",
+ "author_authority": 9478,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "acidghost",
+   "score": 9478,
+   "contributions": 42
+  }
+ ],
+ "loc": 967,
+ "custom_components": 13,
+ "imports": [
+  "ArgumentParser",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "15",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "aspectRatio",
+   "bold",
+   "buttonStyle",
+   "commands",
+   "cornerRadius",
+   "defaultLaunchBehavior",
+   "disabled",
+   "environmentObject",
+   "fileImporter",
+   "font",
+   "foregroundColor",
+   "foregroundStyle",
+   "frame",
+   "handlesExternalEvents",
+   "help",
+   "id",
+   "imageScale",
+   "keyboardShortcut",
+   "lineLimit",
+   "onAppear",
+   "onChange",
+   "onDisappear",
+   "padding",
+   "pointerStyle",
+   "resizable",
+   "tag",
+   "task",
+   "textFieldStyle",
+   "textScale",
+   "truncationMode",
+   "windowResizability"
+  ],
+  "types": [
+   "AlertScene",
+   "Binding",
+   "Button",
+   "CommandGroup",
+   "ForEach",
+   "Group",
+   "HStack",
+   "Image",
+   "Link",
+   "List",
+   "Picker",
+   "ProgressView",
+   "RoundedBorderTextFieldStyle",
+   "ScrollView",
+   "ScrollViewReader",
+   "Settings",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "subheadline",
+   "title"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "gray",
+   "horizontal",
+   "leading",
+   "link",
+   "red",
+   "secondary",
+   "top",
+   "vertical"
+  ],
+  "propertyWrappers": [
+   "AppStorage",
+   "Environment",
+   "EnvironmentObject",
+   "NSApplicationDelegateAdaptor",
+   "State"
+  ],
+  "environmentKeys": [
+   "openSettings",
+   "openWindow"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 21,
+  "valueBuilders": 3,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 5,
+  "environmentKeys": 2
+ },
+ "total_unique_apis": 77
+}

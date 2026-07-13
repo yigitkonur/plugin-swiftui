@@ -1,0 +1,21 @@
+# async-01 (structural): a bare `Task { … }` launched INSIDE an `.onAppear { … }` closure. grep sees the
+# `Task {` string but cannot prove it sits in an onAppear (vs a button action, where Task is fine). This is
+# the canonical lifecycle leak: the Task is not bound to view identity, so it is not cancelled on disappear
+# and races a re-appearing view. Move the work to `.task` / `.task(id:)`. async-data owns this LIFECYCLE
+# fix; concurrency-safety owns only the ISOLATION verdict on the captured state (emit cross_ref). READ the
+# file — confirm the Task does view-lifecycle async load, not fire-and-forget side work.
+id: async-01-task-in-onappear
+language: Swift
+severity: warning
+message: >-
+  async-01: a bare `Task { … }` is launched inside `.onAppear` — it is NOT cancelled on disappear and
+  races a re-appearing view. Move view-lifecycle async work to `.task`/`.task(id:)` (auto-cancelled, the
+  closure is @MainActor). cross_ref concurrency-safety for the isolation of captured state. READ to confirm.
+rule:
+  pattern: Task { $$$BODY }
+  inside:
+    kind: call_expression
+    has:
+      stopBy: end
+      regex: 'onAppear'
+    stopBy: end

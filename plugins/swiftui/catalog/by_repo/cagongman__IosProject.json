@@ -1,0 +1,161 @@
+{
+ "repo": "cagongman/IosProject",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "148da94ce6cfce42ba59b69529f3b069afb16194",
+ "platform": "other",
+ "author_authority": 132,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Jungwon-Lee",
+   "score": 225,
+   "contributions": 10
+  },
+  {
+   "login": "Da01002",
+   "score": 0,
+   "contributions": 6
+  },
+  {
+   "login": "cagongman",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 5424,
+ "custom_components": 204,
+ "imports": [
+  "AVFoundation",
+  "Combine",
+  "ExytePopupView",
+  "Firebase",
+  "Foundation",
+  "MapKit",
+  "Photos",
+  "SSSwiftUIGIFView",
+  "SwiftUI",
+  "UIKit"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "Alert",
+  "NavigationView",
+  "edgesIgnoringSafeArea",
+  "foregroundColor",
+  "navigationBarHidden",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "alert",
+   "animation",
+   "aspectRatio",
+   "background",
+   "clipped",
+   "cornerRadius",
+   "edgesIgnoringSafeArea",
+   "environmentObject",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "highPriorityGesture",
+   "multilineTextAlignment",
+   "navigationBarHidden",
+   "offset",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "pickerStyle",
+   "resizable",
+   "scaleEffect",
+   "shadow",
+   "sheet",
+   "stroke",
+   "tag",
+   "transition",
+   "trim",
+   "zIndex"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Circle",
+   "Color",
+   "Divider",
+   "DragGesture",
+   "EdgeInsets",
+   "ForEach",
+   "GeometryReader",
+   "Gradient",
+   "HStack",
+   "Image",
+   "LinearGradient",
+   "NavigationLink",
+   "NavigationView",
+   "Picker",
+   "RoundedRectangle",
+   "ScrollView",
+   "SecureField",
+   "SegmentedPickerStyle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "asymmetric",
+   "headline",
+   "largeTitle",
+   "semibold",
+   "spring",
+   "system"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "black",
+   "bottom",
+   "center",
+   "default",
+   "fill",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "linear",
+   "top",
+   "trailing",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "ObservedObject",
+   "State"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 33,
+  "types": 25,
+  "valueBuilders": 6,
+  "macros": 0,
+  "styleValues": 15,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 85
+}

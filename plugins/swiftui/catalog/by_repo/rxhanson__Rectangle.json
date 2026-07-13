@@ -1,0 +1,63 @@
+{
+ "repo": "rxhanson/Rectangle",
+ "stars": 29186,
+ "categories": [
+  "Window Management"
+ ],
+ "sha": "9f5c4deda86b0516c22997b4de1c9559474bab00",
+ "platform": "other",
+ "author_authority": 29484,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "rxhanson",
+   "score": 29484,
+   "contributions": 662
+  },
+  {
+   "login": "decodism",
+   "score": 0,
+   "contributions": 53
+  },
+  {
+   "login": "Eskils",
+   "score": 111,
+   "contributions": 18
+  }
+ ],
+ "loc": 15323,
+ "custom_components": 0,
+ "imports": [
+  "Carbon",
+  "Cocoa",
+  "Dispatch",
+  "Foundation",
+  "MASShortcut",
+  "Rectangle",
+  "ServiceManagement",
+  "Sparkle",
+  "XCTest",
+  "os"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

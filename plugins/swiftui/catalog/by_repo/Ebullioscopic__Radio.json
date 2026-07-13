@@ -1,0 +1,142 @@
+{
+ "repo": "Ebullioscopic/Radio",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "07becd013d74e0ca11b18e162429949678510dd5",
+ "platform": "macos",
+ "author_authority": 11671,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "Ebullioscopic",
+   "score": 11671,
+   "contributions": 2
+  }
+ ],
+ "loc": 1837,
+ "custom_components": 26,
+ "imports": [
+  "AVFoundation",
+  "AppKit",
+  "Combine",
+  "CoreLocation",
+  "Foundation",
+  "OSLog",
+  "SceneKit",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "allowsHitTesting",
+   "background",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "controlSize",
+   "defaultSize",
+   "fill",
+   "font",
+   "fontWeight",
+   "foregroundStyle",
+   "frame",
+   "ignoresSafeArea",
+   "lineLimit",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "scale",
+   "shadow",
+   "stroke",
+   "strokeBorder",
+   "task",
+   "textFieldStyle",
+   "tint",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Binding",
+   "Button",
+   "Capsule",
+   "Color",
+   "ForEach",
+   "HStack",
+   "Image",
+   "Label",
+   "LazyVStack",
+   "ProgressView",
+   "RadialGradient",
+   "RoundedRectangle",
+   "ScrollView",
+   "Slider",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "caption",
+   "headline",
+   "medium",
+   "semibold",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "blue",
+   "bordered",
+   "borderedProminent",
+   "bottom",
+   "center",
+   "circular",
+   "clear",
+   "gray",
+   "green",
+   "hidden",
+   "hiddenTitleBar",
+   "horizontal",
+   "leading",
+   "orange",
+   "plain",
+   "primary",
+   "red",
+   "secondary",
+   "top",
+   "ultraThinMaterial",
+   "unifiedCompact",
+   "vertical",
+   "white",
+   "yellow",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "ObservedObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 28,
+  "types": 20,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 26,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 85
+}

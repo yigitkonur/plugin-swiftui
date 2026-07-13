@@ -1,0 +1,133 @@
+{
+ "repo": "adevaykin/derhund",
+ "stars": 2,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "c06493fdbf58c8a755011f5bfdf02b13553b6371",
+ "platform": "macos",
+ "author_authority": 99,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "adevaykin",
+   "score": 99,
+   "contributions": 36
+  }
+ ],
+ "loc": 763,
+ "custom_components": 19,
+ "imports": [
+  "AppKit",
+  "CoreSpotlight",
+  "Foundation",
+  "SafariServices",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "foregroundColor",
+  "presentationMode"
+ ],
+ "unique": {
+  "modifiers": [
+   "background",
+   "bold",
+   "buttonStyle",
+   "commands",
+   "confirmationDialog",
+   "environmentObject",
+   "fixedSize",
+   "focused",
+   "font",
+   "foregroundColor",
+   "frame",
+   "help",
+   "labelStyle",
+   "lineLimit",
+   "navigationTitle",
+   "onAppear",
+   "onHover",
+   "onTapGesture",
+   "opacity",
+   "overlay",
+   "padding",
+   "preference",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "sheet",
+   "stroke",
+   "tag",
+   "toolbar",
+   "windowStyle",
+   "windowToolbarStyle"
+  ],
+  "types": [
+   "Button",
+   "CircularProgressViewStyle",
+   "Color",
+   "CommandGroup",
+   "ForEach",
+   "GeometryReader",
+   "HStack",
+   "Image",
+   "Link",
+   "NSHostingController",
+   "NSHostingView",
+   "NavigationStack",
+   "Picker",
+   "PlainButtonStyle",
+   "ProgressView",
+   "RoundedRectangle",
+   "Spacer",
+   "Text",
+   "TextField",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "light",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "center",
+   "hiddenTitleBar",
+   "leading",
+   "secondary",
+   "titleAndIcon",
+   "titleOnly",
+   "unifiedCompact",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "FocusState",
+   "NSApplicationDelegateAdaptor",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "colorScheme",
+   "openURL",
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 31,
+  "types": 21,
+  "valueBuilders": 4,
+  "macros": 1,
+  "styleValues": 8,
+  "propertyWrappers": 7,
+  "environmentKeys": 3
+ },
+ "total_unique_apis": 75
+}

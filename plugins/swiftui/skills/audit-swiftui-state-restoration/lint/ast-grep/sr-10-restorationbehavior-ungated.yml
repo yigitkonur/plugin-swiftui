@@ -1,0 +1,23 @@
+# sr-10 (structural): a `.restorationBehavior(...)` scene modifier that is NOT inside an
+# `if #available(macOS 15, *)` gate. restorationBehavior is macOS 15.0+; under a deployment target < 15
+# an ungated call is a hard-fail. grep CANNOT express "is this call inside an availability gate" — it can
+# only see the bare string; this tier-2 rule proves the GATE SCOPE. The agent still reads the deployment
+# target in ORIENT: sr-10 only fires when the floor is below macOS 15. Anchored on the call_expression kind.
+id: sr-10-restorationbehavior-ungated
+language: Swift
+severity: warning
+message: >-
+  sr-10: .restorationBehavior(...) (macOS 15.0+) is not wrapped in an `if #available(macOS 15, *)` gate.
+  Under a deployment target < macOS 15 this is a hard-fail. READ the deployment target (ORIENT); gate on
+  #available(macOS 15, *) or raise the floor. fix_mode: flag-only.
+rule:
+  kind: call_expression
+  pattern: $RECEIVER.restorationBehavior($$$ARGS)
+  not:
+    inside:
+      kind: if_statement
+      has:
+        field: condition
+        kind: availability_condition
+        regex: 'macOS'
+      stopBy: end

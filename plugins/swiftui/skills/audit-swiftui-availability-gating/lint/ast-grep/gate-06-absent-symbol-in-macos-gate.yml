@@ -1,0 +1,21 @@
+# gate-06 (structural): a `#available(macOS …)` block whose body uses a macOS-ABSENT symbol (a symbol
+# with no Mac arm at all). Wrapping it in a macOS gate is wrong — the symbol must be REPLACED with the
+# Mac equivalent, not gated. The grep tell catches the bare symbol; this structural form proves it is
+# actually inside a macOS availability gate (the giveaway that a dev tried to gate an unreplaceable name).
+# See ${CLAUDE_PLUGIN_ROOT}/references/_shared/hallucination-blacklist.md for the Mac equivalents.
+id: gate-06-absent-symbol-in-macos-gate
+language: Swift
+severity: error
+message: >-
+  gate-06: a macOS-ABSENT symbol is wrapped in #available(macOS …). A symbol with no Mac arm cannot be
+  gated onto the Mac — replace it with the Mac equivalent (hallucination-blacklist). READ to confirm.
+rule:
+  kind: if_statement
+  all:
+    - has:
+        field: condition
+        kind: availability_condition
+        regex: 'macOS'
+    - has:
+        stopBy: end
+        regex: 'WheelPickerStyle|glassBackgroundEffect|topBarLeading|topBarTrailing|WindowStyle\.volumetric|navigationBarTitleDisplayMode'

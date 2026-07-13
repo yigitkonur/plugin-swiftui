@@ -1,0 +1,61 @@
+{
+ "repo": "Kofktu/PIPKit",
+ "stars": 330,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "084cb380d4c878bcb147949a207838b94aafee18",
+ "platform": "other",
+ "author_authority": 1425,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "Kofktu",
+   "score": 1425,
+   "contributions": 98
+  },
+  {
+   "login": "cozzin",
+   "score": 94,
+   "contributions": 4
+  },
+  {
+   "login": "jordanhbuiltbyhq",
+   "score": 0,
+   "contributions": 1
+  }
+ ],
+ "loc": 1831,
+ "custom_components": 0,
+ "imports": [
+  "AVFoundation",
+  "AVKit",
+  "Combine",
+  "Foundation",
+  "PIPKit",
+  "PackageDescription",
+  "QuartzCore",
+  "UIKit"
+ ],
+ "min_macos_inferred": null,
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [],
+  "types": [],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 0,
+  "types": 0,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 0,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 0
+}

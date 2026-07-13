@@ -1,0 +1,66 @@
+{
+ "repo": "mattmassicotte/nsui",
+ "stars": 84,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "d1ce061963193578c290dc578b32f4e3d84cfdb5",
+ "platform": "macos",
+ "author_authority": 130686,
+ "contributor_count": 3,
+ "top_contributors": [
+  {
+   "login": "mattmassicotte",
+   "score": 130686,
+   "contributions": 89
+  },
+  {
+   "login": "martindufort",
+   "score": 3571,
+   "contributions": 3
+  },
+  {
+   "login": "kaii-zen",
+   "score": 9,
+   "contributions": 2
+  }
+ ],
+ "loc": 831,
+ "custom_components": 0,
+ "imports": [
+  "AppKit",
+  "NSUI",
+  "PackageDescription",
+  "SwiftUI",
+  "UIKit",
+  "XCTest"
+ ],
+ "min_macos_inferred": "10.15",
+ "deprecated_apis_used": [],
+ "unique": {
+  "modifiers": [
+   "fill"
+  ],
+  "types": [
+   "Color",
+   "Image"
+  ],
+  "valueBuilders": [],
+  "macros": [],
+  "styleValues": [
+   "zero"
+  ],
+  "propertyWrappers": [],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 1,
+  "types": 2,
+  "valueBuilders": 0,
+  "macros": 0,
+  "styleValues": 1,
+  "propertyWrappers": 0,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 4
+}

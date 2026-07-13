@@ -1,0 +1,151 @@
+{
+ "repo": "Dandjix/HoldMania",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "91cb1be5a99a1208b77379ce70bf10683acc13db",
+ "platform": "other",
+ "author_authority": 0,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "Tristoung",
+   "score": 0,
+   "contributions": 29
+  },
+  {
+   "login": "Dandjix",
+   "score": 0,
+   "contributions": 25
+  }
+ ],
+ "loc": 1791,
+ "custom_components": 32,
+ "imports": [
+  "Combine",
+  "Foundation",
+  "SwiftUI"
+ ],
+ "min_macos_inferred": "12",
+ "deprecated_apis_used": [
+  "NavigationView",
+  "foregroundColor",
+  "presentationMode",
+  "tabItem"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "background",
+   "baselineOffset",
+   "bold",
+   "buttonStyle",
+   "clipShape",
+   "contentShape",
+   "cornerRadius",
+   "disabled",
+   "environmentObject",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "gesture",
+   "listStyle",
+   "multilineTextAlignment",
+   "navigationTitle",
+   "onAppear",
+   "onChanged",
+   "onEnded",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "scaledToFit",
+   "shadow",
+   "tabItem",
+   "tag",
+   "textFieldStyle",
+   "toggleStyle"
+  ],
+  "types": [
+   "AsyncImage",
+   "Binding",
+   "BorderlessButtonStyle",
+   "Button",
+   "Circle",
+   "CircularProgressViewStyle",
+   "Divider",
+   "DragGesture",
+   "ForEach",
+   "Form",
+   "HStack",
+   "Image",
+   "Label",
+   "List",
+   "NavigationLink",
+   "NavigationView",
+   "ProgressView",
+   "Rectangle",
+   "RoundedBorderTextFieldStyle",
+   "Section",
+   "Spacer",
+   "TabView",
+   "Text",
+   "TextField",
+   "Toggle",
+   "VStack",
+   "WindowGroup"
+  ],
+  "valueBuilders": [
+   "footnote",
+   "headline",
+   "largeTitle",
+   "semibold",
+   "spring",
+   "subheadline",
+   "system",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "blue",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "horizontal",
+   "leading",
+   "plain",
+   "primary",
+   "red",
+   "top",
+   "vertical",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "Environment",
+   "EnvironmentObject",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": [
+   "presentationMode"
+  ]
+ },
+ "counts": {
+  "modifiers": 32,
+  "types": 27,
+  "valueBuilders": 9,
+  "macros": 1,
+  "styleValues": 13,
+  "propertyWrappers": 5,
+  "environmentKeys": 1
+ },
+ "total_unique_apis": 88
+}

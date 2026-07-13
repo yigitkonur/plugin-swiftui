@@ -1,0 +1,20 @@
+# draw-12 (structural): an `if #available(iOS …)` block whose body uses MeshGradient, inside a macOS
+# target = wrong availability arm (hard-fail). The grep tell catches the bare `#available(iOS 15` string;
+# this structural form proves the GATE SCOPE actually wraps MeshGradient (not just that the string
+# appears). Gate on #available(macOS 15, *). fix_mode: auto.
+id: draw-12-ios-arm-gates-mesh
+language: Swift
+severity: error
+message: >-
+  draw-12: an `if #available(iOS …)` block guards MeshGradient in a macOS target (wrong availability arm).
+  Gate on #available(macOS 15, *). fix_mode: auto. READ to confirm the body uses MeshGradient.
+rule:
+  kind: if_statement
+  all:
+    - has:
+        field: condition
+        kind: availability_condition
+        regex: 'iOS'
+    - has:
+        stopBy: end
+        regex: 'MeshGradient'

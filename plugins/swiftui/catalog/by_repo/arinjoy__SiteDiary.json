@@ -1,0 +1,144 @@
+{
+ "repo": "arinjoy/SiteDiary",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6f09eeed2e948b4ede27bf37a6fec54c3e150800",
+ "platform": "other",
+ "author_authority": 10,
+ "contributor_count": 1,
+ "top_contributors": [
+  {
+   "login": "arinjoy",
+   "score": 10,
+   "contributions": 29
+  }
+ ],
+ "loc": 2180,
+ "custom_components": 28,
+ "imports": [
+  "Combine",
+  "DataLayer",
+  "DomainLayer",
+  "Foundation",
+  "PackageDescription",
+  "PhotosUI",
+  "PresentationLayer",
+  "SharedUtils",
+  "SwiftUI",
+  "XCTest"
+ ],
+ "min_macos_inferred": "13",
+ "deprecated_apis_used": [
+  "Alert",
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "accessibilityAddTraits",
+   "alert",
+   "background",
+   "buttonStyle",
+   "clipped",
+   "cornerRadius",
+   "focused",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onChange",
+   "opacity",
+   "overlay",
+   "padding",
+   "progressViewStyle",
+   "resizable",
+   "scaleEffect",
+   "scaledToFill",
+   "scaledToFit",
+   "scrollIndicators",
+   "shadow",
+   "tint",
+   "toggleStyle",
+   "toolbar",
+   "toolbarBackground",
+   "transition",
+   "zIndex"
+  ],
+  "types": [
+   "Alert",
+   "Button",
+   "Capsule",
+   "CheckboxToggleStyle",
+   "CircularProgressViewStyle",
+   "Divider",
+   "ForEach",
+   "GroupBox",
+   "HStack",
+   "Image",
+   "ImageRenderer",
+   "Label",
+   "LazyHStack",
+   "Menu",
+   "NavigationStack",
+   "ProgressView",
+   "Rectangle",
+   "ScrollView",
+   "Spacer",
+   "Text",
+   "TextField",
+   "Toggle",
+   "ToolbarItem",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "medium",
+   "semibold",
+   "subheadline",
+   "title",
+   "title2"
+  ],
+  "macros": [
+   "Preview"
+  ],
+  "styleValues": [
+   "black",
+   "bottom",
+   "center",
+   "gray",
+   "green",
+   "hidden",
+   "horizontal",
+   "inline",
+   "leading",
+   "primary",
+   "principal",
+   "top",
+   "vertical",
+   "visible",
+   "white"
+  ],
+  "propertyWrappers": [
+   "Binding",
+   "FocusState",
+   "State",
+   "StateObject"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 30,
+  "types": 26,
+  "valueBuilders": 6,
+  "macros": 1,
+  "styleValues": 15,
+  "propertyWrappers": 4,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 82
+}

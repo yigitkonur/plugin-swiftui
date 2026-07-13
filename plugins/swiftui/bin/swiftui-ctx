@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# bin/swiftui-ctx — PATH-exposed shim.
+# Claude Code adds a plugin's bin/ to the Bash tool's PATH, so the model can run
+# `swiftui-ctx …` as a bare command — no ${CLAUDE_PLUGIN_ROOT} substitution needed
+# (which is unreliable on the Skill-tool / model-invocation path). Delegates to the
+# real entrypoint under scripts/, resolved relative to this shim regardless of CWD.
+here="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+root="${PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT:-$here/..}}"
+exec "$root/scripts/swiftui-ctx" "$@"

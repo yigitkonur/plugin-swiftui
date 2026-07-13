@@ -1,0 +1,25 @@
+# lt-04 (structural): a Table(...) { ... } call whose arguments do NOT carry a sortOrder: binding. On
+# macOS users expect clickable, sortable column headers; a Table with no sortOrder is non-native. grep can
+# only confirm `Table(` is present (it can't see whether sortOrder is in the SAME call's argument span and
+# not in some unrelated line); this anchors on the call_expression node and asserts the call's subtree
+# carries no `sortOrder:` argument LABEL (the trailing colon keeps a comment that merely says the word
+# "sortOrder" from suppressing the rule). READ to confirm: the columns should be built with `value:` and
+# `sortOrder: $binding` to [KeyPathComparator] + `.onChange(of: sortOrder) { data.sort(using:) }`.
+id: lt-04-table-without-sortorder
+language: Swift
+severity: warning
+message: >-
+  lt-04: a Table(...) call carries no `sortOrder:` binding — non-sortable on a platform where users expect
+  clickable headers. Wire `sortOrder: $order` to [KeyPathComparator], build columns with `value:`, and
+  `.onChange(of: sortOrder) { _, new in data.sort(using: new) }`. READ to confirm sorting is genuinely
+  wanted (a tiny static table may not need it).
+rule:
+  kind: call_expression
+  all:
+    - any:
+        - pattern: Table($$$ARGS) { $$$BODY }
+        - pattern: Table($$$ARGS)
+    - not:
+        has:
+          stopBy: end
+          regex: 'sortOrder:'

@@ -1,0 +1,121 @@
+{
+ "repo": "cabouezzi/Chess-AI",
+ "stars": 0,
+ "categories": [
+  "(discovered)"
+ ],
+ "sha": "6ac0d9db8efbab0382db667eb8283e762e9c726c",
+ "platform": "macos",
+ "author_authority": 3,
+ "contributor_count": 2,
+ "top_contributors": [
+  {
+   "login": "cabouezzi",
+   "score": 3,
+   "contributions": 31
+  },
+  {
+   "login": "cabouezzi22",
+   "score": 0,
+   "contributions": 2
+  }
+ ],
+ "loc": 10024,
+ "custom_components": 21,
+ "imports": [
+  "AppKit",
+  "Foundation",
+  "MetalPerformanceShaders",
+  "PackageDescription",
+  "SpriteKit",
+  "SwiftUI",
+  "System",
+  "Vapor"
+ ],
+ "min_macos_inferred": "11",
+ "deprecated_apis_used": [
+  "foregroundColor"
+ ],
+ "unique": {
+  "modifiers": [
+   "animation",
+   "aspectRatio",
+   "background",
+   "buttonStyle",
+   "clipShape",
+   "cornerRadius",
+   "font",
+   "fontWeight",
+   "foregroundColor",
+   "frame",
+   "ignoresSafeArea",
+   "onAppear",
+   "onChange",
+   "onTapGesture",
+   "opacity",
+   "padding",
+   "rotationEffect",
+   "scaledToFill",
+   "toggleStyle",
+   "windowStyle"
+  ],
+  "types": [
+   "Button",
+   "Color",
+   "EmptyView",
+   "Group",
+   "HStack",
+   "HiddenTitleBarWindowStyle",
+   "Image",
+   "List",
+   "Rectangle",
+   "Spacer",
+   "Text",
+   "Toggle",
+   "VStack",
+   "WindowGroup",
+   "ZStack"
+  ],
+  "valueBuilders": [
+   "body",
+   "degrees",
+   "easeInOut",
+   "light",
+   "regular",
+   "semibold",
+   "system",
+   "title"
+  ],
+  "macros": [],
+  "styleValues": [
+   "all",
+   "blue",
+   "clear",
+   "green",
+   "horizontal",
+   "leading",
+   "pink",
+   "primary",
+   "secondary",
+   "top",
+   "trailing",
+   "vertical",
+   "white",
+   "zero"
+  ],
+  "propertyWrappers": [
+   "State"
+  ],
+  "environmentKeys": []
+ },
+ "counts": {
+  "modifiers": 20,
+  "types": 15,
+  "valueBuilders": 8,
+  "macros": 0,
+  "styleValues": 14,
+  "propertyWrappers": 1,
+  "environmentKeys": 0
+ },
+ "total_unique_apis": 58
+}
