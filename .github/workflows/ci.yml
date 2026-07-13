@@ -1,7 +1,7 @@
 name: ci
 on:
   push:
-    branches: [main]
+    branches-ignore: ["entire/**"]
   pull_request:
 
 jobs:
@@ -9,16 +9,35 @@ jobs:
     runs-on: macos-14
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
       - uses: maxim-lobanov/setup-xcode@v1
         with:
           xcode-version: latest-stable          # Swift 6 toolchain (runner default is older)
       - name: Install lint deps (so the audit engine's tier-2 ast-grep rules are actually exercised)
-        run: brew install ast-grep ripgrep
+        run: brew install ast-grep ripgrep jq
+      - name: Install plugin build dependencies
+        run: npm ci
+
+      - name: Assemble and test Claude + Codex plugin packages
+        run: |
+          npm run test:plugins
+          npx tsc -p packages/codex-plugin/mcp/tsconfig.json
+          python3 scripts/validate-codex-plugin.py dist/codex-swiftui-plugin
+          npm pack ./dist/claude-swiftui-plugin --dry-run --json > /tmp/claude-pack.json
+          npm pack ./dist/codex-swiftui-plugin --dry-run --json > /tmp/codex-pack.json
+          python3 scripts/check-package-limits.py /tmp/claude-pack.json /tmp/codex-pack.json
 
       - name: Build + scanner regression + CLI smoke
         run: make test
       - name: CLI doctor (catalog loads)
-        run: SWIFTUI_CTX_CATALOG="$PWD/catalog" swiftui-scan/.build/release/swiftui-ctx doctor
+        run: |
+          VERSION="$(tr -d '[:space:]' < VERSION)"
+          test "$(swiftui-scan/.build/release/swiftui-ctx --version)" = "$VERSION"
+          SWIFTUI_CTX_CATALOG="$PWD/catalog" swiftui-scan/.build/release/swiftui-ctx doctor --json \
+            | python3 -c 'import json,sys; expected=open("VERSION").read().strip(); data=json.load(sys.stdin); assert data["result"]["version"] == expected'
 
       - name: CLI subcommand smokes (each must exit 0 / ok:true)
         run: |
