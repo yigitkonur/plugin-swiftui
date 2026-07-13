@@ -11,7 +11,7 @@
 # reuses swiftui-lint.sh.
 #
 # Usage:
-#   bash scripts/audit-gate.sh <target-dir>           # JSON → stdout, summary → stderr, exit 0|2
+#   bash scripts/audit-gate.sh [--strict|--advisory] <target-dir>
 #   bash scripts/audit-gate.sh <target-dir> > gate.json
 #
 # Make it executable once:  chmod +x scripts/audit-gate.sh
@@ -24,7 +24,17 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PLUGIN_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 LINT="$SCRIPT_DIR/swiftui-lint.sh"
 
-TARGET="${1:-.}"
+MODE="auto"
+TARGET="."
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --strict) MODE="strict"; shift ;;
+    --advisory) MODE="advisory"; shift ;;
+    -h|--help) sed -n '2,28p' "$0"; exit 0 ;;
+    -*) echo "audit-gate: unknown option: $1" >&2; exit 64 ;;
+    *) TARGET="$1"; shift ;;
+  esac
+done
 if [ ! -e "$TARGET" ]; then
   echo "audit-gate: target not found: $TARGET" >&2; exit 64
 fi
@@ -32,6 +42,23 @@ if [ ! -x "$LINT" ] && [ ! -f "$LINT" ]; then
   echo "audit-gate: shared runner not found: $LINT" >&2; exit 64
 fi
 command -v jq >/dev/null 2>&1 || { echo "audit-gate: jq is required (brew install jq)." >&2; exit 69; }
+
+# Default to strict. In auto mode, the neutral project setting can make hard findings advisory;
+# the legacy Claude settings file remains a temporary fallback.
+STRICT=1
+if [ "$MODE" = "advisory" ]; then
+  STRICT=0
+elif [ "$MODE" = "auto" ]; then
+  TARGET_ABS="$(cd "$TARGET" 2>/dev/null && pwd || printf '%s' "$TARGET")"
+  PROJECT_ROOT="$(git -C "$TARGET_ABS" rev-parse --show-toplevel 2>/dev/null || printf '%s' "$TARGET_ABS")"
+  SETTINGS=""
+  [ -f "$PROJECT_ROOT/.swiftui-plugin/settings.md" ] && SETTINGS="$PROJECT_ROOT/.swiftui-plugin/settings.md"
+  [ -z "$SETTINGS" ] && [ -f "$PROJECT_ROOT/.claude/swiftui.local.md" ] && SETTINGS="$PROJECT_ROOT/.claude/swiftui.local.md"
+  if [ -n "$SETTINGS" ]; then
+    STRICT_VALUE="$(sed -n '/^---$/,/^---$/{ /^strict_audit:[[:space:]]*/{ s/^strict_audit:[[:space:]]*//; s/^"\(.*\)"$/\1/; p; }; }' "$SETTINGS" | head -1)"
+    [ "$STRICT_VALUE" = "false" ] && STRICT=0
+  fi
+fi
 
 # ---- discover all 28 audit skills (skills with a lint/ dir) -----------------------------------------
 SKILLS=()
@@ -69,8 +96,10 @@ done
 
 printf -- '-----------------------------------------------------------------\n' >&2
 printf '  TOTAL  hard=%s  warn=%s  adv=%s  (skills=%d)\n' "$T_HARD" "$T_WARN" "$T_ADV" "${#SKILLS[@]}" >&2
-if [ "$ANY_HARD" -eq 1 ]; then
+if [ "$ANY_HARD" -eq 1 ] && [ "$STRICT" -eq 1 ]; then
   printf '== GATE: FAIL (hard findings present) — full audit required before ship ==\n' >&2
+elif [ "$ANY_HARD" -eq 1 ]; then
+  printf '== GATE: ADVISORY (hard findings present; strict_audit is false) ==\n' >&2
 else
   printf '== GATE: PASS (no hard findings) ==\n' >&2
 fi
@@ -79,17 +108,18 @@ fi
 printf '%s\n' "${PER_SKILL_JSON[@]}" | jq -s \
   --arg target "$TARGET" \
   --argjson hard "$T_HARD" --argjson warn "$T_WARN" --argjson adv "$T_ADV" \
-  --argjson nskills "${#SKILLS[@]}" --argjson anyhard "$ANY_HARD" '
+  --argjson nskills "${#SKILLS[@]}" --argjson anyhard "$ANY_HARD" --argjson strict "$STRICT" '
   {
     tool: "audit-gate",
     role: "pre-ship-locator-gate",
-    note: "Mechanical LOCATE-tier tally across all audit skills. A hard finding blocks; an LLM-driven full audit (audit-macos-swiftui-full) must READ each hit before shipping.",
+    note: (if $strict==1 then "Mechanical LOCATE-tier tally. Hard findings block in strict mode; a full audit must READ each hit." else "Mechanical LOCATE-tier tally. Hard findings are advisory because strict_audit is false; a full audit must still READ each hit." end),
     target: $target,
     skills_run: $nskills,
-    gate: (if $anyhard==1 then "fail" else "pass" end),
+    strict: ($strict==1),
+    gate: (if $anyhard==1 and $strict==1 then "fail" elif $anyhard==1 then "advisory" else "pass" end),
     totals: { hard: $hard, warn: $warn, adv: $adv },
     per_skill: .
   }'
 
-[ "$ANY_HARD" -eq 1 ] && exit 2
+[ "$ANY_HARD" -eq 1 ] && [ "$STRICT" -eq 1 ] && exit 2
 exit 0

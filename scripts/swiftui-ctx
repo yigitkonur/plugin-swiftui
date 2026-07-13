@@ -8,8 +8,10 @@
 #   6. exit 5 with a doctor hint
 set -euo pipefail
 
-# --- locate the plugin/repo root (CLAUDE_PLUGIN_ROOT when run as a plugin, else this script's realpath) ---
-if [ -n "${CLAUDE_PLUGIN_ROOT:-}" ]; then
+# --- locate the plugin/repo root (platform hook env when available, else this script's realpath) ---
+if [ -n "${PLUGIN_ROOT:-}" ]; then
+  root="$PLUGIN_ROOT"
+elif [ -n "${CLAUDE_PLUGIN_ROOT:-}" ]; then
   root="$CLAUDE_PLUGIN_ROOT"
 else
   src="${BASH_SOURCE[0]}"
@@ -19,13 +21,53 @@ fi
 export SWIFTUI_CTX_CATALOG="${SWIFTUI_CTX_CATALOG:-$root/catalog}"
 
 repo="yigitkonur/claude-swiftui-plugin"
-ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.claude-plugin/plugin.json" 2>/dev/null | head -1)"
+ver="$(sed -n '1{s/[[:space:]]//g;p;}' "$root/VERSION" 2>/dev/null)"
+if [ -z "$ver" ]; then
+  ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.claude-plugin/plugin.json" 2>/dev/null | head -1)"
+fi
+if [ -z "$ver" ]; then
+  ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.codex-plugin/plugin.json" 2>/dev/null | head -1)"
+fi
 ver="${ver:-dev}"
 cache="${XDG_CACHE_HOME:-$HOME/.cache}/swiftui-ctx"
 cached="$cache/bin/swiftui-ctx-$ver"
 mkdir -p "$cache/bin"
 
 works() { [ -x "$1" ] && "$1" --version >/dev/null 2>&1; }
+
+lock="$cache/bootstrap-$ver.lock"
+lock_held=0
+release_lock() {
+  if [ "$lock_held" -eq 1 ]; then
+    rm -f "$lock/pid"
+    rmdir "$lock" 2>/dev/null || true
+    lock_held=0
+  fi
+}
+acquire_lock() {
+  local attempts=0 owner=""
+  while ! mkdir "$lock" 2>/dev/null; do
+    if works "$cached"; then return 1; fi
+    if [ -f "$lock/pid" ]; then
+      owner="$(cat "$lock/pid" 2>/dev/null || true)"
+      if [ -n "$owner" ] && ! kill -0 "$owner" 2>/dev/null; then
+        rm -f "$lock/pid"
+        rmdir "$lock" 2>/dev/null || true
+        continue
+      fi
+    fi
+    attempts=$((attempts + 1))
+    if [ "$attempts" -ge 1500 ]; then
+      echo "swiftui-ctx: timed out waiting for another first-run bootstrap." >&2
+      return 2
+    fi
+    sleep 0.2
+  done
+  printf '%s\n' "$$" > "$lock/pid"
+  lock_held=1
+  trap release_lock EXIT INT TERM
+  return 0
+}
 
 bin=""
 if [ -n "${SWIFTUI_CTX_BIN:-}" ] && works "$SWIFTUI_CTX_BIN"; then
@@ -35,18 +77,32 @@ elif works "$root/swiftui-scan/.build/release/swiftui-ctx"; then
 elif works "$cached"; then
   bin="$cached"
 else
-  # try the prebuilt release asset (universal macOS binary) — no toolchain needed
-  url="https://github.com/$repo/releases/download/v$ver/swiftui-ctx"
-  if command -v curl >/dev/null && curl -fsSL "$url" -o "$cached.tmp" 2>/dev/null; then
-    chmod +x "$cached.tmp"; mv "$cached.tmp" "$cached"
-    works "$cached" && bin="$cached" || rm -f "$cached"
-  fi
-  # fall back to building from source into the cache (works even if $root is read-only)
-  if [ -z "$bin" ] && command -v swift >/dev/null && [ -d "$root/swiftui-scan" ]; then
-    echo "swiftui-ctx: building from source (first run, ~1-2 min)…" >&2
-    ( cd "$root/swiftui-scan" && swift build -c release --product swiftui-ctx --build-path "$cache/build" >&2 )
-    built="$cache/build/release/swiftui-ctx"
-    works "$built" && { cp "$built" "$cached"; bin="$cached"; }
+  acquire_status=0
+  acquire_lock || acquire_status=$?
+  if [ "$acquire_status" -eq 1 ] && works "$cached"; then
+    bin="$cached"
+  elif [ "$acquire_status" -eq 0 ]; then
+    # Another process may have completed between our initial check and lock acquisition.
+    if works "$cached"; then
+      bin="$cached"
+    else
+      # try the prebuilt release asset (universal macOS binary) — no toolchain needed
+      url="https://github.com/$repo/releases/download/v$ver/swiftui-ctx"
+      tmp="$cached.tmp.$$"
+      if command -v curl >/dev/null && curl -fsSL "$url" -o "$tmp" 2>/dev/null; then
+        chmod +x "$tmp"; mv "$tmp" "$cached"
+        works "$cached" && bin="$cached" || rm -f "$cached"
+      fi
+      rm -f "$tmp"
+      # fall back to building from source into the cache (works even if $root is read-only)
+      if [ -z "$bin" ] && command -v swift >/dev/null && [ -d "$root/swiftui-scan" ]; then
+        echo "swiftui-ctx: building from source (first run, ~1-2 min)…" >&2
+        ( cd "$root/swiftui-scan" && swift build -c release --product swiftui-ctx --build-path "$cache/build" >&2 )
+        built="$cache/build/release/swiftui-ctx"
+        works "$built" && { cp "$built" "$cached"; bin="$cached"; }
+      fi
+    fi
+    release_lock
   fi
 fi
 

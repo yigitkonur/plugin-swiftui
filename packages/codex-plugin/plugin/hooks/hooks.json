@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "^(apply_patch|Edit|Write)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${PLUGIN_ROOT}/hooks/deprecation-guard.sh\"",
+            "timeout": 10,
+            "statusMessage": "Checking SwiftUI deprecations"
+          }
+        ]
+      }
+    ]
+  }
+}

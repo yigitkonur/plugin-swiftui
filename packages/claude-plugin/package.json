@@ -1,0 +1,38 @@
+{
+  "name": "@yigitkonur/claude-swiftui-plugin",
+  "version": "1.4.0",
+  "description": "Production-grounded SwiftUI skills, audits, and CLI for Claude Code.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yigitkonur/claude-swiftui-plugin.git"
+  },
+  "homepage": "https://github.com/yigitkonur/claude-swiftui-plugin",
+  "type": "module",
+  "bin": {
+    "swiftui-ctx": "bin/swiftui-ctx"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    ".claude-plugin/",
+    "agents/",
+    "bin/",
+    "catalog/",
+    "commands/",
+    "hooks/",
+    "references/",
+    "scripts/",
+    "skills/",
+    "swiftui-scan/",
+    "CLI.md",
+    "LICENSE",
+    "README.md",
+    "VERSION"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "swiftui-plugin-workspace",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:plugins": "node scripts/build-plugin-packages.mjs",
+    "pack:plugins": "npm run build:plugins && mkdir -p artifacts && npm pack ./dist/claude-swiftui-plugin --pack-destination artifacts && npm pack ./dist/codex-swiftui-plugin --pack-destination artifacts"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "@types/node": "18.19.130",
+    "esbuild": "0.28.1",
+    "typescript": "7.0.2",
+    "yaml": "2.9.0",
+    "zod": "3.25.76"
+  }
+}

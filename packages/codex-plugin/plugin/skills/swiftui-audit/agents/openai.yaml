@@ -1,0 +1,6 @@
+interface:
+  display_name: "SwiftUI Full Audit"
+  short_description: "Run all relevant macOS SwiftUI audit domains"
+  default_prompt: "Use $swiftui-audit to audit this macOS SwiftUI project."
+policy:
+  allow_implicit_invocation: false

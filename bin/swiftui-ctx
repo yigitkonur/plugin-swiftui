@@ -5,4 +5,5 @@
 # (which is unreliable on the Skill-tool / model-invocation path). Delegates to the
 # real entrypoint under scripts/, resolved relative to this shim regardless of CWD.
 here="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-exec "${CLAUDE_PLUGIN_ROOT:-$here/..}/scripts/swiftui-ctx" "$@"
+root="${PLUGIN_ROOT:-${CLAUDE_PLUGIN_ROOT:-$here/..}}"
+exec "$root/scripts/swiftui-ctx" "$@"
