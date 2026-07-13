@@ -1,14 +1,14 @@
-# claude-swiftui-plugin
+# SwiftUI production intelligence for Claude Code and Codex
 
-**real-world swiftui for claude — grounded in 1,857 shipping macOS apps.**
+**real-world SwiftUI for coding agents — grounded in 1,857 shipping macOS apps.**
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/yigitkonur/claude-swiftui-plugin/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
+[![version](https://img.shields.io/badge/version-1.4.0-blue)](https://github.com/yigitkonur/claude-swiftui-plugin/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
 
 ---
 
-claude writes bad swiftui. not wrong-syntax bad — confidently-stale bad. deprecated modifiers, api shapes that never existed, idioms from wwdc three years ago. the docs tell claude *what* an api does; they don't tell it *how 2026 shipping mac apps actually use it.*
+coding agents write bad swiftui. not wrong-syntax bad — confidently-stale bad. deprecated modifiers, api shapes that never existed, idioms from wwdc three years ago. the docs tell an agent *what* an api does; they don't tell it *how 2026 shipping mac apps actually use it.*
 
-this plugin fills that gap. it gives claude a queryable corpus of **1,857 real open-source macOS apps** — parsed with swiftsyntax (apple's own compiler parser, not regex), ranked by code quality, and wrapped in a cli that answers one question: **how do actual shipping apps write this?**
+this plugin fills that gap. it gives the agent a queryable corpus of **1,857 real open-source macOS apps** — parsed with swiftsyntax (apple's own compiler parser, not regex), ranked by code quality, and wrapped in a cli that answers one question: **how do actual shipping apps write this?**
 
 every result carries a github permalink pinned to a commit sha and links to the matching [sosumi.ai](https://sosumi.ai) doc so the spec and the practice are always one hop apart.
 
@@ -26,17 +26,30 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 | api coverage | 511 modifiers · 402 types · ~120 style values · property wrappers · env keys · 12 whole-pattern recipes |
 | audit rules | **334** total (282 ripgrep + 52 ast-grep structural) |
 | skills | **33** — 4 write/lookup + 29 audit |
-| commands | **4** — `/swiftui` · `/swiftui-review` · `/swiftui-audit` · `/swiftui-settings` |
+| explicit workflows | **4** — Claude `/swiftui…` · Codex `$swiftui…` |
 | quality ranking | composite score: author authority (aggregate stars) + repo stars + api modernity + recency |
 
 ---
 
 ## install
 
+npm is required for marketplace installation. runtime catalog queries use the bundled package and native cli; they do not install npm dependencies.
+
+### Claude Code
+
 ```
 /plugin marketplace add yigitkonur/claude-swiftui-plugin
 /plugin install swiftui
 ```
+
+### Codex CLI, app, and IDE
+
+```sh
+codex plugin marketplace add yigitkonur/claude-swiftui-plugin
+codex plugin add swiftui@swiftui-plugins
+```
+
+start a new Codex thread after installation. review and trust the optional deprecation hook with `/hooks`; the hook remains advisory and never blocks an edit.
 
 the cli (`swiftui-ctx`) auto-installs on first use — downloads a prebuilt universal binary, or builds from source if xcode is available. no manual paths or env setup needed.
 
@@ -60,7 +73,16 @@ swiftui-ctx doctor # verify the install
 
 ---
 
-## the four commands
+## the four explicit workflows
+
+Claude Code uses slash commands. Codex uses explicit skills with the same names:
+
+| workflow | Claude Code | Codex |
+|---|---|---|
+| lookup | `/swiftui …` | `$swiftui …` |
+| review | `/swiftui-review …` | `$swiftui-review …` |
+| full audit | `/swiftui-audit …` | `$swiftui-audit …` |
+| settings | `/swiftui-settings` | `$swiftui-settings` |
 
 ### `/swiftui <api or intent>`
 
@@ -72,6 +94,7 @@ look up any swiftui api by name, modifier, property wrapper, or plain english in
 /swiftui .searchable
 /swiftui "drag and drop between lists"
 /swiftui frame(width:height:)
+$swiftui NavigationSplitView          # Codex
 ```
 
 ### `/swiftui-review [file]`
@@ -81,6 +104,7 @@ review a swift file or the current diff for deprecated apis, non-idiomatic patte
 ```
 /swiftui-review ContentView.swift
 /swiftui-review                    # reviews the current diff
+$swiftui-review                    # Codex
 ```
 
 ### `/swiftui-audit [directory]`
@@ -90,17 +114,18 @@ full codebase audit. the orchestrator routes your source tree through the releva
 ```
 /swiftui-audit Sources/
 /swiftui-audit .
+$swiftui-audit .                   # Codex
 ```
 
 ### `/swiftui-settings`
 
-create or update `.claude/swiftui.local.md` — per-project plugin configuration. the file is gitignored automatically.
+create or update `.swiftui-plugin/settings.md` — platform-neutral per-project plugin configuration. the legacy `.claude/swiftui.local.md` remains a read-only fallback during migration.
 
 ---
 
 ## skills
 
-skills fire automatically when you describe a task to claude. the commands above are the explicit entry points when you want to invoke them directly.
+the original 33 skills fire automatically when their domain applies. the four workflows above are explicit-only entry points.
 
 ### write / look up (4 skills)
 
@@ -207,7 +232,7 @@ swiftui-ctx settings                          # show active config paths
 
 ## per-project settings
 
-run `/swiftui-settings` once in any project to create `.claude/swiftui.local.md`:
+run `/swiftui-settings` in Claude Code or `$swiftui-settings` in Codex to create `.swiftui-plugin/settings.md`:
 
 ```markdown
 ---
@@ -216,9 +241,9 @@ strict_audit: true  # false → /swiftui-audit is advisory (no non-zero exit on 
 ---
 ```
 
-the file is gitignored automatically (`.claude/*.local.md` pattern). restart claude code after editing for hook changes to take effect. you can also set `SWIFTUI_GUARD=off` as an env variable to disable the deprecation hook without a settings file.
+the file is gitignored automatically. restart the agent host after editing for hook changes to take effect. you can also set `SWIFTUI_GUARD=off` to disable the deprecation hook without a settings file. when the neutral file is absent, `.claude/swiftui.local.md` is read for backward compatibility.
 
-**what the deprecation hook does:** every time you edit a `.swift` file, a fast static grep checks whether any deprecated swiftui api names appear in the edit. if they do, it adds a non-blocking nudge — never denies the write, just surfaces the issue so claude can address it.
+**what the deprecation hook does:** every time you edit a `.swift` file, a fast static grep checks whether any deprecated swiftui api names appear in the edit. if they do, it adds a non-blocking nudge — never denies the write, just surfaces the issue so the agent can address it.
 
 ---
 
