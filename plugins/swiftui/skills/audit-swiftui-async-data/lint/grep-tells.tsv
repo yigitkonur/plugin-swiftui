@@ -1,0 +1,15 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-async-data (async-01 … async-10).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (Task-in-onAppear containment, AsyncImage single-arg shape) live in ast-grep/*.yml.
+# ABSENCE defects (async-02 missing loading, async-04 missing empty, async-08 missing .refreshable) CANNOT
+# be grepped — they are DETECT-only (see SKILL.md). The positive proxies below locate the load site to read.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+async-01	warn	Task[[:space:]]*\{	bare unstructured Task in a view — if it launches view-lifecycle async load, it is NOT cancelled on disappear → .task / .task(id:) (lifecycle owner; cross_ref concurrency-safety for isolation)
+async-03	warn	try\?[[:space:]]*await	swallowed async error — the throw is dropped and no error state is surfaced to the user; confirm an error path renders (async-03)
+async-05	warn	URLSession\.	raw URLSession in a view layer — confirm the decode runs OFF the main actor and the @MainActor write is a checkable hop, not on-main blocking (async-05; cross_ref concurrency-safety)
+async-06	adv	\.searchable\(	search field — if its query drives a fetch, confirm the query is DEBOUNCED before firing (async-06), else a request per keystroke
+async-07	adv	AsyncImage\(	AsyncImage — confirm the error/empty phase is handled (not just url+placeholder) and a cache exists for lists/grids (async-07)
+async-08	adv	\.refreshable\(	.refreshable present — GOOD; READ to confirm its action re-runs the same loader the .task uses (async-08 is the MISSING case, not this)
+async-10	adv	\.redacted\(	.redacted present — GOOD skeleton; confirm reason is .placeholder and it is driven by the loading flag (async-10 is the MISSING case)

@@ -1,0 +1,17 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-swiftdata (sd-01 … sd-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (the let↔@Relationship cross-line bind, the init-scope assignment, the @Model
+# inheritance co-occurrence) live in ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md.
+sd-01	hard	let[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*:[[:space:]]*\[	flat net: a `let` collection property — IF it is a bidirectional @Relationship it is a runtime cast crash (sd-01). The cross-line let↔@Relationship bind is ast-grep sd-01. READ: relationships must be `var`, defaulted.
+sd-04	hard	@Relationship\([[:space:]]*\.	@Relationship(.cascade) positional → .cascade is a DeleteRule, slot wants a Schema.Relationship.Option → TYPE ERROR (sd-04, fix_mode: auto). Fix: @Relationship(deleteRule: .cascade).
+sd-09	hard	Task\.detached|Task[[:space:]]*\{|DispatchQueue	background work — if it reads @Environment(\.modelContext) results and mutates @Model objects with no @ModelActor, it is an off-actor non-Sendable race (sd-09). cross_ref: concurrency-safety.
+sd-03	warn	@Model[[:space:]]+(final[[:space:]]+)?class	a @Model class — if it has stored properties but NO init( it is uninitializable (sd-03, Apple's incomplete sample). READ the body to confirm absence of init.
+sd-05	warn	@Relationship	a @Relationship property — if a to-one relationship is non-optional (var owner: Person, not Person?) it is an implicitly-unwrapped nil-crash trap (sd-05). Make to-one relationships optional.
+sd-06	warn	#Preview	a #Preview — if it constructs a @Model value with no ModelConfiguration(isStoredInMemoryOnly: / .modelContainer( in scope, the canvas crashes (sd-06). cross_ref: previews.
+sd-07	warn	fatalError\(|try!	fatalError / try! — if on a non-preview ModelContainer creation, recoverable errors (schema mismatch / no disk / concurrent migration) crash blind (sd-07). try! is OK in a #Preview only.
+sd-08	warn	\.[A-Za-z_][A-Za-z0-9_]*\[0\]|ForEach\(	relationship order — indexing a to-many array (.floors[0]) or ForEach over a relationship with no @Query(sort:)/SortDescriptor assumes unpersisted order (sd-08). Order explicitly.
+sd-10	adv	modelContext|\.mainContext	a modelContext is in use — if a mutation path has NO `try ...save()` anywhere (and no ScenePhase/window-close save), changes are lost on a fast Quit (sd-10, advisory/verify-SDK).
+sd-12	adv	\.modelContainer\(|ModelContainer\(	a container site — if the same store is opened by the app AND a widget/menu-bar helper with no lock-file serialization, multi-process opens trigger the concurrent-migration crash class (sd-12). cross_ref: sandbox-files.
+sd-11	warn	@available\(macOS[[:space:]]*26	a macOS-26 availability gate — near a @Model subclass it is the inheritance gate (sd-11). The structural "@Model subclass" detection is ast-grep sd-11; this catches the gate string for cross-checking registration.

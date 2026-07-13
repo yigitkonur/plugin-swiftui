@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { spawnSync } from "node:child_process";
 import { lstat, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import test from "node:test";
@@ -59,7 +60,16 @@ test("all package and binary versions match VERSION", async () => {
 
 test("committed Codex marketplace plugin matches the assembled package", async () => {
   const assembledPaths = await relativeFiles(CODEX);
-  const marketplacePaths = await relativeFiles(MARKETPLACE_CODEX);
+  const tracked = spawnSync("git", ["ls-files", "-z", "--", "plugins/swiftui"], {
+    cwd: ROOT,
+    encoding: "utf8",
+  });
+  assert.equal(tracked.status, 0, tracked.stderr);
+  const marketplacePaths = tracked.stdout
+    .split("\0")
+    .filter(Boolean)
+    .map((file) => path.relative("plugins/swiftui", file))
+    .sort();
   assert.deepEqual(marketplacePaths, assembledPaths);
   for (const relative of assembledPaths) {
     assert.deepEqual(

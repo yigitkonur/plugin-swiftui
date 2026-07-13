@@ -1,0 +1,17 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-state-observation (state-01 … state-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3), classifies the MODEL KIND (real
+# ObservableObject vs @Observable vs value type), and decides. Structural rules grep cannot express
+# (the missing-@Bindable re-wrap, the computed-some-View read) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+state-01	hard	@ObservedObject[[:space:]]+var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=	initializer on @ObservedObject — it does NOT own its object. READ the model kind: real ObservableObject = SILENT reset (→ @StateObject); @Observable type = COMPILE error (→ @State). state-01
+state-02	warn	@Observable[^\n]*\bclass\b[^\n]*:[^\n]*ObservableObject	@Observable class ALSO conforms to ObservableObject — redundant/contradictory; drop ": ObservableObject" (state-02, fix_mode: auto)
+state-03	warn	@Published	@Published — MEANINGLESS inside an @Observable class (macro tracks access automatically); confirm the enclosing class is @Observable, then remove it (state-03, fix_mode: auto)
+state-04	warn	@StateObject[[:space:]]+(private[[:space:]]+)?var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=[[:space:]]*[A-Z][A-Za-z0-9_]*\(	@StateObject with an initializer — COMPILE error if the type is a struct/enum (needs a reference type → @State); a migration SMELL if it is a plain @Observable class (finish converting → @State). READ the type. state-04
+state-05	warn	@EnvironmentObject	@EnvironmentObject is the LEGACY world — if the injected model is @Observable, use @Environment(Type.self) + .environment(_:) (state-05). Confirm the model kind.
+state-06	warn	\$[A-Za-z_][A-Za-z0-9_]*\.[A-Za-z_]	binding projection ($obj.prop) — if obj is a NON-owned @Observable property with no @Bindable re-wrap nearby, $obj does not exist → add @Bindable (state-06). tier-2 confirms scope.
+state-08	warn	@StateObject|@ObservedObject	legacy owner/observer wrapper — if the file's model is @Observable, the migration is INCOMPLETE: @StateObject → @State, @ObservedObject(passed-in) → @Bindable (state-08). Confirm the model kind.
+state-09	adv	@State[[:space:]]+(private[[:space:]]+)?var[[:space:]]+[A-Za-z_][A-Za-z0-9_]*[[:space:]]*=[[:space:]]*[A-Z][A-Za-z0-9_]*\(	@State default = Model() — re-created on EVERY view evaluation (init side-effects re-run). If the init is heavy or the view is a row/cell, own it once at App/Scene scope + inject (state-09)
+state-10	adv	static[[:space:]]+let[[:space:]]+shared	static let shared — app-wide state as a global singleton defeats macOS per-window @State graphs; own at App/Scene with @State + .environment(_:), keep per-window state in the window root (state-10)
+state-11	adv	@Observable	@Observable class present — confirm mutable caches / back-pointers / non-UI bookkeeping carry @ObservationIgnored so mutating them never invalidates a view (state-11)

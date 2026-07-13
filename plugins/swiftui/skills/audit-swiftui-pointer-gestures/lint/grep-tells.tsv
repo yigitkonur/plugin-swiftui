@@ -1,0 +1,18 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-pointer-gestures (pg-01 … pg-11).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Absence defects
+# (pg-02/03/05 missing affordance) are located by surfacing interactive-view CANDIDATES; the agent judges
+# absence after READ. Structural rules grep cannot express (gate-scope, gesture co-occurrence) live in
+# ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+pg-01	hard	PointerStyle\.grabbing|\.pointerStyle\(\.grabbing	INVENTED pointer case → PointerStyle.grabActive / .grabIdle (macOS 15). Stale .grabbing does not exist. fix_mode: auto
+pg-07	warn	\.pointerStyle\(|onContinuousHover\(	pointer modifier present — REPORT pg-07 only if deployment target < its floor (pointerStyle 15, onContinuousHover 14; read in ORIENT); else ignore. VERIFY gated #available(macOS NN, *).
+pg-08	warn	MagnificationGesture	DEPRECATED (26.5) → MagnifyGesture (macOS 14). Owns the rewrite mechanics; cross_ref api-currency for the flag (pg-08).
+pg-09	warn	RotationGesture	DEPRECATED (26.5) → RotateGesture (macOS 14). Owns the rewrite mechanics; cross_ref api-currency for the flag (pg-09).
+pg-02	warn	struct[[:space:]]+[A-Za-z0-9_]*(Row|Cell|Item|Card|Handle|Tile|Chip)[A-Za-z0-9_]*[[:space:]]*:[[:space:]]*View	custom interactive view CANDIDATE — READ it: if it reacts to clicks/drag but has NO .onHover, it is dead under the pointer (pg-02). A static label is fine.
+pg-03	warn	Divider\(|ResizeHandle|DragHandle|\.frame\(width:[[:space:]]*[0-9]+\)[[:space:]]*$	resize/drag handle CANDIDATE — READ it: a draggable/resizable affordance with NO .pointerStyle gives no cursor shape (pg-03, macOS 15).
+pg-04	adv	\.onHover[[:space:]]*\{	binary .onHover — if the site needs the live pointer CGPoint (crosshair, value-under-cursor, tracking tooltip), use onContinuousHover (macOS 14) instead (pg-04, UNVERIFIED judgment).
+pg-05	warn	(List|ForEach|Table)[[:space:]]*[\({]	row/item container CANDIDATE — READ it: if a row has action Buttons but NO right-click .contextMenu, the Mac idiom is missing (pg-05).
+pg-06	adv	\.swipeActions[[:space:]]*[\({]	swipe-to-act is the touch idiom — if it is the ONLY way to act on the row, add a right-click .contextMenu on macOS (pg-06).
+pg-10	warn	DragGesture\(|MagnifyGesture\(|RotateGesture\(	continuous gesture — READ it: if it has no @GestureState (nor a committed @State written in .onChanged/.updating), the in-flight value is lost (pg-10).
+pg-11	adv	\.gesture\(	plain .gesture — if attached to a control that already has a built-in gesture (Button/Slider/ScrollView), it may swallow it → .simultaneousGesture / .highPriorityGesture (pg-11, verify against Xcode 26 SDK).

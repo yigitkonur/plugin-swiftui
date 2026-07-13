@@ -1,0 +1,17 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-charts (charts-01 … charts-11).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step READ) and decides. Structural rules that
+# grep cannot express (containment, gate-scope) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+charts-01	hard	BarChart|LineChart|PieChart|AreaChart|ChartView[^a-zA-Z]|PieMark|DonutMark|ScatterMark|ColumnMark|\.chartType\(	INVENTED Charts API (does not exist) → Chart { BarMark/LineMark/PointMark/SectorMark } ; PieMark→SectorMark, ColumnMark→BarMark, ScatterMark→PointMark
+charts-08	warn	SectorMark|chartXSelection|chartYSelection|chartAngleSelection|chartScrollableAxes|chartScrollPosition|chartXVisibleDomain|chartYVisibleDomain|LinePlot|AreaPlot|BarPlot|PointPlot|SectorPlot|RectanglePlot|RulePlot	version-floored Charts symbol — REPORT only if deployment target < its floor (SectorMark/selection/scroll = macOS 14; vectorized plots (LinePlot/AreaPlot/BarPlot/PointPlot/SectorPlot/RectanglePlot/RulePlot) = macOS 15; read floor in ORIENT). VERIFY gated #available(macOS N, *) and NOT over-gated above the real floor.
+charts-02	warn	(Rectangle|RoundedRectangle|Capsule)\(\)|GeometryReader	possible HAND-ROLLED bar/line chart — if a ForEach of Rectangle/Capsule sized by a data value (or GeometryReader proportional bars), prefer Chart { BarMark } (charts-02). If Canvas-drawn, cross_ref drawing-canvas.
+charts-03	warn	BarMark\(|LineMark\(|PointMark\(|AreaMark\(	Mark present — confirm it FITS the data: BarMark=categorical/discrete, LineMark/AreaMark=continuous time-series trend, PointMark=scatter (charts-03).
+charts-04	adv	Chart\(|Chart[[:space:]]*\{	Chart present — confirm axes are legible: add .chartXAxis/.chartYAxis when the default ticks are wrong/cluttered (charts-04).
+charts-05	adv	\.foregroundStyle\(by:	multi-series encoding — a legend should identify series; confirm a legend shows (.chartLegend not hidden) (charts-05).
+charts-06	adv	\.foregroundStyle\((\.[a-zA-Z]+|Color)	hardcoded per-mark color — if one color is repeated per category, prefer .foregroundStyle(by: .value(...)) for an auto palette + legend (charts-06). cross_ref appearance-color.
+charts-07	warn	\.onTapGesture|DragGesture\(|\.gesture\(	hand-rolled hit-testing on a chart — for value selection prefer .chartXSelection/.chartAngleSelection (macOS 14), not manual tap math (charts-07).
+charts-09	warn	#available\(iOS 1[6-8]	iOS-arm gate at a Charts floor in a macOS target → gate on #available(macOS 13/14/15, *) (wrong-arm, charts-09, fix_mode: auto). Confirm it scopes a Chart symbol.
+charts-11	warn	Chart\(|Chart[[:space:]]*\{	Chart present — confirm a VoiceOver descriptor: .accessibilityLabel/.accessibilityValue per mark or a chart-level summary (charts-11). cross_ref accessibility (keep-both).
+charts-10	adv	BarMark\(|LineMark\(|ForEach\(	large series — thousands of marks from one array render slowly; on macOS 15 prefer LinePlot/AreaPlot (vectorized) or .chartScrollableAxes + downsampling (charts-10). cross_ref view-performance.

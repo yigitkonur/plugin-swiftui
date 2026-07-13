@@ -1,0 +1,15 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-availability-gating (gate-01 … gate-08).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3), looks the symbol's floor up in
+# floors-master, compares it to the recorded deployment target, and decides. Structural rules that grep
+# cannot express (gate SCOPE / macOS-ABSENT-inside-a-macOS-gate) live in ast-grep/*.yml (tier 2).
+# gate-04 (no-else) has no flat tell — it is structural absence; the agent decides in READ from gate-03 hits.
+# gate-08 (DocC type-property quirk) is surfaced in VERIFY's floor cross-check, not by a flat string.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+gate-01	warn	@Observable|@Bindable|\.glassEffect\(|GlassEffectContainer|\.buttonStyle\(\.glass|scrollEdgeEffect|backgroundExtensionEffect|\.symbolEffect\(|MeshGradient|TextRenderer|TabSection|\.scrollPosition\(|\.containerRelativeFrame	above-floor symbol present — REPORT only if the deployment target (read in ORIENT) < the symbol's floor in floors-master AND it is not inside #available(macOS NN, *). Else suppress. (gate-01)
+gate-02	hard	#available\(iOS [0-9]	iOS-arm gate in a macOS target — the * wildcard already covers macOS so it always fires → gate on #available(macOS NN, *). Wrong-arm. (gate-02, fix_mode: auto)
+gate-03	warn	#available\(macOS [0-9]	a macOS gate is present — VERIFY its floor NN equals the symbol's floor in floors-master (floor mismatch = gate-03); also the site to judge whether an else fallback is needed (gate-04).
+gate-07	hard	#available\((macOS|iOS) [0-9][0-9.]*\)	#available missing the trailing , * wildcard (compile error) → add , * . (gate-07, fix_mode: auto)
+gate-05	warn	@available\(	@available decl/type gate — VERIFY arm is macOS, floor matches floors-master, and every use site is covered (or the type is used unguarded). (gate-05)
+gate-06	hard	\.glassBackgroundEffect\(|WheelPickerStyle|\.topBarLeading|\.topBarTrailing|WindowStyle\.volumetric|navigationBarTitleDisplayMode|\.bottomBar[^a-zA-Z]	macOS-ABSENT symbol (no Mac arm) — REPLACE with the Mac equivalent (hallucination-blacklist), do NOT wrap in #available(macOS …). (gate-06)

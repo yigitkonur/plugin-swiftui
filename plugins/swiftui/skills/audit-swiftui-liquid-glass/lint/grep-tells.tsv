@@ -1,0 +1,22 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-liquid-glass (glass-01 … glass-18).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (containment, gate-scope, co-occurrence) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+glass-01	hard	\.glassBackground\(|\.liquidGlass\(|LiquidGlassView|\.material\(\.glass|\.background\(\.glass|GlassContainer[^a-zA-Z]|\.buttonStyle\(\.liquidGlass	INVENTED glass API (does not exist) → .glassEffect()/GlassEffectContainer/.buttonStyle(.glass)
+glass-02	hard	\.glassBackgroundEffect\(	.glassBackgroundEffect is visionOS-only (macOS ABSENT) → .glassEffect()
+glass-06	warn	glassEffect|GlassEffectContainer|\.buttonStyle\(\.glass|glassEffectID|glassEffectUnion|glassEffectTransition|backgroundExtensionEffect|scrollEdgeEffect|\.sharedBackgroundVisibility|Glass\.identity|Glass\.interactive	glass symbol present — REPORT only if deployment target < macOS 26 (read in ORIENT); else ignore. VERIFY it is gated #available(macOS 26, *).
+glass-07	warn	#available\(iOS 26	iOS-arm gate in a macOS target → gate on #available(macOS 26, *) (wrong-arm, fix_mode: auto)
+glass-03	warn	\.glassEffect\(	glass MAY be on content — confirm it is navigation-layer, not a List/ForEach/Table row/card/Text/Image
+glass-08	warn	\.glassEffect\(\.clear	.clear variant — confirm not mixed with .regular in one container (glass-08); .clear requires a dimming layer beneath for legibility
+glass-09	warn	\.glassProminent|\.tint\(	prominent/tint — confirm only ONE primary action per screen carries it (tint spam = glass-09)
+glass-11	warn	\.toolbarBackground\(\.visible|\.toolbarColorScheme\(	deprecated toolbar override BLOCKS toolbar glass → delete (glass-11, fix_mode: auto)
+glass-12	warn	TextEditor\(	TextEditor — if in a NavigationSplitView detail, may force an opaque toolbar (glass-12); suggest .scrollEdgeEffectStyle(.soft, for: .top). UNVERIFIED.
+glass-13	adv	\.background\(\.ultraThinMaterial|\.background\(\.regularMaterial	material background — if co-located with .glassEffect() = double transparency (glass-13, advisory/UNVERIFIED)
+glass-10	adv	\.toolbar[[:space:]]*\{|NavigationSplitView|\.sheet\(|\.inspector\(	auto-adopting chrome (toolbar/sidebar/sheet) — it gets glass FREE; a hand .glassEffect() on it is redundant/wrong (glass-10)
+glass-14	adv	Button\(.*\)[[:space:]]*\{[^}]*\}[[:space:]]*\.glassEffect\(|RoundedRectangle.*\.glassEffect	hand-rolled glass-ish button — if it's a plain glass button, prefer .buttonStyle(.glass) (glass-14)
+glass-15	adv	TabView\(selection:	TabView selection — if Tab(...) items + plain @State, restoration is lost → @SceneStorage (glass-15)
+glass-16	adv	:[[:space:]]*LabelStyle	custom LabelStyle — if project floor is macOS 26, annotate @available(macOS, obsoleted: 26) (glass-16)
+glass-17	adv	glassEffectID\(	glassEffectID — verify all 4 morph conditions: container + shared @Namespace + withAnimation + conditional render (glass-17)
+glass-18	adv	glassEffectUnion\(	glassEffectUnion — verify siblings share shape + variant + tint (glass-18)

@@ -1,0 +1,15 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-appkit-interop (interop-01 … interop-10).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (a type MISSING a member, controller-flattened-to-view) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+interop-03	warn	\.becomeFirstResponder\(	becomeFirstResponder() — INVALID on a SwiftUI value; a custom focusable NSView must override acceptsFirstResponder + focus via window.makeFirstResponder (interop-03)
+interop-05	warn	contentView\??\.addSubview\(|contentView[[:space:]]*=[[:space:]]*[A-Z][A-Za-z0-9_]*View\(	AppKit adding a subview / setting contentView — if it hand-instantiates a SwiftUI View, wrap it in NSHostingView/NSHostingController (interop-05). READ to confirm.
+interop-06	warn	@Sendable|DispatchQueue\.main\.async|Task\.detached|@concurrent	concurrency hop near a bridge — if inside/around a Coordinator reading parent/main-actor state, it is the Swift-6 "can not be referenced from a Sendable closure" error class (interop-06, hard under Swift 6). cross_ref concurrency-safety.
+interop-07	adv	\.background\(\.ultraThinMaterial|\.background\(\.thinMaterial|\.background\(\.regularMaterial	in-window material — if it backs a sidebar/panel posing as native vibrancy, it composites IN-window (flat); a real sidebar needs NSVisualEffectView .behindWindow (interop-07). cross_ref appearance-color.
+interop-08	warn	\.searchable\(|\.sceneBridgingOptions	scene chrome under hosting — .searchable has NO scene bridge under NSHostingView (any macOS); .toolbar/.navigationTitle need sceneBridgingOptions (macOS 14, [] default when nested) (interop-08)
+interop-09	warn	NotificationCenter|addObserver\(|\.observe\(|Timer\.scheduledTimer|CADisplayLink	observer/KVO/timer — if added in makeNSView with no static func dismantleNSView, it leaks across view-identity changes (interop-09). CADisplayLink requires macOS 14.0+. READ the type.
+interop-10	warn	NSHostingMenu|NSAnimationContext\.animate|sceneBridgingOptions|NSHostingSizingOptions|sizeThatFits\([^)]*nsView	newer bridge surface — REPORT only if its floor (NSHostingMenu 14.4, NSAnimationContext.animate 15, sceneBridgingOptions/NSHostingSizingOptions/sizeThatFits 13–14) is ABOVE the deployment target and it is ungated (interop-10). Cross-check floors-master.md.
+interop-loc1	warn	:[[:space:]]*NSViewRepresentable|:[[:space:]]*NSViewControllerRepresentable	a representable type — READ it: it MUST implement both make/update halves + makeCoordinator (if @Binding) + dismantleNSView (if observers). Structural absence checks are in ast-grep (interop-01/02/04).
+interop-loc2	warn	NSHostingController\(|NSHostingView\(|NSHostingMenu\(	a reverse bridge (SwiftUI-in-AppKit) — the SANCTIONED host. Confirm it is used (not hand-instantiation) and chrome bridging is wired if needed (interop-05/08 context).

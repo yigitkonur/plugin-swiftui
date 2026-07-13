@@ -1,0 +1,21 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-api-currency (curr-01 … curr-14).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (1-param onChange closure shape, inline NavigationLink inside List) live in
+# ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+curr-13	hard	\.glassBackground\(|\.liquidGlass\(|LiquidGlassView|\.material\(\.glass|\.background\(\.glass|\.cardStyle\(	HALLUCINATED API (does not exist on macOS) → .glassEffect()/GlassEffectContainer/.buttonStyle(.glass)/.clipShape(). Confirm with swiftui-ctx lookup exit-3.
+curr-14	hard	\.glassBackgroundEffect\(	.glassBackgroundEffect is visionOS-only (macOS ABSENT) → .glassEffect()
+curr-01	warn	NavigationView[[:space:]]*\{	NavigationView is deprecated (macOS 10.15–26.5) → NavigationStack / NavigationSplitView. Structural migration: cross_ref navigation-toolbars.
+curr-02	warn	\.foregroundColor\(	.foregroundColor(_:) deprecated → .foregroundStyle(_:) (fix_mode: auto). Craft: cross_ref appearance-color.
+curr-03	warn	\.cornerRadius\(	.cornerRadius(_:) deprecated → .clipShape(.rect(cornerRadius:)) (fix_mode: auto). Craft: cross_ref appearance-color.
+curr-04	warn	\.onChange\(of:	onChange present — READ the closure: a SINGLE-param { newValue in } is the deprecated 1-param form (introduced macOS 11.0, deprecated macOS 14.0) → (old, new) or 0-param. ast-grep narrows the shape.
+curr-05	warn	\.tabItem[[:space:]]*\{	.tabItem is the legacy builder → Tab("…", systemImage:) { } (macOS 15). Structural: cross_ref navigation-toolbars.
+curr-06	warn	NavigationLink\([^)]*destination:	NavigationLink with destination: — if INSIDE a List/ForEach it eagerly builds every destination → .navigationDestination(for:). ast-grep confirms containment.
+curr-07	warn	Text\([^)]*\)[[:space:]]*\+[[:space:]]*Text\(	Text + Text concatenation deprecated (macOS 26.0, closes early) → interpolation / AttributedString. Craft: cross_ref typography-text.
+curr-08	adv	DispatchQueue\.main\.async	DispatchQueue.main.async — if the file otherwise uses async/await it is a GCD cargo-cult → @MainActor / await MainActor.run. READ to confirm. cross_ref async-data.
+curr-09	warn	dropDestination\(for:[^)]*isTargeted:	3-arg dropDestination(for:action:isTargeted:) deprecated (macOS 26.5) → dropDestination(for:isEnabled:action:). cross_ref sandbox-files. VERIFY successor signature.
+curr-10	warn	MagnificationGesture|RotationGesture	MagnificationGesture/RotationGesture renamed (macOS 26.5) → MagnifyGesture/RotateGesture (fix_mode: auto). cross_ref pointer-gestures.
+curr-11	adv	Font\.system\([^)]*design:	Font.system(_:design:) — if it passes NO weight: the design-only form is deprecated (macOS 26.5) → Font.system(_:design:weight:). READ to confirm. cross_ref typography-text.
+curr-12	warn	\.accentColor\(	.accentColor(_:) deprecated (macOS 26.5) → .tint(_:) (fix_mode: auto). cross_ref appearance-color.
+</content>
