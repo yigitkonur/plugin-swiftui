@@ -11,6 +11,8 @@ sg_std/
 *.tsv
 !skills/*/lint/grep-tells.tsv
 !scripts/audit-signals.tsv
+!plugins/swiftui/skills/*/lint/grep-tells.tsv
+!plugins/swiftui/scripts/audit-signals.tsv
 # 92MB raw decl dump; not read by the CLI — regenerate via scripts/05_catalog.py
 catalog/customComponents.json
 

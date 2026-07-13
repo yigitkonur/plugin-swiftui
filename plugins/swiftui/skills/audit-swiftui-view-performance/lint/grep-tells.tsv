@@ -1,0 +1,16 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-view-performance (vperf-01 … vperf-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). This domain has NO hard tells — every defect is a
+# real-but-misused API (not a build break), so the runner exits 0; the value is the located candidate set.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules grep
+# cannot express (a formatter INSIDE body; logic INSIDE init) live in ast-grep/*.yml (tier 2 — vperf-01/06).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+vperf-02	warn	\.id\(UUID\(\)\)|\.id\(UUID\(\)\.uuidString\)	.id(UUID()) → fresh identity every render → subtree recreated + state lost. Use .id(stableDataID). fix_mode: auto
+vperf-03	warn	AnyView\(	AnyView erases the type SwiftUI diffs on → subtree can't be skipped. Prefer @ViewBuilder returning some View. READ to confirm it is view code.
+vperf-04	adv	:[[:space:]]*\([^)]*\)[[:space:]]*->[[:space:]]*Void|:[[:space:]]*@escaping	a closure stored as a child prop can't be value-compared → child never skipped. If the child must keep it, make the child Equatable/EquatableView. READ to confirm it is a child View prop.
+vperf-07	warn	ForEach\([^)]*\.(filter|sorted|map)[[:space:]]*[\({]	filter/sorted/map INSIDE a ForEach argument → recomputed every render. Compute upstream (model / @Query(sort:) / cached derived array).
+vperf-08	adv	@Environment\(\\.[a-zA-Z]	@Environment read — REPORT only if the key carries a fast-changing value (timer/drag/scroll geometry); that fans out to every subscriber every tick. Keep fast state in narrowly-scoped @State/@Observable. READ to confirm frequency.
+vperf-09	adv	@Environment\([A-Z][A-Za-z0-9_]*\.self\)|@EnvironmentObject	whole-model environment read — if the view uses one field, the broad read still re-checks on any tracked change. Pass only the data the view needs. cross_ref audit-swiftui-state-observation for granularity. READ to confirm.
+vperf-11	adv	ForEach\(	ForEach present — REPORT only if it iterates a LARGE collection and is NOT inside a LazyVStack/LazyVGrid/List/Table (eager build of all rows). Wrap in a lazy container. READ to confirm the container + size.
+vperf-10	adv	Table\(	SwiftUI Table — if it carries 10k+ rows with heavy/editable cells, scrolling janks (FB13639482, no confirmed fix milestone). Measure on your target; bridge NSTableView for large grids. cross_ref audit-swiftui-layout-and-tables + audit-swiftui-appkit-interop. UNVERIFIED threshold.
+vperf-12	adv	Self\._printChanges\(\)	Self._printChanges() is a debug probe — strip before shipping (vperf-12, fix_mode: auto).

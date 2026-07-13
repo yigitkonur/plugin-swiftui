@@ -1,0 +1,12 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-localization (loc-01 … loc-10).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard -> runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. The non-literal-Text
+# case (loc-02) is structural -> ast-grep/loc-02-nonliteral-text.yml. loc-04 (no .xcstrings) is a project
+# file check in ORIENT; loc-05/loc-09 are READ-judgment (no reliable regex). Full ❌→✅: ../references/*.md.
+loc-01	warn	Text\(verbatim:	verbatim: opts OUT of localization — if the literal is human-readable UI copy, drop verbatim: so it auto-localizes (loc-01); if a brand/version/number, it is correct
+loc-03	adv	NSLocalizedString\(	legacy NSLocalizedString macro -> a literal LocalizedStringKey or String(localized:) (loc-03); also flag api-currency cross_ref
+loc-06	warn	Text\("[^"]*\\\(	UI sentence built by interpolation inside a Text literal -> no pluralization/grammar agreement; move variants into the String Catalog (loc-06)
+loc-07	warn	String\(format:|DateFormatter\(|NumberFormatter\(	locale-unaware display formatting -> use a FormatStyle / .formatted() with the environment locale (loc-07)
+loc-08	warn	Image\(systemName:[[:space:]]*"[^"]*(left|right)	directional SF Symbol does not mirror in RTL -> prefer the semantic .backward/.forward symbols that flip (loc-08)
+loc-10	adv	\.offset\(x:|\.position\(x:	hard-coded horizontal offset/position assumes LTR -> will not mirror in RTL; derive from layoutDirection (loc-10)

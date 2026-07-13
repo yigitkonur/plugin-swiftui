@@ -1,0 +1,18 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-sandbox-files (sf-01 … sf-09).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (start-without-stop balance, NSItemProvider-inside-onDrop) live in ast-grep/*.yml (tier 2).
+# NOTE: sf-04 (entitlements) + sf-09 (Hardened Runtime cs.*) are READ BY HAND from *.entitlements/Info.plist
+# in ORIENT — the runner is *.swift-only; the sf-04 tell below only LOCATES the Swift APIs that REQUIRE a key.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+sf-05	hard	UIPasteboard	UIPasteboard is absent from native macOS (Mac Catalyst 13.1+ carries it; this skill is native macOS only — won't compile) → NSPasteboard.general (sf-05, fix_mode: auto)
+sf-01	warn	String\(contentsOf:|Data\(contentsOf:|FileManager\.default\.(contents|createFile|removeItem|copyItem|moveItem)	file read/write — REPORT only if the URL is a literal/typed path or URL(fileURLWithPath:) with NO preceding fileImporter/NSOpenPanel/Bundle.main (sf-01). READ the file.
+sf-01	warn	URL\(fileURLWithPath:	URL(fileURLWithPath:) — a hard-coded path is unreachable under the sandbox unless user-consented (sf-01). Confirm there is no panel origin.
+sf-02	warn	\.bookmarkData\(	bookmarkData — REPORT if it lacks options: .withSecurityScope (a plain bookmark round-trips the path, NOT the permission) (sf-02). READ the call.
+sf-02	warn	UserDefaults[^=]*\.set\([^,]*\.path|\.set\([^,]*\.absoluteString[^,]*forKey	a picked URL persisted by .path/.absoluteString — the grant is gone next launch → security-scoped bookmark Data (sf-02)
+sf-04	warn	\.fileImporter\(|\.fileExporter\(|NSOpenPanel|NSSavePanel|URLSession	file/network API in use — VERIFY the matching .entitlements key exists (files.user-selected.* / network.client) under com.apple.security.app-sandbox (sf-04, read plist by hand)
+sf-03	warn	startAccessingSecurityScopedResource\(	security-scoped access — VERIFY a balancing stopAccessingSecurityScopedResource()/defer in the same scope, and that the returned Bool is checked (sf-03; ref-count leak otherwise)
+sf-06	warn	NSItemProvider|\.loadObject\(|\.loadDataRepresentation\(|\.onDrop\(of:	manual NSItemProvider/onDrop drag-drop — prefer Transferable + .draggable/.dropDestination(for:) with a Sendable type (sf-06)
+sf-07	warn	\.loadTransferable\(	loadTransferable — if it touches a @MainActor-created PhotosPickerItem inside a nonisolated .task, Swift-6 data race (sf-07); ISOLATION fix owned by concurrency-safety → cross_ref. Confirm consent/bookmark of the result.
+sf-08	adv	\.dropDestination\(for:[^)]*isTargeted:|\.dropDestination\(for:[^)]*,[^)]*action:[^)]*,[^)]*isTargeted	dropDestination(for:action:isTargeted:) 3-arg form — deprecated macOS 26.5 → dropDestination(for:isEnabled:action:) (sf-08, advisory; flag owned by api-currency → cross_ref)

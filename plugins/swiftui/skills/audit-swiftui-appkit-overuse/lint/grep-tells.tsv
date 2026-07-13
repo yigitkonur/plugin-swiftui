@@ -1,0 +1,14 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-appkit-overuse (over-01 … over-07).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and applies the WHETHER test: a
+# class name is NOT a verdict (an NSTextField bridge may be a justified first-responder hatch). The
+# structural tell grep can't express (a makeNSView that CONSTRUCTS a trivial control) is in
+# ast-grep/over-01-wraps-native-control.yml (tier 2). Full ❌→✅ + sources: ../references/*.md.
+over-01	warn	NS(Button|TextField|SecureTextField|Switch|Slider|Stepper|ColorWell|DatePicker|ProgressIndicator|ComboBox|PopUpButton|SegmentedControl)\(	1:1-native AppKit control — if wrapped in NSViewRepresentable for plain use, a SwiftUI control fits (over-01). READ: confirm it is not a justified first-responder/custom hatch.
+over-02	warn	NSStatusItem|NSStatusBar\.system	menu-bar item via NSStatusItem — MenuBarExtra scene (macOS 13+) is the native equal (over-02).
+over-03	warn	NSOpenPanel|NSSavePanel	AppKit file panel — for a simple import/export prefer .fileImporter/.fileExporter/.fileMover (over-03). cross_ref sandbox-files.
+over-04	adv	NSItemProvider|NSPasteboard	pasteboard/drag bridge — for a model type prefer Transferable + .draggable/.dropDestination/.copyable (over-04). cross_ref sandbox-files.
+over-05	warn	NSGlassEffectView|NSGlassEffectContainerView	AppKit glass bridged — use SwiftUI .glassEffect(_:in:)/GlassEffectContainer (over-05). cross_ref liquid-glass.
+over-06	adv	NSHostingView\(|NSHostingController\(	reverse bridge (SwiftUI-in-AppKit) — in a SwiftUI-first app a whole-window host may mean a SwiftUI scene fits (over-06). READ to confirm scope. cross_ref scenes-windows.
+over-07	adv	NSTextView	NSTextView bridge — if plain/lightly-styled text AND floor is macOS 26, TextEditor(text:selection:) may remove it (over-07); below 26 (or true rich text) it is a JUSTIFIED hatch — do not flag.

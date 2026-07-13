@@ -1,0 +1,20 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-scenes-windows (sw-01 … sw-13).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard -> runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules grep
+# cannot express (containment: openWindow/openSettings/SettingsLink INSIDE a MenuBarExtra closure) live in
+# ast-grep/*.yml (tier 2). sw-09 (the id no-op) has NO standalone rule — it needs the project-wide
+# scene-id <-> open-call cross-reference the agent builds in READ; the sw-09 tell below only surfaces the
+# openWindow(id:)/dismissWindow(id:) call SITES so the agent can cross-check them against scene ids.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+sw-01	hard	Preferences[[:space:]]*\{|showSettingsWindow:|showPreferencesWindow:|@FocusedDocument|DocumentGroupLaunchScene	STALE/INVENTED scene API → Settings {} / SettingsLink / openSettings (Preferences{}, show*Window: selectors); @FocusedDocument is NOT real → custom FocusedValues key; DocumentGroupLaunchScene is macOS-ABSENT (iOS/iPadOS/Mac Catalyst/visionOS only)
+sw-02	warn	NavigationLink\(.*[Ss]ettings|NavigationLink\(.*[Pp]references|\.sheet\(.*[Ss]ettings	Settings/Preferences reached via NavigationLink/.sheet — if there is no Settings {} scene, ⌘, is dead → add the Settings {} scene (sw-02). READ the App body to confirm.
+sw-03	warn	Button\("?[Ss]ave"?|Button\("?[Aa]pply"?|Button\("?[Cc]ancel"?	Save/Apply/Cancel button — if inside a Settings/Preferences Form, that is a Windows-style modal; macOS Settings is modeless, no Save/Cancel (sw-03 HIG). READ to confirm it is the settings surface.
+sw-04	warn	\.sheet\(isPresented:	a .sheet — if it stands in for a separate window (inspector, 2nd document), use a scene + openWindow, not a modal sheet trapped in this window (sw-04)
+sw-05	warn	NSStatusItem|NSStatusBar\.system\.statusItem|NSStatusBar\.system|statusItem\(withLength	AppKit status item in a SwiftUI app → use a MenuBarExtra scene (sw-05); whether to bridge at all = cross_ref appkit-overuse
+sw-08	adv	WindowGroup[[:space:]]*[\({]|Window\(|UtilityWindow\(	a scene declaration — confirm it has .defaultSize AND .windowResizability (scene-modifier sizing layer); missing both = uncontrolled Mac window (sw-08). content-frame sizing = cross_ref layout-and-tables
+sw-09	warn	openWindow\(id:|dismissWindow\(id:	open/dismiss-by-id CALL SITE — cross-check the id STRING against every registered Window(id:)/WindowGroup(id:)/UtilityWindow(id:) scene in the project; an unmatched id is a SILENT no-op (sw-09). REPORT only if no scene registers that string.
+sw-10	adv	@Environment\(\\\.openWindow\)|\.openWindow\)	openWindow in use — confirm a matching @Environment(\.dismissWindow) close path exists for any auxiliary window (sw-10); dismissWindow is macOS 14+
+sw-11	adv	struct[[:space:]]+[A-Za-z0-9_]+:[[:space:]]*App|:[[:space:]]*App[[:space:]]*\{	an App type — if it has only scenes and needs quit-on-last-window/launch/terminate, it needs @NSApplicationDelegateAdaptor (sw-11). READ: is there an adaptor?
+sw-12	adv	\.windowStyle\(|WindowGroup[[:space:]]*[\({]	window chrome — confirm .windowStyle matches the design (e.g. .hiddenTitleBar for content-forward); absent/wrong style = sw-12 (case strings UNVERIFIED)
+sw-13	adv	\.navigationTitle\(	navigationTitle — if placed INSIDE a Window scene it REPLACES the titlebar text (sw-13); structural nav migration = cross_ref navigation-toolbars

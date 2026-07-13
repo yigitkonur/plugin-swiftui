@@ -1,0 +1,15 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-typography-text (txt-01 … txt-09).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. The one structural rule
+# grep cannot express (multi-line Text + Text) lives in ast-grep/txt-01-text-concat.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+txt-09	hard	\.fontSize\(|\.textStyle\(|Text\(styled:|\.attributedText\(|NSAttributedText|\.font\(size:	INVENTED type API (does not exist) → .font(.system(size:))/text style/AttributedString. See hallucination-blacklist.
+txt-01	warn	Text\([^)]*\)[[:space:]]*\+[[:space:]]*Text\(	Text + Text concatenation DEPRECATED macOS 26.0 → AttributedString / string interpolation into one Text. cross_ref api-currency.
+txt-02	warn	\.system\([^)]*design:	Font.system(_:design:) design-only overload DEPRECATED 26.5 → add weight: → system(_:design:weight:). grep can't see weight: absence — READ to confirm no weight arg. cross_ref api-currency.
+txt-05	warn	AttributedString\(	AttributedString present — VERIFY it uses AttributeContainer / .runs, not String concatenation or a hallucinated init (txt-05).
+txt-06	warn	\.textRenderer\(	textRenderer(_:) modifier is macOS 15+ (TextRenderer protocol macOS 14+) — VERIFY gated #available(macOS 15, *) under a <15 floor, on the macOS arm (txt-06).
+txt-03	adv	\.system\(size:	hardcoded font size defeats Dynamic Type → semantic text style (.system(.body)) or @ScaledMetric(relativeTo:) (txt-03). cross_ref accessibility.
+txt-04	adv	\.lineLimit\([0-9]+\)	integer lineLimit without reservesSpace: → frame jumps when content arrives → .lineLimit(N, reservesSpace: true) (txt-04).
+txt-08	adv	\.formatted\(\)|format:[[:space:]]*\.(number|currency|percent)	live numeric Text — if it updates frequently and lacks .monospacedDigit(), digits jiggle each frame (txt-08). grep over-locates; READ to confirm it is live.
+txt-07	adv	HStack[[:space:]]*\{[^}]*Spacer\(\)[^}]*\}	HStack-with-Spacer label-row CANDIDATE — if it is Text/Spacer/Text in a Form, prefer LabeledContent (txt-07). grep over-locates (any HStack+Spacer); READ to confirm it is a label row.

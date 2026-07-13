@@ -1,0 +1,14 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-appearance-color (ac-01 … ac-08).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. The one structural rule
+# grep can't reliably anchor (multi-line Color(red:green:blue:) init) lives in ast-grep/ac-01-hardcoded-rgb.yml.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+ac-08	hard	\.textColor\(|\.backgroundColor\(|\.tintColor\(|\.foregroundColour\(|\bUIColor\b	INVENTED / cross-platform color API (absent on macOS SwiftUI) → .foregroundStyle/.background/.tint; UIColor bridge is Color(nsColor:). See hallucination-blacklist.
+ac-01	warn	Color\(red:|Color\(\.sRGB	hardcoded literal RGB Color → breaks Dark Mode → named asset-catalog Color("…") or a semantic color (ac-01). READ to confirm it is a content fill, not a deliberate brand mark.
+ac-02	warn	Color\.white|Color\.black|Color\(white:	Color.white/.black/Color(white:) as content fg/bg does not adapt to appearance → .primary/.secondary or an asset color (ac-02). READ to confirm the surface.
+ac-03	warn	\.foregroundColor\(	.foregroundColor(_:) DEPRECATED macOS 26.5 → .foregroundStyle(_:) (prefer .secondary/.tertiary hierarchy) (ac-03, fix_mode: auto). cross_ref api-currency.
+ac-04	warn	\.accentColor\(	.accentColor(_:) DEPRECATED macOS 26.5 → .tint(_:) (ac-04, fix_mode: auto). cross_ref api-currency.
+ac-05	warn	\.preferredColorScheme\(	preferredColorScheme — if set at App/WindowGroup/root scope it overrides the user's macOS appearance (anti-pattern, ac-05). READ to confirm scope; a deliberate scoped preview/island is fine.
+ac-06	adv	\.background\(Color\.|\.background\(Color\(	opaque Color background CANDIDATE — if it fills chrome (sidebar/overlay/bar) it should breathe with a .ultraThinMaterial/.regularMaterial (ac-06). cross_ref liquid-glass. READ to confirm it is chrome, not flat content.
+ac-07	adv	colorSchemeContrast	colorSchemeContrast present — VERIFY the view actually branches on it (ac-07). The absence case (custom colors that IGNORE Increase Contrast) is a READ-only judgment grep cannot locate. cross_ref accessibility.

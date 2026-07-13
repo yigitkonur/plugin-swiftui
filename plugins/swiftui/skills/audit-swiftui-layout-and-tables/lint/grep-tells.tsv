@@ -1,0 +1,14 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-layout-and-tables (lt-01 … lt-08).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (the scene-modifier ABSENCE for lt-01/lt-02, and a Table with no sortOrder for
+# lt-04) live in ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+lt-07	hard	\.tableStyle\(\.inset\(alternatesRowBackgrounds|\.tableStyle\(\.bordered\(alternatesRowBackgrounds	DEPRECATED (macOS 26.5) tableStyle case → .tableStyle(.inset).alternatingRowBackgrounds(). Source: https://developer.apple.com/documentation/swiftui/tablestyle/inset(alternatesrowbackgrounds:)
+lt-01	warn	WindowGroup[[:space:]]*\{|DocumentGroup\(|Window\(	scene root — its content view MUST carry a .frame(minWidth:idealWidth:…) or the Mac window opens awkward/collapses (lt-01). READ: is the root content unconstrained? (ast-grep lt-01 proves absence)
+lt-02	warn	WindowGroup[[:space:]]*\{|Window\(|Settings[[:space:]]*\{	scene declaration — confirm the SCENE carries .defaultSize and .windowResizability (lt-02; scenes-windows owns, companion note). READ: are both scene modifiers present? (ast-grep lt-02 proves absence)
+lt-03	warn	\bList\(	List — if it wraps an HStack { Text … Spacer() Text … } of a struct's fields, macOS wants a sortable Table + TableColumn (lt-03), not a hand-rolled grid.
+lt-04	warn	\bTable\(	Table — confirm it drives sorting with sortOrder: $binding to [KeyPathComparator] and clickable value: columns (lt-04). A non-sortable Mac table is non-native. (ast-grep lt-04 proves no sortOrder in the call)
+lt-05	adv	Picker\(|Stepper\(|TextField\(|Toggle\(|\.inspector\(|Form[[:space:]]*\{	dense Mac pane controls (inspector/settings/toolbar) — if NO .controlSize(.small/.mini) governs the subtree, density is likely oversized "iPad-in-a-window" (lt-05). controlSize sizing axis = this skill.
+lt-06	adv	\.fixedSize\(\)	blanket both-axis .fixedSize() — if on a container (HStack/VStack/subtree) it freezes BOTH axes and overflows a resizable window (lt-06). Prefer layoutPriority or single-axis fixedSize(horizontal:vertical:).
+lt-08	adv	:[[:space:]]*Layout([[:space:]]*\{|,|$)|struct[[:space:]]+[A-Za-z0-9_]+:[[:space:]]*Layout	custom Layout protocol conformance — confirm a built-in (HStack/Grid/ViewThatFits/containerRelativeFrame) can't do it before a hand-rolled Layout (lt-08). This skill OWNS custom-layout.

@@ -1,0 +1,33 @@
+# audit-signals.tsv — domain-presence signals for audit-scan.py (the orchestrator's STEERING layer).
+# Columns (TAB-separated): skill <TAB> mode(always|cond) <TAB> python-regex
+#   always = relevant on ANY project containing SwiftUI (cross-cutting concerns).
+#   cond   = relevant ONLY if the regex matches at least one SwiftUI file (domain is actually present).
+# Regexes are Python `re` syntax (\s, \b, …) — consumed only by audit-scan.py, never by grep.
+api-currency	always	.
+availability-gating	always	.
+state-observation	always	.
+view-performance	always	.
+accessibility	always	.
+typography-text	always	.
+appearance-color	always	.
+macos-nativeness	always	.
+concurrency-safety	cond	\bTask\s*[\{\(]|Task\.detached|\bactor\s|@MainActor|\bSendable\b|DispatchQueue|nonisolated
+async-data	cond	\.task\b|AsyncImage|\.refreshable|URLSession|loadTransferable
+swiftdata	cond	import SwiftData|@Model\b|@Query\b|ModelContainer|modelContext|@Relationship
+scenes-windows	cond	MenuBarExtra|WindowGroup|Settings\s*\{|\bWindow\(|DocumentGroup|openWindow|NSApplicationDelegateAdaptor
+menus-commands	cond	\.commands\s*\{|CommandMenu|CommandGroup|keyboardShortcut|@FocusedValue|SidebarCommands
+navigation-toolbars	cond	NavigationStack|NavigationSplitView|NavigationView|\.toolbar\s*[\{\(]|navigationTitle
+controls-forms	cond	\bForm\s*[\({]|TextField\(|\bPicker\(|Toggle\(|Stepper\(|\bSlider\(|\.focusable|@FocusState
+layout-and-tables	cond	\bTable\(|\bGrid\s*[\({]|LazyV[HS]|LazyH[GS]|GeometryReader|\bViewThatFits
+liquid-glass	cond	glassEffect|GlassEffectContainer|buttonStyle\(\.glass|\.glassBackground|backgroundExtensionEffect
+charts	cond	import Charts|\bChart\s*[\({]|BarMark|LineMark|SectorMark|PointMark|RuleMark|AreaMark
+previews	cond	#Preview\b|PreviewProvider|@Previewable
+sandbox-files	cond	fileImporter|fileExporter|NSOpenPanel|NSSavePanel|bookmarkData|[Ss]ecurityScoped|FileDocument|dropDestination|\bdraggable\(|Transferable
+pointer-gestures	cond	onHover|pointerStyle|\bGesture\b|\.gesture\(|contextMenu|onTapGesture|onLongPress|MagnifyGesture|RotateGesture
+animation-motion	cond	withAnimation|\.animation\(|matchedGeometryEffect|PhaseAnimator|KeyframeAnimator|\.transition\(|symbolEffect|contentTransition
+drawing-canvas	cond	\bCanvas\(|GraphicsContext|\bPath\s*[\({]|:\s*Shape\b|TimelineView|MeshGradient|\.drawingGroup
+localization	cond	Text\(\s*"|Label\(\s*"|LocalizedStringKey|String\(localized:|NSLocalizedString|Text\(verbatim:
+appkit-interop	cond	NSViewRepresentable|NSViewControllerRepresentable|NSHostingController|NSHostingView|makeNSView|sceneBridgingOptions
+appkit-overuse	cond	NSViewRepresentable|NSStatusItem|NSOpenPanel|UIPasteboard|\bNSWindow\b|NSVisualEffectView|NSTextView
+document-model	cond	DocumentGroup|FileDocument|ReferenceFileDocument|\bUTType\b|FileWrapper|readableContentTypes
+state-restoration	cond	@SceneStorage|@AppStorage|NavigationPath|onOpenURL|restorationBehavior|handlesExternalEvents

@@ -1,0 +1,20 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-accessibility (a11y-01 … a11y-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (Chart-without-descriptor) live in ast-grep/*.yml (tier 2). a11y-01 (icon-only control)
+# stays TIER 1 by design: a correct .accessibilityLabel chains OUTSIDE the Button call node, so a containment
+# rule would false-positive — the LLM READ step (SKILL.md step 3) confirms the label's absence instead.
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+a11y-10	hard	\.voiceOverLabel|\.a11yLabel|\.accessibilityText\(|\.screenReaderLabel|\.accessibilityName\(|\.voiceOverHint	INVENTED accessibility API (does not exist) → .accessibilityLabel()/.accessibilityHint() (a11y-10, fix_mode: auto)
+a11y-12	warn	\.isToggle	AccessibilityTraits.isToggle is macOS 14.0+ (NOT 10.15) — REPORT only if deployment target < macOS 14 and the use is ungated (a11y-12). Closure-form accessibilityLabel(content:)/accessibilityValue(_:isEnabled:) = macOS 15.0+.
+a11y-11	warn	\.accessibility\(label:|\.accessibility\(hint:|\.accessibility\(addTraits:|\.accessibility\(value:|\.accessibility\(identifier:	LEGACY combined .accessibility(label:/hint:/addTraits:/value:) modifier → split into .accessibilityLabel()/.accessibilityHint()/.accessibilityAddTraits()/.accessibilityValue() (a11y-11, fix_mode: auto)
+a11y-01	warn	Image\(systemName:|Label\([^)]*systemImage:	icon-only control candidate — if this Image/Label is the sole content of a Button/tappable with NO .accessibilityLabel, VoiceOver reads the SF Symbol name or nothing (a11y-01). Confirm a label exists.
+a11y-07	warn	Chart[[:space:]]*\{|Canvas[[:space:]]*\{|Canvas\(	Chart/Canvas — confirm an a11y representation exists: .accessibilityChartDescriptor / .accessibilityRepresentation / .accessibilityLabel+.accessibilityValue (a11y-07). cross_ref charts / drawing-canvas.
+a11y-04	warn	Gauge\(|Slider\(|Stepper\(|ProgressView\(	value control — a CUSTOM (hand-rolled) gauge/slider/progress must carry .accessibilityValue(); native controls expose it automatically (a11y-04). READ to confirm it is custom.
+a11y-08	adv	\.onTapGesture|\.onLongPressGesture	tap/press gesture on a non-Button — VoiceOver sees no actionable trait; add .accessibilityAddTraits(.isButton) (or .isToggle) and .accessibilityAction (a11y-08).
+a11y-05	adv	\.foregroundColor\(\.(red|green|orange|yellow)|\.foregroundStyle\(\.(red|green|orange|yellow)|\.fill\(\.(red|green|orange|yellow)	status-by-color — if color is the ONLY cue (no label/shape/symbol), it fails Differentiate-Without-Color (a11y-05). cross_ref appearance-color.
+a11y-06	adv	withAnimation|\.transition\(|repeatForever|\.phaseAnimator|\.keyframeAnimator	motion — if there is no @Environment(\.accessibilityReduceMotion) branch disabling/replacing it, the animation ignores Reduce Motion (a11y-06). cross_ref animation-motion (motion construction is theirs; "ignores the flag" is ours).
+a11y-03	adv	\.accessibilityElement\(	grouping present — VERIFY children:.combine/.ignore is correct; ABSENCE on a custom composite (HStack/VStack of Text+Image read as one control) is the real defect (a11y-03) — locate composites by reading.
+a11y-09	adv	AccessibilityFocusState|accessibilityFocused\(|accessibilitySortPriority\(	VoiceOver focus — an AccessibilityFocusState declared-but-never-driven, or a broken reading order, leaves focus stranded (a11y-09).
+a11y-02	adv	Image\(decorative:|Image\("	decorative image — a purely-decorative Image with no informational value should be .accessibilityHidden(true) so VoiceOver skips it (a11y-02). READ to confirm it is decorative.

@@ -1,0 +1,19 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-state-restoration (sr-01 … sr-11).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. The wrapper-confusion
+# defects (sr-02/03) are SEMANTIC: grep can only surface the wrapper; the value's app-wide-vs-per-window
+# meaning is invisible to grep, so READ is mandatory. The one structural rule grep cannot express
+# (restorationBehavior NOT inside a #available(macOS 15) gate) lives in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+sr-01	hard	\.restorationIdentifier\(|@StateRestoration|UIStateRestoring|restorationClass|encodeRestorableState|decodeRestorableState	UIKit/INVENTED restoration symbol on SwiftUI macOS (does not exist) → @SceneStorage / @AppStorage / restorationBehavior
+sr-02	warn	@SceneStorage	@SceneStorage = PER-WINDOW UI state. READ: if this value is an app-wide preference (one truth for all windows) it belongs in @AppStorage (sr-02). Apply the wrapper test.
+sr-03	warn	@AppStorage	@AppStorage = APP-WIDE preference. READ: if this holds per-window UI state (selected tab/sidebar/detail/scroll) it leaks across windows → @SceneStorage (sr-03). Apply the wrapper test.
+sr-04	warn	UserDefaults\.standard\.(set|object|string|bool|integer|double|data)\(	hand-rolled UserDefaults — for a simple app-wide pref prefer @AppStorage; READ to confirm it is not deliberate (observers/suites) (sr-04)
+sr-05	warn	TabView\(selection:|\.navigationSplitViewColumnVisibility|List\(selection:|NavigationSplitView	selection/column-visibility — if bound to plain @State (not @SceneStorage) the app forgets it on relaunch → @SceneStorage (sr-05). READ the bound property's wrapper.
+sr-06	adv	NavigationPath|NavigationStack\(path:	NavigationPath/path — verify it is persisted via NavigationPath(codable:)/.codable into @SceneStorage, else deep navigation is lost on relaunch (sr-06)
+sr-07	warn	@(AppStorage|SceneStorage)\([^)]*\)[[:space:]]*(private[[:space:]]+)?var[[:space:]]+[A-Za-z0-9_]+:[[:space:]]*[A-Z][A-Za-z0-9_]*	custom type in @AppStorage/@SceneStorage — verify it conforms to RawRepresentable (or Codable round-trip); a bare struct/enum/class will not persist/compile (sr-07)
+sr-08	warn	@(AppStorage|SceneStorage)\([^)]*\)[[:space:]]*(private[[:space:]]+)?var[[:space:]]+[A-Za-z0-9_]+:[[:space:]]*(Data|\[.*\]|NSImage|UIImage|Image)	oversized value in key-value storage — Data/array/image is size-limited in scene/app storage → move to SwiftData or a file (sr-08, cross_ref swiftdata)
+sr-09	warn	CFBundleURLSchemes|onContinueUserActivity\(|handlesExternalEvents\(	custom URL scheme / activity / external-event matcher — verify an onOpenURL(perform:) (or onContinueUserActivity) handler actually consumes it, else the deep link is dead (sr-09)
+sr-10	warn	\.restorationBehavior\(	restorationBehavior is macOS 15.0+ — REPORT only if deployment target < macOS 15 and it is not gated #available(macOS 15, *) (read in ORIENT) (sr-10)
+sr-11	adv	\.focusedSceneValue\(	focusedSceneValue has TWO floors — key-path overload macOS 12, object overload macOS 14; VERIFY which overload + gate accordingly before quoting a floor (sr-11)

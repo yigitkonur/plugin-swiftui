@@ -1,0 +1,14 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-controls-forms (cf-01 … cf-08).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (the .formStyle ABSENCE for cf-01, a custom View with no .focusable()/@FocusState
+# for cf-02) live in ast-grep/*.yml (tier 2). Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+cf-07	hard	\.pickerStyle\(\.wheel|WheelPickerStyle	.pickerStyle(.wheel)/WheelPickerStyle has NO macOS arm (compile error on non-Catalyst macOS) → .pickerStyle(.menu)/.segmented/.inline. macOS ABSENT — replace, never gate (cf-07).
+cf-01	warn	\bForm[[:space:]]*\{	Form — its modifier chain MUST carry .formStyle(.grouped) or the macOS settings pane is ungrouped/non-native (cf-01). READ: is .formStyle present in the chain? (ast-grep cf-01 proves absence)
+cf-02	warn	\.focusable\(|@FocusState|\.focused\(	focus wiring present — a custom focus-taking View needs .focusable() + @FocusState + .focused($_) to join the Tab order & draw the ring (cf-02). READ the enclosing View: is it wired? (ast-grep cf-02 proves a custom View that uses a control but has NONE of these)
+cf-03	warn	Image\(systemName:	icon control — an icon-only Button { } label: { Image(systemName:) } needs a .help("…") tooltip (cf-03; keep-both with accessibility's label). READ: is this a label-only button with no .help in its chain?
+cf-04	adv	\bList\(|\bList[[:space:]]*\{	List — a sidebar List in a NavigationSplitView wants .listStyle(.sidebar) for the source-list material (cf-04). READ: is this the sidebar column and is .listStyle set?
+cf-05	adv	\bButton\(|\bButton[[:space:]]*\{	Button — in a dense Mac pane, set .buttonStyle(.bordered/.borderless/.plain/.link) explicitly; the iOS default reads oversized (cf-05). READ the pane's density.
+cf-06	adv	\bPicker\(	Picker — confirm .pickerStyle(.menu) (the Mac pop-up) or .segmented; a default/unset picker is non-native on macOS (cf-06).
+cf-08	adv	\.controlSize\(\.extraLarge|ControlSize\.extraLarge	.controlSize(.extraLarge) resolves to .large on macOS — a NO-OP (cf-08). Use .mini/.small/.regular/.large; the practical case list excludes .extraLarge on macOS.

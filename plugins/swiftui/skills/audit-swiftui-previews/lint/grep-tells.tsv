@@ -1,0 +1,15 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-previews (prev-01 … prev-09).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This domain ships NO `hard` tier-1 tell on purpose — the hard-fails (prev-02/05/06/07) need containment
+# or "does the previewed view read X" judgement that grep can't prove, so they are confirmed by the LLM in
+# DETECT (and prev-02/prev-06 are LOCATED structurally in ast-grep/*.yml). This LOCATES only — the LLM agent
+# READS each hit (SKILL.md step 3) and decides. Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+prev-01	warn	struct[[:space:]]+[A-Za-z0-9_]+[[:space:]]*:[[:space:]]*PreviewProvider	legacy PreviewProvider struct (stale for new code) → one #Preview { } per named preview (macro, macOS 14+). NOT deprecated; flag, don't call invented.
+prev-03	warn	:[[:space:]]*EnvironmentKey	hand-rolled EnvironmentKey + EnvironmentValues boilerplate → collapse to one `@Entry var` (macOS 10.15+, Xcode 15 to expand). VERIFY @Entry via swiftui-ctx/Sosumi.
+prev-04	adv	#Preview[^\n]*\{[^}]*\.frame\(width:|#Preview[^\n]*\{[^}]*\.frame\([[:space:]]*width	manual .frame sizing inside a #Preview body → use a trait: .fixedLayout(width:height:) / .sizeThatFitsLayout / .defaultLayout (prev-04). READ to confirm the .frame is the canvas hack, not view layout.
+prev-05	warn	Preview\([^)]*windowStyle:	Preview(_:windowStyle:traits:body:) is visionOS-ONLY (macOS ABSENT) → on macOS use plain #Preview { } (prev-05). Do NOT wrap in #available(macOS …); it has no Mac arm.
+prev-06	warn	@Query|\.modelContainer\(	@Query / modelContainer present — if a #Preview of this view ships NO `.modelContainer(for:…, inMemory: true)`, the canvas CRASHES on launch (prev-06). The ast-grep co-occurrence rule LOCATES the un-injected case; READ to confirm.
+prev-08	warn	\.environmentObject\(	`.environmentObject(…)` — WRONG injector if the model is @Observable (it takes only an ObservableObject) → use `.environment(_:)` (prev-08). READ to confirm the injected type is @Observable.
+prev-09	adv	\.modelContainer\(for:[^)]*inMemory:[[:space:]]*true	inline in-memory container — if repeated + re-seeded across many #Preview s (macOS 15+), collapse to ONE PreviewModifier shared via traits: .modifier(...) (prev-09). VERIFY the macOS-15 floor.
+prev-07	adv	@Environment\([A-Za-z0-9_]+\.self\)	@Environment(Model.self) — a #Preview of a view that reads it with NO `.environment(_:)` injection renders empty / CRASHES the canvas (prev-07). READ to confirm the previewed view actually requires it and nothing upstream provides it.

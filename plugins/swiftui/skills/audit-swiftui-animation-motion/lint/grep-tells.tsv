@@ -1,0 +1,17 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-animation-motion (anim-01 … anim-11).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules grep
+# cannot express (argument arity, namespace identity, gate scope) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+anim-01	warn	\.animation\(	.animation( present — confirm it is the value-scoped .animation(_:value:); a single-arg .animation(x) is the DEPRECATED implicit form (macOS 12) → add value: or use withAnimation (anim-01). ast-grep anim-01 refines to single-arg.
+anim-02	warn	withAnimation[[:space:]]*[({]	withAnimation — confirm its body mutates @State/observed the view actually reads; a no-op body or a constant value: animates nothing (anim-02).
+anim-04	warn	\.bouncy|\.smooth|\.snappy	spring preset (.bouncy/.smooth/.snappy) — macOS 14 despite the rendered 10.15 (DocC quirk). REPORT only if deployment target < macOS 14 and ungated; gate #available(macOS 14, *) (anim-04). Read floor in ORIENT.
+anim-03	adv	\.linear\(duration|\.easeInOut\(duration|\.easeIn\(duration|\.easeOut\(duration	raw duration curve — for physical/interactive motion a spring preset .bouncy/.smooth/.snappy reads more native (anim-03, judgment/flag).
+anim-05	adv	\.repeatForever|Timer\.|\.repeatCount	hand-rolled / repeating loop — multi-step motion may fit PhaseAnimator/KeyframeAnimator (macOS 14) better (anim-05).
+anim-06	warn	\.symbolEffect\(	.symbolEffect — macOS 14.0+. REPORT if floor < 14 and ungated (gate #available(macOS 14,*)); else confirm a hand-animated SF Symbol shouldn't use it (anim-06).
+anim-07	adv	\.contentTransition\(	contentTransition present — confirm value changes (numeric Text, swapped symbol) use it; its ABSENCE on an animated value is the defect (anim-07, READ the value change).
+anim-08	warn	matchedGeometryEffect\(	matchedGeometryEffect — verify ONE shared @Namespace + matching id + single withAnimation transaction + one isSource (anim-08).
+anim-09	adv	matchedGeometryEffect\(	matchedGeometryEffect on glassed views — if both matched views carry .glassEffect(), morph with glassEffectID in a GlassEffectContainer instead (anim-09, cross_ref liquid-glass).
+anim-10	warn	\.repeatForever|parallax|autoreverses:[[:space:]]*true|\.phaseAnimator|\.keyframeAnimator	continuous/large motion — confirm it reads @Environment(\.accessibilityReduceMotion) and has a reduced path (anim-10, cross_ref accessibility).
+anim-11	adv	\.repeatForever	always-on motion — UX-restraint verdict here; render-cost verdict is view-performance (anim-11, cross_ref view-performance).

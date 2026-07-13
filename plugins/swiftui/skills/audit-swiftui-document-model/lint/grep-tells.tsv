@@ -1,0 +1,16 @@
+# grep-tells.tsv — TIER 1 (flat-presence) rules for audit-swiftui-document-model (doc-01 … doc-12).
+# Columns (TAB-separated): id <TAB> severity <TAB> ERE-regex <TAB> message
+# severity: hard | warn | adv   (hard → runner exits 2). The runner greps each ERE over the target *.swift.
+# This LOCATES only — the LLM agent READS each hit (SKILL.md step 3) and decides. Structural rules that
+# grep cannot express (missing-snapshot containment, MainActor-on-document) live in ast-grep/*.yml (tier 2).
+# Full ❌→✅ + sources: ../references/*.md (routed from SKILL.md).
+doc-01	hard	@FocusedDocument	@FocusedDocument is NOT a real symbol → custom FocusedValues @Entry key + @FocusedValue(\.focusedDocument)
+doc-02	warn	class[[:space:]]+[A-Za-z0-9_]+[^={]*:[^{]*\bFileDocument\b	a CLASS conforms to value-type FileDocument → use ReferenceFileDocument (reference semantics + snapshot)
+doc-04	warn	NSDocumentController|:[[:space:]]*NSDocument\b|class[[:space:]]+[A-Za-z0-9_]+[^{]*\bNSDocument\b	NSDocument/NSDocumentController in a SwiftUI app → use DocumentGroup + FileDocument/ReferenceFileDocument (cross_ref appkit-overuse)
+doc-05	hard	DocumentGroupLaunchScene	DocumentGroupLaunchScene has NO macOS arm → remove on the macOS target (cross_ref scenes-windows)
+doc-06	warn	UTType\(exportedAs:|UTType\(importedAs:	custom UTType — VERIFY it is declared in Info.plist (UTExportedTypeDeclarations / UTImportedTypeDeclarations) or the type is unrecognized
+doc-07	warn	readableContentTypes	readableContentTypes present — if the document is editable, writableContentTypes MUST also be set or it is read-only by accident (doc-07)
+doc-09	warn	\.regularFileContents!|\.regularFileContents[^A-Za-z0-9_]	FileWrapper.regularFileContents read — guard against nil (force-unwrap = crash/data loss on a directory or empty wrapper) (doc-09)
+doc-10	adv	configuration\.document	mutating configuration.document directly bypasses the $document BINDING → no dirty-state/autosave; READ to confirm (doc-10, locator only)
+doc-11	adv	FileManager\.default|Data\(contentsOf:|NSSavePanel|NSOpenPanel	manual file IO in a document app — prefer the document type's read/write; if for export, cross_ref sandbox-files (doc-11)
+doc-12	adv	ReferenceFileDocument	ReferenceFileDocument present — locator for doc-03 (needs func snapshot(contentType:)) and doc-12 (wire @Environment(\.undoManager) for undo)
