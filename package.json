@@ -1,6 +1,6 @@
 {
   "name": "swiftui-plugin-workspace",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
   "type": "module",
   "workspaces": [
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "1.29.0",
+    "@openai/codex": "0.144.4",
     "@types/node": "18.19.130",
     "esbuild": "0.28.1",
     "typescript": "7.0.2",

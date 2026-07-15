@@ -48,7 +48,7 @@ test("all package and binary versions match VERSION", async () => {
   const claudeMarketplace = await json(path.join(ROOT, ".claude-plugin/marketplace.json"));
   assert.equal(claudeMarketplace.metadata.version, version);
   assert.equal(claudeMarketplace.plugins[0].version, version);
-  assert.equal(claudeMarketplace.plugins[0].source.version, version);
+  assert.equal(claudeMarketplace.plugins[0].source, ".");
   const codexMarketplace = await json(path.join(ROOT, ".agents/plugins/marketplace.json"));
   assert.deepEqual(codexMarketplace.plugins[0].source, {
     source: "local",
@@ -56,20 +56,24 @@ test("all package and binary versions match VERSION", async () => {
   });
   const swift = await readFile(path.join(ROOT, "swiftui-scan/Sources/swiftui-ctx/SwiftUICtx.swift"), "utf8");
   assert.match(swift, new RegExp(`swiftuiCtxVersion = "${version.replaceAll(".", "\\.")}"`));
+  assert.equal((await readFile(path.join(ROOT, "plugins/swiftui/VERSION"), "utf8")).trim(), version);
+  assert.match(await readFile(path.join(ROOT, "README.md"), "utf8"), new RegExp(`badge/version-${version.replaceAll(".", "\\.")}-blue`));
 });
 
 test("committed Codex marketplace plugin matches the assembled package", async () => {
   const assembledPaths = await relativeFiles(CODEX);
+  const marketplacePaths = await relativeFiles(MARKETPLACE_CODEX);
   const tracked = spawnSync("git", ["ls-files", "-z", "--", "plugins/swiftui"], {
     cwd: ROOT,
     encoding: "utf8",
   });
   assert.equal(tracked.status, 0, tracked.stderr);
-  const marketplacePaths = tracked.stdout
+  const trackedPaths = tracked.stdout
     .split("\0")
     .filter(Boolean)
     .map((file) => path.relative("plugins/swiftui", file))
     .sort();
+  assert.deepEqual(trackedPaths, marketplacePaths);
   assert.deepEqual(marketplacePaths, assembledPaths);
   for (const relative of assembledPaths) {
     assert.deepEqual(

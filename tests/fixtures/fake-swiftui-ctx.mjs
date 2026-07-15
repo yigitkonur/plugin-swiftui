@@ -4,7 +4,7 @@ import { writeFileSync } from "node:fs";
 
 const args = process.argv.slice(2);
 if (args.includes("--version")) {
-  console.log("1.4.0");
+  console.log("1.4.1");
   process.exit(0);
 }
 

@@ -30,6 +30,9 @@ jobs:
           npm pack ./dist/codex-swiftui-plugin --dry-run --json > /tmp/codex-pack.json
           python3 scripts/check-package-limits.py /tmp/claude-pack.json /tmp/codex-pack.json
 
+      - name: Install checked-in Codex marketplace in isolation
+        run: npm run test:codex-install
+
       - name: Build + scanner regression + CLI smoke
         run: make test
       - name: CLI doctor (catalog loads)

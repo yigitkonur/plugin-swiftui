@@ -2,7 +2,7 @@
 
 **real-world SwiftUI for coding agents — grounded in 1,857 shipping macOS apps.**
 
-[![version](https://img.shields.io/badge/version-1.4.0-blue)](https://github.com/yigitkonur/claude-swiftui-plugin/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
+[![version](https://img.shields.io/badge/version-1.4.1-blue)](https://github.com/yigitkonur/claude-swiftui-plugin/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
 
 ---
 
@@ -33,7 +33,7 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 
 ## install
 
-marketplace installation is self-contained in the Git repository. runtime catalog queries use the bundled plugin and native cli; they do not install npm dependencies.
+Git is the primary distribution channel: both marketplaces are self-contained in this repository. npm packages are optional mirrors and are not required for installation or runtime catalog queries.
 
 ### Claude Code
 
@@ -41,6 +41,8 @@ marketplace installation is self-contained in the Git repository. runtime catalo
 /plugin marketplace add yigitkonur/claude-swiftui-plugin
 /plugin install swiftui
 ```
+
+When upgrading, refresh the marketplace and reinstall the plugin from the updated Git checkout. Start a new Claude Code conversation afterward so the refreshed commands, skills, agent, and hook are loaded.
 
 ### Codex CLI, app, and IDE
 
@@ -53,7 +55,7 @@ codex plugin list --json
 codex mcp list --json
 ```
 
-If you added this marketplace before the Codex plugin became self-contained, refresh its cached Git snapshot first:
+To upgrade—or to repair a marketplace added before the Codex plugin became self-contained—refresh its cached Git snapshot and reinstall:
 
 ```sh
 codex plugin marketplace upgrade swiftui-plugins
@@ -66,7 +68,7 @@ Start a new Codex thread, then verify the explicit lookup workflow:
 $swiftui NavigationSplitView
 ```
 
-Review and trust the optional deprecation hook with `/hooks`; the hook remains advisory and never blocks an edit.
+Review and trust the optional deprecation hook with `/hooks`; only enable it after inspecting the command. The hook remains advisory and never blocks an edit.
 
 To test the Codex plugin directly from a source checkout:
 

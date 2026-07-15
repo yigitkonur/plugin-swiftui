@@ -3,19 +3,15 @@
   "owner": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
   "metadata": {
     "description": "Real-world SwiftUI for AI agents — how 1,857 shipping macOS apps actually use SwiftUI, as a queryable CLI + 33 skills (28 domain audits + write/modernize/scaffold).",
-    "version": "1.4.0"
+    "version": "1.4.1"
   },
   "plugins": [
     {
       "name": "swiftui",
       "description": "Ground AI-written SwiftUI in real production usage from 1,857 macOS apps, plus 33 skills (28 domain audits + write/modernize/scaffold): lookup/consensus/deprecation/recipes + domain audits via the swiftui-ctx CLI, slash commands, a review agent, and a deprecation hook.",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "author": { "name": "yigitkonur", "url": "https://github.com/yigitkonur" },
-      "source": {
-        "source": "npm",
-        "package": "@yigitkonur/claude-swiftui-plugin",
-        "version": "1.4.0"
-      }
+      "source": "."
     }
   ]
 }

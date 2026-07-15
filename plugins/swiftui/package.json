@@ -1,6 +1,6 @@
 {
   "name": "@yigitkonur/codex-swiftui-plugin",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Production-grounded SwiftUI skills, audits, hooks, and MCP tools for Codex.",
   "license": "MIT",
   "repository": {

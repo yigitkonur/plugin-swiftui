@@ -57,10 +57,14 @@ jobs:
           files: swiftui-ctx
           fail_on_unmatched_files: true
           generate_release_notes: true
-      - name: Publish Claude and Codex npm packages
+      - name: Publish optional Claude and Codex npm mirrors
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           set -euo pipefail
+          if [[ -z "${NODE_AUTH_TOKEN:-}" ]]; then
+            echo "NPM_TOKEN is not configured; skipping optional npm mirrors."
+            exit 0
+          fi
           npm publish ./dist/claude-swiftui-plugin --access public --provenance
           npm publish ./dist/codex-swiftui-plugin --access public --provenance
