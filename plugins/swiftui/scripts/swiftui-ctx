@@ -20,7 +20,7 @@ else
 fi
 export SWIFTUI_CTX_CATALOG="${SWIFTUI_CTX_CATALOG:-$root/catalog}"
 
-repo="yigitkonur/claude-swiftui-plugin"
+repo="yigitkonur/plugin-swiftui"
 ver="$(sed -n '1{s/[[:space:]]//g;p;}' "$root/VERSION" 2>/dev/null)"
 if [ -z "$ver" ]; then
   ver="$(sed -n 's/.*"version"[[:space:]]*:[[:space:]]*"\([^"]*\)".*/\1/p' "$root/.claude-plugin/plugin.json" 2>/dev/null | head -1)"

@@ -1,6 +1,6 @@
 {
   "name": "@yigitkonur/swiftui-plugin-core",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "private": true,
   "description": "Shared source assets assembled into the Claude and Codex SwiftUI plugins."
 }

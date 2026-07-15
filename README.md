@@ -2,7 +2,7 @@
 
 **real-world SwiftUI for coding agents — grounded in 1,857 shipping macOS apps.**
 
-[![version](https://img.shields.io/badge/version-1.4.1-blue)](https://github.com/yigitkonur/claude-swiftui-plugin/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
+[![version](https://img.shields.io/badge/version-1.4.2-blue)](https://github.com/yigitkonur/plugin-swiftui/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
 
 ---
 
@@ -35,21 +35,23 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 
 Git is the primary distribution channel: both marketplaces are self-contained in this repository. npm packages are optional mirrors and are not required for installation or runtime catalog queries.
 
+The repository moved from `yigitkonur/claude-swiftui-plugin` to `yigitkonur/plugin-swiftui`. GitHub redirects the old repository URL, while the installed plugin and marketplace identifiers remain stable for existing users.
+
 ### Claude Code
 
 ```
-/plugin marketplace add yigitkonur/claude-swiftui-plugin
-/plugin install swiftui
+/plugin marketplace add yigitkonur/plugin-swiftui
+/plugin install swiftui@claude-swiftui-plugin
 ```
 
-When upgrading, refresh the marketplace and reinstall the plugin from the updated Git checkout. Start a new Claude Code conversation afterward so the refreshed commands, skills, agent, and hook are loaded.
+When upgrading, run `/plugin marketplace update claude-swiftui-plugin`, reinstall `swiftui@claude-swiftui-plugin`, and start a new Claude Code conversation so the refreshed commands, skills, agent, and hook are loaded.
 
 ### Codex CLI, app, and IDE
 
 Install from the Git marketplace:
 
 ```sh
-codex plugin marketplace add yigitkonur/claude-swiftui-plugin
+codex plugin marketplace add yigitkonur/plugin-swiftui
 codex plugin add swiftui@swiftui-plugins
 codex plugin list --json
 codex mcp list --json
@@ -73,8 +75,8 @@ Review and trust the optional deprecation hook with `/hooks`; only enable it aft
 To test the Codex plugin directly from a source checkout:
 
 ```sh
-git clone https://github.com/yigitkonur/claude-swiftui-plugin
-cd claude-swiftui-plugin
+git clone https://github.com/yigitkonur/plugin-swiftui
+cd plugin-swiftui
 npm ci
 npm run build:codex-dev
 codex plugin marketplace add "$PWD/dist/codex-dev-marketplace"
@@ -95,8 +97,8 @@ without `ast-grep`/`ripgrep` the audit suite degrades gracefully to the grep-onl
 ### cli-only install (no plugin)
 
 ```sh
-git clone https://github.com/yigitkonur/claude-swiftui-plugin
-cd claude-swiftui-plugin
+git clone https://github.com/yigitkonur/plugin-swiftui
+cd plugin-swiftui
 make install       # downloads/builds swiftui-ctx and symlinks it onto PATH
 swiftui-ctx doctor # verify the install
 ```

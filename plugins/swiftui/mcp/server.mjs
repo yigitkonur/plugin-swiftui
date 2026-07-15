@@ -21266,7 +21266,7 @@ function result(envelope) {
   };
 }
 var server = new McpServer(
-  { name: "swiftui-production-intelligence", version: "1.4.1" },
+  { name: "swiftui-production-intelligence", version: "1.4.2" },
   { instructions: "Read-only production SwiftUI evidence from the bundled swiftui-ctx catalog." }
 );
 var localAnnotations = {

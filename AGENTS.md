@@ -1,4 +1,4 @@
-# Agent guide — claude-swiftui-plugin
+# Agent guide — plugin-swiftui
 
 Maintenance rules for AI agents working on this plugin.
 

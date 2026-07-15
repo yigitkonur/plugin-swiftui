@@ -60,6 +60,30 @@ test("all package and binary versions match VERSION", async () => {
   assert.match(await readFile(path.join(ROOT, "README.md"), "utf8"), new RegExp(`badge/version-${version.replaceAll(".", "\\.")}-blue`));
 });
 
+test("repository metadata uses the platform-neutral GitHub slug", async () => {
+  const repository = "https://github.com/yigitkonur/plugin-swiftui";
+  for (const relative of [
+    ".claude-plugin/plugin.json",
+    "packages/codex-plugin/plugin/.codex-plugin/plugin.json",
+  ]) {
+    const manifest = await json(path.join(ROOT, relative));
+    assert.equal(manifest.homepage, repository, relative);
+    assert.equal(manifest.repository, repository, relative);
+  }
+  for (const relative of [
+    "packages/claude-plugin/package.json",
+    "packages/codex-plugin/package.json",
+  ]) {
+    const manifest = await json(path.join(ROOT, relative));
+    assert.equal(manifest.homepage, repository, relative);
+    assert.equal(manifest.repository.url, `git+${repository}.git`, relative);
+  }
+  const launcher = await readFile(path.join(ROOT, "scripts/swiftui-ctx"), "utf8");
+  assert.match(launcher, /repo="yigitkonur\/plugin-swiftui"/);
+  const claudeMarketplace = await json(path.join(ROOT, ".claude-plugin/marketplace.json"));
+  assert.equal(claudeMarketplace.name, "claude-swiftui-plugin", "preserve installed marketplace identity");
+});
+
 test("committed Codex marketplace plugin matches the assembled package", async () => {
   const assembledPaths = await relativeFiles(CODEX);
   const marketplacePaths = await relativeFiles(MARKETPLACE_CODEX);

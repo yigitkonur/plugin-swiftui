@@ -1,13 +1,13 @@
 {
   "name": "swiftui",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Production-grounded SwiftUI lookup, review, modernization, and macOS audit workflows backed by a corpus of 1,857 shipping apps.",
   "author": {
     "name": "yigitkonur",
     "url": "https://github.com/yigitkonur"
   },
-  "homepage": "https://github.com/yigitkonur/claude-swiftui-plugin",
-  "repository": "https://github.com/yigitkonur/claude-swiftui-plugin",
+  "homepage": "https://github.com/yigitkonur/plugin-swiftui",
+  "repository": "https://github.com/yigitkonur/plugin-swiftui",
   "license": "MIT",
   "keywords": [
     "swiftui",
@@ -32,7 +32,7 @@
       "Deprecation guard",
       "MCP tools"
     ],
-    "websiteURL": "https://github.com/yigitkonur/claude-swiftui-plugin",
+    "websiteURL": "https://github.com/yigitkonur/plugin-swiftui",
     "defaultPrompt": [
       "Use $swiftui to show how production apps use NavigationSplitView.",
       "Use $swiftui-review to review my changed SwiftUI files.",
