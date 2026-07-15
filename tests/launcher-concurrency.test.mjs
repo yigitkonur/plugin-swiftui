@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { spawn } from "node:child_process";
@@ -31,9 +31,13 @@ test("parallel cold starts share one launcher bootstrap", async (t) => {
   t.after(() => rm(temporary, { recursive: true, force: true }));
   const count = path.join(temporary, "curl-count");
   const swiftCount = path.join(temporary, "swift-count");
+  const pluginRoot = path.join(temporary, "plugin");
+  await mkdir(pluginRoot);
+  await writeFile(path.join(pluginRoot, "VERSION"), await readFile(path.join(ROOT, "VERSION")));
   const env = {
     ...process.env,
     PATH: `${FIXTURES}:${process.env.PATH}`,
+    PLUGIN_ROOT: pluginRoot,
     XDG_CACHE_HOME: path.join(temporary, "cache"),
     FAKE_SWIFTUI_BINARY: path.join(FIXTURES, "fake-swiftui-ctx.mjs"),
     FAKE_CURL_COUNT: count,
