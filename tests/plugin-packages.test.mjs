@@ -172,8 +172,8 @@ test("Codex manifest wires the bundled MCP server without a hooks field", async 
   assert.equal(Object.hasOwn(manifest, "hooks"), false);
   const mcp = await json(path.join(CODEX, ".mcp.json"));
   assert.deepEqual(mcp.mcpServers.swiftui, {
-    command: "node",
-    args: ["./mcp/server.mjs"],
+    command: "/bin/sh",
+    args: ["-c", 'PATH="/opt/homebrew/bin:/usr/local/bin:$PATH" exec node ./mcp/server.mjs'],
     cwd: ".",
   });
   assert.ok((await lstat(path.join(CODEX, "mcp", "server.mjs"))).size > 100_000);
