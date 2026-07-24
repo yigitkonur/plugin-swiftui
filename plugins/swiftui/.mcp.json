@@ -1,9 +1,10 @@
 {
   "mcpServers": {
     "swiftui": {
-      "command": "node",
+      "command": "/bin/sh",
       "args": [
-        "./mcp/server.mjs"
+        "-c",
+        "PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" exec node ./mcp/server.mjs"
       ],
       "cwd": "."
     }
