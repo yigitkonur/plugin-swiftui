@@ -5,6 +5,9 @@ on:
   push:
     tags: ["v*"]
 
+    paths-ignore:
+      - '.agents/**'
+      - '.claude/**'
 permissions:
   contents: write
   id-token: write

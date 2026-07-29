@@ -2,7 +2,13 @@ name: ci
 on:
   push:
     branches-ignore: ["entire/**"]
+    paths-ignore:
+      - '.agents/**'
+      - '.claude/**'
   pull_request:
+    paths-ignore:
+      - '.agents/**'
+      - '.claude/**'
 
 jobs:
   test:
