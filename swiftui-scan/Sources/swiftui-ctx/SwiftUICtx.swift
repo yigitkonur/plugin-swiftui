@@ -1,7 +1,7 @@
 import Foundation
 import ArgumentParser
 
-let swiftuiCtxVersion = "1.4.2"
+let swiftuiCtxVersion = "1.4.3"
 
 // ============================================================================
 // swiftui-ctx — query real-world SwiftUI usage (1,857 production macOS apps).

@@ -38,8 +38,8 @@ try {
   const version = (await readFile(path.join(ROOT, "VERSION"), "utf8")).trim();
   await mkdir(codexHome, { recursive: true });
   codex(["plugin", "marketplace", "add", ROOT, "--json"]);
-  const added = JSON.parse(codex(["plugin", "add", "swiftui@swiftui-plugins", "--json"]));
-  assert.equal(added.pluginId, "swiftui@swiftui-plugins");
+  const added = JSON.parse(codex(["plugin", "add", "swiftui@claude-swiftui-plugin", "--json"]));
+  assert.equal(added.pluginId, "swiftui@claude-swiftui-plugin");
   assert.equal(added.version, version);
 
   const installedPlugin = path.resolve(added.installedPath);
@@ -56,7 +56,7 @@ try {
   }
 
   const installed = JSON.parse(codex(["plugin", "list", "--json"]));
-  const plugin = installed.installed.find((entry) => entry.pluginId === "swiftui@swiftui-plugins");
+  const plugin = installed.installed.find((entry) => entry.pluginId === "swiftui@claude-swiftui-plugin");
   assert.ok(plugin, `installed plugin was not reported: ${JSON.stringify(installed)}`);
   assert.equal(plugin.version, version);
   assert.equal(plugin.enabled, true);

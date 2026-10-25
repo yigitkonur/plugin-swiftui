@@ -1,5 +1,5 @@
 {
-  "name": "swiftui-plugins",
+  "name": "claude-swiftui-plugin",
   "interface": {
     "displayName": "SwiftUI Production Intelligence"
   },
