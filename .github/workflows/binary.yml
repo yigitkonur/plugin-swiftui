@@ -42,7 +42,7 @@ jobs:
             # The release commit is a child of the CI-tested SHA, not that SHA itself.
             for candidate in $(git tag --list 'v*' --sort=-version:refname); do
               commit=$(git rev-parse "$candidate^{commit}")
-              if [ "$(git rev-parse "$commit^")" = "$RELEASE_HEAD" ]; then
+              if [ "$commit" = "$RELEASE_HEAD" ] || [ "$(git rev-parse "$commit^")" = "$RELEASE_HEAD" ]; then
                 TAG="$candidate"
                 break
               fi
