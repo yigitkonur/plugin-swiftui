@@ -1,73 +1,121 @@
 name: release
-# On a version tag, build a universal macOS `swiftui-ctx` and attach it to the GitHub Release.
-# The bundled wrapper (scripts/swiftui-ctx) downloads this asset on first run — so plugin users need no toolchain.
+# Copy of yigitkonur/plugin-kit/release/release.yml. Do not edit here: change it in plugin-kit and run its sync.sh.
+#
+# Installed copies of a plugin update only when its version string changes, so every change that reaches users has to move the
+# version. After `ci` is green on main, scripts/kit/release.py decides the bump from the conventional-commit subjects since the
+# last release tag (feat -> minor, fix/perf/unprefixed -> patch, `!` or BREAKING CHANGE -> major, a minor while 0.x; docs, ci,
+# chore, test, style, build and refactor -> none; a commit that touches only docs, tests, evals, CI or scripts/kit never
+# releases). It writes every manifest and CHANGELOG.md; this job validates the bumped tree, commits `chore(release): vX [skip ci]`,
+# tags vX and <plugin>--vX (a marketplace with several plugins releases each on its own: <plugin>--vX only) and publishes the
+# GitHub release. A human who already bumped a manifest is respected: that exact version is released.
+# By hand: Actions > release > Run workflow: level auto|patch|minor|major, dry_run true to only print the decision.
 on:
-  push:
-    tags: ["v*"]
+  workflow_run:
+    workflows: [ci]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      level:
+        description: "auto, patch, minor or major"
+        default: auto
+      dry_run:
+        description: "true = print the decision, change nothing"
+        default: "false"
 
-    paths-ignore:
-      - '.agents/**'
-      - '.claude/**'
 permissions:
   contents: write
-  id-token: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
-  build-and-release:
-    runs-on: macos-14
+  release:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push')
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 0
+          fetch-tags: true
+      - name: A newer push owns the next release
+        id: fresh
+        run: |
+          git fetch --quiet origin main
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then echo "fresh=true" >> "$GITHUB_OUTPUT"; else echo "this commit is no longer the tip of main; the run for the newer push will release"; fi
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        if: steps.fresh.outputs.fresh == 'true'
+        with:
+          python-version: "3.12"
+      - name: Decide and write each plugin's next version
+        id: bump
+        if: steps.fresh.outputs.fresh == 'true'
+        env:
+          LEVEL: ${{ inputs.level || 'auto' }}
+          DRY: ${{ inputs.dry_run || 'false' }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          names=$(python3 -c "import json;print(' '.join(p['name'] for p in json.load(open('.claude-plugin/marketplace.json'))['plugins']))")
+          if [ "$(echo $names | wc -w)" -eq 1 ]; then plugins="-"; else plugins="$names"; fi
+          apply="--apply"; [ "$DRY" = "true" ] && apply=""
+          : > "$RUNNER_TEMP/tags"
+          for name in $plugins; do
+            key="$name"; args="--plugin $name"; if [ "$name" = "-" ]; then key="main"; args=""; fi
+            out=$(python3 scripts/kit/release.py $args $apply --level "$LEVEL" --notes-out "$RUNNER_TEMP/notes-$key.md")
+            echo "$out"
+            info=$(printf '%s' "$out" | python3 -c "import json,sys;d=json.load(sys.stdin);print('|'.join([d.get('name') or '', d.get('tag','') if d.get('release') else '', d.get('cli_tag') or '-']))")
+            IFS='|' read -r pname tag cli <<EOF
+          $info
+          EOF
+            [ -n "$tag" ] && [ -n "$apply" ] || continue
+            if [ -f scripts/release-bump.sh ]; then
+              version=$(printf '%s' "$out" | python3 -c "import json,sys;print(json.load(sys.stdin)['version'])")
+              sh scripts/release-bump.sh "$version"
+            fi
+            git add -A
+            git diff --cached --quiet || git commit -m "chore(release): $tag [skip ci]"
+            git tag -a "$tag" -m "$tag"
+            [ "$cli" = "-" ] || git tag -a "$cli" -m "$cli"
+            echo "$pname|$tag|$cli|$key" >> "$RUNNER_TEMP/tags"
+          done
+          if [ -s "$RUNNER_TEMP/tags" ]; then echo "released=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        if: steps.bump.outputs.released == 'true'
         with:
           node-version: 22
-          registry-url: https://registry.npmjs.org
-          cache: npm
-      - uses: maxim-lobanov/setup-xcode@v1
-        with:
-          xcode-version: latest-stable          # Swift 6 toolchain (runner default is older)
-      - name: Verify tag and assemble plugin packages
+      - name: Validate the bumped tree
+        if: steps.bump.outputs.released == 'true'
         run: |
-          set -euo pipefail
-          VERSION="$(tr -d '[:space:]' < VERSION)"
-          test "${GITHUB_REF_NAME}" = "v${VERSION}"
-          npm ci
-          npm run test:plugins
-          npx tsc -p packages/codex-plugin/mcp/tsconfig.json
-      - name: Build universal binary (arm64 + x86_64)
-        run: |
-          cd swiftui-scan
-          swift build -c release --product swiftui-ctx --arch arm64 --arch x86_64
-          cp .build/apple/Products/Release/swiftui-ctx "$GITHUB_WORKSPACE/swiftui-ctx"
-          file "$GITHUB_WORKSPACE/swiftui-ctx"
-      - name: Verify it runs (version + doctor + subcommand smokes)
-        run: |
-          set -euo pipefail
-          chmod +x swiftui-ctx
-          export SWIFTUI_CTX_CATALOG="$GITHUB_WORKSPACE/catalog"
-          VERSION="$(tr -d '[:space:]' < VERSION)"
-          test "$(./swiftui-ctx --version)" = "$VERSION"
-          ok() { echo "smoke: $*"; ./swiftui-ctx "$@" --json | python3 -c 'import sys,json; assert json.load(sys.stdin)["ok"], "ok:false"'; }
-          ok doctor
-          ok lookup MenuBarExtra
-          ok deprecated
-          ok search drag
-          ok recipe menubar-app
-          ok conformances View
-          ok valueBuilders ease
-      - name: Attach to release
-        uses: softprops/action-gh-release@v2
-        with:
-          files: swiftui-ctx
-          fail_on_unmatched_files: true
-          generate_release_notes: true
-      - name: Publish optional Claude and Codex npm mirrors
+          npm install -g @anthropic-ai/claude-code
+          python3 scripts/kit/check-manifests.py --validate
+      - name: Repo gate on the bumped tree (scripts/release-gate.sh, when the repo has one)
+        if: steps.bump.outputs.released == 'true' && hashFiles('scripts/release-gate.sh') != ''
+        run: sh scripts/release-gate.sh
+      - name: Push, then publish one GitHub release per plugin
+        if: steps.bump.outputs.released == 'true'
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
         run: |
-          set -euo pipefail
-          if [[ -z "${NODE_AUTH_TOKEN:-}" ]]; then
-            echo "NPM_TOKEN is not configured; skipping optional npm mirrors."
-            exit 0
-          fi
-          npm publish ./dist/claude-swiftui-plugin --access public --provenance
-          npm publish ./dist/codex-swiftui-plugin --access public --provenance
+          # No rebase: if main moved while this ran, the versions no longer describe it; the queued run for that push releases.
+          git push origin HEAD:main || { echo "::error::main moved during the release; the run for that push will release"; exit 1; }
+          market=$(python3 -c "import json;print(json.load(open('.claude-plugin/marketplace.json'))['name'])")
+          codex=no; [ -f .agents/plugins/marketplace.json ] && codex=yes
+          nplugins=$(python3 -c "import json;print(len(json.load(open('.claude-plugin/marketplace.json'))['plugins']))")
+          while IFS='|' read -r pname tag cli key; do
+            git push origin "refs/tags/$tag"
+            [ "$cli" = "-" ] || git push origin "refs/tags/$cli"
+            version="${tag##*v}"
+            {
+              printf '**install** (globally, off): `claude plugin install %s@%s -s user`' "$pname" "$market"
+              [ "$codex" = yes ] && printf ' · `codex plugin add %s@%s`' "$pname" "$market"
+              printf '\n**turn on in a project:** `plugin on %s` ([plugin-kit](https://github.com/yigitkonur/plugin-kit))\n\n' "$pname"
+              cat "$RUNNER_TEMP/notes-$key.md"
+            } > "$RUNNER_TEMP/release-$key.md"
+            latest=""; [ "$nplugins" -eq 1 ] && latest="--latest"
+            gh release create "$tag" --title "$pname $version" --notes-file "$RUNNER_TEMP/release-$key.md" --verify-tag $latest
+          done < "$RUNNER_TEMP/tags"

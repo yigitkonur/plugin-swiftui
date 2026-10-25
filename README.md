@@ -2,7 +2,7 @@
 
 **real-world SwiftUI for coding agents — grounded in 1,857 shipping macOS apps.**
 
-[![version](https://img.shields.io/badge/version-1.4.2-blue)](https://github.com/yigitkonur/plugin-swiftui/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
+[![version](https://img.shields.io/badge/version-1.4.3-blue)](https://github.com/yigitkonur/plugin-swiftui/releases) [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE) [![platform](https://img.shields.io/badge/platform-macOS-lightgrey)](https://developer.apple.com/macos/)
 
 ---
 
@@ -33,36 +33,75 @@ on top of the lookup layer sits a complete **macOS swiftui audit suite** — 29 
 
 ## install
 
-Git is the primary distribution channel: both marketplaces are self-contained in this repository. npm packages are optional mirrors and are not required for installation or runtime catalog queries.
+<!-- kit:install:start -->
+## install
 
-The repository moved from `yigitkonur/claude-swiftui-plugin` to `yigitkonur/plugin-swiftui`. GitHub redirects the old repository URL, while the installed plugin and marketplace identifiers remain stable for existing users.
+Every plugin of ours is installed **once, globally, and off**, then **turned on per project**. Nothing runs and no tokens are spent in chats that don't switch it on. It works the same in Claude Code and Codex.
 
-### Claude Code
+### 1. install it globally
 
+**Claude Code**
+
+```sh
+claude plugin marketplace add yigitkonur/plugin-swiftui
+claude plugin install swiftui@claude-swiftui-plugin -s user          # stays off: defaultEnabled is false in the manifest
 ```
-/plugin marketplace add yigitkonur/plugin-swiftui
-/plugin install swiftui@claude-swiftui-plugin
-```
 
-When upgrading, run `/plugin marketplace update claude-swiftui-plugin`, reinstall `swiftui@claude-swiftui-plugin`, and start a new Claude Code conversation so the refreshed commands, skills, agent, and hook are loaded.
-
-### Codex CLI, app, and IDE
-
-Install from the Git marketplace:
+**Codex** (0.163+)
 
 ```sh
 codex plugin marketplace add yigitkonur/plugin-swiftui
-codex plugin add swiftui@swiftui-plugins
-codex plugin list --json
-codex mcp list --json
+codex plugin add swiftui@claude-swiftui-plugin
+codex-plugin-project.sh global-off swiftui@claude-swiftui-plugin     # Codex has no enable/disable command; this keeps it off everywhere
 ```
 
-To upgrade—or to repair a marketplace added before the Codex plugin became self-contained—refresh its cached Git snapshot and reinstall:
+All our plugins, both hosts, plus the `plugin` command and the 6-hourly update job, in one line:
 
 ```sh
-codex plugin marketplace upgrade swiftui-plugins
-codex plugin add swiftui@swiftui-plugins
+curl -fsSL https://raw.githubusercontent.com/yigitkonur/plugin-kit/main/install.sh | sh -s -- --all
 ```
+
+### 2. turn it on in a project
+
+```sh
+cd your-project
+plugin on swiftui    # Claude Code and Codex, this folder only
+plugin off swiftui   # undo
+plugin               # or pick from a list (TUI)
+```
+
+By hand, without the `plugin` command:
+
+```sh
+claude plugin enable swiftui@claude-swiftui-plugin --scope project      # undo: claude plugin disable swiftui@claude-swiftui-plugin --scope project
+codex-plugin-project.sh on swiftui@claude-swiftui-plugin . --trust      # undo: codex-plugin-project.sh off swiftui@claude-swiftui-plugin
+```
+
+Restart `claude` / `codex` in that folder afterwards.
+Codex reads a folder's `.codex/config.toml` only when the folder is trusted; `--trust` adds that, and it also enables the folder's hooks and rules, so use it for your own projects only. `plugin` and `codex-plugin-project.sh` come from [plugin-kit](https://github.com/yigitkonur/plugin-kit) (the one-line installer above).
+
+### 3. updates
+
+A plugin updates only when its `version` changes, and this repo's `release` workflow bumps it on every shipped change. Machines pick it up with `plugin update`, or by themselves with the 6-hourly job (`plugin autoupdate install`). By hand:
+
+```sh
+claude plugin marketplace update claude-swiftui-plugin && claude plugin update swiftui@claude-swiftui-plugin
+codex plugin marketplace upgrade claude-swiftui-plugin        # then start a new session
+```
+
+No GitHub SSH key on the machine? `export CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` (`plugin install` sets it in Claude's settings for you).
+
+### 4. uninstall
+
+```sh
+claude plugin uninstall swiftui@claude-swiftui-plugin -s user
+claude plugin marketplace remove claude-swiftui-plugin
+codex plugin remove swiftui@claude-swiftui-plugin
+codex plugin marketplace remove claude-swiftui-plugin
+```
+<!-- kit:install:end -->
+
+Codex users with the old empty `swiftui-plugins` marketplace registration should remove it before installing the unified `claude-swiftui-plugin` marketplace.
 
 Start a new Codex thread, then verify the explicit lookup workflow:
 

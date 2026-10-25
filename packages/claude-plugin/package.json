@@ -1,6 +1,6 @@
 {
   "name": "@yigitkonur/claude-swiftui-plugin",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Production-grounded SwiftUI skills, audits, and CLI for Claude Code.",
   "license": "MIT",
   "repository": {
