@@ -23,7 +23,7 @@ PATTERNS = [
     ("Live View / CDP URL with a credential", re.compile(r"live\.browser\.run/[^ \"]*[?&](?:wss|jwt|token)=[A-Za-z0-9._~%-]{8,}")),
     ("personal e-mail", re.compile(r"[A-Za-z0-9._+-]+@gmail\.com")),
 ]
-# Require an absolute-path boundary: repository paths such as Features/Users/Views/ are not home directories.
+# Require an absolute-path boundary; nested repository paths are not home directories.
 USER_PATH = re.compile(r"(?<![A-Za-z0-9_./-])(?:/Users/([A-Za-z0-9._-]+)/|/home/([a-z][a-z0-9_-]*)/)")
 PLACEHOLDER_USERS = {"you", "your-name", "yourname", "name", "user", "username", "me", "example", "shared", "runner", "ubuntu", "node", "app", "vscode", "alice", "bob", "foo", "dev", "someone", "x"}
 ENV_FILE = re.compile(r"(^|/)\.env(\..+)?$|(^|/)lab\.env$")
